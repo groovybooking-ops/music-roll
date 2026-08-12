@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Roll</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Music Roll 🎲</h1>
+    <p>Discover your next favorite artist.</p>
+<label for="genre">What genre are you looking for?</label>
+
+<select id="genre">
+    <option value="rnb">R&B</option>
+    <option value="hiphop">Hip-Hop</option>
+    <option value="pop">Pop</option>
+    <option value="rock">Rock</option>
+    <option value="dance">Dance</option>
+</select>
+
+<br><br>
+<label for="tier">How deep are we digging?</label>
+
+<select id="tier">
+    <option value="local">Local</option>
+    <option value="underground">Underground</option>
+    <option value="emerging">Emerging</option>
+    <option value="mainstream">Mainstream</option>
+    <option value="legacy">Legacy</option>
+    <option value="classic">Classic</option>
+</select>
+
+<br><br>
+<button id="rollButton" disabled>ROLL</button>
+<p id="loadingStatus" role="status">Loading artist directory...</p>
+
+<section id="result" class="artist-card" hidden>
+
+    <img id="artistImage" src="" alt="Artist Image">
+
+    <h2 id="artistName"></h2>
+
+    <p id="artistInfo"></p>
+
+    <a id="spotifyLink" href="#" target="_blank">
+        Open in Spotify
+    </a>
+
+    <br><br>
+    <button id="rollAgainButton" disabled>Roll Again</button>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

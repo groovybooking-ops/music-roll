@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify API Developer Test</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #f5f5f5;
+            background: #121212;
+        }
+        h1 { margin-bottom: 8px; }
+        .note, #status { color: #b3b3b3; }
+        form { display: flex; gap: 10px; margin: 32px 0; }
+        input, button {
+            padding: 12px 16px;
+            border: 1px solid #555;
+            border-radius: 10px;
+            font: inherit;
+        }
+        input { flex: 1; min-width: 0; }
+        button {
+            border: 0;
+            font-weight: bold;
+            cursor: pointer;
+            background: #1ed760;
+        }
+        button:disabled { cursor: wait; opacity: 0.65; }
+        button:focus-visible, input:focus-visible {
+            outline: 3px solid #8ee8ae;
+            outline-offset: 3px;
+        }
+        #result {
+            margin-top: 24px;
+            padding: 24px;
+            border: 1px solid #333;
+            border-radius: 16px;
+            background: #1c1c1c;
+        }
+        #artistImage {
+            width: min(100%, 320px);
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        dt { margin-top: 14px; color: #b3b3b3; }
+        dd { margin-left: 0; overflow-wrap: anywhere; }
+        a { color: #1ed760; }
+        #possibleMatches { margin-top: 28px; }
+        #possibleMatchesList {
+            display: grid;
+            gap: 12px;
+            padding: 0;
+            list-style: none;
+        }
+        #possibleMatchesList li {
+            padding: 18px;
+            border: 1px solid #333;
+            border-radius: 12px;
+            background: #1c1c1c;
+        }
+        #possibleMatchesList img {
+            display: block;
+            width: 96px;
+            height: 96px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        #possibleMatchesList p { margin: 6px 0; color: #b3b3b3; }
+        @media (max-width: 520px) {
+            form { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Spotify API Developer Test</h1>
+        <p class="note">This page is separate from the Music Roll recommendation app.</p>
+
+        <form id="searchForm">
+            <label for="artistQuery">Artist name</label>
+            <input id="artistQuery" name="artist" value="SZA" required>
+            <button id="searchButton" type="submit">Search Spotify</button>
+        </form>
+
+        <p id="status" role="status" aria-live="polite">Enter an artist and run the test.</p>
+
+        <section id="result" hidden>
+            <img id="artistImage" src="" alt="">
+            <dl>
+                <dt>Returned artist name</dt>
+                <dd id="artistName"></dd>
+
+                <dt>Spotify URL</dt>
+                <dd><a id="artistUrl" href="#" target="_blank" rel="noopener noreferrer"></a></dd>
+
+                <dt>Spotify artist ID</dt>
+                <dd id="artistId"></dd>
+            </dl>
+        </section>
+
+        <section id="possibleMatches" hidden>
+            <h2>Possible matches</h2>
+            <ul id="possibleMatchesList"></ul>
+        </section>
+    </main>
+
+    <script src="spotify-test.js"></script>
+</body>
+</html>

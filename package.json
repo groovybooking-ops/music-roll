@@ -1,0 +1,19 @@
+{
+  "name": "music-roll-spotify-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An isolated Spotify Web API proof of concept for Music Roll.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check spotify-test.js && node --check lib/spotify-client.js && node --check scripts/enrich-artists.js",
+    "enrich:artists": "node scripts/enrich-artists.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0"
+  }
+}
