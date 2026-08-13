@@ -1,0 +1,2449 @@
+{
+  "generatedAt": "2026-08-12T04:37:53.593Z",
+  "schemaVersion": 1,
+  "experiment": "six-artist-catalog-signals",
+  "reviewOnly": true,
+  "artists": [
+    {
+      "name": "GROOVY",
+      "genre": "rnb",
+      "existingTier": "emerging",
+      "spotify": {
+        "artistId": "6Y6qIKwe32BxNflpxbKsJc",
+        "artistUrl": "https://open.spotify.com/artist/6Y6qIKwe32BxNflpxbKsJc",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2c58ddfee24946561ab5850d",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "2022-04-27",
+          "precision": "day"
+        },
+        "latestRelease": {
+          "date": "2026-08-07",
+          "precision": "day"
+        },
+        "careerSpanYears": 4.3,
+        "uniqueReleaseCount": 27,
+        "albumCount": 2,
+        "singleAndEpCount": 25,
+        "approximateTrackCount": 46,
+        "daysSinceLatestRelease": 4,
+        "releasesLast90Days": 5,
+        "releasesLast365Days": 13,
+        "releasesLast730Days": 16,
+        "careerMaturityScore": 22,
+        "catalogDepthScore": 83,
+        "releaseMomentumScore": 100,
+        "dataConfidenceScore": 100
+      },
+      "suggestedTierCandidates": [
+        "emerging",
+        "mainstream"
+      ],
+      "reasons": [
+        "A relatively young catalog with recent output supports emerging review.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 27,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [],
+        "includedReleases": [
+          {
+            "spotifyId": "7yxnxJ5eQJOGjghY0G2OXm",
+            "name": "taboo +",
+            "type": "album",
+            "releaseDate": "2026-06-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 7,
+            "spotifyUrl": "https://open.spotify.com/album/7yxnxJ5eQJOGjghY0G2OXm"
+          },
+          {
+            "spotifyId": "2YvnSFSzTj30fh7DtS12uN",
+            "name": "Crying in the Club",
+            "type": "album",
+            "releaseDate": "2024-05-24",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/2YvnSFSzTj30fh7DtS12uN"
+          },
+          {
+            "spotifyId": "41sx7P7AhreCanbLBs51pJ",
+            "name": "no air",
+            "type": "single",
+            "releaseDate": "2026-08-07",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/41sx7P7AhreCanbLBs51pJ"
+          },
+          {
+            "spotifyId": "39vl2a7Dt24NVDezypEQn9",
+            "name": "uuu",
+            "type": "single",
+            "releaseDate": "2026-06-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/39vl2a7Dt24NVDezypEQn9"
+          },
+          {
+            "spotifyId": "6NRwzLjGuiyduvOAQYFisd",
+            "name": "luv as friends",
+            "type": "single",
+            "releaseDate": "2026-05-29",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6NRwzLjGuiyduvOAQYFisd"
+          },
+          {
+            "spotifyId": "6MnzJLkzRBbX5hulMLpv9l",
+            "name": "H&F",
+            "type": "single",
+            "releaseDate": "2026-05-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6MnzJLkzRBbX5hulMLpv9l"
+          },
+          {
+            "spotifyId": "6uz0sjDPPPxiLGhXpkJpch",
+            "name": "BLIND SPOT",
+            "type": "single",
+            "releaseDate": "2026-05-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6uz0sjDPPPxiLGhXpkJpch"
+          },
+          {
+            "spotifyId": "4DRBBQz0zFiXeQIForb2yt",
+            "name": "what u need",
+            "type": "single",
+            "releaseDate": "2026-04-17",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4DRBBQz0zFiXeQIForb2yt"
+          },
+          {
+            "spotifyId": "5XEDQPnkvDj0sAZ5tdVxOJ",
+            "name": "fantasize",
+            "type": "single",
+            "releaseDate": "2026-04-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5XEDQPnkvDj0sAZ5tdVxOJ"
+          },
+          {
+            "spotifyId": "71Xs7e6bQDVzUIG3ZHlsV0",
+            "name": "908Monster",
+            "type": "single",
+            "releaseDate": "2026-03-20",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/71Xs7e6bQDVzUIG3ZHlsV0"
+          },
+          {
+            "spotifyId": "5uqG6eVg0tS8zqgqasY0v0",
+            "name": "Focus Again",
+            "type": "single",
+            "releaseDate": "2025-12-05",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5uqG6eVg0tS8zqgqasY0v0"
+          },
+          {
+            "spotifyId": "1wK771D1XlUivfl9XOFMPG",
+            "name": "A Dancer",
+            "type": "single",
+            "releaseDate": "2025-10-31",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1wK771D1XlUivfl9XOFMPG"
+          },
+          {
+            "spotifyId": "2bRyTkip2reicQMceXr2oV",
+            "name": "One + One",
+            "type": "single",
+            "releaseDate": "2025-09-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2bRyTkip2reicQMceXr2oV"
+          },
+          {
+            "spotifyId": "1rZsrPg9iie7L1PKJLloof",
+            "name": "Finally",
+            "type": "single",
+            "releaseDate": "2025-09-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1rZsrPg9iie7L1PKJLloof"
+          },
+          {
+            "spotifyId": "5hSobv2f61Q26AlFJ2mp2L",
+            "name": "UDEC",
+            "type": "single",
+            "releaseDate": "2025-07-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5hSobv2f61Q26AlFJ2mp2L"
+          },
+          {
+            "spotifyId": "1kZUFK2iaKQYNdTxf9bvY9",
+            "name": "Lonely",
+            "type": "single",
+            "releaseDate": "2025-06-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1kZUFK2iaKQYNdTxf9bvY9"
+          },
+          {
+            "spotifyId": "2i8D5J1nmepmjhTvbeRMce",
+            "name": "Heart Attack",
+            "type": "single",
+            "releaseDate": "2025-05-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2i8D5J1nmepmjhTvbeRMce"
+          },
+          {
+            "spotifyId": "7tSBdMSrmVl4Qii2M5tbQZ",
+            "name": "Kno Me (Live)",
+            "type": "single",
+            "releaseDate": "2024-07-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/7tSBdMSrmVl4Qii2M5tbQZ"
+          },
+          {
+            "spotifyId": "7foB8yxqD5yksSRCuLgbdL",
+            "name": "Mariah",
+            "type": "single",
+            "releaseDate": "2024-05-23",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/7foB8yxqD5yksSRCuLgbdL"
+          },
+          {
+            "spotifyId": "42w751phpUzdYNh4i1W444",
+            "name": "SUMN",
+            "type": "single",
+            "releaseDate": "2024-05-23",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/42w751phpUzdYNh4i1W444"
+          },
+          {
+            "spotifyId": "6rXdehnzrLYgBVUwk33Lud",
+            "name": "laced luv",
+            "type": "single",
+            "releaseDate": "2024-05-23",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6rXdehnzrLYgBVUwk33Lud"
+          },
+          {
+            "spotifyId": "5OEHQDs1fceFAiB2hYG2GP",
+            "name": "Kno Me",
+            "type": "single",
+            "releaseDate": "2024-05-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5OEHQDs1fceFAiB2hYG2GP"
+          },
+          {
+            "spotifyId": "18VQoqu4E1cej9M1CsrxUq",
+            "name": "jersey luv (turn me on)",
+            "type": "single",
+            "releaseDate": "2023-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 5,
+            "spotifyUrl": "https://open.spotify.com/album/18VQoqu4E1cej9M1CsrxUq"
+          },
+          {
+            "spotifyId": "5SAqP21Buadv3Y5WttEBLw",
+            "name": "BADGURL",
+            "type": "single",
+            "releaseDate": "2023-04-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5SAqP21Buadv3Y5WttEBLw"
+          },
+          {
+            "spotifyId": "6z30pC8bxK3JIWRhLLbXwr",
+            "name": "jersey luv",
+            "type": "single",
+            "releaseDate": "2023-02-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6z30pC8bxK3JIWRhLLbXwr"
+          },
+          {
+            "spotifyId": "1X3tzIsgLdiLQcGE0Yc6gt",
+            "name": "Platonic",
+            "type": "single",
+            "releaseDate": "2022-07-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1X3tzIsgLdiLQcGE0Yc6gt"
+          },
+          {
+            "spotifyId": "5izCDY9bdWNUX5CHjfcXaP",
+            "name": "Come Around",
+            "type": "single",
+            "releaseDate": "2022-04-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5izCDY9bdWNUX5CHjfcXaP"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 3
+      }
+    },
+    {
+      "name": "SZA",
+      "genre": "rnb",
+      "existingTier": "mainstream",
+      "spotify": {
+        "artistId": "7tYKF4w9nC0nq9CsPZTHyP",
+        "artistUrl": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "2014-04-08",
+          "precision": "day"
+        },
+        "latestRelease": {
+          "date": "2026-06-26",
+          "precision": "day"
+        },
+        "careerSpanYears": 12.2,
+        "uniqueReleaseCount": 39,
+        "albumCount": 7,
+        "singleAndEpCount": 32,
+        "approximateTrackCount": 185,
+        "daysSinceLatestRelease": 46,
+        "releasesLast90Days": 1,
+        "releasesLast365Days": 5,
+        "releasesLast730Days": 6,
+        "careerMaturityScore": 61,
+        "catalogDepthScore": 98,
+        "releaseMomentumScore": 100,
+        "dataConfidenceScore": 100
+      },
+      "suggestedTierCandidates": [
+        "underground",
+        "emerging",
+        "mainstream"
+      ],
+      "reasons": [
+        "Catalog age and activity alone cannot distinguish underground from emerging reach.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 39,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [],
+        "includedReleases": [
+          {
+            "spotifyId": "1Q5WON8dw2JFLP5JVQXu1e",
+            "name": "SOS Deluxe: LANA",
+            "type": "album",
+            "releaseDate": "2025-02-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 42,
+            "spotifyUrl": "https://open.spotify.com/album/1Q5WON8dw2JFLP5JVQXu1e"
+          },
+          {
+            "spotifyId": "07w0rG5TETcyihsEIZR3qG",
+            "name": "SOS",
+            "type": "album",
+            "releaseDate": "2022-12-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 23,
+            "spotifyUrl": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG"
+          },
+          {
+            "spotifyId": "6FKP2O0oOvZlDkF0gyTjiJ",
+            "name": "Ctrl (Deluxe)",
+            "type": "album",
+            "releaseDate": "2022-06-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 21,
+            "spotifyUrl": "https://open.spotify.com/album/6FKP2O0oOvZlDkF0gyTjiJ"
+          },
+          {
+            "spotifyId": "0yURloAyqmXCjQ1rmX0ltA",
+            "name": "Dear Evan Hansen (Original Motion Picture Soundtrack)",
+            "type": "album",
+            "releaseDate": "2021-09-24",
+            "releaseDatePrecision": "day",
+            "totalTracks": 16,
+            "spotifyUrl": "https://open.spotify.com/album/0yURloAyqmXCjQ1rmX0ltA"
+          },
+          {
+            "spotifyId": "3pLdWdkj83EYfDN6H2N8MR",
+            "name": "Black Panther The Album Music From And Inspired By",
+            "type": "album",
+            "releaseDate": "2018-02-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/3pLdWdkj83EYfDN6H2N8MR"
+          },
+          {
+            "spotifyId": "76290XdXVF9rPzGdNRWdCh",
+            "name": "Ctrl",
+            "type": "album",
+            "releaseDate": "2017-06-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/76290XdXVF9rPzGdNRWdCh"
+          },
+          {
+            "spotifyId": "2qCyMMQ785sPH4Yx25GQZ8",
+            "name": "Z",
+            "type": "album",
+            "releaseDate": "2014-04-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/2qCyMMQ785sPH4Yx25GQZ8"
+          },
+          {
+            "spotifyId": "5ZKl6FzFtBJc3edhG04gxW",
+            "name": "is it cool? (feat. SZA)",
+            "type": "single",
+            "releaseDate": "2026-06-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5ZKl6FzFtBJc3edhG04gxW"
+          },
+          {
+            "spotifyId": "3wL2XkG72RlS17lxbESDBX",
+            "name": "BOY IN RED",
+            "type": "single",
+            "releaseDate": "2026-04-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3wL2XkG72RlS17lxbESDBX"
+          },
+          {
+            "spotifyId": "64nT7kIqLeG2Z3mz8OVubL",
+            "name": "Save The Day (From \"Hoppers\")",
+            "type": "single",
+            "releaseDate": "2026-02-20",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/64nT7kIqLeG2Z3mz8OVubL"
+          },
+          {
+            "spotifyId": "0gay0zMUEE8cqgkk7z8nzS",
+            "name": "girl, get up. (feat. SZA)",
+            "type": "single",
+            "releaseDate": "2025-12-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0gay0zMUEE8cqgkk7z8nzS"
+          },
+          {
+            "spotifyId": "466dbk7Myb4b5ptqAFwrGv",
+            "name": "PT Cruiser",
+            "type": "single",
+            "releaseDate": "2025-10-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/466dbk7Myb4b5ptqAFwrGv"
+          },
+          {
+            "spotifyId": "1fmBMCSSkSlvxyoy1vut2k",
+            "name": "Saturn",
+            "type": "single",
+            "releaseDate": "2024-02-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 5,
+            "spotifyUrl": "https://open.spotify.com/album/1fmBMCSSkSlvxyoy1vut2k"
+          },
+          {
+            "spotifyId": "05kT1p6wyim40HJVzg7tt3",
+            "name": "NO SZNS",
+            "type": "single",
+            "releaseDate": "2023-09-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/05kT1p6wyim40HJVzg7tt3"
+          },
+          {
+            "spotifyId": "4DjJtllSDzVDBf7PYtsHaT",
+            "name": "Slime You Out",
+            "type": "single",
+            "releaseDate": "2023-09-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4DjJtllSDzVDBf7PYtsHaT"
+          },
+          {
+            "spotifyId": "0bQ8NyqdTKKQpZHYhZqCUU",
+            "name": "Snooze (Acoustic) (feat. Justin Bieber)",
+            "type": "single",
+            "releaseDate": "2023-09-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0bQ8NyqdTKKQpZHYhZqCUU"
+          },
+          {
+            "spotifyId": "0L632gxhMbscW5mY9ewbOq",
+            "name": "Snooze",
+            "type": "single",
+            "releaseDate": "2023-08-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/0L632gxhMbscW5mY9ewbOq"
+          },
+          {
+            "spotifyId": "4OanbmuJAWz8JPVE4cJA9L",
+            "name": "Kill Bill (feat. Doja Cat)",
+            "type": "single",
+            "releaseDate": "2023-04-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4OanbmuJAWz8JPVE4cJA9L"
+          },
+          {
+            "spotifyId": "5Qw3usvS6dDOE0ErN6tl7O",
+            "name": "Special (feat. SZA)",
+            "type": "single",
+            "releaseDate": "2023-02-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/5Qw3usvS6dDOE0ErN6tl7O"
+          },
+          {
+            "spotifyId": "1P1hvg624kDZJ841ZAZzWy",
+            "name": "Kill Bill (Acoustic)",
+            "type": "single",
+            "releaseDate": "2023-01-24",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1P1hvg624kDZJ841ZAZzWy"
+          },
+          {
+            "spotifyId": "63nEYsFMdabB1qkWCOhsv7",
+            "name": "Kill Bill",
+            "type": "single",
+            "releaseDate": "2023-01-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/63nEYsFMdabB1qkWCOhsv7"
+          },
+          {
+            "spotifyId": "6Kqm5aSp69hTaOHTx38hsD",
+            "name": "Shirt",
+            "type": "single",
+            "releaseDate": "2022-10-28",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6Kqm5aSp69hTaOHTx38hsD"
+          },
+          {
+            "spotifyId": "180PxJxb58IlSaWU0XWY0Q",
+            "name": "BEAUTIFUL (feat. Future & SZA)",
+            "type": "single",
+            "releaseDate": "2022-08-24",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/180PxJxb58IlSaWU0XWY0Q"
+          },
+          {
+            "spotifyId": "7LYy99hyg4eHQeYkKPuS6R",
+            "name": "Persuasive (with SZA)",
+            "type": "single",
+            "releaseDate": "2022-07-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/7LYy99hyg4eHQeYkKPuS6R"
+          },
+          {
+            "spotifyId": "1Rt2ZYJ3tBKqXtFuB19xz4",
+            "name": "No Love (with SZA & Cardi B) [Extended Version]",
+            "type": "single",
+            "releaseDate": "2022-03-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1Rt2ZYJ3tBKqXtFuB19xz4"
+          },
+          {
+            "spotifyId": "1hJUh5y1ggqqGsCivnRmHw",
+            "name": "I Hate U",
+            "type": "single",
+            "releaseDate": "2021-12-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1hJUh5y1ggqqGsCivnRmHw"
+          },
+          {
+            "spotifyId": "5h23sIlF1FvjdIdcJofXlI",
+            "name": "fue mejor (feat. SZA)",
+            "type": "single",
+            "releaseDate": "2021-09-29",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5h23sIlF1FvjdIdcJofXlI"
+          },
+          {
+            "spotifyId": "164VJE1gedqrVwULmGODs9",
+            "name": "The Anonymous Ones (From The “Dear Evan Hansen” Original Motion Picture Soundtrack)",
+            "type": "single",
+            "releaseDate": "2021-09-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/164VJE1gedqrVwULmGODs9"
+          },
+          {
+            "spotifyId": "0uXCtaJMMAAgaB1AavNLSh",
+            "name": "Just For Me (Space Jam: A New Legacy)",
+            "type": "single",
+            "releaseDate": "2021-06-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0uXCtaJMMAAgaB1AavNLSh"
+          },
+          {
+            "spotifyId": "781cKhbTPwLnPmo9BALQl7",
+            "name": "Good Days",
+            "type": "single",
+            "releaseDate": "2020-12-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/781cKhbTPwLnPmo9BALQl7"
+          },
+          {
+            "spotifyId": "4xmJCh7ct63QvQ5wRc44db",
+            "name": "Hit Different",
+            "type": "single",
+            "releaseDate": "2020-09-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4xmJCh7ct63QvQ5wRc44db"
+          },
+          {
+            "spotifyId": "2ZdvA4fN0l00HlzwpP1uZA",
+            "name": "The Other Side (from Trolls World Tour) [Ovy On The Drums Remix]",
+            "type": "single",
+            "releaseDate": "2020-04-20",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2ZdvA4fN0l00HlzwpP1uZA"
+          },
+          {
+            "spotifyId": "2Pmbbx6FMe27iG2ReNrTyz",
+            "name": "The Other Side (from Trolls World Tour) [Oliver Heldens Remix]",
+            "type": "single",
+            "releaseDate": "2020-04-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2Pmbbx6FMe27iG2ReNrTyz"
+          },
+          {
+            "spotifyId": "50ZTMRi6Biq1i1pWbcaKaJ",
+            "name": "The Other Side (from Trolls World Tour)",
+            "type": "single",
+            "releaseDate": "2020-02-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/50ZTMRi6Biq1i1pWbcaKaJ"
+          },
+          {
+            "spotifyId": "0QI0w2DStkPNSBnZd5ZgD7",
+            "name": "Just Us",
+            "type": "single",
+            "releaseDate": "2019-05-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0QI0w2DStkPNSBnZd5ZgD7"
+          },
+          {
+            "spotifyId": "3mau89iBea8nCPw3I8kKAk",
+            "name": "All The Stars (with SZA)",
+            "type": "single",
+            "releaseDate": "2018-01-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3mau89iBea8nCPw3I8kKAk"
+          },
+          {
+            "spotifyId": "5enEsi887wD3qGoMCK4jLr",
+            "name": "The Weekend (Funk Wav Remix)",
+            "type": "single",
+            "releaseDate": "2017-12-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5enEsi887wD3qGoMCK4jLr"
+          },
+          {
+            "spotifyId": "06dngKXkh91TrnpHcNelJS",
+            "name": "Broken Clocks",
+            "type": "single",
+            "releaseDate": "2017-06-02",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/06dngKXkh91TrnpHcNelJS"
+          },
+          {
+            "spotifyId": "41HZOC3jBstsK2ujTn7Kgm",
+            "name": "Drew Barrymore",
+            "type": "single",
+            "releaseDate": "2017-01-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/41HZOC3jBstsK2ujTn7Kgm"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 4
+      }
+    },
+    {
+      "name": "Liv.e",
+      "genre": "rnb",
+      "existingTier": "underground",
+      "spotify": {
+        "artistId": "0YCL71Clky5els6NireSBP",
+        "artistUrl": "https://open.spotify.com/artist/0YCL71Clky5els6NireSBP",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb7715e0efa8b952e5f4eb01b2",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "2017-08-04",
+          "precision": "day"
+        },
+        "latestRelease": {
+          "date": "2026-02-27",
+          "precision": "day"
+        },
+        "careerSpanYears": 8.6,
+        "uniqueReleaseCount": 21,
+        "albumCount": 5,
+        "singleAndEpCount": 16,
+        "approximateTrackCount": 118,
+        "daysSinceLatestRelease": 165,
+        "releasesLast90Days": 0,
+        "releasesLast365Days": 5,
+        "releasesLast730Days": 5,
+        "careerMaturityScore": 43,
+        "catalogDepthScore": 90,
+        "releaseMomentumScore": 78,
+        "dataConfidenceScore": 100
+      },
+      "suggestedTierCandidates": [
+        "underground",
+        "emerging",
+        "mainstream"
+      ],
+      "reasons": [
+        "Catalog age and activity alone cannot distinguish underground from emerging reach.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 21,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [],
+        "includedReleases": [
+          {
+            "spotifyId": "2PW3hhgsQRGgJbPIhHCYrS",
+            "name": "The Pleasure Is Yours",
+            "type": "album",
+            "releaseDate": "2026-02-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 16,
+            "spotifyUrl": "https://open.spotify.com/album/2PW3hhgsQRGgJbPIhHCYrS"
+          },
+          {
+            "spotifyId": "7C3ISPfAyp060oOmvm0MPb",
+            "name": "PAST FUTUR.e",
+            "type": "album",
+            "releaseDate": "2024-04-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 7,
+            "spotifyUrl": "https://open.spotify.com/album/7C3ISPfAyp060oOmvm0MPb"
+          },
+          {
+            "spotifyId": "0pEbmdBXGb0acfUfxGEy9q",
+            "name": "GITHPREMIXEDITION",
+            "type": "album",
+            "releaseDate": "2023-08-29",
+            "releaseDatePrecision": "day",
+            "totalTracks": 17,
+            "spotifyUrl": "https://open.spotify.com/album/0pEbmdBXGb0acfUfxGEy9q"
+          },
+          {
+            "spotifyId": "45oxyD0tdWU3AGK2w55W2w",
+            "name": "Girl In The Half Pearl",
+            "type": "album",
+            "releaseDate": "2023-02-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 17,
+            "spotifyUrl": "https://open.spotify.com/album/45oxyD0tdWU3AGK2w55W2w"
+          },
+          {
+            "spotifyId": "10nNQo6ebmVoyh6R39jRlf",
+            "name": "Couldn't Wait to Tell You...",
+            "type": "album",
+            "releaseDate": "2020-07-31",
+            "releaseDatePrecision": "day",
+            "totalTracks": 20,
+            "spotifyUrl": "https://open.spotify.com/album/10nNQo6ebmVoyh6R39jRlf"
+          },
+          {
+            "spotifyId": "63449DHEaCWCuCwgn8A4bB",
+            "name": "Lead It Up",
+            "type": "single",
+            "releaseDate": "2026-01-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/63449DHEaCWCuCwgn8A4bB"
+          },
+          {
+            "spotifyId": "6Zyc6JHOq8rlSf6CmJHjat",
+            "name": "HOWWEFLOW",
+            "type": "single",
+            "releaseDate": "2025-12-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6Zyc6JHOq8rlSf6CmJHjat"
+          },
+          {
+            "spotifyId": "2FK7fZ054s6nqJrw8cNlbU",
+            "name": "Circlesz",
+            "type": "single",
+            "releaseDate": "2025-11-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2FK7fZ054s6nqJrw8cNlbU"
+          },
+          {
+            "spotifyId": "3yaHBK7uKMYHkDAX82eW1R",
+            "name": "Last Time",
+            "type": "single",
+            "releaseDate": "2025-10-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3yaHBK7uKMYHkDAX82eW1R"
+          },
+          {
+            "spotifyId": "6ENHy8zEmyRciZsNjIPYbD",
+            "name": "HowTheyLikeMe! / Back Alley (GITHPREMIXEDITION)",
+            "type": "single",
+            "releaseDate": "2023-08-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/6ENHy8zEmyRciZsNjIPYbD"
+          },
+          {
+            "spotifyId": "5VGDL0LsNukMUzmmXmLJSI",
+            "name": "Bout It",
+            "type": "single",
+            "releaseDate": "2021-10-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5VGDL0LsNukMUzmmXmLJSI"
+          },
+          {
+            "spotifyId": "5WvhHrG0VBEo1Y0h8oSDRt",
+            "name": "Bout It - A COLORS SHOW",
+            "type": "single",
+            "releaseDate": "2021-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5WvhHrG0VBEo1Y0h8oSDRt"
+          },
+          {
+            "spotifyId": "5DzBXUTv6FdrCXYfZbWWR8",
+            "name": "CWTTY+",
+            "type": "single",
+            "releaseDate": "2021-07-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 6,
+            "spotifyUrl": "https://open.spotify.com/album/5DzBXUTv6FdrCXYfZbWWR8"
+          },
+          {
+            "spotifyId": "7uuCP8vFk7fyce81BoNZ0o",
+            "name": "I Been Livin",
+            "type": "single",
+            "releaseDate": "2020-07-06",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/7uuCP8vFk7fyce81BoNZ0o"
+          },
+          {
+            "spotifyId": "5n0bD9e8mF4xzT5Lf3IzUM",
+            "name": "The Band (feat. Liv.e)",
+            "type": "single",
+            "releaseDate": "2020-06-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5n0bD9e8mF4xzT5Lf3IzUM"
+          },
+          {
+            "spotifyId": "7ytIkOvdeOIWoCA25QXqn7",
+            "name": "Bout These Pipedreams / Lessons From My Mistakes... but I Lost Your Number",
+            "type": "single",
+            "releaseDate": "2020-05-06",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/7ytIkOvdeOIWoCA25QXqn7"
+          },
+          {
+            "spotifyId": "090a2qXpHVpCQdvbMfZqEF",
+            "name": "LazyEaterBetsOnHerLikeness",
+            "type": "single",
+            "releaseDate": "2020-02-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/090a2qXpHVpCQdvbMfZqEF"
+          },
+          {
+            "spotifyId": "6iGM1YM2aQsvVXD25spwsA",
+            "name": "SirLadyMakemFall",
+            "type": "single",
+            "releaseDate": "2020-01-21",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6iGM1YM2aQsvVXD25spwsA"
+          },
+          {
+            "spotifyId": "4o8yGUEA3XoicZq3SReUQb",
+            "name": "Hoopdreams",
+            "type": "single",
+            "releaseDate": "2018-06-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 7,
+            "spotifyUrl": "https://open.spotify.com/album/4o8yGUEA3XoicZq3SReUQb"
+          },
+          {
+            "spotifyId": "6dD8rdpuzo2NEzAk4M1MDX",
+            "name": "Raw Daybreaks, Vol. 1",
+            "type": "single",
+            "releaseDate": "2017-12-07",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/6dD8rdpuzo2NEzAk4M1MDX"
+          },
+          {
+            "spotifyId": "4QFkjFDiaJZrFffSlA7kW4",
+            "name": "F.R.A.N.K.",
+            "type": "single",
+            "releaseDate": "2017-08-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 7,
+            "spotifyUrl": "https://open.spotify.com/album/4QFkjFDiaJZrFffSlA7kW4"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 3
+      }
+    },
+    {
+      "name": "Marvin Gaye",
+      "genre": "rnb",
+      "existingTier": "classic",
+      "spotify": {
+        "artistId": "3koiLjNrgRTNbOwViDipeA",
+        "artistUrl": "https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA",
+        "imageUrl": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "1963-09-09",
+          "precision": "day"
+        },
+        "latestRelease": {
+          "date": "2026-07-24",
+          "precision": "day"
+        },
+        "careerSpanYears": 62.9,
+        "uniqueReleaseCount": 59,
+        "albumCount": 40,
+        "singleAndEpCount": 19,
+        "approximateTrackCount": 554,
+        "daysSinceLatestRelease": 18,
+        "releasesLast90Days": 2,
+        "releasesLast365Days": 6,
+        "releasesLast730Days": 8,
+        "careerMaturityScore": 100,
+        "catalogDepthScore": 100,
+        "releaseMomentumScore": 100,
+        "dataConfidenceScore": 99
+      },
+      "suggestedTierCandidates": [
+        "legacy",
+        "classic",
+        "mainstream"
+      ],
+      "reasons": [
+        "A 62.9-year catalog span supports legacy/classic review.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 59,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [],
+        "includedReleases": [
+          {
+            "spotifyId": "5Wrf1VUIYJXvuE3pvIOAYA",
+            "name": "What’s Going On: Then, Now, Always",
+            "type": "album",
+            "releaseDate": "2026-05-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/5Wrf1VUIYJXvuE3pvIOAYA"
+          },
+          {
+            "spotifyId": "56hpn4sLHITCwL7euX1DXn",
+            "name": "Marvin Gaye & A Distant Lover",
+            "type": "album",
+            "releaseDate": "2026-02-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/56hpn4sLHITCwL7euX1DXn"
+          },
+          {
+            "spotifyId": "4zoDfmmP0L18mdYgvkoakZ",
+            "name": "Marvin Gaye Live! (Deluxe Edition)",
+            "type": "album",
+            "releaseDate": "2025-01-31",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/4zoDfmmP0L18mdYgvkoakZ"
+          },
+          {
+            "spotifyId": "5THx22ghMdWSUD8qNzN67G",
+            "name": "Funky Nation: The Detroit Instrumentals",
+            "type": "album",
+            "releaseDate": "2021-01-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/5THx22ghMdWSUD8qNzN67G"
+          },
+          {
+            "spotifyId": "1rfm091srlg2gIh9a2m92J",
+            "name": "What's Going On (Deluxe Edition / 50th Anniversary)",
+            "type": "album",
+            "releaseDate": "2021-01-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 21,
+            "spotifyUrl": "https://open.spotify.com/album/1rfm091srlg2gIh9a2m92J"
+          },
+          {
+            "spotifyId": "7qD9oSiS3xFJsw2oSV2akp",
+            "name": "What’s Going On: The Detroit Mix",
+            "type": "album",
+            "releaseDate": "2021-01-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 9,
+            "spotifyUrl": "https://open.spotify.com/album/7qD9oSiS3xFJsw2oSV2akp"
+          },
+          {
+            "spotifyId": "6gRTxfBzqEnyKPpdkytlfo",
+            "name": "What's Going On (Live)",
+            "type": "album",
+            "releaseDate": "2019-10-18",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/6gRTxfBzqEnyKPpdkytlfo"
+          },
+          {
+            "spotifyId": "4vvWW7JUBASZzXtjMpqBks",
+            "name": "Distant Lover",
+            "type": "album",
+            "releaseDate": "2015-08-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/4vvWW7JUBASZzXtjMpqBks"
+          },
+          {
+            "spotifyId": "2fwj2s6ozTYoDzrSHywTSJ",
+            "name": "The Masquerade is Over - Early Hits",
+            "type": "album",
+            "releaseDate": "2014-07-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/2fwj2s6ozTYoDzrSHywTSJ"
+          },
+          {
+            "spotifyId": "1ElxwIYimDtN6xQ1W3sS7F",
+            "name": "Live At The Copa",
+            "type": "album",
+            "releaseDate": "2005-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 17,
+            "spotifyUrl": "https://open.spotify.com/album/1ElxwIYimDtN6xQ1W3sS7F"
+          },
+          {
+            "spotifyId": "46aFub2RrPlvU5XopP4SEA",
+            "name": "Live In Montreux 1980",
+            "type": "album",
+            "releaseDate": "2003-05-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 17,
+            "spotifyUrl": "https://open.spotify.com/album/46aFub2RrPlvU5XopP4SEA"
+          },
+          {
+            "spotifyId": "6oWve17aH3k9i9ITcL1cU5",
+            "name": "Vulnerable",
+            "type": "album",
+            "releaseDate": "1997-04-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/6oWve17aH3k9i9ITcL1cU5"
+          },
+          {
+            "spotifyId": "6dLKGv90bpwuNYyDzgvgYq",
+            "name": "Alive In America",
+            "type": "album",
+            "releaseDate": "1994-07-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/6dLKGv90bpwuNYyDzgvgYq"
+          },
+          {
+            "spotifyId": "3hcSdgOQ6ZsqnwRfsBGuUi",
+            "name": "Romantically Yours",
+            "type": "album",
+            "releaseDate": "1985-11-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 11,
+            "spotifyUrl": "https://open.spotify.com/album/3hcSdgOQ6ZsqnwRfsBGuUi"
+          },
+          {
+            "spotifyId": "3R77KUZFEdUDsPcOCTRkPf",
+            "name": "Dream Of A Lifetime",
+            "type": "album",
+            "releaseDate": "1985-05-21",
+            "releaseDatePrecision": "day",
+            "totalTracks": 8,
+            "spotifyUrl": "https://open.spotify.com/album/3R77KUZFEdUDsPcOCTRkPf"
+          },
+          {
+            "spotifyId": "3gPlX9Zs3tXZZKNCyoOkSm",
+            "name": "Midnight Love",
+            "type": "album",
+            "releaseDate": "1982-10-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 9,
+            "spotifyUrl": "https://open.spotify.com/album/3gPlX9Zs3tXZZKNCyoOkSm"
+          },
+          {
+            "spotifyId": "3oBFGJ34Nel7NOG2cmW4S3",
+            "name": "Midnight Love & The Sexual Healing Sessions",
+            "type": "album",
+            "releaseDate": "1982-10-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 22,
+            "spotifyUrl": "https://open.spotify.com/album/3oBFGJ34Nel7NOG2cmW4S3"
+          },
+          {
+            "spotifyId": "2inNwSLauhkASzQ9RFrH5E",
+            "name": "In Our Lifetime? Expanded Love Man Edition",
+            "type": "album",
+            "releaseDate": "1981-01-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 28,
+            "spotifyUrl": "https://open.spotify.com/album/2inNwSLauhkASzQ9RFrH5E"
+          },
+          {
+            "spotifyId": "1iVf41qWHZsAk9DwY43WnV",
+            "name": "Here, My Dear",
+            "type": "album",
+            "releaseDate": "1978-12-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/1iVf41qWHZsAk9DwY43WnV"
+          },
+          {
+            "spotifyId": "5PY79lSefhMwfRU4v2fIjU",
+            "name": "Live At The London Palladium",
+            "type": "album",
+            "releaseDate": "1977-03-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 13,
+            "spotifyUrl": "https://open.spotify.com/album/5PY79lSefhMwfRU4v2fIjU"
+          },
+          {
+            "spotifyId": "0EM4Q0JUVZ8FNqmT5CI2E7",
+            "name": "I Want You",
+            "type": "album",
+            "releaseDate": "1976-03-16",
+            "releaseDatePrecision": "day",
+            "totalTracks": 11,
+            "spotifyUrl": "https://open.spotify.com/album/0EM4Q0JUVZ8FNqmT5CI2E7"
+          },
+          {
+            "spotifyId": "61pxNaDIldi7i7wRvXun88",
+            "name": "Marvin Gaye Live!",
+            "type": "album",
+            "releaseDate": "1974-06-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 9,
+            "spotifyUrl": "https://open.spotify.com/album/61pxNaDIldi7i7wRvXun88"
+          },
+          {
+            "spotifyId": "1jbl32APgmqzDulRIqLQwC",
+            "name": "Diana & Marvin (Expanded Edition)",
+            "type": "album",
+            "releaseDate": "1973-10-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/1jbl32APgmqzDulRIqLQwC"
+          },
+          {
+            "spotifyId": "1oIICL75sMuInkEhX8jj3b",
+            "name": "Let's Get It On",
+            "type": "album",
+            "releaseDate": "1973-08-28",
+            "releaseDatePrecision": "day",
+            "totalTracks": 8,
+            "spotifyUrl": "https://open.spotify.com/album/1oIICL75sMuInkEhX8jj3b"
+          },
+          {
+            "spotifyId": "7KvKuWUxxNPEU80c4i5AQk",
+            "name": "Trouble Man",
+            "type": "album",
+            "releaseDate": "1972-12-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 13,
+            "spotifyUrl": "https://open.spotify.com/album/7KvKuWUxxNPEU80c4i5AQk"
+          },
+          {
+            "spotifyId": "2v6ANhWhZBUKkg6pJJBs3B",
+            "name": "What's Going On",
+            "type": "album",
+            "releaseDate": "1971-05-21",
+            "releaseDatePrecision": "day",
+            "totalTracks": 9,
+            "spotifyUrl": "https://open.spotify.com/album/2v6ANhWhZBUKkg6pJJBs3B"
+          },
+          {
+            "spotifyId": "2jDlqnEzCTy6A5hyK5qyzo",
+            "name": "That's The Way Love Is",
+            "type": "album",
+            "releaseDate": "1970-01-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/2jDlqnEzCTy6A5hyK5qyzo"
+          },
+          {
+            "spotifyId": "2XyETlDqp6hhi2j8XiWS4u",
+            "name": "M.P.G.",
+            "type": "album",
+            "releaseDate": "1969-04-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/2XyETlDqp6hhi2j8XiWS4u"
+          },
+          {
+            "spotifyId": "4xWQy5s10Udgbqp0ZJQshJ",
+            "name": "Easy",
+            "type": "album",
+            "releaseDate": "1969-01-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/4xWQy5s10Udgbqp0ZJQshJ"
+          },
+          {
+            "spotifyId": "36VMWZPLjg9rucvMxdA2Pz",
+            "name": "In The Groove",
+            "type": "album",
+            "releaseDate": "1968-08-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/36VMWZPLjg9rucvMxdA2Pz"
+          },
+          {
+            "spotifyId": "1i1HqvvJk7zGpNDygYlXQd",
+            "name": "You're All I Need",
+            "type": "album",
+            "releaseDate": "1968-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/1i1HqvvJk7zGpNDygYlXQd"
+          },
+          {
+            "spotifyId": "5LqviduT0g0J0ypFrFSwCE",
+            "name": "United",
+            "type": "album",
+            "releaseDate": "1967-08-29",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/5LqviduT0g0J0ypFrFSwCE"
+          },
+          {
+            "spotifyId": "0My58U9zPnyq4TIZOr7brK",
+            "name": "Take Two",
+            "type": "album",
+            "releaseDate": "1966-08-25",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/0My58U9zPnyq4TIZOr7brK"
+          },
+          {
+            "spotifyId": "4pfaSNzd1uXEumYj6VAzF0",
+            "name": "Moods Of Marvin Gaye",
+            "type": "album",
+            "releaseDate": "1966-05-23",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/4pfaSNzd1uXEumYj6VAzF0"
+          },
+          {
+            "spotifyId": "5UOi7ddiVXTf4opweWv9Q6",
+            "name": "A Tribute To The Great Nat King Cole (Expanded Edition)",
+            "type": "album",
+            "releaseDate": "1965-11-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 26,
+            "spotifyUrl": "https://open.spotify.com/album/5UOi7ddiVXTf4opweWv9Q6"
+          },
+          {
+            "spotifyId": "1kYeM6oy6I8tK7668jM7Hw",
+            "name": "How Sweet It Is To Be Loved By You",
+            "type": "album",
+            "releaseDate": "1965",
+            "releaseDatePrecision": "year",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/1kYeM6oy6I8tK7668jM7Hw"
+          },
+          {
+            "spotifyId": "4MmTnMy1c5qE0f3dJ4R3Jr",
+            "name": "Hello Broadway",
+            "type": "album",
+            "releaseDate": "1964-11-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 11,
+            "spotifyUrl": "https://open.spotify.com/album/4MmTnMy1c5qE0f3dJ4R3Jr"
+          },
+          {
+            "spotifyId": "1rH0RNpV5TaIBMDb8e83f3",
+            "name": "When I'm Alone I Cry",
+            "type": "album",
+            "releaseDate": "1964-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/1rH0RNpV5TaIBMDb8e83f3"
+          },
+          {
+            "spotifyId": "2Szk1fEVJge39BvTQNqgQ1",
+            "name": "That Stubborn Kinda' Fellow",
+            "type": "album",
+            "releaseDate": "1963-12-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/2Szk1fEVJge39BvTQNqgQ1"
+          },
+          {
+            "spotifyId": "6xxlUXzWrtpABcVlyqH4rp",
+            "name": "Recorded Live: Marvin Gaye On Stage",
+            "type": "album",
+            "releaseDate": "1963-09-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 8,
+            "spotifyUrl": "https://open.spotify.com/album/6xxlUXzWrtpABcVlyqH4rp"
+          },
+          {
+            "spotifyId": "3uPJHesS0WRgQHcsw3aQ1C",
+            "name": "Night Life (Vandelux Remix)",
+            "type": "single",
+            "releaseDate": "2026-07-24",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3uPJHesS0WRgQHcsw3aQ1C"
+          },
+          {
+            "spotifyId": "7nBdm930QoU89Wst85VH8n",
+            "name": "Distant Lover (Blonde Maze Remix)",
+            "type": "single",
+            "releaseDate": "2026-04-02",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/7nBdm930QoU89Wst85VH8n"
+          },
+          {
+            "spotifyId": "6uyGAQL8dLPrjszKHotW01",
+            "name": "I Want You (Remixed)",
+            "type": "single",
+            "releaseDate": "2026-03-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/6uyGAQL8dLPrjszKHotW01"
+          },
+          {
+            "spotifyId": "3QtSDdkbs2yy0oqvBEB1Fs",
+            "name": "Soon I’ll Be Loving You Again (Salaam Remi Remix)",
+            "type": "single",
+            "releaseDate": "2026-03-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3QtSDdkbs2yy0oqvBEB1Fs"
+          },
+          {
+            "spotifyId": "2ibL3fvFm8L57sfyDfgfb1",
+            "name": "Ain't No Mountain High Enough (with Vandelux)",
+            "type": "single",
+            "releaseDate": "2025-05-02",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/2ibL3fvFm8L57sfyDfgfb1"
+          },
+          {
+            "spotifyId": "2vO0s1GUM4X64V8US1TAKS",
+            "name": "I Want You: The John Morales M+M Mixes",
+            "type": "single",
+            "releaseDate": "2022-08-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/2vO0s1GUM4X64V8US1TAKS"
+          },
+          {
+            "spotifyId": "4KQKuw1HE3i8Ngfwp3J2Co",
+            "name": "What's Going On (Paul Oakenfold x Kilanova Remix)",
+            "type": "single",
+            "releaseDate": "2022-08-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4KQKuw1HE3i8Ngfwp3J2Co"
+          },
+          {
+            "spotifyId": "6yH17hvLQsNq4S2DV041rC",
+            "name": "Mercy Mercy Me (The Ecology) [Super Duper Remix]",
+            "type": "single",
+            "releaseDate": "2022-08-05",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6yH17hvLQsNq4S2DV041rC"
+          },
+          {
+            "spotifyId": "6dZyWgMFgbt59jwFN3MhZD",
+            "name": "Let's Get It On (Flight Facilities Remix)",
+            "type": "single",
+            "releaseDate": "2022-05-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6dZyWgMFgbt59jwFN3MhZD"
+          },
+          {
+            "spotifyId": "4QrE2ziKN8rbMQGBYQo8f9",
+            "name": "Save The World Remix Suite",
+            "type": "single",
+            "releaseDate": "2021-11-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/4QrE2ziKN8rbMQGBYQo8f9"
+          },
+          {
+            "spotifyId": "1d5Aaipwunfid3kaIchL0E",
+            "name": "I Want You (Underboss Remix)",
+            "type": "single",
+            "releaseDate": "2020-06-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1d5Aaipwunfid3kaIchL0E"
+          },
+          {
+            "spotifyId": "4Cj9dNfDMWp1AsSVRJKvLB",
+            "name": "Take This Heart Of Mine (Live On The Ed Sullivan Show, June 19, 1966)",
+            "type": "single",
+            "releaseDate": "2020-06-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4Cj9dNfDMWp1AsSVRJKvLB"
+          },
+          {
+            "spotifyId": "3pXmkJmy9pFT6xtckoeWOu",
+            "name": "Ain't No Mountain High Enough (DJ Komori Remix)",
+            "type": "single",
+            "releaseDate": "2019-07-17",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3pXmkJmy9pFT6xtckoeWOu"
+          },
+          {
+            "spotifyId": "544HGkpSyLcOvMTXJUr8jE",
+            "name": "Sexual Healing (Kygo Radio Edit)",
+            "type": "single",
+            "releaseDate": "2015-07-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/544HGkpSyLcOvMTXJUr8jE"
+          },
+          {
+            "spotifyId": "5VoYcG6GGSlaFR41zhv20a",
+            "name": "Sexual Healing (SNBRN Remix)",
+            "type": "single",
+            "releaseDate": "2015-05-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5VoYcG6GGSlaFR41zhv20a"
+          },
+          {
+            "spotifyId": "6j62lF3YXsygj6xTjAyRG5",
+            "name": "Sexual Healing (Kygo Remix)",
+            "type": "single",
+            "releaseDate": "2015-04-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6j62lF3YXsygj6xTjAyRG5"
+          },
+          {
+            "spotifyId": "05ZA2oapGRM4kXJdFr991K",
+            "name": "Where Are We Going? / Woman Of The World",
+            "type": "single",
+            "releaseDate": "2015-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/05ZA2oapGRM4kXJdFr991K"
+          },
+          {
+            "spotifyId": "0bTg2PYzYcpBZ0ygd48N8L",
+            "name": "You Are Undeniable (Amerigo Remix)",
+            "type": "single",
+            "releaseDate": "2014-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0bTg2PYzYcpBZ0ygd48N8L"
+          },
+          {
+            "spotifyId": "0JpyfYBXgDxKHKvLpP700N",
+            "name": "The Lords Prayer",
+            "type": "single",
+            "releaseDate": "1996-07-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/0JpyfYBXgDxKHKvLpP700N"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 6
+      }
+    },
+    {
+      "name": "Daft Punk",
+      "genre": "dance",
+      "existingTier": "legacy",
+      "spotify": {
+        "artistId": "4tZwfgrHOc3mvqYlEYSvVi",
+        "artistUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "1995",
+          "precision": "year"
+        },
+        "latestRelease": {
+          "date": "2023-05-12",
+          "precision": "day"
+        },
+        "careerSpanYears": 28.4,
+        "uniqueReleaseCount": 31,
+        "albumCount": 13,
+        "singleAndEpCount": 18,
+        "approximateTrackCount": 235,
+        "daysSinceLatestRelease": 1187,
+        "releasesLast90Days": 0,
+        "releasesLast365Days": 0,
+        "releasesLast730Days": 0,
+        "careerMaturityScore": 100,
+        "catalogDepthScore": 99,
+        "releaseMomentumScore": 0,
+        "dataConfidenceScore": 93
+      },
+      "suggestedTierCandidates": [
+        "legacy",
+        "classic",
+        "mainstream"
+      ],
+      "reasons": [
+        "A 28.4-year catalog span supports legacy/classic review.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 33,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [
+          {
+            "kept": {
+              "spotifyId": "4mAhdh996uW5SnnFKXUmC0",
+              "name": "Random Access Memories (10th Anniversary Edition)",
+              "type": "album",
+              "releaseDate": "2023-05-12",
+              "releaseDatePrecision": "day",
+              "totalTracks": 22,
+              "spotifyUrl": "https://open.spotify.com/album/4mAhdh996uW5SnnFKXUmC0"
+            },
+            "excluded": [
+              {
+                "spotifyId": "5AFf68gtvNgGLZarsyEEL8",
+                "name": "Random Access Memories (Drumless Edition)",
+                "type": "album",
+                "releaseDate": "2023-11-17",
+                "releaseDatePrecision": "day",
+                "totalTracks": 13,
+                "spotifyUrl": "https://open.spotify.com/album/5AFf68gtvNgGLZarsyEEL8"
+              }
+            ],
+            "reason": "Same normalized title, release type, and release year; likely edition/remaster duplicate."
+          },
+          {
+            "kept": {
+              "spotifyId": "5uRdvUR7xCnHmUW8n64n9y",
+              "name": "Homework",
+              "type": "album",
+              "releaseDate": "1997-01-17",
+              "releaseDatePrecision": "day",
+              "totalTracks": 16,
+              "spotifyUrl": "https://open.spotify.com/album/5uRdvUR7xCnHmUW8n64n9y"
+            },
+            "excluded": [
+              {
+                "spotifyId": "6JRaPcrT3cMBEmkgSqEPhI",
+                "name": "Homework (25th Anniversary Edition)",
+                "type": "album",
+                "releaseDate": "1997-01-20",
+                "releaseDatePrecision": "day",
+                "totalTracks": 31,
+                "spotifyUrl": "https://open.spotify.com/album/6JRaPcrT3cMBEmkgSqEPhI"
+              }
+            ],
+            "reason": "Same normalized title, release type, and release year; likely edition/remaster duplicate."
+          }
+        ],
+        "includedReleases": [
+          {
+            "spotifyId": "4mAhdh996uW5SnnFKXUmC0",
+            "name": "Random Access Memories (10th Anniversary Edition)",
+            "type": "album",
+            "releaseDate": "2023-05-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 22,
+            "spotifyUrl": "https://open.spotify.com/album/4mAhdh996uW5SnnFKXUmC0"
+          },
+          {
+            "spotifyId": "4m2880jivSbbyEGAKfITCa",
+            "name": "Random Access Memories",
+            "type": "album",
+            "releaseDate": "2013-05-20",
+            "releaseDatePrecision": "day",
+            "totalTracks": 13,
+            "spotifyUrl": "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa"
+          },
+          {
+            "spotifyId": "3QbWxiYTlTCLjHYgrgMCfU",
+            "name": "Daft Punk | Random Access Memories | The Collaborators",
+            "type": "album",
+            "releaseDate": "2013-05-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 8,
+            "spotifyUrl": "https://open.spotify.com/album/3QbWxiYTlTCLjHYgrgMCfU"
+          },
+          {
+            "spotifyId": "382ObEPsp2rxGrnsizN5TX",
+            "name": "TRON: Legacy Reconfigured",
+            "type": "album",
+            "releaseDate": "2011-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/382ObEPsp2rxGrnsizN5TX"
+          },
+          {
+            "spotifyId": "4US3nmuLIKELhVZdBPiKxx",
+            "name": "TRON: Legacy",
+            "type": "album",
+            "releaseDate": "2010-12-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 22,
+            "spotifyUrl": "https://open.spotify.com/album/4US3nmuLIKELhVZdBPiKxx"
+          },
+          {
+            "spotifyId": "3AMXFnwHWXCvNr5NCCpLZI",
+            "name": "TRON: Legacy - The Complete Edition (Original Motion Picture Soundtrack)",
+            "type": "album",
+            "releaseDate": "2010-12-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 31,
+            "spotifyUrl": "https://open.spotify.com/album/3AMXFnwHWXCvNr5NCCpLZI"
+          },
+          {
+            "spotifyId": "7u6zL7kqpgLPISZYXNTgYk",
+            "name": "Alive 2007",
+            "type": "album",
+            "releaseDate": "2007-11-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 13,
+            "spotifyUrl": "https://open.spotify.com/album/7u6zL7kqpgLPISZYXNTgYk"
+          },
+          {
+            "spotifyId": "11cpAynoDMZFD0B2xtw6OQ",
+            "name": "Human After All (Remixes)",
+            "type": "album",
+            "releaseDate": "2006-03-29",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/11cpAynoDMZFD0B2xtw6OQ"
+          },
+          {
+            "spotifyId": "1A2GTWGtFfWp7KSQTwWOyo",
+            "name": "Human After All",
+            "type": "album",
+            "releaseDate": "2005-03-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 10,
+            "spotifyUrl": "https://open.spotify.com/album/1A2GTWGtFfWp7KSQTwWOyo"
+          },
+          {
+            "spotifyId": "1O5WUh9KsgHT2QaUCJeVPG",
+            "name": "Daft Club",
+            "type": "album",
+            "releaseDate": "2003-12-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/1O5WUh9KsgHT2QaUCJeVPG"
+          },
+          {
+            "spotifyId": "3Z7mPCcnwAzU7GtsRYf0HA",
+            "name": "Alive 1997",
+            "type": "album",
+            "releaseDate": "2001-10-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3Z7mPCcnwAzU7GtsRYf0HA"
+          },
+          {
+            "spotifyId": "2noRn2Aes5aoNVsU6iWThc",
+            "name": "Discovery",
+            "type": "album",
+            "releaseDate": "2001-03-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 14,
+            "spotifyUrl": "https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc"
+          },
+          {
+            "spotifyId": "5uRdvUR7xCnHmUW8n64n9y",
+            "name": "Homework",
+            "type": "album",
+            "releaseDate": "1997-01-17",
+            "releaseDatePrecision": "day",
+            "totalTracks": 16,
+            "spotifyUrl": "https://open.spotify.com/album/5uRdvUR7xCnHmUW8n64n9y"
+          },
+          {
+            "spotifyId": "2ePFIvZKMe8zefATp9ofFA",
+            "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+            "type": "single",
+            "releaseDate": "2013-04-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2ePFIvZKMe8zefATp9ofFA"
+          },
+          {
+            "spotifyId": "5QXkaMax7wx3eI65FUSboS",
+            "name": "Technologic (Radio Edit)",
+            "type": "single",
+            "releaseDate": "2005-06-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5QXkaMax7wx3eI65FUSboS"
+          },
+          {
+            "spotifyId": "6nwye4zd7OY5FmMKZRMiDl",
+            "name": "Robot Rock (Edit)",
+            "type": "single",
+            "releaseDate": "2005-04-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6nwye4zd7OY5FmMKZRMiDl"
+          },
+          {
+            "spotifyId": "2CvZLTWcP7LMVV4GkE67xH",
+            "name": "Something About Us (Love Theme from Interstella)",
+            "type": "single",
+            "releaseDate": "2003-11-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/2CvZLTWcP7LMVV4GkE67xH"
+          },
+          {
+            "spotifyId": "1Wg9o58cbpR2xrvV5BKx5X",
+            "name": "Phoenix (Basement Jaxx Remix)",
+            "type": "single",
+            "releaseDate": "2003-01-01",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1Wg9o58cbpR2xrvV5BKx5X"
+          },
+          {
+            "spotifyId": "0A88p2r8PWnWGvWjzAnUrV",
+            "name": "Harder, Better, Faster, Stronger",
+            "type": "single",
+            "releaseDate": "2001-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/0A88p2r8PWnWGvWjzAnUrV"
+          },
+          {
+            "spotifyId": "1MmZZolm7iTNArajmWJ6gb",
+            "name": "Harder, Better, Faster, Stronger (Alive Radio Edit 2007)",
+            "type": "single",
+            "releaseDate": "2001-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1MmZZolm7iTNArajmWJ6gb"
+          },
+          {
+            "spotifyId": "3XiVwyHlgGP6XxTdYdDuVI",
+            "name": "Harder, Better, Faster, Stronger (Live)",
+            "type": "single",
+            "releaseDate": "2001-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/3XiVwyHlgGP6XxTdYdDuVI"
+          },
+          {
+            "spotifyId": "0ZU4cJcFo1s6YEceVABic5",
+            "name": "Harder, Better, Faster, Stronger (The Neptunes Remix)",
+            "type": "single",
+            "releaseDate": "2001-10-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0ZU4cJcFo1s6YEceVABic5"
+          },
+          {
+            "spotifyId": "3UvcQMj1oRf9D3bPz4P1Zf",
+            "name": "Digital Love",
+            "type": "single",
+            "releaseDate": "2001-06-08",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/3UvcQMj1oRf9D3bPz4P1Zf"
+          },
+          {
+            "spotifyId": "6a34lYgmrwXe9jChS9ARZd",
+            "name": "Aerodynamic",
+            "type": "single",
+            "releaseDate": "2001-03-28",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/6a34lYgmrwXe9jChS9ARZd"
+          },
+          {
+            "spotifyId": "0HZBRdk8p8mu6n1if6hVmk",
+            "name": "Aerodynamic (Slum Village Remix)",
+            "type": "single",
+            "releaseDate": "2001-03-28",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0HZBRdk8p8mu6n1if6hVmk"
+          },
+          {
+            "spotifyId": "1CeIjHjsxOIo1jQkPduUfx",
+            "name": "Veridis Quo (Edit)",
+            "type": "single",
+            "releaseDate": "2001-03-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1CeIjHjsxOIo1jQkPduUfx"
+          },
+          {
+            "spotifyId": "0bHuuhpKn42ktYbyTIeumE",
+            "name": "One More Time",
+            "type": "single",
+            "releaseDate": "2000-11-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/0bHuuhpKn42ktYbyTIeumE"
+          },
+          {
+            "spotifyId": "2Xjx9rNWxYrLeBHOIwZV9r",
+            "name": "Revolution 909",
+            "type": "single",
+            "releaseDate": "1998-02-16",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/2Xjx9rNWxYrLeBHOIwZV9r"
+          },
+          {
+            "spotifyId": "4tzfn6ulHYqCdPHkvOWQvZ",
+            "name": "Burnin'",
+            "type": "single",
+            "releaseDate": "1997-09-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/4tzfn6ulHYqCdPHkvOWQvZ"
+          },
+          {
+            "spotifyId": "4TaKGJaappn4hWMuLdwUEF",
+            "name": "Around the World",
+            "type": "single",
+            "releaseDate": "1997-04-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/4TaKGJaappn4hWMuLdwUEF"
+          },
+          {
+            "spotifyId": "4iPei0ERbLxTwUd888Hv5G",
+            "name": "Da Funk",
+            "type": "single",
+            "releaseDate": "1995",
+            "releaseDatePrecision": "year",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/4iPei0ERbLxTwUd888Hv5G"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 4
+      }
+    },
+    {
+      "name": "KAYTRANADA",
+      "genre": "dance",
+      "existingTier": "mainstream",
+      "spotify": {
+        "artistId": "6qgnBH6iDM91ipVXv28OMu",
+        "artistUrl": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167",
+        "identityStatus": "pending_review"
+      },
+      "catalog": {
+        "earliestRelease": {
+          "date": "2013-06-03",
+          "precision": "day"
+        },
+        "latestRelease": {
+          "date": "2025-10-10",
+          "precision": "day"
+        },
+        "careerSpanYears": 12.4,
+        "uniqueReleaseCount": 53,
+        "albumCount": 9,
+        "singleAndEpCount": 44,
+        "approximateTrackCount": 182,
+        "daysSinceLatestRelease": 305,
+        "releasesLast90Days": 0,
+        "releasesLast365Days": 4,
+        "releasesLast730Days": 10,
+        "careerMaturityScore": 62,
+        "catalogDepthScore": 99,
+        "releaseMomentumScore": 75,
+        "dataConfidenceScore": 100
+      },
+      "suggestedTierCandidates": [
+        "underground",
+        "emerging",
+        "mainstream"
+      ],
+      "reasons": [
+        "Catalog age and activity alone cannot distinguish underground from emerging reach.",
+        "A deep catalog supports established-status review, but does not prove mainstream audience reach.",
+        "Spotify catalog metadata cannot establish audience size; final tier remains editorial."
+      ],
+      "audit": {
+        "market": "US",
+        "fetchedReleaseCount": 53,
+        "duplicateIdCount": 0,
+        "suspectedVariants": [],
+        "includedReleases": [
+          {
+            "spotifyId": "2ThDVXsGeZahogahzHAIw6",
+            "name": "AIN'T NO DAMN WAY!",
+            "type": "album",
+            "releaseDate": "2025-08-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 12,
+            "spotifyUrl": "https://open.spotify.com/album/2ThDVXsGeZahogahzHAIw6"
+          },
+          {
+            "spotifyId": "2gBFkq8qwXIle8gPcfGPtZ",
+            "name": "TIMELESS Instrumentals",
+            "type": "album",
+            "releaseDate": "2025-02-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/2gBFkq8qwXIle8gPcfGPtZ"
+          },
+          {
+            "spotifyId": "3C3t2bKhwEL3wdKioqWUDh",
+            "name": "TIMELESS",
+            "type": "album",
+            "releaseDate": "2024-06-07",
+            "releaseDatePrecision": "day",
+            "totalTracks": 21,
+            "spotifyUrl": "https://open.spotify.com/album/3C3t2bKhwEL3wdKioqWUDh"
+          },
+          {
+            "spotifyId": "1CS8eBSCVXMwYJytG5aYfX",
+            "name": "Lover/Friend",
+            "type": "album",
+            "releaseDate": "2023-11-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/1CS8eBSCVXMwYJytG5aYfX"
+          },
+          {
+            "spotifyId": "5tmIsxwRSJ9e179f6YwVr6",
+            "name": "KAYTRAMINÉ (Instrumentals)",
+            "type": "album",
+            "releaseDate": "2023-09-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 11,
+            "spotifyUrl": "https://open.spotify.com/album/5tmIsxwRSJ9e179f6YwVr6"
+          },
+          {
+            "spotifyId": "0iAbMGXKXGfmtmneJrsNcl",
+            "name": "KAYTRAMINÉ",
+            "type": "album",
+            "releaseDate": "2023-05-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 11,
+            "spotifyUrl": "https://open.spotify.com/album/0iAbMGXKXGfmtmneJrsNcl"
+          },
+          {
+            "spotifyId": "2OKXfIrdweRkrZmgD0Ikaz",
+            "name": "BUBBA (Instrumental Version)",
+            "type": "album",
+            "releaseDate": "2020-09-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 13,
+            "spotifyUrl": "https://open.spotify.com/album/2OKXfIrdweRkrZmgD0Ikaz"
+          },
+          {
+            "spotifyId": "5FQ4sOGqRWUA5wO20AwPcO",
+            "name": "BUBBA",
+            "type": "album",
+            "releaseDate": "2019-12-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 17,
+            "spotifyUrl": "https://open.spotify.com/album/5FQ4sOGqRWUA5wO20AwPcO"
+          },
+          {
+            "spotifyId": "6JD4Qerb8IcaAzFgpFw0sa",
+            "name": "99.9%",
+            "type": "album",
+            "releaseDate": "2016-05-06",
+            "releaseDatePrecision": "day",
+            "totalTracks": 15,
+            "spotifyUrl": "https://open.spotify.com/album/6JD4Qerb8IcaAzFgpFw0sa"
+          },
+          {
+            "spotifyId": "0wI34yjSOrAt6ByT8GV4Wh",
+            "name": "Girl Like Me + Kaytranada",
+            "type": "single",
+            "releaseDate": "2025-10-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0wI34yjSOrAt6ByT8GV4Wh"
+          },
+          {
+            "spotifyId": "0TGnPOeWwkmufODbRTarro",
+            "name": "SPACE INVADER (SBTRKT Remix)",
+            "type": "single",
+            "releaseDate": "2025-08-13",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0TGnPOeWwkmufODbRTarro"
+          },
+          {
+            "spotifyId": "3eS4QBdis6TOHCqsoiYedL",
+            "name": "SPACE INVADER",
+            "type": "single",
+            "releaseDate": "2025-08-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3eS4QBdis6TOHCqsoiYedL"
+          },
+          {
+            "spotifyId": "6IvB1z8H8pwGCWzDCoyvBs",
+            "name": "The Mood",
+            "type": "single",
+            "releaseDate": "2025-07-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/6IvB1z8H8pwGCWzDCoyvBs"
+          },
+          {
+            "spotifyId": "4mEdVlVbEFOLOee9044MF3",
+            "name": "Oh Lala (Thankful Daily Remix)",
+            "type": "single",
+            "releaseDate": "2025-06-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4mEdVlVbEFOLOee9044MF3"
+          },
+          {
+            "spotifyId": "44YiO7FQXNcR0siJlEJ55r",
+            "name": "Oh Lala",
+            "type": "single",
+            "releaseDate": "2025-05-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/44YiO7FQXNcR0siJlEJ55r"
+          },
+          {
+            "spotifyId": "5WOY8ePlLY1zOSekVvnyZy",
+            "name": "Don't Forget About Us (KAYTRANADA Remix)",
+            "type": "single",
+            "releaseDate": "2025-04-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5WOY8ePlLY1zOSekVvnyZy"
+          },
+          {
+            "spotifyId": "7gVfcJ5fuZe3FXSMHPJLpE",
+            "name": "Neverender (Kaytranada Remix)",
+            "type": "single",
+            "releaseDate": "2024-09-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/7gVfcJ5fuZe3FXSMHPJLpE"
+          },
+          {
+            "spotifyId": "4mtQMpdkHZx366JCQKTgOg",
+            "name": "Drip Sweat (feat. Channel Tres)",
+            "type": "single",
+            "releaseDate": "2024-06-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4mtQMpdkHZx366JCQKTgOg"
+          },
+          {
+            "spotifyId": "0NvlaQeUqClEL7vMdYyUO7",
+            "name": "Lover/Friend",
+            "type": "single",
+            "releaseDate": "2024-05-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0NvlaQeUqClEL7vMdYyUO7"
+          },
+          {
+            "spotifyId": "1ieee5ixJ8UZUyVAlPk6QQ",
+            "name": "#RICHAXXHAITIAN",
+            "type": "single",
+            "releaseDate": "2024-05-06",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1ieee5ixJ8UZUyVAlPk6QQ"
+          },
+          {
+            "spotifyId": "0ZdG89JA5VYHNi3oKOXLO6",
+            "name": "Rebuke",
+            "type": "single",
+            "releaseDate": "2023-05-15",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0ZdG89JA5VYHNi3oKOXLO6"
+          },
+          {
+            "spotifyId": "3unS7dpXcZ0MmNBDkp5Hqx",
+            "name": "4EVA (feat. Pharrell Williams)",
+            "type": "single",
+            "releaseDate": "2023-04-07",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3unS7dpXcZ0MmNBDkp5Hqx"
+          },
+          {
+            "spotifyId": "5YTiQmOzu1m293UgtWNJSR",
+            "name": "Assumptions (Kaytranada Edit)",
+            "type": "single",
+            "releaseDate": "2023-03-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/5YTiQmOzu1m293UgtWNJSR"
+          },
+          {
+            "spotifyId": "1SFh4fpWMEThFiNnSAXLsg",
+            "name": "All Along (Kaytranada Remix)",
+            "type": "single",
+            "releaseDate": "2022-09-14",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1SFh4fpWMEThFiNnSAXLsg"
+          },
+          {
+            "spotifyId": "4rZPUX1MOeZ4XpJSta8Epm",
+            "name": "Twin Flame",
+            "type": "single",
+            "releaseDate": "2022-08-02",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/4rZPUX1MOeZ4XpJSta8Epm"
+          },
+          {
+            "spotifyId": "6LuY3APmuxui8BM2oibkrZ",
+            "name": "Out Of Time (Remix Bundle)",
+            "type": "single",
+            "releaseDate": "2022-04-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 4,
+            "spotifyUrl": "https://open.spotify.com/album/6LuY3APmuxui8BM2oibkrZ"
+          },
+          {
+            "spotifyId": "56Z5er1cgYmXDuG49B953d",
+            "name": "Iced Tea",
+            "type": "single",
+            "releaseDate": "2022-03-16",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/56Z5er1cgYmXDuG49B953d"
+          },
+          {
+            "spotifyId": "4BwfoXhDqTfiGS6pZueR9g",
+            "name": "Intimidated",
+            "type": "single",
+            "releaseDate": "2021-11-19",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/4BwfoXhDqTfiGS6pZueR9g"
+          },
+          {
+            "spotifyId": "4TUIDl1OR5xSqEy0tPZQDC",
+            "name": "The Don & The Boss (KAYTRANADA Remix)",
+            "type": "single",
+            "releaseDate": "2021-02-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4TUIDl1OR5xSqEy0tPZQDC"
+          },
+          {
+            "spotifyId": "4JOlhEazXmlErhrnmABjYZ",
+            "name": "Caution",
+            "type": "single",
+            "releaseDate": "2021-02-18",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4JOlhEazXmlErhrnmABjYZ"
+          },
+          {
+            "spotifyId": "5iO3erM9U06Ph7MNqaxVEo",
+            "name": "Don’t Start Now (Kaytranada Remix)",
+            "type": "single",
+            "releaseDate": "2020-09-11",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5iO3erM9U06Ph7MNqaxVEo"
+          },
+          {
+            "spotifyId": "3bLZlNsCcoc4Ih0FtqPvkF",
+            "name": "Teen Scene feat. Buddy",
+            "type": "single",
+            "releaseDate": "2020-09-07",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3bLZlNsCcoc4Ih0FtqPvkF"
+          },
+          {
+            "spotifyId": "6GyPVVUC4yDHTkP3NevWJc",
+            "name": "Look Easy (feat. Lucky Daye)",
+            "type": "single",
+            "releaseDate": "2020-07-16",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/6GyPVVUC4yDHTkP3NevWJc"
+          },
+          {
+            "spotifyId": "6yMCZW5uOYsDAutBHqbcTN",
+            "name": "2 The Music (feat. Iman Omari)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6yMCZW5uOYsDAutBHqbcTN"
+          },
+          {
+            "spotifyId": "4jfflrJhum8Cyzs0PzESaN",
+            "name": "Culture (feat. Teedra Moses)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4jfflrJhum8Cyzs0PzESaN"
+          },
+          {
+            "spotifyId": "6ZPDhJDzHXODGVdsbyHlle",
+            "name": "Freefall (feat. Durand Bernarr)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6ZPDhJDzHXODGVdsbyHlle"
+          },
+          {
+            "spotifyId": "2ZoKgUJLpkVL6E6IiKfujm",
+            "name": "Need It (feat. Masego)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2ZoKgUJLpkVL6E6IiKfujm"
+          },
+          {
+            "spotifyId": "2wTcLpiKFtTHlHzQEEKTl8",
+            "name": "Oh No (feat. Estelle)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2wTcLpiKFtTHlHzQEEKTl8"
+          },
+          {
+            "spotifyId": "3Ax7yPrtMCcMDG2ec6CNzo",
+            "name": "The Worst In Me (feat. Tinashe)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3Ax7yPrtMCcMDG2ec6CNzo"
+          },
+          {
+            "spotifyId": "6z80EarPCsbjyeLfq5KG3L",
+            "name": "Vex Oh feat. GoldLink & Ari PenSmith",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/6z80EarPCsbjyeLfq5KG3L"
+          },
+          {
+            "spotifyId": "0kz0AX7wPB6yP67kqTtHfj",
+            "name": "What You Need (feat. Charlotte Day Wilson)",
+            "type": "single",
+            "releaseDate": "2019-12-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0kz0AX7wPB6yP67kqTtHfj"
+          },
+          {
+            "spotifyId": "4dSOyv1vA8Zp7Ti4vUl9iV",
+            "name": "10%",
+            "type": "single",
+            "releaseDate": "2019-12-09",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/4dSOyv1vA8Zp7Ti4vUl9iV"
+          },
+          {
+            "spotifyId": "2io9FL9DbX7AtefnQXFTOH",
+            "name": "DYSFUNCTIONAL",
+            "type": "single",
+            "releaseDate": "2019-04-10",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/2io9FL9DbX7AtefnQXFTOH"
+          },
+          {
+            "spotifyId": "2KVBhRpYqnjAVE4eWW3W6g",
+            "name": "NOTHIN LIKE U / CHANCES",
+            "type": "single",
+            "releaseDate": "2018-11-30",
+            "releaseDatePrecision": "day",
+            "totalTracks": 5,
+            "spotifyUrl": "https://open.spotify.com/album/2KVBhRpYqnjAVE4eWW3W6g"
+          },
+          {
+            "spotifyId": "0HLN2LnxstQym8qOhhhvcC",
+            "name": "KAYTRANADA_WAITIN_115 BPM",
+            "type": "single",
+            "releaseDate": "2018-09-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0HLN2LnxstQym8qOhhhvcC"
+          },
+          {
+            "spotifyId": "3b6hUE5V4Lt6kiz4riJmye",
+            "name": "Come Inside (Kaytranada Edit)",
+            "type": "single",
+            "releaseDate": "2018-08-31",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/3b6hUE5V4Lt6kiz4riJmye"
+          },
+          {
+            "spotifyId": "1TDOE0Bglplp7Z77cg4JrM",
+            "name": "BE YOUR GIRL (KAYTRANADA REMIX)",
+            "type": "single",
+            "releaseDate": "2018-05-04",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1TDOE0Bglplp7Z77cg4JrM"
+          },
+          {
+            "spotifyId": "0d9pwcDuixiZHEcxwnvFNU",
+            "name": "THE MOVE (prod. KAYTRANADA)",
+            "type": "single",
+            "releaseDate": "2016-09-22",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/0d9pwcDuixiZHEcxwnvFNU"
+          },
+          {
+            "spotifyId": "5PE7QXR5l27B8ZRyuqdxcZ",
+            "name": "My Dope House (Prod. by Kaytranada)",
+            "type": "single",
+            "releaseDate": "2015-05-26",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/5PE7QXR5l27B8ZRyuqdxcZ"
+          },
+          {
+            "spotifyId": "4oo1zyAMnLVjZmQoyNP3h5",
+            "name": "At All / Hilarity Duff EP",
+            "type": "single",
+            "releaseDate": "2015-04-20",
+            "releaseDatePrecision": "day",
+            "totalTracks": 3,
+            "spotifyUrl": "https://open.spotify.com/album/4oo1zyAMnLVjZmQoyNP3h5"
+          },
+          {
+            "spotifyId": "1ciqsFBUj66wSop0nnwWum",
+            "name": "DRIVE ME CRAZY",
+            "type": "single",
+            "releaseDate": "2015-01-27",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/1ciqsFBUj66wSop0nnwWum"
+          },
+          {
+            "spotifyId": "2RLEMJFxWakOaK10rUaakj",
+            "name": "LEAVE ME ALONE",
+            "type": "single",
+            "releaseDate": "2014-08-12",
+            "releaseDatePrecision": "day",
+            "totalTracks": 1,
+            "spotifyUrl": "https://open.spotify.com/album/2RLEMJFxWakOaK10rUaakj"
+          },
+          {
+            "spotifyId": "20LmpBWztXlbazkIj4Dvu4",
+            "name": "Bromance #10 - Single",
+            "type": "single",
+            "releaseDate": "2013-06-03",
+            "releaseDatePrecision": "day",
+            "totalTracks": 2,
+            "spotifyUrl": "https://open.spotify.com/album/20LmpBWztXlbazkIj4Dvu4"
+          }
+        ],
+        "paginationComplete": true,
+        "pageCount": 6
+      }
+    }
+  ],
+  "errors": []
+}

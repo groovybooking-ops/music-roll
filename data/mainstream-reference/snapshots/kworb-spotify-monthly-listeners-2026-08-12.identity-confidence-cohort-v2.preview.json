@@ -1,0 +1,1515 @@
+{
+  "schemaVersion": 1,
+  "experiment": "identity-confidence-test-cohort",
+  "generatedAt": "2026-08-12T05:11:13.312Z",
+  "reviewOnly": true,
+  "sourceSnapshotId": "kworb-spotify-monthly-listeners-2026-08-12",
+  "sourceIdentityPreviewId": "kworb-spotify-monthly-listeners-2026-08-12-spotify-identity-review",
+  "scoring": {
+    "rules": {
+      "exactNormalizedName": 60,
+      "singleExactCandidate": 25,
+      "exactDisplayedName": 10,
+      "imageAvailable": 5
+    },
+    "thresholds": {
+      "highConfidenceCandidate": 90
+    },
+    "hardGates": [
+      "Only an exact candidate Spotify ID already verified in Music Roll may become verified_existing.",
+      "Conflicting or duplicate IDs cannot receive high confidence.",
+      "Multiple exact candidates, punctuation risk, returned-name differences, and unresolved short/common names require review.",
+      "Kworb rank, listeners, Music Roll tier/genre, and perceived fame contribute zero identity points."
+    ]
+  },
+  "records": [
+    {
+      "rank": 9,
+      "artistNameRaw": "Michael Jackson",
+      "monthlyListeners": 97782509,
+      "dailyListenerChange": -261968,
+      "peakRank": 4,
+      "peakMonthlyListeners": 113091027,
+      "sourceRow": 10,
+      "artistNameNormalized": "michael jackson",
+      "musicRoll": {
+        "exists": true,
+        "matchedName": "Michael Jackson",
+        "genre": "pop",
+        "tier": "classic",
+        "matchMethod": "exact_normalized_name_review_only"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Michael Jackson",
+          "spotifyArtistId": "3fMbdgg4jU18AjLCKBhRSm",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": true,
+          "name": "Michael Jackson",
+          "genre": "pop",
+          "tier": "classic"
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 9,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 12,
+      "artistNameRaw": "Drake",
+      "monthlyListeners": 92187220,
+      "dailyListenerChange": 291472,
+      "peakRank": 3,
+      "peakMonthlyListeners": 100057064,
+      "sourceRow": 13,
+      "artistNameNormalized": "drake",
+      "musicRoll": {
+        "exists": true,
+        "matchedName": "Drake",
+        "genre": "hiphop",
+        "tier": "mainstream",
+        "matchMethod": "exact_normalized_name_review_only"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Drake",
+          "spotifyArtistId": "3TVXtAsR1Inumwj472S9r4",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": true,
+          "name": "Drake",
+          "genre": "hiphop",
+          "tier": "mainstream"
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 12,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 27,
+      "artistNameRaw": "SZA",
+      "monthlyListeners": 65965993,
+      "dailyListenerChange": -78765,
+      "peakRank": 6,
+      "peakMonthlyListeners": 97852020,
+      "sourceRow": 28,
+      "artistNameNormalized": "sza",
+      "musicRoll": {
+        "exists": true,
+        "matchedName": "SZA",
+        "genre": "rnb",
+        "tier": "mainstream",
+        "matchMethod": "exact_normalized_name_review_only"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "SZA",
+          "spotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": true,
+          "name": "SZA",
+          "genre": "rnb",
+          "tier": "mainstream"
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 27,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 58,
+      "artistNameRaw": "Future",
+      "monthlyListeners": 52996568,
+      "dailyListenerChange": -59778,
+      "peakRank": 22,
+      "peakMonthlyListeners": 65628348,
+      "sourceRow": 59,
+      "artistNameNormalized": "future",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Future",
+          "spotifyArtistId": "1RyvyyTE3xzB2ZywiAwp0i",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 58,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 74,
+      "artistNameRaw": "Queen",
+      "monthlyListeners": 49315822,
+      "dailyListenerChange": -95912,
+      "peakRank": 28,
+      "peakMonthlyListeners": 66924652,
+      "sourceRow": 75,
+      "artistNameNormalized": "queen",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Queen",
+          "spotifyArtistId": "1dfeR4HaWDbWqFHLkxsg1d",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb73e4d22612ac8d944b5789b4"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 74,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 129,
+      "artistNameRaw": "Nirvana",
+      "monthlyListeners": 39127749,
+      "dailyListenerChange": -33243,
+      "peakRank": 122,
+      "peakMonthlyListeners": 39268946,
+      "sourceRow": 130,
+      "artistNameNormalized": "nirvana",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Nirvana",
+          "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+          "imageUrl": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 129,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 189,
+      "artistNameRaw": "Dave",
+      "monthlyListeners": 32017887,
+      "dailyListenerChange": -34226,
+      "peakRank": 127,
+      "peakMonthlyListeners": 38342100,
+      "sourceRow": 190,
+      "artistNameNormalized": "dave",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Dave",
+          "spotifyArtistId": "6Ip8FS7vWT1uKkJSweANQK",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2f23c7e361cef62490f44057"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name"
+        ],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 189,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 117,
+      "artistNameRaw": "Disney",
+      "monthlyListeners": 40877327,
+      "dailyListenerChange": -44014,
+      "peakRank": 107,
+      "peakMonthlyListeners": 41686203,
+      "sourceRow": 118,
+      "artistNameNormalized": "disney",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Disney",
+          "spotifyArtistId": "3xvaSlT4xsyk6lY1ESOspO",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/3xvaSlT4xsyk6lY1ESOspO",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb129de9f205c1a63203238d6c"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name",
+          "multiple_normalized_exact_matches"
+        ],
+        "alternateExactMatches": [
+          {
+            "returnedArtistName": "Disney",
+            "spotifyArtistId": "5pHPq8iQzguEhIJJCH9Auk",
+            "spotifyArtistUrl": "https://open.spotify.com/artist/5pHPq8iQzguEhIJJCH9Auk",
+            "imageUrl": ""
+          },
+          {
+            "returnedArtistName": "Disney",
+            "spotifyArtistId": "5bbr3s1OPUIMjpX4g7lmzF",
+            "spotifyArtistUrl": "https://open.spotify.com/artist/5bbr3s1OPUIMjpX4g7lmzF",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b27335629855013f550b34bdb3f1"
+          }
+        ],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 117,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 134,
+      "artistNameRaw": "P!nk",
+      "monthlyListeners": 38222407,
+      "dailyListenerChange": 84257,
+      "peakRank": 68,
+      "peakMonthlyListeners": 39406788,
+      "sourceRow": 135,
+      "artistNameNormalized": "p!nk",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "P!nk",
+          "spotifyArtistId": "1KCSPY1glIKqW2TotWuXOR",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/1KCSPY1glIKqW2TotWuXOR",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb7bbad89a61061304ec842588"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "short_or_single_token_name",
+          "punctuation_or_symbol_difference_risk",
+          "multiple_normalized_exact_matches"
+        ],
+        "alternateExactMatches": [
+          {
+            "returnedArtistName": "P!NK",
+            "spotifyArtistId": "62NEcbCLfcWtjBiY3tL0GE",
+            "spotifyArtistUrl": "https://open.spotify.com/artist/62NEcbCLfcWtjBiY3tL0GE",
+            "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebf4333275d912f7c9b2e93590"
+          }
+        ],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 134,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 2,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 143,
+      "artistNameRaw": "A$AP Rocky",
+      "monthlyListeners": 37476420,
+      "dailyListenerChange": -23005,
+      "peakRank": 69,
+      "peakMonthlyListeners": 47505466,
+      "sourceRow": 144,
+      "artistNameNormalized": "a$ap rocky",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "ambiguous_candidate",
+        "candidateMatch": {
+          "returnedArtistName": "A$AP Rocky",
+          "spotifyArtistId": "13ubrt8QOOCPljQ2FL1Kca",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [
+          "punctuation_or_symbol_difference_risk",
+          "multiple_normalized_exact_matches"
+        ],
+        "alternateExactMatches": [
+          {
+            "returnedArtistName": "A$AP Rocky",
+            "spotifyArtistId": "3HJgJJHkoYlkwdqw8AbZqw",
+            "spotifyArtistUrl": "https://open.spotify.com/artist/3HJgJJHkoYlkwdqw8AbZqw",
+            "imageUrl": ""
+          },
+          {
+            "returnedArtistName": "A$AP Rocky",
+            "spotifyArtistId": "7dowfRCWY5xi0qrtn3XuR2",
+            "spotifyArtistUrl": "https://open.spotify.com/artist/7dowfRCWY5xi0qrtn3XuR2",
+            "imageUrl": "https://i.scdn.co/image/ab67616d0000b273d040da050c9695418f1e59c7"
+          }
+        ],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 143,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk"
+        ],
+        "requiresHumanReview": true
+      }
+    },
+    {
+      "rank": 1,
+      "artistNameRaw": "Bruno Mars",
+      "monthlyListeners": 131278101,
+      "dailyListenerChange": 172398,
+      "peakRank": 1,
+      "peakMonthlyListeners": 151079821,
+      "sourceRow": 2,
+      "artistNameNormalized": "bruno mars",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Bruno Mars",
+          "spotifyArtistId": "0du5cEVh5yTK9QJze8zA0C",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 1,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 3,
+      "artistNameRaw": "The Weeknd",
+      "monthlyListeners": 114896661,
+      "dailyListenerChange": 125431,
+      "peakRank": 1,
+      "peakMonthlyListeners": 126192069,
+      "sourceRow": 4,
+      "artistNameNormalized": "the weeknd",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "The Weeknd",
+          "spotifyArtistId": "1Xyo4u8uXC1ZmMpatF05PJ",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc1719ac9e6a75c1c25835018"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 3,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 6,
+      "artistNameRaw": "Taylor Swift",
+      "monthlyListeners": 100482293,
+      "dailyListenerChange": -111024,
+      "peakRank": 1,
+      "peakMonthlyListeners": 116229071,
+      "sourceRow": 7,
+      "artistNameNormalized": "taylor swift",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Taylor Swift",
+          "spotifyArtistId": "06HL4z0CvFAxyc27GXpf02",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 6,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 7,
+      "artistNameRaw": "Bad Bunny",
+      "monthlyListeners": 99449864,
+      "dailyListenerChange": -2817,
+      "peakRank": 2,
+      "peakMonthlyListeners": 123934765,
+      "sourceRow": 8,
+      "artistNameNormalized": "bad bunny",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Bad Bunny",
+          "spotifyArtistId": "4q3ewBCX7sLwd24euuV69X",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 7,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    },
+    {
+      "rank": 8,
+      "artistNameRaw": "Ariana Grande",
+      "monthlyListeners": 98910464,
+      "dailyListenerChange": 302840,
+      "peakRank": 1,
+      "peakMonthlyListeners": 126970279,
+      "sourceRow": 9,
+      "artistNameNormalized": "ariana grande",
+      "musicRoll": {
+        "exists": false,
+        "matchedName": null,
+        "genre": null,
+        "tier": null,
+        "matchMethod": "none"
+      },
+      "spotifyIdentityReview": {
+        "status": "candidate",
+        "candidateMatch": {
+          "returnedArtistName": "Ariana Grande",
+          "spotifyArtistId": "66CXWjxzNUsdJxJ2JdwvnR",
+          "spotifyArtistUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+          "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb68412f2d0177a9ebc265ff58"
+        },
+        "normalizedExactMatch": true,
+        "finalIdentityVerified": false,
+        "ambiguityReasons": [],
+        "alternateExactMatches": [],
+        "existingMusicRollSpotifyIdOverlap": {
+          "exists": false,
+          "name": null,
+          "genre": null,
+          "tier": null
+        }
+      },
+      "mainstreamEvidence": {
+        "present": true,
+        "sourceClass": "third_party",
+        "rankingType": "spotify_monthly_listeners",
+        "rank": 8,
+        "snapshotId": "kworb-spotify-monthly-listeners-2026-08-12"
+      },
+      "identityAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      }
+    }
+  ],
+  "reviewQueue": [
+    {
+      "artistNameRaw": "P!nk",
+      "rank": 134,
+      "priority": 95,
+      "status": "manual_review_required",
+      "reasons": [
+        "multiple_exact_name_profiles",
+        "punctuation_or_symbol_risk",
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "A$AP Rocky",
+      "rank": 143,
+      "priority": 90,
+      "status": "manual_review_required",
+      "reasons": [
+        "multiple_exact_name_profiles",
+        "punctuation_or_symbol_risk"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "Disney",
+      "rank": 117,
+      "priority": 85,
+      "status": "manual_review_required",
+      "reasons": [
+        "multiple_exact_name_profiles",
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "Future",
+      "rank": 58,
+      "priority": 55,
+      "status": "manual_review_required",
+      "reasons": [
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "Queen",
+      "rank": 74,
+      "priority": 55,
+      "status": "manual_review_required",
+      "reasons": [
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "Nirvana",
+      "rank": 129,
+      "priority": 55,
+      "status": "manual_review_required",
+      "reasons": [
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    },
+    {
+      "artistNameRaw": "Dave",
+      "rank": 189,
+      "priority": 55,
+      "status": "manual_review_required",
+      "reasons": [
+        "short_or_common_name_without_verified_id"
+      ],
+      "conflicts": []
+    }
+  ],
+  "summary": {
+    "cohortSize": 15,
+    "statusCounts": {
+      "verified_existing": 3,
+      "manual_review_required": 7,
+      "high_confidence_candidate": 5
+    },
+    "avoidsManualReview": 8,
+    "avoidsManualReviewPercent": 53
+  },
+  "validation": {
+    "liveDataChanged": false,
+    "spotifyApiCalled": false,
+    "catalogApiCalled": false,
+    "inferredIdentitiesMarkedVerified": 0
+  }
+}

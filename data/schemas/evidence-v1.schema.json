@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://musicroll.local/schemas/evidence-v1.schema.json",
+  "title": "Music Roll Evidence v1",
+  "type": "object",
+  "required": ["evidenceId", "schemaVersion", "musicRollArtistId", "evidenceType", "sourceClass", "observedAt", "payload", "reviewStatus"],
+  "properties": {
+    "evidenceId": { "type": "string", "pattern": "^mr_evidence_[0-9]{6}$" },
+    "schemaVersion": { "const": 1 },
+    "musicRollArtistId": { "type": "string", "pattern": "^mr_artist_[0-9]{6}$" },
+    "evidenceType": { "enum": ["identity", "mainstream", "catalog", "geographic", "user_engagement"] },
+    "sourceClass": { "type": "string", "minLength": 1 },
+    "payload": { "type": "object" },
+    "reviewStatus": { "enum": ["review_only", "reviewed", "verified", "conflicting", "rejected"] }
+  },
+  "additionalProperties": true
+}

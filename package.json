@@ -6,8 +6,19 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check spotify-test.js && node --check lib/spotify-client.js && node --check scripts/enrich-artists.js",
-    "enrich:artists": "node scripts/enrich-artists.js"
+    "check": "node --check server.js && node --check spotify-test.js && node --check artist-model-adapter.js && node --check experiments/v2-compatibility/parity-harness.js && node --check lib/spotify-client.js && node --check lib/spotify-catalog-client.js && node --check lib/catalog-enrichment.js && node --check lib/mainstream-reference-import.js && node --check lib/kworb-mainstream-reference.js && node --check lib/kworb-identity-enrichment.js && node --check lib/identity-confidence.js && node --check lib/identity-corroboration.js && node --check lib/cached-fixture-reader.js && node --check lib/music-roll-v2.js && node --check scripts/enrich-artists.js && node --check scripts/enrich-catalog-experiment.js && node --check scripts/import-mainstream-reference.js && node --check scripts/import-kworb-mainstream-reference.js && node --check scripts/enrich-kworb-identities.js && node --check scripts/build-identity-confidence-cohort.js && node --check scripts/build-second-stage-identity-cohort.js && node --check scripts/build-full-identity-confidence-review.js && node --check scripts/build-artists-v2-preview.js && node --check scripts/build-v2-compatibility-report.js && node --check scripts/run-targeted-identity-corroboration.js && node --check scripts/review-targeted-identity-corroboration.js",
+    "test": "node --test test/*.test.js",
+    "enrich:artists": "node scripts/enrich-artists.js",
+    "enrich:catalog-experiment": "node scripts/enrich-catalog-experiment.js",
+    "import:mainstream-reference": "node scripts/import-mainstream-reference.js",
+    "import:mainstream-reference:kworb": "node scripts/import-kworb-mainstream-reference.js",
+    "enrich:mainstream-reference:kworb-identities": "node scripts/enrich-kworb-identities.js",
+    "review:identity-confidence-cohort": "node scripts/build-identity-confidence-cohort.js",
+    "review:identity-corroboration-fixtures": "node scripts/build-second-stage-identity-cohort.js",
+    "experiment:identity-corroboration-targeted": "node scripts/run-targeted-identity-corroboration.js",
+    "review:identity-confidence-full-200": "node scripts/build-full-identity-confidence-review.js",
+    "review:artists-v2": "node scripts/build-artists-v2-preview.js",
+    "review:artists-v2-compatibility": "node scripts/build-v2-compatibility-report.js"
   },
   "engines": {
     "node": ">=18"

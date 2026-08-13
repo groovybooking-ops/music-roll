@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://musicroll.local/schemas/artist-v2.schema.json",
+  "title": "Music Roll Artist v2",
+  "type": "object",
+  "required": ["musicRollId", "schemaVersion", "name", "displayName", "identity", "externalIds", "externalUrls", "editorial", "genres", "primaryGenre", "geography", "evidence", "media", "socialUrls", "status", "createdAt", "updatedAt", "genre", "tier", "spotifyId", "spotify", "image"],
+  "properties": {
+    "musicRollId": { "type": "string", "pattern": "^mr_artist_[0-9]{6}$" },
+    "schemaVersion": { "const": 2 },
+    "editorial": {
+      "type": "object",
+      "required": ["stage", "stageConfidence"],
+      "properties": {
+        "stage": { "enum": ["underground", "emerging", "mainstream", "legacy", "classic"] },
+        "stageConfidence": { "type": ["number", "null"], "minimum": 0, "maximum": 100 }
+      }
+    },
+    "genres": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "primaryGenre": { "type": "string", "minLength": 1 },
+    "externalIds": {
+      "type": "object",
+      "propertyNames": { "enum": ["spotify", "musicbrainz", "ticketmaster", "bandsintown", "appleMusic"] },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "geography": {
+      "type": "object",
+      "required": ["home", "confidence", "evidenceRefs", "sceneAssociations", "currentTouringMarkets", "upcomingEventMarkets"],
+      "properties": {
+        "confidence": { "enum": ["unknown", "reported", "corroborated", "verified", "conflicting"] }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$comment": "Cross-field compatibility invariants and anti-fabrication checks are enforced by lib/music-roll-v2.js."
+}

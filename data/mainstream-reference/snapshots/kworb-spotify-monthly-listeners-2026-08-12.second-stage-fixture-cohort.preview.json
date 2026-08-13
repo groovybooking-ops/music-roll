@@ -1,0 +1,2911 @@
+{
+  "schemaVersion": 1,
+  "experiment": "second-stage-identity-confidence-fixtures",
+  "generatedAt": "2026-08-12T05:18:13.879Z",
+  "reviewOnly": true,
+  "syntheticFixtureEvidence": true,
+  "sourceIdentityPreviewId": "kworb-spotify-monthly-listeners-2026-08-12-spotify-identity-review",
+  "records": [
+    {
+      "artistNameRaw": "Future",
+      "rank": 58,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "1RyvyyTE3xzB2ZywiAwp0i",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 79,
+        "corroborationScore": 100,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 20,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "compatible"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 40,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "pluto",
+                  "ds2",
+                  "hndrxx"
+                ],
+                "count": 3
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 2
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 5,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Pluto",
+            "DS2",
+            "HNDRXX"
+          ],
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 2,
+          "chronology": "compatible",
+          "complete": true,
+          "musicBrainzReleaseTitles": [
+            "Pluto",
+            "DS2",
+            "HNDRXX"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "hasRelease": true
+        },
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "compatible",
+          "area": "compatible",
+          "activeDates": "compatible"
+        }
+      }
+    },
+    {
+      "artistNameRaw": "Queen",
+      "rank": 74,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "1dfeR4HaWDbWqFHLkxsg1d",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 79,
+        "corroborationScore": 88,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 13,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "compatible"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 40,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "a night at the opera",
+                  "news of the world",
+                  "the game"
+                ],
+                "count": 3
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 1
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "year",
+                  "day"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": true,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "A Night at the Opera",
+            "News of the World",
+            "The Game",
+            "Greatest Hits"
+          ],
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 1,
+          "chronology": "compatible",
+          "complete": true,
+          "posthumousOrReissueActivity": true,
+          "partialDatePrecisions": [
+            "year",
+            "day"
+          ],
+          "musicBrainzReleaseTitles": [
+            "A Night at the Opera",
+            "News of the World",
+            "The Game",
+            "Greatest Hits"
+          ]
+        },
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match"
+        },
+        "crossDatabaseEntityMetadata": {
+          "artistType": "compatible",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "weakPresentationEvidence": {}
+      }
+    },
+    {
+      "artistNameRaw": "Nirvana",
+      "rank": 129,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "conflicting_identity",
+        "firstStageConfidence": 79,
+        "corroborationScore": 38,
+        "confidence": 49,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 13,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "compatible"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 25,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "nevermind",
+                  "in utero"
+                ],
+                "count": 2
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [],
+          "moderateClasses": [
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [
+          {
+            "type": "multiple_plausible_same_name_catalogs"
+          }
+        ],
+        "requiresHumanReview": true,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Nevermind",
+            "In Utero"
+          ],
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "chronology": "compatible",
+          "complete": true,
+          "multiplePlausibleSameNameCatalogs": true,
+          "musicBrainzReleaseTitles": [
+            "Nevermind",
+            "In Utero"
+          ]
+        },
+        "crossDatabaseIdentifiers": {},
+        "crossDatabaseEntityMetadata": {
+          "artistType": "compatible",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "weakPresentationEvidence": {}
+      }
+    },
+    {
+      "artistNameRaw": "Dave",
+      "rank": 189,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "6Ip8FS7vWT1uKkJSweANQK",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "conflicting_identity",
+        "firstStageConfidence": 79,
+        "corroborationScore": 63,
+        "confidence": 49,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 8,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "conflict"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 20,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "psychodrama",
+                  "we re all alone in this together"
+                ],
+                "count": 2
+              },
+              {
+                "type": "chronology",
+                "result": "conflict"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [
+          {
+            "type": "artist_type_conflict"
+          },
+          {
+            "type": "chronology_conflict"
+          }
+        ],
+        "requiresHumanReview": true,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Psychodrama",
+            "We're All Alone in This Together"
+          ],
+          "primaryCoherent": true,
+          "chronology": "conflict",
+          "complete": true,
+          "musicBrainzReleaseTitles": [
+            "Psychodrama",
+            "We're All Alone in This Together"
+          ]
+        },
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match"
+        },
+        "crossDatabaseEntityMetadata": {
+          "artistType": "conflict",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "weakPresentationEvidence": {}
+      }
+    },
+    {
+      "artistNameRaw": "Disney",
+      "rank": 117,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "3xvaSlT4xsyk6lY1ESOspO",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "conflicting_identity",
+        "firstStageConfidence": 75,
+        "corroborationScore": 5,
+        "confidence": 49,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "conflict"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 5,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [
+          {
+            "type": "artist_type_conflict"
+          },
+          {
+            "type": "multiple_plausible_same_name_catalogs"
+          }
+        ],
+        "requiresHumanReview": true,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "The Album",
+            "Greatest Hits"
+          ],
+          "primaryCoherent": true,
+          "chronology": "compatible",
+          "complete": true,
+          "multiplePlausibleSameNameCatalogs": true,
+          "musicBrainzReleaseTitles": [
+            "The Album",
+            "Greatest Hits"
+          ]
+        },
+        "crossDatabaseIdentifiers": {},
+        "crossDatabaseEntityMetadata": {
+          "artistType": "conflict"
+        },
+        "weakPresentationEvidence": {}
+      }
+    },
+    {
+      "artistNameRaw": "P!nk",
+      "rank": 134,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "1KCSPY1glIKqW2TotWuXOR",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 2,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 75,
+        "corroborationScore": 100,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 20,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "compatible"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 40,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "i m not dead",
+                  "funhouse"
+                ],
+                "count": 2
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 1
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "M!ssundaztood",
+            "I'm Not Dead",
+            "Funhouse"
+          ],
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 1,
+          "chronology": "compatible",
+          "complete": true,
+          "musicBrainzReleaseTitles": [
+            "Missundaztood",
+            "I'm Not Dead",
+            "Funhouse"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "compatible",
+          "area": "compatible",
+          "activeDates": "compatible"
+        }
+      }
+    },
+    {
+      "artistNameRaw": "A$AP Rocky",
+      "rank": 143,
+      "cohortRole": "ambiguous_fixture_experiment",
+      "candidateSpotifyArtistId": "13ubrt8QOOCPljQ2FL1Kca",
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 75,
+        "corroborationScore": 82,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 20,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "compatible"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 27,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "testing"
+                ],
+                "count": 1
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 2
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": {
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "LONG.LIVE.A$AP",
+            "AT.LONG.LAST.A$AP",
+            "TESTING"
+          ],
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 2,
+          "chronology": "compatible",
+          "complete": true,
+          "musicBrainzReleaseTitles": [
+            "Long Live ASAP",
+            "At Long Last ASAP",
+            "Testing"
+          ]
+        },
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "compatible",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "weakPresentationEvidence": {}
+      }
+    },
+    {
+      "artistNameRaw": "Michael Jackson",
+      "rank": 9,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "3fMbdgg4jU18AjLCKBhRSm",
+      "firstStageAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "verified_existing",
+        "firstStageConfidence": 100,
+        "corroborationScore": 0,
+        "confidence": 100,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 100,
+            "strength": "authoritative",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "match"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "Drake",
+      "rank": 12,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "3TVXtAsR1Inumwj472S9r4",
+      "firstStageAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "verified_existing",
+        "firstStageConfidence": 100,
+        "corroborationScore": 0,
+        "confidence": 100,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 100,
+            "strength": "authoritative",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "match"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "SZA",
+      "rank": 27,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP",
+      "firstStageAssessment": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "match",
+            "points": 0,
+            "note": "Existing explicitly verified Music Roll ID is authoritative."
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "verified_existing",
+        "firstStageConfidence": 100,
+        "corroborationScore": 0,
+        "confidence": 100,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 100,
+            "strength": "authoritative",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "match"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "Bruno Mars",
+      "rank": 1,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "0du5cEVh5yTK9QJze8zA0C",
+      "firstStageAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 95,
+        "corroborationScore": 0,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "The Weeknd",
+      "rank": 3,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "1Xyo4u8uXC1ZmMpatF05PJ",
+      "firstStageAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 95,
+        "corroborationScore": 0,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "Taylor Swift",
+      "rank": 6,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "06HL4z0CvFAxyc27GXpf02",
+      "firstStageAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 95,
+        "corroborationScore": 0,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "Bad Bunny",
+      "rank": 7,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "4q3ewBCX7sLwd24euuV69X",
+      "firstStageAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 95,
+        "corroborationScore": 0,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    },
+    {
+      "artistNameRaw": "Ariana Grande",
+      "rank": 8,
+      "cohortRole": "stored_evidence_regression_control",
+      "candidateSpotifyArtistId": "66CXWjxzNUsdJxJ2JdwvnR",
+      "firstStageAssessment": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [],
+        "requiresHumanReview": false
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 95,
+        "corroborationScore": 0,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": "not_evaluated"
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": []
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": false
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": false
+              },
+              {
+                "type": "has_release",
+                "result": false
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "fixtureEvidence": null
+    }
+  ],
+  "summary": {
+    "statusCounts": {
+      "high_confidence_candidate": 9,
+      "conflicting_identity": 3,
+      "verified_existing": 3
+    },
+    "theoreticalPromotions": [
+      "Future",
+      "Queen",
+      "P!nk",
+      "A$AP Rocky"
+    ],
+    "remainingReview": [
+      "Nirvana",
+      "Dave",
+      "Disney"
+    ]
+  },
+  "validation": {
+    "liveApiRequests": 0,
+    "inferredIdentitiesMarkedVerified": 0,
+    "liveMigrationPerformed": false
+  }
+}

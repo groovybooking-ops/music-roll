@@ -1,0 +1,37 @@
+{
+  "Future": {
+    "crossDatabaseIdentifiers": { "musicBrainzSpotifyUrl": "match" },
+    "crossDatabaseEntityMetadata": { "alias": "match", "artistType": "compatible", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["Pluto", "DS2", "HNDRXX"] }
+  },
+  "Queen": {
+    "crossDatabaseIdentifiers": { "musicBrainzSpotifyUrl": "match" },
+    "crossDatabaseEntityMetadata": { "artistType": "compatible", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["A Night at the Opera", "News of the World", "The Game", "Greatest Hits"] }
+  },
+  "Nirvana": {
+    "crossDatabaseIdentifiers": {},
+    "crossDatabaseEntityMetadata": { "artistType": "compatible", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["Nevermind", "In Utero"] }
+  },
+  "Dave": {
+    "crossDatabaseIdentifiers": { "musicBrainzSpotifyUrl": "match" },
+    "crossDatabaseEntityMetadata": { "artistType": "conflict", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["Psychodrama", "We're All Alone in This Together"] }
+  },
+  "Disney": {
+    "crossDatabaseIdentifiers": {},
+    "crossDatabaseEntityMetadata": { "artistType": "conflict" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["The Album", "Greatest Hits"] }
+  },
+  "P!nk": {
+    "crossDatabaseIdentifiers": { "musicBrainzSpotifyUrl": "match" },
+    "crossDatabaseEntityMetadata": { "alias": "match", "artistType": "compatible", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["Missundaztood", "I'm Not Dead", "Funhouse"] }
+  },
+  "A$AP Rocky": {
+    "crossDatabaseIdentifiers": { "musicBrainzSpotifyUrl": "match" },
+    "crossDatabaseEntityMetadata": { "alias": "match", "artistType": "compatible", "area": "compatible", "activeDates": "compatible" },
+    "catalogFingerprint": { "musicBrainzReleaseTitles": ["Long Live ASAP", "At Long Last ASAP", "Testing"] }
+  }
+}

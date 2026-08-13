@@ -1,0 +1,2381 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "targeted-identity-corroboration-2026-08-12",
+  "generatedAt": "2026-08-12T05:23:59.582Z",
+  "reviewOnly": true,
+  "liveApiSources": [
+    "Spotify Web API",
+    "MusicBrainz Web Service"
+  ],
+  "sourceIdentityPreviewId": "kworb-spotify-monthly-listeners-2026-08-12-spotify-identity-review",
+  "records": [
+    {
+      "artistNameRaw": "Future",
+      "rank": 58,
+      "sourceCandidateSpotifyArtistId": "1RyvyyTE3xzB2ZywiAwp0i",
+      "liveCandidate": {
+        "name": "Future",
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "spotifyUrl": "https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2c472c891062acb4f3068583"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 79,
+        "corroborationScore": 92,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 15,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "the real me",
+                  "we still don t trust you",
+                  "we don t trust you",
+                  "i never liked you",
+                  "high off life",
+                  "superfly original motion picture soundtrack",
+                  "hndrxx",
+                  "future",
+                  "evol",
+                  "ds2",
+                  "honest",
+                  "pluto",
+                  "astronaut status",
+                  "game time fifa world cup 2026tm"
+                ],
+                "count": 14
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "The Real Me",
+            "MIXTAPE PLUTO",
+            "WE STILL DON'T TRUST YOU",
+            "WE DON'T TRUST YOU",
+            "I NEVER LIKED YOU",
+            "I NEVER LIKED YOU (Instrumental)",
+            "Pluto x Baby Pluto",
+            "Pluto x Baby Pluto (Deluxe)",
+            "High Off Life",
+            "SAVE ME",
+            "Future Hndrxx Presents: The WIZRD",
+            "Future & Juice WRLD Present... WRLD ON DRUGS",
+            "BEASTMODE 2",
+            "SUPERFLY (Original Motion Picture Soundtrack)",
+            "SUPER SLIMEY",
+            "HNDRXX",
+            "FUTURE",
+            "EVOL",
+            "Purple Reign",
+            "What A Time To Be Alive",
+            "DS2 (Deluxe)",
+            "DS2 - Track by Track Commentary",
+            "56 Nights",
+            "Beast Mode (Instrumentals)",
+            "Beast Mode",
+            "Monster",
+            "Honest",
+            "Pluto 3D",
+            "Pluto",
+            "Astronaut Status",
+            "Radio",
+            "Game Time (FIFA World Cup 2026™)",
+            "One of Them",
+            "Money On Money (feat. Future)",
+            "FXCK UP THE WORLD (feat. Future)",
+            "Dum, Dumb, and Dumber (with Young Thug & Future)",
+            "Woah",
+            "SOUTH OF FRANCE (REMIX)",
+            "Most Beautiful Design",
+            "DEAD",
+            "PROMOTION",
+            "RECIPE FOR LOVE",
+            "ARABI",
+            "In Luv With The Money",
+            "WHAT'S THE MOVE? (feat. Future and BabyDrill)",
+            "4 to 5 (With Future)",
+            "Hard To Handle",
+            "SUPPOSED TO BE LOVED",
+            "Turn Yo Clic Up (feat. Future)",
+            "Favorite Song (feat. Future) [Toxic Version]",
+            "Blackout",
+            "Mbappe (Remix)",
+            "Iris Green (feat. Future)",
+            "Private Landing (feat. Justin Bieber & Future)",
+            "FULLY LOADED",
+            "PSYCHO",
+            "Easter Fit (feat. Future)",
+            "Good On Love (with Future)",
+            "Bullseye 2 (with Future)",
+            "BEAUTIFUL (feat. Future & SZA)",
+            "BIG TIME (feat. Future & Lil Baby)",
+            "WAIT FOR U (feat. Drake & Tems)",
+            "WAIT FOR U (feat. Drake & Tems) [Instrumental]",
+            "Hold That Heat (feat. Travis Scott)",
+            "WORST DAY",
+            "M&M (with Future feat. Lil Baby)",
+            "U Are My High (with Future)",
+            "Me or Sum (feat. Future & Lil Baby)",
+            "Mushrooms",
+            "Aerobix",
+            "too easy",
+            "U Sellin Dope (with Future)",
+            "Picasso",
+            "Nobody Special (with Future)",
+            "Holdin Me Down",
+            "Go Crazy (Remix) (feat. Young Thug, Future, Lil Durk & Latto)",
+            "Black Migo",
+            "Tweakin (feat. Future)",
+            "Gucci Bucket Hat",
+            "FRANCHISE (feat. Future, Young Thug & M.I.A.) [REMIX]",
+            "Thrusting (feat. Swae Lee & Future)",
+            "Over Your Head",
+            "Patek",
+            "Rari (Chapter 1)",
+            "Roses Remix (feat. Future)",
+            "Tycoon",
+            "Life Is Good (feat. Drake, DaBaby & Lil Baby) [Remix]",
+            "Life Is Good (feat. Drake)",
+            "Last Name (feat. Lil Durk)",
+            "No Cryin (feat. Future)",
+            "Undefeated (feat. Lil Keed)",
+            "100 Shooters (feat. Meek Mill)",
+            "Out The Mud",
+            "What You Want",
+            "Bum Bum Tam Tam (Kura Remix)",
+            "Bag",
+            "Baddie",
+            "Bum Bum Tam Tam (Tiësto & SWACQ Remix)",
+            "Code of Honor",
+            "Lifestyle",
+            "Back Goin Brazy (feat. Future)",
+            "King's Dead (with Kendrick Lamar, Future & James Blake)",
+            "Darkside (with Ty Dolla $ign & Future feat. Kiiara) [From Bright: The Album]",
+            "Congratulations (Remix)",
+            "Mask Off (Marshmello Remix)",
+            "Mask Off (feat. Kendrick Lamar) [Remix]",
+            "I'm Still Stuntin - Single",
+            "Lights (feat. Future)",
+            "Used to This (feat. Drake)",
+            "March Madness",
+            "Right Now",
+            "Everything That Glitters Ain't Gold",
+            "I Been Drinking - Itunes Ringtone",
+            "Real and True (feat. Mr Hudson)",
+            "Made My Self A Boos (Hook)",
+            "Fettuccine",
+            "Made My Self A Boss (Verse)",
+            "Name Hold Weight (Hook)",
+            "Name Hold Weight (Verse)",
+            "Same Damn Time (Verse)",
+            "4 Real (feat. Hood Rich Clikk)",
+            "Magic"
+          ],
+          "musicBrainzReleaseTitles": [
+            "Game Time (FIFA World Cup 2026™)",
+            "Pluto",
+            "Honest",
+            "DS2",
+            "EVOL",
+            "FUTURE",
+            "HNDRXX",
+            "The Wizrd",
+            "High Off Life",
+            "Pluto × Baby Pluto",
+            "I NEVER LIKED YOU",
+            "WE DON’T TRUST YOU",
+            "WE STILL DON’T TRUST YOU",
+            "The Real Me",
+            "Atlanta In Me",
+            "Superfly: Original Motion Picture Soundtrack",
+            "1000",
+            "Kno Mercy",
+            "Dirty Sprite",
+            "True Story",
+            "FDU & Free Bandz",
+            "Free Bricks",
+            "Streetz Calling",
+            "FDU & Free Bandz: Reloaded",
+            "Astronaut Status"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "48262e82-db9f-4a92-b650-dfef979b73ec"
+          ],
+          "exactMusicBrainzCandidateCount": 1,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 122,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "Queen",
+      "rank": 74,
+      "sourceCandidateSpotifyArtistId": "1dfeR4HaWDbWqFHLkxsg1d",
+      "liveCandidate": {
+        "name": "Queen",
+        "id": "1dfeR4HaWDbWqFHLkxsg1d",
+        "spotifyUrl": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb73e4d22612ac8d944b5789b4"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 79,
+        "corroborationScore": 85,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 8,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "queen ii",
+                  "the miracle",
+                  "made in heaven",
+                  "innuendo",
+                  "a kind of magic",
+                  "the works",
+                  "hot space",
+                  "the game",
+                  "jazz",
+                  "news of the world",
+                  "a day at the races",
+                  "a night at the opera",
+                  "sheer heart attack",
+                  "queen"
+                ],
+                "count": 14
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day",
+                  "year"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "not_available",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Queen II (2026 Mix)",
+            "Queen II (Collector's Edition)",
+            "Queen I (2024 Mix)",
+            "Queen I (Collector's Edition)",
+            "The Miracle (Collector's Edition)",
+            "Live Around the World (Deluxe)",
+            "Bohemian Rhapsody (The Original Soundtrack)",
+            "Queen On Air",
+            "A Night at the Odeon",
+            "Live at the Rainbow",
+            "Live at the Rainbow (Deluxe)",
+            "Hungarian Rhapsody (Live In Budapest / 1986)",
+            "The Cosmos Rocks",
+            "Queen Rock Montreal",
+            "Return of the Champions",
+            "On Fire: Live At The Bowl",
+            "Made in Heaven",
+            "Made in Heaven (Deluxe Remastered Version)",
+            "Live At Wembley Stadium",
+            "Innuendo (Deluxe Edition)",
+            "Innuendo",
+            "The Miracle",
+            "The Miracle (Deluxe Remastered Version)",
+            "A Kind Of Magic (Deluxe Edition)",
+            "A Kind of Magic",
+            "The Works",
+            "The Works (Deluxe Edition)",
+            "Hot Space",
+            "Hot Space (Deluxe Remastered Version)",
+            "Flash Gordon (Deluxe Remastered Version)",
+            "Flash Gordon (Original Soundtrack)",
+            "The Game",
+            "The Game (Deluxe Edition)",
+            "Live Killers",
+            "Jazz",
+            "Jazz (Deluxe Remastered Version)",
+            "News Of The World (Deluxe Edition)",
+            "News of the World",
+            "A Day At The Races",
+            "A Day At The Races (Deluxe Remastered Version)",
+            "A Night At The Opera",
+            "A Night At The Opera (Deluxe Edition)",
+            "Sheer Heart Attack",
+            "Sheer Heart Attack (Deluxe Edition)",
+            "Queen II",
+            "Queen II (Deluxe Remastered Version)",
+            "Queen",
+            "Queen (Deluxe Edition)",
+            "At The BBC",
+            "Seven Seas Of Rhye (2026 Mix)",
+            "Who Wants to Live Forever (Stranger Things Remix)",
+            "Modern Times Rock 'n' Roll (2024 Mix)",
+            "The Night Comes Down (2024 Mix)",
+            "We Will Rock You (Megan Thee Stallion Version)",
+            "My Radio",
+            "Face It Alone",
+            "Who Wants To Live Forever",
+            "I Was Born To Love You (Live at Summer Sonic, Tokyo, Japan / 2014)",
+            "The Show Must Go On (Live at The O2, London, UK / 04/07/2018)",
+            "You Are The Champions (In Support Of The Covid-19 Solidarity Response Fund)",
+            "Queen at Live Aid (Live at Wembley Stadium, 13th July 1985)",
+            "We Are The Champions (Raw Sessions Version)",
+            "We Will Rock You (Raw Sessions Version)",
+            "We Will Rock You (Fast) [BBC Session / October 28th 1977, Maida Vale 4 Studio]",
+            "Let Me in Your Heart Again (William Orbit Mix)",
+            "Love Kills - The Ballad (2014 Remaster)",
+            "We Will Rock You VonLichten",
+            "Machines (or 'Back To Humans')",
+            "We Are The Champions / We Will Rock You"
+          ],
+          "musicBrainzReleaseTitles": [
+            "Queen",
+            "Queen II",
+            "Sheer Heart Attack",
+            "A Night at the Opera",
+            "A Day at the Races",
+            "News of the World",
+            "Jazz",
+            "The Game",
+            "Hot Space",
+            "The Works",
+            "A Kind of Magic",
+            "The Miracle",
+            "Innuendo",
+            "Made in Heaven",
+            "Greatest Hits",
+            "Queen",
+            "Queen Collection: 15 of the Best",
+            "The Complete Works",
+            "Greatest Hits II",
+            "Classic Queen",
+            "The Queen Collection",
+            "Box of Tricks",
+            "The 12″ Collection",
+            "Greatest Hits I & II",
+            "The Greatest 3"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day",
+            "year"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "0383dadf-2a4e-4d10-a46a-e9e041da8eb3"
+          ],
+          "exactMusicBrainzCandidateCount": 1,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 69,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "Nirvana",
+      "rank": 129,
+      "sourceCandidateSpotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
+      "liveCandidate": {
+        "name": "Nirvana",
+        "id": "6olE6TJLqED3rqDCT0FyPh",
+        "spotifyUrl": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+        "imageUrl": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 79,
+        "corroborationScore": 92,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 15,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "in utero",
+                  "nevermind",
+                  "live and loud",
+                  "live at the paramount",
+                  "live at reading",
+                  "mtv unplugged in new york",
+                  "incesticide",
+                  "bleach"
+                ],
+                "count": 8
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "In Utero (30th Anniversary Super Deluxe)",
+            "Nevermind (30th Anniversary Super Deluxe)",
+            "Live And Loud",
+            "Live At The Paramount",
+            "Live at Reading",
+            "From The Muddy Banks Of The Wishkah (Live)",
+            "MTV Unplugged In New York",
+            "MTV Unplugged In New York (25th Anniversary)",
+            "In Utero",
+            "In Utero (Deluxe Edition)",
+            "In Utero (Super Deluxe Edition)",
+            "Incesticide",
+            "Nevermind (Remastered)",
+            "Bleach (Deluxe Edition)",
+            "Bleach",
+            "Breed (Live In Amsterdam, Netherlands/1991)"
+          ],
+          "musicBrainzReleaseTitles": [
+            "Bleach",
+            "Nevermind",
+            "In Utero",
+            "Incesticide",
+            "Nirvana",
+            "With the Lights Out",
+            "Sliver: The Best of the Box",
+            "2 for 1: Incesticide / In Utero",
+            "In Bloom Collection",
+            "ICON",
+            "Live! Tonight! Sold Out!!",
+            "From the Muddy Banks of the Wishkah",
+            "MTV Unplugged in New York",
+            "Live at Reading",
+            "Live at the Paramount",
+            "Live and Loud",
+            "No Recess",
+            "Blew",
+            "Hormoaning",
+            "Love Buzz",
+            "Sliver",
+            "Candy / Molly’s Lips",
+            "Here She Comes Now / Venus in Furs",
+            "Smells Like Teen Spirit",
+            "Come as You Are"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+          ],
+          "exactMusicBrainzCandidateCount": 5,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 16,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "Dave",
+      "rank": 189,
+      "sourceCandidateSpotifyArtistId": "6Ip8FS7vWT1uKkJSweANQK",
+      "liveCandidate": {
+        "name": "Dave",
+        "id": "6Ip8FS7vWT1uKkJSweANQK",
+        "spotifyUrl": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2f23c7e361cef62490f44057"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 79,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 1,
+            "points": 25
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "manual_review_required",
+        "firstStageConfidence": 79,
+        "corroborationScore": 7,
+        "confidence": 79,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "not_available"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "not_available"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "not_available"
+              },
+              {
+                "type": "active_dates",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "not_available"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": false,
+          "strongClasses": [],
+          "moderateClasses": []
+        },
+        "conflicts": [],
+        "requiresHumanReview": true,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "not_available",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "not_available",
+          "artistType": "not_available",
+          "area": "not_available",
+          "activeDates": "not_available"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "The Boy Who Played the Harp",
+            "We're All Alone In This Together",
+            "PSYCHODRAMA",
+            "Game Over",
+            "Doesn't Just Happen",
+            "Stop Giving Me Advice",
+            "Meridian & Special",
+            "Cheat On Me (feat. Dave)",
+            "INTOXYCATED",
+            "Split Decision",
+            "Sprinter",
+            "Fresh Out The Bank (feat. Dave)",
+            "Propeller (feat. Dave & BNXN)",
+            "My 24th Birthday",
+            "Starlight",
+            "Verdansk (Survival Mode)",
+            "System (feat. WizKid)",
+            "Clash (feat. Stormzy)",
+            "Titanium & Mercury",
+            "Little Bo Peep (feat. Dave, Hamzaa & Wretch 32)",
+            "Children Of The Internet",
+            "Paper Cuts",
+            "Professor X",
+            "God's Eye",
+            "Nothing On You (feat. Paulo Londra & Dave)",
+            "Black",
+            "18HUNNA (feat. Dave) [Four Tet Remix]",
+            "All I Ever Wanted (feat. Dave) [Edit]",
+            "18HUNNA (feat. Dave)",
+            "Funky Friday",
+            "Hangman",
+            "Question Time",
+            "Tequila",
+            "100M's",
+            "Revenge",
+            "Samantha",
+            "Wanna Know Remix (feat. Drake)",
+            "Six Paths",
+            "Picture Me",
+            "Thiago Silva",
+            "JKYL+HYD"
+          ],
+          "musicBrainzReleaseTitles": [],
+          "chronology": "not_available",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [],
+          "exactMusicBrainzCandidateCount": 0,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 41,
+          "musicBrainzReleaseGroupCount": 0
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "Disney",
+      "rank": 117,
+      "sourceCandidateSpotifyArtistId": "3xvaSlT4xsyk6lY1ESOspO",
+      "liveCandidate": {
+        "name": "Disney",
+        "id": "3xvaSlT4xsyk6lY1ESOspO",
+        "spotifyUrl": "https://open.spotify.com/artist/3xvaSlT4xsyk6lY1ESOspO",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb129de9f205c1a63203238d6c"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 75,
+        "corroborationScore": 62,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 15,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 5,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [],
+                "count": 0
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Descendants: Wicked Wonderland (Original Soundtrack)",
+            "Moana (Original Score)",
+            "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "Soy Luna: Volver a rodar (Banda Sonora Original)",
+            "Moana (Original Motion Picture Soundtrack)",
+            "Lo mejor de Soy Luna",
+            "Disney Descendants/ZOMBIES: Worlds Collide Tour - The Live Album",
+            "Disney Love Songs: Classical Covers",
+            "Disney Jr. Music: Nursery Rhymes",
+            "Disney Jr. Music: Sleep Lullabies",
+            "Sofia The First: Royal Collection",
+            "Disney Peaceful Strings: Enchanted",
+            "Disney Channel Holiday: Falalalidays",
+            "Zootopia 2 (Original Motion Picture Soundtrack)",
+            "A Very Jonas Christmas Movie (Original Soundtrack)",
+            "Disney Orgel Music Box Vol. 2",
+            "Vampirina: Teenage Vampire (Original Soundtrack)",
+            "Playback: Una somos dos (Banda Sonora Original)",
+            "Electric Bloom: Season 1 (Original Soundtrack)",
+            "Disney Jr. Music: Let’s Play!",
+            "Freakier Friday (Original Motion Picture Soundtrack)",
+            "Pixar Instrumentals: Toy Story",
+            "ZOMBIES 4: Dawn of the Vampires (Original Soundtrack)",
+            "Lilo & Stitch (Original Motion Picture Soundtrack)",
+            "Frozen: La Colección de Aventuras Mágicas",
+            "Music from Disneyland Resort 70th Celebration",
+            "Disney's Snow White (Original Score)",
+            "Disney's Snow White (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "Disney's Snow White (Original Motion Picture Soundtrack)",
+            "Moana 2 (Original Score)",
+            "Disney Antes de la historia: El plan secreto de Mulán",
+            "Mufasa: The Lion King (Original Score)",
+            "Mufasa: The Lion King (Original Motion Picture Soundtrack)",
+            "Mufasa: The Lion King (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "Moana 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "Moana 2 (Original Motion Picture Soundtrack)",
+            "Buscando a Dory",
+            "Buscando a Nemo",
+            "A Whole New Sound",
+            "Mundo Extrano",
+            "Up",
+            "Luca",
+            "Onward",
+            "Del Revés",
+            "Raya y el último dragón",
+            "Vaiana",
+            "Frozen 2",
+            "Cars 3",
+            "Cars 2",
+            "Descendants: The Rise of Red (Original Soundtrack)",
+            "Encanto",
+            "Cars",
+            "Frozen",
+            "Coco",
+            "Wish (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "Wish (Original Motion Picture Soundtrack)",
+            "High School Musical: The Musical: The Series (Original Soundtrack/The Final Season)",
+            "The Little Mermaid (Original Motion Picture Soundtrack/Deluxe Edition)",
+            "The Little Mermaid (Original Motion Picture Soundtrack)",
+            "Walt Disney Records The Legacy Collection: Aladdin",
+            "High School Musical: The Musical: The Series (Original Soundtrack/Season 3)",
+            "Pinocchio (Original Soundtrack)",
+            "ZOMBIES 3 (Original Soundtrack)",
+            "Disney Guitar: Serenity",
+            "Disney Peaceful Piano: Blissful",
+            "Disney Guitar: Tranquility",
+            "Disney Peaceful Piano: Serenity",
+            "Disney Peaceful Piano: Balance",
+            "Disney Guitar: Self-Care Day",
+            "Disney Peaceful Piano: Tranquility",
+            "Disney Guitar: Break Time",
+            "Disney Peaceful Piano: Dream",
+            "Disney Guitar: Joy",
+            "Disney Peaceful Piano: Break Time",
+            "High School Musical: The Musical: The Series (Original Soundtrack/Season 2)",
+            "Disney Guitar: Blissful",
+            "Disney Peaceful Piano: Self-Care Day",
+            "Disney Guitar: Dream",
+            "Disney Peaceful Piano: Holiday",
+            "Disney Peaceful Piano: Breathe",
+            "Disney Guitar: Breathe",
+            "Disney Guitar: Happy",
+            "Disney Guitar: Motivation",
+            "Disney Guitar: Calm",
+            "Disney Guitar: Chill",
+            "Disney Guitar: Love",
+            "Disney Guitar: Lullaby",
+            "Disney Peaceful Piano: Love Songs",
+            "Disney Peaceful Piano: Motivation",
+            "Disney Peaceful Piano: Chill",
+            "Disney Peaceful Piano: Lullaby",
+            "Disney Peaceful Piano: Calm",
+            "Disney Peaceful Piano: Happy",
+            "High School Musical 3: Senior Year",
+            "The Little Mermaid Special Edition",
+            "Alas - Versión 2026 (De \"Soy Luna: Volver a rodar\" | Disney+)",
+            "Coming Home This Christmas (From \"A Very Jonas Christmas Movie\")",
+            "Zoo (From \"Zootopia 2\")",
+            "Disney Guitar: Fall Songs",
+            "Disney Princess Peaceful Strings: Garden Soirée",
+            "Take Me Away (From \"Freakier Friday\")",
+            "Disney Guitar: Summer Songs",
+            "Electric Bloom",
+            "Hawaiian Roller Coaster Ride (From \"Lilo & Stitch\")",
+            "Disney Guitar: Spring Songs",
+            "Waiting On A Wish (From \"Disney's Snow White\")",
+            "Disney Instrumentals: Tim Burton’s The Nightmare Before Christmas",
+            "Beyond (End Credit Version) [From \"Moana 2\"]",
+            "Go the Distance (From \"A Whole New Sound\")",
+            "Part of Your World (From \"A Whole New Sound\")",
+            "I2I (From \"A Whole New Sound\")",
+            "Can You Feel the Love Tonight (From \"A Whole New Sound\")",
+            "Red (From \"Descendants: The Rise of Red\")",
+            "What's My Name (Red Version) [From \"Descendants: The Rise of Red\"/Soundtrack Version]",
+            "Knowing What I Know Now (From \"Wish\")",
+            "I'm A Star (From \"Wish\")",
+            "Welcome To Rosas (From \"Wish\")",
+            "This Is The Thanks I Get?! (From \"Wish\")",
+            "This Wish (From \"Wish\")",
+            "High School Reunion [From \"High School Musical: The Musical: The Series (The Final Season)]",
+            "Someday/Ain't No Doubt About It Mashup",
+            "Home for the Holidays with DCappella",
+            "Go the Distance",
+            "High School Musical: The Musical: The Series Season 3 (Episode 7) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "High School Musical: The Musical: The Series Season 3 (Episode 6) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "High School Musical: The Musical: The Series Season 3 (Episode 5) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "High School Musical: The Musical: The Series Season 3 (Episode 4) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "What Is This Feeling (From \"ZOMBIES 3\")",
+            "High School Musical: The Musical: The Series Season 3 (Episode 3) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "High School Musical: The Musical: The Series Season 3 (Episode 2) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "High School Musical: The Musical: The Series Season 3 (Episode 1) [From \"High School Musical: The Musical: The Series (Season 3)\"]",
+            "It's On [From \"High School Musical: The Musical: The Series (Season 3)\"/Camp Rock 2: The Final Jam]",
+            "Disney Ukulele: Lullaby",
+            "Disney Ukulele: Soothing",
+            "Disney Ukulele: Love",
+            "Magic Reimagined",
+            "Disney Ukulele: Happy",
+            "Disney Peaceful Piano: Peace",
+            "Disney Peaceful Piano: Magical",
+            "Disney Guitar: Peace",
+            "Disney Peaceful Piano: Spirit",
+            "Disney Guitar: Magical",
+            "Disney Peaceful Piano: Family",
+            "Disney Guitar: Family",
+            "Disney Guitar: Spirit",
+            "Prince Ali",
+            "Surface Pressure",
+            "EPCOT Medley",
+            "Disney Guitar: The John Connearn Sessions",
+            "Shrimpy in the House (From \"ZOMBIES: Addison's Monster Mystery\")",
+            "The Magic Is Calling (From \"Walt Disney World 50\")",
+            "There's a Great Big Beautiful Tomorrow",
+            "There's a Great Big Beautiful Tomorrow",
+            "There's a Great Big Beautiful Tomorrow",
+            "Cantina Band",
+            "Disney Peaceful Piano: Mindful",
+            "Disney Guitar: The Molly Miller Sessions",
+            "Disney Peaceful Piano: Joy",
+            "Disney Peaceful Piano: Soothing"
+          ],
+          "musicBrainzReleaseTitles": [
+            "東京ディズニーシー ビリーヴ!〜シー・オブ・ドリームス〜",
+            "Disney Druckstudio – Mickey und Crew",
+            "Muzyczne przygody – Antek",
+            "Sing-Along - My First Princess Songs",
+            "Storybook",
+            "Tinkerbell",
+            "Bernard & Bianca Im Känguruland (Das Original-Hörspiel Zum Film)",
+            "Phineas und Ferb Folge 2",
+            "Planes: Fire & Rescue Read-Along Storybook",
+            "Arielle die Meerjungfrau",
+            "Ein Königreich für ein Lama",
+            "The Lion King – Simba’s Adventure",
+            "Bambi 2: Der Herr der Wälder",
+            "Disney Princess Magical Tales (Read-Along Storybook and CD Collection)",
+            "Walt Disney's Dog Songs",
+            "New Chilling, Thrilling Sounds of the Haunted House",
+            "The Disney Christmas Collection (Disc A)",
+            "The Disney Christmas Collection (Disc B)",
+            "The Twelve Days of Christmas",
+            "Disney Movie Hits",
+            "Wunderland der Phantasie: eine musikalische Reise durch Euro Disney",
+            "Applaus für Micky",
+            "Birthday Songs: Games & Fun For Your Party",
+            "Schneewittchen und die sieben Zwerge",
+            "Christmas Favorites, Volume 2"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "66ea0139-149f-4a0c-8fbf-5ea9ec4a6e49"
+          ],
+          "exactMusicBrainzCandidateCount": 2,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [
+            "020SpMW1x8FI4cRRu3lCxz",
+            "2dV0LtptnDS24WcIR4pf0O",
+            "5EPQb0h5U2AWk8OxzEWxx2",
+            "5eZaiEHwroeoYdvU6wsK7K",
+            "5sQIcTcG5lWuZcIU96TaGV"
+          ],
+          "spotifyReleaseCount": 159,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "P!nk",
+      "rank": 134,
+      "sourceCandidateSpotifyArtistId": "1KCSPY1glIKqW2TotWuXOR",
+      "liveCandidate": {
+        "name": "P!nk",
+        "id": "1KCSPY1glIKqW2TotWuXOR",
+        "spotifyUrl": "https://open.spotify.com/artist/1KCSPY1glIKqW2TotWuXOR",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb7bbad89a61061304ec842588"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 2,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk",
+          "short_or_common_name_without_verified_id"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 75,
+        "corroborationScore": 92,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 15,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "trustfall",
+                  "all i know so far setlist",
+                  "hurts 2b human",
+                  "beautiful trauma",
+                  "the truth about love",
+                  "funhouse",
+                  "i m not dead",
+                  "try this",
+                  "m ssundaztood",
+                  "can t take me home",
+                  "beautiful trauma the remixes"
+                ],
+                "count": 11
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day",
+                  "year"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "TRUSTFALL (Tour Deluxe Edition)",
+            "TRUSTFALL",
+            "All I Know So Far: Setlist",
+            "Hurts 2B Human",
+            "Beautiful Trauma",
+            "The Truth About Love",
+            "Funhouse (Expanded Edition)",
+            "I'm Not Dead",
+            "Try This",
+            "M!ssundaztood",
+            "M!ssundaztood (Expanded Edition)",
+            "Can't Take Me Home (Expanded Edition)",
+            "All I Know So Far (Remixes)",
+            "All I Know So Far",
+            "Cover Me In Sunshine",
+            "One Too Many",
+            "Hurts 2B Human (The Remixes) (feat. Khalid)",
+            "Can We Pretend (The Remixes) (feat. Cash Cash)",
+            "Can We Pretend (feat. Cash Cash) [Sigala Remix]",
+            "Walk Me Home (The Remixes)",
+            "Walk Me Home (The Remixes 2)",
+            "Hurts 2B Human (feat. Khalid)",
+            "Can We Pretend (feat. Cash Cash)",
+            "Hustle",
+            "Walk Me Home (R3HAB Remix)",
+            "Walk Me Home",
+            "A Million Dreams",
+            "Secrets (The Remixes)",
+            "Whatever You Want (The Remixes)",
+            "Beautiful Trauma (The Remixes)",
+            "What About Us (Tiësto's AFTR:HRS Remix)",
+            "Whatever You Want",
+            "Beautiful Trauma",
+            "What About Us (The Remixes)",
+            "Waterfall",
+            "Just Like Fire (From the Original Motion Picture \"Alice Through The Looking Glass\") [Wideboys Remix]",
+            "Just Like Fire (From the Original Motion Picture \"Alice Through The Looking Glass\")",
+            "Today's The Day (From \"The Ellen DeGeneres Show\")",
+            "True Love (feat. Lily Allen)",
+            "Try",
+            "Blow Me (One Last Kiss)",
+            "F**kin' Perfect (Radio Edit)",
+            "Raise Your Glass",
+            "Glitter In The Air Digital 45",
+            "Funhouse",
+            "Bad Influence",
+            "Please Don't Leave Me",
+            "Sober",
+            "So What (Bimbo Jones Mix)",
+            "So What (Bimbo Jones Radio Mix)",
+            "Dear Mr. President (Live At Q Music)",
+            "Dear Mr. President",
+            "Dear Mr. President",
+            "Nobody Knows",
+            "U + Ur Hand",
+            "Who Knew",
+            "Who Knew (Bimbo Jones Club Mix)",
+            "U + Ur Hand (Bimbo Jones Remix)",
+            "Stupid Girls",
+            "God Is A DJ",
+            "Trouble (Session @ AOL Version)",
+            "Lady Marmalade"
+          ],
+          "musicBrainzReleaseTitles": [
+            "Can’t Take Me Home",
+            "M!ssundaztood",
+            "Try This",
+            "I’m Not Dead",
+            "Funhouse",
+            "The Truth About Love",
+            "Beautiful Trauma",
+            "Hurts 2B Human",
+            "TRUSTFALL",
+            "Can’t Take Me Home / Missundaztood",
+            "Greatest Hits… So Far!!!",
+            "The Album Collection",
+            "The Albums…So Far!!!",
+            "Live in Europe: From the 2004 Try This Tour",
+            "Live From Wembley Arena",
+            "Funhouse Tour: Live in Australia",
+            "The Truth About Love Tour: Live From Melbourne",
+            "All I Know So Far: Setlist",
+            "iTunes Festival: London 2012",
+            "The Remixes",
+            "Beautiful Trauma (The Remixes)",
+            "Hurts 2B Human (The Remixes)",
+            "Anywhere Away from Here (Remixes)",
+            "All I Know So Far (the remixes)",
+            "There You Go"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day",
+            "year"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "f4d5cc07-3bc9-4836-9b15-88a08359bc63"
+          ],
+          "exactMusicBrainzCandidateCount": 1,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 62,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    },
+    {
+      "artistNameRaw": "A$AP Rocky",
+      "rank": 143,
+      "sourceCandidateSpotifyArtistId": "13ubrt8QOOCPljQ2FL1Kca",
+      "liveCandidate": {
+        "name": "A$AP Rocky",
+        "id": "13ubrt8QOOCPljQ2FL1Kca",
+        "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7"
+      },
+      "firstStageAssessment": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "existing_musicroll_spotify_id",
+            "result": "not_available",
+            "points": 0
+          },
+          {
+            "type": "exact_normalized_name",
+            "result": "match",
+            "points": 60
+          },
+          {
+            "type": "candidate_count",
+            "result": 3,
+            "points": 0
+          },
+          {
+            "type": "exact_displayed_name",
+            "result": "match",
+            "points": 10
+          },
+          {
+            "type": "candidate_image",
+            "result": "available",
+            "points": 5,
+            "note": "Supporting completeness evidence only; never identity proof by itself."
+          },
+          {
+            "type": "catalog_consistency",
+            "result": "not_evaluated",
+            "points": 0
+          },
+          {
+            "type": "monthly_listener_rank",
+            "result": "excluded_from_identity_scoring",
+            "points": 0
+          }
+        ],
+        "conflicts": [],
+        "reviewReasons": [
+          "multiple_exact_name_profiles",
+          "punctuation_or_symbol_risk"
+        ],
+        "requiresHumanReview": true
+      },
+      "secondStageAssessment": {
+        "status": "high_confidence_candidate",
+        "firstStageConfidence": 75,
+        "corroborationScore": 92,
+        "confidence": 95,
+        "evidenceClasses": [
+          {
+            "class": "music_roll_authority",
+            "score": 0,
+            "strength": "not_available",
+            "evidence": [
+              {
+                "type": "existing_verified_spotify_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_identifiers",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "musicbrainz_spotify_url",
+                "result": "match"
+              },
+              {
+                "type": "musicroll_verified_external_id",
+                "result": "not_available"
+              }
+            ]
+          },
+          {
+            "class": "cross_database_entity_metadata",
+            "score": 15,
+            "strength": "moderate",
+            "evidence": [
+              {
+                "type": "alias",
+                "result": "match"
+              },
+              {
+                "type": "artist_type",
+                "result": "not_available"
+              },
+              {
+                "type": "area",
+                "result": "compatible"
+              },
+              {
+                "type": "active_dates",
+                "result": "compatible"
+              }
+            ]
+          },
+          {
+            "class": "catalog_fingerprint",
+            "score": 35,
+            "strength": "strong",
+            "evidence": [
+              {
+                "type": "distinctive_release_title_overlap",
+                "result": [
+                  "don t be dumb",
+                  "testing",
+                  "at long last a ap",
+                  "long live a ap",
+                  "live love a ap",
+                  "l d",
+                  "m",
+                  "lord pretty flacko jodye 2 lpfj2",
+                  "purple swag",
+                  "peso"
+                ],
+                "count": 10
+              },
+              {
+                "type": "chronology",
+                "result": "compatible"
+              },
+              {
+                "type": "coherent_primary_profile",
+                "result": true
+              },
+              {
+                "type": "empty_alternative_count",
+                "result": 0
+              },
+              {
+                "type": "catalog_complete",
+                "result": true
+              },
+              {
+                "type": "partial_date_precisions",
+                "result": [
+                  "day",
+                  "year"
+                ]
+              },
+              {
+                "type": "posthumous_or_reissue_activity",
+                "result": false,
+                "note": "Does not imply current artist activity."
+              }
+            ]
+          },
+          {
+            "class": "weak_presentation_evidence",
+            "score": 7,
+            "strength": "weak",
+            "evidence": [
+              {
+                "type": "image_available",
+                "result": true
+              },
+              {
+                "type": "punctuation_or_case_agreement",
+                "result": true
+              },
+              {
+                "type": "has_release",
+                "result": true
+              }
+            ]
+          }
+        ],
+        "independentCorroboration": {
+          "satisfied": true,
+          "strongClasses": [
+            "cross_database_identifiers",
+            "catalog_fingerprint"
+          ],
+          "moderateClasses": [
+            "cross_database_identifiers",
+            "cross_database_entity_metadata",
+            "catalog_fingerprint"
+          ]
+        },
+        "conflicts": [],
+        "requiresHumanReview": false,
+        "inferredIdentityMarkedVerified": false
+      },
+      "evidence": {
+        "crossDatabaseIdentifiers": {
+          "musicBrainzSpotifyUrl": "match",
+          "spotifyUrl": "not_available"
+        },
+        "crossDatabaseEntityMetadata": {
+          "alias": "match",
+          "artistType": "not_available",
+          "area": "compatible",
+          "activeDates": "compatible"
+        },
+        "catalogFingerprint": {
+          "spotifyReleaseTitles": [
+            "Don't Be Dumb",
+            "TESTING",
+            "AT.LONG.LAST.A$AP",
+            "LONG.LIVE.A$AP (Deluxe Version)",
+            "LIVE.LOVE.A$AP",
+            "FISH N STEAK (WHAT IT IS) (feat. Tyler, The Creator & Jozzy)",
+            "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+            "FLACKITO JODYE (feat. Tokischa)",
+            "HELICOPTER",
+            "WHISKEY (RELEASE ME) (feat. Gorillaz & Westside Gunn)",
+            "THE END (feat. will.i.am & Jessica Pratt)",
+            "STFU (feat. Slay Squad)",
+            "PUNK ROCKY",
+            "Trunks (From \"Highest 2 Lowest\")",
+            "Both Eyes Closed (From \"Highest 2 Lowest\")",
+            "pray4dagang (feat. KayCyy)",
+            "HIGHJACK (right back)",
+            "Big Dawgs (Remix) [with A$AP Rocky]",
+            "Ruby Rosary (feat. J. Cole)",
+            "Tailor Swif",
+            "HIGHJACK",
+            "HOODLUMZ (with PlayThatBoiZay & A$AP Rocky)",
+            "Gangsta",
+            "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
+            "RIOT (Rowdy Pipe'n)",
+            "Same Problems?",
+            "Chit Chat",
+            "Chit Chat",
+            "Shittin' Me",
+            "Sh*ttin' Me",
+            "Praise The Lord (Da Shine) (feat. Skepta) [Durdenhauer Edit]",
+            "Strangers (feat. A$AP Rocky and Run The Jewels)",
+            "D.M.B.",
+            "The God Hour",
+            "Doja",
+            "Arya",
+            "Rich Nigga Problems",
+            "MAZZA (feat. A$AP Rocky)",
+            "Babushka Boi",
+            "Energy (Remixes) (feat. Sabrina Claudio)",
+            "Live Fast (PUBGM)",
+            "Energy (feat. Sabrina Claudio) [Sonny Fodera Remix]",
+            "Energy",
+            "Walk (Remix)",
+            "Sundress",
+            "Potato Salad",
+            "A$AP Forever (feat. Moby)",
+            "Bad Company (feat. BlocBoy JB)",
+            "Cocky (feat. London On Da Track)",
+            "FTW (F**k The World) [with A$AP Rocky & Tom Morello] [From Bright: The Album]",
+            "Dawsin's Breek (feat. A$AP Rocky) [Remix]",
+            "Pick It Up (feat. A$AP Rocky)",
+            "L$D",
+            "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
+            "M'$",
+            "Lord Pretty Flacko Jodye 2 (LPFJ2)",
+            "Multiply (feat. Juicy J)",
+            "Grippin' Woodgrain (feat. ASAP Rocky)",
+            "Purple Swag",
+            "Peso"
+          ],
+          "musicBrainzReleaseTitles": [
+            "Purple Reign",
+            "LONG.LIVE.A$AP",
+            "AT.LONG.LAST.A$AP",
+            "TESTING",
+            "Don’t Be Dumb",
+            "Live.Love.A$AP",
+            "Energy (Remixes)",
+            "4 Loko",
+            "Peso",
+            "Purple Swag",
+            "Pretty Flacko",
+            "Wild for the Night",
+            "Hands on the Wheel",
+            "Goldie",
+            "Fuckin’ Problems",
+            "Fashion Killa",
+            "Shabba",
+            "No Rest for the Wicked",
+            "Multiply",
+            "Lord Pretty Flacko Jodye 2 (LPFJ2)",
+            "M'$",
+            "Everyday",
+            "L$D",
+            "Good for You",
+            "Hear Me"
+          ],
+          "chronology": "compatible",
+          "primaryCoherent": true,
+          "emptyAlternativeCount": 0,
+          "multiplePlausibleSameNameCatalogs": false,
+          "complete": true,
+          "partialDatePrecisions": [
+            "day",
+            "year"
+          ]
+        },
+        "weakPresentationEvidence": {
+          "imageAvailable": true,
+          "punctuationOrCaseAgreement": true,
+          "hasRelease": true
+        },
+        "audit": {
+          "linkedMusicBrainzIds": [
+            "25b7b584-d952-4662-a8b9-dd8cdfbfeb64"
+          ],
+          "exactMusicBrainzCandidateCount": 1,
+          "otherSpotifyIdsInExactMusicBrainzCandidates": [],
+          "spotifyReleaseCount": 60,
+          "musicBrainzReleaseGroupCount": 25
+        }
+      },
+      "finalIdentityVerified": false
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "theoreticalPromotions": [
+      "Future",
+      "Queen",
+      "Nirvana",
+      "Disney",
+      "P!nk",
+      "A$AP Rocky"
+    ],
+    "remainingManualOrConflicting": [
+      "Dave"
+    ],
+    "duplicateSpotifyIds": [],
+    "apiErrors": []
+  },
+  "validation": {
+    "expectedNamesPresent": true,
+    "inferredIdentitiesMarkedVerified": 0,
+    "liveMigrationPerformed": false
+  }
+}
