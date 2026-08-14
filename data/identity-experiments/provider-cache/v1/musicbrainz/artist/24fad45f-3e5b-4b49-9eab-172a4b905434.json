@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "24fad45f-3e5b-4b49-9eab-172a4b905434",
+  "retrievedAt": "2026-08-14T05:19:00.067Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "24fad45f-3e5b-4b49-9eab-172a4b905434",
+      "name": "Wednesday",
+      "sortName": "Wednesday",
+      "artistType": null,
+      "disambiguation": "producer based in Portland, Oregon",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4SFD7Ew6598uFcqQ6oFi42"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+      },
+      "end-area": null,
+      "id": "24fad45f-3e5b-4b49-9eab-172a4b905434",
+      "begin-area": null,
+      "relations": [
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "2ab3bc91-06a3-4489-afff-650c543bb550",
+            "resource": "https://open.spotify.com/artist/4SFD7Ew6598uFcqQ6oFi42"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "type": "free streaming",
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "ended": false,
+          "attributes": []
+        }
+      ],
+      "type-id": null,
+      "gender-id": null,
+      "disambiguation": "producer based in Portland, Oregon",
+      "sort-name": "Wednesday",
+      "isnis": [],
+      "type": null,
+      "name": "Wednesday",
+      "aliases": [],
+      "country": null,
+      "gender": null,
+      "area": null,
+      "ipis": []
+    }
+  }
+}

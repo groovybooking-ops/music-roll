@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "redveil",
+    "proposedMusicRollId": "mr_artist_000015",
+    "spotifyArtistId": "5BwsX8bXOFC1YnqSlyfOKM"
+  },
+  "outcome": "coherent_identity_evidence",
+  "exactSpotifyUrlFallback": {
+    "status": "unique_exact_url_relationship",
+    "selectedMbid": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+    "candidates": [
+      {
+        "musicBrainzArtistId": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+        "name": "redveil",
+        "sortName": "redveil",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5BwsX8bXOFC1YnqSlyfOKM",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8370315",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5BwsX8bXOFC1YnqSlyfOKM",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q111987167",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8370315",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "8370315"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+      "source": "musicbrainz",
+      "path": "url.exact_spotify_artist_relationship",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "5BwsX8bXOFC1YnqSlyfOKM",
+      "observedValues": [
+        "5BwsX8bXOFC1YnqSlyfOKM"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5BwsX8bXOFC1YnqSlyfOKM",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5BwsX8bXOFC1YnqSlyfOKM",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q111987167",
+      "observedValues": [
+        "Q111987167"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q111987167",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+      "observedValues": [
+        "f76307c7-b9da-45ce-99e7-49181dd43e47"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "8370315",
+      "observedValues": [
+        "8370315"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8370315",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8370315",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "8370315"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+        "name": "redveil",
+        "sortName": "redveil",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "5BwsX8bXOFC1YnqSlyfOKM"
+        ],
+        "discogsArtistIds": [
+          "8370315"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "unique_musicbrainz_exact_spotify_url_relationship",
+    "musicbrainz_derived_discogs:f76307c7-b9da-45ce-99e7-49181dd43e47->8370315"
+  ],
+  "evidence": {
+    "wikidata": null,
+    "musicBrainzRecords": {
+      "f76307c7-b9da-45ce-99e7-49181dd43e47": {
+        "artist": {
+          "musicBrainzArtistId": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+          "name": "redveil",
+          "sortName": "redveil",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "name": "Washington, D.C.",
+            "sortName": "Washington, D.C.",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2004-04-20",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Marcus Morton",
+              "sortName": "Morton, Marcus",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000511590285"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://redveil.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/8370315"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/9850238"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://redveil.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/redveil"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/redveil"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/redveilisonline"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/redveil/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@redveilisonline"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/10071935"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/whyredveil"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B07PZYH53L"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1470333896"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1470333896"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7607680"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q111987167"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCV9iemrgjoeUr47JAx3I0vQ"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCovGS9S1dDD7Dk1uYznGARg"
+            }
+          ]
+        },
+        "raw": {
+          "name": "redveil",
+          "isnis": [
+            "0000000511590285"
+          ],
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "United States"
+          },
+          "end-area": null,
+          "type": "Person",
+          "aliases": [
+            {
+              "begin": null,
+              "sort-name": "Morton, Marcus",
+              "locale": null,
+              "type-id": null,
+              "primary": null,
+              "end": null,
+              "ended": false,
+              "name": "Marcus Morton",
+              "type": null
+            }
+          ],
+          "relations": [
+            {
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "id": "f33c4128-2f85-4ec8-a1d1-8f0329891719",
+                "resource": "https://redveil.bandcamp.com/"
+              },
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "bandcamp",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "type": "discogs",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.discogs.com/artist/8370315",
+                "id": "a04322d7-34cc-4f6d-a3ca-d8b2542986c1"
+              },
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "free streaming",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM",
+                "id": "36be0d42-2e12-4e94-abaf-ab137776d2ca"
+              }
+            },
+            {
+              "type": "free streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://www.deezer.com/artist/9850238",
+                "id": "ae9b593f-978f-4952-b8bb-e4890f71d1c3"
+              }
+            },
+            {
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "url": {
+                "resource": "https://redveil.com/",
+                "id": "296dce20-8fc2-4493-890c-6a96e474ec1a"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "official homepage"
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "9978ad7a-e24f-423f-b839-215cdc74cdb9",
+                "resource": "https://rateyourmusic.com/artist/redveil"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "social network",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "f41e4799-d6ca-4eec-abe0-23e33909b1b9",
+                "resource": "https://twitter.com/redveil"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "678e83ae-9367-4159-a505-909dbdd61ef3",
+                "resource": "https://www.facebook.com/redveilisonline"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "type": "social network",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.instagram.com/redveil/",
+                "id": "d0126120-66df-43b5-9ed3-7c10a021398d"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "d3371787-e61f-4ab6-886a-b9899161c173",
+                "resource": "https://www.tiktok.com/@redveilisonline"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type": "songkick",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "4e145e1c-7565-4ba2-be5b-d4024ac7fc02",
+                "resource": "https://www.songkick.com/artists/10071935"
+              },
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+            },
+            {
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "soundcloud",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://soundcloud.com/whyredveil",
+                "id": "cf8783f2-6359-4a77-bf22-8f5784ea3acf"
+              },
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://music.amazon.com/artists/B07PZYH53L",
+                "id": "121c4783-b1fa-4da6-9d71-665eee0009e1"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "type": "streaming",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "86cbe0cc-def0-493f-af7c-52b143d243cd",
+                "resource": "https://music.apple.com/gb/artist/1470333896"
+              }
+            },
+            {
+              "url": {
+                "resource": "https://music.apple.com/us/artist/1470333896",
+                "id": "4eebfc8b-5b60-4dd9-9b94-538c2ba04be0"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "url": {
+                "id": "3fc8fb61-f91e-42d6-b012-5a2fbf0cfdaf",
+                "resource": "https://tidal.com/artist/7607680"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q111987167",
+                "id": "c37b397e-9445-4fa8-a36c-d48a136e482a"
+              },
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "wikidata"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "c5eb8290-74ec-4c52-8afb-04f78b38b2ad",
+                "resource": "https://www.youtube.com/channel/UCV9iemrgjoeUr47JAx3I0vQ"
+              },
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "youtube",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "youtube music",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "url": {
+                "resource": "https://music.youtube.com/channel/UCovGS9S1dDD7Dk1uYznGARg",
+                "id": "e522688b-e176-4fab-8262-401968fe4bd1"
+              },
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": []
+            }
+          ],
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "country": "US",
+          "sort-name": "redveil",
+          "gender": "Male",
+          "begin-area": {
+            "disambiguation": "",
+            "sort-name": "Washington, D.C.",
+            "type-id": null,
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "name": "Washington, D.C.",
+            "iso-3166-2-codes": [
+              "US-DC"
+            ],
+            "type": null
+          },
+          "id": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "ipis": [],
+          "life-span": {
+            "end": null,
+            "ended": false,
+            "begin": "2004-04-20"
+          },
+          "disambiguation": ""
+        }
+      }
+    },
+    "discogsRecords": {
+      "8370315": {
+        "artist": {
+          "discogsArtistId": "8370315",
+          "name": "Redveil",
+          "realName": "Marcus Morton",
+          "profile": "Redveil is a 20-year old hip hop artist and producer from Maryland, making music in styles that include jazz rap, abstract hip-hop, and alternative hip-hop backed by soul and funk samples.",
+          "artistUrls": [
+            "https://redveil.bandcamp.com/"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "5584339",
+              "name": "Marcus Morton"
+            }
+          ],
+          "nameVariations": [],
+          "discogsResourceUrl": "https://api.discogs.com/artists/8370315",
+          "discogsWebUrl": "https://www.discogs.com/artist/8370315-Redveil",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Redveil",
+          "id": 8370315,
+          "resource_url": "https://api.discogs.com/artists/8370315",
+          "uri": "https://www.discogs.com/artist/8370315-Redveil",
+          "releases_url": "https://api.discogs.com/artists/8370315/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/nmbMMXwdiIfectb3C4SMTEgmLdWCvby5tLGtWeEvcJk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgzNzAz/MTUtMTYwNzgxMzk3/OC0xMTk3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/nmbMMXwdiIfectb3C4SMTEgmLdWCvby5tLGtWeEvcJk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgzNzAz/MTUtMTYwNzgxMzk3/OC0xMTk3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/LZoPFrdK5kK6wOEOfcrKou0L3KNCLDYpzo9xxiT7BqM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgzNzAz/MTUtMTYwNzgxMzk3/OC0xMTk3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            }
+          ],
+          "realname": "Marcus Morton",
+          "profile": "Redveil is a 20-year old hip hop artist and producer from Maryland, making music in styles that include jazz rap, abstract hip-hop, and alternative hip-hop backed by soul and funk samples.",
+          "urls": [
+            "https://redveil.bandcamp.com/"
+          ],
+          "aliases": [
+            {
+              "id": 5584339,
+              "name": "Marcus Morton",
+              "resource_url": "https://api.discogs.com/artists/5584339"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

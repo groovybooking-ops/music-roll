@@ -1,0 +1,30 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "name": "SZA: Grand National Tour",
+        "id": "event-one",
+        "url": "https://www.ticketmaster.com/event-one",
+        "dates": { "start": { "localDate": "2026-09-01", "localTime": "20:00:00", "dateTime": "2026-09-02T00:00:00Z" } },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Example Arena",
+              "city": { "name": "New York" },
+              "state": { "name": "New York", "stateCode": "NY" },
+              "country": { "name": "United States Of America", "countryCode": "US" },
+              "location": { "longitude": "-73.9934", "latitude": "40.7505" }
+            }
+          ]
+        }
+      },
+      {
+        "name": "SZA",
+        "id": "event-two",
+        "url": "https://www.ticketmaster.com/event-two",
+        "dates": { "start": { "localDate": "2026-09-04" } }
+      }
+    ]
+  },
+  "page": { "size": 3, "totalElements": 4, "totalPages": 2, "number": 0 }
+}

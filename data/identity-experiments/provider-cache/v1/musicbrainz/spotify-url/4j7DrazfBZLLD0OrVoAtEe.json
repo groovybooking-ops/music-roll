@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "4j7DrazfBZLLD0OrVoAtEe",
+  "retrievedAt": "2026-08-14T05:18:47.895Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "9833b455-0da2-40b5-8e63-37816c910604",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "disambiguation": "Asheville NC band",
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "resource": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe",
+      "relations": [
+        {
+          "attributes": [],
+          "attribute-ids": {},
+          "end": null,
+          "target-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "type": "free streaming",
+          "target-type": "artist",
+          "source-credit": "",
+          "direction": "backward",
+          "artist": {
+            "name": "Wednesday",
+            "country": "US",
+            "type": "Group",
+            "id": "9833b455-0da2-40b5-8e63-37816c910604",
+            "disambiguation": "Asheville NC band",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "sort-name": "Wednesday"
+          },
+          "begin": null,
+          "attribute-values": {},
+          "ended": false
+        }
+      ],
+      "id": "fc274294-296d-42a1-a2ae-d0eb329c8385"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "b6c7e4fc9bb4d209837c5ceb",
+  "retrievedAt": "2026-08-14T05:18:19.104Z",
+  "value": {
+    "requestedName": "redveil",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+        "name": "redveil",
+        "sortName": "redveil",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T05:18:19.093Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "redveil",
+          "sort-name": "redveil",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Washington, D.C.",
+            "sort-name": "Washington, D.C.",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000511590285"
+          ],
+          "life-span": {
+            "begin": "2004-04-20",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Morton, Marcus",
+              "name": "Marcus Morton",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

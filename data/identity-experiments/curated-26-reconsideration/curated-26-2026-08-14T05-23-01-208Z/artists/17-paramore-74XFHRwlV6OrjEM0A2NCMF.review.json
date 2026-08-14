@@ -1,0 +1,2110 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Paramore",
+    "proposedMusicRollId": "mr_artist_000034",
+    "spotifyArtistId": "74XFHRwlV6OrjEM0A2NCMF"
+  },
+  "outcome": "coherent_identity_with_same_name_ambiguity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "74XFHRwlV6OrjEM0A2NCMF",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "74XFHRwlV6OrjEM0A2NCMF",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "74XFHRwlV6OrjEM0A2NCMF",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "74XFHRwlV6OrjEM0A2NCMF",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q473466",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q473466",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "609563",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "609563",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "609563",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "609563",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "74XFHRwlV6OrjEM0A2NCMF",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q473466",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "609563",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "609563"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "74XFHRwlV6OrjEM0A2NCMF",
+      "observedValues": [
+        "74XFHRwlV6OrjEM0A2NCMF"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "74XFHRwlV6OrjEM0A2NCMF",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "74XFHRwlV6OrjEM0A2NCMF",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "74XFHRwlV6OrjEM0A2NCMF",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "74XFHRwlV6OrjEM0A2NCMF",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "74XFHRwlV6OrjEM0A2NCMF",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q473466",
+      "observedValues": [
+        "Q473466"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q473466",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q473466",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q473466",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "observedValues": [
+        "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "609563",
+      "observedValues": [
+        "609563"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "609563",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "609563",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "609563",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "609563",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "609563",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "609563"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 2,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 1,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "728ea90d-279b-4201-a8c4-597830883150",
+        "name": "Paramore",
+        "sortName": "Paramore",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "indie duo, active 1999-2002",
+        "score": 76,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+        "name": "Paramore",
+        "sortName": "Paramore",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "American pop rock band",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "74XFHRwlV6OrjEM0A2NCMF"
+        ],
+        "discogsArtistIds": [
+          "609563"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "728ea90d-279b-4201-a8c4-597830883150",
+        "name": "Paramore",
+        "sortName": "Paramore",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "indie duo, active 1999-2002",
+        "score": 76,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "coherent_identity_with_same_name_ambiguity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "74XFHRwlV6OrjEM0A2NCMF",
+      "wikidataQid": "Q473466",
+      "name": "Paramore",
+      "musicBrainzArtistId": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "discogsArtistId": "609563"
+    },
+    "musicBrainzRecords": {
+      "44cf61b8-5197-448a-b82b-cef6ee89fac5": {
+        "artist": {
+          "musicBrainzArtistId": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+          "name": "Paramore",
+          "sortName": "Paramore",
+          "artistType": "Group",
+          "disambiguation": "American pop rock band",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "9bcf5f48-e3cb-4dba-a769-ba3d7aa15ccd",
+            "name": "Franklin",
+            "sortName": "Franklin",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2004",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "パラモア",
+              "sortName": "パラモア",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000119550043"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000366681"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/203"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/44cf61b8-5197-448a-b82b-cef6ee89fac5"
+            },
+            {
+              "relationshipType": "blog",
+              "url": "https://paramore.tumblr.com/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://jaxsta.com/profile/911762f4-c665-4a68-a864-25ef6e77d001"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/609563"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.paramore.com.br/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/10977"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/259589212"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Paramore_8-16-2010-2011-29-11.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm2671234/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Paramore"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Paramore"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/122-5081/paramore/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Paramore"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/paramore"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://wmg.jp/paramore/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.paramore.net/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb15953474t"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/paramore"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://musicmoz.org/Bands_and_Artists/P/Paramore/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/paramore"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/artist/paramore"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.livefans.jp/artists/2641"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/paramore/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000228948/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.spirit-of-rock.com/en/band/Paramore"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Paramore/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2005070404/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Awioa52yrttxbtc57ged6joexeq"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id75950796"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/71388/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/145577"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Paramore/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/paramore/145577"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.cdjapan.co.jp/person/700288073"
+            },
+            {
+              "relationshipType": "purevolume",
+              "url": "http://www.purevolume.com/paramore"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/24574"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/paramore-1bd6d1c4.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://plus.google.com/+paramore"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/paramore"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://vk.com/paramore"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/paramore"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/paramore/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@paramoreofficial"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/127596"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/paramore"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/paramore"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001EEHJWI"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/75950796"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/75950796"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/145577"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/19981"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/gb-en/interpreter/paramore/download-streaming-albums"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/paramore/145577"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/124786897"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q473466"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/@paramore"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/user/paramore"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCl2qVCHeUjL3lCnSCrKxtoQ"
+            }
+          ]
+        },
+        "raw": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "isnis": [
+            "0000000119550043"
+          ],
+          "id": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+          "gender": null,
+          "end-area": null,
+          "begin-area": {
+            "disambiguation": "",
+            "name": "Franklin",
+            "sort-name": "Franklin",
+            "id": "9bcf5f48-e3cb-4dba-a769-ba3d7aa15ccd",
+            "type-id": null,
+            "type": null
+          },
+          "gender-id": null,
+          "life-span": {
+            "begin": "2004",
+            "end": null,
+            "ended": false
+          },
+          "area": {
+            "disambiguation": "",
+            "name": "United States",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "type": null
+          },
+          "country": "US",
+          "aliases": [
+            {
+              "ended": false,
+              "type": null,
+              "primary": null,
+              "type-id": null,
+              "end": null,
+              "begin": null,
+              "sort-name": "パラモア",
+              "locale": null,
+              "name": "パラモア"
+            }
+          ],
+          "relations": [
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "end": null,
+              "begin": null,
+              "type": "allmusic",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "fa676485-6197-4d9f-a0e2-acdac11e466d",
+                "resource": "https://www.allmusic.com/artist/mn0000366681"
+              }
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "attribute-ids": {},
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.bandsintown.com/a/203",
+                "id": "9f6682ad-6d4e-4959-b1c9-2eb01a8e258e"
+              },
+              "type": "bandsintown",
+              "ended": false
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "13219de4-90aa-4586-b9f9-d7e628cddba7",
+                "resource": "https://www.bbc.co.uk/music/artists/44cf61b8-5197-448a-b82b-cef6ee89fac5"
+              },
+              "ended": true,
+              "type": "BBC Music page",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": "2020-11-19",
+              "attribute-ids": {},
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54"
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://paramore.tumblr.com/",
+                "id": "41d8fa57-4e2b-4ac8-98d5-a972edbb0007"
+              },
+              "type": "blog",
+              "ended": false
+            },
+            {
+              "url": {
+                "resource": "https://jaxsta.com/profile/911762f4-c665-4a68-a864-25ef6e77d001",
+                "id": "16e449cd-8af4-4986-86d2-2d0ac359efeb"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "discography page",
+              "ended": true,
+              "begin": null,
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "attribute-ids": {},
+              "end": "2025-12-17",
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {}
+            },
+            {
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "discogs",
+              "url": {
+                "id": "766f4b88-3bae-4043-b869-f90bd830beb0",
+                "resource": "https://www.discogs.com/artist/609563"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "http://www.paramore.com.br/",
+                "id": "6b519385-b09d-47a0-af13-7db6c49789ec"
+              },
+              "ended": false,
+              "type": "fanpage",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24"
+            },
+            {
+              "type": "free streaming",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "c00e8a8d-ec74-45a1-af8a-cd4dd9a1e95a",
+                "resource": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "begin": null
+            },
+            {
+              "type": "free streaming",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "89aa3206-9f44-4cb8-b52c-f406ce6c59d7",
+                "resource": "https://www.deezer.com/artist/10977"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "free streaming",
+              "url": {
+                "resource": "https://www.deezer.com/artist/259589212",
+                "id": "94b09636-ab26-4c84-ac7e-f7745674e98a"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "attribute-ids": {},
+              "begin": null,
+              "type": "image",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://commons.wikimedia.org/wiki/File:Paramore_8-16-2010-2011-29-11.jpg",
+                "id": "70e3a259-fcd7-44ca-9f53-beeec9683fc0"
+              }
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "begin": null,
+              "type": "IMDb",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.imdb.com/name/nm2671234/",
+                "id": "6ebb26a6-ac14-4852-b5bf-d1c850abf417"
+              }
+            },
+            {
+              "ended": false,
+              "type": "last.fm",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "a8a3b8f7-640f-4cba-abd7-10ef25a780cc",
+                "resource": "https://www.last.fm/music/Paramore"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "end": null,
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "229cec79-fcd0-41a2-86c5-ff1c30bfcffa",
+                "resource": "https://genius.com/artists/Paramore"
+              },
+              "type": "lyrics",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "8fecea05-c6e9-4031-92db-0b9566115b69",
+                "resource": "https://muzikum.eu/en/122-5081/paramore/lyrics.html"
+              },
+              "ended": false,
+              "type": "lyrics",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+            },
+            {
+              "type": "lyrics",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "b7f0e6f3-8807-477f-8a24-286ee36306c3",
+                "resource": "https://www.musixmatch.com/artist/Paramore"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "url": {
+                "id": "f0de17f2-03d7-4b4c-8deb-5e5c85333d4c",
+                "resource": "https://myspace.com/paramore"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "myspace",
+              "ended": false
+            },
+            {
+              "url": {
+                "resource": "https://wmg.jp/paramore/",
+                "id": "a3fb1d1c-e5b3-46c3-987f-67d3f011f4b2"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "official homepage",
+              "ended": false,
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward"
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "f140b7cf-4115-4efe-b1f5-0c13dcd97ee6",
+                "resource": "https://www.paramore.net/"
+              },
+              "type": "official homepage",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "attribute-ids": {}
+            },
+            {
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb15953474t",
+                "id": "3dd6edd3-a1ca-48b7-b3f6-278dce7104c9"
+              }
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "url": {
+                "id": "df29cf6b-7a47-425c-a525-c5f8aeacbf25",
+                "resource": "https://imvdb.com/n/paramore"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": []
+            },
+            {
+              "type": "other databases",
+              "ended": false,
+              "url": {
+                "id": "6fa0a056-fb0c-4f03-aba1-6177b0f533b1",
+                "resource": "https://musicmoz.org/Bands_and_Artists/P/Paramore/"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "type": "other databases",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "aff435f2-bda9-4048-95bf-095ce12e0020",
+                "resource": "https://rateyourmusic.com/artist/paramore"
+              }
+            },
+            {
+              "begin": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "url": {
+                "resource": "https://www.45cat.com/artist/paramore",
+                "id": "5b20ef0d-74fe-4eaf-9c0b-8132175571c7"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "type": "other databases",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "ffb2d351-68af-4c6e-9df8-d93a2bd33764",
+                "resource": "https://www.livefans.jp/artists/2641"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.musik-sammler.de/artist/paramore/",
+                "id": "17d4b701-21ed-48d1-a05f-d721336bc555"
+              }
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "41ece31e-d6fc-4540-aa87-8da9a7b52de1",
+                "resource": "https://www.muziekweb.nl/Link/M00000228948/POPULAR/"
+              },
+              "ended": false,
+              "type": "other databases",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "075a2965-d5b0-402d-95ac-baf6949758ac",
+                "resource": "https://www.spirit-of-rock.com/en/band/Paramore"
+              },
+              "ended": false,
+              "type": "other databases",
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.whosampled.com/Paramore/",
+                "id": "fb22fc52-440b-4765-92ae-13ea1346151c"
+              },
+              "ended": false,
+              "type": "other databases"
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.worldcat.org/identities/lccn-no2005070404/",
+                "id": "0d292e11-b01d-436c-8e5a-eb6587fc4769"
+              },
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type": "purchase for download",
+              "ended": true,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://play.google.com/store/music/artist?id=Awioa52yrttxbtc57ged6joexeq",
+                "id": "0eb58522-a265-4cf1-a273-eb5192f55fd0"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": "2020-10-12",
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "begin": null
+            },
+            {
+              "type": "purchase for download",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "efdf9671-6f37-4f90-9180-ac6cb014043b",
+                "resource": "https://itunes.apple.com/us/artist/id75950796"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "url": {
+                "id": "03d85d5e-7eb5-4245-88e0-a6114e2eda11",
+                "resource": "https://mora.jp/artist/71388/"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "purchase for download"
+            },
+            {
+              "type": "purchase for download",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "7fa6c5f6-58fe-431f-8653-2f745a8bbc22",
+                "resource": "https://open.qobuz.com/artist/145577"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "begin": null
+            },
+            {
+              "type": "purchase for download",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "2df67341-da85-4449-b190-293716d01593",
+                "resource": "https://www.junodownload.com/artists/Paramore/"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/paramore/145577",
+                "id": "a805f6a4-b07d-4994-8b1c-11cfd55461a2"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "ended": false,
+              "type": "purchase for download",
+              "begin": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url"
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.cdjapan.co.jp/person/700288073",
+                "id": "87511bb8-e85f-4dec-bd33-cfb13803d402"
+              },
+              "ended": false,
+              "type": "purchase for mail-order"
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "http://www.purevolume.com/paramore",
+                "id": "943851e5-d8d8-4167-9081-833825cde70c"
+              },
+              "type": "purevolume",
+              "ended": true
+            },
+            {
+              "ended": false,
+              "type": "secondhandsongs",
+              "url": {
+                "id": "7d578fc6-ff67-40bf-a166-f5243fdaa64a",
+                "resource": "https://secondhandsongs.com/artist/24574"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "attribute-ids": {},
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "c226bb2d-58d5-44a4-a50a-ac055160fc60",
+                "resource": "https://www.setlist.fm/setlists/paramore-1bd6d1c4.html"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "ended": false,
+              "type": "setlistfm"
+            },
+            {
+              "ended": true,
+              "type": "social network",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://plus.google.com/+paramore",
+                "id": "1ececdbb-d47f-4172-9ac2-a5bde7b90856"
+              },
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": "2019-04",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null,
+              "type": "social network",
+              "ended": false,
+              "url": {
+                "resource": "https://twitter.com/paramore",
+                "id": "f383a0f9-ab77-497a-a8a9-35e7d3823ab6"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "begin": null,
+              "type": "social network",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://vk.com/paramore",
+                "id": "de3a0287-c78a-456c-a45a-392554acaf89"
+              }
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "begin": null,
+              "type": "social network",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "6fb237d9-e0fb-47dc-b2a5-65b2b4e67e59",
+                "resource": "https://www.facebook.com/paramore"
+              }
+            },
+            {
+              "url": {
+                "resource": "https://www.instagram.com/paramore/",
+                "id": "318e2f20-0440-4885-8f72-77fef2ae216e"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "social network",
+              "ended": false,
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {}
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.tiktok.com/@paramoreofficial",
+                "id": "8cc4f1e7-6f1e-4080-8c6e-c982e8a959b1"
+              },
+              "type": "social network",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {}
+            },
+            {
+              "type": "songkick",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "d0e2ac85-15d3-4527-b905-e11f57dc20c6",
+                "resource": "https://www.songkick.com/artists/127596"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "end": null,
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "soundcloud",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "dd37acaf-590f-44dd-ab37-0b47baf55228",
+                "resource": "https://soundcloud.com/paramore"
+              }
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "3468f100-0346-4aee-84e3-27b735a5e454",
+                "resource": "https://us.napster.com/artist/paramore"
+              },
+              "type": "streaming",
+              "ended": true,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": "2022-06-08",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {}
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null,
+              "type": "streaming",
+              "ended": false,
+              "url": {
+                "resource": "https://music.amazon.com/artists/B001EEHJWI",
+                "id": "d7023f33-c6ea-4fa5-9cd0-8542d58edb21"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "ended": false,
+              "type": "streaming",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "11c0a5c9-64ec-484a-8437-2b0e18556d36",
+                "resource": "https://music.apple.com/gb/artist/75950796"
+              },
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/75950796",
+                "id": "e800fd74-12c3-4229-a34d-f94983f037c0"
+              },
+              "ended": false,
+              "type": "streaming"
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "resource": "https://open.qobuz.com/artist/145577",
+                "id": "7fa6c5f6-58fe-431f-8653-2f745a8bbc22"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": false,
+              "type": "streaming"
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "83c40283-376f-4140-8785-196b712e77cd",
+                "resource": "https://tidal.com/artist/19981"
+              },
+              "type": "streaming",
+              "ended": false
+            },
+            {
+              "type": "streaming",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.qobuz.com/gb-en/interpreter/paramore/download-streaming-albums",
+                "id": "f76939a3-5a0e-440a-b8dd-86b33bfb3994"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "streaming",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/paramore/145577",
+                "id": "a805f6a4-b07d-4994-8b1c-11cfd55461a2"
+              }
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "64deaf50-1fac-413f-ba94-fd600900f906",
+                "resource": "http://viaf.org/viaf/124786897"
+              },
+              "type": "VIAF",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460"
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "f0d333f0-9c01-4131-bca3-e7ec76077c63",
+                "resource": "https://www.wikidata.org/wiki/Q473466"
+              },
+              "ended": false,
+              "type": "wikidata"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "type": "youtube",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "48b011ef-2ea8-41de-994d-1b3d483ead2d",
+                "resource": "https://www.youtube.com/@paramore"
+              }
+            },
+            {
+              "ended": false,
+              "type": "youtube",
+              "url": {
+                "id": "e6ff3fc3-c291-469f-a542-1bf0e670ddaa",
+                "resource": "https://www.youtube.com/user/paramore"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "end": null,
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attribute-ids": {},
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "type": "youtube music",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "2f2c26ca-ac9f-4886-b827-a833d8838b8d",
+                "resource": "https://music.youtube.com/channel/UCl2qVCHeUjL3lCnSCrKxtoQ"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "attribute-ids": {},
+              "begin": null
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Paramore",
+          "name": "Paramore",
+          "disambiguation": "American pop rock band",
+          "ipis": []
+        }
+      }
+    },
+    "discogsRecords": {
+      "609563": {
+        "artist": {
+          "discogsArtistId": "609563",
+          "name": "Paramore",
+          "realName": null,
+          "profile": "Alternative/modern rock band from Franklin, Tennessee (USA), formed in 2004.",
+          "artistUrls": [
+            "http://www.paramore.net",
+            "http://www.facebook.com/paramore",
+            "https://www.instagram.com/paramore/",
+            "http://www.myspace.com/paramore",
+            "http://paramore.tumblr.com",
+            "http://twitter.com/paramore",
+            "http://en.wikipedia.org/wiki/paramore",
+            "https://www.youtube.com/paramore"
+          ],
+          "aliases": [],
+          "nameVariations": [
+            "Paramode"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/609563",
+          "discogsWebUrl": "https://www.discogs.com/artist/609563-Paramore",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Paramore",
+          "id": 609563,
+          "resource_url": "https://api.discogs.com/artists/609563",
+          "uri": "https://www.discogs.com/artist/609563-Paramore",
+          "releases_url": "https://api.discogs.com/artists/609563/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/pJx_Oovrh-zl7tKnhbu5tW8gtKoZDBjqJps0WU9BxpI/rs:fit/g:sm/q:90/h:380/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjg2NzkwNzcw/LTI5MDUuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/pJx_Oovrh-zl7tKnhbu5tW8gtKoZDBjqJps0WU9BxpI/rs:fit/g:sm/q:90/h:380/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjg2NzkwNzcw/LTI5MDUuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/r5ySyyjT7z59-s70aN9wobxWrk9nDx7_L-V2JxNlu8Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjg2NzkwNzcw/LTI5MDUuanBlZw.jpeg",
+              "width": 600,
+              "height": 380
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/1e8UnSujpP7LXb0572tZSpD_jQ0J0uoRCxqtR2QwQ-0/rs:fit/g:sm/q:90/h:819/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjc0NDgyODM3/LTMxNjguanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/1e8UnSujpP7LXb0572tZSpD_jQ0J0uoRCxqtR2QwQ-0/rs:fit/g:sm/q:90/h:819/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjc0NDgyODM3/LTMxNjguanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/v7usCAG9YCSTj5a8VTcpGD5bJDoOjZPoyqYzWja5eSE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjc0NDgyODM3/LTMxNjguanBlZw.jpeg",
+              "width": 600,
+              "height": 819
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/RKjHOMjUwD8EX5IfyFPcyLvGBMLYPvwSdZSwAIonNWk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjY0OTQzMDU2/LTE0MDYuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/RKjHOMjUwD8EX5IfyFPcyLvGBMLYPvwSdZSwAIonNWk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjY0OTQzMDU2/LTE0MDYuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/zvyBiM2mHIQfkO9XlkTD2h1zsi-ui0k-wD6A0I62FPw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjY0OTQzMDU2/LTE0MDYuanBlZw.jpeg",
+              "width": 600,
+              "height": 399
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Xmv_sgYEa_19PooCVibm1GNllRoPES1cp_vjGsOFKLU/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQyNTc1NTAw/LTI1NTQuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/Xmv_sgYEa_19PooCVibm1GNllRoPES1cp_vjGsOFKLU/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQyNTc1NTAw/LTI1NTQuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/2BW5Ihc6aHtZM2DvSUdcv5l1hURLrXWG_LqhP7vgmW4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQyNTc1NTAw/LTI1NTQuanBlZw.jpeg",
+              "width": 600,
+              "height": 905
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/T7QJTBomMfsGE5O03N79sPJRL3HPdO6VYVGMRr0c714/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcx/LTk0NTIuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/T7QJTBomMfsGE5O03N79sPJRL3HPdO6VYVGMRr0c714/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcx/LTk0NTIuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/amyEL7JlBVI6W9hYEMp0dBpT0MmbuiRe2DcTJFD7sas/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcx/LTk0NTIuanBlZw.jpeg",
+              "width": 600,
+              "height": 337
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/oYw6WMGhPUFYSz-GohX42q0jC0WUFPa7OhVR2IEgd1Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkzMDAxOTQz/LTUzNjguanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/oYw6WMGhPUFYSz-GohX42q0jC0WUFPa7OhVR2IEgd1Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkzMDAxOTQz/LTUzNjguanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/AxSneoT_SyP-yqGXfne-Ih5aZlFCy1rJpOLedPO_HBE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkzMDAxOTQz/LTUzNjguanBlZw.jpeg",
+              "width": 600,
+              "height": 400
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/IKrfIHsOvizi826j0J1srNVDvuL7mhDnWfBhFihGH4s/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDY4ODk3NzA3/LTY5ODYuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/IKrfIHsOvizi826j0J1srNVDvuL7mhDnWfBhFihGH4s/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDY4ODk3NzA3/LTY5ODYuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/_CRtN31bC0Bkwi0FKDTM2gjIY4Bxt3dYCbGyI2Xc_tk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDY4ODk3NzA3/LTY5ODYuanBlZw.jpeg",
+              "width": 600,
+              "height": 450
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/E3qJc-s2qOBMdj1s0zTJ4I2JcIVVO1V1HUEUgXnXJQw/rs:fit/g:sm/q:90/h:424/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTA5NDI1/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/E3qJc-s2qOBMdj1s0zTJ4I2JcIVVO1V1HUEUgXnXJQw/rs:fit/g:sm/q:90/h:424/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTA5NDI1/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/1So4N7CEA-k4iOu5X1m2xH-ydesbFVDbXwJRgJy1Rb4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTA5NDI1/LmpwZWc.jpeg",
+              "width": 600,
+              "height": 424
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/7cAGBDu-LjzqkO9lOmdcT-mjjXZtb5NDBYq6GiJy5jM/rs:fit/g:sm/q:90/h:700/w:467/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDg2/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/7cAGBDu-LjzqkO9lOmdcT-mjjXZtb5NDBYq6GiJy5jM/rs:fit/g:sm/q:90/h:700/w:467/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDg2/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/TZAKr3g176oFvxMY9tsGtrcksu0gwp3K-WQ67UX2-nU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDg2/LmpwZWc.jpeg",
+              "width": 467,
+              "height": 700
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/8QQV2JZlsCdJ_x40m5_fDNY8joiz3lTrhx5EYM9eezg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc4/LTM4MjIuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/8QQV2JZlsCdJ_x40m5_fDNY8joiz3lTrhx5EYM9eezg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc4/LTM4MjIuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/7nAAiNp8Eu_ldPjwmI5ptMLyTQjUH3qEbbKOFh7z-M8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc4/LTM4MjIuanBlZw.jpeg",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/-2qggbb1_tpcwR50bn-eodvCsDRM-bX3tLspRNrSdOY/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc3/LTMzODguanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/-2qggbb1_tpcwR50bn-eodvCsDRM-bX3tLspRNrSdOY/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc3/LTMzODguanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/XXUIVGi4NBBjHCfubaPfIhTT6nEknE-CQtcf41tJlyc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDc3/LTMzODguanBlZw.jpeg",
+              "width": 600,
+              "height": 337
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/sdNIJeyWmXE2G_ti0r5w3nwrAlPht5wKycVjNMPfc8s/rs:fit/g:sm/q:90/h:569/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNDA3MTM5/LTM1NjcuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/sdNIJeyWmXE2G_ti0r5w3nwrAlPht5wKycVjNMPfc8s/rs:fit/g:sm/q:90/h:569/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNDA3MTM5/LTM1NjcuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/D1tZbg3S-F4GZ2xTPWleUV4wCLWeNESxC0XD5x3Nga4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNDA3MTM5/LTM1NjcuanBlZw.jpeg",
+              "width": 575,
+              "height": 569
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/pwijjBh-n4GpLDZC6rONJRVWvlppSPNQbkipGznwejg/rs:fit/g:sm/q:90/h:373/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNzc0MDg0/LTUwMTcuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/pwijjBh-n4GpLDZC6rONJRVWvlppSPNQbkipGznwejg/rs:fit/g:sm/q:90/h:373/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNzc0MDg0/LTUwMTcuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/rcBXdrkBkl2KQkZN4pC0jZkrR_NK2CXlN0Iyzs8iCYk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjQzNzc0MDg0/LTUwMTcuanBlZw.jpeg",
+              "width": 600,
+              "height": 373
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Q3mr0aaUudbJm0PZQJCBrREBm3pHmJzIhATWrGK7Cuw/rs:fit/g:sm/q:90/h:302/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTQy/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Q3mr0aaUudbJm0PZQJCBrREBm3pHmJzIhATWrGK7Cuw/rs:fit/g:sm/q:90/h:302/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTQy/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/onBN6B4CM_sK7iQoe1OBNMXwgBzC6m3A6emDKchmQ0A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTQy/LmpwZWc.jpeg",
+              "width": 600,
+              "height": 302
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/w1-A6fxfAtqKGZT9rrOYjA5v21p3CJIUeXIG7lSwi5Q/rs:fit/g:sm/q:90/h:393/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDI3/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/w1-A6fxfAtqKGZT9rrOYjA5v21p3CJIUeXIG7lSwi5Q/rs:fit/g:sm/q:90/h:393/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDI3/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Comg-xD028lKqCiIJSmXCUTJXSh65KZYpWnRh6-wwzg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDI3/LmpwZWc.jpeg",
+              "width": 590,
+              "height": 393
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/A30TyOxcXAWIRYM1dvh_d5BWWooOyDUouvTZ0lesjFc/rs:fit/g:sm/q:90/h:393/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDE4/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/A30TyOxcXAWIRYM1dvh_d5BWWooOyDUouvTZ0lesjFc/rs:fit/g:sm/q:90/h:393/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDE4/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/LGqjjkI6dWUEQTMKfTJs0kOe1KeWl2muBc3p1UxNqBc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzE2OTEwMDE4/LmpwZWc.jpeg",
+              "width": 590,
+              "height": 393
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/U7sDMyCyJhOKPntjk3BiU5Z8Z4O92nbzsmQXbgC-ytU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkyNTg5NTY4/LTk4MDQuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/U7sDMyCyJhOKPntjk3BiU5Z8Z4O92nbzsmQXbgC-ytU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkyNTg5NTY4/LTk4MDQuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/1o-1H9D_rv9ds5qmHVb7zHpYMOSA_yxAMcG3_Isisfw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNDkyNTg5NTY4/LTk4MDQuanBlZw.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/a9SqTdr9y-lHM3iMqJnnndi9_oJ2802OIriZVOvTwxU/rs:fit/g:sm/q:90/h:432/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzU2NTc4MTYw/LTgxNDguanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/a9SqTdr9y-lHM3iMqJnnndi9_oJ2802OIriZVOvTwxU/rs:fit/g:sm/q:90/h:432/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzU2NTc4MTYw/LTgxNDguanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/FQwXr1zU5j0J2IIr52ZCBIqwIYmPWDRC90rrcPyzMmg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMzU2NTc4MTYw/LTgxNDguanBlZw.jpeg",
+              "width": 500,
+              "height": 432
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/sIN-HpNY5NbpfQneCbBl8eOaVFrXIrC-SZ4Rvs772I8/rs:fit/g:sm/q:90/h:424/w:317/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNTEwMTI3Nzc4/LTc4NDQuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/sIN-HpNY5NbpfQneCbBl8eOaVFrXIrC-SZ4Rvs772I8/rs:fit/g:sm/q:90/h:424/w:317/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNTEwMTI3Nzc4/LTc4NDQuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/BCAkyS1XLIXlR-SDUijgnHpwEXBKBUrBynXVBklRVZs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNTEwMTI3Nzc4/LTc4NDQuanBlZw.jpeg",
+              "width": 317,
+              "height": 424
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/g5mND0d92bYOllzF812189m2S4p-b5g6Lo8SGPVU6kg/rs:fit/g:sm/q:90/h:384/w:512/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcw/LTUyOTUuanBlZw.jpeg",
+              "resource_url": "https://i.discogs.com/g5mND0d92bYOllzF812189m2S4p-b5g6Lo8SGPVU6kg/rs:fit/g:sm/q:90/h:384/w:512/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcw/LTUyOTUuanBlZw.jpeg",
+              "uri150": "https://i.discogs.com/axvzV9CqMQLhbyNuKUzcO2lKsUd9xnMfV96BJfLfYhI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjI4OTczMDcw/LTUyOTUuanBlZw.jpeg",
+              "width": 512,
+              "height": 384
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ROzDNYUEb2BUkcSSnMcIPCT--6XKAtySTmXrtsVSTsE/rs:fit/g:sm/q:90/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTI5/LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/ROzDNYUEb2BUkcSSnMcIPCT--6XKAtySTmXrtsVSTsE/rs:fit/g:sm/q:90/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTI5/LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/jlMHrmtUhchOWkiMI2ITIJPgBXAJrcyLgRmZMGgR5_o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xMTkxOTYyOTI5/LmpwZWc.jpeg",
+              "width": 500,
+              "height": 333
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/mk9LeawCi0lVHrYekQY3AgW2SpL0OOBEHfwvttS2CD4/rs:fit/g:sm/q:90/h:127/w:397/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjIwMzI5NTA2/LTkyMTcucG5n.jpeg",
+              "resource_url": "https://i.discogs.com/mk9LeawCi0lVHrYekQY3AgW2SpL0OOBEHfwvttS2CD4/rs:fit/g:sm/q:90/h:127/w:397/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjIwMzI5NTA2/LTkyMTcucG5n.jpeg",
+              "uri150": "https://i.discogs.com/1E_SHVokPuNRScY7b3OtzTvZrI6Q-MKwdtSV0EVp7ds/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwOTU2/My0xNjIwMzI5NTA2/LTkyMTcucG5n.jpeg",
+              "width": 397,
+              "height": 127
+            }
+          ],
+          "profile": "Alternative/modern rock band from Franklin, Tennessee (USA), formed in 2004.",
+          "urls": [
+            "http://www.paramore.net",
+            "http://www.facebook.com/paramore",
+            "https://www.instagram.com/paramore/",
+            "http://www.myspace.com/paramore",
+            "http://paramore.tumblr.com",
+            "http://twitter.com/paramore",
+            "http://en.wikipedia.org/wiki/paramore",
+            "https://www.youtube.com/paramore"
+          ],
+          "namevariations": [
+            "Paramode"
+          ],
+          "members": [
+            {
+              "id": 866064,
+              "name": "Jeremy Davis",
+              "resource_url": "https://api.discogs.com/artists/866064",
+              "active": false
+            },
+            {
+              "id": 866068,
+              "name": "Josh Farro",
+              "resource_url": "https://api.discogs.com/artists/866068",
+              "active": false
+            },
+            {
+              "id": 866071,
+              "name": "Hayley Williams",
+              "resource_url": "https://api.discogs.com/artists/866071",
+              "active": true
+            },
+            {
+              "id": 866084,
+              "name": "Zac Farro",
+              "resource_url": "https://api.discogs.com/artists/866084",
+              "active": true
+            },
+            {
+              "id": 866106,
+              "name": "Jason Bynum",
+              "resource_url": "https://api.discogs.com/artists/866106",
+              "active": false
+            },
+            {
+              "id": 1542314,
+              "name": "Taylor York (2)",
+              "resource_url": "https://api.discogs.com/artists/1542314",
+              "active": true
+            },
+            {
+              "id": 2092427,
+              "name": "Hunter Lamb",
+              "resource_url": "https://api.discogs.com/artists/2092427",
+              "active": false
+            },
+            {
+              "id": 6141332,
+              "name": "John Hembree",
+              "resource_url": "https://api.discogs.com/artists/6141332",
+              "active": false
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {},
+    "redirectedIdentifiers": []
+  }
+}

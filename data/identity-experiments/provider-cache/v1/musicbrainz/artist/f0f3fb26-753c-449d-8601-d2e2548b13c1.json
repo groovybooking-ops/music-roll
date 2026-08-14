@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "f0f3fb26-753c-449d-8601-d2e2548b13c1",
+  "retrievedAt": "2026-08-14T05:18:55.635Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "f0f3fb26-753c-449d-8601-d2e2548b13c1",
+      "name": "Wednesday",
+      "sortName": "Wednesday",
+      "artistType": "Group",
+      "disambiguation": "Japanese visual kei",
+      "country": "JP",
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "name": "Japan",
+        "sortName": "Japan",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": "2007-01",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "other databases",
+          "url": "https://vk.gy/artists/wednesday/"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "ended": false,
+        "begin": "2007-01",
+        "end": null
+      },
+      "end-area": null,
+      "id": "f0f3fb26-753c-449d-8601-d2e2548b13c1",
+      "begin-area": null,
+      "relations": [
+        {
+          "type": "other databases",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "e82b8004-1879-4e63-b442-6c3cd4d4061d",
+            "resource": "https://vk.gy/artists/wednesday/"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url"
+        }
+      ],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender-id": null,
+      "disambiguation": "Japanese visual kei",
+      "sort-name": "Wednesday",
+      "isnis": [],
+      "type": "Group",
+      "name": "Wednesday",
+      "aliases": [],
+      "country": "JP",
+      "gender": null,
+      "area": {
+        "sort-name": "Japan",
+        "type": null,
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "name": "Japan",
+        "disambiguation": "",
+        "type-id": null,
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c"
+      },
+      "ipis": []
+    }
+  }
+}

@@ -1,0 +1,4494 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Lady Gaga",
+    "proposedMusicRollId": "mr_artist_000027",
+    "spotifyArtistId": "1HY2Jd0NmPuamShAr6KMms"
+  },
+  "outcome": "provider_profile_multiplicity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1HY2Jd0NmPuamShAr6KMms",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1HY2Jd0NmPuamShAr6KMms",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1HY2Jd0NmPuamShAr6KMms",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1HY2Jd0NmPuamShAr6KMms",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q19848",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q19848",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1525683",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1103159",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1103159",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1525683",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5729318",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1103159",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1525683",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5729318",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1HY2Jd0NmPuamShAr6KMms",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q19848",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1103159",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "1103159"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1525683",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "1525683"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5729318",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "5729318"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "1HY2Jd0NmPuamShAr6KMms",
+      "observedValues": [
+        "1HY2Jd0NmPuamShAr6KMms"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1HY2Jd0NmPuamShAr6KMms",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1HY2Jd0NmPuamShAr6KMms",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1HY2Jd0NmPuamShAr6KMms",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1HY2Jd0NmPuamShAr6KMms",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1HY2Jd0NmPuamShAr6KMms",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q19848",
+      "observedValues": [
+        "Q19848"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q19848",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q19848",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q19848",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "observedValues": [
+        "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "1525683",
+        "1103159",
+        "5729318"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1525683",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1103159",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1103159",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1525683",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5729318",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1103159",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1525683",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5729318",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1103159",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1103159"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1525683",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1525683"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5729318",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5729318"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "1525683",
+        "1103159",
+        "5729318"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+        "name": "Lady Gaga",
+        "sortName": "Lady Gaga",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "1HY2Jd0NmPuamShAr6KMms"
+        ],
+        "discogsArtistIds": [
+          "1103159",
+          "1525683",
+          "5729318"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "provider_profile_multiplicity",
+      "mechanicallyResolvable": true,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": true,
+    "qualifiesAsProviderMultiplicity": true,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "musicbrainz_derived_discogs:650e7db6-b795-4eb5-a702-5ea2fc46c848->1103159",
+    "musicbrainz_derived_discogs:650e7db6-b795-4eb5-a702-5ea2fc46c848->1525683",
+    "musicbrainz_derived_discogs:650e7db6-b795-4eb5-a702-5ea2fc46c848->5729318",
+    "generalized_provider_profile_multiplicity"
+  ],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "1HY2Jd0NmPuamShAr6KMms",
+      "wikidataQid": "Q19848",
+      "name": "Lady Gaga",
+      "musicBrainzArtistId": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "1525683",
+        "1103159"
+      ]
+    },
+    "musicBrainzRecords": {
+      "650e7db6-b795-4eb5-a702-5ea2fc46c848": {
+        "artist": {
+          "musicBrainzArtistId": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+          "name": "Lady Gaga",
+          "sortName": "Lady Gaga",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "7e4475a3-56a0-4a79-9e0d-c19881e14631",
+            "name": "Upper East Side",
+            "sortName": "Upper East Side",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1986-03-28",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Jo Calderone",
+              "sortName": "Calderone, Jo",
+              "type": "Artist name",
+              "locale": "it",
+              "primary": false
+            },
+            {
+              "name": "Lady Ga Ga",
+              "sortName": "Lady Ga Ga",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Ledi Qaqa",
+              "sortName": "Ledi Qaqa",
+              "type": "Artist name",
+              "locale": "az_Latn",
+              "primary": true
+            },
+            {
+              "name": "Lejdi Gaga",
+              "sortName": "Lejdi Gaga",
+              "type": "Artist name",
+              "locale": "bs_Latn",
+              "primary": true
+            },
+            {
+              "name": "Lēdija Gāga",
+              "sortName": "Lēdija Gāga",
+              "type": "Artist name",
+              "locale": "lv",
+              "primary": true
+            },
+            {
+              "name": "S. Germanotta",
+              "sortName": "Germanotta, S.",
+              "type": "Artist name",
+              "locale": "it",
+              "primary": false
+            },
+            {
+              "name": "Stefani Germanotta",
+              "sortName": "Germanotta, Stefani",
+              "type": "Artist name",
+              "locale": "it",
+              "primary": false
+            },
+            {
+              "name": "Stefani Joanne Angelina Germanotta",
+              "sortName": "Germanotta, Stefani Joanne Angelina",
+              "type": "Legal name",
+              "locale": "it",
+              "primary": false
+            },
+            {
+              "name": "Stefanija Džoana Andželina Germanota",
+              "sortName": "Germanota, Stefanija Džoana Andželina",
+              "type": "Artist name",
+              "locale": "lt",
+              "primary": false
+            },
+            {
+              "name": "Λέιντι Γκάγκα",
+              "sortName": "Λέιντι Γκάγκα",
+              "type": "Artist name",
+              "locale": "el",
+              "primary": true
+            },
+            {
+              "name": "Στέφανι Τζοάν Αντζελίνα Τζερμανότα",
+              "sortName": "Στέφανι Τζοάν Αντζελίνα Τζερμανότα",
+              "type": "Artist name",
+              "locale": "el",
+              "primary": false
+            },
+            {
+              "name": "Џо Калдероне",
+              "sortName": "Џо Калдероне",
+              "type": "Artist name",
+              "locale": "sr",
+              "primary": false
+            },
+            {
+              "name": "Джо Кальдероне",
+              "sortName": "Джо Кальдероне",
+              "type": "Artist name",
+              "locale": "ru",
+              "primary": false
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "ba",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "ce",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "cv",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "ky",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "ru",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "sah",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "tt",
+              "primary": true
+            },
+            {
+              "name": "Леди Гага",
+              "sortName": "Леди Гага",
+              "type": "Artist name",
+              "locale": "tyv",
+              "primary": true
+            },
+            {
+              "name": "Леді Гага",
+              "sortName": "Леді Гага",
+              "type": "Artist name",
+              "locale": "uk",
+              "primary": true
+            },
+            {
+              "name": "Леді Гага",
+              "sortName": "Леді Гага",
+              "type": "Artist name",
+              "locale": "uk",
+              "primary": false
+            },
+            {
+              "name": "Лейди Гага",
+              "sortName": "Лейди Гага",
+              "type": "Artist name",
+              "locale": "bg",
+              "primary": true
+            },
+            {
+              "name": "Лейди Гага",
+              "sortName": "Лейди Гага",
+              "type": "Artist name",
+              "locale": "tg",
+              "primary": true
+            },
+            {
+              "name": "Лејди Гага",
+              "sortName": "Lejdi Gaga",
+              "type": "Artist name",
+              "locale": "bs_Cyrl",
+              "primary": true
+            },
+            {
+              "name": "Лејди Гага",
+              "sortName": "Лејди Гага",
+              "type": "Artist name",
+              "locale": "mk",
+              "primary": true
+            },
+            {
+              "name": "Лејди Гага",
+              "sortName": "Лејди Гага",
+              "type": "Artist name",
+              "locale": "sr",
+              "primary": true
+            },
+            {
+              "name": "Лэдзі Гага",
+              "sortName": "Лэдзі Гага",
+              "type": "Artist name",
+              "locale": "be",
+              "primary": true
+            },
+            {
+              "name": "Лэди Гага",
+              "sortName": "Лэди Гага",
+              "type": "Artist name",
+              "locale": "mn",
+              "primary": true
+            },
+            {
+              "name": "Сте́фани Джоа́нн Анджели́на Джермано́тта",
+              "sortName": "Сте́фани Джоа́нн Анджели́на Джермано́тта",
+              "type": "Artist name",
+              "locale": "ru",
+              "primary": false
+            },
+            {
+              "name": "Сте́фані Джоа́н Анджеліна Джермано́тта",
+              "sortName": "Сте́фані Джоа́н Анджеліна Джермано́тта",
+              "type": "Artist name",
+              "locale": "uk",
+              "primary": false
+            },
+            {
+              "name": "Стефани Џоан Анџелина Џерманота",
+              "sortName": "Стефани Џоан Анџелина Џерманота",
+              "type": "Artist name",
+              "locale": "sr",
+              "primary": false
+            },
+            {
+              "name": "Стефани Жоанн Анжелина Жерманотта",
+              "sortName": "Стефани Жоанн Анжелина Жерманотта",
+              "type": "Artist name",
+              "locale": "mn",
+              "primary": false
+            },
+            {
+              "name": "Стэфані Джаан Анджэліна Джэрманота",
+              "sortName": "Стэфані Джаан Анджэліна Джэрманота",
+              "type": "Artist name",
+              "locale": "be",
+              "primary": false
+            },
+            {
+              "name": "Լեդի Գագա",
+              "sortName": "Լեդի Գագա",
+              "type": "Artist name",
+              "locale": "hy",
+              "primary": true
+            },
+            {
+              "name": "Լէյտի Կակա",
+              "sortName": "Լէյտի Կակա",
+              "type": "Artist name",
+              "locale": "hy",
+              "primary": false
+            },
+            {
+              "name": "ליידי גאגא",
+              "sortName": "ליידי גאגא",
+              "type": "Artist name",
+              "locale": "he",
+              "primary": true
+            },
+            {
+              "name": "ליידי גאגא",
+              "sortName": "ליידי גאגא",
+              "type": "Artist name",
+              "locale": "yi",
+              "primary": true
+            },
+            {
+              "name": "סטפני ג'ואן אנג'לינה ג'רמנוטה",
+              "sortName": "סטפני ג'ואן אנג'לינה ג'רמנוטה",
+              "type": "Artist name",
+              "locale": "he",
+              "primary": false
+            },
+            {
+              "name": "جوآن استفانی جرمانوتا",
+              "sortName": "جوآن استفانی جرمانوتا",
+              "type": "Artist name",
+              "locale": "fa",
+              "primary": false
+            },
+            {
+              "name": "ستيفاني جيرمانوتا",
+              "sortName": "ستيفاني جيرمانوتا",
+              "type": "Artist name",
+              "locale": "ar",
+              "primary": false
+            },
+            {
+              "name": "ليدى جاجا",
+              "sortName": "ليدى جاجا",
+              "type": "Artist name",
+              "locale": "ar_EG",
+              "primary": true
+            },
+            {
+              "name": "ليدي غاغا",
+              "sortName": "ليدي غاغا",
+              "type": "Artist name",
+              "locale": "ar",
+              "primary": true
+            },
+            {
+              "name": "ليدي ڭاڭا",
+              "sortName": "ليدي ڭاڭا",
+              "type": "Artist name",
+              "locale": "ar_MA",
+              "primary": true
+            },
+            {
+              "name": "لیدی قاقا",
+              "sortName": "Ledi Qaqa",
+              "type": "Artist name",
+              "locale": "az_Arab",
+              "primary": true
+            },
+            {
+              "name": "لیدی گاگا",
+              "sortName": "لیدی گاگا",
+              "type": "Artist name",
+              "locale": "fa",
+              "primary": true
+            },
+            {
+              "name": "لیڈی گاگا",
+              "sortName": "لیڈی گاگا",
+              "type": "Artist name",
+              "locale": "ks",
+              "primary": true
+            },
+            {
+              "name": "لیڈی گاگا",
+              "sortName": "لیڈی گاگا",
+              "type": "Artist name",
+              "locale": "skr",
+              "primary": true
+            },
+            {
+              "name": "لیڈی گاگا",
+              "sortName": "لیڈی گاگا",
+              "type": "Artist name",
+              "locale": "ur",
+              "primary": true
+            },
+            {
+              "name": "لېيدى گاگا",
+              "sortName": "لېيدى گاگا",
+              "type": "Artist name",
+              "locale": "ug",
+              "primary": true
+            },
+            {
+              "name": "لەیدی گاگا",
+              "sortName": "لەیدی گاگا",
+              "type": "Artist name",
+              "locale": "ku",
+              "primary": true
+            },
+            {
+              "name": "लेडी गागा",
+              "sortName": "लेडी गागा",
+              "type": "Artist name",
+              "locale": "bho",
+              "primary": true
+            },
+            {
+              "name": "लेडी गागा",
+              "sortName": "लेडी गागा",
+              "type": "Artist name",
+              "locale": "hi",
+              "primary": true
+            },
+            {
+              "name": "लेडी गागा",
+              "sortName": "लेडी गागा",
+              "type": "Artist name",
+              "locale": "mai",
+              "primary": true
+            },
+            {
+              "name": "लेडी गागा",
+              "sortName": "लेडी गागा",
+              "type": "Artist name",
+              "locale": "mr",
+              "primary": true
+            },
+            {
+              "name": "लेडी गागा",
+              "sortName": "लेडी गागा",
+              "type": "Artist name",
+              "locale": "ne",
+              "primary": true
+            },
+            {
+              "name": "स्टेफनी जोआन अँजेलिना जर्मानोटा",
+              "sortName": "स्टेफनी जोआन अँजेलिना जर्मानोटा",
+              "type": "Artist name",
+              "locale": "mr",
+              "primary": false
+            },
+            {
+              "name": "स्टेफनी जोएन एन्जेलिना जर्मनोट्टा",
+              "sortName": "स्टेफनी जोएन एन्जेलिना जर्मनोट्टा",
+              "type": "Artist name",
+              "locale": "ne",
+              "primary": false
+            },
+            {
+              "name": "লেডি গাগা",
+              "sortName": "লেডি গাগা",
+              "type": "Artist name",
+              "locale": "bn",
+              "primary": true
+            },
+            {
+              "name": "লেডী গাগা",
+              "sortName": "লেডী গাগা",
+              "type": "Artist name",
+              "locale": "as",
+              "primary": true
+            },
+            {
+              "name": "ਲੇਡੀ ਗਾਗਾ",
+              "sortName": "ਲੇਡੀ ਗਾਗਾ",
+              "type": "Artist name",
+              "locale": "pa",
+              "primary": true
+            },
+            {
+              "name": "ਸਟੇਫ਼ਨੀ ਜੋਐਨ ਏਂਜੇਲੀਨਾ ਜਰਮਨੋਟਾ",
+              "sortName": "ਸਟੇਫ਼ਨੀ ਜੋਐਨ ਏਂਜੇਲੀਨਾ ਜਰਮਨੋਟਾ",
+              "type": "Artist name",
+              "locale": "pa",
+              "primary": false
+            },
+            {
+              "name": "લેડી ગાગા",
+              "sortName": "લેડી ગાગા",
+              "type": "Artist name",
+              "locale": "gu",
+              "primary": true
+            },
+            {
+              "name": "ଲେଡି ଗାଗା",
+              "sortName": "ଲେଡି ଗାଗା",
+              "type": "Artist name",
+              "locale": "or",
+              "primary": true
+            },
+            {
+              "name": "லேடி காகா",
+              "sortName": "லேடி காகா",
+              "type": "Artist name",
+              "locale": "ta",
+              "primary": true
+            },
+            {
+              "name": "లేడీ గాగా",
+              "sortName": "లేడీ గాగా",
+              "type": "Artist name",
+              "locale": "te",
+              "primary": true
+            },
+            {
+              "name": "ಲೇಡಿ ಗಾಗಾ",
+              "sortName": "ಲೇಡಿ ಗಾಗಾ",
+              "type": "Artist name",
+              "locale": "kn",
+              "primary": true
+            },
+            {
+              "name": "ലേഡി ഗാഗ",
+              "sortName": "ലേഡി ഗാഗ",
+              "type": "Artist name",
+              "locale": "ml",
+              "primary": true
+            },
+            {
+              "name": "ලේඩි ගාගා",
+              "sortName": "ලේඩි ගාගා",
+              "type": "Artist name",
+              "locale": "si",
+              "primary": true
+            },
+            {
+              "name": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา",
+              "sortName": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา",
+              "type": "Artist name",
+              "locale": "th",
+              "primary": false
+            },
+            {
+              "name": "เลดีกากา",
+              "sortName": "เลดีกากา",
+              "type": "Artist name",
+              "locale": "th",
+              "primary": true
+            },
+            {
+              "name": "ເລດີ້ ກາກ້າ",
+              "sortName": "ເລດີ້ ກາກ້າ",
+              "type": "Artist name",
+              "locale": "lo",
+              "primary": true
+            },
+            {
+              "name": "လေဒီဂါဂါ",
+              "sortName": "လေဒီဂါဂါ",
+              "type": "Artist name",
+              "locale": "my",
+              "primary": true
+            },
+            {
+              "name": "ლედი გაგა",
+              "sortName": "ლედი გაგა",
+              "type": "Artist name",
+              "locale": "ka",
+              "primary": true
+            },
+            {
+              "name": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ",
+              "sortName": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ",
+              "type": "Artist name",
+              "locale": "am",
+              "primary": false
+            },
+            {
+              "name": "በሌዲ ጋጋ",
+              "sortName": "በሌዲ ጋጋ",
+              "type": "Artist name",
+              "locale": "am",
+              "primary": true
+            },
+            {
+              "name": "ឡេឌី ហ្គាហ្គា",
+              "sortName": "ឡេឌី ហ្គាហ្គា",
+              "type": "Artist name",
+              "locale": "km",
+              "primary": true
+            },
+            {
+              "name": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
+              "sortName": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
+              "type": "Artist name",
+              "locale": "sat",
+              "primary": true
+            },
+            {
+              "name": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
+              "sortName": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": false
+            },
+            {
+              "name": "レディー・ガガ",
+              "sortName": "レディー・ガガ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            },
+            {
+              "name": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+              "sortName": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+              "type": "Artist name",
+              "locale": "zh",
+              "primary": false
+            },
+            {
+              "name": "嘎嘎小姐",
+              "sortName": "嘎嘎小姐",
+              "type": "Artist name",
+              "locale": "zh_Hant",
+              "primary": true
+            },
+            {
+              "name": "女神卡卡",
+              "sortName": "女神卡卡",
+              "type": "Artist name",
+              "locale": "zh",
+              "primary": true
+            },
+            {
+              "name": "레이디 가가",
+              "sortName": "레이디 가가",
+              "type": "Artist name",
+              "locale": "ko",
+              "primary": true
+            },
+            {
+              "name": "스테퍼니 조앤 앤젤리나 제르마노타",
+              "sortName": "스테퍼니 조앤 앤젤리나 제르마노타",
+              "type": "Artist name",
+              "locale": "ko",
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000120254559"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000994823"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/22741"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/650e7db6-b795-4eb5-a702-5ea2fc46c848"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1103159"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1525683"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5729318"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://ladygaga.fandom.com/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://fanity.com/LadyGaga"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/1438"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://play.anghami.com/artist/8620917"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/1927236"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/75491"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:210120-D-WD757-1720_(50861332387)_(cropped).jpg"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_vigil_2016.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm3078932/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Lady+Gaga"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Lady-gaga"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/lady-gaga/lyrics"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Lady-Gaga"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/ladygaga"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.ladygaga.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/a661a9bb-ace6-4fb3-9e86-8e6612ab40e0"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2008179258"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb157535900"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/135898838"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PCjrpyjhYC3CtXtKPqbfK3P"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/lady-gaga"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://musicmoz.org/Bands_and_Artists/L/Lady_Gaga/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://nla.gov.au/nla.party-1479624"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://openlibrary.org/works/OL7317992A"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/lady-gaga"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/162075545"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/lady-gaga/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000321714/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/237405"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Lady-Gaga/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.maniadb.com/artist/153225"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/containsVIAFID/49555103"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Ah7amohgkrydyfxgsbask752lye"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/13336/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/277293880"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/80046429"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/61585"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/274159"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://us.7digital.com/artist/lady-gaga"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/lady-gaga/140979"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Lady+Gaga/releases/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=253688"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/gb-en/interpreter/lady-gaga/download-streaming-albums"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id277293880"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.cdjapan.co.jp/person/700155541"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/43820"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/lady-gaga-1bd665bc.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://plus.google.com/+LadyGaga"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://giphy.com/ladygaga"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://open.spotify.com/user/ladygaga_spotify"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/GAGA_JAPAN"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/ladygaga"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/ladygaga"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/ladygaga/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@ladygaga"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@stefanigermanott5"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/974908"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/ladygaga"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/stuckonfuckinyou"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/lady-gaga"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001SZDIZU"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/277293880"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/80046429"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/61585"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/3534754"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/55239429"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=253688"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/gb-en/interpreter/lady-gaga/download-streaming-albums"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.livenation.com/artist/K8vZ917Go7V"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.ticketmaster.com/artist/1249444"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/49555103"
+            },
+            {
+              "relationshipType": "video channel",
+              "url": "https://www.dailymotion.com/ladygaga"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q19848"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC07Kxew-cMIaykMOkzqHtBQ"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCNL1ZadSjHpjm4q9j2sVtOA"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCGKXb1syicud01CJOOFRykg"
+            }
+          ]
+        },
+        "raw": {
+          "country": "US",
+          "relations": [
+            {
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "id": "10adbb7b-4ec6-4522-a5d4-649cad3f3e4a",
+                "resource": "https://www.allmusic.com/artist/mn0000994823"
+              },
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "type": "allmusic",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "type": "bandsintown",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "url": {
+                "id": "59b80e8c-ca38-4fc8-af46-1fb09bd54c3b",
+                "resource": "https://www.bandsintown.com/a/22741"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "502b059c-0cb5-43a6-94c2-6ece8dd5786b",
+                "resource": "https://www.bbc.co.uk/music/artists/650e7db6-b795-4eb5-a702-5ea2fc46c848"
+              },
+              "begin": null,
+              "ended": true,
+              "attribute-values": {},
+              "end": "2020-11-19",
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "BBC Music page",
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+              "target-type": "url"
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "type": "discogs",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.discogs.com/artist/1103159",
+                "id": "99831bb0-aad8-4a9a-910b-fbbf264b8e25"
+              },
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "discogs",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "Stefani Germanotta",
+              "url": {
+                "resource": "https://www.discogs.com/artist/1525683",
+                "id": "06cffd38-aefd-4b7c-b3eb-63229910db23"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "type": "discogs",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.discogs.com/artist/5729318",
+                "id": "7a43525e-ad63-4b87-bff4-02a3508e1cb2"
+              },
+              "begin": null,
+              "source-credit": "Stefani Germanotta Band",
+              "direction": "forward"
+            },
+            {
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "type": "fanpage",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://ladygaga.fandom.com/",
+                "id": "09ae4292-e2a7-4308-9413-f9c529f463d9"
+              },
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "c6a20d3d-64e1-4c22-b1dd-e845b38caadf",
+                "resource": "http://fanity.com/LadyGaga"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": true,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "type": "fanpage",
+              "target-type": "url"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://music.yandex.com/artist/1438",
+                "id": "368bd904-1a53-4c0a-a0c3-ebbb7e588188"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+            },
+            {
+              "url": {
+                "resource": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms",
+                "id": "038d6068-7a95-4d95-90d4-7c93227ece53"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": []
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://play.anghami.com/artist/8620917",
+                "id": "a9d76c4c-1698-4dc5-af15-119e0058c754"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-type": "url"
+            },
+            {
+              "url": {
+                "id": "4cdb2528-841f-4d53-885e-1ec384dccf43",
+                "resource": "https://www.boomplay.com/artists/1927236"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "type": "free streaming",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "resource": "https://www.deezer.com/artist/75491",
+                "id": "972a0fa1-ae97-4864-a411-89c04b611bce"
+              },
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "type": "free streaming",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "type": "image",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "09747a57-4819-400a-a6fb-5db672e17a8d",
+                "resource": "https://commons.wikimedia.org/wiki/File:210120-D-WD757-1720_(50861332387)_(cropped).jpg"
+              },
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "image",
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "4f918afd-32eb-4f99-907e-ccda588c2733",
+                "resource": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_vigil_2016.jpg"
+              },
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "resource": "https://www.imdb.com/name/nm3078932/",
+                "id": "2ce19045-893e-4b26-9e08-b334e76aeb88"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "type": "IMDb"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "996481ae-5b89-40e7-afbc-97aa34326480",
+                "resource": "https://www.last.fm/music/Lady+Gaga"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "last.fm",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "type": "lyrics",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "begin": null,
+              "url": {
+                "id": "6ffb4b76-ed84-4107-ab82-5830860ba4bb",
+                "resource": "https://genius.com/artists/Lady-gaga"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "resource": "https://muzikum.eu/en/lady-gaga/lyrics",
+                "id": "ef3585c9-ecf7-40ec-b1f0-59f4c1dfdf9b"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "type": "lyrics",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "id": "80e3ca87-38b0-437e-a7ca-1ba5862f6af5",
+                "resource": "https://www.musixmatch.com/artist/Lady-Gaga"
+              },
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "type": "lyrics",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "type": "myspace",
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "a25ed847-06c3-435a-aa65-6cdaf505f577",
+                "resource": "https://myspace.com/ladygaga"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "15d85466-6ad6-4407-8a22-4e4bc183529c",
+                "resource": "https://www.ladygaga.com/"
+              },
+              "begin": null,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "type": "official homepage",
+              "target-type": "url"
+            },
+            {
+              "url": {
+                "resource": "https://jaxsta.com/profile/a661a9bb-ace6-4fb3-9e86-8e6612ab40e0",
+                "id": "9487a27b-0fa3-4cb8-b01d-41d8b2986651"
+              },
+              "begin": null,
+              "ended": true,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": "2025-12-17",
+              "target-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/no2008179258",
+                "id": "3989952a-7bb6-4875-a004-66bca9c657f1"
+              }
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "a2c0c224-3012-4b89-b8e6-bf4144abfc36",
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb157535900"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "33932142-5075-469a-b1c9-fb873c39543f",
+                "resource": "https://d-nb.info/gnd/135898838"
+              },
+              "begin": null
+            },
+            {
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://id.oclc.org/worldcat/entity/E39PCjrpyjhYC3CtXtKPqbfK3P",
+                "id": "61aca2ab-1803-4b04-873c-497ac48357c4"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": "Stefani Joanne Angelina Germanotta"
+            },
+            {
+              "url": {
+                "resource": "https://imvdb.com/n/lady-gaga",
+                "id": "0a3fa7cd-8421-43a4-91c3-60c4b5588ee1"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": []
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "id": "9c99f110-7b4e-4313-8339-2a3525e3f864",
+                "resource": "https://musicmoz.org/Bands_and_Artists/L/Lady_Gaga/"
+              },
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "begin": null,
+              "url": {
+                "resource": "https://nla.gov.au/nla.party-1479624",
+                "id": "3b0dfd3c-c60d-4125-b82c-65293e64e191"
+              },
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "dcf1d512-4e91-4aef-93fb-8a02a63d2e78",
+                "resource": "https://openlibrary.org/works/OL7317992A"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/lady-gaga",
+                "id": "831fa0ed-8d46-430b-bf88-d676df23f488"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "url": {
+                "id": "2f2c27a6-a337-449a-bdca-3b1cee3a37bd",
+                "resource": "https://www.idref.fr/162075545"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.musik-sammler.de/artist/lady-gaga/",
+                "id": "d6e7483f-daee-4ff2-8b0a-2568eba8d86d"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "a3fcc055-17d3-43d6-bfbb-931b62963f5d",
+                "resource": "https://www.muziekweb.nl/Link/M00000321714/POPULAR/"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "resource": "https://www.themoviedb.org/person/237405",
+                "id": "53a67496-283b-4172-a655-a7284ccc0449"
+              },
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "url": {
+                "id": "2811557d-420f-4018-b8b5-c49bab28a163",
+                "resource": "https://www.whosampled.com/Lady-Gaga/"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "begin": null,
+              "url": {
+                "resource": "http://www.maniadb.com/artist/153225",
+                "id": "955984cc-a464-4ae2-a8a2-a606e40622c8"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url"
+            },
+            {
+              "attribute-values": {},
+              "ended": true,
+              "url": {
+                "id": "e8b18f8d-50f6-4eee-90df-3a7e26c164fd",
+                "resource": "https://www.worldcat.org/identities/containsVIAFID/49555103"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": []
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": "2020-10-12",
+              "attributes": [],
+              "target-type": "url",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://play.google.com/store/music/artist?id=Ah7amohgkrydyfxgsbask752lye",
+                "id": "7f14ea60-e430-4764-83cb-0583c2b076cd"
+              },
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "3ea0e5dc-1ba2-41e8-95a0-fdf5338b392f",
+                "resource": "https://mora.jp/artist/13336/"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": []
+            },
+            {
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/277293880",
+                "id": "bc6a79d0-a36e-49c7-af93-71e7b696cc71"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "d52f9d43-5120-4746-8783-b004796d3be2",
+                "resource": "https://music.bugs.co.kr/artist/80046429"
+              },
+              "begin": null
+            },
+            {
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://open.qobuz.com/artist/61585",
+                "id": "f2efbe05-f735-4372-9dbc-674074b78891"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "source-credit": "レディー・ガガ",
+              "direction": "forward",
+              "url": {
+                "id": "9b04ef30-900d-4188-90a4-9f1b39887171",
+                "resource": "https://ototoy.jp/_/default/a/274159"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://us.7digital.com/artist/lady-gaga",
+                "id": "15245311-2c3c-4652-9ac1-7a4720eacf86"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "id": "457e7722-9345-4afc-bcb6-dc8bc07a14ca",
+                "resource": "https://www.beatport.com/artist/lady-gaga/140979"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.junodownload.com/artists/Lady+Gaga/releases/",
+                "id": "9b73f139-70da-4654-b723-5b1b58c3c1bd"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=253688",
+                "id": "1db026c7-d3c5-44fc-bac3-3e03826be152"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download"
+            },
+            {
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.qobuz.com/gb-en/interpreter/lady-gaga/download-streaming-albums",
+                "id": "9bdc476c-ee3f-4384-9588-4a8edf9e9c52"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "begin": null,
+              "url": {
+                "id": "1e99c34a-71b4-4d78-bc93-bfc42ec85816",
+                "resource": "https://itunes.apple.com/us/artist/id277293880"
+              },
+              "ended": true,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": "",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "url": {
+                "id": "1d88a3f2-6437-492d-a187-7eee4857b7dc",
+                "resource": "https://www.cdjapan.co.jp/person/700155541"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "type": "purchase for mail-order",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/43820",
+                "id": "a96c2378-deec-4a43-bf10-6f12fa7a538e"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "type": "secondhandsongs",
+              "target-type": "url"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.setlist.fm/setlists/lady-gaga-1bd665bc.html",
+                "id": "29ef7d70-76d3-415e-a634-b69175825292"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "type": "setlistfm"
+            },
+            {
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "end": "2019-04",
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "a52c424b-4257-4781-b5dd-4f32325a2cc3",
+                "resource": "https://plus.google.com/+LadyGaga"
+              },
+              "begin": null,
+              "ended": true,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "url": {
+                "resource": "https://giphy.com/ladygaga",
+                "id": "1e5213d3-b0e6-4a81-91a3-3e9ea9734806"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://open.spotify.com/user/ladygaga_spotify",
+                "id": "6bba133c-7b7d-4cf6-9f64-378649349daa"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "427d04db-0bba-48bf-b2e8-2b6f3750fdb3",
+                "resource": "https://twitter.com/GAGA_JAPAN"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "f5738dbc-1f27-4a18-a9bb-41bf1d6a4fa0",
+                "resource": "https://twitter.com/ladygaga"
+              },
+              "begin": null,
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "url": {
+                "id": "351bd1ae-3574-4afa-b099-fe4ab57b6297",
+                "resource": "https://www.facebook.com/ladygaga"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "258081c6-0813-4243-9c8c-5bc60826f0ca",
+                "resource": "https://www.instagram.com/ladygaga/"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.tiktok.com/@ladygaga",
+                "id": "949e3375-5570-4415-bca2-873c84dac5d2"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network"
+            },
+            {
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "2b8d3d8b-10cc-4555-aac8-3fbc326b69e4",
+                "resource": "https://www.tiktok.com/@stefanigermanott5"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "Stefani Germanotta"
+            },
+            {
+              "target-type": "url",
+              "type": "songkick",
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "url": {
+                "id": "c67df4fe-813b-4c45-9f75-eeb279310eb0",
+                "resource": "https://www.songkick.com/artists/974908"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "soundcloud",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://soundcloud.com/ladygaga",
+                "id": "4ad8f282-d6bf-405c-9b2e-e229f3737f6e"
+              }
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://soundcloud.com/stuckonfuckinyou",
+                "id": "0cb2f42a-8073-4bb2-b9a3-a32b177864ad"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "soundcloud",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "end": "2022-06-08",
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://us.napster.com/artist/lady-gaga",
+                "id": "20d84cfc-c459-4380-835e-999cea39cf83"
+              },
+              "begin": null
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "75655af0-5310-40bd-906d-dc32ad81f65b",
+                "resource": "https://music.amazon.com/artists/B001SZDIZU"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "url": {
+                "id": "bc6a79d0-a36e-49c7-af93-71e7b696cc71",
+                "resource": "https://music.apple.com/us/artist/277293880"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "id": "d52f9d43-5120-4746-8783-b004796d3be2",
+                "resource": "https://music.bugs.co.kr/artist/80046429"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": []
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://open.qobuz.com/artist/61585",
+                "id": "f2efbe05-f735-4372-9dbc-674074b78891"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "url": {
+                "id": "34afc0f1-1594-44ad-9030-012033fd1645",
+                "resource": "https://tidal.com/artist/3534754"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "b0f4569f-2706-4f78-86d3-2ce35a429818",
+                "resource": "https://tidal.com/artist/55239429"
+              },
+              "begin": null,
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=253688",
+                "id": "1db026c7-d3c5-44fc-bac3-3e03826be152"
+              }
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "9bdc476c-ee3f-4384-9588-4a8edf9e9c52",
+                "resource": "https://www.qobuz.com/gb-en/interpreter/lady-gaga/download-streaming-albums"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "type": "streaming",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://www.livenation.com/artist/K8vZ917Go7V",
+                "id": "2f707159-45a4-455f-8aae-320a4db2f52c"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "type": "ticketing"
+            },
+            {
+              "type": "ticketing",
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "28057c64-92fd-48be-a121-e90b5c53de29",
+                "resource": "https://www.ticketmaster.com/artist/1249444"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "66f4cb9b-0ea1-44a6-8619-e99b5612f00d",
+                "resource": "http://viaf.org/viaf/49555103"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "type": "VIAF"
+            },
+            {
+              "target-type": "url",
+              "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+              "type": "video channel",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.dailymotion.com/ladygaga",
+                "id": "32b60302-073c-420b-bca3-b4c7e50b24f6"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "target-type": "url",
+              "type": "wikidata",
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q19848",
+                "id": "54a0d32a-dd7e-4cff-a190-741bfb4af30b"
+              },
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "url": {
+                "resource": "https://www.youtube.com/channel/UC07Kxew-cMIaykMOkzqHtBQ",
+                "id": "2f5cf058-7c32-4bbc-8e24-8ce30dc37a52"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "LadyGagaVEVO",
+              "direction": "forward",
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "type": "youtube",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "source-credit": "Lady Gaga",
+              "direction": "forward",
+              "begin": null,
+              "url": {
+                "resource": "https://www.youtube.com/channel/UCNL1ZadSjHpjm4q9j2sVtOA",
+                "id": "9395c978-7717-4e8f-bd22-d31f7395c4f0"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "type": "youtube"
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "type": "youtube music",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "resource": "https://music.youtube.com/channel/UCGKXb1syicud01CJOOFRykg",
+                "id": "77d3b59c-468f-4cca-845d-58e2427f85ac"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false
+            }
+          ],
+          "gender": "Female",
+          "name": "Lady Gaga",
+          "begin-area": {
+            "sort-name": "Upper East Side",
+            "type": null,
+            "id": "7e4475a3-56a0-4a79-9e0d-c19881e14631",
+            "disambiguation": "",
+            "type-id": null,
+            "name": "Upper East Side"
+          },
+          "area": {
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type-id": null,
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "type": "Person",
+          "id": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "aliases": [
+            {
+              "end": null,
+              "name": "Jo Calderone",
+              "ended": false,
+              "locale": "it",
+              "sort-name": "Calderone, Jo",
+              "primary": false,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "name": "Lady Ga Ga",
+              "end": null,
+              "begin": null,
+              "type": "Search hint",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "ended": false,
+              "sort-name": "Lady Ga Ga",
+              "locale": null,
+              "primary": null
+            },
+            {
+              "primary": true,
+              "sort-name": "Ledi Qaqa",
+              "locale": "az_Latn",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "Ledi Qaqa"
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "bs_Latn",
+              "sort-name": "Lejdi Gaga",
+              "primary": true,
+              "ended": false,
+              "name": "Lejdi Gaga",
+              "end": null
+            },
+            {
+              "name": "Lēdija Gāga",
+              "end": null,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "lv",
+              "sort-name": "Lēdija Gāga",
+              "primary": true
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": false,
+              "locale": "it",
+              "sort-name": "Germanotta, S.",
+              "name": "S. Germanotta",
+              "end": null
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": false,
+              "sort-name": "Germanotta, Stefani",
+              "locale": "it",
+              "ended": false,
+              "name": "Stefani Germanotta",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "type": "Legal name",
+              "ended": false,
+              "primary": false,
+              "sort-name": "Germanotta, Stefani Joanne Angelina",
+              "locale": "it",
+              "name": "Stefani Joanne Angelina Germanotta",
+              "end": null
+            },
+            {
+              "name": "Stefanija Džoana Andželina Germanota",
+              "end": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "lt",
+              "sort-name": "Germanota, Stefanija Džoana Andželina",
+              "primary": false,
+              "ended": false
+            },
+            {
+              "name": "Λέιντι Γκάγκα",
+              "end": null,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "sort-name": "Λέιντι Γκάγκα",
+              "locale": "el",
+              "primary": true
+            },
+            {
+              "ended": false,
+              "primary": false,
+              "sort-name": "Στέφανι Τζοάν Αντζελίνα Τζερμανότα",
+              "locale": "el",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "end": null,
+              "name": "Στέφανι Τζοάν Αντζελίνα Τζερμανότα"
+            },
+            {
+              "ended": false,
+              "primary": false,
+              "sort-name": "Џо Калдероне",
+              "locale": "sr",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "end": null,
+              "name": "Џо Калдероне"
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "sort-name": "Джо Кальдероне",
+              "locale": "ru",
+              "primary": false,
+              "name": "Джо Кальдероне",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "Леди Гага",
+              "locale": "ba",
+              "sort-name": "Леди Гага",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null
+            },
+            {
+              "name": "Леди Гага",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "sort-name": "Леди Гага",
+              "locale": "ce",
+              "ended": false
+            },
+            {
+              "end": null,
+              "name": "Леди Гага",
+              "ended": false,
+              "locale": "cv",
+              "sort-name": "Леди Гага",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "ended": false,
+              "sort-name": "Леди Гага",
+              "locale": "ky",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "name": "Леди Гага"
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "ru",
+              "sort-name": "Леди Гага",
+              "primary": true,
+              "ended": false,
+              "name": "Леди Гага",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "Леди Гага",
+              "ended": false,
+              "locale": "sah",
+              "sort-name": "Леди Гага",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "ended": false,
+              "primary": true,
+              "sort-name": "Леди Гага",
+              "locale": "tt",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "end": null,
+              "name": "Леди Гага"
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "tyv",
+              "sort-name": "Леди Гага",
+              "primary": true,
+              "name": "Леди Гага",
+              "end": null
+            },
+            {
+              "name": "Леді Гага",
+              "end": null,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "uk",
+              "sort-name": "Леді Гага",
+              "primary": true
+            },
+            {
+              "end": null,
+              "name": "Леді Гага",
+              "sort-name": "Леді Гага",
+              "locale": "uk",
+              "primary": false,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null
+            },
+            {
+              "primary": true,
+              "locale": "bg",
+              "sort-name": "Лейди Гага",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "Лейди Гага"
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "sort-name": "Лейди Гага",
+              "locale": "tg",
+              "name": "Лейди Гага",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "Лејди Гага",
+              "ended": false,
+              "sort-name": "Lejdi Gaga",
+              "locale": "bs_Cyrl",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "mk",
+              "sort-name": "Лејди Гага",
+              "primary": true,
+              "name": "Лејди Гага",
+              "end": null
+            },
+            {
+              "primary": true,
+              "locale": "sr",
+              "sort-name": "Лејди Гага",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "Лејди Гага"
+            },
+            {
+              "name": "Лэдзі Гага",
+              "end": null,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "sort-name": "Лэдзі Гага",
+              "locale": "be",
+              "primary": true
+            },
+            {
+              "primary": true,
+              "locale": "mn",
+              "sort-name": "Лэди Гага",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "Лэди Гага"
+            },
+            {
+              "ended": false,
+              "sort-name": "Сте́фани Джоа́нн Анджели́на Джермано́тта",
+              "locale": "ru",
+              "primary": false,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "name": "Сте́фани Джоа́нн Анджели́на Джермано́тта"
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "uk",
+              "sort-name": "Сте́фані Джоа́н Анджеліна Джермано́тта",
+              "primary": false,
+              "ended": false,
+              "name": "Сте́фані Джоа́н Анджеліна Джермано́тта",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": false,
+              "locale": "sr",
+              "sort-name": "Стефани Џоан Анџелина Џерманота",
+              "name": "Стефани Џоан Анџелина Џерманота",
+              "end": null
+            },
+            {
+              "sort-name": "Стефани Жоанн Анжелина Жерманотта",
+              "locale": "mn",
+              "primary": false,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "Стефани Жоанн Анжелина Жерманотта"
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": false,
+              "sort-name": "Стэфані Джаан Анджэліна Джэрманота",
+              "locale": "be",
+              "name": "Стэфані Джаан Анджэліна Джэрманота",
+              "end": null
+            },
+            {
+              "name": "Լեդի Գագա",
+              "end": null,
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "sort-name": "Լեդի Գագա",
+              "locale": "hy"
+            },
+            {
+              "end": null,
+              "name": "Լէյտի Կակա",
+              "ended": false,
+              "primary": false,
+              "locale": "hy",
+              "sort-name": "Լէյտի Կակա",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name"
+            },
+            {
+              "end": null,
+              "name": "ליידי גאגא",
+              "sort-name": "ליידי גאגא",
+              "locale": "he",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null
+            },
+            {
+              "end": null,
+              "name": "ליידי גאגא",
+              "ended": false,
+              "primary": true,
+              "sort-name": "ליידי גאגא",
+              "locale": "yi",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name"
+            },
+            {
+              "end": null,
+              "name": "סטפני ג'ואן אנג'לינה ג'רמנוטה",
+              "ended": false,
+              "primary": false,
+              "sort-name": "סטפני ג'ואן אנג'לינה ג'רמנוטה",
+              "locale": "he",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name"
+            },
+            {
+              "name": "جوآن استفانی جرمانوتا",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": false,
+              "sort-name": "جوآن استفانی جرمانوتا",
+              "locale": "fa",
+              "ended": false
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": false,
+              "sort-name": "ستيفاني جيرمانوتا",
+              "locale": "ar",
+              "ended": false,
+              "name": "ستيفاني جيرمانوتا",
+              "end": null
+            },
+            {
+              "locale": "ar_EG",
+              "sort-name": "ليدى جاجا",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "ليدى جاجا"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "locale": "ar",
+              "sort-name": "ليدي غاغا",
+              "ended": false,
+              "name": "ليدي غاغا",
+              "end": null
+            },
+            {
+              "sort-name": "ليدي ڭاڭا",
+              "locale": "ar_MA",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "ليدي ڭاڭا"
+            },
+            {
+              "end": null,
+              "name": "لیدی قاقا",
+              "primary": true,
+              "sort-name": "Ledi Qaqa",
+              "locale": "az_Arab",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "لیدی گاگا",
+              "locale": "fa",
+              "primary": true,
+              "ended": false,
+              "name": "لیدی گاگا",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "لیڈی گاگا",
+              "primary": true,
+              "sort-name": "لیڈی گاگا",
+              "locale": "ks",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null
+            },
+            {
+              "end": null,
+              "name": "لیڈی گاگا",
+              "locale": "skr",
+              "sort-name": "لیڈی گاگا",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "locale": "ur",
+              "sort-name": "لیڈی گاگا",
+              "name": "لیڈی گاگا",
+              "end": null
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "لېيدى گاگا",
+              "locale": "ug",
+              "primary": true,
+              "ended": false,
+              "name": "لېيدى گاگا",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "sort-name": "لەیدی گاگا",
+              "locale": "ku",
+              "primary": true,
+              "name": "لەیدی گاگا",
+              "end": null
+            },
+            {
+              "name": "लेडी गागा",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "locale": "bho",
+              "sort-name": "लेडी गागा",
+              "ended": false
+            },
+            {
+              "name": "लेडी गागा",
+              "end": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "लेडी गागा",
+              "locale": "hi",
+              "primary": true,
+              "ended": false
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "locale": "mai",
+              "sort-name": "लेडी गागा",
+              "name": "लेडी गागा",
+              "end": null
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "mr",
+              "sort-name": "लेडी गागा",
+              "primary": true,
+              "ended": false,
+              "name": "लेडी गागा",
+              "end": null
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "sort-name": "लेडी गागा",
+              "locale": "ne",
+              "ended": false,
+              "name": "लेडी गागा",
+              "end": null
+            },
+            {
+              "name": "स्टेफनी जोआन अँजेलिना जर्मानोटा",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": false,
+              "locale": "mr",
+              "sort-name": "स्टेफनी जोआन अँजेलिना जर्मानोटा",
+              "ended": false
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "locale": "ne",
+              "sort-name": "स्टेफनी जोएन एन्जेलिना जर्मनोट्टा",
+              "primary": false,
+              "ended": false,
+              "name": "स्टेफनी जोएन एन्जेलिना जर्मनोट्टा",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "bn",
+              "sort-name": "লেডি গাগা",
+              "primary": true,
+              "name": "লেডি গাগা",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "locale": "as",
+              "sort-name": "লেডী গাগা",
+              "name": "লেডী গাগা",
+              "end": null
+            },
+            {
+              "name": "ਲੇਡੀ ਗਾਗਾ",
+              "end": null,
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "sort-name": "ਲੇਡੀ ਗਾਗਾ",
+              "locale": "pa"
+            },
+            {
+              "locale": "pa",
+              "sort-name": "ਸਟੇਫ਼ਨੀ ਜੋਐਨ ਏਂਜੇਲੀਨਾ ਜਰਮਨੋਟਾ",
+              "primary": false,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "ਸਟੇਫ਼ਨੀ ਜੋਐਨ ਏਂਜੇਲੀਨਾ ਜਰਮਨੋਟਾ"
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "locale": "gu",
+              "sort-name": "લેડી ગાગા",
+              "name": "લેડી ગાગા",
+              "end": null
+            },
+            {
+              "locale": "or",
+              "sort-name": "ଲେଡି ଗାଗା",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "ଲେଡି ଗାଗା"
+            },
+            {
+              "primary": true,
+              "sort-name": "லேடி காகா",
+              "locale": "ta",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "லேடி காகா"
+            },
+            {
+              "name": "లేడీ గాగా",
+              "end": null,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "sort-name": "లేడీ గాగా",
+              "locale": "te",
+              "primary": true
+            },
+            {
+              "end": null,
+              "name": "ಲೇಡಿ ಗಾಗಾ",
+              "primary": true,
+              "sort-name": "ಲೇಡಿ ಗಾಗಾ",
+              "locale": "kn",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "primary": true,
+              "sort-name": "ലേഡി ഗാഗ",
+              "locale": "ml",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "end": null,
+              "name": "ലേഡി ഗാഗ"
+            },
+            {
+              "end": null,
+              "name": "ලේඩි ගාගා",
+              "ended": false,
+              "sort-name": "ලේඩි ගාගා",
+              "locale": "si",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "locale": "th",
+              "sort-name": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา",
+              "primary": false,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "สเตฟานี โจแอนน์ แอนเจลินา เจอร์มาน็อตตา"
+            },
+            {
+              "end": null,
+              "name": "เลดีกากา",
+              "ended": false,
+              "sort-name": "เลดีกากา",
+              "locale": "th",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "name": "ເລດີ້ ກາກ້າ",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "sort-name": "ເລດີ້ ກາກ້າ",
+              "locale": "lo",
+              "ended": false
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "sort-name": "လေဒီဂါဂါ",
+              "locale": "my",
+              "ended": false,
+              "name": "လေဒီဂါဂါ",
+              "end": null
+            },
+            {
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "sort-name": "ლედი გაგა",
+              "locale": "ka",
+              "name": "ლედი გაგა",
+              "end": null
+            },
+            {
+              "locale": "am",
+              "sort-name": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ",
+              "primary": false,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "end": null,
+              "name": "ስቲፋኒ ጆአኒ አንጀሊና ጀርማኖታ"
+            },
+            {
+              "name": "በሌዲ ጋጋ",
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "primary": true,
+              "sort-name": "በሌዲ ጋጋ",
+              "locale": "am",
+              "ended": false
+            },
+            {
+              "name": "ឡេឌី ហ្គាហ្គា",
+              "end": null,
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "ended": false,
+              "primary": true,
+              "locale": "km",
+              "sort-name": "ឡេឌី ហ្គាហ្គា"
+            },
+            {
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "locale": "sat",
+              "sort-name": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
+              "primary": true,
+              "name": "ᱞᱮᱰᱤ ᱜᱟᱜᱟ",
+              "end": null
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
+              "locale": "ja",
+              "primary": false,
+              "ended": false,
+              "name": "ステファニー・ジョアン・アンジェリーナ・ジャーマノッタ",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "レディー・ガガ",
+              "ended": false,
+              "locale": "ja",
+              "sort-name": "レディー・ガガ",
+              "primary": true,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "end": null,
+              "name": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+              "ended": false,
+              "locale": "zh",
+              "sort-name": "史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+              "primary": false,
+              "begin": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "end": null,
+              "name": "嘎嘎小姐",
+              "ended": false,
+              "primary": true,
+              "sort-name": "嘎嘎小姐",
+              "locale": "zh_Hant",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name"
+            },
+            {
+              "end": null,
+              "name": "女神卡卡",
+              "primary": true,
+              "locale": "zh",
+              "sort-name": "女神卡卡",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null
+            },
+            {
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "레이디 가가",
+              "locale": "ko",
+              "primary": true,
+              "ended": false,
+              "name": "레이디 가가",
+              "end": null
+            },
+            {
+              "end": null,
+              "name": "스테퍼니 조앤 앤젤리나 제르마노타",
+              "ended": false,
+              "primary": false,
+              "locale": "ko",
+              "sort-name": "스테퍼니 조앤 앤젤리나 제르마노타",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name"
+            }
+          ],
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "ipis": [
+            "00519338344",
+            "00519338442",
+            "00519338540"
+          ],
+          "life-span": {
+            "begin": "1986-03-28",
+            "end": null,
+            "ended": false
+          },
+          "sort-name": "Lady Gaga",
+          "end-area": null,
+          "isnis": [
+            "0000000120254559"
+          ]
+        }
+      }
+    },
+    "discogsRecords": {
+      "1103159": {
+        "artist": {
+          "discogsArtistId": "1103159",
+          "name": "Lady Gaga",
+          "realName": "Stefani Joanne Angelina Germanotta",
+          "profile": "Stefani Germanotta (born on March 28th, 1986 in New York), known by her stage name Lady Gaga, is an American singer, songwriter, composer, record producer, activist, businesswoman, fashion designer and actress.\n\nHas worked as creative director at Polaroid.\n\nLady Gaga has a Mezzo-soprano vocal type.\nVocal range: 3.67 octaves (A2-F6).",
+          "artistUrls": [
+            "https://www.ladygaga.com",
+            "https://www.facebook.com/ladygaga",
+            "https://www.instagram.com/ladygaga",
+            "https://www.threads.net/@ladygaga",
+            "https://x.com/ladygaga",
+            "https://en.wikipedia.org/wiki/Lady_Gaga",
+            "https://www.youtube.com/@LadyGaga",
+            "https://www.youtube.com/@LadyGagaVEVO"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "1525683",
+              "name": "Stefani Germanotta"
+            },
+            {
+              "discogsArtistId": "13968175",
+              "name": "Ally (15)"
+            }
+          ],
+          "nameVariations": [
+            "Gaga",
+            "L. Gaga",
+            "L.Gaga",
+            "LGG",
+            "Lady",
+            "Lady Ga Ga",
+            "Lady Gagga",
+            "Lady Gagging",
+            "レディー・ガガ",
+            "嘎嘎小姐",
+            "女神卡卡",
+            "蕾迪卡卡",
+            "雷迪佳佳",
+            "雷迪嘎嘎"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/1103159",
+          "discogsWebUrl": "https://www.discogs.com/artist/1103159-Lady-Gaga",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Lady Gaga",
+          "id": 1103159,
+          "resource_url": "https://api.discogs.com/artists/1103159",
+          "uri": "https://www.discogs.com/artist/1103159-Lady-Gaga",
+          "releases_url": "https://api.discogs.com/artists/1103159/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/7fKI9gTLk8SjvmEoazkFu1QC-bSmKRvC3gc0seURp0g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMDMx/NTktMTc0MTUyMTky/MS03NzU0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/7fKI9gTLk8SjvmEoazkFu1QC-bSmKRvC3gc0seURp0g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMDMx/NTktMTc0MTUyMTky/MS03NzU0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/S3IW_iTAcFTPX-iwekZ3UcdeuW-9n4M89bAAgk7VvG4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMDMx/NTktMTc0MTUyMTky/MS03NzU0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            }
+          ],
+          "realname": "Stefani Joanne Angelina Germanotta",
+          "profile": "Stefani Germanotta (born on March 28th, 1986 in New York), known by her stage name Lady Gaga, is an American singer, songwriter, composer, record producer, activist, businesswoman, fashion designer and actress.\n\nHas worked as creative director at Polaroid.\n\nLady Gaga has a Mezzo-soprano vocal type.\nVocal range: 3.67 octaves (A2-F6).",
+          "urls": [
+            "https://www.ladygaga.com",
+            "https://www.facebook.com/ladygaga",
+            "https://www.instagram.com/ladygaga",
+            "https://www.threads.net/@ladygaga",
+            "https://x.com/ladygaga",
+            "https://en.wikipedia.org/wiki/Lady_Gaga",
+            "https://www.youtube.com/@LadyGaga",
+            "https://www.youtube.com/@LadyGagaVEVO"
+          ],
+          "namevariations": [
+            "Gaga",
+            "L. Gaga",
+            "L.Gaga",
+            "LGG",
+            "Lady",
+            "Lady Ga Ga",
+            "Lady Gagga",
+            "Lady Gagging",
+            "レディー・ガガ",
+            "嘎嘎小姐",
+            "女神卡卡",
+            "蕾迪卡卡",
+            "雷迪佳佳",
+            "雷迪嘎嘎"
+          ],
+          "aliases": [
+            {
+              "id": 1525683,
+              "name": "Stefani Germanotta",
+              "resource_url": "https://api.discogs.com/artists/1525683"
+            },
+            {
+              "id": 13968175,
+              "name": "Ally (15)",
+              "resource_url": "https://api.discogs.com/artists/13968175"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "1525683": {
+        "artist": {
+          "discogsArtistId": "1525683",
+          "name": "Stefani Germanotta",
+          "realName": "Stefani Joanne Angelina Germanotta",
+          "profile": "American singer, songwriter, composer, record producer, actress and activist, born 28 March 1986 in New York City.",
+          "artistUrls": [
+            "https://www.ladygaga.com",
+            "https://www.facebook.com/ladygaga",
+            "https://www.instagram.com/ladygaga",
+            "https://www.threads.net/@ladygaga",
+            "https://x.com/ladygaga",
+            "https://en.wikipedia.org/wiki/Lady_Gaga",
+            "https://www.youtube.com/@LadyGaga",
+            "https://www.youtube.com/@LadyGagaVEVO"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "1103159",
+              "name": "Lady Gaga"
+            },
+            {
+              "discogsArtistId": "13968175",
+              "name": "Ally (15)"
+            }
+          ],
+          "nameVariations": [
+            "Germanotta",
+            "Germanotta Stefani",
+            "Germanotta Stefani J",
+            "Germanotta, Stefani",
+            "Joanne Germanotta",
+            "Joanne Stefani Germanotta",
+            "Lady Gaga",
+            "S Germanotta",
+            "S. Germanotta",
+            "S.Germanotta",
+            "Stefani J Germanotta",
+            "Stefani J. Germanotta",
+            "Stefani Joanne Angelina Germanotta",
+            "Stefani Joanne Germanotta",
+            "Stefania Germanotta",
+            "Stefanie Germanotta",
+            "Stephanie Germanotta",
+            "Stephanie Germantotta"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/1525683",
+          "discogsWebUrl": "https://www.discogs.com/artist/1525683-Stefani-Germanotta",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Stefani Germanotta",
+          "id": 1525683,
+          "resource_url": "https://api.discogs.com/artists/1525683",
+          "uri": "https://www.discogs.com/artist/1525683-Stefani-Germanotta",
+          "releases_url": "https://api.discogs.com/artists/1525683/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/F71zo26TkyZ0cUJnA-gqrpJaicnUrO5Gl50z-9FByvc/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTc0Mzg0NjM2/MC0zMzM2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/F71zo26TkyZ0cUJnA-gqrpJaicnUrO5Gl50z-9FByvc/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTc0Mzg0NjM2/MC0zMzM2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/XjtlSBes9csfrGGJ23b7JOEHsjiuSVDGSs4od7_QgeM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTc0Mzg0NjM2/MC0zMzM2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 399
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Y7vFLuF3InpMixjqFsYZ6tMN203CRljf5UcD12DigB8/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzE5/OS04MTgxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Y7vFLuF3InpMixjqFsYZ6tMN203CRljf5UcD12DigB8/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzE5/OS04MTgxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/iv_QV8uPte0l5nVqN8jJpcThxvmOkcyV1KCtXJonNro/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzE5/OS04MTgxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 750
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/RuAdPuee0OUQyuH5HkbZ4-uQ40mcP_rAN5V3CckJUn0/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzEx/NC04ODU4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/RuAdPuee0OUQyuH5HkbZ4-uQ40mcP_rAN5V3CckJUn0/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzEx/NC04ODU4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ifn7KwS--bmheWh4dUPK3G3LsNm6R-9_hXewtiuXmNQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTU5NzYxNzEx/NC04ODU4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ZgK9gkV1fA_fcKT1qJApZN73nTWpEVJiEbIEarF15Gw/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MTczLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/ZgK9gkV1fA_fcKT1qJApZN73nTWpEVJiEbIEarF15Gw/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MTczLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/2fniv2qP7RRPpr7iX-OvK1vVIgp7cZWA_-uV65oURT8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MTczLmpwZWc.jpeg",
+              "width": 600,
+              "height": 761
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/pPi72eigeMwadIo2mFVnIbsCR4FF8vc7ZueYoTp9-hk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS0zMDYwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/pPi72eigeMwadIo2mFVnIbsCR4FF8vc7ZueYoTp9-hk/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS0zMDYwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/5qUpZeI7aTN6Li5Qfkox3G31gAhDmE4_gG-vwcddTqQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS0zMDYwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 601
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/LK5it9Z7XKU-PzujGleeFECUl153qBBnqZEV7S6M04A/rs:fit/g:sm/q:90/h:880/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MzQ5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/LK5it9Z7XKU-PzujGleeFECUl153qBBnqZEV7S6M04A/rs:fit/g:sm/q:90/h:880/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MzQ5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ZzBehhC1DszVM7iDQCFNJR2BP8_E4RQ6Dr65OTSAtYg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MS01MzQ5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 880
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/fmoy7Pch6_Ds-JI3vt6oULKJRnxz5reBODVATEOF7Fo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MC04NjEwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/fmoy7Pch6_Ds-JI3vt6oULKJRnxz5reBODVATEOF7Fo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MC04NjEwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Jd6-l1tVi3BfYVv1QEcMD6P4LdYr2wKQpyMPU930jDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY1OTUzMjI2/MC04NjEwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 450
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/OM2Rjvmkn6SIubdWhPYkL7EqF-mwq3eCv_OYyxm4uyI/rs:fit/g:sm/q:90/h:366/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY5MjE2MjM4/MC03NTY4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/OM2Rjvmkn6SIubdWhPYkL7EqF-mwq3eCv_OYyxm4uyI/rs:fit/g:sm/q:90/h:366/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY5MjE2MjM4/MC03NTY4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/fF_cUD8AO2K91tYBL-jw6YLLFv4D3LVMMXXL_dpHv0s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MjU2/ODMtMTY5MjE2MjM4/MC03NTY4LmpwZWc.jpeg",
+              "width": 500,
+              "height": 366
+            }
+          ],
+          "realname": "Stefani Joanne Angelina Germanotta",
+          "profile": "American singer, songwriter, composer, record producer, actress and activist, born 28 March 1986 in New York City.",
+          "urls": [
+            "https://www.ladygaga.com",
+            "https://www.facebook.com/ladygaga",
+            "https://www.instagram.com/ladygaga",
+            "https://www.threads.net/@ladygaga",
+            "https://x.com/ladygaga",
+            "https://en.wikipedia.org/wiki/Lady_Gaga",
+            "https://www.youtube.com/@LadyGaga",
+            "https://www.youtube.com/@LadyGagaVEVO"
+          ],
+          "namevariations": [
+            "Germanotta",
+            "Germanotta Stefani",
+            "Germanotta Stefani J",
+            "Germanotta, Stefani",
+            "Joanne Germanotta",
+            "Joanne Stefani Germanotta",
+            "Lady Gaga",
+            "S Germanotta",
+            "S. Germanotta",
+            "S.Germanotta",
+            "Stefani J Germanotta",
+            "Stefani J. Germanotta",
+            "Stefani Joanne Angelina Germanotta",
+            "Stefani Joanne Germanotta",
+            "Stefania Germanotta",
+            "Stefanie Germanotta",
+            "Stephanie Germanotta",
+            "Stephanie Germantotta"
+          ],
+          "aliases": [
+            {
+              "id": 1103159,
+              "name": "Lady Gaga",
+              "resource_url": "https://api.discogs.com/artists/1103159"
+            },
+            {
+              "id": 13968175,
+              "name": "Ally (15)",
+              "resource_url": "https://api.discogs.com/artists/13968175"
+            }
+          ],
+          "groups": [
+            {
+              "id": 5729318,
+              "name": "Stefani Germanotta Band",
+              "resource_url": "https://api.discogs.com/artists/5729318",
+              "active": true
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "5729318": {
+        "artist": {
+          "discogsArtistId": "5729318",
+          "name": "Stefani Germanotta Band",
+          "realName": "Stefani Germanotta Band",
+          "profile": "The SGBand (what they're also known as) was a short-lived band founded in 2005 by [a=Stefani Germanotta] A.K.A. [a=Lady Gaga] and broke up in 2006 sometime after their [M333713] EP was released.\r\n\r\nContact Info (Obsolete)\r\nPhone Number: 917-520-9499",
+          "artistUrls": [
+            "http://www.purevolume.com/stefanilive"
+          ],
+          "aliases": [],
+          "nameVariations": [
+            "Stefani"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/5729318",
+          "discogsWebUrl": "https://www.discogs.com/artist/5729318-Stefani-Germanotta-Band",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Stefani Germanotta Band",
+          "id": 5729318,
+          "resource_url": "https://api.discogs.com/artists/5729318",
+          "uri": "https://www.discogs.com/artist/5729318-Stefani-Germanotta-Band",
+          "releases_url": "https://api.discogs.com/artists/5729318/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/bzAli5yEQC8mGF1XOZAsQnHpC00V4VcJdBj6gcALSHY/rs:fit/g:sm/q:90/h:360/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM1/Ny03MzkyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/bzAli5yEQC8mGF1XOZAsQnHpC00V4VcJdBj6gcALSHY/rs:fit/g:sm/q:90/h:360/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM1/Ny03MzkyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/qydMMyYnQMBem-VrYQfC0vXhmn8IVur7Uc6HH_D7jaU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM1/Ny03MzkyLmpwZWc.jpeg",
+              "width": 480,
+              "height": 360
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/s_5HPV1fhvVkVg1pi4Co8N4h3ryKj7lg-SQolkGmYxg/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM2/MC01MTU5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/s_5HPV1fhvVkVg1pi4Co8N4h3ryKj7lg-SQolkGmYxg/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM2/MC01MTU5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/CRbmI_Tu02qnaKbHw1jc3zDIDX_ulWjiuphbFq3mQhw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3Mjkz/MTgtMTUwNjIwNjM2/MC01MTU5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 337
+            }
+          ],
+          "realname": "Stefani Germanotta Band",
+          "profile": "The SGBand (what they're also known as) was a short-lived band founded in 2005 by [a=Stefani Germanotta] A.K.A. [a=Lady Gaga] and broke up in 2006 sometime after their [M333713] EP was released.\r\n\r\nContact Info (Obsolete)\r\nPhone Number: 917-520-9499",
+          "urls": [
+            "http://www.purevolume.com/stefanilive"
+          ],
+          "namevariations": [
+            "Stefani"
+          ],
+          "members": [
+            {
+              "id": 1525683,
+              "name": "Stefani Germanotta",
+              "resource_url": "https://api.discogs.com/artists/1525683",
+              "active": true
+            },
+            {
+              "id": 4436306,
+              "name": "Calvin Pia",
+              "resource_url": "https://api.discogs.com/artists/4436306",
+              "active": true
+            },
+            {
+              "id": 6023353,
+              "name": "Alex Beckman",
+              "resource_url": "https://api.discogs.com/artists/6023353",
+              "active": true
+            },
+            {
+              "id": 6023354,
+              "name": "Eli Silverman",
+              "resource_url": "https://api.discogs.com/artists/6023354",
+              "active": true
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {
+      "650e7db6-b795-4eb5-a702-5ea2fc46c848": {
+        "releaseCount": 190,
+        "distinctiveTitles": [
+          "dawn of chromatica",
+          "the fame the remix",
+          "is that alright",
+          "3 way the golden rule",
+          "top gun maverick music from the motion picture",
+          "telephone",
+          "i can t give you anything but love",
+          "rain on me",
+          "heavy metal lover",
+          "poker face remixes",
+          "love for sale",
+          "stuck on fuckin you",
+          "born this way the collection",
+          "runway",
+          "applause",
+          "the fame monster video ep",
+          "diggin my grave",
+          "joker folie a deux music from the motion picture",
+          "the fame monster",
+          "born this way",
+          "anything goes",
+          "dance in the dark",
+          "alejandro",
+          "the edge of glory",
+          "the lady is a tramp",
+          "santa claus is coming to town",
+          "perfect illusion",
+          "mayhem",
+          "bad romance",
+          "marry the night",
+          "disease the poison live",
+          "gaga remixes",
+          "itunes festival london 2013",
+          "love game poker face medley live at mmva 09",
+          "walmart soundcheck",
+          "look what i found",
+          "hair",
+          "bloody mary",
+          "the cherrytree sessions",
+          "eh eh nothing else i can say",
+          "christmas tree",
+          "cheek to cheek",
+          "judas remixes",
+          "poker face speechless your song live from the 52nd annual grammy awards",
+          "always remember us this way",
+          "artpop",
+          "eh eh nothing else i can say remix ep",
+          "dope",
+          "a star is born soundtrack",
+          "i ll never love again",
+          "i get a kick out of you",
+          "a yo",
+          "sour candy",
+          "the cure",
+          "abracadabra",
+          "sweet sounds of heaven",
+          "g u y",
+          "til it happens to you",
+          "the aol sessions",
+          "paparazzi",
+          "stupid love",
+          "the dead dance",
+          "shallow",
+          "chromatica",
+          "you and i",
+          "a very gaga holiday",
+          "your song",
+          "joanne",
+          "why did you do that",
+          "just dance the remixes",
+          "lovegame",
+          "new material",
+          "harlequin",
+          "judas",
+          "disease the antidote live",
+          "hold my hand",
+          "heal me",
+          "abracadabra live at the 2026 grammys",
+          "winter wonderland",
+          "disease",
+          "music to my eyes",
+          "million reasons",
+          "poker face",
+          "born this way the remix",
+          "the fame",
+          "just dance",
+          "the remix",
+          "apple music live mayhem requiem",
+          "chillin",
+          "venus",
+          "i don t know what love is",
+          "monster",
+          "hitmixes",
+          "die with a smile live in las vegas",
+          "cheek to cheek live",
+          "the singles",
+          "die with a smile",
+          "2022 09 04 belluna dome tokorozawa japan",
+          "abracadabra gesaffelstein remix",
+          "judas the remixes",
+          "paparazzi the remixes",
+          "do what u want remixes",
+          "2022 09 03 belluna dome tokorozawa japan",
+          "acoustic live sessions",
+          "stefani germanotta nyu talent show",
+          "do what u want",
+          "2014 03 13 south by southwest austin tx usa",
+          "beautiful dirty rich",
+          "911 sofi tukker remix",
+          "2011 07 18 the howard stern show new york ny usa",
+          "disco heaven",
+          "the fame cd sampler",
+          "911 weiss remix",
+          "stupid love vitaclub warehouse mix",
+          "chromatica very official remix album",
+          "the beast chrysanth remix",
+          "2009 06 26 glastonbury festival of contemporary performing arts uk",
+          "rain on me ralphi rosario remix",
+          "vanity single",
+          "million reasons kvr remix",
+          "the dj vice megamix",
+          "just dance remixes pt 2",
+          "greatest hits remixes",
+          "john wayne",
+          "super bowl li halftime show",
+          "g u y remixes",
+          "v festival girls england 2009",
+          "isn t it a strange unicorn mashup",
+          "do what u want djws remix",
+          "die with a smile live",
+          "greatest hits",
+          "just dance glam as you mix by guene",
+          "inner fire",
+          "boys boys boys",
+          "just dance 2008 newnownext awards performance",
+          "rain on me purple disco machine remix",
+          "million reasons andrelli remix",
+          "judas thomas gold remix",
+          "always remember us this way xijaro pitch remix",
+          "just dance dj lil willy97 remixes",
+          "sexxx dreams",
+          "alejandro remixes",
+          "perfect illusion single",
+          "2017 04 15 coachella festival indio ca usa",
+          "joanne where do you think you re goin piano version",
+          "wunderland",
+          "video phone extended remix",
+          "lady gaga at the muchmusic video awards 2009",
+          "911",
+          "lady gaga mashup dj super remix",
+          "you and i the remixes",
+          "poker face human",
+          "americano rtl8 remix",
+          "lady gaga remixed",
+          "the fame kingdom",
+          "bad romance the remixes",
+          "singles collection",
+          "2016 10 24 the howard stern show new york ny usa",
+          "schei e roman stone mix",
+          "luvusum",
+          "brooklyn nights",
+          "monster collection",
+          "boys boys boys manhattan clique",
+          "the monster ball tour at madison square garden",
+          "unreleased collection",
+          "die with a smile acoustic",
+          "just dance remix",
+          "lady gaga",
+          "b t w singles remix",
+          "joanne world tour live",
+          "live at coachella 2017",
+          "pure songs",
+          "911 bruno martini remix",
+          "marry the night the remixes",
+          "born this way remixes",
+          "mother monster",
+          "abracadabra moistbreezy remix",
+          "female intuition",
+          "free woman honey dijon realness remix",
+          "voices of mayhem"
+        ],
+        "earliestYear": 2005,
+        "latestYear": 2026
+      }
+    },
+    "redirectedIdentifiers": []
+  }
+}

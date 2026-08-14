@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Fred again..",
+    "proposedMusicRollId": "mr_artist_000041",
+    "spotifyArtistId": "4oLeXFyACqeem2VImYeBFe"
+  },
+  "outcome": "provider_profile_multiplicity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4oLeXFyACqeem2VImYeBFe",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4oLeXFyACqeem2VImYeBFe",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4oLeXFyACqeem2VImYeBFe",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4oLeXFyACqeem2VImYeBFe",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q64009886",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q64009886",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3807247",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8664813",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3807247",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8664813",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3807247",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8664813",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4oLeXFyACqeem2VImYeBFe",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q64009886",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3807247",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "3807247"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8664813",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "8664813"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "4oLeXFyACqeem2VImYeBFe",
+      "observedValues": [
+        "4oLeXFyACqeem2VImYeBFe"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4oLeXFyACqeem2VImYeBFe",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4oLeXFyACqeem2VImYeBFe",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4oLeXFyACqeem2VImYeBFe",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4oLeXFyACqeem2VImYeBFe",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4oLeXFyACqeem2VImYeBFe",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q64009886",
+      "observedValues": [
+        "Q64009886"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64009886",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64009886",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64009886",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "observedValues": [
+        "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "3807247",
+        "8664813"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3807247",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8664813",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3807247",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8664813",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3807247",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8664813",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3807247",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3807247"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8664813",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "8664813"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "3807247",
+        "8664813"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+        "name": "Fred again..",
+        "sortName": "Fred again..",
+        "artistType": "Person",
+        "country": "GB",
+        "disambiguation": "UK producer, songwriter, multi-instrumentalist and DJ",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "4oLeXFyACqeem2VImYeBFe"
+        ],
+        "discogsArtistIds": [
+          "3807247",
+          "8664813"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "provider_profile_multiplicity",
+      "mechanicallyResolvable": true,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": true,
+    "qualifiesAsProviderMultiplicity": true,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "musicbrainz_derived_discogs:bca46a0c-25c9-42ca-98c2-e64c8a5e337e->3807247",
+    "musicbrainz_derived_discogs:bca46a0c-25c9-42ca-98c2-e64c8a5e337e->8664813",
+    "generalized_provider_profile_multiplicity"
+  ],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "4oLeXFyACqeem2VImYeBFe",
+      "wikidataQid": "Q64009886",
+      "name": "Fred Again",
+      "musicBrainzArtistId": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "3807247",
+        "8664813"
+      ]
+    },
+    "musicBrainzRecords": {
+      "bca46a0c-25c9-42ca-98c2-e64c8a5e337e": {
+        "artist": {
+          "musicBrainzArtistId": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "name": "Fred again..",
+          "sortName": "Fred again..",
+          "artistType": "Person",
+          "disambiguation": "UK producer, songwriter, multi-instrumentalist and DJ",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1993-07-19",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Fred",
+              "sortName": "Fred",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Fred Gibson",
+              "sortName": "Gibson, Fred",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Frederick John Philip Gibson",
+              "sortName": "Gibson, Frederick John Philip",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000493795075"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003882656"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://fredagainagain.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/3807247"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/8664813"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/76053262"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm9710419/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Fred+again.."
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Fred-again"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.fredagain.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/fred-again"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/gb/artist/id1455262408"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/5642336"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/705671"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/fred-again/813817"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/128537"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/fredagainagain1"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/fredagainagain"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/fredagainagainagainagainagain/"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/fredagain"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1455262408"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/5642336"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/17062018"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q64009886"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCXF6DMVLIVRr2OQAqyfEGeg"
+            }
+          ]
+        },
+        "raw": {
+          "gender": "Male",
+          "id": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "begin-area": {
+            "type-id": null,
+            "type": null,
+            "disambiguation": "",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ]
+          },
+          "end-area": null,
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "isnis": [
+            "0000000493795075"
+          ],
+          "disambiguation": "UK producer, songwriter, multi-instrumentalist and DJ",
+          "name": "Fred again..",
+          "sort-name": "Fred again..",
+          "ipis": [
+            "00228066278",
+            "00731904650",
+            "00731904748",
+            "00803797322"
+          ],
+          "area": {
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "life-span": {
+            "ended": false,
+            "begin": "1993-07-19",
+            "end": null
+          },
+          "type": "Person",
+          "relations": [
+            {
+              "url": {
+                "id": "49305b89-2329-4ea0-82a7-8c8e790d55c5",
+                "resource": "https://www.allmusic.com/artist/mn0003882656"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "allmusic",
+              "begin": null,
+              "end": null,
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "bandcamp",
+              "ended": false,
+              "url": {
+                "id": "be16660a-1269-48ba-9787-276819b8ec22",
+                "resource": "https://fredagainagain.bandcamp.com/"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "ended": false,
+              "type": "discogs",
+              "source-credit": "Fred Gibson",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.discogs.com/artist/3807247",
+                "id": "f00cd365-81e0-42de-be01-cd3877b58693"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "begin": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "id": "2f9ea0bc-9ba6-4665-8140-490d9c61a042",
+                "resource": "https://www.discogs.com/artist/8664813"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "discogs",
+              "ended": false
+            },
+            {
+              "url": {
+                "resource": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe",
+                "id": "5923fae8-5e56-47eb-a496-a99dc70cb44d"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": false,
+              "type": "free streaming",
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url"
+            },
+            {
+              "type": "free streaming",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "31b74ca4-0a3a-41c0-959a-2e2617531348",
+                "resource": "https://www.deezer.com/artist/76053262"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.imdb.com/name/nm9710419/",
+                "id": "8d28817e-ea68-4914-bf80-9aa12d06282a"
+              },
+              "ended": false,
+              "type": "IMDb"
+            },
+            {
+              "end": null,
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "attribute-ids": {},
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "last.fm",
+              "url": {
+                "id": "11467d40-1e59-44d7-949b-6cd3a98f5b67",
+                "resource": "https://www.last.fm/music/Fred+again.."
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "ended": false,
+              "type": "lyrics",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://genius.com/artists/Fred-again",
+                "id": "305f3651-d066-4960-aa71-a50d537b7e2a"
+              },
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "end": null,
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.fredagain.com/",
+                "id": "429ffd80-0511-41eb-a5df-c2d7a52538d8"
+              },
+              "type": "official homepage",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "type": "other databases",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "d9ba3b63-51c5-482d-89e0-f06e4c2d3ae5",
+                "resource": "https://rateyourmusic.com/artist/fred-again"
+              }
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "purchase for download",
+              "url": {
+                "id": "ed8ec853-7c62-4a81-a6e7-d0b07a3b1de4",
+                "resource": "https://itunes.apple.com/gb/artist/id1455262408"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": []
+            },
+            {
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "purchase for download",
+              "ended": false,
+              "url": {
+                "resource": "https://open.qobuz.com/artist/5642336",
+                "id": "2c4cec42-ca28-47a1-a21c-9ce8beff5bf4"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "id": "93f4e641-1565-49f7-9f1f-43bb4e87846b",
+                "resource": "https://ototoy.jp/_/default/a/705671"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "ended": false,
+              "type": "purchase for download",
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "type": "purchase for download",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "fc3941b9-22ff-4499-bfce-3dfd9bda1bd7",
+                "resource": "https://www.beatport.com/artist/fred-again/813817"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "url": {
+                "id": "e39f57ba-0965-4109-9767-680001577259",
+                "resource": "https://secondhandsongs.com/artist/128537"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "secondhandsongs",
+              "ended": false
+            },
+            {
+              "type": "social network",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "a5eeabaf-f5d0-4644-bb49-0b6fca6a5ba3",
+                "resource": "https://twitter.com/fredagainagain1"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.facebook.com/fredagainagain",
+                "id": "8d3a3396-3d0b-4973-9e99-55ec646baa11"
+              },
+              "ended": false,
+              "type": "social network",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "type": "social network",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.instagram.com/fredagainagainagainagainagain/",
+                "id": "c33b635d-652e-41dc-b48c-3640019d67ae"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "url": {
+                "id": "266bdf8b-99a2-438f-abfa-f3d8ce7ec305",
+                "resource": "https://soundcloud.com/fredagain"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "ended": false,
+              "type": "soundcloud",
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "streaming",
+              "url": {
+                "id": "542a4b0a-9db7-4be2-ba92-c0f1350a53cf",
+                "resource": "https://music.apple.com/gb/artist/1455262408"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "2c4cec42-ca28-47a1-a21c-9ce8beff5bf4",
+                "resource": "https://open.qobuz.com/artist/5642336"
+              },
+              "ended": false,
+              "type": "streaming",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {}
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "url": {
+                "id": "5ea3627f-f0c6-45b9-819a-f57cba7a0e99",
+                "resource": "https://tidal.com/artist/17062018"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "ended": false,
+              "type": "streaming"
+            },
+            {
+              "type": "wikidata",
+              "ended": false,
+              "url": {
+                "id": "ef6bd3eb-e76c-4e17-81d1-a1c86a965633",
+                "resource": "https://www.wikidata.org/wiki/Q64009886"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "url": {
+                "id": "2260e118-1a19-4855-b035-a97f9c5c297c",
+                "resource": "https://www.youtube.com/channel/UCXF6DMVLIVRr2OQAqyfEGeg"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "youtube",
+              "ended": false
+            }
+          ],
+          "aliases": [
+            {
+              "ended": false,
+              "type": "Artist name",
+              "primary": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "begin": null,
+              "sort-name": "Fred",
+              "locale": null,
+              "name": "Fred"
+            },
+            {
+              "begin": null,
+              "sort-name": "Gibson, Fred",
+              "locale": null,
+              "name": "Fred Gibson",
+              "ended": false,
+              "type": "Artist name",
+              "primary": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null
+            },
+            {
+              "type": "Legal name",
+              "ended": false,
+              "end": null,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "primary": null,
+              "name": "Frederick John Philip Gibson",
+              "locale": null,
+              "sort-name": "Gibson, Frederick John Philip",
+              "begin": null
+            }
+          ],
+          "country": "GB"
+        }
+      }
+    },
+    "discogsRecords": {
+      "3807247": {
+        "artist": {
+          "discogsArtistId": "3807247",
+          "name": "Fred Gibson (2)",
+          "realName": "Frederick John Philip Gibson",
+          "profile": "UK songwriter, producer and instrumentalist",
+          "artistUrls": [
+            "http://repertoire.bmi.com/Catalog.aspx?detail=writerid&page=1&fromrow=1&torow=25&keyid=1598119&subid=0"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "4715110",
+              "name": "Fred (163)"
+            },
+            {
+              "discogsArtistId": "8664813",
+              "name": "Fred again.."
+            }
+          ],
+          "nameVariations": [
+            "F. Gibson",
+            "F.Gibson",
+            "FG",
+            "FRED",
+            "Fred",
+            "Fred Gibson",
+            "Frederick John Philip Gibson",
+            "Gibson",
+            "Gibson, Fred"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/3807247",
+          "discogsWebUrl": "https://www.discogs.com/artist/3807247-Fred-Gibson-2",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Fred Gibson (2)",
+          "id": 3807247,
+          "resource_url": "https://api.discogs.com/artists/3807247",
+          "uri": "https://www.discogs.com/artist/3807247-Fred-Gibson-2",
+          "releases_url": "https://api.discogs.com/artists/3807247/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/qOv4E5Sg05MvYbQWkmVP_07kQSCFkwEZCof0hWDLSaQ/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4MDcy/NDctMTU4NzEzODY3/NS0xNzk5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/qOv4E5Sg05MvYbQWkmVP_07kQSCFkwEZCof0hWDLSaQ/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4MDcy/NDctMTU4NzEzODY3/NS0xNzk5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ypvqfyJ100hnN37LdT8ifU9qu8zL4XLFXbrN8SjFVss/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4MDcy/NDctMTU4NzEzODY3/NS0xNzk5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 800
+            }
+          ],
+          "realname": "Frederick John Philip Gibson",
+          "profile": "UK songwriter, producer and instrumentalist",
+          "urls": [
+            "http://repertoire.bmi.com/Catalog.aspx?detail=writerid&page=1&fromrow=1&torow=25&keyid=1598119&subid=0"
+          ],
+          "namevariations": [
+            "F. Gibson",
+            "F.Gibson",
+            "FG",
+            "FRED",
+            "Fred",
+            "Fred Gibson",
+            "Frederick John Philip Gibson",
+            "Gibson",
+            "Gibson, Fred"
+          ],
+          "aliases": [
+            {
+              "id": 4715110,
+              "name": "Fred (163)",
+              "resource_url": "https://api.discogs.com/artists/4715110"
+            },
+            {
+              "id": 8664813,
+              "name": "Fred again..",
+              "resource_url": "https://api.discogs.com/artists/8664813"
+            }
+          ],
+          "groups": [
+            {
+              "id": 211122,
+              "name": "Sylas",
+              "resource_url": "https://api.discogs.com/artists/211122",
+              "active": true
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "8664813": {
+        "artist": {
+          "discogsArtistId": "8664813",
+          "name": "Fred again..",
+          "realName": "Frederick John Philip Gibson",
+          "profile": "English record producer, singer, songwriter, multi-instrumentalist and DJ, born July 19, 1993 in London, England.",
+          "artistUrls": [
+            "https://www.fredagain.com",
+            "https://www.facebook.com/fredagain",
+            "https://www.soundcloud.com/fredagain",
+            "https://www.instagram.com/fredagainagainagainagainagain",
+            "https://www.youtube.com/channel/UCXF6DMVLIVRr2OQAqyfEGeg",
+            "https://www.tiktok.com/@fredagainagain",
+            "https://en.wikipedia.org/wiki/Fred_Again",
+            "https://fredagainagain.bandcamp.com"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "3807247",
+              "name": "Fred Gibson (2)"
+            },
+            {
+              "discogsArtistId": "4715110",
+              "name": "Fred (163)"
+            }
+          ],
+          "nameVariations": [
+            "F/red",
+            "FRED",
+            "Fred",
+            "Fred Again",
+            "Fred Again...",
+            "Fred again",
+            "Fred again...",
+            "フレッド・アゲイン"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/8664813",
+          "discogsWebUrl": "https://www.discogs.com/artist/8664813-Fred-again",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Fred again..",
+          "id": 8664813,
+          "resource_url": "https://api.discogs.com/artists/8664813",
+          "uri": "https://www.discogs.com/artist/8664813-Fred-again",
+          "releases_url": "https://api.discogs.com/artists/8664813/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/tCIve24AeBulLEeTm1UvmZ2Fi9VkZEzFjALb2z2krPE/rs:fit/g:sm/q:90/h:748/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzQ1/Mi0zMDgxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/tCIve24AeBulLEeTm1UvmZ2Fi9VkZEzFjALb2z2krPE/rs:fit/g:sm/q:90/h:748/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzQ1/Mi0zMDgxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/IFnZ-sSzLICBVHvLrdD1rxpuRk4gNb0KnR3SWiwkfiM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzQ1/Mi0zMDgxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 748
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/1NW4wv_ECmz8fHJCwtQehn_9RtAjf4YxJ-pAiIB_RKc/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzU0/Ny0zMzc3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/1NW4wv_ECmz8fHJCwtQehn_9RtAjf4YxJ-pAiIB_RKc/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzU0/Ny0zMzc3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/PDmcsSdwsVBcPlrzgyNYTMbS-qdEvQ2_iA8UJcDDKTg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzU0/Ny0zMzc3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 337
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/m68aNfXZ9uHzp-2arjl2rZ9c9HHZvMUf1_xeGBLfcpo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTYyMzk1MzI3/My0xMDEwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/m68aNfXZ9uHzp-2arjl2rZ9c9HHZvMUf1_xeGBLfcpo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTYyMzk1MzI3/My0xMDEwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/EUK_IYV4dq9DR17cb1ZG8NtFrOrS5dHjnO3R7z__Fhs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTYyMzk1MzI3/My0xMDEwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/C-6FMSDSlhg2-mvIUVPapl-s1b4jENXgj1c-XnLhmgI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY2MzA5MDY0/OC0yODU3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/C-6FMSDSlhg2-mvIUVPapl-s1b4jENXgj1c-XnLhmgI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY2MzA5MDY0/OC0yODU3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/kfmdhJ8f4aDOcM4S_Pnw6-UMQSKwqyqjvpUJgxjquv8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY2MzA5MDY0/OC0yODU3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/wv3hBy_hpA2sOp6cPyx2Lin1Ervv5Xi_c-Sj7HL3fnU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzgw/NS0yODQxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/wv3hBy_hpA2sOp6cPyx2Lin1Ervv5Xi_c-Sj7HL3fnU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzgw/NS0yODQxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/YASvpwcC6HfffGh16iSGtVDvQAwFFoTRwDf9_Q_kPcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzgw/NS0yODQxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 400
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/VQJHhF-P49LKvqM_VwJevZhAdNAZtmzXA1zZ21CPdiA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzc3/NS00NjE4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/VQJHhF-P49LKvqM_VwJevZhAdNAZtmzXA1zZ21CPdiA/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzc3/NS00NjE4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/J9W0rQ61qwA0WKQ7O0A9-5AMXlKZoRQnZnc5cs7VR4U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4Nzc3/NS00NjE4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 400
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/fkv5T-qDa2PReNWiinoPVeIBwgjnA7ShlAmJQJwAV3c/rs:fit/g:sm/q:90/h:887/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzYx/OS0xNTQ4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/fkv5T-qDa2PReNWiinoPVeIBwgjnA7ShlAmJQJwAV3c/rs:fit/g:sm/q:90/h:887/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzYx/OS0xNTQ4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/O15q4hZ2dmBTQsdU7NuPYQyteqYg3xmvQs5jOfuQhRA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg2NjQ4/MTMtMTY1NTU4NzYx/OS0xNTQ4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 887
+            }
+          ],
+          "realname": "Frederick John Philip Gibson",
+          "profile": "English record producer, singer, songwriter, multi-instrumentalist and DJ, born July 19, 1993 in London, England.",
+          "urls": [
+            "https://www.fredagain.com",
+            "https://www.facebook.com/fredagain",
+            "https://www.soundcloud.com/fredagain",
+            "https://www.instagram.com/fredagainagainagainagainagain",
+            "https://www.youtube.com/channel/UCXF6DMVLIVRr2OQAqyfEGeg",
+            "https://www.tiktok.com/@fredagainagain",
+            "https://en.wikipedia.org/wiki/Fred_Again",
+            "https://fredagainagain.bandcamp.com"
+          ],
+          "namevariations": [
+            "F/red",
+            "FRED",
+            "Fred",
+            "Fred Again",
+            "Fred Again...",
+            "Fred again",
+            "Fred again...",
+            "フレッド・アゲイン"
+          ],
+          "aliases": [
+            {
+              "id": 3807247,
+              "name": "Fred Gibson (2)",
+              "resource_url": "https://api.discogs.com/artists/3807247"
+            },
+            {
+              "id": 4715110,
+              "name": "Fred (163)",
+              "resource_url": "https://api.discogs.com/artists/4715110"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {
+      "bca46a0c-25c9-42ca-98c2-e64c8a5e337e": {
+        "releaseCount": 126,
+        "distinctiveTitles": [
+          "delilah pull me out of this",
+          "billie loving arms",
+          "strong",
+          "scared",
+          "hardstyle 2",
+          "charades",
+          "faisal envelops me",
+          "9 months 50 hours",
+          "usb",
+          "me sorry",
+          "live from lyon france oct 24 2025",
+          "i luv u",
+          "mike desert island duvet",
+          "ambery",
+          "smoke mall grab remix",
+          "victory lap",
+          "lights out",
+          "charades m1onthebeat remix",
+          "back 2 back",
+          "backseat",
+          "soldiers",
+          "facilita",
+          "chika scared",
+          "stayinit",
+          "hannah the sun",
+          "glow",
+          "adore u",
+          "marea we ve lost dancing diplo remix",
+          "actual life 2 february 2 october 15 2021",
+          "ten days",
+          "gang",
+          "marnie wish i had u",
+          "live from toronto canada nov 14 2025",
+          "this is real disappear",
+          "don t judge me",
+          "alexandra palace london feb 27 2026",
+          "stay high again",
+          "mixmag the cover mix",
+          "baby again",
+          "usb002 remixes",
+          "solo",
+          "diana you don t even know",
+          "jessie i miss you",
+          "dermot see yourself in my eyes",
+          "two more days",
+          "ogdub",
+          "told brian eno remix",
+          "lights out haai remix",
+          "skepta fred",
+          "actual life piano april 14 december 17 2020",
+          "air maxes",
+          "icey feisty",
+          "apple music live fred again",
+          "actual life",
+          "the floor",
+          "usb002",
+          "victory lap two",
+          "talk of the town",
+          "did it again",
+          "tate how i feel",
+          "admit it u don t want 2",
+          "ten",
+          "julia deep diving",
+          "leavemealone",
+          "kyle i found you",
+          "little mystery",
+          "actual life 2 piano february 2 october 15 2021",
+          "places to be",
+          "angie i ve been lost",
+          "judge me interlude",
+          "victory lap three",
+          "danielle smile on my face",
+          "itsnotreeaallllllll",
+          "kammy like i do",
+          "peace u need",
+          "julie stay",
+          "kahan last year",
+          "rumble",
+          "lights burn dimmer",
+          "marea we ve lost dancing",
+          "baxter these are my friends",
+          "winny",
+          "jungle",
+          "you re a star",
+          "gang berwyn remix",
+          "secret life",
+          "smoke",
+          "turn on the lights again",
+          "turn on the lights again remixes",
+          "berwyngesaffneighbours",
+          "actual life 3 piano january 1 september 9 2022",
+          "bleu better with time",
+          "clara the night is dark",
+          "just stand there",
+          "actual life april 14 december 17 2020",
+          "2024 06 11 los angeles memorial coliseum los angeles ca usa",
+          "light dark light",
+          "actual life 3 january 1 september 9 2022",
+          "victory lap four",
+          "solo kettama remix",
+          "jungle rico nasty remix",
+          "strong yelow remix",
+          "green room set maka s birthday rome",
+          "studio live 2 london 21 october 2021",
+          "beto s horns fred remix",
+          "beto s horns ezra collective remix",
+          "places to be remixes",
+          "actual life 2 piano live 20 march 2022",
+          "nye 2022",
+          "turn on the lights again solomun remix",
+          "actual life 3 piano live 22 december 2022",
+          "live at glastonbury 2023 other stage",
+          "ok ok hamdi remix",
+          "boiler room fred again in london jul 29 2022",
+          "fred again tiny desk concert",
+          "beto s horns",
+          "beto s horns daphni remix",
+          "2025 12 12 expo santa fe mexico city df mx",
+          "rooftop live fede s roof naples",
+          "leavemealone nia archives remix",
+          "2024 10 17 nts radio",
+          "studio live 3 london 9 november 2022",
+          "studio live london 24 april 2021",
+          "fred again rooftop live arun s roof london"
+        ],
+        "earliestYear": 2019,
+        "latestYear": 2026
+      }
+    },
+    "redirectedIdentifiers": []
+  }
+}

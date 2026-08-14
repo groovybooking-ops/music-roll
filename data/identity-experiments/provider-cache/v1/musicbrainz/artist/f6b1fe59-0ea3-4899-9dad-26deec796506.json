@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "f6b1fe59-0ea3-4899-9dad-26deec796506",
+  "retrievedAt": "2026-08-14T05:18:57.887Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "f6b1fe59-0ea3-4899-9dad-26deec796506",
+      "name": "Wednesday",
+      "sortName": "Wednesday",
+      "artistType": "Person",
+      "disambiguation": "Hip-Hop artist",
+      "country": "US",
+      "area": {
+        "id": "d2918f1a-c51e-4a4a-ad7f-cdd88877b25f",
+        "name": "Florida",
+        "sortName": "Florida",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6MTj7qMu9W7f6jkgPNrBVr"
+        }
+      ]
+    },
+    "raw": {
+      "type": "Person",
+      "relations": [
+        {
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "url": {
+            "id": "5becae31-919a-4dad-a646-31d0038360a1",
+            "resource": "https://open.spotify.com/artist/6MTj7qMu9W7f6jkgPNrBVr"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "free streaming",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward"
+        }
+      ],
+      "aliases": [],
+      "end-area": null,
+      "area": {
+        "type-id": null,
+        "sort-name": "Florida",
+        "disambiguation": "",
+        "name": "Florida",
+        "type": null,
+        "iso-3166-2-codes": [
+          "US-FL"
+        ],
+        "id": "d2918f1a-c51e-4a4a-ad7f-cdd88877b25f"
+      },
+      "name": "Wednesday",
+      "isnis": [],
+      "country": "US",
+      "gender-id": null,
+      "sort-name": "Wednesday",
+      "gender": null,
+      "begin-area": null,
+      "id": "f6b1fe59-0ea3-4899-9dad-26deec796506",
+      "ipis": [],
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "disambiguation": "Hip-Hop artist"
+    }
+  }
+}

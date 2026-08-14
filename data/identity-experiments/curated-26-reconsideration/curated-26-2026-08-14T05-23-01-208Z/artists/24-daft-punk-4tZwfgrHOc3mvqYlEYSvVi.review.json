@@ -1,0 +1,2859 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Daft Punk",
+    "proposedMusicRollId": "mr_artist_000044",
+    "spotifyArtistId": "4tZwfgrHOc3mvqYlEYSvVi"
+  },
+  "outcome": "provider_profile_multiplicity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4tZwfgrHOc3mvqYlEYSvVi",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4tZwfgrHOc3mvqYlEYSvVi",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4tZwfgrHOc3mvqYlEYSvVi",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4tZwfgrHOc3mvqYlEYSvVi",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q185828",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q185828",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1289",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1289",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1289",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "7618671",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1289",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "7618671",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4tZwfgrHOc3mvqYlEYSvVi",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q185828",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1289",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "1289"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "7618671",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "7618671"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "4tZwfgrHOc3mvqYlEYSvVi",
+      "observedValues": [
+        "4tZwfgrHOc3mvqYlEYSvVi"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4tZwfgrHOc3mvqYlEYSvVi",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4tZwfgrHOc3mvqYlEYSvVi",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4tZwfgrHOc3mvqYlEYSvVi",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4tZwfgrHOc3mvqYlEYSvVi",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4tZwfgrHOc3mvqYlEYSvVi",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q185828",
+      "observedValues": [
+        "Q185828"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q185828",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q185828",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q185828",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "observedValues": [
+        "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "1289",
+        "7618671"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1289",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1289",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1289",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7618671",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1289",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7618671",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1289",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1289"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7618671",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "7618671"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "1289",
+        "7618671"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+        "name": "Daft Punk",
+        "sortName": "Daft Punk",
+        "artistType": "Group",
+        "country": "FR",
+        "disambiguation": "French electronic duo",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "4tZwfgrHOc3mvqYlEYSvVi"
+        ],
+        "discogsArtistIds": [
+          "1289",
+          "7618671"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "provider_profile_multiplicity",
+      "mechanicallyResolvable": true,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": true,
+    "qualifiesAsProviderMultiplicity": true,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "musicbrainz_derived_discogs:056e4f3e-d505-4dad-8ec1-d04f521cbb56->1289",
+    "musicbrainz_derived_discogs:056e4f3e-d505-4dad-8ec1-d04f521cbb56->7618671",
+    "generalized_provider_profile_multiplicity"
+  ],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "4tZwfgrHOc3mvqYlEYSvVi",
+      "wikidataQid": "Q185828",
+      "name": "Daft Punk",
+      "musicBrainzArtistId": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "discogsArtistId": "1289"
+    },
+    "musicBrainzRecords": {
+      "056e4f3e-d505-4dad-8ec1-d04f521cbb56": {
+        "artist": {
+          "musicBrainzArtistId": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+          "name": "Daft Punk",
+          "sortName": "Daft Punk",
+          "artistType": "Group",
+          "disambiguation": "French electronic duo",
+          "country": "FR",
+          "area": {
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "name": "France",
+            "sortName": "France",
+            "type": null
+          },
+          "beginArea": {
+            "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+            "name": "Paris",
+            "sortName": "Paris",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1993",
+            "end": "2021-02-22",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "Da Funk",
+              "sortName": "Da Funk",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Daft Punk",
+              "sortName": "Daft Punk",
+              "type": "Artist name",
+              "locale": "en",
+              "primary": true
+            },
+            {
+              "name": "DaftPunk",
+              "sortName": "DaftPunk",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Duft Punk",
+              "sortName": "Duft Punk",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "daft punk",
+              "sortName": "Daft Punk",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "ダフト・パンク",
+              "sortName": "ダフト パンク",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000123531208"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000667669"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/263"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://emimusic.jp/daftpunk"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://daft.fm/artists/daft-punk/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://sonymusic.co.jp/daftpunk"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1289"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/7618671"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://www.theaudiodb.com/artist/111492-Daft-Punk"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/13905"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/1477045"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/27"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Daftpunklapremiere2010.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm1386916/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Daft+Punk"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Daft-punk"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/daft-punk/lyrics"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Daft-Punk"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/daftpunk"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://daftpunk.com/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://mouskni.com/artists/daft-punk/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/0c43a427-4e1e-4986-8079-4b7a7359702e"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no97063566"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/D/Daft_Punk/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb139764066"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/10198300-1"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.ndl.go.jp/auth/ndlna/001155868"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39QQPVp836qD8MJb64BpRQfkt"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/daft-punk"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://soundtrackcollector.com/composer/10148/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/daftpunk"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/daft-punk"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/artist/daft-punk"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.goodreads.com/author/show/1032817"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/080492193"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.livefans.jp/artists/2584"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/2854/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000098950/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Daft-Punk/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no97063566/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/332271/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/fr/artist/5468295"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/36819"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/321671"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/875226"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/daft-punk/3547"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Daft+Punk/releases/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/fr-fr/interpreter/daft-punk/36819"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/fr/artist/id5468295"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.cdjapan.co.jp/person/700202980"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/2933"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/daft-punk-bd6d5a2.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/daftpunk"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/daftpunk"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/daftpunk/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@daftpunk"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/368193"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/daftpunkofficialmusic"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/daft-punk"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.fr/artists/B001E8WS3O"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/fr/artist/5468295"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/36819"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/8847"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/fr-fr/interpreter/daft-punk/36819"
+            },
+            {
+              "relationshipType": "vgmdb",
+              "url": "https://vgmdb.net/artist/13389"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/131208258"
+            },
+            {
+              "relationshipType": "video channel",
+              "url": "https://www.dailymotion.com/daftpunk"
+            },
+            {
+              "relationshipType": "video channel",
+              "url": "https://www.twitch.tv/daftpunk"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q185828"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCRr1xG_2WIDs18a6cIiCxeA"
+            }
+          ]
+        },
+        "raw": {
+          "life-span": {
+            "ended": true,
+            "end": "2021-02-22",
+            "begin": "1993"
+          },
+          "ipis": [
+            "00711797335"
+          ],
+          "sort-name": "Daft Punk",
+          "isnis": [
+            "0000000123531208"
+          ],
+          "end-area": null,
+          "relations": [
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.allmusic.com/artist/mn0000667669",
+                "id": "95b51286-5245-4830-a437-98e91915926d"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "type": "allmusic"
+            },
+            {
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "type": "bandsintown",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://www.bandsintown.com/a/263",
+                "id": "d984967f-34bc-402f-b6b5-9e3b1f37bd2c"
+              }
+            },
+            {
+              "url": {
+                "resource": "https://www.bbc.co.uk/music/artists/056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+                "id": "e4b6210e-cbcf-4dc9-977d-53cf33b555ac"
+              },
+              "begin": null,
+              "ended": true,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": "",
+              "type": "BBC Music page",
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+              "target-type": "url",
+              "end": "2020-11-19",
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": "2013-10-23",
+              "attributes": [],
+              "target-type": "url",
+              "type": "discography page",
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": true,
+              "url": {
+                "resource": "http://emimusic.jp/daftpunk",
+                "id": "12c720d8-04cf-4be1-b17b-fc92b10c73c4"
+              },
+              "begin": null
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://daft.fm/artists/daft-punk/",
+                "id": "124f5970-5283-4d83-9afe-dd33f4859da9"
+              },
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "discography page",
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "discography page",
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "http://sonymusic.co.jp/daftpunk",
+                "id": "b242845a-b3e5-475c-80ac-33caf1081abf"
+              },
+              "begin": null
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "type": "discogs",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.discogs.com/artist/1289",
+                "id": "7ec0dfeb-5c20-4639-9f27-ec0cf2399403"
+              },
+              "begin": null
+            },
+            {
+              "type": "discogs",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://www.discogs.com/artist/7618671",
+                "id": "d20f1be8-2d3f-4cf7-984c-d9b9058f1cd7"
+              },
+              "direction": "forward",
+              "source-credit": "Indo Silver Club"
+            },
+            {
+              "target-type": "url",
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "type": "fanpage",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.theaudiodb.com/artist/111492-Daft-Punk",
+                "id": "dd4722bd-bc78-46b1-a2c6-0609ebbd4642"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "21e8faa6-a475-4437-9860-c58dfdb9520f",
+                "resource": "https://music.yandex.com/artist/13905"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "type": "free streaming",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+                "id": "fa1527d7-0849-437f-8bcc-364fbf56871f"
+              },
+              "begin": null
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "type": "free streaming",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "resource": "https://www.deezer.com/artist/1477045",
+                "id": "9117fac5-e785-4276-856b-228d82425027"
+              },
+              "source-credit": "Daft Punk - Stardust",
+              "direction": "forward"
+            },
+            {
+              "target-type": "url",
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.deezer.com/artist/27",
+                "id": "f38c83e3-0745-4397-86e5-6f9e9e65efe4"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "type": "image",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://commons.wikimedia.org/wiki/File:Daftpunklapremiere2010.jpg",
+                "id": "7221d011-ab2a-4555-ad7f-db9ea00e3155"
+              },
+              "begin": null
+            },
+            {
+              "type": "IMDb",
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.imdb.com/name/nm1386916/",
+                "id": "062e523e-6e8e-4d8e-a955-2c945c65642f"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.last.fm/music/Daft+Punk",
+                "id": "7bf6ad6b-ea62-4e6f-af0c-0da8193d9901"
+              },
+              "begin": null,
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "type": "last.fm",
+              "target-type": "url"
+            },
+            {
+              "begin": null,
+              "url": {
+                "id": "cfb96d55-ab0f-4149-a2ef-9734562f170e",
+                "resource": "https://genius.com/artists/Daft-punk"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "lyrics",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "lyrics",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "84ac0ec0-e956-494a-9d1b-7c7c05470378",
+                "resource": "https://muzikum.eu/en/daft-punk/lyrics"
+              },
+              "begin": null
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "lyrics",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.musixmatch.com/artist/Daft-Punk",
+                "id": "48b68a0e-026d-468c-8730-411c4be6d4a6"
+              },
+              "begin": null
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "b4740227-8d56-4fbb-855a-64072e21dfbd",
+                "resource": "https://myspace.com/daftpunk"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "myspace",
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "official homepage",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://daftpunk.com/",
+                "id": "2983c881-0cbe-4b53-9242-c4e5dee7a208"
+              },
+              "begin": null
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": true,
+              "url": {
+                "id": "39b134e8-1e76-45c4-9ffb-d86a49e85048",
+                "resource": "http://mouskni.com/artists/daft-punk/"
+              },
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "official homepage",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "target-type": "url"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "url": {
+                "id": "2340ea9a-0597-4b5d-a962-377c68d5c8ef",
+                "resource": "https://jaxsta.com/profile/0c43a427-4e1e-4986-8079-4b7a7359702e"
+              },
+              "begin": null,
+              "attribute-ids": {},
+              "end": "2025-12-17",
+              "attributes": [],
+              "target-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url"
+            },
+            {
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/no97063566",
+                "id": "160a6d0c-e892-4593-b360-d13128593735"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "url": {
+                "id": "c1c57586-16e4-49fc-900c-1441d4a98f23",
+                "resource": "http://musicmoz.org/Bands_and_Artists/D/Daft_Punk/"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb139764066",
+                "id": "bd32aec6-001a-4f39-8ace-0244f07bb617"
+              },
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "begin": null,
+              "url": {
+                "resource": "https://d-nb.info/gnd/10198300-1",
+                "id": "47ed88d5-0ec4-4e98-bdd2-5036d10b6162"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "1666523c-5301-4e0b-8b2a-ac57784645c2",
+                "resource": "https://id.ndl.go.jp/auth/ndlna/001155868"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": []
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "begin": null,
+              "url": {
+                "resource": "https://id.oclc.org/worldcat/entity/E39QQPVp836qD8MJb64BpRQfkt",
+                "id": "ee9ae62e-ada0-41e2-8def-4c2bebf72d21"
+              }
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "b8f66900-b696-40b3-aa7b-f4c6197d60b9",
+                "resource": "https://imvdb.com/n/daft-punk"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "http://soundtrackcollector.com/composer/10148/",
+                "id": "ff19a5eb-b620-46a4-bd24-633e98e9dcce"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://ra.co/dj/daftpunk",
+                "id": "fbd1fbc0-f842-4c90-bf95-6a9dfc2a0f53"
+              },
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": []
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/daft-punk",
+                "id": "03f18499-e7bf-4260-aaaa-25f83e98fd68"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "url": {
+                "id": "710cf69b-2140-48cc-9a96-3c108f60937d",
+                "resource": "https://www.45cat.com/artist/daft-punk"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {}
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "d008c7b3-39e0-4f96-9914-9580a9fc1261",
+                "resource": "https://www.goodreads.com/author/show/1032817"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "c5ecfd95-88c2-4eea-9961-1815455b8451",
+                "resource": "https://www.idref.fr/080492193"
+              },
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.livefans.jp/artists/2584",
+                "id": "b34b7e2a-d040-4eed-8043-94b61cbc710e"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "4783f7bc-2abd-4ad9-ae81-b49c85e01164",
+                "resource": "https://www.musik-sammler.de/artist/2854/"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "3290258c-669c-4f05-be0d-266ef80b7c52",
+                "resource": "https://www.muziekweb.nl/Link/M00000098950/POPULAR/"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "c9f98e9d-65de-440f-80d1-72c235acc5fe",
+                "resource": "https://www.whosampled.com/Daft-Punk/"
+              },
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": true,
+              "url": {
+                "resource": "https://www.worldcat.org/identities/lccn-no97063566/",
+                "id": "2d6ee749-b8ef-41c9-926b-69bf09a87696"
+              },
+              "begin": null,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://mora.jp/artist/332271/",
+                "id": "c07d47db-ff08-4eba-8d16-d7798755fdba"
+              },
+              "direction": "forward",
+              "source-credit": "",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "478f3f6e-0e74-4e81-a184-4245a1a8975a",
+                "resource": "https://music.apple.com/fr/artist/5468295"
+              },
+              "begin": null,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "57707e49-3bf5-4686-92ab-007aedff506b",
+                "resource": "https://open.qobuz.com/artist/36819"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://ototoy.jp/_/default/a/321671",
+                "id": "42d1e6bf-8c91-4222-88b3-23f180c8d407"
+              },
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url"
+            },
+            {
+              "url": {
+                "resource": "https://ototoy.jp/_/default/a/875226",
+                "id": "4e51adea-1d9b-44c7-9023-9e30e62d58f4"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": "",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "f631ad69-42f3-4e53-9212-2971c17d1927",
+                "resource": "https://www.beatport.com/artist/daft-punk/3547"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.junodownload.com/artists/Daft+Punk/releases/",
+                "id": "e591544d-2121-4c5a-b3f3-00c570f3f849"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+            },
+            {
+              "target-type": "url",
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.qobuz.com/fr-fr/interpreter/daft-punk/36819",
+                "id": "2c886e53-3838-4e7e-ae5a-30d860f0c652"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "attribute-values": {},
+              "ended": true,
+              "begin": null,
+              "url": {
+                "resource": "https://itunes.apple.com/fr/artist/id5468295",
+                "id": "91011e39-598e-4116-b1b3-16c6675ebd97"
+              },
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "type": "purchase for download",
+              "target-type": "url",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "type": "purchase for mail-order",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.cdjapan.co.jp/person/700202980",
+                "id": "5b96757b-4e01-455e-b720-07f39dc345ef"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "a30e2982-f0dd-4670-92ac-2a5f421c23ef",
+                "resource": "https://secondhandsongs.com/artist/2933"
+              },
+              "begin": null,
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-type": "url",
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "type": "secondhandsongs"
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "708e0caf-567c-4329-8c7c-5701f725d61d",
+                "resource": "https://www.setlist.fm/setlists/daft-punk-bd6d5a2.html"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "type": "setlistfm",
+              "target-type": "url"
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://twitter.com/daftpunk",
+                "id": "4c5a0a77-9ea7-48f0-a4e1-13406aa315b8"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.facebook.com/daftpunk",
+                "id": "2b4a01d8-30e2-4e6f-a502-e9f4d5cc2bb3"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {}
+            },
+            {
+              "source-credit": "",
+              "direction": "forward",
+              "begin": null,
+              "url": {
+                "resource": "https://www.instagram.com/daftpunk/",
+                "id": "b0b2b051-00b9-40a3-94c0-f479c8c43dd9"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network"
+            },
+            {
+              "type": "social network",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "url": {
+                "id": "45208a0c-02a8-443b-9bb3-dd644e2d5ac5",
+                "resource": "https://www.tiktok.com/@daftpunk"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": ""
+            },
+            {
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "songkick",
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://www.songkick.com/artists/368193",
+                "id": "ed5dcc18-d26b-476f-8dcc-8b0406e352f8"
+              },
+              "begin": null
+            },
+            {
+              "target-type": "url",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "type": "soundcloud",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "resource": "https://soundcloud.com/daftpunkofficialmusic",
+                "id": "21c8090f-21d1-4937-9c13-e6350cfdf927"
+              },
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "type": "streaming",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": "2022-06-08",
+              "target-credit": "",
+              "url": {
+                "id": "447e0eec-55a3-4bf7-8924-097aa109afcc",
+                "resource": "https://us.napster.com/artist/daft-punk"
+              },
+              "begin": null,
+              "attribute-values": {},
+              "ended": true,
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "type": "streaming",
+              "target-type": "url",
+              "source-credit": "",
+              "direction": "forward",
+              "url": {
+                "id": "bc54aa93-1a44-4f53-b5c5-4ca58824db63",
+                "resource": "https://music.amazon.fr/artists/B001E8WS3O"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://music.apple.com/fr/artist/5468295",
+                "id": "478f3f6e-0e74-4e81-a184-4245a1a8975a"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "57707e49-3bf5-4686-92ab-007aedff506b",
+                "resource": "https://open.qobuz.com/artist/36819"
+              },
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "resource": "https://tidal.com/artist/8847",
+                "id": "9a95785e-0e37-49b4-a99b-ad6dfeba65e1"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "type": "streaming",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": ""
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "2c886e53-3838-4e7e-ae5a-30d860f0c652",
+                "resource": "https://www.qobuz.com/fr-fr/interpreter/daft-punk/36819"
+              },
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": []
+            },
+            {
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "e4f09805-84f9-4e43-aebf-3de94d738aee",
+                "resource": "https://vgmdb.net/artist/13389"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-type": "url",
+              "type": "vgmdb",
+              "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9"
+            },
+            {
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "type": "VIAF",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": "",
+              "begin": null,
+              "url": {
+                "id": "246bb519-bfb9-4945-ae9c-5a3ef6b1a9d7",
+                "resource": "http://viaf.org/viaf/131208258"
+              },
+              "ended": false,
+              "attribute-values": {},
+              "source-credit": "",
+              "direction": "forward"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "video channel",
+              "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "url": {
+                "id": "260b7076-7804-4034-aae9-9a0ab5f5de4b",
+                "resource": "https://www.dailymotion.com/daftpunk"
+              },
+              "begin": null
+            },
+            {
+              "begin": null,
+              "url": {
+                "id": "f4f04b7a-2155-4fe4-9344-7d97fe0babb1",
+                "resource": "https://www.twitch.tv/daftpunk"
+              },
+              "attribute-values": {},
+              "ended": false,
+              "source-credit": "",
+              "direction": "forward",
+              "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+              "type": "video channel",
+              "target-type": "url",
+              "attributes": [],
+              "attribute-ids": {},
+              "end": null,
+              "target-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "type": "wikidata",
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q185828",
+                "id": "ea4d1683-896f-4bb7-8332-9d71b9564695"
+              },
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "url": {
+                "id": "4b707c72-c02f-426b-8cc9-35f5e9209ad5",
+                "resource": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg"
+              },
+              "begin": null,
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "source-credit": "",
+              "target-type": "url",
+              "type": "youtube",
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "target-credit": "",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": []
+            },
+            {
+              "type": "youtube music",
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "begin": null,
+              "url": {
+                "id": "4b9cc83a-43a5-40c8-9e57-335de2df28e2",
+                "resource": "https://music.youtube.com/channel/UCRr1xG_2WIDs18a6cIiCxeA"
+              },
+              "direction": "forward",
+              "source-credit": ""
+            }
+          ],
+          "country": "FR",
+          "name": "Daft Punk",
+          "gender": null,
+          "area": {
+            "name": "France",
+            "sort-name": "France",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": null,
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "begin-area": {
+            "name": "Paris",
+            "iso-3166-2-codes": [
+              "FR-75"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+            "type": null,
+            "sort-name": "Paris"
+          },
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "aliases": [
+            {
+              "end": null,
+              "name": "Da Funk",
+              "ended": false,
+              "primary": null,
+              "locale": null,
+              "sort-name": "Da Funk",
+              "begin": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "type": "Search hint"
+            },
+            {
+              "end": null,
+              "name": "Daft Punk",
+              "sort-name": "Daft Punk",
+              "locale": "en",
+              "primary": true,
+              "ended": false,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null
+            },
+            {
+              "locale": null,
+              "sort-name": "DaftPunk",
+              "primary": null,
+              "ended": false,
+              "type": "Search hint",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "begin": null,
+              "end": null,
+              "name": "DaftPunk"
+            },
+            {
+              "name": "Duft Punk",
+              "end": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "type": "Search hint",
+              "begin": null,
+              "primary": null,
+              "sort-name": "Duft Punk",
+              "locale": null,
+              "ended": false
+            },
+            {
+              "name": "daft punk",
+              "end": null,
+              "type": "Artist name",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "Daft Punk",
+              "locale": null,
+              "primary": null,
+              "ended": false
+            },
+            {
+              "primary": true,
+              "locale": "ja",
+              "sort-name": "ダフト パンク",
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "type": "Artist name",
+              "begin": null,
+              "end": null,
+              "name": "ダフト・パンク"
+            }
+          ],
+          "disambiguation": "French electronic duo",
+          "gender-id": null,
+          "type": "Group",
+          "id": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+        }
+      }
+    },
+    "discogsRecords": {
+      "1289": {
+        "artist": {
+          "discogsArtistId": "1289",
+          "name": "Daft Punk",
+          "realName": null,
+          "profile": "Daft Punk were a French electronic music duo formed in 1993 by [a=Thomas Bangalter] (born January 3, 1975) and [a=Guy-Manuel de Homem-Christo] (born February 8, 1974). Bangalter and de Homem-Christo were previously in the rock band [a=Darlin'] with [a=Laurent Brancowitz]. After Brancowitz left the group to join his brother's band, [a=Phoenix], the remaining duo formed Daft Punk. On February 22, 2021, it was announced that they had disbanded for unknown reasons.",
+          "artistUrls": [
+            "https://daftpunk.com/",
+            "https://www.facebook.com/daftpunk",
+            "https://www.instagram.com/daftpunk",
+            "https://soundcloud.com/daftpunkofficialmusic",
+            "https://www.tiktok.com/@daftpunk",
+            "https://www.twitch.tv/daftpunk",
+            "https://x.com/daftpunk",
+            "https://bio.to/daftpunk",
+            "https://myspace.com/daftpunk",
+            "https://myspace.com/daftpunkelectroma",
+            "https://web.archive.org/web/20130415072215/https://randomaccessmemories.com",
+            "https://en.wikipedia.org/wiki/Daft_Punk",
+            "https://equipboard.com/pros/daft-punk",
+            "https://whatgear.com/pro/daft-punk",
+            "https://www.last.fm/music/Daft+Punk",
+            "https://www.imdb.com/name/nm1386916"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "7618671",
+              "name": "Indo Silver Club (2)"
+            }
+          ],
+          "nameVariations": [
+            "D**T P**K",
+            "D.P.",
+            "DP",
+            "Da Funk",
+            "Da Phunk",
+            "Daff Punk",
+            "Daft P",
+            "Daft P.",
+            "Daft Pank",
+            "Daft Punk's",
+            "DaftPunk",
+            "Daftpunk",
+            "Darf Punk",
+            "Datt Punk",
+            "Punk",
+            "The Daft Punk",
+            "ダフト・パンク",
+            "傻瓜庞克",
+            "傻瓜庞克乐团",
+            "傻瓜朋克",
+            "傻瓜龐克",
+            "傻瓜龐克樂團"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/1289",
+          "discogsWebUrl": "https://www.discogs.com/artist/1289-Daft-Punk",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Daft Punk",
+          "id": 1289,
+          "resource_url": "https://api.discogs.com/artists/1289",
+          "uri": "https://www.discogs.com/artist/1289-Daft-Punk",
+          "releases_url": "https://api.discogs.com/artists/1289/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/sP_wDoC5MsG9lZUfb9thLbpmMmL__nuVnGMNpwgjirE/rs:fit/g:sm/q:90/h:438/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDUyOS00/Mjg0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/sP_wDoC5MsG9lZUfb9thLbpmMmL__nuVnGMNpwgjirE/rs:fit/g:sm/q:90/h:438/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDUyOS00/Mjg0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/xFlxahUK-OKoFrbsoOL349oFT2EgvtmcDXI0S2Uisjw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDUyOS00/Mjg0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 438
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/PiSiTDtghH0CrZwbi1cwGzkA1FKxLEXXV9koqKkhfFo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ0NzY3NDk3NS03/MjE1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/PiSiTDtghH0CrZwbi1cwGzkA1FKxLEXXV9koqKkhfFo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ0NzY3NDk3NS03/MjE1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/UrMvKSh0DsLmqb5KgxUpAWAytA1ygIp0Dpgd68ZVXG4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ0NzY3NDk3NS03/MjE1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 337
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/jyhmtGAz12NtTlz2JKjdTs0UFVB0IVjPWQJxY2pj-Cs/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDU4Mi0x/NzU1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/jyhmtGAz12NtTlz2JKjdTs0UFVB0IVjPWQJxY2pj-Cs/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDU4Mi0x/NzU1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/-NlqzO3Hc60__AnGhzXptUxQMM6W7f8KEmIcU9gfhwI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNTQ4NDU4Mi0x/NzU1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 337
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/nfDBJRXENXyNXvNtszxObIj7Kz8-0fs3w25SYqRJkvA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQzMjIyODY1NS01/MjcyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/nfDBJRXENXyNXvNtszxObIj7Kz8-0fs3w25SYqRJkvA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQzMjIyODY1NS01/MjcyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Lwse3wIaOr0c8oXL-L25OjAtgTfSFop94RiZQn_gpp8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQzMjIyODY1NS01/MjcyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/1qrQmEqsVEibByNGKKL28kAJZIf9ooz7FtiD1VicFEw/rs:fit/g:sm/q:90/h:395/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni0y/NTk3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/1qrQmEqsVEibByNGKKL28kAJZIf9ooz7FtiD1VicFEw/rs:fit/g:sm/q:90/h:395/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni0y/NTk3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/yUrETGAjvCSQ_-7jk4BIBPJPnwYDAlD6rdPXuYmBkMA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni0y/NTk3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 395
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Wg3QbbS6iZf0iHKiUeM2tYcOkHyhyvBT26e5E254ZjE/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4NS0y/MTQ2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Wg3QbbS6iZf0iHKiUeM2tYcOkHyhyvBT26e5E254ZjE/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4NS0y/MTQ2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ZrLNwO4hn6XN-dxIU9eUqI6j3AsP3lSoHWRA925hgHI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4NS0y/MTQ2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 398
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/u_IJec3SdrpXmKX_SyZmZNtNTI0bZLxV-cP3Xr9B26s/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0MDM4NS01/MTMwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/u_IJec3SdrpXmKX_SyZmZNtNTI0bZLxV-cP3Xr9B26s/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0MDM4NS01/MTMwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/8XBArKwX45WJJCC9tgk7dLsbcNhqoCLydp1sw3ktQ0M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0MDM4NS01/MTMwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 591
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Ziad2Jfk9NR63tHV5NJlLMRZZzpXeH-0xNxB5JWfrVk/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE1MC05/NTMxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Ziad2Jfk9NR63tHV5NJlLMRZZzpXeH-0xNxB5JWfrVk/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE1MC05/NTMxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/mxs00EIEc8-6f3dqLfOrO6ICgXJyi10eO6H0wxc2QxA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE1MC05/NTMxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 585
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/WuIesIJKCrbKtamzNkSVIb6sxxhbK3esbB4gCmHYchc/rs:fit/g:sm/q:90/h:349/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE0NC0y/ODMyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/WuIesIJKCrbKtamzNkSVIb6sxxhbK3esbB4gCmHYchc/rs:fit/g:sm/q:90/h:349/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE0NC0y/ODMyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/2SZ3qTJUPSKN62XiOkL6xWsPd13OPvPZpHx04ArsjPk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQyNjE3NDE0NC0y/ODMyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 349
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/G5rgS34tocQDrgPE7oQKyXjrIPML0OBR7HaSdYWZ8Es/rs:fit/g:sm/q:90/h:331/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0Nzc4Ny03/NzQ0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/G5rgS34tocQDrgPE7oQKyXjrIPML0OBR7HaSdYWZ8Es/rs:fit/g:sm/q:90/h:331/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0Nzc4Ny03/NzQ0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/PzaU2e2qlixY8y9VhLSayFx3PTlFWIGiihkntLGL68Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDA0Nzc4Ny03/NzQ0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 331
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/dN0T-_pBYUnvIqrejFaxr3f3SyEOICE9mH9AVgTO1tI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTI5NjMwMTg5Ni5q/cGVn.jpeg",
+              "resource_url": "https://i.discogs.com/dN0T-_pBYUnvIqrejFaxr3f3SyEOICE9mH9AVgTO1tI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTI5NjMwMTg5Ni5q/cGVn.jpeg",
+              "uri150": "https://i.discogs.com/T8dQlxdaIWaZlkF8svnnEbFtKKgqH54-tuEP3O2dn-Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTI5NjMwMTg5Ni5q/cGVn.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/o_868d-53GJttf14lODre0MuiWUCQHXXHJICrRtW5Fo/rs:fit/g:sm/q:90/h:443/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4NzQ0Nzg2OS01/MzQ5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/o_868d-53GJttf14lODre0MuiWUCQHXXHJICrRtW5Fo/rs:fit/g:sm/q:90/h:443/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4NzQ0Nzg2OS01/MzQ5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/nS6Yk9GXPtvmRYhjKlFbUfWl_4g9CzRo_13z9d-Eikk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4NzQ0Nzg2OS01/MzQ5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 443
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/RjPcnglvjNjwQ_QyhVSmOtiKNIEYlRhaQgK6czg_qHs/rs:fit/g:sm/q:90/h:885/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwMy00/NjI0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/RjPcnglvjNjwQ_QyhVSmOtiKNIEYlRhaQgK6czg_qHs/rs:fit/g:sm/q:90/h:885/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwMy00/NjI0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/sCKqQtH2wtKr2eIMtTaF_X0PSisgA4Owq7cWA3Xum1s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwMy00/NjI0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 885
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/963pJ4qxG2ozVQJ_azItKLXksoKtgz_M33_DWzDFOCA/rs:fit/g:sm/q:90/h:428/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ2NzQ4MTY1NC0z/NTY1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/963pJ4qxG2ozVQJ_azItKLXksoKtgz_M33_DWzDFOCA/rs:fit/g:sm/q:90/h:428/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ2NzQ4MTY1NC0z/NTY1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/N4wL20rdcXBXOnxOIzZtJAy5YC1BE9zCIVEWo6s_HCc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ2NzQ4MTY1NC0z/NTY1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 428
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/05Lpu5qKFGNpuIqA1fztJdlAyiciD7P_63QJtxhdliw/rs:fit/g:sm/q:90/h:382/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMDQ3MTUxMS0z/NDIwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/05Lpu5qKFGNpuIqA1fztJdlAyiciD7P_63QJtxhdliw/rs:fit/g:sm/q:90/h:382/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMDQ3MTUxMS0z/NDIwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/gwVWB4BeiqAc1YEp3XY8Rm6qrOncE6frfRmZMrtMNeM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMDQ3MTUxMS0z/NDIwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 382
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/7uJsRsLDJQlNamWUB8zwT3E1xOveXguE60KMwO4CnbA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwNC05/OTUzLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/7uJsRsLDJQlNamWUB8zwT3E1xOveXguE60KMwO4CnbA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwNC05/OTUzLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/F_6aJkRJUHkMfddUtBpCozPveyAleG-pRUbbxFLlPoo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYyMTA3NzcwNC05/OTUzLmpwZWc.jpeg",
+              "width": 600,
+              "height": 397
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/yZvmLmT1aX0MqSi_LGdmI_KpsytbWpMtqK51QT9ne_0/rs:fit/g:sm/q:90/h:386/w:455/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ3NzE0NDc1Mi0z/OTUwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/yZvmLmT1aX0MqSi_LGdmI_KpsytbWpMtqK51QT9ne_0/rs:fit/g:sm/q:90/h:386/w:455/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ3NzE0NDc1Mi0z/OTUwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/l8W3PEKk1o7aNrVTX2ra-vkMhIOsQZWE4-jsGDljQHY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ3NzE0NDc1Mi0z/OTUwLmpwZWc.jpeg",
+              "width": 455,
+              "height": 386
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/toi-tGltQ-LPu4fBz1d947y0Wqkfbo0-Jeo2ckiJNBM/rs:fit/g:sm/q:90/h:350/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MDAyLmpwZw.jpeg",
+              "resource_url": "https://i.discogs.com/toi-tGltQ-LPu4fBz1d947y0Wqkfbo0-Jeo2ckiJNBM/rs:fit/g:sm/q:90/h:350/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MDAyLmpwZw.jpeg",
+              "uri150": "https://i.discogs.com/LYF0ylQqSzFNTB_RSmjVdWaGw03jpLsikmOIeavgFDQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MDAyLmpwZw.jpeg",
+              "width": 298,
+              "height": 350
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/c-L5b5RRXlz1ug5hbPwJ3tHtKisHBrEmf8tBh2B2SZE/rs:fit/g:sm/q:90/h:385/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni05/MzcwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/c-L5b5RRXlz1ug5hbPwJ3tHtKisHBrEmf8tBh2B2SZE/rs:fit/g:sm/q:90/h:385/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni05/MzcwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Krgu2TIGp3-BLNkyDohqCSorf_nBKtKBw-ujgY_xgi8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTYxNDAzODU4Ni05/MzcwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 385
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/o9WDX7uPbiyQXuOnI3YENkDvGz4x4_A2IRN69G_hUBk/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUwNzE4Nzc5NS00/MDg2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/o9WDX7uPbiyQXuOnI3YENkDvGz4x4_A2IRN69G_hUBk/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUwNzE4Nzc5NS00/MDg2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/5gla3JlIJIHhLrReGkblJQrlF0itW-4fvpftVHXihHo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUwNzE4Nzc5NS00/MDg2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 583
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Jz-ZE7Stz9IBYj6Juj6xPrItWpfumzjKkHMe6YJ67ko/rs:fit/g:sm/q:90/h:352/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTY2MjYxODgyOS0z/OTU4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Jz-ZE7Stz9IBYj6Juj6xPrItWpfumzjKkHMe6YJ67ko/rs:fit/g:sm/q:90/h:352/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTY2MjYxODgyOS0z/OTU4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/2NpaMVst7B1Hr80cLAAlS0XiFZe0CvBQyFuRN2sr1lc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTY2MjYxODgyOS0z/OTU4LmpwZWc.jpeg",
+              "width": 500,
+              "height": 352
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/HUyn4kOeaUC7eeDIyY74NsSlXSuNPm6TT69qBpuw2I0/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ4OTU0NjAyMy0z/MDg1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/HUyn4kOeaUC7eeDIyY74NsSlXSuNPm6TT69qBpuw2I0/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ4OTU0NjAyMy0z/MDg1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/QDNx5H7Q6TTR6wZudBSPnALvBNmo7Da7czGYoW6XmB4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTQ4OTU0NjAyMy0z/MDg1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 336
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/5JHZwY23cANEe49-9Ddp3wiVo5bYiyrxmCobhILjAJw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjUwNS00/NTA3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/5JHZwY23cANEe49-9Ddp3wiVo5bYiyrxmCobhILjAJw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjUwNS00/NTA3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/t2S74zWoqgqFVj9NpGS0JkYD6XzSm2DcQ3Dqt8NXq6E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjUwNS00/NTA3LmpwZWc.jpeg",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/b2AMgZt1dDU92YegEjI_JOLzAzYLXTQuXMn0H5_vXx8/rs:fit/g:sm/q:90/h:771/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUyMDM2OTk1Mi01/MTQ5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/b2AMgZt1dDU92YegEjI_JOLzAzYLXTQuXMn0H5_vXx8/rs:fit/g:sm/q:90/h:771/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUyMDM2OTk1Mi01/MTQ5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/LcW01G0tF_4aeDAtDo5eqPCxpnwMmWyRIpr3rgjsu1Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTUyMDM2OTk1Mi01/MTQ5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 771
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/8jRT66nWSAN_Iok4qVOm0xGvVp59Su4M_2SEizEeIAE/rs:fit/g:sm/q:90/h:425/w:324/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTY0OS04/MTgwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/8jRT66nWSAN_Iok4qVOm0xGvVp59Su4M_2SEizEeIAE/rs:fit/g:sm/q:90/h:425/w:324/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTY0OS04/MTgwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/TnFxvvZlQSnsLD7yYhs44a4Mqbs-B8n0PMjd1_PNfsk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTY0OS04/MTgwLmpwZWc.jpeg",
+              "width": 324,
+              "height": 425
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/wmykirrJrkSYoPIHQZsvvZgfUABg8mJ4u_zrTJ4ySr4/rs:fit/g:sm/q:90/h:375/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTgwNS05/NDk1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/wmykirrJrkSYoPIHQZsvvZgfUABg8mJ4u_zrTJ4ySr4/rs:fit/g:sm/q:90/h:375/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTgwNS05/NDk1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/WI7pwae67yRm08lNSCFxyXfWXGIvWqviAdUY9LnHCZI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTgwNS05/NDk1LmpwZWc.jpeg",
+              "width": 500,
+              "height": 375
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/0aBW_3dKAwqLI3PEfpc3RbQfwCroDxzhXP9x8wYWegc/rs:fit/g:sm/q:90/h:500/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTc2My01/MjQxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/0aBW_3dKAwqLI3PEfpc3RbQfwCroDxzhXP9x8wYWegc/rs:fit/g:sm/q:90/h:500/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTc2My01/MjQxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/mHjmzOzX0hKlrXFIMBa2zDV0upqF-JT9bROLmDXLC2A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM4MTk0MTc2My01/MjQxLmpwZWc.jpeg",
+              "width": 360,
+              "height": 500
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/sQyNpJOB0A-WyMMe0Owsy1vkoG1FPWij242r-jJymmM/rs:fit/g:sm/q:90/h:333/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjI5NC03/MTU4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/sQyNpJOB0A-WyMMe0Owsy1vkoG1FPWij242r-jJymmM/rs:fit/g:sm/q:90/h:333/w:494/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjI5NC03/MTU4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/fRi8IIfEmnKEOGEg2b2oZ-lZJmKwXlfiIMAtG2rbioc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTM3Mjg3NjI5NC03/MTU4LmpwZWc.jpeg",
+              "width": 494,
+              "height": 333
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/zeNREXJKZ-onaX5WDjElHN-EobZ04cn8fWOfG0hvfwU/rs:fit/g:sm/q:90/h:409/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTczODY1OTkzNi05/NDc0LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/zeNREXJKZ-onaX5WDjElHN-EobZ04cn8fWOfG0hvfwU/rs:fit/g:sm/q:90/h:409/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTczODY1OTkzNi05/NDc0LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/a3pYOgsHv1wrdGu7FdeMJGuosdwOGjW5hRVj9EB9tVM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODkt/MTczODY1OTkzNi05/NDc0LnBuZw.jpeg",
+              "width": 600,
+              "height": 409
+            }
+          ],
+          "profile": "Daft Punk were a French electronic music duo formed in 1993 by [a=Thomas Bangalter] (born January 3, 1975) and [a=Guy-Manuel de Homem-Christo] (born February 8, 1974). Bangalter and de Homem-Christo were previously in the rock band [a=Darlin'] with [a=Laurent Brancowitz]. After Brancowitz left the group to join his brother's band, [a=Phoenix], the remaining duo formed Daft Punk. On February 22, 2021, it was announced that they had disbanded for unknown reasons.",
+          "urls": [
+            "https://daftpunk.com/",
+            "https://www.facebook.com/daftpunk",
+            "https://www.instagram.com/daftpunk",
+            "https://soundcloud.com/daftpunkofficialmusic",
+            "https://www.tiktok.com/@daftpunk",
+            "https://www.twitch.tv/daftpunk",
+            "https://x.com/daftpunk",
+            "https://bio.to/daftpunk",
+            "https://myspace.com/daftpunk",
+            "https://myspace.com/daftpunkelectroma",
+            "https://web.archive.org/web/20130415072215/https://randomaccessmemories.com",
+            "https://en.wikipedia.org/wiki/Daft_Punk",
+            "https://equipboard.com/pros/daft-punk",
+            "https://whatgear.com/pro/daft-punk",
+            "https://www.last.fm/music/Daft+Punk",
+            "https://www.imdb.com/name/nm1386916"
+          ],
+          "namevariations": [
+            "D**T P**K",
+            "D.P.",
+            "DP",
+            "Da Funk",
+            "Da Phunk",
+            "Daff Punk",
+            "Daft P",
+            "Daft P.",
+            "Daft Pank",
+            "Daft Punk's",
+            "DaftPunk",
+            "Daftpunk",
+            "Darf Punk",
+            "Datt Punk",
+            "Punk",
+            "The Daft Punk",
+            "ダフト・パンク",
+            "傻瓜庞克",
+            "傻瓜庞克乐团",
+            "傻瓜朋克",
+            "傻瓜龐克",
+            "傻瓜龐克樂團"
+          ],
+          "aliases": [
+            {
+              "id": 7618671,
+              "name": "Indo Silver Club (2)",
+              "resource_url": "https://api.discogs.com/artists/7618671"
+            }
+          ],
+          "members": [
+            {
+              "id": 3775,
+              "name": "Thomas Bangalter",
+              "resource_url": "https://api.discogs.com/artists/3775",
+              "active": true
+            },
+            {
+              "id": 424278,
+              "name": "Guy-Manuel de Homem-Christo",
+              "resource_url": "https://api.discogs.com/artists/424278",
+              "active": true
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "7618671": {
+        "artist": {
+          "discogsArtistId": "7618671",
+          "name": "Indo Silver Club (2)",
+          "realName": null,
+          "profile": "Daft Punk alias used in the 1996 [l18] release, [m138026]",
+          "artistUrls": [],
+          "aliases": [
+            {
+              "discogsArtistId": "1289",
+              "name": "Daft Punk"
+            },
+            {
+              "discogsArtistId": "3775",
+              "name": "Thomas Bangalter"
+            }
+          ],
+          "nameVariations": [],
+          "discogsResourceUrl": "https://api.discogs.com/artists/7618671",
+          "discogsWebUrl": "https://www.discogs.com/artist/7618671-Indo-Silver-Club-2",
+          "dataQuality": "Correct"
+        },
+        "raw": {
+          "name": "Indo Silver Club (2)",
+          "id": 7618671,
+          "resource_url": "https://api.discogs.com/artists/7618671",
+          "uri": "https://www.discogs.com/artist/7618671-Indo-Silver-Club-2",
+          "releases_url": "https://api.discogs.com/artists/7618671/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/JxMc0Q0lpoaH50p9_bWfCSKgvoFmkwvdw2tQlWNV_tM/rs:fit/g:sm/q:90/h:315/w:316/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MTg2/NzEtMTU5MTgzNjY1/NS00NDgwLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/JxMc0Q0lpoaH50p9_bWfCSKgvoFmkwvdw2tQlWNV_tM/rs:fit/g:sm/q:90/h:315/w:316/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MTg2/NzEtMTU5MTgzNjY1/NS00NDgwLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/EZLoTICANCeyMKokB5A7OTjQmLQem0L8Xp5WAPtmeyw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MTg2/NzEtMTU5MTgzNjY1/NS00NDgwLnBuZw.jpeg",
+              "width": 316,
+              "height": 315
+            }
+          ],
+          "profile": "Daft Punk alias used in the 1996 [l18] release, [m138026]",
+          "aliases": [
+            {
+              "id": 1289,
+              "name": "Daft Punk",
+              "resource_url": "https://api.discogs.com/artists/1289"
+            },
+            {
+              "id": 3775,
+              "name": "Thomas Bangalter",
+              "resource_url": "https://api.discogs.com/artists/3775"
+            }
+          ],
+          "members": [
+            {
+              "id": 3775,
+              "name": "Thomas Bangalter",
+              "resource_url": "https://api.discogs.com/artists/3775",
+              "active": true
+            },
+            {
+              "id": 424278,
+              "name": "Guy-Manuel de Homem-Christo",
+              "resource_url": "https://api.discogs.com/artists/424278",
+              "active": true
+            }
+          ],
+          "data_quality": "Correct"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {
+      "056e4f3e-d505-4dad-8ec1-d04f521cbb56": {
+        "releaseCount": 213,
+        "distinctiveTitles": [
+          "homework",
+          "human after all medley",
+          "louis vuitton runway show mix spring summer 2008",
+          "live tribal party nrj paris france",
+          "i feel it coming",
+          "about and technologic mashup",
+          "2007 12 13 sidney myer music bowl melbourne australia",
+          "within",
+          "something about us love theme from interstella 5555",
+          "human after all",
+          "starboy kygo remix",
+          "remix after all",
+          "human after all remixes",
+          "translucence",
+          "homework discovery",
+          "random access memories vanderway edit",
+          "one more time",
+          "the writing of fragments of time",
+          "daft club",
+          "discovery remixed",
+          "generic radio interview w thomas bangalter",
+          "the remixes volume 3",
+          "one more virgin tracks for celebration of new century",
+          "discovery from daftclub com",
+          "alive 1997 mayan theater",
+          "discovery human after all",
+          "rediscovery",
+          "derezzed",
+          "the new wave",
+          "digital love",
+          "motherboard",
+          "greatest hits",
+          "human after all daft club",
+          "fresh agrume remix",
+          "i gotta try you girl daft punk edit",
+          "discovery",
+          "revolution 909",
+          "alive 2007",
+          "beyond mr moustache remix",
+          "infinity repeating 2013 demo",
+          "2007 07 06 rockhal esch sur alzette luxembourg",
+          "around the world",
+          "2006 11 04 live bue festival buenos ares argentina",
+          "technologic time mashup",
+          "get lucky daft punk remix",
+          "daft punk live in nyc",
+          "musique volume 1 1993 2005",
+          "digital decks",
+          "1995 11 18 le prive avignon france",
+          "2006 06 30 eurockeennes belfort france",
+          "aerodynamic slum village remix",
+          "complete reboot",
+          "veridis quo",
+          "assault",
+          "1995 08 05 soiree prophecy le cannet france",
+          "like liquor for punks daft punk vs lupe common",
+          "phoenix basement jaxx remix",
+          "alive 1997",
+          "technologic 5pack remix",
+          "discovery beta version",
+          "technologic",
+          "burnin",
+          "dj mix",
+          "random access memories the collaborators",
+          "starboy",
+          "get lucky",
+          "digital love kevin mckay re edit",
+          "breathe one more time remixes",
+          "glbtm studio outtakes",
+          "harder better faster stronger",
+          "random access memories",
+          "interstella 5555",
+          "interstella 5555 the 5tory of the 5ecret 5tar 5ystem",
+          "alive 2006",
+          "indo silver club",
+          "2025 08 30 les mixes cultes de la french touch 9 1997 2013 les mixes de daft punk sur radio nova",
+          "tron legacy collector s digital ep",
+          "tron legacy",
+          "d a f t a story about dogs androids firemen and tomatoes",
+          "homework remixes",
+          "1995 11 04 planet rose nijmegen netherlands",
+          "alive summer 2006",
+          "tron legacy r3c0nf1gur3d",
+          "re discovery",
+          "live we are family",
+          "aerodynamic",
+          "harder better faster stronger the neptunes remix",
+          "2007 10 27 vegoose 2007 sam boyd stadium las vegas nv usa",
+          "2006 04 29 empire polo club indio ca usa",
+          "da funk",
+          "robot rock",
+          "deep cuts",
+          "alive 2007 alive 1997",
+          "kiss around da world el segundo 1nce again",
+          "prime time of your life",
+          "live rex club paris",
+          "around the world masters at work remixes",
+          "the mashup",
+          "one more time somebody to love",
+          "phantom robot kiivas soulwax mashup",
+          "rollin scratchin karetus remix",
+          "the grid josh evans remix",
+          "give life back to music",
+          "da funk schoolboy remix",
+          "louis vuitton spring summer 08 women s wear",
+          "rock n roll again djhekma remix bootleg",
+          "one more time daft punk swoon chemical brothers",
+          "castor remix",
+          "daft michael",
+          "aerodynamite forever goldmaster edit",
+          "around the world tom jame remix",
+          "the grid alcala remix",
+          "motherboard aerodynamic vitalectro remix fl studio cover alive 2019",
+          "something about us cherokee remix",
+          "one more time alive 2008 new da funk alive 2008",
+          "o m t one more time 2009",
+          "lose yourself to dance",
+          "tron legacy score",
+          "darker skies",
+          "end of line alexel remix",
+          "end of line the game has reached its end emsland remix",
+          "da funk vs music rock with you remix",
+          "tron the grid junkie xl remix 2010",
+          "harder better faster stronger otik dubstep remix",
+          "da funk nightcrawler remix",
+          "live mixes 2007",
+          "son of flynn remix",
+          "blue monday alive",
+          "musique l ombelico del mondo make it funky",
+          "end of line distrix mix",
+          "the age of punk daft love",
+          "harder better faster stronger 2008 alive club mix touch it technologic alive club mix",
+          "technologic indo silver club burnin remixes",
+          "aerodynamite",
+          "human after all unreleased remixes",
+          "harder better faster stronger far out remix",
+          "put your hands up for technologic",
+          "get lucky razihel remix",
+          "tronify madcas tron legacy live push performance remix",
+          "underground 2003 da automatic funk",
+          "end of line edit",
+          "derezzed robotaki remix",
+          "ain t no television",
+          "technologic f o o l remix",
+          "the grid tron remix",
+          "make love remix of daft punk",
+          "bitch technologic",
+          "voodoo people da funk music",
+          "the grid sounda remix",
+          "rules around the world 5erious 2017 mashup",
+          "daft horse",
+          "the grid paul rein remix",
+          "robot rock adjuster remake",
+          "get lucky mr moustache remix",
+          "rinzler 1 7 8 8 l r e m i x",
+          "around the world dumb dan remix",
+          "get lucky remixes",
+          "da funk brass ankle remix",
+          "instant crush",
+          "19 2000 funk",
+          "da funk the brainwashers remix",
+          "untitled",
+          "television rules the nation deadhau5 mix",
+          "derezzed nteibint remix",
+          "technologic remix",
+          "son of flynn remix extended",
+          "veridis quo y v remix",
+          "harder better faster stronger hlm remix",
+          "tron legacy adam freeland s 303 mix",
+          "tron legacy reconfigured troniuz derrezed remix",
+          "around the world 2009",
+          "one more time the house moguls remix",
+          "doin it right",
+          "tron legacy end of line rmx",
+          "da funk zg remix",
+          "claw",
+          "another one bites the dust vs da funk",
+          "end of line bratz in the lava rework",
+          "adagio for tron venaccio remix",
+          "face to face",
+          "technologic exclusive mixes",
+          "end of line reworked by cryda luv",
+          "harder better faster stronger dillon francis remix",
+          "harder better faster stronger mh ys2019 edit",
+          "the grid munkeycop s la grille remix",
+          "end of line neelixxx remix",
+          "discovery sample bandit bootlegs",
+          "robot rock shiloh remix",
+          "stronger",
+          "musique mix",
+          "superheroes solidisco remix",
+          "derezzed ryan riback s tron guy remix",
+          "veridis quo cyberdesign remix",
+          "the game has changed mindless faith mix",
+          "1998 12 31 daft punk bbc radio one essential selection",
+          "prime time of your life eddie nitro remix",
+          "2007 06 16 hyde park westminster london uk",
+          "around the world westend edit",
+          "get lucky fabian special disco mix",
+          "1997 03 02 bbc radio 1 essential mix",
+          "ultimate collection",
+          "daft punk live the mayan theatre los angeles",
+          "daft club net songs",
+          "haa era demo track",
+          "derezzed everen maxwell remix",
+          "radioactivo 98 5",
+          "1996 06 29 bbc radio 1 tribal gathering 96 luton hoo estate bedfordshire england uk"
+        ],
+        "earliestYear": 1994,
+        "latestYear": 2026
+      }
+    },
+    "redirectedIdentifiers": []
+  }
+}

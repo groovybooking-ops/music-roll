@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "salute",
+    "proposedMusicRollId": "mr_artist_000040",
+    "spotifyArtistId": "1np8xozf7ATJZDi9JX8Dx5"
+  },
+  "outcome": "coherent_identity_with_same_name_ambiguity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1np8xozf7ATJZDi9JX8Dx5",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1np8xozf7ATJZDi9JX8Dx5",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1np8xozf7ATJZDi9JX8Dx5",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1np8xozf7ATJZDi9JX8Dx5",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q123982943",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q123982943",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4679378",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4679378",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4679378",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4679378",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1np8xozf7ATJZDi9JX8Dx5",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q123982943",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4679378",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "4679378"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "1np8xozf7ATJZDi9JX8Dx5",
+      "observedValues": [
+        "1np8xozf7ATJZDi9JX8Dx5"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1np8xozf7ATJZDi9JX8Dx5",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1np8xozf7ATJZDi9JX8Dx5",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1np8xozf7ATJZDi9JX8Dx5",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1np8xozf7ATJZDi9JX8Dx5",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1np8xozf7ATJZDi9JX8Dx5",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q123982943",
+      "observedValues": [
+        "Q123982943"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123982943",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123982943",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123982943",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "observedValues": [
+        "87484a93-1aae-4917-8d2f-7af0d16a2129"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "4679378",
+      "observedValues": [
+        "4679378"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4679378",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4679378",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4679378",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4679378",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4679378",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4679378"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 7,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 6,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "9b8f0b42-aa70-4aa5-b71e-0e07b50f7346",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "SE",
+        "disambiguation": "Sweden melodic hard rock band",
+        "score": 90,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "GB",
+        "disambiguation": "UK Thrash Metal",
+        "score": 89,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1989216"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "d76d2a81-852e-47f4-804a-b33799746135",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "Performs on \"FM4 Sounselection: 29\"",
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "6feccf8e-f292-460d-835d-adcf39d43834",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "probably us hiphop",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Ron Wells",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "4316016"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "cdd87543-716c-4309-8e5f-e190976af0bf",
+        "name": "salute",
+        "sortName": "salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "reggae",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6EcJ1hsMPc7JDpg4R4RJL3"
+        ],
+        "discogsArtistIds": [
+          "4163342"
+        ]
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+        "name": "salute",
+        "sortName": "salute",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Manchester-based electronic producer",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "1np8xozf7ATJZDi9JX8Dx5"
+        ],
+        "discogsArtistIds": [
+          "4679378"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "9b8f0b42-aa70-4aa5-b71e-0e07b50f7346",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "SE",
+        "disambiguation": "Sweden melodic hard rock band",
+        "score": 90,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "GB",
+        "disambiguation": "UK Thrash Metal",
+        "score": 89,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1989216"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "d76d2a81-852e-47f4-804a-b33799746135",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "Performs on \"FM4 Sounselection: 29\"",
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "6feccf8e-f292-460d-835d-adcf39d43834",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "probably us hiphop",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Ron Wells",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "4316016"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "cdd87543-716c-4309-8e5f-e190976af0bf",
+        "name": "salute",
+        "sortName": "salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "reggae",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6EcJ1hsMPc7JDpg4R4RJL3"
+        ],
+        "discogsArtistIds": [
+          "4163342"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "coherent_identity_with_same_name_ambiguity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "1np8xozf7ATJZDi9JX8Dx5",
+      "wikidataQid": "Q123982943",
+      "name": "salute",
+      "musicBrainzArtistId": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "discogsArtistId": "4679378"
+    },
+    "musicBrainzRecords": {
+      "87484a93-1aae-4917-8d2f-7af0d16a2129": {
+        "artist": {
+          "musicBrainzArtistId": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "name": "salute",
+          "sortName": "salute",
+          "artistType": "Person",
+          "disambiguation": "Manchester-based electronic producer",
+          "country": "GB",
+          "area": {
+            "id": "852531bf-3410-401f-b432-9c3157a386b9",
+            "name": "Manchester",
+            "sortName": "Manchester",
+            "type": null
+          },
+          "beginArea": {
+            "id": "afff1a94-a98b-4322-8874-3148139ab6da",
+            "name": "Wien",
+            "sortName": "Wien",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1996",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://saluteaut.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/4679378"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://www.theaudiodb.com/artist/184354"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1np8xozf7ATJZDi9JX8Dx5"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/4046809"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Salute"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Salute"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://salute.systems/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/salute"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/at/artist/969249942"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/258739"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/-/299281"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/salute/258739"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/saluteAUT"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/saluteaut"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/saluteaut/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@saluteaut"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/1165984"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/saluteaut"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/at/artist/969249942"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/258739"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/4764382"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/salute/258739"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q123982943"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCrau37LdNI0wlRtdzI9Fpgw"
+            }
+          ]
+        },
+        "raw": {
+          "gender": "Non-binary",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "gender-id": "b239bbd8-aa84-4f11-8bdb-c4159e730ee5",
+          "aliases": [],
+          "end-area": null,
+          "life-span": {
+            "end": null,
+            "begin": "1996",
+            "ended": false
+          },
+          "begin-area": {
+            "name": "Wien",
+            "id": "afff1a94-a98b-4322-8874-3148139ab6da",
+            "sort-name": "Wien",
+            "type": null,
+            "type-id": null,
+            "iso-3166-2-codes": [
+              "AT-9"
+            ],
+            "disambiguation": ""
+          },
+          "area": {
+            "sort-name": "Manchester",
+            "name": "Manchester",
+            "id": "852531bf-3410-401f-b432-9c3157a386b9",
+            "disambiguation": "",
+            "type": null,
+            "iso-3166-2-codes": [
+              "GB-MAN"
+            ],
+            "type-id": null
+          },
+          "country": "GB",
+          "type": "Person",
+          "isnis": [],
+          "disambiguation": "Manchester-based electronic producer",
+          "relations": [
+            {
+              "end": null,
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "bandcamp",
+              "url": {
+                "id": "deaa5a68-44d4-4996-96a8-2c2870e865d7",
+                "resource": "https://saluteaut.bandcamp.com/"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type": "discogs",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "6d6686b5-a9f7-4352-8de6-f9e5f7577811",
+                "resource": "https://www.discogs.com/artist/4679378"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "end": null,
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "fanpage",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.theaudiodb.com/artist/184354",
+                "id": "cf268051-97ef-4ec2-b790-036edc712801"
+              }
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://open.spotify.com/artist/1np8xozf7ATJZDi9JX8Dx5",
+                "id": "4b1ff1d0-1177-43cc-aae2-b27687535294"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "free streaming",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "4d7141b8-65ed-4b60-b29f-84c01d99d03e",
+                "resource": "https://www.deezer.com/artist/4046809"
+              },
+              "type": "free streaming"
+            },
+            {
+              "end": null,
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "type": "last.fm",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "4f286b18-566f-4bb7-beb8-6be0413d6913",
+                "resource": "https://www.last.fm/music/Salute"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://genius.com/artists/Salute",
+                "id": "968fff9d-261e-4160-bfe1-cbadcf16ce88"
+              },
+              "attribute-ids": {},
+              "type": "lyrics",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "official homepage",
+              "url": {
+                "resource": "https://salute.systems/",
+                "id": "cbac90be-2abd-4e58-bc43-2aa08ddbe09c"
+              },
+              "source-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "type": "other databases",
+              "source-credit": "",
+              "url": {
+                "id": "a0ef49e1-09c0-4010-bf67-18c01c8b79eb",
+                "resource": "https://ra.co/dj/salute"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "purchase for download",
+              "url": {
+                "resource": "https://music.apple.com/at/artist/969249942",
+                "id": "8a04e331-8592-47fa-96f3-257e78fdcc56"
+              },
+              "source-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "5b221601-01f8-4fd2-9624-a7e019d87894",
+                "resource": "https://open.qobuz.com/artist/258739"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "purchase for download",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.beatport.com/artist/-/299281",
+                "id": "bf839a0e-5121-49f5-acb4-c648717b4ffb"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/salute/258739",
+                "id": "6098c34b-b24f-4fa0-9197-1f9ec2a55eb9"
+              },
+              "type": "purchase for download",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "social network",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://twitter.com/saluteAUT",
+                "id": "2131ef07-3227-4146-9de6-f6acc1e065f5"
+              },
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "a430a7da-3e1c-4ddc-b5bc-26dddff27f87",
+                "resource": "https://www.facebook.com/saluteaut"
+              },
+              "type": "social network",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.instagram.com/saluteaut/",
+                "id": "17bbc59f-c070-400d-a72f-4dffb767cb8f"
+              },
+              "type": "social network",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "url": {
+                "id": "5e8a7b6e-6d59-4f11-8b82-e01be7a8b6bf",
+                "resource": "https://www.tiktok.com/@saluteaut"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "social network",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "type": "songkick",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "e22faab5-e87e-499d-995c-cfa9edd1c6de",
+                "resource": "https://www.songkick.com/artists/1165984"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "soundcloud",
+              "source-credit": "",
+              "url": {
+                "resource": "https://soundcloud.com/saluteaut",
+                "id": "b9a09c1f-426b-47ac-a844-27df849d2fe7"
+              },
+              "attribute-ids": {}
+            },
+            {
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/at/artist/969249942",
+                "id": "8a04e331-8592-47fa-96f3-257e78fdcc56"
+              },
+              "attribute-ids": {},
+              "type": "streaming",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "streaming",
+              "url": {
+                "id": "5b221601-01f8-4fd2-9624-a7e019d87894",
+                "resource": "https://open.qobuz.com/artist/258739"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "de6a7cfc-2bbf-4dfa-955f-25a7d40de5aa",
+                "resource": "https://tidal.com/artist/4764382"
+              },
+              "type": "streaming",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "6098c34b-b24f-4fa0-9197-1f9ec2a55eb9",
+                "resource": "https://www.qobuz.com/us-en/interpreter/salute/258739"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "end": null,
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "wikidata",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q123982943",
+                "id": "64333b4d-86f2-424b-a926-da7048d7d568"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type": "youtube",
+              "url": {
+                "id": "51187679-419f-468f-935e-5e36413f0566",
+                "resource": "https://www.youtube.com/channel/UCrau37LdNI0wlRtdzI9Fpgw"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            }
+          ],
+          "id": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "name": "salute",
+          "ipis": [],
+          "sort-name": "salute"
+        }
+      }
+    },
+    "discogsRecords": {
+      "4679378": {
+        "artist": {
+          "discogsArtistId": "4679378",
+          "name": "Salute (6)",
+          "realName": "Felix Nyajo",
+          "profile": "Stylized as \"salute\". DJ and producer from Vienna, Austria. Based in Manchester, England. Born circa 1994.",
+          "artistUrls": [
+            "https://salute.systems/",
+            "https://saluteaut.bandcamp.com/",
+            "https://www.facebook.com/saluteaut",
+            "https://www.instagram.com/saluteaut/",
+            "https://linktr.ee/saluteaut",
+            "https://ninjatune.net/artist/salute",
+            "https://soundcloud.com/saluteaut",
+            "https://en.wikipedia.org/wiki/Salute_(musician)",
+            "https://x.com/saluteAUT",
+            "https://www.youtube.com/@saluteaut"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "3058497",
+              "name": "Spirant"
+            },
+            {
+              "discogsArtistId": "5172981",
+              "name": "Felix Nyajo"
+            }
+          ],
+          "nameVariations": [
+            "サルート"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/4679378",
+          "discogsWebUrl": "https://www.discogs.com/artist/4679378-Salute-6",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Salute (6)",
+          "id": 4679378,
+          "resource_url": "https://api.discogs.com/artists/4679378",
+          "uri": "https://www.discogs.com/artist/4679378-Salute-6",
+          "releases_url": "https://api.discogs.com/artists/4679378/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/Wm0OGXKnt329o7gYCQvGwui2Ug3kBsBw1nuFaV5CIWU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTc4NDcyMzI5/OC05NDM5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Wm0OGXKnt329o7gYCQvGwui2Ug3kBsBw1nuFaV5CIWU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTc4NDcyMzI5/OC05NDM5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/AjzrqLo0iurFyYO5aKYWm8gzJABiysww8vYVfA0RVl0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTc4NDcyMzI5/OC05NDM5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/F9Mhqf3kEUnKaIqwBKFg_QFmWsCLUpGVnJh6a6MUGao/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ1MTkzODUy/MS03MjMwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/F9Mhqf3kEUnKaIqwBKFg_QFmWsCLUpGVnJh6a6MUGao/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ1MTkzODUy/MS03MjMwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/sDw2UOO1hxy-25K0dFVz3dFntn1v286DRsQmad1imjM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ1MTkzODUy/MS03MjMwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/KayYxKQqWjlfQ9OGChisH-iJ6ze2xiPQvo6dIRp3fxk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ2OTU2Njg1/MS05OTMxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/KayYxKQqWjlfQ9OGChisH-iJ6ze2xiPQvo6dIRp3fxk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ2OTU2Njg1/MS05OTMxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/N163xfMbtlJByl-1rwo6nqHMTNW9rjj741nPYXjiAKk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ2Nzkz/NzgtMTQ2OTU2Njg1/MS05OTMxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            }
+          ],
+          "realname": "Felix Nyajo",
+          "profile": "Stylized as \"salute\". DJ and producer from Vienna, Austria. Based in Manchester, England. Born circa 1994.",
+          "urls": [
+            "https://salute.systems/",
+            "https://saluteaut.bandcamp.com/",
+            "https://www.facebook.com/saluteaut",
+            "https://www.instagram.com/saluteaut/",
+            "https://linktr.ee/saluteaut",
+            "https://ninjatune.net/artist/salute",
+            "https://soundcloud.com/saluteaut",
+            "https://en.wikipedia.org/wiki/Salute_(musician)",
+            "https://x.com/saluteAUT",
+            "https://www.youtube.com/@saluteaut"
+          ],
+          "namevariations": [
+            "サルート"
+          ],
+          "aliases": [
+            {
+              "id": 3058497,
+              "name": "Spirant",
+              "resource_url": "https://api.discogs.com/artists/3058497"
+            },
+            {
+              "id": 5172981,
+              "name": "Felix Nyajo",
+              "resource_url": "https://api.discogs.com/artists/5172981"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

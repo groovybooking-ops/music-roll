@@ -1,0 +1,1328 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Wednesday",
+    "proposedMusicRollId": "mr_artist_000029",
+    "spotifyArtistId": "4j7DrazfBZLLD0OrVoAtEe"
+  },
+  "outcome": "coherent_identity_with_same_name_ambiguity",
+  "exactSpotifyUrlFallback": {
+    "status": "unique_exact_url_relationship",
+    "selectedMbid": "9833b455-0da2-40b5-8e63-37816c910604",
+    "candidates": [
+      {
+        "musicBrainzArtistId": "9833b455-0da2-40b5-8e63-37816c910604",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "disambiguation": "Asheville NC band",
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4j7DrazfBZLLD0OrVoAtEe",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "9833b455-0da2-40b5-8e63-37816c910604",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "7633643",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4j7DrazfBZLLD0OrVoAtEe",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q108581813",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "7633643",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "7633643"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "9833b455-0da2-40b5-8e63-37816c910604",
+      "source": "musicbrainz",
+      "path": "url.exact_spotify_artist_relationship",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "4j7DrazfBZLLD0OrVoAtEe",
+      "observedValues": [
+        "4j7DrazfBZLLD0OrVoAtEe"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4j7DrazfBZLLD0OrVoAtEe",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4j7DrazfBZLLD0OrVoAtEe",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q108581813",
+      "observedValues": [
+        "Q108581813"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q108581813",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "9833b455-0da2-40b5-8e63-37816c910604",
+      "observedValues": [
+        "9833b455-0da2-40b5-8e63-37816c910604"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9833b455-0da2-40b5-8e63-37816c910604",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9833b455-0da2-40b5-8e63-37816c910604",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "7633643",
+      "observedValues": [
+        "7633643"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7633643",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9833b455-0da2-40b5-8e63-37816c910604"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7633643",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "7633643"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 9,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 8,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "aa5454e5-9eca-4246-8c9f-43bb8703efd5",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "DE",
+        "disambiguation": "German‐English rock band active from 1975–1980",
+        "score": 90,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "306619"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "9af01d07-8f6e-4651-bdcb-38efae021af7",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "CA",
+        "disambiguation": "70s Canadian pop vocal group",
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "976328"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4",
+        "name": "WEDNESDAY",
+        "sortName": "WEDNESDAY",
+        "artistType": "Group",
+        "country": "KR",
+        "disambiguation": "Korean indie rock band",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "1sHab1QxHODQnmexzFLBFs"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "bf13e7e8-a2ee-406c-8678-32722266f4a9",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "P. Jacks, D. Edenvik, M. Thorhede, Swedish competitor",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "f0f3fb26-753c-449d-8601-d2e2548b13c1",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "JP",
+        "disambiguation": "Japanese visual kei",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "f6b1fe59-0ea3-4899-9dad-26deec796506",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Hip-Hop artist",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6MTj7qMu9W7f6jkgPNrBVr"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "9c5df819-1972-4da4-9ac6-a695261e44c1",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "Texas",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "24fad45f-3e5b-4b49-9eab-172a4b905434",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "producer based in Portland, Oregon",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "4SFD7Ew6598uFcqQ6oFi42"
+        ],
+        "discogsArtistIds": []
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "9833b455-0da2-40b5-8e63-37816c910604",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "Asheville NC band",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "4j7DrazfBZLLD0OrVoAtEe"
+        ],
+        "discogsArtistIds": [
+          "7633643"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "aa5454e5-9eca-4246-8c9f-43bb8703efd5",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "DE",
+        "disambiguation": "German‐English rock band active from 1975–1980",
+        "score": 90,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "306619"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "9af01d07-8f6e-4651-bdcb-38efae021af7",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "CA",
+        "disambiguation": "70s Canadian pop vocal group",
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "976328"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4",
+        "name": "WEDNESDAY",
+        "sortName": "WEDNESDAY",
+        "artistType": "Group",
+        "country": "KR",
+        "disambiguation": "Korean indie rock band",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "1sHab1QxHODQnmexzFLBFs"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "bf13e7e8-a2ee-406c-8678-32722266f4a9",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "P. Jacks, D. Edenvik, M. Thorhede, Swedish competitor",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "f0f3fb26-753c-449d-8601-d2e2548b13c1",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": "JP",
+        "disambiguation": "Japanese visual kei",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "f6b1fe59-0ea3-4899-9dad-26deec796506",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Hip-Hop artist",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6MTj7qMu9W7f6jkgPNrBVr"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "9c5df819-1972-4da4-9ac6-a695261e44c1",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "Texas",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "24fad45f-3e5b-4b49-9eab-172a4b905434",
+        "name": "Wednesday",
+        "sortName": "Wednesday",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "producer based in Portland, Oregon",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "4SFD7Ew6598uFcqQ6oFi42"
+        ],
+        "discogsArtistIds": []
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "unique_musicbrainz_exact_spotify_url_relationship",
+    "musicbrainz_derived_discogs:9833b455-0da2-40b5-8e63-37816c910604->7633643"
+  ],
+  "evidence": {
+    "wikidata": null,
+    "musicBrainzRecords": {
+      "9833b455-0da2-40b5-8e63-37816c910604": {
+        "artist": {
+          "musicBrainzArtistId": "9833b455-0da2-40b5-8e63-37816c910604",
+          "name": "Wednesday",
+          "sortName": "Wednesday",
+          "artistType": "Group",
+          "disambiguation": "Asheville NC band",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "148f3952-2151-4a4c-a859-eb850acf248f",
+            "name": "Asheville",
+            "sortName": "Asheville",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2017",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [
+            "0000000483015880"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0004118413"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://wednesdayband.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/15495936"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/7633643"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://audiomack.com/wednesday"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/87096062"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Wednesday"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Wednesday"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.wednesday.band/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/wednesday-1"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/wednesday-3/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/1351057129"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/521761"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/gb-en/interpreter/wednesday/521761"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/wednesday-43f24773.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/Wednesday_Band_"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/WednesdayTheBand"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/wednesday_gurl/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/4513208"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/wednesdayband_nc"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001J9J7UA"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1351057129"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/521761"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/18496884"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/gb-en/interpreter/wednesday/521761"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q108581813"
+            },
+            {
+              "relationshipType": "wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(American_band)"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCO1_sLg4NvtjL2m6QIvjy0w"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCByn1A7TN2-wi3yLL1x08Ow"
+            }
+          ]
+        },
+        "raw": {
+          "relations": [
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "c8abcb79-766c-4a7c-bad8-8a756b88ade4",
+                "resource": "https://www.allmusic.com/artist/mn0004118413"
+              },
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "allmusic",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "52f92596-2fe0-49c0-9d57-dd5dceac71b3",
+                "resource": "https://wednesdayband.bandcamp.com/"
+              },
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "type": "bandcamp",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "url": {
+                "resource": "https://www.bandsintown.com/a/15495936",
+                "id": "9dfe560c-a7b9-4969-b7c5-abc16185bfb0"
+              },
+              "type": "bandsintown",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "discogs",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.discogs.com/artist/7633643",
+                "id": "563eae9e-9e2c-46fb-841d-13f2a0b062e4"
+              },
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://audiomack.com/wednesday",
+                "id": "fd69da97-3ffb-4ba3-9ec5-bb65d35325a3"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "type": "free streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe",
+                "id": "fc274294-296d-42a1-a2ae-d0eb329c8385"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "free streaming",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false
+            },
+            {
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "free streaming",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "10673b0b-3721-4e22-b69f-c7cec021e498",
+                "resource": "https://www.deezer.com/artist/87096062"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "last.fm",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "url": {
+                "resource": "https://www.last.fm/music/Wednesday",
+                "id": "a195f789-7bb5-4ec2-a3e0-e9dd88d137af"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "resource": "https://genius.com/artists/Wednesday",
+                "id": "83113378-954b-4a7c-8eec-74a5f653bded"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "lyrics"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "url": {
+                "resource": "https://www.wednesday.band/",
+                "id": "0836688c-2488-43d7-b3d7-f8202cb971c7"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "official homepage",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "d6cc935f-2d79-4ec5-9739-76bb2c8ead21",
+                "resource": "https://rateyourmusic.com/artist/wednesday-1"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "1db71a8b-f030-488a-a149-5bf16a4cb19f",
+                "resource": "https://www.musik-sammler.de/artist/wednesday-3/"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "purchase for download",
+              "url": {
+                "id": "dc187d3b-9238-4db4-a186-0989068620a0",
+                "resource": "https://music.apple.com/gb/artist/1351057129"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "purchase for download",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://open.qobuz.com/artist/521761",
+                "id": "edaeec2b-1168-437f-92eb-128d8a31d222"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "url": {
+                "resource": "https://www.qobuz.com/gb-en/interpreter/wednesday/521761",
+                "id": "056027ae-44cc-40f9-8931-70aa5afddec8"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.setlist.fm/setlists/wednesday-43f24773.html",
+                "id": "3fd53391-dc22-441b-83c7-7aacc2b8d427"
+              },
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "setlistfm",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://twitter.com/Wednesday_Band_",
+                "id": "d71afcd6-ae1f-4060-a01a-55067218790f"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "type": "social network",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "ee64e399-28cb-4185-83ef-ade074e5b72c",
+                "resource": "https://www.facebook.com/WednesdayTheBand"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "social network",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "social network",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "https://www.instagram.com/wednesday_gurl/",
+                "id": "4d34165d-c2e0-43e5-8308-5c64ffe34c8c"
+              }
+            },
+            {
+              "url": {
+                "resource": "https://www.songkick.com/artists/4513208",
+                "id": "515391e2-3421-489d-bd03-2583132a70c9"
+              },
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "songkick",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "url": {
+                "id": "38428107-8099-40ef-8785-36628b033a24",
+                "resource": "https://soundcloud.com/wednesdayband_nc"
+              },
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type": "soundcloud"
+            },
+            {
+              "url": {
+                "id": "ce0b27d9-d005-4926-8378-1516d878924a",
+                "resource": "https://music.amazon.com/artists/B001J9J7UA"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "url": {
+                "resource": "https://music.apple.com/gb/artist/1351057129",
+                "id": "dc187d3b-9238-4db4-a186-0989068620a0"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://open.qobuz.com/artist/521761",
+                "id": "edaeec2b-1168-437f-92eb-128d8a31d222"
+              },
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "streaming",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "type": "streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://tidal.com/artist/18496884",
+                "id": "877c8ca5-50c2-4b51-b5c0-1b740080c19b"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "streaming",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://www.qobuz.com/gb-en/interpreter/wednesday/521761",
+                "id": "056027ae-44cc-40f9-8931-70aa5afddec8"
+              }
+            },
+            {
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q108581813",
+                "id": "cab12c96-d9d4-456e-b7b9-1abccb768068"
+              },
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "wikidata"
+            },
+            {
+              "type": "wikipedia",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "29651736-fa6d-48e4-aadc-a557c6add1cb",
+              "url": {
+                "id": "aff1fc2b-10fc-47d1-b703-16e7e74d9bdb",
+                "resource": "https://en.wikipedia.org/wiki/Wednesday_(American_band)"
+              }
+            },
+            {
+              "type": "youtube",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "06428bd5-c42c-483d-8355-c47ab7bee2cc",
+                "resource": "https://www.youtube.com/channel/UCO1_sLg4NvtjL2m6QIvjy0w"
+              },
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+            },
+            {
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "url": {
+                "id": "cb75428e-82dc-4731-a806-19ac53d69fa5",
+                "resource": "https://music.youtube.com/channel/UCByn1A7TN2-wi3yLL1x08Ow"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "youtube music",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            }
+          ],
+          "type": "Group",
+          "aliases": [],
+          "end-area": null,
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "type": null,
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": ""
+          },
+          "name": "Wednesday",
+          "isnis": [
+            "0000000483015880"
+          ],
+          "country": "US",
+          "gender-id": null,
+          "sort-name": "Wednesday",
+          "gender": null,
+          "begin-area": {
+            "sort-name": "Asheville",
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Asheville",
+            "type": null,
+            "id": "148f3952-2151-4a4c-a859-eb850acf248f"
+          },
+          "id": "9833b455-0da2-40b5-8e63-37816c910604",
+          "ipis": [],
+          "life-span": {
+            "begin": "2017",
+            "ended": false,
+            "end": null
+          },
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "Asheville NC band"
+        }
+      }
+    },
+    "discogsRecords": {
+      "7633643": {
+        "artist": {
+          "discogsArtistId": "7633643",
+          "name": "Wednesday (10)",
+          "realName": null,
+          "profile": "Rock band from Asheville, NC",
+          "artistUrls": [
+            "https://www.wednesday.band/",
+            "https://wednesdayband.bandcamp.com/",
+            "https://www.facebook.com/WednesdayTheBand/",
+            "https://twitter.com/Wednesday_Band_",
+            "https://www.instagram.com/wednesday_gurl/",
+            "https://deadoceans.com/artists/wednesday/"
+          ],
+          "aliases": [],
+          "nameVariations": [],
+          "discogsResourceUrl": "https://api.discogs.com/artists/7633643",
+          "discogsWebUrl": "https://www.discogs.com/artist/7633643-Wednesday-10",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Wednesday (10)",
+          "id": 7633643,
+          "resource_url": "https://api.discogs.com/artists/7633643",
+          "uri": "https://www.discogs.com/artist/7633643-Wednesday-10",
+          "releases_url": "https://api.discogs.com/artists/7633643/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/fHHKqhXs86d02R7m7ImvXH-gyWpGCn6zc-2MdeBfbFo/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY4MDgzNjIw/Ni01MzU1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/fHHKqhXs86d02R7m7ImvXH-gyWpGCn6zc-2MdeBfbFo/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY4MDgzNjIw/Ni01MzU1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Yi84BmnNc5FSU6F4HCCeLg9td8AbQ2rmNDqbWPcQDXI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY4MDgzNjIw/Ni01MzU1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 399
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/0Jz5O5p9shu6u7HiEEeHtFCu42ewPHsx_vqcvfGLa3g/rs:fit/g:sm/q:90/h:433/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY3MjI3NjIy/Ni0xODUyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/0Jz5O5p9shu6u7HiEEeHtFCu42ewPHsx_vqcvfGLa3g/rs:fit/g:sm/q:90/h:433/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY3MjI3NjIy/Ni0xODUyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/NNwfRKLjSwD5FbgB1kB2XpttkN1zb4NFA7dJT7N8bUU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY3MjI3NjIy/Ni0xODUyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 433
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/-RV7Luhxp6RoNpXd7L_CB4_LuRYod96FDDpi98xHMTw/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY1NzQ4NjUw/My0zMjg5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/-RV7Luhxp6RoNpXd7L_CB4_LuRYod96FDDpi98xHMTw/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY1NzQ4NjUw/My0zMjg5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/prsPBTps24TOuaKeO7nUvOmURXZl3RG_nnKECeX65pk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTY1NzQ4NjUw/My0zMjg5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 398
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/IrkG4XEXlLcWVPoLa8h5ezMlLqg1C4E-OXgNVw6WLFQ/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjUw/NC0yOTkzLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/IrkG4XEXlLcWVPoLa8h5ezMlLqg1C4E-OXgNVw6WLFQ/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjUw/NC0yOTkzLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/TI-yQdd-kINZK8m92elbaoi9NCkjT0fkMRXanpA0ZZ0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjUw/NC0yOTkzLmpwZWc.jpeg",
+              "width": 600,
+              "height": 398
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/FNpwDc_0bjsrdAN_LCFzEnWc1DQHlrfC2CQTtptUIP0/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjU4/My04OTk4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/FNpwDc_0bjsrdAN_LCFzEnWc1DQHlrfC2CQTtptUIP0/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjU4/My04OTk4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/sSVvrNgLdFsC4ZxoNeGLLQ5JUi3T1CLBUBfhDyfYajI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc2MzM2/NDMtMTU4NDIyMjU4/My04OTk4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 397
+            }
+          ],
+          "profile": "Rock band from Asheville, NC",
+          "urls": [
+            "https://www.wednesday.band/",
+            "https://wednesdayband.bandcamp.com/",
+            "https://www.facebook.com/WednesdayTheBand/",
+            "https://twitter.com/Wednesday_Band_",
+            "https://www.instagram.com/wednesday_gurl/",
+            "https://deadoceans.com/artists/wednesday/"
+          ],
+          "members": [
+            {
+              "id": 6247429,
+              "name": "MJ Lenderman",
+              "resource_url": "https://api.discogs.com/artists/6247429",
+              "active": true
+            },
+            {
+              "id": 6247454,
+              "name": "Xandy Chelmis",
+              "resource_url": "https://api.discogs.com/artists/6247454",
+              "active": true
+            },
+            {
+              "id": 7272263,
+              "name": "Daniel Gorham",
+              "resource_url": "https://api.discogs.com/artists/7272263",
+              "active": false
+            },
+            {
+              "id": 7633642,
+              "name": "Margo Schultz",
+              "resource_url": "https://api.discogs.com/artists/7633642",
+              "active": false
+            },
+            {
+              "id": 7633644,
+              "name": "Karly Hartzman",
+              "resource_url": "https://api.discogs.com/artists/7633644",
+              "active": true
+            },
+            {
+              "id": 7633645,
+              "name": "Alan Miller (12)",
+              "resource_url": "https://api.discogs.com/artists/7633645",
+              "active": true
+            },
+            {
+              "id": 9597211,
+              "name": "Ethan Baechtold",
+              "resource_url": "https://api.discogs.com/artists/9597211",
+              "active": true
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {},
+    "redirectedIdentifiers": []
+  }
+}

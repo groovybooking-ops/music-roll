@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "KAYTRANADA",
+    "proposedMusicRollId": "mr_artist_000043",
+    "spotifyArtistId": "6qgnBH6iDM91ipVXv28OMu"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qgnBH6iDM91ipVXv28OMu",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qgnBH6iDM91ipVXv28OMu",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qgnBH6iDM91ipVXv28OMu",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q17153342",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "2012a778-d205-4294-906e-6bbde10df205",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3160392",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3160392",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3160392",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "3160392"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6qgnBH6iDM91ipVXv28OMu",
+      "observedValues": [
+        "6qgnBH6iDM91ipVXv28OMu"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qgnBH6iDM91ipVXv28OMu",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qgnBH6iDM91ipVXv28OMu",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qgnBH6iDM91ipVXv28OMu",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q17153342",
+      "observedValues": [
+        "Q17153342"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17153342",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2012a778-d205-4294-906e-6bbde10df205",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "3160392",
+      "observedValues": [
+        "3160392"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3160392",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3160392",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3160392",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3160392"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "musicBrainzArtistId",
+      "observedValues": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": [
+          "musicbrainz:e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+          "musicbrainz:2012a778-d205-4294-906e-6bbde10df205",
+          "unexplained_multiple_musicbrainz_ids"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [
+    "musicbrainz_spotify_relationship",
+    "musicbrainz_same_name_audit"
+  ],
+  "providerErrors": [
+    {
+      "provider": "musicbrainz",
+      "operation": "artist",
+      "identifier": "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+      "statusCode": null,
+      "message": "MusicBrainz artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "artist",
+      "identifier": "2012a778-d205-4294-906e-6bbde10df205",
+      "statusCode": null,
+      "message": "MusicBrainz artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+      "statusCode": null,
+      "message": "fetch failed"
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "2012a778-d205-4294-906e-6bbde10df205",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "6qgnBH6iDM91ipVXv28OMu",
+      "wikidataQid": "Q17153342",
+      "name": "Kaytranada",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": "3160392",
+      "musicBrainzArtistIds": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ]
+    },
+    "musicBrainzRecords": {
+      "e56aee57-d90e-40cf-a70d-beb70f6f3c69": {
+        "state": "unresolved"
+      },
+      "2012a778-d205-4294-906e-6bbde10df205": {
+        "state": "unresolved"
+      }
+    },
+    "discogsRecords": {
+      "3160392": {
+        "artist": {
+          "discogsArtistId": "3160392",
+          "name": "Kaytranada",
+          "realName": "Louis Kevin Celestin",
+          "profile": "Haitian-Canadian music producer and DJ born on August 25, 1992 in Port-au-Prince, Haiti. Shortly after he was born, he relocated with his family to Montreal where he was raised. \r\nHe is part of the hip hop duo [a=The Celestics].",
+          "artistUrls": [
+            "http://kaytranada.com",
+            "http://www.kaytranadamerch.com",
+            "http://kaytradamus.bandcamp.com",
+            "http://www.facebook.com/Kaytranada",
+            "http://huhwhatandwhere.com/kaytranada",
+            "http://instagram.com/kaytranada",
+            "http://last.fm/user/Kaytradamus",
+            "http://www.last.fm/music/Kaytranada",
+            "http://www.mixcloud.com/Kaytradamus",
+            "http://www.setlist.fm/setlists/kaytranada-6bdd1ef6.html",
+            "http://www.songkick.com/artists/6699424-kaytranada",
+            "http://soundcloud.com/kaytranada",
+            "http://twitter.com/KAYTRANADA",
+            "http://en.wikipedia.org/wiki/Kaytranada",
+            "http://www.youtube.com/user/Kaytradamus",
+            "http://www.youtube.com/channel/UCJwaqVwGHi73m-WQWK3QODw"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "2813327",
+              "name": "Kaytradamus"
+            },
+            {
+              "discogsArtistId": "3318759",
+              "name": "Louis Kevin Celestin"
+            },
+            {
+              "discogsArtistId": "4912244",
+              "name": "Kaytra Laboom"
+            }
+          ],
+          "nameVariations": [
+            "KAYTRANADA"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/3160392",
+          "discogsWebUrl": "https://www.discogs.com/artist/3160392-Kaytranada",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Kaytranada",
+          "id": 3160392,
+          "resource_url": "https://api.discogs.com/artists/3160392",
+          "uri": "https://www.discogs.com/artist/3160392-Kaytranada",
+          "releases_url": "https://api.discogs.com/artists/3160392/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/EN0-2FYvtlUImGULAcqauwJSAhMlbrnjVYfMQ2NN5vc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTY2MzM3NzM5/OS0xOTM5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/EN0-2FYvtlUImGULAcqauwJSAhMlbrnjVYfMQ2NN5vc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTY2MzM3NzM5/OS0xOTM5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/g1OyggBsVuf6z6j1J5HUE3LSG5wPP0IiRzWnFVyC_Mw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTY2MzM3NzM5/OS0xOTM5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Tv1dMZV_rllc8WqdmIBfpurPB2ldVqXb8Uw7ijfGKJo/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMzIxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Tv1dMZV_rllc8WqdmIBfpurPB2ldVqXb8Uw7ijfGKJo/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMzIxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ffArCknncdQgK6CqVQ_9G3sFmXBqZ4cmUPaRfFuMeio/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMzIxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 397
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/sMxfq3hj2MzDBW_8XPGyR8pCZaPtnlURS_9YHnrBHbI/rs:fit/g:sm/q:90/h:360/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/Ny0zNDcyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/sMxfq3hj2MzDBW_8XPGyR8pCZaPtnlURS_9YHnrBHbI/rs:fit/g:sm/q:90/h:360/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/Ny0zNDcyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/xAJLN9c34bQsvhqzgHLF0v_UOeJ-UObFd8sgsAVIWKw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/Ny0zNDcyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 360
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/HrX-SQxsoARaXLNfW_VwNYQkhI52etUEnuoxRwsrWHA/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yNjEzLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/HrX-SQxsoARaXLNfW_VwNYQkhI52etUEnuoxRwsrWHA/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yNjEzLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/AuU6v1I6hh1btnQfSjOzL7UtxRmsgXRtfmyR7nVCTSI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yNjEzLmpwZWc.jpeg",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ySKrH8kwxT-BoUW30FcgqFKAp-B8hxs_zJViRd36H4w/rs:fit/g:sm/q:90/h:373/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMDgxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/ySKrH8kwxT-BoUW30FcgqFKAp-B8hxs_zJViRd36H4w/rs:fit/g:sm/q:90/h:373/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMDgxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/aVVaG0uoV3i6RA4ZdQKKn8xcUERG1hu6xMIWYgbZaCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTUyNDI2MjY0/OC0yMDgxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 373
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/xajQK2O3pc2M__LkjacBNMmMH5ruMmzLI4Kqg0lBiPc/rs:fit/g:sm/q:90/h:575/w:566/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTM2NzQyNjU4/MC0yNjEyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/xajQK2O3pc2M__LkjacBNMmMH5ruMmzLI4Kqg0lBiPc/rs:fit/g:sm/q:90/h:575/w:566/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTM2NzQyNjU4/MC0yNjEyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/87NqoaCiq--P3K1HcMSXLWOYuPzcSYejiyuTJwacGEY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxNjAz/OTItMTM2NzQyNjU4/MC0yNjEyLmpwZWc.jpeg",
+              "width": 566,
+              "height": 575
+            }
+          ],
+          "realname": "Louis Kevin Celestin",
+          "profile": "Haitian-Canadian music producer and DJ born on August 25, 1992 in Port-au-Prince, Haiti. Shortly after he was born, he relocated with his family to Montreal where he was raised. \r\nHe is part of the hip hop duo [a=The Celestics].",
+          "urls": [
+            "http://kaytranada.com",
+            "http://www.kaytranadamerch.com",
+            "http://kaytradamus.bandcamp.com",
+            "http://www.facebook.com/Kaytranada",
+            "http://huhwhatandwhere.com/kaytranada",
+            "http://instagram.com/kaytranada",
+            "http://last.fm/user/Kaytradamus",
+            "http://www.last.fm/music/Kaytranada",
+            "http://www.mixcloud.com/Kaytradamus",
+            "http://www.setlist.fm/setlists/kaytranada-6bdd1ef6.html",
+            "http://www.songkick.com/artists/6699424-kaytranada",
+            "http://soundcloud.com/kaytranada",
+            "http://twitter.com/KAYTRANADA",
+            "http://en.wikipedia.org/wiki/Kaytranada",
+            "http://www.youtube.com/user/Kaytradamus",
+            "http://www.youtube.com/channel/UCJwaqVwGHi73m-WQWK3QODw"
+          ],
+          "namevariations": [
+            "KAYTRANADA"
+          ],
+          "aliases": [
+            {
+              "id": 2813327,
+              "name": "Kaytradamus",
+              "resource_url": "https://api.discogs.com/artists/2813327"
+            },
+            {
+              "id": 3318759,
+              "name": "Louis Kevin Celestin",
+              "resource_url": "https://api.discogs.com/artists/3318759"
+            },
+            {
+              "id": 4912244,
+              "name": "Kaytra Laboom",
+              "resource_url": "https://api.discogs.com/artists/4912244"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

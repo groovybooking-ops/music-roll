@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+  "retrievedAt": "2026-08-14T05:19:30.281Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+      "name": "The Night Writers",
+      "sortName": "Night Writers, The",
+      "artistType": "Person",
+      "disambiguation": "aka Frankie Knuckles, house",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "name": "The Bronx",
+        "sortName": "The Bronx",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1955-01-18",
+        "end": "2014-03-31",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "name": "Nightwriters",
+          "sortName": "Nightwriters",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "The Nightriders",
+          "sortName": "The Nightriders",
+          "type": "Search hint",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "The Nightwriters",
+          "sortName": "The Nightwriters",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/29075"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/06SAdf9QB0xFf5BicN99SV"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/the_night_writers"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q205322"
+        }
+      ]
+    },
+    "raw": {
+      "aliases": [
+        {
+          "sort-name": "Nightwriters",
+          "end": null,
+          "name": "Nightwriters",
+          "locale": null,
+          "begin": null,
+          "ended": false,
+          "primary": null,
+          "type-id": null,
+          "type": null
+        },
+        {
+          "sort-name": "The Nightriders",
+          "locale": null,
+          "end": null,
+          "name": "The Nightriders",
+          "begin": null,
+          "ended": false,
+          "type": "Search hint",
+          "primary": null,
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+        },
+        {
+          "begin": null,
+          "ended": false,
+          "type": null,
+          "type-id": null,
+          "primary": null,
+          "sort-name": "The Nightwriters",
+          "locale": null,
+          "end": null,
+          "name": "The Nightwriters"
+        }
+      ],
+      "isnis": [],
+      "name": "The Night Writers",
+      "begin-area": {
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "sort-name": "The Bronx",
+        "type": null,
+        "disambiguation": "",
+        "name": "The Bronx",
+        "type-id": null
+      },
+      "sort-name": "Night Writers, The",
+      "ipis": [],
+      "type": "Person",
+      "disambiguation": "aka Frankie Knuckles, house",
+      "gender": "Male",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "country": "US",
+      "area": {
+        "type-id": null,
+        "type": null,
+        "disambiguation": "",
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ]
+      },
+      "end-area": {
+        "sort-name": "Chicago",
+        "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+        "type-id": null,
+        "name": "Chicago",
+        "disambiguation": "",
+        "type": null
+      },
+      "id": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "ended": true,
+        "begin": "1955-01-18",
+        "end": "2014-03-31"
+      },
+      "relations": [
+        {
+          "attribute-ids": {},
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "type": "discogs",
+          "attributes": [],
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "begin": null,
+          "source-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "url": {
+            "resource": "https://www.discogs.com/artist/29075",
+            "id": "758b3b24-00d5-45c2-b0d3-14b02fea6f47"
+          }
+        },
+        {
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "be997c46-85db-4281-ac4f-eb8b13d24185",
+            "resource": "https://open.spotify.com/artist/06SAdf9QB0xFf5BicN99SV"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "type": "free streaming",
+          "attribute-ids": {}
+        },
+        {
+          "type": "other databases",
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "attribute-ids": {},
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/the_night_writers",
+            "id": "7533e682-b6a0-4817-9f6a-b1afee4093cc"
+          },
+          "begin": null,
+          "source-credit": "",
+          "direction": "forward",
+          "end": null,
+          "target-type": "url",
+          "attributes": []
+        },
+        {
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "wikidata",
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q205322",
+            "id": "b29d053e-38bc-4402-b1f4-b28e4164acf9"
+          },
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "attributes": [],
+          "end": null,
+          "target-type": "url",
+          "direction": "forward"
+        }
+      ]
+    }
+  }
+}

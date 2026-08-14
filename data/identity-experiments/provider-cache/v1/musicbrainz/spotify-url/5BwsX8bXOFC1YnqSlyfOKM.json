@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "5BwsX8bXOFC1YnqSlyfOKM",
+  "retrievedAt": "2026-08-14T05:18:17.067Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "f76307c7-b9da-45ce-99e7-49181dd43e47",
+        "name": "redveil",
+        "sortName": "redveil",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "resource": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM",
+      "id": "36be0d42-2e12-4e94-abaf-ab137776d2ca",
+      "relations": [
+        {
+          "begin": null,
+          "artist": {
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "type": "Person",
+            "disambiguation": "",
+            "country": "US",
+            "name": "redveil",
+            "sort-name": "redveil",
+            "id": "f76307c7-b9da-45ce-99e7-49181dd43e47"
+          },
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "direction": "backward",
+          "target-type": "artist",
+          "end": null,
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "type": "free streaming",
+          "attribute-ids": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Wednesday",
+    "proposedMusicRollId": "mr_artist_000029",
+    "spotifyArtistId": "4j7DrazfBZLLD0OrVoAtEe"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4j7DrazfBZLLD0OrVoAtEe",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "4j7DrazfBZLLD0OrVoAtEe",
+      "observedValues": [
+        "4j7DrazfBZLLD0OrVoAtEe"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4j7DrazfBZLLD0OrVoAtEe",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [
+    "wikidata_qid",
+    "musicbrainz_artist_id",
+    "discogs_artist_id",
+    "musicbrainz_same_name_audit"
+  ],
+  "providerErrors": [
+    {
+      "provider": "musicbrainz",
+      "operation": "exact_spotify_url",
+      "identifier": "4j7DrazfBZLLD0OrVoAtEe",
+      "statusCode": null,
+      "message": "MusicBrainz exact Spotify-URL request failed before receiving a response."
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": null,
+    "musicBrainzRecords": {},
+    "discogsRecords": {},
+    "musicBrainzFingerprints": {}
+  }
+}

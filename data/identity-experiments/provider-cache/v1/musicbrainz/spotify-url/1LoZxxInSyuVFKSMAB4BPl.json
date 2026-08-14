@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "1LoZxxInSyuVFKSMAB4BPl",
+  "retrievedAt": "2026-08-14T05:19:06.651Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "42343a91-da25-4fb3-aac7-bc297956c79c",
+        "name": "DJ Python",
+        "sortName": "Python, DJ",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "id": "56217eb8-38f3-4ef1-af92-5ab22969d90b",
+      "resource": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl",
+      "relations": [
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null,
+          "target-type": "artist",
+          "attribute-values": {},
+          "direction": "backward",
+          "artist": {
+            "name": "DJ Python",
+            "disambiguation": "",
+            "id": "42343a91-da25-4fb3-aac7-bc297956c79c",
+            "sort-name": "Python, DJ",
+            "type": "Person",
+            "country": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "type": "free streaming",
+          "ended": false
+        }
+      ]
+    }
+  }
+}

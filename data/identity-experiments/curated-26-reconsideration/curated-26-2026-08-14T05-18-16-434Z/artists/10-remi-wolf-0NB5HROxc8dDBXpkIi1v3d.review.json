@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Remi Wolf",
+    "proposedMusicRollId": "mr_artist_000024",
+    "spotifyArtistId": "0NB5HROxc8dDBXpkIi1v3d"
+  },
+  "outcome": "coherent_identity_evidence",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0NB5HROxc8dDBXpkIi1v3d",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0NB5HROxc8dDBXpkIi1v3d",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0NB5HROxc8dDBXpkIi1v3d",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0NB5HROxc8dDBXpkIi1v3d",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q98445880",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q98445880",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "9657940",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "9657940",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0NB5HROxc8dDBXpkIi1v3d",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q98445880",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "9657940",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "9657940"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "0NB5HROxc8dDBXpkIi1v3d",
+      "observedValues": [
+        "0NB5HROxc8dDBXpkIi1v3d"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0NB5HROxc8dDBXpkIi1v3d",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0NB5HROxc8dDBXpkIi1v3d",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0NB5HROxc8dDBXpkIi1v3d",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0NB5HROxc8dDBXpkIi1v3d",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0NB5HROxc8dDBXpkIi1v3d",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q98445880",
+      "observedValues": [
+        "Q98445880"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q98445880",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q98445880",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q98445880",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "observedValues": [
+        "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "9657940",
+      "observedValues": [
+        "9657940"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9657940",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9657940",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9657940",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "9657940"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+        "name": "Remi Wolf",
+        "sortName": "Wolf, Remi",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "0NB5HROxc8dDBXpkIi1v3d"
+        ],
+        "discogsArtistIds": [
+          "9657940"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "insufficient_corroboration",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "musicbrainz_derived_discogs:afb6cc6d-a060-4f5e-bc3a-00d4b6832e41->9657940"
+  ],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "0NB5HROxc8dDBXpkIi1v3d",
+      "wikidataQid": "Q98445880",
+      "name": "Remi Wolf",
+      "musicBrainzArtistId": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "discogsArtistId": null
+    },
+    "musicBrainzRecords": {
+      "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41": {
+        "artist": {
+          "musicBrainzArtistId": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+          "name": "Remi Wolf",
+          "sortName": "Wolf, Remi",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "865e1aac-afed-44d2-8164-b71468328fcd",
+            "name": "Palo Alto",
+            "sortName": "Palo Alto",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1996-02-02",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [
+            "0000000505909042"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003729181"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/8823745"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/9657940"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/2373269"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/14425359"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm6224016/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Remi+Wolf"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Remi-wolf"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.remiwolf.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/50840c1d-b20a-4146-8acf-40e9609bc9c5"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2021140181"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb17990156f"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1246567636"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PCjHyhBvP7hypqYv6BmhKtX"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/remi-wolf"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2021140181/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/1223869670"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/199928"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/remiwolf"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/remiwolf"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/remiwolf/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/9696259"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/remi-wolf"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/de/artist/1223869670"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1223869670"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/10851818"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/1915163706817829421816"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q98445880"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC5jtIev24b3CWoUkCj1CIsg"
+            }
+          ]
+        },
+        "raw": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "isnis": [
+            "0000000505909042"
+          ],
+          "gender": "Female",
+          "id": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "begin-area": {
+            "disambiguation": "",
+            "name": "Palo Alto",
+            "id": "865e1aac-afed-44d2-8164-b71468328fcd",
+            "sort-name": "Palo Alto",
+            "type": null,
+            "type-id": null
+          },
+          "end-area": null,
+          "life-span": {
+            "begin": "1996-02-02",
+            "end": null,
+            "ended": false
+          },
+          "area": {
+            "name": "United States",
+            "disambiguation": "",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "type": null
+          },
+          "type": "Person",
+          "aliases": [],
+          "country": "US",
+          "relations": [
+            {
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "id": "c715da21-f5c7-4e83-ab9b-0128e4db580e",
+                "resource": "https://www.allmusic.com/artist/mn0003729181"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "type": "allmusic",
+              "ended": false
+            },
+            {
+              "url": {
+                "id": "31ba3470-b716-48bd-a36c-9c99e4c312a8",
+                "resource": "https://www.bandsintown.com/a/8823745"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "bandsintown",
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "begin": null,
+              "type": "discogs",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.discogs.com/artist/9657940",
+                "id": "91bc92f3-927d-4565-a159-2060520ea4ce"
+              }
+            },
+            {
+              "begin": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "ff55ea12-0dac-43bb-85c2-e208286491ac",
+                "resource": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": false,
+              "type": "free streaming"
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "645e4693-00f8-41bd-9e63-a4950d6b448a",
+                "resource": "https://www.boomplay.com/artists/2373269"
+              },
+              "ended": false,
+              "type": "free streaming"
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "free streaming",
+              "ended": false,
+              "url": {
+                "id": "56da6b6c-ee5c-4cea-9f80-5aa7d70050d4",
+                "resource": "https://www.deezer.com/artist/14425359"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "attribute-ids": {},
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "11b83503-1cc1-4850-a8d1-a832fefdb63d",
+                "resource": "https://www.imdb.com/name/nm6224016/"
+              },
+              "ended": false,
+              "type": "IMDb"
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.last.fm/music/Remi+Wolf",
+                "id": "6e1a99d3-6417-4a45-9f3d-71428d36853a"
+              },
+              "ended": false,
+              "type": "last.fm",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "end": null
+            },
+            {
+              "ended": false,
+              "type": "lyrics",
+              "url": {
+                "resource": "https://genius.com/artists/Remi-wolf",
+                "id": "6579523f-b593-4a0d-8164-8ebc328eda53"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "type": "official homepage",
+              "ended": false,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "909aaec9-0ecc-4c9c-a0aa-5bc6e2b5b08a",
+                "resource": "http://www.remiwolf.com/"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "url": {
+                "id": "79b3bd60-f2a2-4247-b0ed-dba2b2ec09d3",
+                "resource": "https://jaxsta.com/profile/50840c1d-b20a-4146-8acf-40e9609bc9c5"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "other databases",
+              "ended": true,
+              "begin": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": "2025-12-17",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward"
+            },
+            {
+              "ended": false,
+              "type": "other databases",
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/no2021140181",
+                "id": "848544a3-e3da-4d17-a286-eb5754bf444f"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb17990156f",
+                "id": "b620a74d-1b54-4d53-b59a-10214b2c76ad"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "4fd849cc-4ea6-407a-aeb0-3c2e78866273",
+                "resource": "https://d-nb.info/gnd/1246567636"
+              },
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://id.oclc.org/worldcat/entity/E39PCjHyhBvP7hypqYv6BmhKtX",
+                "id": "9a628ff0-6059-4f90-ba89-8fdc1e7c04b6"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/remi-wolf",
+                "id": "8b83172a-a9ca-4586-8151-15761a0d9c8f"
+              },
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "other databases",
+              "ended": true,
+              "url": {
+                "resource": "https://www.worldcat.org/identities/lccn-no2021140181/",
+                "id": "91c200f6-fb3b-4c7a-a316-f82845fafd5c"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "type": "purchase for download",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "d4cd4f79-a0b4-4140-8f54-26c7b48a2a13",
+                "resource": "https://music.apple.com/us/artist/1223869670"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "end": null,
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "secondhandsongs",
+              "ended": false,
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/199928",
+                "id": "9375260b-e1f9-43ab-8f08-692b9ba7a060"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://twitter.com/remiwolf",
+                "id": "a46ea791-aaf0-42b4-bf34-71dadfd70abc"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "social network",
+              "ended": false
+            },
+            {
+              "ended": false,
+              "type": "social network",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "a7112cc0-e113-43b6-8024-1c4ca0b6ca30",
+                "resource": "https://www.facebook.com/remiwolf"
+              },
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.instagram.com/remiwolf/",
+                "id": "ddd609ed-8e93-4cc2-a634-3e3546005f4a"
+              },
+              "type": "social network",
+              "ended": false
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "19369c85-afdf-47be-8284-73f5bebbd87f",
+                "resource": "https://www.songkick.com/artists/9696259"
+              },
+              "ended": false,
+              "type": "songkick",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "soundcloud",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://soundcloud.com/remi-wolf",
+                "id": "08c31978-4dc9-438c-8359-1535cd6d2601"
+              }
+            },
+            {
+              "type": "streaming",
+              "ended": false,
+              "url": {
+                "id": "5d7d77b3-5df1-4a66-b36f-ea5e41cc8463",
+                "resource": "https://music.apple.com/de/artist/1223869670"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/1223869670",
+                "id": "d4cd4f79-a0b4-4140-8f54-26c7b48a2a13"
+              },
+              "type": "streaming",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null
+            },
+            {
+              "ended": false,
+              "type": "streaming",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://tidal.com/artist/10851818",
+                "id": "7ce78fa6-f661-4016-9a64-2be6276b6ebc"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "begin": null,
+              "ended": false,
+              "type": "VIAF",
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "1ddbef66-7043-4d03-9219-a58cbb1b829c",
+                "resource": "http://viaf.org/viaf/1915163706817829421816"
+              }
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q98445880",
+                "id": "6bac0e13-c10c-446b-9ce0-ccb3f759a1fa"
+              },
+              "type": "wikidata",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "8f6e66be-a9b1-40d7-8429-e3b189747549",
+                "resource": "https://www.youtube.com/channel/UC5jtIev24b3CWoUkCj1CIsg"
+              },
+              "type": "youtube",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "end": null
+            }
+          ],
+          "name": "Remi Wolf",
+          "disambiguation": "",
+          "sort-name": "Wolf, Remi",
+          "ipis": [
+            "00837721911",
+            "00837722026"
+          ]
+        }
+      }
+    },
+    "discogsRecords": {
+      "9657940": {
+        "artist": {
+          "discogsArtistId": "9657940",
+          "name": "Remi Wolf",
+          "realName": "Remi Francis Wolf",
+          "profile": "American singer-songwriter, born February 2, 1996 in California. Wolf self-released her debut solo EP in 2019, and describes her style as \"funky soul pop\". Her song \"Photo ID\" was voted in at #75 in the [l424752] 2020 countdown but did not make it onto the respective compilation album ([r=17637382]).",
+          "artistUrls": [
+            "http://www.remiwolf.com/",
+            "https://en.wikipedia.org/wiki/Remi_Wolf",
+            "https://twitter.com/remiwolf",
+            "https://www.instagram.com/remiwolf/",
+            "https://www.facebook.com/remiwolf",
+            "https://www.youtube.com/remiwolf",
+            "https://www.tiktok.com/@remiwolf",
+            "https://soundcloud.com/remi-wolf",
+            "https://www.last.fm/music/Remi+Wolf"
+          ],
+          "aliases": [],
+          "nameVariations": [
+            "Remi Francis Wolf"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/9657940",
+          "discogsWebUrl": "https://www.discogs.com/artist/9657940-Remi-Wolf",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Remi Wolf",
+          "id": 9657940,
+          "resource_url": "https://api.discogs.com/artists/9657940",
+          "uri": "https://www.discogs.com/artist/9657940-Remi-Wolf",
+          "releases_url": "https://api.discogs.com/artists/9657940/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/_oT3n8ImTyYOJE3vKge_DinMB0jBDYOf5fpZxPoDGVM/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS0zMTM2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/_oT3n8ImTyYOJE3vKge_DinMB0jBDYOf5fpZxPoDGVM/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS0zMTM2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/HPlmMhoMwQNhMUFtO3zCdsoR7JvQ0an1udHEoiZZxkE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS0zMTM2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 381
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/LeJnzuDlnUOdBLM6IrKX_SGqzty3LvIza2QugFg3ClM/rs:fit/g:sm/q:90/h:745/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS03Mjc3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/LeJnzuDlnUOdBLM6IrKX_SGqzty3LvIza2QugFg3ClM/rs:fit/g:sm/q:90/h:745/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS03Mjc3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/pYafPTelquKre2HCjZK-UFiC1Zy3dGh9Xe2msBAHrwg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MS03Mjc3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 745
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/DcKQEpLKkoPbhz5wUT90DzMpnvIubCj7x26I3Z4zy4g/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MC05ODgxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/DcKQEpLKkoPbhz5wUT90DzMpnvIubCj7x26I3Z4zy4g/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MC05ODgxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/RE1Zi2XTOtQ89LYgKXg-ztze-X0Zmc42ndGek45lF6U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk2NTc5/NDAtMTYyODAyMDE4/MC05ODgxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 598
+            }
+          ],
+          "realname": "Remi Francis Wolf",
+          "profile": "American singer-songwriter, born February 2, 1996 in California. Wolf self-released her debut solo EP in 2019, and describes her style as \"funky soul pop\". Her song \"Photo ID\" was voted in at #75 in the [l424752] 2020 countdown but did not make it onto the respective compilation album ([r=17637382]).",
+          "urls": [
+            "http://www.remiwolf.com/",
+            "https://en.wikipedia.org/wiki/Remi_Wolf",
+            "https://twitter.com/remiwolf",
+            "https://www.instagram.com/remiwolf/",
+            "https://www.facebook.com/remiwolf",
+            "https://www.youtube.com/remiwolf",
+            "https://www.tiktok.com/@remiwolf",
+            "https://soundcloud.com/remi-wolf",
+            "https://www.last.fm/music/Remi+Wolf"
+          ],
+          "namevariations": [
+            "Remi Francis Wolf"
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

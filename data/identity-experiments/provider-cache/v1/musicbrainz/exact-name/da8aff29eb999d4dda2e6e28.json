@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "da8aff29eb999d4dda2e6e28",
+  "retrievedAt": "2026-08-14T05:19:12.133Z",
+  "value": {
+    "requestedName": "LSDXOXO",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+        "name": "LSDXOXO",
+        "sortName": "LSDXOXO",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "RJ Glasgow",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T05:19:12.118Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "LSDXOXO",
+          "sort-name": "LSDXOXO",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Philadelphia",
+            "sort-name": "Philadelphia",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "RJ Glasgow",
+          "life-span": {
+            "begin": "1991-06-04",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "queer"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4",
+  "retrievedAt": "2026-08-14T05:18:53.432Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4",
+      "name": "WEDNESDAY",
+      "sortName": "WEDNESDAY",
+      "artistType": "Group",
+      "disambiguation": "Korean indie rock band",
+      "country": "KR",
+      "area": {
+        "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+        "name": "South Korea",
+        "sortName": "South Korea",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://bandwednesday.bandcamp.com/"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/1sHab1QxHODQnmexzFLBFs"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.bugs.co.kr/artist/20237645"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://vibe.naver.com/artist/9760154"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=82930375"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.melon.com/artist/detail.htm?artistId=4346077"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/band_wednesday/"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1819713534"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.bugs.co.kr/artist/20237645"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://vibe.naver.com/artist/9760154"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=82930375"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://www.melon.com/artist/detail.htm?artistId=4346077"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://www.music-flo.com/detail/artist/411983274/album"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UC2LieKyYqasRRKapxnLY1uw"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "disambiguation": "Korean indie rock band",
+      "begin-area": null,
+      "id": "674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4",
+      "sort-name": "WEDNESDAY",
+      "gender": null,
+      "type": "Group",
+      "aliases": [],
+      "relations": [
+        {
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "a230cba2-3dc3-45d3-b800-a24ba104fbfd",
+            "resource": "https://bandwednesday.bandcamp.com/"
+          },
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "bandcamp",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null
+        },
+        {
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "free streaming",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "url": {
+            "id": "049c672a-fc64-486b-9c23-b0d78f1c5767",
+            "resource": "https://open.spotify.com/artist/1sHab1QxHODQnmexzFLBFs"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": ""
+        },
+        {
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "resource": "https://music.bugs.co.kr/artist/20237645",
+            "id": "43d6c99b-40eb-4cd9-bf65-d874754f5e06"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "purchase for download",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "url": {
+            "resource": "https://vibe.naver.com/artist/9760154",
+            "id": "896a111f-1310-441a-9bb8-2cabaaf317b3"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "purchase for download",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type": "purchase for download",
+          "url": {
+            "id": "8fd99ec7-a727-4929-81bc-5ec557728f9a",
+            "resource": "https://www.genie.co.kr/detail/artistInfo?xxnm=82930375"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "url": {
+            "resource": "https://www.melon.com/artist/detail.htm?artistId=4346077",
+            "id": "0b028d30-65fb-4ea8-9ff8-2e7d15c67036"
+          },
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "purchase for download",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "social network",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "url": {
+            "resource": "https://www.instagram.com/band_wednesday/",
+            "id": "90444987-2a8e-4437-b8bc-cdf0e47306be"
+          }
+        },
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "id": "996bb074-f6a6-418a-97bc-299ef550645a",
+            "resource": "https://music.apple.com/us/artist/1819713534"
+          }
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "streaming",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://music.bugs.co.kr/artist/20237645",
+            "id": "43d6c99b-40eb-4cd9-bf65-d874754f5e06"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "attributes": [],
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "id": "896a111f-1310-441a-9bb8-2cabaaf317b3",
+            "resource": "https://vibe.naver.com/artist/9760154"
+          },
+          "type": "streaming",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "attribute-ids": {},
+          "begin": null
+        },
+        {
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "type": "streaming",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "url": {
+            "id": "8fd99ec7-a727-4929-81bc-5ec557728f9a",
+            "resource": "https://www.genie.co.kr/detail/artistInfo?xxnm=82930375"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": []
+        },
+        {
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://www.melon.com/artist/detail.htm?artistId=4346077",
+            "id": "0b028d30-65fb-4ea8-9ff8-2e7d15c67036"
+          }
+        },
+        {
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type": "streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "89f5ccb6-2cb3-48e0-8141-2d2f502030b2",
+            "resource": "https://www.music-flo.com/detail/artist/411983274/album"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        },
+        {
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "type": "youtube",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "url": {
+            "id": "3045cd90-d705-4708-8a96-2e5abe1e0044",
+            "resource": "https://www.youtube.com/channel/UC2LieKyYqasRRKapxnLY1uw"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": []
+        }
+      ],
+      "end-area": null,
+      "area": {
+        "disambiguation": "",
+        "sort-name": "South Korea",
+        "type-id": null,
+        "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+        "type": null,
+        "iso-3166-1-codes": [
+          "KR"
+        ],
+        "name": "South Korea"
+      },
+      "isnis": [],
+      "name": "WEDNESDAY",
+      "country": "KR",
+      "gender-id": null
+    }
+  }
+}

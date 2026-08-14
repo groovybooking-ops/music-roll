@@ -1,0 +1,1953 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Donna Summer",
+    "proposedMusicRollId": "mr_artist_000045",
+    "spotifyArtistId": "2eogQKWWoohI3BSnoG7E2U"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2eogQKWWoohI3BSnoG7E2U",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2eogQKWWoohI3BSnoG7E2U",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2eogQKWWoohI3BSnoG7E2U",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2eogQKWWoohI3BSnoG7E2U",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q908933",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q908933",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6270",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1258632",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1258632",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6270",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "1258632",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6270",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2eogQKWWoohI3BSnoG7E2U",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q908933",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "2eogQKWWoohI3BSnoG7E2U",
+      "observedValues": [
+        "2eogQKWWoohI3BSnoG7E2U"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2eogQKWWoohI3BSnoG7E2U",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2eogQKWWoohI3BSnoG7E2U",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2eogQKWWoohI3BSnoG7E2U",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2eogQKWWoohI3BSnoG7E2U",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2eogQKWWoohI3BSnoG7E2U",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q908933",
+      "observedValues": [
+        "Q908933"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q908933",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q908933",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q908933",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "observedValues": [
+        "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "6270",
+        "1258632"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6270",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1258632",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1258632",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6270",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1258632",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6270",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "6270",
+        "1258632"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 2,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 1,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "5c01ba41-ab67-47c4-ba4c-4f40b2724afd",
+        "name": "Donna Summer",
+        "sortName": "Donna Summer",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "electronic musician Jason Forrest",
+        "score": 80,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "99643"
+        ]
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+        "name": "Donna Summer",
+        "sortName": "Summer, Donna",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "soul/disco diva",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "2eogQKWWoohI3BSnoG7E2U"
+        ],
+        "discogsArtistIds": [
+          "1258632",
+          "6270"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "5c01ba41-ab67-47c4-ba4c-4f40b2724afd",
+        "name": "Donna Summer",
+        "sortName": "Donna Summer",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "electronic musician Jason Forrest",
+        "score": 80,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "99643"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": [
+          "discogs:6270",
+          "discogs:1258632"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "6270",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "1258632",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "2eogQKWWoohI3BSnoG7E2U",
+      "wikidataQid": "Q908933",
+      "name": "Donna Summer",
+      "musicBrainzArtistId": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "6270",
+        "1258632"
+      ]
+    },
+    "musicBrainzRecords": {
+      "b60527cc-54f3-4bbe-a01b-dcf34c95ae14": {
+        "artist": {
+          "musicBrainzArtistId": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+          "name": "Donna Summer",
+          "sortName": "Summer, Donna",
+          "artistType": "Person",
+          "disambiguation": "soul/disco diva",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "e331bfdf-b908-429c-a79b-710cf9c06abb",
+            "name": "Boston",
+            "sortName": "Boston",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1948-12-31",
+            "end": "2012-05-17",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "Donna A Summer",
+              "sortName": "Donna A Summer",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Donna Gaines",
+              "sortName": "Gaines, Donna",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Donna Summers",
+              "sortName": "Donna Summers",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Donnna Summer",
+              "sortName": "Donnna Summer",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Donny Summer",
+              "sortName": "Donny Summer",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "LaDonna Adrian Gaines",
+              "sortName": "Gaines, LaDonna Adrian",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "ドナ・サマー",
+              "sortName": "ドナ・サマー",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000078273827",
+            "0000000132729275"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000661524"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/47163"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1258632"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/6270"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.donnasummer.it/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.donna-tribute.com/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/2eogQKWWoohI3BSnoG7E2U"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://play.anghami.com/artist/4487"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/3521"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Nobel_Peace_Price_Concert_2009_Donna_Summer3.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0838595/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Donna+Summer"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-3504/donna-summer/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Donna-summer"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Donna-Summer"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/donnasummer"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.donnasummer.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n78067244"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/S/Summer,_Donna/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb13900180w"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/118620029"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ibdb.com/person.php?id=84124"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/donna-summer"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://snaccooperative.org/ark:/99166/w6pk0p6v"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/donna_summer"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/donna-summer/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000055620/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/192339"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Donna-Summer/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-n78067244"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.maniadb.com/artist/120669"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id49155"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/49155"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/32239"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/_/231192"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=27115"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/donna-summer/62467"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.amazon.com/-/e/B000AQ0NSS"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/269"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/donna-summer-6bd6be6a.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/TheDonnaSummer"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://vk.com/al_artist.php?artist_id=donnasummer"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/OfficialDonnaSummer"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/officialdonnasummer/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/278980"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/donna-summer-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001E3SY0U"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/49155"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/49155"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/32239"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/743"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=27115"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/donna-summer/62467"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/42026781"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q908933"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC6dX999wO3gBsS1qzm4I-KA"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCMTtgEDrWzD0jDtGadKiQOw"
+            }
+          ]
+        },
+        "raw": {
+          "type": "Person",
+          "aliases": [
+            {
+              "sort-name": "Donna A Summer",
+              "locale": null,
+              "type-id": null,
+              "primary": null,
+              "end": null,
+              "begin": null,
+              "name": "Donna A Summer",
+              "type": null,
+              "ended": false
+            },
+            {
+              "locale": null,
+              "sort-name": "Gaines, Donna",
+              "type-id": null,
+              "end": null,
+              "primary": null,
+              "begin": null,
+              "name": "Donna Gaines",
+              "type": null,
+              "ended": false
+            },
+            {
+              "ended": false,
+              "name": "Donna Summers",
+              "type": null,
+              "begin": null,
+              "type-id": null,
+              "sort-name": "Donna Summers",
+              "locale": null,
+              "end": null,
+              "primary": null
+            },
+            {
+              "type": null,
+              "name": "Donnna Summer",
+              "ended": false,
+              "end": null,
+              "primary": null,
+              "locale": null,
+              "sort-name": "Donnna Summer",
+              "type-id": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "end": null,
+              "primary": null,
+              "type-id": null,
+              "sort-name": "Donny Summer",
+              "locale": null,
+              "ended": false,
+              "type": null,
+              "name": "Donny Summer"
+            },
+            {
+              "begin": "1948-12-31",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "locale": null,
+              "sort-name": "Gaines, LaDonna Adrian",
+              "end": null,
+              "primary": null,
+              "ended": false,
+              "name": "LaDonna Adrian Gaines",
+              "type": "Legal name"
+            },
+            {
+              "begin": null,
+              "end": null,
+              "primary": null,
+              "type-id": null,
+              "sort-name": "ドナ・サマー",
+              "locale": null,
+              "ended": false,
+              "type": null,
+              "name": "ドナ・サマー"
+            }
+          ],
+          "relations": [
+            {
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "url": {
+                "resource": "https://www.allmusic.com/artist/mn0000661524",
+                "id": "cbfe9d35-a536-40d3-b0db-10e6aa26ed59"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "allmusic",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "url": {
+                "id": "d85436e7-77fc-433a-b559-2665715aee35",
+                "resource": "https://www.bandsintown.com/a/47163"
+              },
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "bandsintown"
+            },
+            {
+              "target-type": "url",
+              "ended": true,
+              "direction": "forward",
+              "type": "BBC Music page",
+              "begin": null,
+              "attribute-ids": {},
+              "end": "2020-11-19",
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+              "url": {
+                "id": "76467342-ff3e-412a-8e11-dea27c225e0b",
+                "resource": "https://www.bbc.co.uk/music/artists/b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+              }
+            },
+            {
+              "type": "discogs",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "Donna Gaines",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.discogs.com/artist/1258632",
+                "id": "4c8a2f1a-004f-4b94-8ea8-4b14914cc4e4"
+              },
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+            },
+            {
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "url": {
+                "resource": "https://www.discogs.com/artist/6270",
+                "id": "e317652f-e5c6-472e-8d5c-86f492b53771"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "discogs",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type": "fanpage",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "http://www.donnasummer.it/",
+                "id": "7e57d7c6-78af-4aaa-9167-ba8d66e4872d"
+              },
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "fanpage",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "id": "c3e662b7-ea9c-4e9b-8694-9481576be7f6",
+                "resource": "http://www.donna-tribute.com/"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "free streaming",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "url": {
+                "resource": "https://open.spotify.com/artist/2eogQKWWoohI3BSnoG7E2U",
+                "id": "ba86c46e-a1a1-4bf3-b57f-9bb94de6d3f5"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "free streaming",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://play.anghami.com/artist/4487",
+                "id": "9a1ed4d1-f650-4c04-b0be-a684ff8685b8"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type": "free streaming",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.deezer.com/artist/3521",
+                "id": "94158850-d1b2-43fb-be7d-508f86b70271"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://commons.wikimedia.org/wiki/File:Nobel_Peace_Price_Concert_2009_Donna_Summer3.jpg",
+                "id": "83effa55-081f-4e0e-b26a-b39b3c4961f0"
+              },
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "image",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "IMDb",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "url": {
+                "id": "0a84edef-ea05-4bee-a9d3-80bd8011509f",
+                "resource": "https://www.imdb.com/name/nm0838595/"
+              }
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "last.fm",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "url": {
+                "id": "e3eb5a20-65ad-4e1b-9d47-97111b0d9e68",
+                "resource": "https://www.last.fm/music/Donna+Summer"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "lyrics",
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "url": {
+                "id": "d4838fde-84e3-4c25-bb09-3746e5216d68",
+                "resource": "http://muzikum.eu/en/122-3504/donna-summer/lyrics.html"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "lyrics",
+              "url": {
+                "resource": "https://genius.com/artists/Donna-summer",
+                "id": "a03c58f6-e072-4275-9370-14086b540165"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "url": {
+                "resource": "https://www.musixmatch.com/artist/Donna-Summer",
+                "id": "4bbb3c8b-3fb2-4f13-aaae-afda1a881c48"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "lyrics"
+            },
+            {
+              "url": {
+                "id": "c1760dd5-0b3d-4db6-81c2-7801a7989e07",
+                "resource": "https://myspace.com/donnasummer"
+              },
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "myspace"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "official homepage",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "url": {
+                "resource": "http://www.donnasummer.com/",
+                "id": "fc9c7a78-0abc-4a41-ae84-13d82fb0bf09"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "other databases",
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/n78067244",
+                "id": "74e54913-82a3-44c9-87a6-e113d14470c3"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type": "other databases",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "http://musicmoz.org/Bands_and_Artists/S/Summer,_Donna/",
+                "id": "88c6aff0-fb93-4957-b871-ac5d18b587ce"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb13900180w",
+                "id": "4b891765-2d28-4777-ad7a-69e3f90a8bdb"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "other databases",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "560c23a7-f99f-4cd2-8590-19626ff05580",
+                "resource": "https://d-nb.info/gnd/118620029"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "28182d61-08b1-4b50-9b18-ba564a0bee17",
+                "resource": "https://ibdb.com/person.php?id=84124"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "url": {
+                "id": "ac333578-5a9a-4d65-a6bc-f9dfed5ddcc6",
+                "resource": "https://imvdb.com/n/donna-summer"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type": "other databases",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "http://snaccooperative.org/ark:/99166/w6pk0p6v",
+                "id": "beda1a14-22d0-420c-aa5b-860ca97c2891"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "other databases",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/donna_summer",
+                "id": "ee59be7b-b808-40d9-86d6-95ea81e25c07"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "other databases",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "c3a7f89b-39e7-41de-91e7-8032eb337a11",
+                "resource": "https://www.musik-sammler.de/artist/donna-summer/"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "id": "d0f79e11-5d30-4475-a6aa-d0668d776250",
+                "resource": "https://www.muziekweb.nl/Link/M00000055620/POPULAR/"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "https://www.themoviedb.org/person/192339",
+                "id": "fa4290d7-5338-4eab-8261-346fa89c4616"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "0676cfb0-4d7d-401c-b4b8-25937128a97a",
+                "resource": "https://www.whosampled.com/Donna-Summer/"
+              },
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type": "other databases",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.worldcat.org/identities/lccn-n78067244",
+                "id": "48c21937-5ddd-48be-8a1d-627672dceb27"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "other databases",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "url": {
+                "resource": "http://www.maniadb.com/artist/120669",
+                "id": "27a7d5f4-37e5-4395-9a01-515a1b5f1883"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "url": {
+                "resource": "https://itunes.apple.com/us/artist/id49155",
+                "id": "61779652-9f7f-4c23-bc8b-f453995ce2a1"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "begin": null,
+              "attribute-ids": {},
+              "end": "2019-05-19",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": true,
+              "type": "purchase for download"
+            },
+            {
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "id": "5f94e0d5-afe6-4c45-9f83-8ea9d914c7ac",
+                "resource": "https://music.apple.com/us/artist/49155"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "purchase for download",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://music.bugs.co.kr/artist/32239",
+                "id": "e8480633-3727-435f-83a4-ce9c9dacf33f"
+              },
+              "type": "purchase for download",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "url": {
+                "id": "b1f7332d-e510-4a29-ae70-343812bb6190",
+                "resource": "https://www.beatport.com/artist/_/231192"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "purchase for download",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "type": "purchase for download",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "047feb06-546d-4c93-9e48-7aab196bb608",
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=27115"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+            },
+            {
+              "type": "purchase for download",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/donna-summer/62467",
+                "id": "84690890-3a87-4a56-814c-d1666176bd9d"
+              }
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.amazon.com/-/e/B000AQ0NSS",
+                "id": "8df13fa0-5c35-4fe4-904a-c3bbd1c2a9f7"
+              },
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type": "purchase for mail-order",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/269",
+                "id": "82a65622-d7db-451c-8afb-60f7622a8748"
+              },
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "secondhandsongs",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "url": {
+                "id": "c66af48a-eda3-4863-9e29-95a71e911d73",
+                "resource": "https://www.setlist.fm/setlists/donna-summer-6bd6be6a.html"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "setlistfm",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "4ec15c70-7c3c-491c-8009-faddd7200a1d",
+                "resource": "https://twitter.com/TheDonnaSummer"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "social network",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "type": "social network",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "https://vk.com/al_artist.php?artist_id=donnasummer",
+                "id": "28230c43-909a-430e-8283-020f0dffe630"
+              }
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "1b3f32c5-1ee4-4aea-84c2-3586a8556807",
+                "resource": "https://www.facebook.com/OfficialDonnaSummer"
+              },
+              "type": "social network",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "url": {
+                "resource": "https://www.instagram.com/officialdonnasummer/",
+                "id": "bff7c6a9-ebbd-4fc2-bc8c-e90bede79a06"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "social network"
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "url": {
+                "id": "50a081e4-3e2a-4c86-8481-f70db85b272e",
+                "resource": "https://www.songkick.com/artists/278980"
+              },
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "songkick",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "type": "soundcloud",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "url": {
+                "resource": "https://soundcloud.com/donna-summer-official",
+                "id": "9486a00c-430d-4f9a-b41c-e8f4adaedea1"
+              }
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "streaming",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "63979afb-96ec-4b30-a37c-d1e6766312b4",
+                "resource": "https://music.amazon.com/artists/B001E3SY0U"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "24e4de62-6a14-47f7-a579-2364432cc0c5",
+                "resource": "https://music.apple.com/gb/artist/49155"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "type": "streaming",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "type": "streaming",
+              "url": {
+                "id": "5f94e0d5-afe6-4c45-9f83-8ea9d914c7ac",
+                "resource": "https://music.apple.com/us/artist/49155"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "url": {
+                "resource": "https://music.bugs.co.kr/artist/32239",
+                "id": "e8480633-3727-435f-83a4-ce9c9dacf33f"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "streaming",
+              "url": {
+                "id": "7b0869c4-9ac7-4391-889c-ea67dd5b9937",
+                "resource": "https://tidal.com/artist/743"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "047feb06-546d-4c93-9e48-7aab196bb608",
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=27115"
+              },
+              "type": "streaming",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/donna-summer/62467",
+                "id": "84690890-3a87-4a56-814c-d1666176bd9d"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "streaming",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "resource": "http://viaf.org/viaf/42026781",
+                "id": "4d422161-7d99-4880-9ecf-aa2ee265d3db"
+              },
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "VIAF",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "wikidata",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q908933",
+                "id": "7d35a090-a83a-41ac-a2c4-4ec13a512269"
+              },
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "Donna Gaines"
+            },
+            {
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "url": {
+                "id": "00f83dff-d8e6-4900-b01d-7809457432dc",
+                "resource": "https://www.youtube.com/channel/UC6dX999wO3gBsS1qzm4I-KA"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "youtube",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "type": "youtube",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.youtube.com/channel/UCMTtgEDrWzD0jDtGadKiQOw",
+                "id": "830fbcd4-8fd6-43f3-a9fd-3e1404ee0cdd"
+              },
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+            }
+          ],
+          "end-area": {
+            "type": null,
+            "name": "Naples",
+            "id": "514fceff-0ad8-4a87-9721-d2dd4fc07a07",
+            "sort-name": "Naples",
+            "type-id": null,
+            "disambiguation": ""
+          },
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type": null,
+            "disambiguation": "",
+            "sort-name": "United States",
+            "type-id": null
+          },
+          "name": "Donna Summer",
+          "isnis": [
+            "0000000078273827",
+            "0000000132729275"
+          ],
+          "country": "US",
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "sort-name": "Summer, Donna",
+          "gender": "Female",
+          "begin-area": {
+            "id": "e331bfdf-b908-429c-a79b-710cf9c06abb",
+            "type": null,
+            "name": "Boston",
+            "disambiguation": "",
+            "sort-name": "Boston",
+            "type-id": null
+          },
+          "id": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+          "life-span": {
+            "end": "2012-05-17",
+            "ended": true,
+            "begin": "1948-12-31"
+          },
+          "ipis": [
+            "00087935816",
+            "00087936029"
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "soul/disco diva"
+        }
+      }
+    },
+    "discogsRecords": {
+      "6270": {
+        "state": "unresolved"
+      },
+      "1258632": {
+        "state": "unresolved"
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

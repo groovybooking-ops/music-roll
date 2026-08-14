@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "4us4NMG5wuqdUZvthZrj0Q",
+  "retrievedAt": "2026-08-14T05:19:02.221Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/4us4NMG5wuqdUZvthZrj0Q",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "a521f1a8-a949-4dcf-ab33-94596cb02787",
+        "name": "Militarie Gun",
+        "sortName": "Militarie Gun",
+        "artistType": "Group",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "id": "f5024ca7-34a4-40b3-b568-6516b7c5171e",
+      "resource": "https://open.spotify.com/artist/4us4NMG5wuqdUZvthZrj0Q",
+      "relations": [
+        {
+          "direction": "backward",
+          "begin": null,
+          "ended": false,
+          "type": "free streaming",
+          "attribute-ids": {},
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "artist": {
+            "id": "a521f1a8-a949-4dcf-ab33-94596cb02787",
+            "name": "Militarie Gun",
+            "sort-name": "Militarie Gun",
+            "country": "US",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "type": "Group",
+            "disambiguation": ""
+          },
+          "attributes": [],
+          "target-type": "artist",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1292 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Allie X",
+    "proposedMusicRollId": "mr_artist_000021",
+    "spotifyArtistId": "0wnYgCeP013HkKoOyC5V32"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0wnYgCeP013HkKoOyC5V32",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0wnYgCeP013HkKoOyC5V32",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0wnYgCeP013HkKoOyC5V32",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0wnYgCeP013HkKoOyC5V32",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q16150821",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q16150821",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3635043",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6256195",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3635043",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6256195",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3635043",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6256195",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "0wnYgCeP013HkKoOyC5V32",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q16150821",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "0wnYgCeP013HkKoOyC5V32",
+      "observedValues": [
+        "0wnYgCeP013HkKoOyC5V32"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0wnYgCeP013HkKoOyC5V32",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0wnYgCeP013HkKoOyC5V32",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0wnYgCeP013HkKoOyC5V32",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0wnYgCeP013HkKoOyC5V32",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0wnYgCeP013HkKoOyC5V32",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q16150821",
+      "observedValues": [
+        "Q16150821"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q16150821",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q16150821",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q16150821",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "observedValues": [
+        "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "3635043",
+        "6256195"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3635043",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6256195",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3635043",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6256195",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3635043",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6256195",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "3635043",
+        "6256195"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+        "name": "Allie X",
+        "sortName": "Allie X",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "0wnYgCeP013HkKoOyC5V32"
+        ],
+        "discogsArtistIds": [
+          "3635043",
+          "6256195"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": [
+          "discogs:3635043",
+          "discogs:6256195"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "3635043",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "6256195",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "0wnYgCeP013HkKoOyC5V32",
+      "wikidataQid": "Q16150821",
+      "name": "Allie X",
+      "musicBrainzArtistId": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "3635043",
+        "6256195"
+      ]
+    },
+    "musicBrainzRecords": {
+      "7c922f2c-9d2b-4f37-a139-cddb83722ab3": {
+        "artist": {
+          "musicBrainzArtistId": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+          "name": "Allie X",
+          "sortName": "Allie X",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "3656a427-8cd1-4d09-98d1-4b415c87b292",
+            "name": "Oakville",
+            "sortName": "Oakville",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1985-07-31",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Alexandra Ashley Hughes",
+              "sortName": "Hughes, Alexandra Ashley",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Allie Hughes",
+              "sortName": "Hughes, Allie",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003221710"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://alliex.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/8894766"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/3635043"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/6256195"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/0wnYgCeP013HkKoOyC5V32"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/5587890"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Allie_X_live.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm3041322/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Allie+X"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Allie-x"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://alliex.com/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://alliexandra.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/3d0a3529-e6fe-4636-9d6b-ef7b27cdd7e7"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2023023929"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/allie-x"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/allie_x"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/artist/id833547075"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/10491443"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/_/524466"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/109688"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/alliex"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/alliexxxxandra"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/alliex/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@iamalliex"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/8521223"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/alliexandra"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/833547075"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/10491443"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/5462742"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.ticketmaster.com/artist/2163268"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/43151110715037061844"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q16150821"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCb1cXeayhg_La-C_saU76DA"
+            }
+          ]
+        },
+        "raw": {
+          "sort-name": "Allie X",
+          "ipis": [
+            "00548964498"
+          ],
+          "name": "Allie X",
+          "id": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+          "relations": [
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "id": "6097bd0d-7d03-42b5-bf8b-766bb3100d9b",
+                "resource": "https://www.allmusic.com/artist/mn0003221710"
+              },
+              "attribute-ids": {},
+              "type": "allmusic",
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "end": null
+            },
+            {
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type": "bandcamp",
+              "source-credit": "",
+              "url": {
+                "id": "eeac8070-fefb-4949-a636-d67cfdd50bd4",
+                "resource": "https://alliex.bandcamp.com/"
+              },
+              "attribute-ids": {},
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "type": "bandsintown",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.bandsintown.com/a/8894766",
+                "id": "d87aac91-e186-46c2-a31e-e2a9228f11ab"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url"
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "discogs",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.discogs.com/artist/3635043",
+                "id": "874e5622-74e6-4b49-9239-d73787b0d74a"
+              }
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "resource": "https://www.discogs.com/artist/6256195",
+                "id": "a2f71a56-013a-4744-a510-4af4c715def2"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "discogs"
+            },
+            {
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "type": "free streaming",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "bb500072-c4aa-4ab2-9459-1be535dd2cdb",
+                "resource": "https://open.spotify.com/artist/0wnYgCeP013HkKoOyC5V32"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "54d25284-1497-4c31-aacd-1d07453d14fe",
+                "resource": "https://www.deezer.com/artist/5587890"
+              },
+              "type": "free streaming",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://commons.wikimedia.org/wiki/File:Allie_X_live.jpg",
+                "id": "e5fdc84d-dff4-4cf9-8f79-74cb66860a4b"
+              },
+              "type": "image",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "type": "IMDb",
+              "url": {
+                "resource": "https://www.imdb.com/name/nm3041322/",
+                "id": "90743742-f280-4074-a469-027ca1b8415f"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "6d789989-b3bf-4471-95dc-23bc8b432a7a",
+                "resource": "https://www.last.fm/music/Allie+X"
+              },
+              "type": "last.fm",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "type": "lyrics",
+              "source-credit": "",
+              "url": {
+                "id": "a6da2468-bf14-4031-812c-9713ddf8d9e2",
+                "resource": "https://genius.com/artists/Allie-x"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "http://alliex.com/",
+                "id": "6ff3f63a-4839-4654-a031-fa5884bdb6a1"
+              },
+              "attribute-ids": {},
+              "type": "official homepage",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "end": null
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "direction": "forward",
+              "begin": null,
+              "ended": true,
+              "type": "official homepage",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "c3ff2ec3-759d-47f8-89e8-b7d606ce923d",
+                "resource": "http://alliexandra.com/"
+              }
+            },
+            {
+              "direction": "forward",
+              "begin": null,
+              "ended": true,
+              "type": "other databases",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "d9eac6eb-7127-42fa-9562-578f25a4b609",
+                "resource": "https://jaxsta.com/profile/3d0a3529-e6fe-4636-9d6b-ef7b27cdd7e7"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "end": "2025-12-17",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type": "other databases",
+              "url": {
+                "id": "8a5267cc-6334-47e1-9113-a7e44121fd82",
+                "resource": "http://id.loc.gov/authorities/names/no2023023929"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": []
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "046156d1-042b-439b-80e2-970a7b94a105",
+                "resource": "https://imvdb.com/n/allie-x"
+              },
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "url": {
+                "id": "eda7b3e0-0f9c-4b94-a43e-937a702ba05d",
+                "resource": "https://rateyourmusic.com/artist/allie_x"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "source-credit": "",
+              "url": {
+                "id": "9ba64d77-e22d-41f4-af23-174a6af0a59a",
+                "resource": "https://itunes.apple.com/artist/id833547075"
+              },
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "resource": "https://music.bugs.co.kr/artist/10491443",
+                "id": "f363af01-9276-4595-a03c-25e204d66caf"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "purchase for download"
+            },
+            {
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "source-credit": "",
+              "url": {
+                "id": "97e2fab4-d366-474d-a89c-f2211840117a",
+                "resource": "https://www.beatport.com/artist/_/524466"
+              },
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/109688",
+                "id": "7f3bd3a2-246f-4682-bec6-5f69715fbbfb"
+              },
+              "type": "secondhandsongs",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "type": "social network",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "aacc4492-fa81-499b-8062-06b2be159b7e",
+                "resource": "https://twitter.com/alliex"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {}
+            },
+            {
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "resource": "https://www.facebook.com/alliexxxxandra",
+                "id": "9c811999-3574-4294-947c-de6fa7b7bd93"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "social network"
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "social network",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "b211e6d8-31e1-45d6-8338-c27e55180131",
+                "resource": "https://www.instagram.com/alliex/"
+              }
+            },
+            {
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "social network",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.tiktok.com/@iamalliex",
+                "id": "b0c25ca3-963c-4491-839a-230b8275eab8"
+              },
+              "attribute-ids": {},
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.songkick.com/artists/8521223",
+                "id": "ed6923db-f934-4777-a2f8-1c9f235e46b1"
+              },
+              "type": "songkick",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "end": null
+            },
+            {
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "end": null,
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "soundcloud",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://soundcloud.com/alliexandra",
+                "id": "354ae4f9-f6aa-4de0-9a97-0181851bfd24"
+              }
+            },
+            {
+              "type": "streaming",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/833547075",
+                "id": "af5903d0-9f91-4fae-bc4f-e1556fee9901"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "url": {
+                "resource": "https://music.bugs.co.kr/artist/10491443",
+                "id": "f363af01-9276-4595-a03c-25e204d66caf"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "6d1596d7-d951-43d5-a432-8dc6ae4c90f3",
+                "resource": "https://tidal.com/artist/5462742"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming"
+            },
+            {
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type": "ticketing",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.ticketmaster.com/artist/2163268",
+                "id": "c95d134f-3f50-44e3-99a8-2b7c8b4ade30"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "url": {
+                "id": "ef820a59-80c3-4ace-b2ee-d82a9177f872",
+                "resource": "http://viaf.org/viaf/43151110715037061844"
+              },
+              "attribute-ids": {},
+              "type": "VIAF"
+            },
+            {
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q16150821",
+                "id": "1a376da8-2e41-4f43-80f1-5e6b90eeab63"
+              },
+              "type": "wikidata",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type": "youtube",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.youtube.com/channel/UCb1cXeayhg_La-C_saU76DA",
+                "id": "95b35f50-af57-4d75-a3ac-388f6b335162"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            }
+          ],
+          "disambiguation": "",
+          "isnis": [],
+          "type": "Person",
+          "country": "US",
+          "area": {
+            "type": null,
+            "type-id": null,
+            "disambiguation": "",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States"
+          },
+          "begin-area": {
+            "sort-name": "Oakville",
+            "name": "Oakville",
+            "id": "3656a427-8cd1-4d09-98d1-4b415c87b292",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "life-span": {
+            "begin": "1985-07-31",
+            "end": null,
+            "ended": false
+          },
+          "end-area": null,
+          "aliases": [
+            {
+              "sort-name": "Hughes, Alexandra Ashley",
+              "begin": null,
+              "name": "Alexandra Ashley Hughes",
+              "ended": false,
+              "end": null,
+              "type": "Legal name",
+              "locale": null,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "primary": null
+            },
+            {
+              "ended": false,
+              "name": "Allie Hughes",
+              "sort-name": "Hughes, Allie",
+              "begin": null,
+              "type-id": null,
+              "primary": null,
+              "type": null,
+              "locale": null,
+              "end": null
+            }
+          ],
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "gender": "Female"
+        }
+      }
+    },
+    "discogsRecords": {
+      "3635043": {
+        "state": "unresolved"
+      },
+      "6256195": {
+        "state": "unresolved"
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

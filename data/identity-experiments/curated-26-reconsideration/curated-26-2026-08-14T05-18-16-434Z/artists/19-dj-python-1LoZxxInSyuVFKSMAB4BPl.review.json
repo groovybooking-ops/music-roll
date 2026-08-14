@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "DJ Python",
+    "proposedMusicRollId": "mr_artist_000038",
+    "spotifyArtistId": "1LoZxxInSyuVFKSMAB4BPl"
+  },
+  "outcome": "coherent_identity_evidence",
+  "exactSpotifyUrlFallback": {
+    "status": "unique_exact_url_relationship",
+    "selectedMbid": "42343a91-da25-4fb3-aac7-bc297956c79c",
+    "candidates": [
+      {
+        "musicBrainzArtistId": "42343a91-da25-4fb3-aac7-bc297956c79c",
+        "name": "DJ Python",
+        "sortName": "Python, DJ",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1LoZxxInSyuVFKSMAB4BPl",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "42343a91-da25-4fb3-aac7-bc297956c79c",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5021249",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "1LoZxxInSyuVFKSMAB4BPl",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q114628015",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5021249",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "5021249"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "42343a91-da25-4fb3-aac7-bc297956c79c",
+      "source": "musicbrainz",
+      "path": "url.exact_spotify_artist_relationship",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "1LoZxxInSyuVFKSMAB4BPl",
+      "observedValues": [
+        "1LoZxxInSyuVFKSMAB4BPl"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1LoZxxInSyuVFKSMAB4BPl",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1LoZxxInSyuVFKSMAB4BPl",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q114628015",
+      "observedValues": [
+        "Q114628015"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q114628015",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "42343a91-da25-4fb3-aac7-bc297956c79c",
+      "observedValues": [
+        "42343a91-da25-4fb3-aac7-bc297956c79c"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "42343a91-da25-4fb3-aac7-bc297956c79c",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "42343a91-da25-4fb3-aac7-bc297956c79c",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "5021249",
+      "observedValues": [
+        "5021249"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5021249",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "42343a91-da25-4fb3-aac7-bc297956c79c"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5021249",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5021249"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "42343a91-da25-4fb3-aac7-bc297956c79c",
+        "name": "DJ Python",
+        "sortName": "Python, DJ",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "1LoZxxInSyuVFKSMAB4BPl"
+        ],
+        "discogsArtistIds": [
+          "5021249"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "unique_musicbrainz_exact_spotify_url_relationship",
+    "musicbrainz_derived_discogs:42343a91-da25-4fb3-aac7-bc297956c79c->5021249"
+  ],
+  "evidence": {
+    "wikidata": null,
+    "musicBrainzRecords": {
+      "42343a91-da25-4fb3-aac7-bc297956c79c": {
+        "artist": {
+          "musicBrainzArtistId": "42343a91-da25-4fb3-aac7-bc297956c79c",
+          "name": "DJ Python",
+          "sortName": "Python, DJ",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": null,
+          "area": null,
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [
+            "0000000465548771"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003856129"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://djpythonnyc.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5021249"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/4440568"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Dj-python"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb18063684r"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/djpython"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/dj-python"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://boomkat.com/artists/dj-python"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/djpythonlegend"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/dj__python/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/9381474"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/worldwideunlimited"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/8016738"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/13167863394722740715"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q114628015"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCW4AJyMBD4oI62cry5X78lQ"
+            }
+          ]
+        },
+        "raw": {
+          "disambiguation": "",
+          "ipis": [],
+          "life-span": {
+            "end": null,
+            "ended": false,
+            "begin": null
+          },
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "42343a91-da25-4fb3-aac7-bc297956c79c",
+          "begin-area": null,
+          "gender": "Male",
+          "sort-name": "Python, DJ",
+          "country": null,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "area": null,
+          "name": "DJ Python",
+          "isnis": [
+            "0000000465548771"
+          ],
+          "type": "Person",
+          "relations": [
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "url": {
+                "resource": "https://www.allmusic.com/artist/mn0003856129",
+                "id": "2a468c20-fda9-4bd3-847b-93b4cc02237d"
+              },
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "allmusic",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null
+            },
+            {
+              "type": "bandcamp",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "url": {
+                "id": "147b6461-9b72-4a15-b22a-58d9e7c97382",
+                "resource": "https://djpythonnyc.bandcamp.com/"
+              }
+            },
+            {
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "url": {
+                "id": "fbbe4bfc-3170-4d49-8c2e-320ad4456d7b",
+                "resource": "https://www.discogs.com/artist/5021249"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "discogs"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "free streaming",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "url": {
+                "resource": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl",
+                "id": "56217eb8-38f3-4ef1-af92-5ab22969d90b"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "id": "85cd8585-aa1a-4045-81fa-ae097362aff6",
+                "resource": "https://www.deezer.com/artist/4440568"
+              },
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "free streaming",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "lyrics",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "d7604259-ab31-4983-a78e-9c7d89000290",
+                "resource": "https://genius.com/artists/Dj-python"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "other databases",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb18063684r",
+                "id": "ea005118-5780-4339-a492-93a97a12c56b"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "a5adee06-0ab5-4bf4-900c-d519547fd49f",
+                "resource": "https://ra.co/dj/djpython"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "type": "other databases",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "5d6e4e66-0c14-4c92-a227-3528f619540c",
+                "resource": "https://rateyourmusic.com/artist/dj-python"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "id": "fdfb3baf-f677-4754-b1d7-d68bb95a5400",
+                "resource": "https://boomkat.com/artists/dj-python"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "type": "social network",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.facebook.com/djpythonlegend",
+                "id": "3b5a8aa3-0de5-4c94-b70a-3e907cd7dcb3"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "social network",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "159fc0ab-94c1-4bb2-a0ce-0be70a060cb9",
+                "resource": "https://www.instagram.com/dj__python/"
+              }
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "songkick",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "id": "d03f0c47-f9c9-466f-bd9f-d6f200bacb71",
+                "resource": "https://www.songkick.com/artists/9381474"
+              },
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "soundcloud",
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "url": {
+                "resource": "https://soundcloud.com/worldwideunlimited",
+                "id": "31aff1ab-4a46-4c53-a37c-8a50f6aa2671"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://tidal.com/artist/8016738",
+                "id": "188aeee3-defa-4712-96b7-827406c4c588"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "streaming"
+            },
+            {
+              "type": "VIAF",
+              "direction": "forward",
+              "target-type": "url",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "url": {
+                "id": "043f2931-fa2f-4146-a619-ec38d65ad22d",
+                "resource": "http://viaf.org/viaf/13167863394722740715"
+              }
+            },
+            {
+              "type": "wikidata",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q114628015",
+                "id": "cd14415d-6de4-4409-ad91-cb2297a73fea"
+              }
+            },
+            {
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "url": {
+                "id": "037b75f7-d279-49d8-8516-2a8fe440a0f8",
+                "resource": "https://music.youtube.com/channel/UCW4AJyMBD4oI62cry5X78lQ"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "type": "youtube music"
+            }
+          ],
+          "aliases": [],
+          "end-area": null
+        }
+      }
+    },
+    "discogsRecords": {
+      "5021249": {
+        "artist": {
+          "discogsArtistId": "5021249",
+          "name": "DJ Python",
+          "realName": "Brian Piñeyro",
+          "profile": "DJ/Producer based in NYC.",
+          "artistUrls": [
+            "https://www.facebook.com/djpythonlegend",
+            "https://soundcloud.com/worldwideunlimited",
+            "https://djpythonnyc.bandcamp.com/",
+            "https://www.instagram.com/dj__python/",
+            "https://ra.co/dj/djpython"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "4165285",
+              "name": "DJ Wey"
+            },
+            {
+              "discogsArtistId": "5338242",
+              "name": "Luis (47)"
+            },
+            {
+              "discogsArtistId": "5429241",
+              "name": "Deejay Xanax"
+            },
+            {
+              "discogsArtistId": "6130431",
+              "name": "Brian Piñeyro"
+            }
+          ],
+          "nameVariations": [],
+          "discogsResourceUrl": "https://api.discogs.com/artists/5021249",
+          "discogsWebUrl": "https://www.discogs.com/artist/5021249-DJ-Python",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "DJ Python",
+          "id": 5021249,
+          "resource_url": "https://api.discogs.com/artists/5021249",
+          "uri": "https://www.discogs.com/artist/5021249-DJ-Python",
+          "releases_url": "https://api.discogs.com/artists/5021249/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/objJV1nfs8TG3Jyn7UVIl3G8W-5yvqEI8jCov28dPvM/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTUzOTQ4NTMw/Mi0zMDgxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/objJV1nfs8TG3Jyn7UVIl3G8W-5yvqEI8jCov28dPvM/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTUzOTQ4NTMw/Mi0zMDgxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ENLZnr7v2Oh3ASPPw_kziTkfT5YMSrusvASJHfj8T4E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTUzOTQ4NTMw/Mi0zMDgxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 739
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/9K0UMyDBpHIeI-Yg5lNhVOdNbeH37TlD6_z0vt2Cv1o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTY0Mzk4NDg4/NS0xMjI0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/9K0UMyDBpHIeI-Yg5lNhVOdNbeH37TlD6_z0vt2Cv1o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTY0Mzk4NDg4/NS0xMjI0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/6XhkmwX9vTzrIj1Ss41iAFHKXVExs5V7W98bE0KPs0M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTY0Mzk4NDg4/NS0xMjI0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/fVaKi-jaOei50n6hwvfjfv2OE-zlo7kVOAxXW9Nl2DQ/rs:fit/g:sm/q:90/h:503/w:502/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTQ2OTU0MTE1/NS03NTU2LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/fVaKi-jaOei50n6hwvfjfv2OE-zlo7kVOAxXW9Nl2DQ/rs:fit/g:sm/q:90/h:503/w:502/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTQ2OTU0MTE1/NS03NTU2LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/r3kTpEH3bUnKIzwF--yxfKcJRooopiS3FGEkOrgTxjE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMjEy/NDktMTQ2OTU0MTE1/NS03NTU2LnBuZw.jpeg",
+              "width": 502,
+              "height": 503
+            }
+          ],
+          "realname": "Brian Piñeyro",
+          "profile": "DJ/Producer based in NYC.",
+          "urls": [
+            "https://www.facebook.com/djpythonlegend",
+            "https://soundcloud.com/worldwideunlimited",
+            "https://djpythonnyc.bandcamp.com/",
+            "https://www.instagram.com/dj__python/",
+            "https://ra.co/dj/djpython"
+          ],
+          "aliases": [
+            {
+              "id": 4165285,
+              "name": "DJ Wey",
+              "resource_url": "https://api.discogs.com/artists/4165285"
+            },
+            {
+              "id": 5338242,
+              "name": "Luis (47)",
+              "resource_url": "https://api.discogs.com/artists/5338242"
+            },
+            {
+              "id": 5429241,
+              "name": "Deejay Xanax",
+              "resource_url": "https://api.discogs.com/artists/5429241"
+            },
+            {
+              "id": 6130431,
+              "name": "Brian Piñeyro",
+              "resource_url": "https://api.discogs.com/artists/6130431"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

@@ -1,0 +1,1795 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "The Notorious B.I.G.",
+    "proposedMusicRollId": "mr_artist_000020",
+    "spotifyArtistId": "5me0Irg2ANcsgc93uaYrpb"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5me0Irg2ANcsgc93uaYrpb",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5me0Irg2ANcsgc93uaYrpb",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5me0Irg2ANcsgc93uaYrpb",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5me0Irg2ANcsgc93uaYrpb",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q179157",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q179157",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "65049",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "643218",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "643218",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "65049",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "643218",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "65049",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "5me0Irg2ANcsgc93uaYrpb",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q179157",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "5me0Irg2ANcsgc93uaYrpb",
+      "observedValues": [
+        "5me0Irg2ANcsgc93uaYrpb"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5me0Irg2ANcsgc93uaYrpb",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5me0Irg2ANcsgc93uaYrpb",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5me0Irg2ANcsgc93uaYrpb",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5me0Irg2ANcsgc93uaYrpb",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5me0Irg2ANcsgc93uaYrpb",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q179157",
+      "observedValues": [
+        "Q179157"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q179157",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q179157",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q179157",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "observedValues": [
+        "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "65049",
+        "643218"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "65049",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "643218",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "643218",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "65049",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "643218",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "65049",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "65049",
+        "643218"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+        "name": "The Notorious B.I.G.",
+        "sortName": "Notorious B.I.G., The",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "5me0Irg2ANcsgc93uaYrpb"
+        ],
+        "discogsArtistIds": [
+          "643218",
+          "65049"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": [
+          "discogs:65049",
+          "discogs:643218"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "65049",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "643218",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "5me0Irg2ANcsgc93uaYrpb",
+      "wikidataQid": "Q179157",
+      "name": "The Notorious B.I.G.",
+      "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "65049",
+        "643218"
+      ]
+    },
+    "musicBrainzRecords": {
+      "d5d97b2b-b83b-4976-814a-056d9076c8c3": {
+        "artist": {
+          "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+          "name": "The Notorious B.I.G.",
+          "sortName": "Notorious B.I.G., The",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "eef8014c-2124-4e11-b26d-8bbd5234154f",
+            "name": "Clinton Hill",
+            "sortName": "Clinton Hill",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1972-05-21",
+            "end": "1997-03-09",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "BIG",
+              "sortName": "BIG",
+              "type": "Artist name",
+              "locale": "en",
+              "primary": false
+            },
+            {
+              "name": "Biggie",
+              "sortName": "Biggie",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Biggie Smalls",
+              "sortName": "Biggie Smalls",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Biggie Smallz",
+              "sortName": "Biggie Smallz",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Biggy Smalls",
+              "sortName": "Biggy Smalls",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "C. Wallace",
+              "sortName": "C. Wallace",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Christopher George Latore Wallace",
+              "sortName": "Wallace, Christopher George Latore",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Christopher Wallace",
+              "sortName": "Christopher Wallace",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notorious B. I. G.",
+              "sortName": "Notorious B. I. G.",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notorious B.I.G",
+              "sortName": "Notorious B.I.G",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notorious B.I.G.",
+              "sortName": "Notorious B.I.G.",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notorious BIG",
+              "sortName": "Notorious BIG",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notorious BIG.",
+              "sortName": "Notorious BIG.",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Notrious B.I.G",
+              "sortName": "Notrious B.I.G",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "The Notorious B. I. G.",
+              "sortName": "The Notorious B. I. G.",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "The Notorious B.I.G.",
+              "sortName": "Notorious B.I.G., The",
+              "type": "Artist name",
+              "locale": "en",
+              "primary": true
+            },
+            {
+              "name": "The Notorious BIG",
+              "sortName": "The Notorious BIG",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000073296536",
+            "0000000368449835"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000892827"
+            },
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0001277816"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/555"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/643218"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/65049"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/2519"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Coogi_Blk_%26_White.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0857263/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/The+Notorious+B.I.G."
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/The-notorious-big"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/notoriousbig"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no96031850"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb14000489d"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/13504099X"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/the-notorious-big"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/the-notorious-b_i_g"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/4129/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/The-Notorious-B.I.G./"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.worldcat.org/identities/nc-the%20notorious%20b%20i%20g/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id5499810"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Azpfoj422g6ekgu32xuuas3ehy4"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/5499810"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-notorious-b-i-g/176323"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/483"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/the-notorious-big-2bd69c5a.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/thenotoriousbig"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/NotoriousBIG"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/thenotoriousbig/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.reverbnation.com/notoriousbig"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.threads.com/@thenotoriousbig"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@thenotoriousbig"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/181864"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/notoriousbig"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001Q995UU"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/5499810"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/3565368"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-notorious-b-i-g/176323"
+            },
+            {
+              "relationshipType": "vgmdb",
+              "url": "https://vgmdb.net/artist/20293"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/102398954"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q179157"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCIZGqIYkST36dLp0uf9o9nw"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCczXQ2ehGOS2U2UnR8rY3Hg"
+            }
+          ]
+        },
+        "raw": {
+          "aliases": [
+            {
+              "name": "BIG",
+              "locale": "en",
+              "sort-name": "BIG",
+              "begin": null,
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": false,
+              "type": "Artist name",
+              "ended": false
+            },
+            {
+              "locale": null,
+              "name": "Biggie",
+              "begin": null,
+              "sort-name": "Biggie",
+              "end": null,
+              "primary": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "ended": false,
+              "type": "Artist name"
+            },
+            {
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": null,
+              "type": "Artist name",
+              "ended": false,
+              "name": "Biggie Smalls",
+              "locale": null,
+              "sort-name": "Biggie Smalls",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "type": "Search hint",
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "locale": null,
+              "name": "Biggie Smallz",
+              "begin": null,
+              "sort-name": "Biggie Smallz"
+            },
+            {
+              "name": "Biggy Smalls",
+              "locale": null,
+              "sort-name": "Biggy Smalls",
+              "begin": null,
+              "end": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "primary": null,
+              "type": "Search hint",
+              "ended": false
+            },
+            {
+              "sort-name": "C. Wallace",
+              "begin": null,
+              "name": "C. Wallace",
+              "locale": null,
+              "type": "Search hint",
+              "ended": false,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "primary": null,
+              "end": null
+            },
+            {
+              "sort-name": "Wallace, Christopher George Latore",
+              "begin": null,
+              "name": "Christopher George Latore Wallace",
+              "locale": null,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "primary": null,
+              "end": null,
+              "type": "Legal name",
+              "ended": false
+            },
+            {
+              "ended": false,
+              "type": "Search hint",
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "locale": null,
+              "name": "Christopher Wallace",
+              "begin": null,
+              "sort-name": "Christopher Wallace"
+            },
+            {
+              "begin": null,
+              "sort-name": "Notorious B. I. G.",
+              "locale": null,
+              "name": "Notorious B. I. G.",
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "end": null,
+              "ended": false,
+              "type": "Search hint"
+            },
+            {
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "ended": false,
+              "type": "Search hint",
+              "locale": null,
+              "name": "Notorious B.I.G",
+              "begin": null,
+              "sort-name": "Notorious B.I.G"
+            },
+            {
+              "name": "Notorious B.I.G.",
+              "locale": null,
+              "sort-name": "Notorious B.I.G.",
+              "begin": null,
+              "type": "Search hint",
+              "ended": false,
+              "end": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "primary": null
+            },
+            {
+              "locale": null,
+              "name": "Notorious BIG",
+              "begin": null,
+              "sort-name": "Notorious BIG",
+              "ended": false,
+              "type": "Search hint",
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+            },
+            {
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "ended": false,
+              "type": "Search hint",
+              "locale": null,
+              "name": "Notorious BIG.",
+              "begin": null,
+              "sort-name": "Notorious BIG."
+            },
+            {
+              "ended": false,
+              "type": "Search hint",
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "end": null,
+              "begin": null,
+              "sort-name": "Notrious B.I.G",
+              "locale": null,
+              "name": "Notrious B.I.G"
+            },
+            {
+              "locale": null,
+              "name": "The Notorious B. I. G.",
+              "begin": null,
+              "sort-name": "The Notorious B. I. G.",
+              "end": null,
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "ended": false,
+              "type": "Search hint"
+            },
+            {
+              "type": "Artist name",
+              "ended": false,
+              "end": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "name": "The Notorious B.I.G.",
+              "locale": "en",
+              "sort-name": "Notorious B.I.G., The",
+              "begin": null
+            },
+            {
+              "type": "Search hint",
+              "ended": false,
+              "end": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "primary": null,
+              "name": "The Notorious BIG",
+              "locale": null,
+              "sort-name": "The Notorious BIG",
+              "begin": null
+            }
+          ],
+          "country": "US",
+          "relations": [
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "attribute-ids": {},
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "9bb7225e-6cd7-4483-b0b1-766bdb005ae4",
+                "resource": "https://www.allmusic.com/artist/mn0000892827"
+              },
+              "ended": false,
+              "type": "allmusic"
+            },
+            {
+              "type": "allmusic",
+              "ended": false,
+              "source-credit": "Christopher Wallace",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.allmusic.com/artist/mn0001277816",
+                "id": "8cf25c57-0846-4c11-b60a-49db4fa8dc5b"
+              },
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "259623df-51f0-4626-ba70-8a83f74a307c",
+                "resource": "https://www.bandsintown.com/a/555"
+              },
+              "ended": false,
+              "type": "bandsintown",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+            },
+            {
+              "end": "2020-11-19",
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "BBC Music page",
+              "ended": true,
+              "url": {
+                "id": "e327a6ce-7b5f-43d2-a4cb-2910e05ff425",
+                "resource": "https://www.bbc.co.uk/music/artists/d5d97b2b-b83b-4976-814a-056d9076c8c3"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "begin": null,
+              "type": "discogs",
+              "ended": false,
+              "source-credit": "Christopher Wallace",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.discogs.com/artist/643218",
+                "id": "9104f3c9-82e2-4436-a300-be45422a156b"
+              }
+            },
+            {
+              "begin": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.discogs.com/artist/65049",
+                "id": "350b1873-2e28-4b92-95be-425def7f66c3"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "discogs",
+              "ended": false
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
+                "id": "3bbc7637-3003-42f9-a7d9-bfbc42397fa8"
+              },
+              "type": "free streaming",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "free streaming",
+              "ended": false,
+              "url": {
+                "id": "6edec0e5-66a9-4bcb-9d14-5281d04305e8",
+                "resource": "https://www.deezer.com/artist/2519"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "fc503dd4-2651-4568-a6d1-3f4ac7d08293",
+                "resource": "https://commons.wikimedia.org/wiki/File:Coogi_Blk_%26_White.jpg"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": false,
+              "type": "image"
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.imdb.com/name/nm0857263/",
+                "id": "7bb2b927-7584-4bfc-9e59-209433bb3f3a"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "type": "IMDb",
+              "ended": false
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.last.fm/music/The+Notorious+B.I.G.",
+                "id": "241de398-142c-479f-8565-ec4c2a100067"
+              },
+              "ended": false,
+              "type": "last.fm",
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://genius.com/artists/The-notorious-big",
+                "id": "a41cb06c-29e0-485d-93b4-13cff7c06672"
+              },
+              "ended": false,
+              "type": "lyrics",
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attribute-ids": {}
+            },
+            {
+              "url": {
+                "resource": "https://myspace.com/notoriousbig",
+                "id": "73e95ba9-b54f-4fde-b935-44dda257672b"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "ended": false,
+              "type": "myspace",
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/no96031850",
+                "id": "2f442ac7-e90a-4741-9aa8-f8e916035427"
+              },
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb14000489d",
+                "id": "766bd7e1-df08-4fdb-803c-05163149cee2"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "3860e4b8-f654-4689-a53d-d61ed2df555f",
+                "resource": "https://d-nb.info/gnd/13504099X"
+              },
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://imvdb.com/n/the-notorious-big",
+                "id": "3e6d818e-01ff-489a-95ad-d116704f7b6a"
+              }
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/the-notorious-b_i_g",
+                "id": "e60a5c58-29e5-4ca5-a647-1c7cf93a58b9"
+              },
+              "type": "other databases",
+              "ended": false
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.musik-sammler.de/artist/4129/",
+                "id": "2f9395db-83c3-485d-9644-30bd0f00838d"
+              },
+              "ended": false,
+              "type": "other databases",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "other databases",
+              "ended": false,
+              "url": {
+                "resource": "https://www.whosampled.com/The-Notorious-B.I.G./",
+                "id": "d273dd3a-a727-4a0b-a41b-87ab2ef7f221"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "type": "other databases",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "587d09ba-e92a-4d49-8346-9cf98b66af31",
+                "resource": "http://www.worldcat.org/identities/nc-the%20notorious%20b%20i%20g/"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "begin": null
+            },
+            {
+              "begin": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": "2019-05-19",
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "resource": "https://itunes.apple.com/us/artist/id5499810",
+                "id": "057026ec-957e-44b3-bfbc-b7480c387d12"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": true,
+              "type": "purchase for download"
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": "2020-10-12",
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://play.google.com/store/music/artist?id=Azpfoj422g6ekgu32xuuas3ehy4",
+                "id": "8d988964-46c0-452c-8ff0-575e74f735a4"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "purchase for download",
+              "ended": true
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null,
+              "type": "purchase for download",
+              "ended": false,
+              "url": {
+                "id": "5e097702-9d80-4984-9b45-fa210475c85b",
+                "resource": "https://music.apple.com/us/artist/5499810"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "ended": false,
+              "type": "purchase for download",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/the-notorious-b-i-g/176323",
+                "id": "48cc5451-821b-4e82-b1b6-38402de68e0c"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null,
+              "type": "secondhandsongs",
+              "ended": false,
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/483",
+                "id": "7be66955-769c-4e0b-ba8a-e01dbb1b7a9f"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "90d60c0b-94fd-487a-bdbe-57e0978f10c6",
+                "resource": "https://www.setlist.fm/setlists/the-notorious-big-2bd69c5a.html"
+              },
+              "type": "setlistfm",
+              "ended": false
+            },
+            {
+              "ended": false,
+              "type": "social network",
+              "url": {
+                "resource": "https://twitter.com/thenotoriousbig",
+                "id": "ef791830-f138-4a50-a0fa-add0ff2e5073"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "a117758b-0aee-4b6b-bfd6-bcb4223819cc",
+                "resource": "https://www.facebook.com/NotoriousBIG"
+              },
+              "ended": false,
+              "type": "social network"
+            },
+            {
+              "url": {
+                "resource": "https://www.instagram.com/thenotoriousbig/",
+                "id": "e8dd5a3d-9c12-4645-8c27-92ee6bd7f6ff"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "type": "social network",
+              "ended": false,
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward"
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.reverbnation.com/notoriousbig",
+                "id": "e51f8600-c854-4a3e-b7ab-ca4f067ed22c"
+              },
+              "ended": false,
+              "type": "social network",
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {}
+            },
+            {
+              "type": "social network",
+              "ended": false,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "9f971e90-6043-4dc2-bb13-7ca434930fbf",
+                "resource": "https://www.threads.com/@thenotoriousbig"
+              },
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "url": {
+                "resource": "https://www.tiktok.com/@thenotoriousbig",
+                "id": "640f263a-48d3-43c2-aea1-456f12b7c739"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type": "social network",
+              "ended": false
+            },
+            {
+              "begin": null,
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "cd43a9aa-deda-4b05-bc9d-e682d9544e03",
+                "resource": "https://www.songkick.com/artists/181864"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "ended": false,
+              "type": "songkick"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "attribute-ids": {},
+              "begin": null,
+              "type": "soundcloud",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "64b38d89-f3fd-4579-9e2f-9c18530d6865",
+                "resource": "https://soundcloud.com/notoriousbig"
+              }
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://music.amazon.com/artists/B001Q995UU",
+                "id": "b014643c-b3e1-4a4f-8128-e3788d49a9ae"
+              },
+              "type": "streaming",
+              "ended": false
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "type": "streaming",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/5499810",
+                "id": "5e097702-9d80-4984-9b45-fa210475c85b"
+              }
+            },
+            {
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "ended": false,
+              "type": "streaming",
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "8840dffe-a512-49ef-b6e1-a88a770ced75",
+                "resource": "https://tidal.com/artist/3565368"
+              }
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/the-notorious-b-i-g/176323",
+                "id": "48cc5451-821b-4e82-b1b6-38402de68e0c"
+              },
+              "type": "streaming",
+              "ended": false
+            },
+            {
+              "ended": false,
+              "type": "vgmdb",
+              "url": {
+                "resource": "https://vgmdb.net/artist/20293",
+                "id": "fc46e642-d913-44e8-93c3-0c10477fe264"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+              "attribute-ids": {},
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "VIAF",
+              "url": {
+                "id": "0af2108c-c0d8-4558-82f2-51c8c53f0000",
+                "resource": "http://viaf.org/viaf/102398954"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "begin": null,
+              "type": "wikidata",
+              "ended": false,
+              "url": {
+                "id": "d5efc52c-3ad2-4543-949c-b2bc28aad677",
+                "resource": "https://www.wikidata.org/wiki/Q179157"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "id": "3fd66e7f-acef-49b4-b2c1-226a3b67fe55",
+                "resource": "https://www.youtube.com/channel/UCIZGqIYkST36dLp0uf9o9nw"
+              },
+              "type": "youtube",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attribute-ids": {},
+              "end": null
+            },
+            {
+              "url": {
+                "resource": "https://music.youtube.com/channel/UCczXQ2ehGOS2U2UnR8rY3Hg",
+                "id": "87b8b81a-6f90-4b6e-a67c-7f204271796e"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "youtube music",
+              "begin": null,
+              "end": null,
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url"
+            }
+          ],
+          "type": "Person",
+          "life-span": {
+            "ended": true,
+            "begin": "1972-05-21",
+            "end": "1997-03-09"
+          },
+          "area": {
+            "name": "United States",
+            "disambiguation": "",
+            "sort-name": "United States",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "type": null
+          },
+          "ipis": [
+            "00336885622"
+          ],
+          "sort-name": "Notorious B.I.G., The",
+          "name": "The Notorious B.I.G.",
+          "disambiguation": "",
+          "isnis": [
+            "0000000073296536",
+            "0000000368449835"
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "end-area": {
+            "sort-name": "Los Angeles",
+            "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+            "name": "Los Angeles",
+            "disambiguation": "",
+            "type-id": null,
+            "type": null
+          },
+          "begin-area": {
+            "sort-name": "Clinton Hill",
+            "id": "eef8014c-2124-4e11-b26d-8bbd5234154f",
+            "name": "Clinton Hill",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "id": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+          "gender": "Male"
+        }
+      }
+    },
+    "discogsRecords": {
+      "65049": {
+        "state": "unresolved"
+      },
+      "643218": {
+        "state": "unresolved"
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

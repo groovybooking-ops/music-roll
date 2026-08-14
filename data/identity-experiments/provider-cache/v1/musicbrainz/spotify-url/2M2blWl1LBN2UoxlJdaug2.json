@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "2M2blWl1LBN2UoxlJdaug2",
+  "retrievedAt": "2026-08-14T05:19:09.924Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+        "name": "LSDXOXO",
+        "sortName": "LSDXOXO",
+        "artistType": "Person",
+        "disambiguation": "RJ Glasgow",
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "resource": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2",
+      "relations": [
+        {
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "artist": {
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "sort-name": "LSDXOXO",
+            "disambiguation": "RJ Glasgow",
+            "type": "Person",
+            "name": "LSDXOXO",
+            "id": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+            "country": "US"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "target-type": "artist",
+          "ended": false,
+          "direction": "backward",
+          "type": "free streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        }
+      ],
+      "id": "a11cebd7-6202-43e2-bf14-24d2c776f9e5"
+    }
+  }
+}

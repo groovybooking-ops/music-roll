@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-14T05:28:44.713Z",
+  "reviewOnly": true,
+  "sourceEvidence": "data/identity-experiments/curated-26-reconsideration/curated-26-2026-08-14T05-23-01-208Z/cohort-summary.review.json",
+  "candidateCount": 21,
+  "currentLiveArtistCount": 20,
+  "proposedDirectorySize": 41,
+  "countsByOutcome": {
+    "coherent_identity_evidence": 6,
+    "coherent_identity_with_same_name_ambiguity": 4,
+    "provider_profile_multiplicity": 11
+  },
+  "artists": [
+    {
+      "proposedMusicRollId": "mr_artist_000008",
+      "artistName": "Fana Hues",
+      "genre": "rnb",
+      "stage": "underground",
+      "spotifyId": "4yJHrytMK7mqtKsXVGaBNg",
+      "spotifyUrl": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb14acb92572639946429e850f",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify ID and its exact Wikidata, MusicBrainz, and Discogs relationships remain internally coherent with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000015",
+      "artistName": "redveil",
+      "genre": "hiphop",
+      "stage": "emerging",
+      "spotifyId": "5BwsX8bXOFC1YnqSlyfOKM",
+      "spotifyUrl": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb643474b62ac4479a65bece3",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify URL has one exact MusicBrainz artist relationship, followed by compatible exact MusicBrainz and Discogs records with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000017",
+      "artistName": "Kendrick Lamar",
+      "genre": "hiphop",
+      "stage": "mainstream",
+      "spotifyId": "2YZyLoL8N0Wb9xBt1NhZWg",
+      "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "1778977",
+              "1539549",
+              "3062364"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000018",
+      "artistName": "Nas",
+      "genre": "hiphop",
+      "stage": "legacy",
+      "spotifyId": "20qISvAhX20dpIbOOzGK3q",
+      "spotifyUrl": "https://open.spotify.com/artist/20qISvAhX20dpIbOOzGK3q",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb153198caeef9e3bda92f9285",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "50997",
+              "244720",
+              "664446",
+              "182598"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000020",
+      "artistName": "The Notorious B.I.G.",
+      "genre": "hiphop",
+      "stage": "classic",
+      "spotifyId": "5me0Irg2ANcsgc93uaYrpb",
+      "spotifyUrl": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
+      "image": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "65049",
+              "643218"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000021",
+      "artistName": "Allie X",
+      "genre": "pop",
+      "stage": "underground",
+      "spotifyId": "0wnYgCeP013HkKoOyC5V32",
+      "spotifyUrl": "https://open.spotify.com/artist/0wnYgCeP013HkKoOyC5V32",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebefa4cd3c68c95c21c9f87887",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "3635043",
+              "6256195"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000024",
+      "artistName": "Remi Wolf",
+      "genre": "pop",
+      "stage": "emerging",
+      "spotifyId": "0NB5HROxc8dDBXpkIi1v3d",
+      "spotifyUrl": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb426099c39108e2963774c38f",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify ID and its exact Wikidata, MusicBrainz, and Discogs relationships remain internally coherent with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000025",
+      "artistName": "Billie Eilish",
+      "genre": "pop",
+      "stage": "mainstream",
+      "spotifyId": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "spotifyUrl": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "5590213",
+              "6502756"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000027",
+      "artistName": "Lady Gaga",
+      "genre": "pop",
+      "stage": "legacy",
+      "spotifyId": "1HY2Jd0NmPuamShAr6KMms",
+      "spotifyUrl": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "1525683",
+              "1103159",
+              "5729318"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000028",
+      "artistName": "Madonna",
+      "genre": "pop",
+      "stage": "classic",
+      "spotifyId": "6tbjWDEIzxoDsBA1FuhfPW",
+      "spotifyUrl": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "8760",
+              "3424607"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000029",
+      "artistName": "Wednesday",
+      "genre": "rock",
+      "stage": "underground",
+      "spotifyId": "4j7DrazfBZLLD0OrVoAtEe",
+      "spotifyUrl": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebcbf22720296d758d8b373a85",
+      "identityOutcome": "coherent_identity_with_same_name_ambiguity",
+      "evidenceSummary": "The stored Spotify URL has one exact MusicBrainz artist relationship, followed by compatible exact MusicBrainz and Discogs records with no identifier conflict. The bounded same-name audit remains a separate ambiguity warning.",
+      "sameNameAmbiguityNote": {
+        "exactDisplayNameEntityCount": 9,
+        "competingEntityCount": 8,
+        "competingEntities": [
+          "Wednesday (aa5454e5-9eca-4246-8c9f-43bb8703efd5)",
+          "Wednesday (9af01d07-8f6e-4651-bdcb-38efae021af7)",
+          "WEDNESDAY (674cdf9b-ff09-4bf5-88ef-d70d37c7e4a4)",
+          "Wednesday (bf13e7e8-a2ee-406c-8678-32722266f4a9)",
+          "Wednesday (f0f3fb26-753c-449d-8601-d2e2548b13c1)",
+          "Wednesday (f6b1fe59-0ea3-4899-9dad-26deec796506)",
+          "Wednesday (9c5df819-1972-4da4-9ac6-a695261e44c1)",
+          "Wednesday (24fad45f-3e5b-4b49-9eab-172a4b905434)"
+        ],
+        "note": "Matching display names are not identity proof; exact-ID agreement remains separate."
+      },
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000032",
+      "artistName": "Militarie Gun",
+      "genre": "rock",
+      "stage": "emerging",
+      "spotifyId": "4us4NMG5wuqdUZvthZrj0Q",
+      "spotifyUrl": "https://open.spotify.com/artist/4us4NMG5wuqdUZvthZrj0Q",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb76a87b08c406235bfdb6104d",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify URL has one exact MusicBrainz artist relationship, followed by compatible exact MusicBrainz and Discogs records with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000034",
+      "artistName": "Paramore",
+      "genre": "rock",
+      "stage": "mainstream",
+      "spotifyId": "74XFHRwlV6OrjEM0A2NCMF",
+      "spotifyUrl": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb10c34546a4ca2d7faeb8865",
+      "identityOutcome": "coherent_identity_with_same_name_ambiguity",
+      "evidenceSummary": "The stored Spotify ID and its exact Wikidata, MusicBrainz, and Discogs relationships remain internally coherent with no identifier conflict. The bounded same-name audit remains a separate ambiguity warning.",
+      "sameNameAmbiguityNote": {
+        "exactDisplayNameEntityCount": 2,
+        "competingEntityCount": 1,
+        "competingEntities": [
+          "Paramore (728ea90d-279b-4201-a8c4-597830883150)"
+        ],
+        "note": "Matching display names are not identity proof; exact-ID agreement remains separate."
+      },
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000036",
+      "artistName": "Nirvana",
+      "genre": "rock",
+      "stage": "classic",
+      "spotifyId": "6olE6TJLqED3rqDCT0FyPh",
+      "spotifyUrl": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+      "image": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b",
+      "identityOutcome": "coherent_identity_with_same_name_ambiguity",
+      "evidenceSummary": "The stored Spotify ID and its exact Wikidata, MusicBrainz, and Discogs relationships remain internally coherent with no identifier conflict. The bounded same-name audit remains a separate ambiguity warning.",
+      "sameNameAmbiguityNote": {
+        "exactDisplayNameEntityCount": 7,
+        "competingEntityCount": 6,
+        "competingEntities": [
+          "Nirvana (9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6)",
+          "Nirvana (c49d69dc-e008-47cf-b5ff-160fafb1fe1f)",
+          "Nirvana (85af0709-95db-4fbc-801a-120e9f4766d0)",
+          "Nirvana (28a4618c-38e4-4027-ad2c-db66a14a2d85)",
+          "Nirvana (3aa878c0-224b-41e5-abd1-63be359d2bca)",
+          "Nirvana (426f27d1-8ae5-4d4b-89ef-17d18472134a)"
+        ],
+        "note": "Matching display names are not identity proof; exact-ID agreement remains separate."
+      },
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000038",
+      "artistName": "DJ Python",
+      "genre": "dance",
+      "stage": "underground",
+      "spotifyId": "1LoZxxInSyuVFKSMAB4BPl",
+      "spotifyUrl": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb158da9891e116a55ea93834f",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify URL has one exact MusicBrainz artist relationship, followed by compatible exact MusicBrainz and Discogs records with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000039",
+      "artistName": "LSDXOXO",
+      "genre": "dance",
+      "stage": "underground",
+      "spotifyId": "2M2blWl1LBN2UoxlJdaug2",
+      "spotifyUrl": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb033825688d9e37db3a3c57d3",
+      "identityOutcome": "coherent_identity_evidence",
+      "evidenceSummary": "The stored Spotify URL has one exact MusicBrainz artist relationship, followed by compatible exact MusicBrainz and Discogs records with no identifier conflict.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000040",
+      "artistName": "salute",
+      "genre": "dance",
+      "stage": "emerging",
+      "spotifyId": "1np8xozf7ATJZDi9JX8Dx5",
+      "spotifyUrl": "https://open.spotify.com/artist/1np8xozf7ATJZDi9JX8Dx5",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf431bdb80cf96cc5a3926e6c",
+      "identityOutcome": "coherent_identity_with_same_name_ambiguity",
+      "evidenceSummary": "The stored Spotify ID and its exact Wikidata, MusicBrainz, and Discogs relationships remain internally coherent with no identifier conflict. The bounded same-name audit remains a separate ambiguity warning.",
+      "sameNameAmbiguityNote": {
+        "exactDisplayNameEntityCount": 7,
+        "competingEntityCount": 6,
+        "competingEntities": [
+          "Salute (9b8f0b42-aa70-4aa5-b71e-0e07b50f7346)",
+          "Salute (0d74c338-5c80-49a7-b65b-44dd729aadc2)",
+          "Salute (d76d2a81-852e-47f4-804a-b33799746135)",
+          "Salute (6feccf8e-f292-460d-835d-adcf39d43834)",
+          "Salute (9aee0479-2bc1-490d-8c2d-963ece6ef041)",
+          "salute (cdd87543-716c-4309-8e5f-e190976af0bf)"
+        ],
+        "note": "Matching display names are not identity proof; exact-ID agreement remains separate."
+      },
+      "providerProfileMultiplicityNote": null,
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000041",
+      "artistName": "Fred again..",
+      "genre": "dance",
+      "stage": "mainstream",
+      "spotifyId": "4oLeXFyACqeem2VImYeBFe",
+      "spotifyUrl": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebf760292919aee89e58d943d9",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "3807247",
+              "8664813"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000043",
+      "artistName": "KAYTRANADA",
+      "genre": "dance",
+      "stage": "mainstream",
+      "spotifyId": "6qgnBH6iDM91ipVXv28OMu",
+      "spotifyUrl": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "Exact provider records resolve an obsolete MusicBrainz profile to the active entity; compatible Spotify, Discogs, authority, and catalog evidence supports review-only provider-profile multiplicity without establishing verification.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "merged_or_redirected_profile",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "musicbrainz_catalog_overlap:e56aee57-d90e-40cf-a70d-beb70f6f3c69:2012a778-d205-4294-906e-6bbde10df205:126"
+        ],
+        "redirects": [
+          "musicbrainz:2012a778-d205-4294-906e-6bbde10df205->e56aee57-d90e-40cf-a70d-beb70f6f3c69"
+        ],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "musicBrainzArtistId",
+            "observedValues": [
+              "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+              "2012a778-d205-4294-906e-6bbde10df205"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000044",
+      "artistName": "Daft Punk",
+      "genre": "dance",
+      "stage": "legacy",
+      "spotifyId": "4tZwfgrHOc3mvqYlEYSvVi",
+      "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "1289",
+              "7618671"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    },
+    {
+      "proposedMusicRollId": "mr_artist_000045",
+      "artistName": "Donna Summer",
+      "genre": "dance",
+      "stage": "classic",
+      "spotifyId": "2eogQKWWoohI3BSnoG7E2U",
+      "spotifyUrl": "https://open.spotify.com/artist/2eogQKWWoohI3BSnoG7E2U",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb9e708b5a9b76b98301d35123",
+      "identityOutcome": "provider_profile_multiplicity",
+      "evidenceSummary": "The selected exact MusicBrainz entity links the competing Discogs profiles; compatible authority metadata and a positive catalog fingerprint support review-only provider-profile multiplicity with no semantic contradiction observed.",
+      "sameNameAmbiguityNote": null,
+      "providerProfileMultiplicityNote": {
+        "interpretation": "provider_profile_multiplicity",
+        "mechanicallyResolvableForReview": true,
+        "evidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "redirects": [],
+        "preservedCompetingIdentifiers": [
+          {
+            "identifierType": "discogsArtistId",
+            "observedValues": [
+              "6270",
+              "1258632"
+            ]
+          }
+        ],
+        "note": "Multiplicity does not verify identity or grant migration eligibility; all alternate and historical identifiers remain preserved with provenance."
+      },
+      "approvalState": "not_approved",
+      "migrationEligible": false
+    }
+  ],
+  "excludedArtists": [
+    "Elmiene",
+    "Navy Blue",
+    "underscores",
+    "Hotline TNT",
+    "Frankie Knuckles"
+  ],
+  "safety": {
+    "identitiesApproved": 0,
+    "identitiesVerified": 0,
+    "confidenceScoresCalculated": 0,
+    "migrationsPerformed": 0,
+    "migrationEligibilityChanged": false,
+    "liveDirectoryModified": false,
+    "permanentRegistryModified": false,
+    "apiRequests": 0
+  }
+}

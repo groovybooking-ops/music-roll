@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "LSDXOXO",
+    "proposedMusicRollId": "mr_artist_000039",
+    "spotifyArtistId": "2M2blWl1LBN2UoxlJdaug2"
+  },
+  "outcome": "coherent_identity_evidence",
+  "exactSpotifyUrlFallback": {
+    "status": "unique_exact_url_relationship",
+    "selectedMbid": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+    "candidates": [
+      {
+        "musicBrainzArtistId": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+        "name": "LSDXOXO",
+        "sortName": "LSDXOXO",
+        "artistType": "Person",
+        "disambiguation": "RJ Glasgow",
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2M2blWl1LBN2UoxlJdaug2",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5293483",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2M2blWl1LBN2UoxlJdaug2",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q107092612",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5293483",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "5293483"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+      "source": "musicbrainz",
+      "path": "url.exact_spotify_artist_relationship",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "2M2blWl1LBN2UoxlJdaug2",
+      "observedValues": [
+        "2M2blWl1LBN2UoxlJdaug2"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2M2blWl1LBN2UoxlJdaug2",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2M2blWl1LBN2UoxlJdaug2",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q107092612",
+      "observedValues": [
+        "Q107092612"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q107092612",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+      "observedValues": [
+        "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "5293483",
+      "observedValues": [
+        "5293483"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5293483",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5293483",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5293483"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+        "name": "LSDXOXO",
+        "sortName": "LSDXOXO",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "RJ Glasgow",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "2M2blWl1LBN2UoxlJdaug2"
+        ],
+        "discogsArtistIds": [
+          "5293483"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "unique_musicbrainz_exact_spotify_url_relationship",
+    "musicbrainz_derived_discogs:c2710100-a9e9-46e9-bae7-4677333cd0eb->5293483"
+  ],
+  "evidence": {
+    "wikidata": null,
+    "musicBrainzRecords": {
+      "c2710100-a9e9-46e9-bae7-4677333cd0eb": {
+        "artist": {
+          "musicBrainzArtistId": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+          "name": "LSDXOXO",
+          "sortName": "LSDXOXO",
+          "artistType": "Person",
+          "disambiguation": "RJ Glasgow",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+            "name": "Philadelphia",
+            "sortName": "Philadelphia",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1991-06-04",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0004028441"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://lsdxoxo.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5293483"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/10641025"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/LSDXOXO"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://lsdxoxo.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/lsdxoxo"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/lsdxoxo-1"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/lsdxoxo/564495"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/LSDXOXO_"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/lsdxoxo"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1081585297"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7967712"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q107092612"
+            }
+          ]
+        },
+        "raw": {
+          "sort-name": "LSDXOXO",
+          "gender": "Male",
+          "end-area": null,
+          "relations": [
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "url": {
+                "id": "93b9c387-54a8-404c-acd7-50eb83778629",
+                "resource": "https://www.allmusic.com/artist/mn0004028441"
+              },
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "type": "allmusic",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "url": {
+                "id": "e7d54c2a-732f-458a-8ab9-ef04a0367a2d",
+                "resource": "https://lsdxoxo.bandcamp.com/"
+              },
+              "type": "bandcamp",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "end": null,
+              "begin": null,
+              "attribute-ids": {}
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "discogs",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-credit": "",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "url": {
+                "id": "66eb8cb5-4472-4b26-9ea2-623c00864099",
+                "resource": "https://www.discogs.com/artist/5293483"
+              }
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2",
+                "id": "a11cebd7-6202-43e2-bf14-24d2c776f9e5"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "free streaming",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "free streaming",
+              "ended": false,
+              "target-type": "url",
+              "direction": "forward",
+              "url": {
+                "resource": "https://www.deezer.com/artist/10641025",
+                "id": "e23db685-dc75-46ea-85c7-55dfff61fa65"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "last.fm",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "url": {
+                "resource": "https://www.last.fm/music/LSDXOXO",
+                "id": "434d0562-9b32-4bb7-9bb4-a6502996efcf"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "official homepage",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "resource": "http://lsdxoxo.com/",
+                "id": "b08addbd-1f25-4ec6-910f-86fbc3fd62f2"
+              },
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "8a0f312c-e957-4369-a2b9-d13d3a806752",
+                "resource": "https://ra.co/dj/lsdxoxo"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type": "other databases",
+              "begin": null,
+              "attribute-ids": {},
+              "end": null,
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "9b70a47c-cf4a-4cef-8ddf-99fc6a62521d",
+                "resource": "https://rateyourmusic.com/artist/lsdxoxo-1"
+              }
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "purchase for download",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://www.beatport.com/artist/lsdxoxo/564495",
+                "id": "bcc93c64-bbd6-4b49-a63a-f4abcf44fbfb"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "https://twitter.com/LSDXOXO_",
+                "id": "2c4007d2-a4e5-4963-8606-c7ada56a88d9"
+              },
+              "target-credit": "",
+              "attribute-values": {},
+              "attributes": [],
+              "source-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "social network",
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward"
+            },
+            {
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "type": "soundcloud",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "url": {
+                "resource": "https://soundcloud.com/lsdxoxo",
+                "id": "fbf7013c-0e72-4110-ad24-215f816153a1"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": []
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "61b55db0-89e1-4555-8498-3c111f5237dd",
+                "resource": "https://music.apple.com/gb/artist/1081585297"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "ended": false,
+              "direction": "forward",
+              "type": "streaming",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://tidal.com/artist/7967712",
+                "id": "6b312fda-e108-4fbf-89fe-3467df0132c6"
+              },
+              "attributes": [],
+              "source-credit": "",
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "type": "wikidata",
+              "target-type": "url",
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "begin": null,
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "source-credit": "",
+              "attributes": [],
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "url": {
+                "id": "893aac62-f384-4616-832d-4e52edbe0603",
+                "resource": "https://www.wikidata.org/wiki/Q107092612"
+              }
+            }
+          ],
+          "type": "Person",
+          "aliases": [],
+          "isnis": [],
+          "name": "LSDXOXO",
+          "area": {
+            "type-id": null,
+            "sort-name": "United States",
+            "disambiguation": "",
+            "type": null,
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98"
+          },
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "ipis": [],
+          "life-span": {
+            "ended": false,
+            "begin": "1991-06-04",
+            "end": null
+          },
+          "disambiguation": "RJ Glasgow",
+          "begin-area": {
+            "disambiguation": "",
+            "type-id": null,
+            "sort-name": "Philadelphia",
+            "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+            "name": "Philadelphia",
+            "type": null
+          },
+          "id": "c2710100-a9e9-46e9-bae7-4677333cd0eb"
+        }
+      }
+    },
+    "discogsRecords": {
+      "5293483": {
+        "artist": {
+          "discogsArtistId": "5293483",
+          "name": "LSDXOXO",
+          "realName": "Raushaan Glasgow",
+          "profile": "Berlin-based DJ and producer born in Philadelphia, associated with GHE20GOTH1K. He is known for DJ sets that layer pop tracks and vocal samples between Baltimore club, ghetto house, hardcore, electro, and techno. Now running his own club night and label [l2707391].",
+          "artistUrls": [
+            "https://www.lsdxoxo.online",
+            "https://lsdxoxo.bandcamp.com/music",
+            "https://soundcloud.com/lsdxoxo",
+            "https://www.facebook.com/lsdxoxo/",
+            "https://www.instagram.com/lsdxoxo/"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "8965756",
+              "name": "RJ Glasgow"
+            }
+          ],
+          "nameVariations": [
+            "L S D X O X O"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/5293483",
+          "discogsWebUrl": "https://www.discogs.com/artist/5293483-LSDXOXO",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "LSDXOXO",
+          "id": 5293483,
+          "resource_url": "https://api.discogs.com/artists/5293483",
+          "uri": "https://www.discogs.com/artist/5293483-LSDXOXO",
+          "releases_url": "https://api.discogs.com/artists/5293483/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/_GQMH_sNcZKdeEqFCPCM6aqRkMEbnCUoerNu7x05iqU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUyOTM0/ODMtMTYxNzg4MDU5/OC0xMTIxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/_GQMH_sNcZKdeEqFCPCM6aqRkMEbnCUoerNu7x05iqU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUyOTM0/ODMtMTYxNzg4MDU5/OC0xMTIxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/qviMbj5qRQ4bTGyhmWi1lo8cb4kwWHWNM0Q9ADg7WQQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUyOTM0/ODMtMTYxNzg4MDU5/OC0xMTIxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            }
+          ],
+          "realname": "Raushaan Glasgow",
+          "profile": "Berlin-based DJ and producer born in Philadelphia, associated with GHE20GOTH1K. He is known for DJ sets that layer pop tracks and vocal samples between Baltimore club, ghetto house, hardcore, electro, and techno. Now running his own club night and label [l2707391].",
+          "urls": [
+            "https://www.lsdxoxo.online",
+            "https://lsdxoxo.bandcamp.com/music",
+            "https://soundcloud.com/lsdxoxo",
+            "https://www.facebook.com/lsdxoxo/",
+            "https://www.instagram.com/lsdxoxo/"
+          ],
+          "namevariations": [
+            "L S D X O X O"
+          ],
+          "aliases": [
+            {
+              "id": 8965756,
+              "name": "RJ Glasgow",
+              "resource_url": "https://api.discogs.com/artists/8965756"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

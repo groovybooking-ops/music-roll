@@ -1,0 +1,3075 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Madonna",
+    "proposedMusicRollId": "mr_artist_000028",
+    "spotifyArtistId": "6tbjWDEIzxoDsBA1FuhfPW"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6tbjWDEIzxoDsBA1FuhfPW",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6tbjWDEIzxoDsBA1FuhfPW",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6tbjWDEIzxoDsBA1FuhfPW",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6tbjWDEIzxoDsBA1FuhfPW",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q1744",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q1744",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8760",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8760",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3424607",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8760",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3424607",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8760",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6tbjWDEIzxoDsBA1FuhfPW",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q1744",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "8760",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "8760"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6tbjWDEIzxoDsBA1FuhfPW",
+      "observedValues": [
+        "6tbjWDEIzxoDsBA1FuhfPW"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6tbjWDEIzxoDsBA1FuhfPW",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6tbjWDEIzxoDsBA1FuhfPW",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6tbjWDEIzxoDsBA1FuhfPW",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6tbjWDEIzxoDsBA1FuhfPW",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6tbjWDEIzxoDsBA1FuhfPW",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q1744",
+      "observedValues": [
+        "Q1744"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q1744",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q1744",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q1744",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "observedValues": [
+        "79239441-bfd5-4981-a70c-55c3f15c1287"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "79239441-bfd5-4981-a70c-55c3f15c1287",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "8760",
+        "3424607"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8760",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8760",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3424607",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8760",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3424607",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8760",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8760",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "8760"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "8760",
+        "3424607"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 2,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 1,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "3fd13140-6857-489a-9e53-a4e112b8354b",
+        "name": "Madonna",
+        "sortName": "Madonna",
+        "artistType": "Person",
+        "country": "LB",
+        "disambiguation": "Lebanese singer",
+        "score": 64,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "name": "Madonna",
+        "sortName": "Madonna",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "“Queen of Pop”",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "6tbjWDEIzxoDsBA1FuhfPW"
+        ],
+        "discogsArtistIds": [
+          "3424607",
+          "8760"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "3fd13140-6857-489a-9e53-a4e112b8354b",
+        "name": "Madonna",
+        "sortName": "Madonna",
+        "artistType": "Person",
+        "country": "LB",
+        "disambiguation": "Lebanese singer",
+        "score": 64,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+        ],
+        "unresolvedIdentifiers": [
+          "discogs:3424607"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "3424607",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    },
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "6tbjWDEIzxoDsBA1FuhfPW",
+      "wikidataQid": "Q1744",
+      "name": "Madonna",
+      "musicBrainzArtistId": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "discogsArtistId": "8760"
+    },
+    "musicBrainzRecords": {
+      "79239441-bfd5-4981-a70c-55c3f15c1287": {
+        "artist": {
+          "musicBrainzArtistId": "79239441-bfd5-4981-a70c-55c3f15c1287",
+          "name": "Madonna",
+          "sortName": "Madonna",
+          "artistType": "Person",
+          "disambiguation": "“Queen of Pop”",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "903111d9-9dc2-4129-b08a-3cf52bc72757",
+            "name": "Bay City",
+            "sortName": "Bay City",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1958-08-16",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "M. Ciccone",
+              "sortName": "M. Ciccone",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Madonna",
+              "sortName": "Madonna",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Madonna Ciccone-Ritchie",
+              "sortName": "Ciccone-Ritchie, Madonna",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Madonna Louise Ciccone",
+              "sortName": "Ciccone, Madonna Louise",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Madonna Louise Veronica Ciccone",
+              "sortName": "Ciccone, Madonna Louise Veronica",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "マドンナ",
+              "sortName": "マドンナ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            },
+            {
+              "name": "麥當娜",
+              "sortName": "Ciccone, Madonna Louise",
+              "type": "Artist name",
+              "locale": "zh_Hant",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "000000010782262X"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000237205"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/205"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/79239441-bfd5-4981-a70c-55c3f15c1287"
+            },
+            {
+              "relationshipType": "blog",
+              "url": "https://madonna.tumblr.com/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://www.madonnadiscography.pl/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://www.madonnarecords.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/3424607"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/8760"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.mad-eyes.net/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.madonnalicious.com/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://www.minsane.com.br/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://allaboutmadonna.com/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://madonnaonline.com.br/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/1813"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://play.anghami.com/artist/5440"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/1938796"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/267273392"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/290"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Madonna_%C3%A0_Nice_17_edit.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0000187/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Madonna"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-3752/madonna/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Madonna"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Madonna"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/madonna"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.madonna.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/0273fb3d-de02-4c17-8f6e-e25eef1b82ae"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://castalbums.org/people/Madonna/1357"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n84156128"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/M/Madonna/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://mvdbase.com/person.php?id=A5818"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb138969311"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/118829688"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ibdb.com/person.php?id=79979"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PCjtQfBBhwj8dFm69kgjJMq"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/madonna"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://snaccooperative.org/ark:/99166/w6474sn1"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://nla.gov.au/nla.party-1046959"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://openlibrary.org/works/OL505000A"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://soundtrackcollector.com/composer/3583/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/madonna"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/artist/madonna"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/028039637"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/madonna/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000023349/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/3125"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Madonna/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.maniadb.com/artist/126093"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.rolldabeats.com/artist/madonna"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-n84156128/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Abb3tou6uammwnhty26gem7kw34"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id20044"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/61259/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/38897"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://us.7digital.com/artist/madonna"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/_/161098"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/madonna/161098"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Madonna/releases/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/jp/artist/id20044"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.amazon.com/-/e/B000APIQE2"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/84"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/madonna-bd6bdbe.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://plus.google.com/+Madonna"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://superrare.com/madonna"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/Madonna"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/madonna"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/madonna/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@madonna"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.weibo.com/Madonnaofficial"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "http://www.flickr.com/photos/madonnaphotos/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/363507"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/madonna"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/madonna"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001Q5CK1K"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/fr/artist/20044"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/20044"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/20044"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/38897"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/15545"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.ticketmaster.com/artist/768011"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/59270244"
+            },
+            {
+              "relationshipType": "video channel",
+              "url": "https://www.dailymotion.com/madonna"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q1744"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC81VD6eeuLLSfyY_D-N8sVw"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCmQmc-Y4N9btVMUS1BfnyDw"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCo4CrqhIV_tSOGdDWfVyCsg"
+            }
+          ]
+        },
+        "raw": {
+          "type": "Person",
+          "disambiguation": "“Queen of Pop”",
+          "ipis": [
+            "00125053706",
+            "00128246872",
+            "00211854787"
+          ],
+          "gender": "Female",
+          "country": "US",
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna",
+          "isnis": [
+            "000000010782262X"
+          ],
+          "aliases": [
+            {
+              "type": "Search hint",
+              "primary": null,
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "begin": null,
+              "ended": false,
+              "locale": null,
+              "name": "M. Ciccone",
+              "end": null,
+              "sort-name": "M. Ciccone"
+            },
+            {
+              "name": "Madonna",
+              "end": null,
+              "locale": null,
+              "sort-name": "Madonna",
+              "type-id": null,
+              "primary": null,
+              "type": null,
+              "begin": null,
+              "ended": false
+            },
+            {
+              "primary": null,
+              "type-id": null,
+              "type": null,
+              "begin": null,
+              "ended": false,
+              "name": "Madonna Ciccone-Ritchie",
+              "end": null,
+              "locale": null,
+              "sort-name": "Ciccone-Ritchie, Madonna"
+            },
+            {
+              "type": "Legal name",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "primary": null,
+              "ended": false,
+              "begin": null,
+              "locale": null,
+              "name": "Madonna Louise Ciccone",
+              "end": null,
+              "sort-name": "Ciccone, Madonna Louise"
+            },
+            {
+              "sort-name": "Ciccone, Madonna Louise Veronica",
+              "name": "Madonna Louise Veronica Ciccone",
+              "end": null,
+              "locale": null,
+              "ended": false,
+              "begin": null,
+              "primary": null,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "type": "Legal name"
+            },
+            {
+              "sort-name": "マドンナ",
+              "end": null,
+              "name": "マドンナ",
+              "locale": "ja",
+              "begin": null,
+              "ended": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name"
+            },
+            {
+              "begin": null,
+              "ended": false,
+              "type": "Artist name",
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "sort-name": "Ciccone, Madonna Louise",
+              "locale": "zh_Hant",
+              "name": "麥當娜",
+              "end": null
+            }
+          ],
+          "begin-area": {
+            "sort-name": "Bay City",
+            "id": "903111d9-9dc2-4129-b08a-3cf52bc72757",
+            "type": null,
+            "disambiguation": "",
+            "type-id": null,
+            "name": "Bay City"
+          },
+          "sort-name": "Madonna",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "life-span": {
+            "begin": "1958-08-16",
+            "ended": false,
+            "end": null
+          },
+          "relations": [
+            {
+              "type": "allmusic",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "url": {
+                "id": "9a354289-a9d6-4479-9794-91b5d9fd6c8d",
+                "resource": "https://www.allmusic.com/artist/mn0000237205"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": []
+            },
+            {
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.bandsintown.com/a/205",
+                "id": "0379576d-ab13-42db-a2bc-cfe8ad6eb988"
+              },
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "source-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "type": "bandsintown",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "type": "BBC Music page",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": "2020-11-19",
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+              "url": {
+                "resource": "https://www.bbc.co.uk/music/artists/79239441-bfd5-4981-a70c-55c3f15c1287",
+                "id": "2572cbf9-1cbd-4cb1-bbb4-05f688e6bc7e"
+              }
+            },
+            {
+              "type": "blog",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {},
+              "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+              "url": {
+                "resource": "https://madonna.tumblr.com/",
+                "id": "f0427135-e959-40c1-961b-263c07f9558b"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": []
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "url": {
+                "resource": "http://www.madonnadiscography.pl/",
+                "id": "d1406f15-a8b2-4f00-8058-a011f87df2a5"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "discography page",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+              "url": {
+                "resource": "http://www.madonnarecords.com/",
+                "id": "48239353-75ed-4535-a1c1-a399bb8af157"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "discography page",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "0515f4cb-bfa2-4a38-b243-bc7b239c4235",
+                "resource": "https://www.discogs.com/artist/3424607"
+              },
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "source-credit": "Madonna Louise Ciccone",
+              "begin": null,
+              "attribute-ids": {},
+              "type": "discogs",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "begin": null,
+              "source-credit": "",
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "url": {
+                "resource": "https://www.discogs.com/artist/8760",
+                "id": "9e61bad9-4c91-4aee-b84e-86efbc62bfd2"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "discogs",
+              "attribute-ids": {}
+            },
+            {
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "resource": "http://www.mad-eyes.net/",
+                "id": "5de76555-5cca-4467-aada-2b9fde0138ad"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "type": "fanpage",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {}
+            },
+            {
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "resource": "http://www.madonnalicious.com/",
+                "id": "3060b9df-4170-4500-8bfc-aeec12b5d10a"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type": "fanpage",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {}
+            },
+            {
+              "begin": null,
+              "source-credit": "",
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "resource": "http://www.minsane.com.br/",
+                "id": "df7e01a5-f850-40af-8dde-d7ed80db8204"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "fanpage",
+              "attribute-ids": {}
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "id": "1f9920ee-3dbd-4d14-8b4d-f5aac1813bb3",
+                "resource": "http://allaboutmadonna.com/"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "fanpage",
+              "target-credit": "",
+              "ended": true,
+              "attribute-values": {}
+            },
+            {
+              "attribute-ids": {},
+              "type": "fanpage",
+              "ended": true,
+              "attribute-values": {},
+              "target-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "url": {
+                "id": "d7bc43ea-bbc3-4155-8a06-3fd20a9b0a5e",
+                "resource": "http://madonnaonline.com.br/"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "source-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://music.yandex.com/artist/1813",
+                "id": "d0eb98ca-e9f5-4657-86c9-3b97e1641b03"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "free streaming",
+              "attribute-ids": {}
+            },
+            {
+              "attribute-ids": {},
+              "type": "free streaming",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "resource": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+                "id": "8011b3fc-06ce-495c-9c84-65d892fafd4e"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "type": "free streaming",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "id": "7b728685-15cf-4b64-9994-487ce31f22d0",
+                "resource": "https://play.anghami.com/artist/5440"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "free streaming",
+              "attribute-ids": {},
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "8e5f4a93-fa23-417f-ad90-787f7dc95dac",
+                "resource": "https://www.boomplay.com/artists/1938796"
+              },
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attributes": [],
+              "end": null,
+              "target-type": "url",
+              "direction": "forward"
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://www.deezer.com/artist/267273392",
+                "id": "b1eb7627-f3f0-4c8b-81e6-b2b393ce4d6c"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "free streaming",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "attribute-ids": {},
+              "type": "free streaming",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "url": {
+                "resource": "https://www.deezer.com/artist/290",
+                "id": "94547937-6dc1-40d4-8341-829ba789a36f"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "type": "image",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "url": {
+                "id": "d673957a-c98a-436d-835e-42cd2843c165",
+                "resource": "https://commons.wikimedia.org/wiki/File:Madonna_%C3%A0_Nice_17_edit.jpg"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "attributes": [],
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "begin": null,
+              "source-credit": "",
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "url": {
+                "resource": "https://www.imdb.com/name/nm0000187/",
+                "id": "d3055ea0-01dd-4193-b4b2-7fac79a27318"
+              },
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "IMDb"
+            },
+            {
+              "url": {
+                "resource": "https://www.last.fm/music/Madonna",
+                "id": "b87cd447-8c20-48e8-a33c-4878f69049e3"
+              },
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "type": "last.fm",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "lyrics",
+              "attribute-ids": {},
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "http://muzikum.eu/en/122-3752/madonna/lyrics.html",
+                "id": "6d718ec8-2978-4ba4-a33c-9036943ef927"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward"
+            },
+            {
+              "attribute-ids": {},
+              "type": "lyrics",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "2b21d805-959f-4c08-b9f4-69690a31b36b",
+                "resource": "https://genius.com/artists/Madonna"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "lyrics",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.musixmatch.com/artist/Madonna",
+                "id": "bf7b2d8a-1ee2-4eb6-a914-c51794347d45"
+              },
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+            },
+            {
+              "begin": null,
+              "source-credit": "",
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "url": {
+                "id": "a28cc02f-79f9-4955-b5e5-08b804fe8d82",
+                "resource": "https://myspace.com/madonna"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "myspace",
+              "attribute-ids": {}
+            },
+            {
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "official homepage",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "url": {
+                "id": "b663423b-9b54-4067-9674-fffaecf68851",
+                "resource": "http://www.madonna.com/"
+              }
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": true,
+              "type": "other databases",
+              "attributes": [],
+              "end": "2025-12-17",
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "907fe7b1-0c93-41d3-8738-2202a6b68936",
+                "resource": "https://jaxsta.com/profile/0273fb3d-de02-4c17-8f6e-e25eef1b82ae"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "65e2c696-8225-42a6-b9bb-392cdc3423a8",
+                "resource": "http://castalbums.org/people/Madonna/1357"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "other databases",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "other databases",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "http://id.loc.gov/authorities/names/n84156128",
+                "id": "2ea16c9b-e024-4bca-9c62-a0fb82159ed7"
+              }
+            },
+            {
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "http://musicmoz.org/Bands_and_Artists/M/Madonna/",
+                "id": "d4239af4-6b2b-430c-8b15-4e4a6a924114"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "other databases",
+              "attribute-ids": {}
+            },
+            {
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "http://mvdbase.com/person.php?id=A5818",
+                "id": "d0151907-8a61-42f4-bc68-b4f4b84f8cdb"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "other databases",
+              "attribute-ids": {}
+            },
+            {
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb138969311",
+                "id": "1eb58e87-023a-4c92-949b-9ea3c7f6dd1f"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "other databases",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "https://d-nb.info/gnd/118829688",
+                "id": "0d9f058e-a05d-4317-8fad-e397868be7fc"
+              }
+            },
+            {
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "other databases",
+              "attributes": [],
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "b7a98754-e214-4ec4-89ac-fde395dd813a",
+                "resource": "https://ibdb.com/person.php?id=79979"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "url": {
+                "id": "ca59f596-51f0-4e20-894e-3fea72be52b4",
+                "resource": "https://id.oclc.org/worldcat/entity/E39PCjtQfBBhwj8dFm69kgjJMq"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attributes": [],
+              "type": "other databases",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "https://imvdb.com/n/madonna",
+                "id": "fbda9f49-635f-4d12-a981-18ff197c5fe3"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type": "other databases",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "url": {
+                "id": "247d7ab2-7d58-4f6f-83e9-1df3bd4f680c",
+                "resource": "http://snaccooperative.org/ark:/99166/w6474sn1"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "type": "other databases",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "other databases",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "89b1b20d-227b-450e-bd59-4eeb6d677ae1",
+                "resource": "https://nla.gov.au/nla.party-1046959"
+              }
+            },
+            {
+              "url": {
+                "id": "b2997a9c-cb97-4a9a-a90f-edadd085c733",
+                "resource": "https://openlibrary.org/works/OL505000A"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "type": "other databases",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "attribute-ids": {}
+            },
+            {
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "other databases",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "http://soundtrackcollector.com/composer/3583/",
+                "id": "1e6d6c25-93c5-499a-8a15-e9f995d286d3"
+              }
+            },
+            {
+              "attribute-ids": {},
+              "type": "other databases",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "6d4e20d2-5089-46e6-97fe-fad3a6644c44",
+                "resource": "https://rateyourmusic.com/artist/madonna"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "other databases",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "a569137b-9594-4896-8d3b-7125d35b8d63",
+                "resource": "https://www.45cat.com/artist/madonna"
+              }
+            },
+            {
+              "attribute-ids": {},
+              "type": "other databases",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "id": "ee041aa9-9c5b-4f08-9713-39c96280f3f7",
+                "resource": "https://www.idref.fr/028039637"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "attribute-ids": {},
+              "type": "other databases",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "6dedc872-6e67-4fdc-8026-e5c09cacdb03",
+                "resource": "https://www.musik-sammler.de/artist/madonna/"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.muziekweb.nl/Link/M00000023349/POPULAR/",
+                "id": "30e982e2-b345-4c46-8d64-b56f7e7e1ac9"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "other databases"
+            },
+            {
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "c827942d-9908-4ee6-84ae-5f735c072ee7",
+                "resource": "https://www.themoviedb.org/person/3125"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "other databases"
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "other databases",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "https://www.whosampled.com/Madonna/",
+                "id": "865e9fff-fbd3-4080-8f87-617ce25acfc3"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null
+            },
+            {
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "79135a64-04cb-43ab-8925-70ee0a193979",
+                "resource": "http://www.maniadb.com/artist/126093"
+              },
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "other databases"
+            },
+            {
+              "begin": null,
+              "source-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "http://www.rolldabeats.com/artist/madonna",
+                "id": "38e2e8de-f3d9-49c4-a9e9-167b05bd7aab"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "other databases",
+              "attribute-ids": {}
+            },
+            {
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "url": {
+                "resource": "https://www.worldcat.org/identities/lccn-n84156128/",
+                "id": "c146d136-811f-4d5f-a049-d4f9036ea950"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-credit": "",
+              "ended": true,
+              "attribute-values": {}
+            },
+            {
+              "target-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://play.google.com/store/music/artist?id=Abb3tou6uammwnhty26gem7kw34",
+                "id": "01f3eb9c-e483-430b-8e9b-2346332817b1"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": "2020-10-12"
+            },
+            {
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "bf5581f1-4b1f-42b7-9536-a3e8d550347b",
+                "resource": "https://itunes.apple.com/us/artist/id20044"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "purchase for download"
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://mora.jp/artist/61259/",
+                "id": "41216bbc-1ea3-412d-b115-ae5a154bfeac"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "end": null,
+              "target-type": "url",
+              "direction": "forward"
+            },
+            {
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "id": "997df9d2-106b-4b89-8ebd-4cc74bfbeb6f",
+                "resource": "https://open.qobuz.com/artist/38897"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "bead36a0-3312-4eca-bc36-fe744210bcf7",
+                "resource": "https://us.7digital.com/artist/madonna"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "purchase for download",
+              "attribute-ids": {}
+            },
+            {
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "resource": "https://www.beatport.com/artist/_/161098",
+                "id": "d656bd38-1237-4611-91af-a3c7e03c0c6d"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null
+            },
+            {
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "url": {
+                "id": "6b8dda4a-3934-42a2-93ad-9b5dd1c7c139",
+                "resource": "https://www.beatport.com/artist/madonna/161098"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null
+            },
+            {
+              "type": "purchase for download",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.junodownload.com/artists/Madonna/releases/",
+                "id": "80728b36-d156-4409-965a-16ea56140c4a"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": []
+            },
+            {
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "attribute-values": {},
+              "ended": true,
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "resource": "https://itunes.apple.com/jp/artist/id20044",
+                "id": "9dab5e52-d9a4-4f7d-9573-4488c1b0688d"
+              },
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "type": "purchase for mail-order",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {},
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "url": {
+                "id": "3b89a8ae-f37f-4cb4-8c2d-45afa1b78576",
+                "resource": "https://www.amazon.com/-/e/B000APIQE2"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": []
+            },
+            {
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "secondhandsongs",
+              "attribute-ids": {},
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://secondhandsongs.com/artist/84",
+                "id": "35d5fd9c-62ed-473c-a08c-719c92ada313"
+              },
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward"
+            },
+            {
+              "attribute-ids": {},
+              "type": "setlistfm",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.setlist.fm/setlists/madonna-bd6bdbe.html",
+                "id": "6667f272-20d0-44b4-8982-3b3c115961c6"
+              },
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "source-credit": "",
+              "begin": null
+            },
+            {
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "https://plus.google.com/+Madonna",
+                "id": "4f4068cb-7001-47a3-a2fe-9146eb6b5d16"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": "2019-04",
+              "attributes": [],
+              "type": "social network",
+              "ended": true,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {}
+            },
+            {
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "e80d158f-9322-4a53-a8dc-77f63756613a",
+                "resource": "https://superrare.com/madonna"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "source-credit": "",
+              "begin": null,
+              "attribute-ids": {},
+              "type": "social network",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false
+            },
+            {
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "social network",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "a59f0a2a-81d2-4413-a4a1-8b03c9db7e0d",
+                "resource": "https://twitter.com/Madonna"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "end": null,
+              "target-type": "url"
+            },
+            {
+              "type": "social network",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.facebook.com/madonna",
+                "id": "1dc9e14d-ebfb-448c-a005-e3481d320595"
+              },
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": []
+            },
+            {
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "social network",
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "42987627-b3ca-4ff6-887d-4ffd430b0a09",
+                "resource": "https://www.instagram.com/madonna/"
+              }
+            },
+            {
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "id": "64123184-99ec-4c0d-91cf-046897c599eb",
+                "resource": "https://www.tiktok.com/@madonna"
+              },
+              "attribute-ids": {},
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "social network"
+            },
+            {
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "social network",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "https://www.weibo.com/Madonnaofficial",
+                "id": "d8e4cb67-68b3-41c9-8d0a-dd086c197d99"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "end": null,
+              "target-type": "url"
+            },
+            {
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "begin": null,
+              "source-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "url": {
+                "resource": "http://www.flickr.com/photos/madonnaphotos/",
+                "id": "8f832ffa-4f4e-4787-80c4-1ed7007baecd"
+              },
+              "attribute-ids": {},
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "type": "social network"
+            },
+            {
+              "type": "songkick",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.songkick.com/artists/363507",
+                "id": "74572b1b-95ee-4e7e-b0cf-80722f4b25e5"
+              },
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "source-credit": "",
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attributes": []
+            },
+            {
+              "attribute-ids": {},
+              "type": "soundcloud",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "direction": "forward",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "url": {
+                "resource": "https://soundcloud.com/madonna",
+                "id": "a63ac985-4c03-4ec7-bb57-a79723f54eba"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "0ce1624a-b654-407e-8d4f-ba965b3def0d",
+                "resource": "https://us.napster.com/artist/madonna"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "end": "2022-06-08",
+              "target-type": "url",
+              "attributes": [],
+              "type": "streaming",
+              "target-credit": "",
+              "ended": true,
+              "attribute-values": {},
+              "attribute-ids": {}
+            },
+            {
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://music.amazon.com/artists/B001Q5CK1K",
+                "id": "cf192b6e-0495-464e-a60f-8072eb5dd28f"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "streaming",
+              "attribute-ids": {}
+            },
+            {
+              "type": "streaming",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://music.apple.com/fr/artist/20044",
+                "id": "1251a6e4-8cb0-4dca-9b1f-fe13c1dae4cc"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "source-credit": "",
+              "begin": null,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": []
+            },
+            {
+              "attribute-ids": {},
+              "type": "streaming",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "046e2f3d-f299-4acb-af92-c3c45eae42b2",
+                "resource": "https://music.apple.com/gb/artist/20044"
+              },
+              "begin": null,
+              "source-credit": ""
+            },
+            {
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "resource": "https://music.apple.com/us/artist/20044",
+                "id": "bbfef08f-8916-42de-a684-9302c8db6ddc"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type": "streaming",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "attribute-ids": {}
+            },
+            {
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "url": {
+                "id": "997df9d2-106b-4b89-8ebd-4cc74bfbeb6f",
+                "resource": "https://open.qobuz.com/artist/38897"
+              },
+              "begin": null,
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming",
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {}
+            },
+            {
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://tidal.com/artist/15545",
+                "id": "48d69fee-354a-4cf7-940a-7c3fd57488e0"
+              },
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attribute-values": {},
+              "ended": false,
+              "target-credit": "",
+              "type": "streaming",
+              "attribute-ids": {}
+            },
+            {
+              "type": "ticketing",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "attribute-ids": {},
+              "url": {
+                "id": "5d43ad57-a49a-46b6-b6e5-92452dc89254",
+                "resource": "https://www.ticketmaster.com/artist/768011"
+              },
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "source-credit": "",
+              "begin": null,
+              "end": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attributes": []
+            },
+            {
+              "target-credit": "",
+              "ended": false,
+              "attribute-values": {},
+              "type": "VIAF",
+              "attribute-ids": {},
+              "begin": null,
+              "source-credit": "",
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "url": {
+                "resource": "http://viaf.org/viaf/59270244",
+                "id": "e9d050d3-62cd-4a9f-9801-be6eef061666"
+              },
+              "attributes": [],
+              "direction": "forward",
+              "target-type": "url",
+              "end": null
+            },
+            {
+              "attribute-ids": {},
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "video channel",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "id": "b483aa0c-cf8c-4776-b8bf-9aed79e1fb8b",
+                "resource": "https://www.dailymotion.com/madonna"
+              },
+              "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b"
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "wikidata",
+              "attribute-ids": {},
+              "source-credit": "",
+              "begin": null,
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q1744",
+                "id": "92d3c5ea-489e-4a58-95ea-d6c514a923ab"
+              },
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward"
+            },
+            {
+              "attribute-ids": {},
+              "type": "youtube",
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "target-type": "url",
+              "end": null,
+              "direction": "forward",
+              "attributes": [],
+              "url": {
+                "id": "404df6cb-5c51-4d9b-8d45-43a9995112b4",
+                "resource": "https://www.youtube.com/channel/UC81VD6eeuLLSfyY_D-N8sVw"
+              },
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "source-credit": "Madonna",
+              "begin": null
+            },
+            {
+              "target-credit": "",
+              "attribute-values": {},
+              "ended": false,
+              "type": "youtube",
+              "attribute-ids": {},
+              "source-credit": "MADONNAVEVO",
+              "begin": null,
+              "url": {
+                "id": "b2b2461d-9bdb-43ab-a2aa-1a0f2c0ed21f",
+                "resource": "https://www.youtube.com/channel/UCmQmc-Y4N9btVMUS1BfnyDw"
+              },
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "direction": "forward"
+            },
+            {
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "url": {
+                "resource": "https://music.youtube.com/channel/UCo4CrqhIV_tSOGdDWfVyCsg",
+                "id": "258f562b-7bfe-41d9-9eb8-2e32265e2bbc"
+              },
+              "begin": null,
+              "source-credit": "",
+              "direction": "forward",
+              "target-type": "url",
+              "end": null,
+              "attributes": [],
+              "type": "youtube music",
+              "ended": false,
+              "attribute-values": {},
+              "target-credit": "",
+              "attribute-ids": {}
+            }
+          ],
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "type": null,
+            "disambiguation": ""
+          },
+          "end-area": null,
+          "id": "79239441-bfd5-4981-a70c-55c3f15c1287"
+        }
+      }
+    },
+    "discogsRecords": {
+      "8760": {
+        "artist": {
+          "discogsArtistId": "8760",
+          "name": "Madonna",
+          "realName": "Madonna Louise Veronica Ciccone",
+          "profile": "American singer, entertainer, songwriter, actress, producer, director and businesswoman born August 16, 1958 in Bay City, Michigan. After performing in the music groups [a=Breakfast Club] and [url=https://www.discogs.com/artist/Emmy+(7)]Emmy[/url], she signed with [l=Sire] in 1982 and released her debut album \"[m=5319]\" the following year.\r\nShe subsequently released a series of commercially successful albums, has sold more than 400 million records worldwide, and is recognized by Guinness World Records as the best-selling female recording artist of all time. Madonna has been honorifically dubbed — and is widely recognized as — “the Queen of Pop.”\r\nShe was inducted into the Rock and Roll Hall of Fame in her first year of eligibility. She was also ranked number one on VH1’s 100 Greatest Women in Music list and number two on Billboard’s Greatest Hot 100 Artists of All Time (behind only the Beatles), making her the most successful solo artist in the history of the American singles chart.",
+          "artistUrls": [
+            "http://www.madonna.com",
+            "http://www.allmusic.com/artist/madonna-mn0000237205",
+            "http://www.dailymotion.com/madonnaofficial",
+            "http://www.facebook.com/madonna",
+            "http://www.flickr.com/photos/madonnaphotos",
+            "http://www.imdb.com/name/nm0000187",
+            "http://www.instagram.com/madonna",
+            "http://linktr.ee/madonna",
+            "http://www.snapchat.com/@madonna",
+            "http://soundcloud.com/madonna",
+            "http://www.tiktok.com/@madonna",
+            "http://en.wikipedia.org/wiki/Madonna",
+            "http://x.com/Madonna",
+            "http://www.youtube.com/@madonna"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "3250793",
+              "name": "Lulu Smith"
+            },
+            {
+              "discogsArtistId": "3424607",
+              "name": "Madonna Louise Ciccone"
+            },
+            {
+              "discogsArtistId": "12127411",
+              "name": "Madonna Ritchie"
+            }
+          ],
+          "nameVariations": [
+            "Ciccone Madona",
+            "Donna",
+            "M",
+            "MAD ON HER 2",
+            "MDNA",
+            "Mad",
+            "Mad-Donna",
+            "MadDonna",
+            "Mada",
+            "Madana",
+            "Maddona",
+            "Madna",
+            "Madnna",
+            "Madona",
+            "Madonna '86",
+            "Madonnan",
+            "Madonne",
+            "Madoona",
+            "Modonna",
+            "Queen Of Pop - 瑪丹娜",
+            "Мадона",
+            "Мадонна",
+            "מדונה",
+            "マドンナ",
+            "世紀女皇瑪丹娜",
+            "瑪丹娜",
+            "麥丹娜",
+            "麥當娜",
+            "麦当娜",
+            "마돈나"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/8760",
+          "discogsWebUrl": "https://www.discogs.com/artist/8760-Madonna",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Madonna",
+          "id": 8760,
+          "resource_url": "https://api.discogs.com/artists/8760",
+          "uri": "https://www.discogs.com/artist/8760-Madonna",
+          "releases_url": "https://api.discogs.com/artists/8760/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/y_Xa8yXxTzJK5m02o6-w0Gi-xdJ-xb0KnSN8KkWGGY8/rs:fit/g:sm/q:90/h:770/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA4My04/ODg0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/y_Xa8yXxTzJK5m02o6-w0Gi-xdJ-xb0KnSN8KkWGGY8/rs:fit/g:sm/q:90/h:770/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA4My04/ODg0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Xtyd0INXB1Ney10rzfqYYev5rUEwNm5jVaD37G2ozEE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA4My04/ODg0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 770
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/mQmp_qSqMyPGFXmvJproEIbTTxc0s-ZzGDp2OixRNuM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5NTY0Ny0y/MDUyLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/mQmp_qSqMyPGFXmvJproEIbTTxc0s-ZzGDp2OixRNuM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5NTY0Ny0y/MDUyLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/wOorpC05oa4YqsSXO_LbHS3r8KkIo0qJqiVxtLKNqj8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5NTY0Ny0y/MDUyLnBuZw.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Cw5WvMoU5jmbVNncHcNjiW1Xkw39fiRqtmmg0UT8pbg/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg3NDMxNi05/ODE4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Cw5WvMoU5jmbVNncHcNjiW1Xkw39fiRqtmmg0UT8pbg/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg3NDMxNi05/ODE4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/losndjOfI5_Jh-WoqU2pHPJMShnDDalvs1fishKHARI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg3NDMxNi05/ODE4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/oDDND_d9CpVDVTmYlHOm6APOovzGHzz_VprKrZdyAXk/rs:fit/g:sm/q:90/h:892/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjM4Ny05/MDM4LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/oDDND_d9CpVDVTmYlHOm6APOovzGHzz_VprKrZdyAXk/rs:fit/g:sm/q:90/h:892/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjM4Ny05/MDM4LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/FOGIz2I5SXfJErswwEXaZGe3YaERyp2WzTQYT2c_xtc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjM4Ny05/MDM4LnBuZw.jpeg",
+              "width": 600,
+              "height": 892
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/rQWaUS_vGbQBisae2CpDcTSIX8jysSmsfSdnK7BhQdc/rs:fit/g:sm/q:90/h:617/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA4NTI5My02/MDMyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/rQWaUS_vGbQBisae2CpDcTSIX8jysSmsfSdnK7BhQdc/rs:fit/g:sm/q:90/h:617/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA4NTI5My02/MDMyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/UYMdBBMQG6tGo9CC5aZlvW7wExxxr8povrEERiebUfU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA4NTI5My02/MDMyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 617
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/6NmXNexOFfnOaN8HRMki8KhfV6sEPxgdxQt1yRlyKLo/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5ODgzOC0y/OTQxLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/6NmXNexOFfnOaN8HRMki8KhfV6sEPxgdxQt1yRlyKLo/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5ODgzOC0y/OTQxLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/axK7XPbFyCsnVBYdtX-L5zhmSLO36l0mbd1vyuwWqro/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5ODgzOC0y/OTQxLnBuZw.jpeg",
+              "width": 600,
+              "height": 800
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/4ThOUhRJfAqFRNQJpfWelvxlHrmW6xGf-f-jfTHlNbY/rs:fit/g:sm/q:90/h:868/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjkwMDQ1MS00/MjQyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/4ThOUhRJfAqFRNQJpfWelvxlHrmW6xGf-f-jfTHlNbY/rs:fit/g:sm/q:90/h:868/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjkwMDQ1MS00/MjQyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/sdVmeDTwmBKWWIVnUBXofI2bUxbYnvkz--y-Yn1tD3o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjkwMDQ1MS00/MjQyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 868
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ZAIiOfTdqoUk6MkyOViJEiyRV_2ix64rfjOTajTUAUg/rs:fit/g:sm/q:90/h:630/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3OS04/MTU0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/ZAIiOfTdqoUk6MkyOViJEiyRV_2ix64rfjOTajTUAUg/rs:fit/g:sm/q:90/h:630/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3OS04/MTU0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/tHW9b6paYfxxhAM3ogY5m0odGIFnbmR06jFOIVqUJoE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3OS04/MTU0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 630
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/-6-NsesiS3xcACkO4qd_jmXpM9XeVSY0XTpWhsSx29Y/rs:fit/g:sm/q:90/h:930/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Njk3MS01/MTY3LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/-6-NsesiS3xcACkO4qd_jmXpM9XeVSY0XTpWhsSx29Y/rs:fit/g:sm/q:90/h:930/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Njk3MS01/MTY3LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/_kOl01Bh-PZuHs6gZE0yEkp4MQ8i3lDJv0UZVkya_5s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Njk3MS01/MTY3LnBuZw.jpeg",
+              "width": 600,
+              "height": 930
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/WE-XsF2_FZQjaAeMuUF9SH9qFVavX4P1b-9k4dFic-Q/rs:fit/g:sm/q:90/h:713/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg5NDE3Mi0z/NTIxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/WE-XsF2_FZQjaAeMuUF9SH9qFVavX4P1b-9k4dFic-Q/rs:fit/g:sm/q:90/h:713/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg5NDE3Mi0z/NTIxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/_8cVNDW26IFOCN9v8Q80XDhVPew196hA3XKx7o1pieo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg5NDE3Mi0z/NTIxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 713
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/5VhhVfU4knZOq56Guk0vcTCy0OYKdtEtuBAfOTjab98/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgxOTk2Mi01/MjE4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/5VhhVfU4knZOq56Guk0vcTCy0OYKdtEtuBAfOTjab98/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgxOTk2Mi01/MjE4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/DO8N6tBbTMTh4LJnXXMhatcsiUkBCYjaAzrHZ2U2lz8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgxOTk2Mi01/MjE4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 597
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/LZeLbNc4tQh-QZoXkttNsiQ-RNFigrhkoFGHCIEv3-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5Nzc2Ny00/ODY1LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/LZeLbNc4tQh-QZoXkttNsiQ-RNFigrhkoFGHCIEv3-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5Nzc2Ny00/ODY1LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/tjaPUp3k9gjSAPDmrxQNWEdOZyc7S_5R-nf9og92Tdc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzg5Nzc2Ny00/ODY1LnBuZw.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/a3mSv8nwSxDer_UBgye-bRjHsty1TCaiZz77neXTqJ4/rs:fit/g:sm/q:90/h:600/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgyMDM3MC0z/MzM5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/a3mSv8nwSxDer_UBgye-bRjHsty1TCaiZz77neXTqJ4/rs:fit/g:sm/q:90/h:600/w:461/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgyMDM3MC0z/MzM5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/KC-lqqL9uItxRzKxyee8Ap4hCH4I3ItkS9_3b4vnUSY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTQyNTgyMDM3MC0z/MzM5LmpwZWc.jpeg",
+              "width": 461,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/wLsXJFQ1xpboj25jBD3MMRhJ8SzO94MPs_9doStYrHg/rs:fit/g:sm/q:90/h:575/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk5OS00/NTAyLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/wLsXJFQ1xpboj25jBD3MMRhJ8SzO94MPs_9doStYrHg/rs:fit/g:sm/q:90/h:575/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk5OS00/NTAyLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/3ylwnEMWCD8evPhSL9eSV4RI3JlQ6JJJWBzvHV89BtI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk5OS00/NTAyLnBuZw.jpeg",
+              "width": 600,
+              "height": 575
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/p-uvudFIWQXMxCvBLFRlb3HTxb6pK1AEcSSfETCV7gU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQzOS0z/OTY1LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/p-uvudFIWQXMxCvBLFRlb3HTxb6pK1AEcSSfETCV7gU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQzOS0z/OTY1LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/rFQ2MN6YBc4QJsJpdXjrJr5Mf492PrHr_mZ6CiQlhiw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQzOS0z/OTY1LnBuZw.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/CghOWIXh2RnRuXiL1h_aHUDTHiuOEUZdiGeEVRLM8Lg/rs:fit/g:sm/q:90/h:781/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA2MzQ3MC00/MTYyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/CghOWIXh2RnRuXiL1h_aHUDTHiuOEUZdiGeEVRLM8Lg/rs:fit/g:sm/q:90/h:781/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA2MzQ3MC00/MTYyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/tp2KXgiNvAZNt7j6viJWz39izuVjC7hlnZe2UR3HYig/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA2MzQ3MC00/MTYyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 781
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/w4IZqHgv_hZvJB7g3K_aECtV0UDQrEPf9MiuGl0KGAU/rs:fit/g:sm/q:90/h:893/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc0NjA4ODc4My02/MjkwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/w4IZqHgv_hZvJB7g3K_aECtV0UDQrEPf9MiuGl0KGAU/rs:fit/g:sm/q:90/h:893/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc0NjA4ODc4My02/MjkwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/pFK7fDTTLN83Q6u7Poy6WVyqPuQw6IH8i44PFSBQI3Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc0NjA4ODc4My02/MjkwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 893
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/qsspUapHj_wtknHWT73n0I6IYyk2Tk17FNheGan7zoM/rs:fit/g:sm/q:90/h:767/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NDE0OC00/NDc0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/qsspUapHj_wtknHWT73n0I6IYyk2Tk17FNheGan7zoM/rs:fit/g:sm/q:90/h:767/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NDE0OC00/NDc0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/PIFi4mqyqiWTbyi41XjyJ1KxgeGs0o3s86Anhgrs1wk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NDE0OC00/NDc0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 767
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/BYVWJw05YGFOj8T0lzNRc3lqIoHR8odzsOR5NnbIF3A/rs:fit/g:sm/q:90/h:789/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg1NDM3Ny0y/MzE1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/BYVWJw05YGFOj8T0lzNRc3lqIoHR8odzsOR5NnbIF3A/rs:fit/g:sm/q:90/h:789/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg1NDM3Ny0y/MzE1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/AboNQ6pR66UalgtJvmGfpeASq0i0dvRcLtOnBn83lTE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg1NDM3Ny0y/MzE1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 789
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Bm3Ko3BFRftI4TAr_pDLsq9oC8hezjcGYGYsIKDhFW8/rs:fit/g:sm/q:90/h:774/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1Ni03/MTQ5LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Bm3Ko3BFRftI4TAr_pDLsq9oC8hezjcGYGYsIKDhFW8/rs:fit/g:sm/q:90/h:774/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1Ni03/MTQ5LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/U2T5fNdAazI2j-yXrDiAjK6coFvco_euzgc1ZBede7w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1Ni03/MTQ5LmpwZWc.jpeg",
+              "width": 600,
+              "height": 774
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/3Dg8izECs4IxFSv-BZyA-Gnv19voN9jXUBUPPVmNaoM/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA5MDU4OS01/NzU4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/3Dg8izECs4IxFSv-BZyA-Gnv19voN9jXUBUPPVmNaoM/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA5MDU4OS01/NzU4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/uDcWAfbruXzCz5uh8_wC5WUk2Wstj5S8RKsyuqWhyKs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMzA5MDU4OS01/NzU4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 792
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ldlP0F9G6s_tharNPg9eV6_F4G5mMYjcUTkn-zyQvgo/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjI2MS02/NjI3LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/ldlP0F9G6s_tharNPg9eV6_F4G5mMYjcUTkn-zyQvgo/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjI2MS02/NjI3LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/KJtyeFs4PmgbW8wqu65peHJ1BRqTvvle9NeoPL9N9jQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5NjI2MS02/NjI3LnBuZw.jpeg",
+              "width": 600,
+              "height": 782
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/y945vJiJ4enWfMZmlK4KXayhX7lCqKcBEeV3Df5iQAk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1MS02/MDA4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/y945vJiJ4enWfMZmlK4KXayhX7lCqKcBEeV3Df5iQAk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1MS02/MDA4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/xHUwP0Dlwf_vgm4VlDj5pB9CQNBhtydMiiobtc9DUJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU1MS02/MDA4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/OF9MRhQrO56CavKlkJQH7zQj_WI70YHqexz--LiIvjk/rs:fit/g:sm/q:90/h:897/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MDc4NjUyOS0x/MjIwLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/OF9MRhQrO56CavKlkJQH7zQj_WI70YHqexz--LiIvjk/rs:fit/g:sm/q:90/h:897/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MDc4NjUyOS0x/MjIwLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/3mDaq0gFGWVD0WzHuRcmMaOfF0oNkYxyBo8ptHKggyY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MDc4NjUyOS0x/MjIwLnBuZw.jpeg",
+              "width": 600,
+              "height": 897
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/0RT0nun4QAjcr-sx1uN7q-gfftO38U0acpdZLEQ74Kg/rs:fit/g:sm/q:90/h:885/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ni0y/NzA0LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/0RT0nun4QAjcr-sx1uN7q-gfftO38U0acpdZLEQ74Kg/rs:fit/g:sm/q:90/h:885/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ni0y/NzA0LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/Iy8Jovmq7bOiGd1SCdfeBZQ6yA-TSCFxvqWUuAAmCbE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ni0y/NzA0LnBuZw.jpeg",
+              "width": 600,
+              "height": 885
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/19OQg7wo3x61A1C4D11lflfrgxRBK41slHPwVno9U54/rs:fit/g:sm/q:90/h:870/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxNjI4Ni0x/NDU0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/19OQg7wo3x61A1C4D11lflfrgxRBK41slHPwVno9U54/rs:fit/g:sm/q:90/h:870/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxNjI4Ni0x/NDU0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/rlipB3R8VB_aE7obWLjvv1r48VqDbqvTzu0tD-Ak3Og/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxNjI4Ni0x/NDU0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 870
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/sJaZqoNJgM2v06YgQn2G-w7beoxsvjpbXbxvJeN2JBs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3NC05/NDU4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/sJaZqoNJgM2v06YgQn2G-w7beoxsvjpbXbxvJeN2JBs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3NC05/NDU4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/4ta9rGUht8tXvLQhJWrEZiWCTcT6zzrKQP_tJh-3MQQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcwODE5Mjc3NC05/NDU4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/D0gFYMne95Do3KzOzBUytI8RCtPbikW9QV9f0xyg3Gk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjIxNDU3OS01/ODU2LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/D0gFYMne95Do3KzOzBUytI8RCtPbikW9QV9f0xyg3Gk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjIxNDU3OS01/ODU2LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/FIGGILYGNZIo0M2CLZFLBlS66oI-Im3bu3o4dbOkRxE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjIxNDU3OS01/ODU2LnBuZw.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/P3aspKoyIwu1T2TkUb6yRPIysS9QREJFdkiBzhgdWpg/rs:fit/g:sm/q:90/h:690/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxMjA4OS0x/NTYyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/P3aspKoyIwu1T2TkUb6yRPIysS9QREJFdkiBzhgdWpg/rs:fit/g:sm/q:90/h:690/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxMjA4OS0x/NTYyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/1_SKKss8n0IuAx4qHjyGscUqErij8aBFIZ-kREaTIMM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgxMjA4OS0x/NTYyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 690
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/pNTYXiNhlTP9pI93ivUTAOrQgnMbOlViQOe5ztNMGMU/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzMxMzU5Ni05/MTIyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/pNTYXiNhlTP9pI93ivUTAOrQgnMbOlViQOe5ztNMGMU/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzMxMzU5Ni05/MTIyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/cN6k8XcERgr0zBPKJUxpTVB_u9AHPbVh652M9hsN-wM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzMxMzU5Ni05/MTIyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/R_frRNaaOWkuH0Cxr5FKF-gEbJqyVvcZuC-lGDkohK8/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ny0z/MzAwLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/R_frRNaaOWkuH0Cxr5FKF-gEbJqyVvcZuC-lGDkohK8/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ny0z/MzAwLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/ifi75fnUNN4kfCeH7BPRRPQX8zV9BhSobaFocptYuDI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzM2NjQ0Ny0z/MzAwLnBuZw.jpeg",
+              "width": 600,
+              "height": 800
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/ZI9Ft1tkpsheN4XCXFswuidfWWOV4cPgBSNa7DcHh3w/rs:fit/g:sm/q:90/h:756/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI5MDAwMy0x/ODU3LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/ZI9Ft1tkpsheN4XCXFswuidfWWOV4cPgBSNa7DcHh3w/rs:fit/g:sm/q:90/h:756/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI5MDAwMy0x/ODU3LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/ShinjdLRIa4xqGlC5kYsh7i9ktbq28MDqjWREMURkKs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI5MDAwMy0x/ODU3LnBuZw.jpeg",
+              "width": 600,
+              "height": 756
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/mLOa1xD87LwHqfMl3Uk4coaEN_tAtXuc1mF7pi91I2k/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzkwMDIyMC00/NzA4LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/mLOa1xD87LwHqfMl3Uk4coaEN_tAtXuc1mF7pi91I2k/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzkwMDIyMC00/NzA4LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/KVtavXDN3irB7Jw5HtpiVXduH_QVTLi2qSs2eibnXFE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMzkwMDIyMC00/NzA4LnBuZw.jpeg",
+              "width": 600,
+              "height": 750
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/jMrL97ctBM1qzL0yPeA6AKSn3O3RVc0Kdr6naMtcbhU/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MS01/MTAwLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/jMrL97ctBM1qzL0yPeA6AKSn3O3RVc0Kdr6naMtcbhU/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MS01/MTAwLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/o2dvnKh3DHKj3bVQ553dsCR1Q14d4MeWjIbJY8aF1K4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MS01/MTAwLnBuZw.jpeg",
+              "width": 600,
+              "height": 761
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/eD5uDZuTtt0pkVc7fa1B-QLDfHIHlMLcPCvp7VIrsu4/rs:fit/g:sm/q:90/h:836/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg4MDcxNi01/MDI0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/eD5uDZuTtt0pkVc7fa1B-QLDfHIHlMLcPCvp7VIrsu4/rs:fit/g:sm/q:90/h:836/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg4MDcxNi01/MDI0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/rzPXep5JUfr4DfrZ-5rQD2k1UOPGS7LzMxQapqKRvW4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyNjg4MDcxNi01/MDI0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 836
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/VWBKXFH4U5ZVNLyYMkbWY1dkOXxrKjPYM6QlZj1YWWs/rs:fit/g:sm/q:90/h:858/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA2MC05/Mjg1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/VWBKXFH4U5ZVNLyYMkbWY1dkOXxrKjPYM6QlZj1YWWs/rs:fit/g:sm/q:90/h:858/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA2MC05/Mjg1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/1ec7IbX9IYW0mR27yNRGi_etBI95UlTdphNtV65H9j0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY3MzgwOTA2MC05/Mjg1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 858
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/zDmeXZpH9hX_R8IxWxEOULgzQamomye5jaa6kVJIn6A/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MC0y/ODk0LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/zDmeXZpH9hX_R8IxWxEOULgzQamomye5jaa6kVJIn6A/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MC0y/ODk0LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/V339HAVollcoy0LYoQEhqJmHkxJUgveTgsAVnvFqTas/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTY5MjI4OTk1MC0y/ODk0LnBuZw.jpeg",
+              "width": 600,
+              "height": 597
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Z4esYPFFV4CXb5SaOvFsExDL0rI0tUrGblsNvhN5PJ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA3MTkzNy0x/NjAwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Z4esYPFFV4CXb5SaOvFsExDL0rI0tUrGblsNvhN5PJ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA3MTkzNy0x/NjAwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/X_ssasfTvi2NABgBZEn_v-1T11MKWs6abujHQqF_iNI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyODA3MTkzNy0x/NjAwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/P8leYzcmMXKS8uTHf1glFi8uv-8bmI1pLvalamT9RUg/rs:fit/g:sm/q:90/h:722/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTUwNTc2OTc0OS0y/NDE2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/P8leYzcmMXKS8uTHf1glFi8uv-8bmI1pLvalamT9RUg/rs:fit/g:sm/q:90/h:722/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTUwNTc2OTc0OS0y/NDE2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/HYm5Z4dBwPGVG3HPVvo2qgjLYZwOeuOg4qXOV8Y2iO4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTUwNTc2OTc0OS0y/NDE2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 722
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/6morR9vadgCP6z3Frf3iptXYFUIklaHcCf3JOXAe4yA/rs:fit/g:sm/q:90/h:801/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU0NS0x/NTY0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/6morR9vadgCP6z3Frf3iptXYFUIklaHcCf3JOXAe4yA/rs:fit/g:sm/q:90/h:801/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU0NS0x/NTY0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/mcwXS9aXxI6-F2GCS8aCy3wmFD4hP1q9usB8SC3pCQo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTYyMTg3MjU0NS0x/NTY0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 801
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/n3fDyAL1Xpycy9JkQwG1WxEXNB64OJv3c1rBygH-mPA/rs:fit/g:sm/q:90/h:896/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc1NDY4NzQyMy02/OTcwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/n3fDyAL1Xpycy9JkQwG1WxEXNB64OJv3c1rBygH-mPA/rs:fit/g:sm/q:90/h:896/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc1NDY4NzQyMy02/OTcwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/ZSH7Te41wgL19HdBqt12U2QkBt5GNHtBScJiojrBoXo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc1NDY4NzQyMy02/OTcwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 896
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Zml2VSem68Ng-_-Eoj-hxnhB8CVIdiku4hSoqtfy4_k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjk4ODI2NC01/NjIzLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Zml2VSem68Ng-_-Eoj-hxnhB8CVIdiku4hSoqtfy4_k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjk4ODI2NC01/NjIzLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Dyzp9oVp7fztjut5A__fRbRXrAJd17TBAxf0vdbkdiQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTcxMjk4ODI2NC01/NjIzLmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/uvkoCzPXFL-ysvp3rgLWxR8JlI-e4RBtwTThkabReio/rs:fit/g:sm/q:90/h:520/w:520/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc4MzgwMTY0MC03/MzUwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/uvkoCzPXFL-ysvp3rgLWxR8JlI-e4RBtwTThkabReio/rs:fit/g:sm/q:90/h:520/w:520/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc4MzgwMTY0MC03/MzUwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/Mbl6drSxgsSUEYXqgEJfubSTEYbN6aJnIQrDnFmNFMU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjAt/MTc4MzgwMTY0MC03/MzUwLmpwZWc.jpeg",
+              "width": 520,
+              "height": 520
+            }
+          ],
+          "realname": "Madonna Louise Veronica Ciccone",
+          "profile": "American singer, entertainer, songwriter, actress, producer, director and businesswoman born August 16, 1958 in Bay City, Michigan. After performing in the music groups [a=Breakfast Club] and [url=https://www.discogs.com/artist/Emmy+(7)]Emmy[/url], she signed with [l=Sire] in 1982 and released her debut album \"[m=5319]\" the following year.\r\nShe subsequently released a series of commercially successful albums, has sold more than 400 million records worldwide, and is recognized by Guinness World Records as the best-selling female recording artist of all time. Madonna has been honorifically dubbed — and is widely recognized as — “the Queen of Pop.”\r\nShe was inducted into the Rock and Roll Hall of Fame in her first year of eligibility. She was also ranked number one on VH1’s 100 Greatest Women in Music list and number two on Billboard’s Greatest Hot 100 Artists of All Time (behind only the Beatles), making her the most successful solo artist in the history of the American singles chart.",
+          "urls": [
+            "http://www.madonna.com",
+            "http://www.allmusic.com/artist/madonna-mn0000237205",
+            "http://www.dailymotion.com/madonnaofficial",
+            "http://www.facebook.com/madonna",
+            "http://www.flickr.com/photos/madonnaphotos",
+            "http://www.imdb.com/name/nm0000187",
+            "http://www.instagram.com/madonna",
+            "http://linktr.ee/madonna",
+            "http://www.snapchat.com/@madonna",
+            "http://soundcloud.com/madonna",
+            "http://www.tiktok.com/@madonna",
+            "http://en.wikipedia.org/wiki/Madonna",
+            "http://x.com/Madonna",
+            "http://www.youtube.com/@madonna"
+          ],
+          "namevariations": [
+            "Ciccone Madona",
+            "Donna",
+            "M",
+            "MAD ON HER 2",
+            "MDNA",
+            "Mad",
+            "Mad-Donna",
+            "MadDonna",
+            "Mada",
+            "Madana",
+            "Maddona",
+            "Madna",
+            "Madnna",
+            "Madona",
+            "Madonna '86",
+            "Madonnan",
+            "Madonne",
+            "Madoona",
+            "Modonna",
+            "Queen Of Pop - 瑪丹娜",
+            "Мадона",
+            "Мадонна",
+            "מדונה",
+            "マドンナ",
+            "世紀女皇瑪丹娜",
+            "瑪丹娜",
+            "麥丹娜",
+            "麥當娜",
+            "麦当娜",
+            "마돈나"
+          ],
+          "aliases": [
+            {
+              "id": 3250793,
+              "name": "Lulu Smith",
+              "resource_url": "https://api.discogs.com/artists/3250793"
+            },
+            {
+              "id": 3424607,
+              "name": "Madonna Louise Ciccone",
+              "resource_url": "https://api.discogs.com/artists/3424607"
+            },
+            {
+              "id": 12127411,
+              "name": "Madonna Ritchie",
+              "resource_url": "https://api.discogs.com/artists/12127411"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "3424607": {
+        "state": "unresolved"
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

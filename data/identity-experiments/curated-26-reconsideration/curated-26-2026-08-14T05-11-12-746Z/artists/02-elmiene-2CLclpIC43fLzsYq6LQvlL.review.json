@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Elmiene",
+    "proposedMusicRollId": "mr_artist_000009",
+    "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL"
+  },
+  "outcome": "insufficient_corroboration",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2CLclpIC43fLzsYq6LQvlL",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2CLclpIC43fLzsYq6LQvlL",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "2CLclpIC43fLzsYq6LQvlL",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q123698376",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "2CLclpIC43fLzsYq6LQvlL",
+      "observedValues": [
+        "2CLclpIC43fLzsYq6LQvlL"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q123698376",
+      "observedValues": [
+        "Q123698376"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123698376",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [
+    "musicbrainz_artist_id",
+    "discogs_artist_id",
+    "musicbrainz_same_name_audit"
+  ],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "insufficient_corroboration",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL",
+      "wikidataQid": "Q123698376",
+      "name": "Elmiene",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": null
+    },
+    "musicBrainzRecords": {},
+    "discogsRecords": {},
+    "musicBrainzFingerprints": {}
+  }
+}

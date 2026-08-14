@@ -1,0 +1,2948 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Billie Eilish",
+    "proposedMusicRollId": "mr_artist_000025",
+    "spotifyArtistId": "6qqNVTkY8uBg9cP3Jd7DAH"
+  },
+  "outcome": "provider_profile_multiplicity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q29564107",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q29564107",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5590213",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6502756",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5590213",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6502756",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5590213",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6502756",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q29564107",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5590213",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "5590213"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6502756",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "6502756"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "observedValues": [
+        "6qqNVTkY8uBg9cP3Jd7DAH"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qqNVTkY8uBg9cP3Jd7DAH",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q29564107",
+      "observedValues": [
+        "Q29564107"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29564107",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29564107",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29564107",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "observedValues": [
+        "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "5590213",
+        "6502756"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5590213",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6502756",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5590213",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6502756",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5590213",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6502756",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5590213",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5590213"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6502756",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "6502756"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "5590213",
+        "6502756"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+        "name": "Billie Eilish",
+        "sortName": "Eilish, Billie",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "6qqNVTkY8uBg9cP3Jd7DAH"
+        ],
+        "discogsArtistIds": [
+          "5590213",
+          "6502756"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "provider_profile_multiplicity",
+      "mechanicallyResolvable": true,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [
+          "mutually_linked_discogs_alias_profiles",
+          "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+          "shared_discogs_real_name"
+        ],
+        "unresolvedIdentifiers": []
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": true,
+    "qualifiesAsProviderMultiplicity": true,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": true,
+  "changeEvidence": [
+    "musicbrainz_derived_discogs:f4abc0b5-3f7a-4eff-8f78-ac078dbce533->5590213",
+    "musicbrainz_derived_discogs:f4abc0b5-3f7a-4eff-8f78-ac078dbce533->6502756",
+    "generalized_provider_profile_multiplicity"
+  ],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "wikidataQid": "Q29564107",
+      "name": "Billie Eilish",
+      "musicBrainzArtistId": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "5590213",
+        "6502756"
+      ]
+    },
+    "musicBrainzRecords": {
+      "f4abc0b5-3f7a-4eff-8f78-ac078dbce533": {
+        "artist": {
+          "musicBrainzArtistId": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+          "name": "Billie Eilish",
+          "sortName": "Eilish, Billie",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+            "name": "Los Angeles",
+            "sortName": "Los Angeles",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2001-12-18",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Bil Cutie",
+              "sortName": "Bil Cutie",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Bili Ailiš",
+              "sortName": "Ailiš, Bili",
+              "type": "Artist name",
+              "locale": "lt",
+              "primary": false
+            },
+            {
+              "name": "Bili Ailiš Pirat Beird O’Konel",
+              "sortName": "O’Konel, Bili Ailiš Pirat Beird",
+              "type": "Artist name",
+              "locale": "lt",
+              "primary": false
+            },
+            {
+              "name": "Billi Ayliş",
+              "sortName": "Billi Ayliş",
+              "type": "Artist name",
+              "locale": "az",
+              "primary": true
+            },
+            {
+              "name": "Billie Eilish O’Connell",
+              "sortName": "Eilish O’Connell, Billie",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Billie Eilish Pirate Baird O’Connell",
+              "sortName": "O’Connell, Billie Eilish Pirate Baird",
+              "type": "Legal name",
+              "locale": "en",
+              "primary": false
+            },
+            {
+              "name": "Billie O’Connell",
+              "sortName": "O’Connell, Billie",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Billija Ailiša",
+              "sortName": "Billija Ailiša",
+              "type": "Artist name",
+              "locale": "lv",
+              "primary": true
+            },
+            {
+              "name": "Μπίλλι Άιλις",
+              "sortName": "Μπίλλι Άιλις",
+              "type": "Artist name",
+              "locale": "el",
+              "primary": true
+            },
+            {
+              "name": "Били Ейлиш",
+              "sortName": "Били Ейлиш",
+              "type": "Artist name",
+              "locale": "bg",
+              "primary": true
+            },
+            {
+              "name": "Билли Айлиш",
+              "sortName": "Билли Айлиш",
+              "type": "Artist name",
+              "locale": "kk",
+              "primary": true
+            },
+            {
+              "name": "Білі Айліш",
+              "sortName": "Білі Айліш",
+              "type": "Artist name",
+              "locale": "be",
+              "primary": true
+            },
+            {
+              "name": "Բիլլի Այլիշ",
+              "sortName": "Բիլլի Այլիշ",
+              "type": "Artist name",
+              "locale": "hy",
+              "primary": true
+            },
+            {
+              "name": "בילי אייליש",
+              "sortName": "בילי אייליש",
+              "type": "Artist name",
+              "locale": "he",
+              "primary": true
+            },
+            {
+              "name": "بيلي إيليش",
+              "sortName": "بيلي إيليش",
+              "type": "Artist name",
+              "locale": "ar",
+              "primary": true
+            },
+            {
+              "name": "بیلي آیليش",
+              "sortName": "بیلي آیليش",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "بیلی آیلیش",
+              "sortName": "بیلی آیلیش",
+              "type": "Artist name",
+              "locale": "fa",
+              "primary": true
+            },
+            {
+              "name": "بیڵی_ئایڵش",
+              "sortName": "بیڵی_ئایڵش",
+              "type": "Artist name",
+              "locale": "ckb",
+              "primary": true
+            },
+            {
+              "name": "बिली एलीश",
+              "sortName": "बिली एलीश",
+              "type": "Artist name",
+              "locale": "hi",
+              "primary": true
+            },
+            {
+              "name": "বিলি আইলিশ",
+              "sortName": "বিলি আইলিশ",
+              "type": "Artist name",
+              "locale": "bn",
+              "primary": true
+            },
+            {
+              "name": "ბილი აილიში",
+              "sortName": "ბილი აილიში",
+              "type": "Artist name",
+              "locale": "ka",
+              "primary": true
+            },
+            {
+              "name": "ប៊ីលលី អៃលីស",
+              "sortName": "ប៊ីលលី អៃលីស",
+              "type": "Artist name",
+              "locale": "km",
+              "primary": true
+            },
+            {
+              "name": "ビリー・アイリッシュ",
+              "sortName": "ビリー・アイリッシュ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            },
+            {
+              "name": "比莉艾莉什",
+              "sortName": "比莉艾莉什",
+              "type": "Artist name",
+              "locale": "zh",
+              "primary": true
+            },
+            {
+              "name": "빌리 아일리시",
+              "sortName": "빌리 아일리시",
+              "type": "Artist name",
+              "locale": "ko",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "000000046748058X"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003475903"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/12895856"
+            },
+            {
+              "relationshipType": "BookBrainz",
+              "url": "https://bookbrainz.org/author/6b52b079-d363-4472-b9f4-7aca11394479"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5590213"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/6502756"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://billieeilish.fandom.com/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/4353492"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/1912672"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/9635624"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Billie_Eilish_peforms_%22What_Was_I_Made_For%3F%22_in_Inglewood_(Dec_2024;_3).png"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://img.goodfon.com/original/7360x4912/d/36/pevitsa-singer-billie-eilish-billi-ailish-1.jpg"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://store.billieeilish.com/cdn/shop/files/0029_0O4A5426.png"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm8483808/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Billie+Eilish"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Billie-eilish"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/billie-eilish/lyrics"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Billie-Eilish"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/billieeilish"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://billieeilish.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/e622d75a-ec05-4f03-b3da-25bce15515ec"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2017154277"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb17856308k"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1182709559"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PBJv8Hg3r4GYvRYCjTmCWjC"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/billie-eilish"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://openlibrary.org/authors/OL7771603A"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/billie-eilish"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/250584212"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.livefans.jp/artists/107495"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/billie-eilish/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000525573/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/2413513"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Billie-Eilish/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2017154277/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/733995/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/1065981054"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/8584120"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/2867335"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/282216"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://recochoku.jp/artist/2000682294/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://uk.7digital.com/artist/billie-eilish"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/billie-eilish/597316"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Billie+Eilish/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=597831"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://store.universal-music.co.jp/artist/billie-eilish/"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.cdjapan.co.jp/person/700822860"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.yesasia.com/0-aid3728184-0-bpt.47-en/list.html"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/144983"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/billie-eilish-1bc3b540.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/billieeilish"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://open.spotify.com/user/billieeilish"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://vk.com/billieeilish"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/billieeilish"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/billieeilish/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@billieeilish"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.weibo.com/6861477307"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@coochiedestroyer5"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/8913479"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/billieeilish"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/billie-eilish"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B01A7VBHJ4"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1065981054"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/8584120"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/2867335"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7514330"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=597831"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.livenation.com/artist/K8vZ9174Za7"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.ticketmaster.com/artist/2257710"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/19151246542344130590"
+            },
+            {
+              "relationshipType": "video channel",
+              "url": "https://www.dailymotion.com/billieeilish"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q29564107"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCERrDZ8oN0U_n9MphMKERcg"
+            }
+          ]
+        },
+        "raw": {
+          "ipis": [
+            "00792187700"
+          ],
+          "sort-name": "Eilish, Billie",
+          "id": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+          "name": "Billie Eilish",
+          "disambiguation": "",
+          "isnis": [
+            "000000046748058X"
+          ],
+          "relations": [
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "end": null,
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "allmusic",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.allmusic.com/artist/mn0003475903",
+                "id": "d307fa89-44a2-4945-b20f-05009f57fe80"
+              }
+            },
+            {
+              "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "f4fbd6e9-06d3-4bfe-ab3a-dda715a8c35f",
+                "resource": "https://www.bandsintown.com/a/12895856"
+              },
+              "type": "bandsintown",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "a5484730-c897-46a2-acf9-120926ef895a",
+                "resource": "https://bookbrainz.org/author/6b52b079-d363-4472-b9f4-7aca11394479"
+              },
+              "type": "BookBrainz",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "f82f9342-a08d-46b7-ab7a-d8b6330c805d",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "url": {
+                "id": "370fb6c9-1a7f-46a5-8454-674f6755c750",
+                "resource": "https://www.discogs.com/artist/5590213"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "discogs",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "end": null,
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "discogs",
+              "source-credit": "Billie O’Connell",
+              "url": {
+                "resource": "https://www.discogs.com/artist/6502756",
+                "id": "f8cb2a27-9e90-4812-9a51-47fc123de923"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type": "fanpage",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://billieeilish.fandom.com/",
+                "id": "6f18131b-156e-452f-a5d3-a3a8a76e46e2"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": []
+            },
+            {
+              "type": "free streaming",
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.yandex.com/artist/4353492",
+                "id": "c6e2b8fc-e6e1-4c61-b81a-06f4a9b62da7"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url"
+            },
+            {
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "url": {
+                "id": "8a8e7248-a602-46d9-aebb-cf90a45a08e2",
+                "resource": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+              },
+              "attribute-ids": {},
+              "type": "free streaming",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "free streaming",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.boomplay.com/artists/1912672",
+                "id": "e20c2b14-182f-4db6-832f-dc559b3af2d4"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "c2bf7c58-7dfe-471a-9843-5a9c9487c1f6",
+                "resource": "https://www.deezer.com/artist/9635624"
+              },
+              "type": "free streaming",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null
+            },
+            {
+              "type": "image",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "64b553c9-be55-4699-a769-5fe308cce027",
+                "resource": "https://commons.wikimedia.org/wiki/File:Billie_Eilish_peforms_%22What_Was_I_Made_For%3F%22_in_Inglewood_(Dec_2024;_3).png"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "url": {
+                "id": "8ace0d53-e863-4c25-a8da-41b9de273c3d",
+                "resource": "https://img.goodfon.com/original/7360x4912/d/36/pevitsa-singer-billie-eilish-billi-ailish-1.jpg"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "image",
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "end": null
+            },
+            {
+              "end": null,
+              "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "source-credit": "",
+              "url": {
+                "id": "58729030-257e-4c6a-8d0d-770763f650f9",
+                "resource": "https://store.billieeilish.com/cdn/shop/files/0029_0O4A5426.png"
+              },
+              "attribute-ids": {},
+              "type": "image",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "IMDb",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "e1fe1d70-dc6c-4aa9-8703-d1aaa852e810",
+                "resource": "https://www.imdb.com/name/nm8483808/"
+              }
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "caa18703-9964-4afb-bc3a-9dff2bb7372d",
+                "resource": "https://www.last.fm/music/Billie+Eilish"
+              },
+              "type": "last.fm",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "resource": "https://genius.com/artists/Billie-eilish",
+                "id": "196a8b28-315f-48d6-8049-d0366a4a8f0b"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "lyrics",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://muzikum.eu/en/billie-eilish/lyrics",
+                "id": "b7d547e4-6395-4a14-8390-4d7b75577916"
+              },
+              "type": "lyrics",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "url": {
+                "id": "dd00cae0-1f47-4323-8083-983a470d23ff",
+                "resource": "https://www.musixmatch.com/artist/Billie-Eilish"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "lyrics",
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "end": null
+            },
+            {
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "a26f8de1-ce2e-432f-8531-402980563617",
+                "resource": "https://myspace.com/billieeilish"
+              },
+              "type": "myspace"
+            },
+            {
+              "end": null,
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "official homepage",
+              "source-credit": "",
+              "url": {
+                "resource": "https://billieeilish.com/",
+                "id": "1ba797ed-305c-42bf-bd0b-4be1551622e5"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": "2025-12-17",
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type": "other databases",
+              "source-credit": "",
+              "url": {
+                "resource": "https://jaxsta.com/profile/e622d75a-ec05-4f03-b3da-25bce15515ec",
+                "id": "82473ee3-9b58-403f-804a-e9c222b9a501"
+              },
+              "attribute-ids": {},
+              "ended": true,
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "url": {
+                "id": "147269c3-b4ce-481a-8602-b23dadf4cc51",
+                "resource": "http://id.loc.gov/authorities/names/no2017154277"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "other databases",
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb17856308k",
+                "id": "70cea9fe-fd23-48b4-ad72-83a36c61abd4"
+              },
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://d-nb.info/gnd/1182709559",
+                "id": "7a3d67a6-111f-4a8b-b175-142c79b7ee1b"
+              },
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://id.oclc.org/worldcat/entity/E39PBJv8Hg3r4GYvRYCjTmCWjC",
+                "id": "e4234778-965e-46e1-8a18-b5b1f9b5fdd5"
+              },
+              "type": "other databases",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "ee6154b1-6228-4473-ba7b-9666fd1ee5a2",
+                "resource": "https://imvdb.com/n/billie-eilish"
+              },
+              "type": "other databases",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null
+            },
+            {
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "c0172022-3344-4406-9b64-4349ee956a57",
+                "resource": "https://openlibrary.org/authors/OL7771603A"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type": "other databases",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/billie-eilish",
+                "id": "63793854-3f54-4c8e-8f91-d7f9796e9d51"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url"
+            },
+            {
+              "source-credit": "",
+              "url": {
+                "id": "ad4b8bf4-d4d9-4563-8529-087fb5b11217",
+                "resource": "https://www.idref.fr/250584212"
+              },
+              "attribute-ids": {},
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.livefans.jp/artists/107495",
+                "id": "46a930a2-3b28-4b2d-bea3-2bf16ca8b987"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "id": "22904704-83f9-4b0f-aec2-b3425e144e71",
+                "resource": "https://www.musik-sammler.de/artist/billie-eilish/"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "other databases",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.muziekweb.nl/Link/M00000525573/POPULAR/",
+                "id": "52747f1b-ea39-4e25-b423-d20bafeb9692"
+              },
+              "type": "other databases",
+              "begin": null,
+              "direction": "forward",
+              "ended": false
+            },
+            {
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "type": "other databases",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.themoviedb.org/person/2413513",
+                "id": "cfe75fc0-d143-4963-a689-b36b2b4548d1"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "other databases",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "0a0a4d0a-6318-435e-b49d-9e00ce94f17b",
+                "resource": "https://www.whosampled.com/Billie-Eilish/"
+              },
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "end": null,
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+            },
+            {
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type": "other databases",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "e035bb01-1227-44ea-b140-2f68b0c45f7e",
+                "resource": "https://www.worldcat.org/identities/lccn-no2017154277/"
+              },
+              "ended": true,
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "4485f6ca-d6f5-4503-bc46-fc7e0ff732fa",
+                "resource": "https://mora.jp/artist/733995/"
+              },
+              "type": "purchase for download",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "url": {
+                "id": "42a55de5-9e4f-4624-89fa-2d7e7f4f8a0a",
+                "resource": "https://music.apple.com/us/artist/1065981054"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "245e038c-78a0-4c28-84fb-c8bdc6d88d32",
+                "resource": "https://music.bugs.co.kr/artist/8584120"
+              }
+            },
+            {
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "type": "purchase for download",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "21751112-a5b0-4bbd-84de-27e281e06207",
+                "resource": "https://open.qobuz.com/artist/2867335"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "c98ad597-faa8-4a73-8e1b-dab72b77a986",
+                "resource": "https://ototoy.jp/_/default/a/282216"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url"
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "75e0abaa-a887-40d6-80c7-979855c20648",
+                "resource": "https://recochoku.jp/artist/2000682294/"
+              },
+              "type": "purchase for download",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "url": {
+                "id": "21465a4b-73bc-46b2-81d8-a82a410bc6f3",
+                "resource": "https://uk.7digital.com/artist/billie-eilish"
+              },
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+            },
+            {
+              "type": "purchase for download",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "05c39295-3fec-4b0d-9e0f-6e8059f131bf",
+                "resource": "https://www.beatport.com/artist/billie-eilish/597316"
+              },
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "url": {
+                "id": "99cb5589-e557-49b2-8083-762f23c37268",
+                "resource": "https://www.junodownload.com/artists/Billie+Eilish/"
+              },
+              "attribute-ids": {},
+              "type": "purchase for download",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+            },
+            {
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=597831",
+                "id": "325a359b-f995-4022-a703-c8f00e4dcc14"
+              },
+              "attribute-ids": {},
+              "type": "purchase for download"
+            },
+            {
+              "type": "purchase for mail-order",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "3b9abce4-3375-4a1f-8371-c00a1b553858",
+                "resource": "https://store.universal-music.co.jp/artist/billie-eilish/"
+              },
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "end": null,
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type": "purchase for mail-order",
+              "source-credit": "",
+              "url": {
+                "id": "a1c22851-3f29-47b4-92ac-fc0d938101c4",
+                "resource": "https://www.cdjapan.co.jp/person/700822860"
+              },
+              "attribute-ids": {},
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "47ff8d61-fee7-47b8-a939-2572593558c4",
+                "resource": "https://www.yesasia.com/0-aid3728184-0-bpt.47-en/list.html"
+              },
+              "type": "purchase for mail-order",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+              "end": null
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "bf728c63-b34c-4f75-b98e-40b62bfc983b",
+                "resource": "https://secondhandsongs.com/artist/144983"
+              },
+              "type": "secondhandsongs"
+            },
+            {
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.setlist.fm/setlists/billie-eilish-1bc3b540.html",
+                "id": "897c36f9-602e-4017-8d34-513822de6c7a"
+              },
+              "attribute-ids": {},
+              "type": "setlistfm"
+            },
+            {
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "ended": false,
+              "begin": "2013-10-23",
+              "direction": "forward",
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://twitter.com/billieeilish",
+                "id": "24cda6cd-9d6d-4fd3-9fba-1beceec1ea85"
+              },
+              "type": "social network"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "0eef6708-2a16-4c84-8009-ad4980a011d8",
+                "resource": "https://open.spotify.com/user/billieeilish"
+              },
+              "type": "social network"
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://vk.com/billieeilish",
+                "id": "37901703-326c-4307-9bf8-752624f48b21"
+              },
+              "type": "social network",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "c948f520-b447-4f97-8873-225beac57bf0",
+                "resource": "https://www.facebook.com/billieeilish"
+              },
+              "type": "social network"
+            },
+            {
+              "source-credit": "",
+              "url": {
+                "id": "7a479371-23dd-43b4-aaec-fbc3b856095a",
+                "resource": "https://www.instagram.com/billieeilish/"
+              },
+              "attribute-ids": {},
+              "type": "social network",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "5b62c4bd-96ec-4820-a0ff-90ec89d52048",
+                "resource": "https://www.tiktok.com/@billieeilish"
+              },
+              "type": "social network",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null
+            },
+            {
+              "target-type": "url",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "social network",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.weibo.com/6861477307",
+                "id": "08c19bc5-575a-47c8-bf0a-8d933da5181e"
+              }
+            },
+            {
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "6dd2ad1e-665c-4323-8e1d-397665917b46",
+                "resource": "https://www.tiktok.com/@coochiedestroyer5"
+              },
+              "type": "social network",
+              "ended": true,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "id": "dec366ef-23e5-4ffa-8a5d-d10bd3eca748",
+                "resource": "https://www.songkick.com/artists/8913479"
+              },
+              "type": "songkick",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+            },
+            {
+              "type": "soundcloud",
+              "source-credit": "",
+              "url": {
+                "id": "6946fd63-2e65-4066-8a1d-ed1e222d525a",
+                "resource": "https://soundcloud.com/billieeilish"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false,
+              "end": null,
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "url"
+            },
+            {
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://us.napster.com/artist/billie-eilish",
+                "id": "7d960eda-1df0-4626-bf60-5f499c9f4e7f"
+              },
+              "type": "streaming",
+              "ended": true,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": "2022-06-08",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "attribute-ids": {},
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.amazon.com/artists/B01A7VBHJ4",
+                "id": "53e78237-9ecf-4cab-956a-8de585c8cfbb"
+              },
+              "type": "streaming",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "url": {
+                "id": "42a55de5-9e4f-4624-89fa-2d7e7f4f8a0a",
+                "resource": "https://music.apple.com/us/artist/1065981054"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url"
+            },
+            {
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "target-type": "url",
+              "type": "streaming",
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.bugs.co.kr/artist/8584120",
+                "id": "245e038c-78a0-4c28-84fb-c8bdc6d88d32"
+              },
+              "attribute-ids": {},
+              "direction": "forward",
+              "begin": null,
+              "ended": false
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://open.qobuz.com/artist/2867335",
+                "id": "21751112-a5b0-4bbd-84de-27e281e06207"
+              },
+              "type": "streaming",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "url": {
+                "resource": "https://tidal.com/artist/7514330",
+                "id": "de703f54-b12c-4860-b6fc-685795b0d1e4"
+              },
+              "attribute-ids": {},
+              "type": "streaming",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+            },
+            {
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "url": {
+                "resource": "https://www.melon.com/artist/detail.htm?artistId=597831",
+                "id": "325a359b-f995-4022-a703-c8f00e4dcc14"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "streaming",
+              "ended": false,
+              "begin": null,
+              "direction": "forward"
+            },
+            {
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "target-type": "url",
+              "end": null,
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.livenation.com/artist/K8vZ9174Za7",
+                "id": "f7b60aab-93be-4722-bf3d-f426cf4c0a6f"
+              },
+              "type": "ticketing"
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "id": "c21ffbb2-b4f5-4bdf-bda0-4ac3dfb9404a",
+                "resource": "https://www.ticketmaster.com/artist/2257710"
+              },
+              "type": "ticketing",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+              "begin": null,
+              "direction": "forward",
+              "ended": false,
+              "url": {
+                "resource": "http://viaf.org/viaf/19151246542344130590",
+                "id": "9dcf24af-0564-44b1-bc9b-9fde0e1c4624"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "type": "VIAF"
+            },
+            {
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.dailymotion.com/billieeilish",
+                "id": "9278ca42-2f6e-418e-9838-8728e871ed8a"
+              },
+              "attribute-ids": {},
+              "type": "video channel",
+              "target-type": "url",
+              "attribute-values": {},
+              "attributes": [],
+              "target-credit": "",
+              "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+              "end": null
+            },
+            {
+              "ended": false,
+              "direction": "forward",
+              "begin": null,
+              "type": "wikidata",
+              "url": {
+                "id": "24e08175-add6-46b3-a839-c9dfbf5f1ee2",
+                "resource": "https://www.wikidata.org/wiki/Q29564107"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "end": null
+            },
+            {
+              "source-credit": "",
+              "attribute-ids": {},
+              "url": {
+                "resource": "https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ",
+                "id": "7cb2ee8e-b13b-4585-ad8c-51cd55397f57"
+              },
+              "type": "youtube",
+              "ended": false,
+              "begin": null,
+              "direction": "forward",
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "end": null,
+              "target-type": "url",
+              "attributes": [],
+              "target-credit": "",
+              "attribute-values": {}
+            },
+            {
+              "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "target-credit": "",
+              "attributes": [],
+              "type": "youtube music",
+              "url": {
+                "id": "75ef2ff4-e74c-4cba-a794-1b53cb469010",
+                "resource": "https://music.youtube.com/channel/UCERrDZ8oN0U_n9MphMKERcg"
+              },
+              "source-credit": "",
+              "attribute-ids": {},
+              "ended": false,
+              "direction": "forward",
+              "begin": null
+            }
+          ],
+          "type": "Person",
+          "area": {
+            "sort-name": "United States",
+            "name": "United States",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "disambiguation": "",
+            "type": null,
+            "type-id": null
+          },
+          "country": "US",
+          "life-span": {
+            "begin": "2001-12-18",
+            "end": null,
+            "ended": false
+          },
+          "begin-area": {
+            "disambiguation": "",
+            "type": null,
+            "type-id": null,
+            "sort-name": "Los Angeles",
+            "name": "Los Angeles",
+            "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62"
+          },
+          "end-area": null,
+          "gender": "Female",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "aliases": [
+            {
+              "ended": true,
+              "name": "Bil Cutie",
+              "sort-name": "Bil Cutie",
+              "begin": "2019-09-27",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": null,
+              "type": "Artist name",
+              "locale": null,
+              "end": "2019-09-27"
+            },
+            {
+              "sort-name": "Ailiš, Bili",
+              "begin": null,
+              "name": "Bili Ailiš",
+              "ended": false,
+              "end": null,
+              "type": "Artist name",
+              "locale": "lt",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": false
+            },
+            {
+              "begin": null,
+              "sort-name": "O’Konel, Bili Ailiš Pirat Beird",
+              "name": "Bili Ailiš Pirat Beird O’Konel",
+              "ended": false,
+              "end": null,
+              "locale": "lt",
+              "type": "Artist name",
+              "primary": false,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name",
+              "locale": "az",
+              "end": null,
+              "ended": false,
+              "name": "Billi Ayliş",
+              "sort-name": "Billi Ayliş",
+              "begin": null
+            },
+            {
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "name": "Billie Eilish O’Connell",
+              "ended": false,
+              "begin": null,
+              "sort-name": "Eilish O’Connell, Billie"
+            },
+            {
+              "begin": null,
+              "sort-name": "O’Connell, Billie Eilish Pirate Baird",
+              "ended": false,
+              "name": "Billie Eilish Pirate Baird O’Connell",
+              "end": null,
+              "primary": false,
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "locale": "en",
+              "type": "Legal name"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": null,
+              "type": "Artist name",
+              "locale": null,
+              "end": null,
+              "ended": false,
+              "name": "Billie O’Connell",
+              "sort-name": "O’Connell, Billie",
+              "begin": null
+            },
+            {
+              "end": null,
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "lv",
+              "type": "Artist name",
+              "begin": null,
+              "sort-name": "Billija Ailiša",
+              "ended": false,
+              "name": "Billija Ailiša"
+            },
+            {
+              "end": null,
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "el",
+              "type": "Artist name",
+              "begin": null,
+              "sort-name": "Μπίλλι Άιλις",
+              "ended": false,
+              "name": "Μπίλλι Άιλις"
+            },
+            {
+              "end": null,
+              "type": "Artist name",
+              "locale": "bg",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "sort-name": "Били Ейлиш",
+              "begin": null,
+              "name": "Били Ейлиш",
+              "ended": false
+            },
+            {
+              "begin": null,
+              "sort-name": "Билли Айлиш",
+              "ended": false,
+              "name": "Билли Айлиш",
+              "end": null,
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "kk",
+              "type": "Artist name"
+            },
+            {
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "be",
+              "type": "Artist name",
+              "end": null,
+              "ended": false,
+              "name": "Білі Айліш",
+              "begin": null,
+              "sort-name": "Білі Айліш"
+            },
+            {
+              "begin": null,
+              "sort-name": "Բիլլի Այլիշ",
+              "ended": false,
+              "name": "Բիլլի Այլիշ",
+              "end": null,
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "hy",
+              "type": "Artist name"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name",
+              "locale": "he",
+              "end": null,
+              "ended": false,
+              "name": "בילי אייליש",
+              "sort-name": "בילי אייליש",
+              "begin": null
+            },
+            {
+              "end": null,
+              "locale": "ar",
+              "type": "Artist name",
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "بيلي إيليش",
+              "name": "بيلي إيليش",
+              "ended": false
+            },
+            {
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "name": "بیلي آیليش",
+              "ended": false,
+              "begin": null,
+              "sort-name": "بیلي آیليش"
+            },
+            {
+              "ended": false,
+              "name": "بیلی آیلیش",
+              "sort-name": "بیلی آیلیش",
+              "begin": null,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name",
+              "locale": "fa",
+              "end": null
+            },
+            {
+              "type": "Artist name",
+              "locale": "ckb",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "end": null,
+              "name": "بیڵی_ئایڵش",
+              "ended": false,
+              "sort-name": "بیڵی_ئایڵش",
+              "begin": null
+            },
+            {
+              "end": null,
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "hi",
+              "type": "Artist name",
+              "begin": null,
+              "sort-name": "बिली एलीश",
+              "ended": false,
+              "name": "बिली एलीश"
+            },
+            {
+              "end": null,
+              "locale": "bn",
+              "type": "Artist name",
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "begin": null,
+              "sort-name": "বিলি আইলিশ",
+              "name": "বিলি আইলিশ",
+              "ended": false
+            },
+            {
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "ka",
+              "type": "Artist name",
+              "end": null,
+              "ended": false,
+              "name": "ბილი აილიში",
+              "begin": null,
+              "sort-name": "ბილი აილიში"
+            },
+            {
+              "locale": "km",
+              "type": "Artist name",
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "end": null,
+              "name": "ប៊ីលលី អៃលីស",
+              "ended": false,
+              "begin": null,
+              "sort-name": "ប៊ីលលី អៃលីស"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name",
+              "locale": "ja",
+              "end": null,
+              "ended": false,
+              "name": "ビリー・アイリッシュ",
+              "sort-name": "ビリー・アイリッシュ",
+              "begin": null
+            },
+            {
+              "primary": true,
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "locale": "zh",
+              "type": "Artist name",
+              "end": null,
+              "ended": false,
+              "name": "比莉艾莉什",
+              "begin": null,
+              "sort-name": "比莉艾莉什"
+            },
+            {
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "primary": true,
+              "type": "Artist name",
+              "locale": "ko",
+              "end": null,
+              "ended": false,
+              "name": "빌리 아일리시",
+              "sort-name": "빌리 아일리시",
+              "begin": null
+            }
+          ]
+        }
+      }
+    },
+    "discogsRecords": {
+      "5590213": {
+        "artist": {
+          "discogsArtistId": "5590213",
+          "name": "Billie Eilish",
+          "realName": "Billie Eilish Pirate Baird O'Connell",
+          "profile": "American pop singer and songwriter.\r\nBorn 18 December 2001, Los Angeles, California, US.\r\nDaughter of actors/musicians [a6770046] and [a16984243].\r\nSister of [a6016928].",
+          "artistUrls": [
+            "https://en.wikipedia.org/wiki/Billie_Eilish",
+            "https://www.youtube.com/@BillieEilish",
+            "https://soundcloud.com/billieeilish",
+            "https://www.instagram.com/billieeilish",
+            "https://www.facebook.com/billieeilish",
+            "https://tiktok.com/@billieeilish",
+            "https://eilish.tumblr.com",
+            "https://twitter.com/billieeilish",
+            "https://linktr.ee/billieeilish"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "6502756",
+              "name": "Billie O'Connell"
+            }
+          ],
+          "nameVariations": [
+            "B. Eilish",
+            "B. O'Connell",
+            "Billy Eilish",
+            "Eilish",
+            "ビリー・アイリッシュ",
+            "怪奇比莉",
+            "比莉艾莉什"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/5590213",
+          "discogsWebUrl": "https://www.discogs.com/artist/5590213-Billie-Eilish",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Billie Eilish",
+          "id": 5590213,
+          "resource_url": "https://api.discogs.com/artists/5590213",
+          "uri": "https://www.discogs.com/artist/5590213-Billie-Eilish",
+          "releases_url": "https://api.discogs.com/artists/5590213/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/0g5OCmAz7kFydN_zDUosCwYcBh5fK1-mgfrP7keCUOg/rs:fit/g:sm/q:90/h:613/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc4MDk5NzI1/OC0zNjEyLnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/0g5OCmAz7kFydN_zDUosCwYcBh5fK1-mgfrP7keCUOg/rs:fit/g:sm/q:90/h:613/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc4MDk5NzI1/OC0zNjEyLnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/VGq_OZ-hkjf0if-kXOKGY7AsBhEDK7AzNs3Eox5MUU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc4MDk5NzI1/OC0zNjEyLnBuZw.jpeg",
+              "width": 600,
+              "height": 613
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/TZmDxV2aVPekx6sfQEGtO-ja-zxBGP2MyEFwdvR9k5I/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcxNTg4NTE4/Ny0xMzM0LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/TZmDxV2aVPekx6sfQEGtO-ja-zxBGP2MyEFwdvR9k5I/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcxNTg4NTE4/Ny0xMzM0LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/w_TSnhbE2ZE1fzQOZdMRLeKIAYrDUnPkMpts1RPixQs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcxNTg4NTE4/Ny0xMzM0LmpwZWc.jpeg",
+              "width": 600,
+              "height": 612
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/eJyAHdrjLj80L5GMclJyXooP_OG_7wn1j5FBA-niLM8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMzU5ODAx/My02NTY1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/eJyAHdrjLj80L5GMclJyXooP_OG_7wn1j5FBA-niLM8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMzU5ODAx/My02NTY1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/0Oy3AE-plqYQcgz0imz-gY535eHotU02tmKHY3gMa4k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMzU5ODAx/My02NTY1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/4pfEBYCGbX2GwfZvDGz_xDW_iURIQQdDsPUXzeUjGAg/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxODY4NjEw/Mi05Nzc2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/4pfEBYCGbX2GwfZvDGz_xDW_iURIQQdDsPUXzeUjGAg/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxODY4NjEw/Mi05Nzc2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/DmdMDtEzx02PAOwtupvRefp75doXqnzpxhoJeDIq63o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxODY4NjEw/Mi05Nzc2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 584
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/0Zj_RlxCgAXuU-TptTLyzRag_T5hNjWaxHAcDJZHM8Q/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcwNjcxMTI4/OS02Njk3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/0Zj_RlxCgAXuU-TptTLyzRag_T5hNjWaxHAcDJZHM8Q/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcwNjcxMTI4/OS02Njk3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/-c_ARflERc9Pbtm7VmQgTTxAeCYSSl9T9lYv4fWvbes/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTcwNjcxMTI4/OS02Njk3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 782
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/m730oE7UxkkH3DrRrdsVmeb1ByhlpEUuQf_F4zC1xJ4/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMjkxOTcw/Ny01MTE4LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/m730oE7UxkkH3DrRrdsVmeb1ByhlpEUuQf_F4zC1xJ4/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMjkxOTcw/Ny01MTE4LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/KsHtEAPASmcT2u6fePySwgCj8B5lNIECpXSLyhyYvK8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYzMjkxOTcw/Ny01MTE4LnBuZw.jpeg",
+              "width": 600,
+              "height": 450
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/XRDVxKXphGzyw9SPzdRt8KMq1oGUZ8DtBi7ApC6VAqI/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxOTYzNjI1/OS0zOTc3LnBuZw.jpeg",
+              "resource_url": "https://i.discogs.com/XRDVxKXphGzyw9SPzdRt8KMq1oGUZ8DtBi7ApC6VAqI/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxOTYzNjI1/OS0zOTc3LnBuZw.jpeg",
+              "uri150": "https://i.discogs.com/70wr_d6XpwOKSH-p52mLm75UAOBERTpQZF8OGOJ_C3o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYxOTYzNjI1/OS0zOTc3LnBuZw.jpeg",
+              "width": 600,
+              "height": 604
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/4Lu7sx6E3H-OyeedOIbK8zOoAKpVsMXx9wgiLeiDVOw/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTU2MjUzODg4/Ni00NjM1LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/4Lu7sx6E3H-OyeedOIbK8zOoAKpVsMXx9wgiLeiDVOw/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTU2MjUzODg4/Ni00NjM1LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/O-Dk10imysPbqk97_9m5aF2sGqF82dX6wK-nGxfYcVU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTU2MjUzODg4/Ni00NjM1LmpwZWc.jpeg",
+              "width": 600,
+              "height": 739
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/QU6dgsJcSg9iA0pWrYDUiCqeqfnArQlybW96h4SgoUU/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc0MDI1ODA3/NS0xMzEyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/QU6dgsJcSg9iA0pWrYDUiCqeqfnArQlybW96h4SgoUU/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc0MDI1ODA3/NS0xMzEyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/8B4TuKvezvAGLWH3F-OEVCyT__YBTR7Ttd8MWe-juwA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTc0MDI1ODA3/NS0xMzEyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 750
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/Xsx9gVm1M0JFN1XVHprEdErbQJncgg2T72E3w0BeHRA/rs:fit/g:sm/q:90/h:780/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS02MTM3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/Xsx9gVm1M0JFN1XVHprEdErbQJncgg2T72E3w0BeHRA/rs:fit/g:sm/q:90/h:780/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS02MTM3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/MqGWfq6KscnV3u4R_b1Fy8oOuX-h-LkfJvVetyZsELU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS02MTM3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 780
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/YwGyqsEipysTFhISgU1YRSFSPzptVTMwLT63CjNsapI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTY0OTY5Nzg5/NC02OTQ3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/YwGyqsEipysTFhISgU1YRSFSPzptVTMwLT63CjNsapI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTY0OTY5Nzg5/NC02OTQ3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/-hzY0qMJqDYuTBn7k8kJ6a7tihb7Lbt-mB02KKvge3s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTY0OTY5Nzg5/NC02OTQ3LmpwZWc.jpeg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/vjOmblZxC8zTkXhTDN-fqyoi3_pibCT3t9mUS6epvvg/rs:fit/g:sm/q:90/h:772/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS04ODc4LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/vjOmblZxC8zTkXhTDN-fqyoi3_pibCT3t9mUS6epvvg/rs:fit/g:sm/q:90/h:772/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS04ODc4LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/6g3MzKnPfW0vNSiaJbzKiFdzDy484FDUSJK3FvIFBHI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU1OTAy/MTMtMTYwMTg4NDAz/NS04ODc4LmpwZWc.jpeg",
+              "width": 600,
+              "height": 772
+            }
+          ],
+          "realname": "Billie Eilish Pirate Baird O'Connell",
+          "profile": "American pop singer and songwriter.\r\nBorn 18 December 2001, Los Angeles, California, US.\r\nDaughter of actors/musicians [a6770046] and [a16984243].\r\nSister of [a6016928].",
+          "urls": [
+            "https://en.wikipedia.org/wiki/Billie_Eilish",
+            "https://www.youtube.com/@BillieEilish",
+            "https://soundcloud.com/billieeilish",
+            "https://www.instagram.com/billieeilish",
+            "https://www.facebook.com/billieeilish",
+            "https://tiktok.com/@billieeilish",
+            "https://eilish.tumblr.com",
+            "https://twitter.com/billieeilish",
+            "https://linktr.ee/billieeilish"
+          ],
+          "namevariations": [
+            "B. Eilish",
+            "B. O'Connell",
+            "Billy Eilish",
+            "Eilish",
+            "ビリー・アイリッシュ",
+            "怪奇比莉",
+            "比莉艾莉什"
+          ],
+          "aliases": [
+            {
+              "id": 6502756,
+              "name": "Billie O'Connell",
+              "resource_url": "https://api.discogs.com/artists/6502756"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      },
+      "6502756": {
+        "artist": {
+          "discogsArtistId": "6502756",
+          "name": "Billie O'Connell",
+          "realName": "Billie Eilish Pirate Baird O'Connell",
+          "profile": "[b]Please use this profile for songwriter and other credits listed as Billie O'Connell or Billie Eilish O'Connell (or any variants thereof).[/b]",
+          "artistUrls": [],
+          "aliases": [
+            {
+              "discogsArtistId": "5590213",
+              "name": "Billie Eilish"
+            }
+          ],
+          "nameVariations": [
+            "B. Eilish O'Connell",
+            "B. O'Connell",
+            "Billie EIlish O'Connell",
+            "Billie Eilish O'Connell",
+            "Billie Eilish O'connell",
+            "Billie Eilish OConnell",
+            "Billie Eilish O’Connell",
+            "Billie Ellis O’Connell",
+            "Billie O’Connell",
+            "Eilish O'Connell",
+            "Eilish O'Connell, Billie"
+          ],
+          "discogsResourceUrl": "https://api.discogs.com/artists/6502756",
+          "discogsWebUrl": "https://www.discogs.com/artist/6502756-Billie-OConnell",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "Billie O'Connell",
+          "id": 6502756,
+          "resource_url": "https://api.discogs.com/artists/6502756",
+          "uri": "https://www.discogs.com/artist/6502756-Billie-OConnell",
+          "releases_url": "https://api.discogs.com/artists/6502756/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/VO82ufRGWW00ZzJuqsAnCB-ZyjvqxFjgf_-P12xyPcg/rs:fit/g:sm/q:90/h:969/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDI3/NTYtMTU3ODA2MzMz/NS0zNDYwLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/VO82ufRGWW00ZzJuqsAnCB-ZyjvqxFjgf_-P12xyPcg/rs:fit/g:sm/q:90/h:969/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDI3/NTYtMTU3ODA2MzMz/NS0zNDYwLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/sOjCmsXZ3mertvv8SSPKBtj8Y2RG5tpOOmrLa3ObQjo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDI3/NTYtMTU3ODA2MzMz/NS0zNDYwLmpwZWc.jpeg",
+              "width": 600,
+              "height": 969
+            }
+          ],
+          "realname": "Billie Eilish Pirate Baird O'Connell",
+          "profile": "[b]Please use this profile for songwriter and other credits listed as Billie O'Connell or Billie Eilish O'Connell (or any variants thereof).[/b]",
+          "namevariations": [
+            "B. Eilish O'Connell",
+            "B. O'Connell",
+            "Billie EIlish O'Connell",
+            "Billie Eilish O'Connell",
+            "Billie Eilish O'connell",
+            "Billie Eilish OConnell",
+            "Billie Eilish O’Connell",
+            "Billie Ellis O’Connell",
+            "Billie O’Connell",
+            "Eilish O'Connell",
+            "Eilish O'Connell, Billie"
+          ],
+          "aliases": [
+            {
+              "id": 5590213,
+              "name": "Billie Eilish",
+              "resource_url": "https://api.discogs.com/artists/5590213"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {
+      "f4abc0b5-3f7a-4eff-8f78-ac078dbce533": {
+        "releaseCount": 100,
+        "distinctiveTitles": [
+          "myboi troyboi remix",
+          "hit me hard and soft",
+          "happier than ever live from disney s happier than ever a love letter to los angeles",
+          "bad guy",
+          "when the party s over",
+          "happier than ever acapellas",
+          "bellyache",
+          "ocean eyes astronomyy edit",
+          "xanny",
+          "copycat",
+          "the 30th live from singapore s cloud forest",
+          "six feet under",
+          "happier than ever a love letter to los angeles",
+          "hit me hard and soft the tour live",
+          "when i was older",
+          "when the party s over live from electric ballroom",
+          "my boy",
+          "burn",
+          "no time to die",
+          "you should see me in a crown",
+          "my future",
+          "ocean eyes the remixes",
+          "i love you live at the greek theatre",
+          "watch",
+          "she s broken",
+          "singles rarities remixes",
+          "happier than ever",
+          "intro hit me hard and soft tour",
+          "live",
+          "dont smile at me",
+          "oxytocin live from disney s happier than ever a love letter to los angeles",
+          "up next session billie eilish",
+          "6 18 18",
+          "bad guy the remixes",
+          "eilish",
+          "what was i made for live from lollapalooza chicago 2023",
+          "ocean eyes",
+          "2019 09 28 saturday night live new york ny usa",
+          "guess",
+          "l amour de ma vie over now extended edit",
+          "party favor",
+          "bury a friend the remixes",
+          "what was i made for",
+          "copycat sofi tukker remix",
+          "ilomilo live from billie eilish the world s a little blurry",
+          "therefore i am disco fries remix",
+          "birds of a feather amazon music songline",
+          "hostage",
+          "when we all fall asleep where do we go happier than ever",
+          "hotline bling",
+          "lo vas a olvidar",
+          "no time to die live from the brit awards 2020",
+          "when we all fall asleep where do we go",
+          "oxytocin",
+          "true blue",
+          "watch live from the hi hat",
+          "idontwannabeyouanymore",
+          "bad guy too kind flip",
+          "billie eilish",
+          "prime day show billie eilish",
+          "npr music tiny desk concert",
+          "lost cause",
+          "all the good girls go to hell",
+          "male fantasy",
+          "ocean eyes live from the hi hat",
+          "tv live from singapore s cloud forest",
+          "bored",
+          "happier than ever lyric mode",
+          "guitar songs",
+          "2019 09 30 the howard stern show new york ny usa",
+          "birds of a feather",
+          "be",
+          "lovely dj soltrix bachata remix",
+          "billie eilish artist of the year 2024 live",
+          "bury a friend",
+          "wish you were gay",
+          "chihiro",
+          "bad guy sawtooth s sympathetic mix",
+          "therefore i am",
+          "everything i wanted",
+          "fingers crossed",
+          "copycat live from the hi hat",
+          "come out and play",
+          "l integrale de ses albums",
+          "ride",
+          "lunch",
+          "apple music live billie eilish",
+          "2019 06 30 glastonbury festival of contemporary performing arts",
+          "six feet under the remixes",
+          "ocean eyes king jase remix",
+          "nda",
+          "your power",
+          "bitches broken hearts",
+          "track by track commentary billie eilish and finneas on hit me hard and soft",
+          "billie eilish live at the steve jobs theater",
+          "lovely",
+          "live at third man records",
+          "bellyache marian hill remix"
+        ],
+        "earliestYear": 2015,
+        "latestYear": 2026
+      }
+    },
+    "redirectedIdentifiers": []
+  }
+}

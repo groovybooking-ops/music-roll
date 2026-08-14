@@ -106,7 +106,7 @@ test("adapter and parity checks remain valid when the simulated live directory i
 test("the permanent directory preserves adapter, filtering, and random roll behavior", () => {
     const live = JSON.parse(fs.readFileSync(path.join(root, "data", "artists.json"), "utf8"));
     const adapted = adaptArtistDirectory(live);
-    assert.equal(adapted.length, 20);
+    assert.equal(adapted.length, 41);
     for (const artist of adapted) {
         const matches = adapted.filter(item => item.genre === artist.genre && item.tier === artist.tier);
         for (const randomValue of [0, 0.5, 0.999999]) {
@@ -161,7 +161,7 @@ function livePageHarness(payload, options = {}) {
         alert(message) { alerts.push(message); },
         console: { error(...values) { errors.push(values); } },
         requestAnimationFrame(callback) { callback(); },
-        window: { localStorage }, Math
+        window: { localStorage }, Math: Object.assign(Object.create(Math), { random: () => options.randomValue ?? 0 })
     });
     vm.runInContext(fs.readFileSync(path.join(root, "artist-model-adapter.js"), "utf8"), context, { filename: "artist-model-adapter.js" });
     vm.runInContext(fs.readFileSync(path.join(root, "my-artists-store.js"), "utf8"), context, { filename: "my-artists-store.js" });
@@ -170,11 +170,11 @@ function livePageHarness(payload, options = {}) {
     return { alerts, context, elements, errors, listeners };
 }
 
-test("live page normalizes all 20 artists and enables unchanged roll behavior", async () => {
+test("live page normalizes all 41 artists and enables unchanged roll behavior", async () => {
     const live = JSON.parse(fs.readFileSync(path.join(root, "data", "artists.json"), "utf8"));
     const harness = livePageHarness(live, { genre: "dance", tier: "mainstream" });
     await new Promise(resolve => setImmediate(resolve));
-    assert.equal(vm.runInContext("artists.length", harness.context), 20);
+    assert.equal(vm.runInContext("artists.length", harness.context), 41);
     assert.equal(harness.elements.rollButton.disabled, false);
     assert.equal(harness.elements.rollAgainButton.disabled, false);
     assert.equal(harness.elements.loadingStatus.hidden, false);

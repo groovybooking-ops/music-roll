@@ -1,0 +1,1203 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "underscores",
+    "proposedMusicRollId": "mr_artist_000022",
+    "spotifyArtistId": "7HfUJxeVTgrvhk0eWHFzV7"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "7HfUJxeVTgrvhk0eWHFzV7",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "7HfUJxeVTgrvhk0eWHFzV7",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "7HfUJxeVTgrvhk0eWHFzV7",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "7HfUJxeVTgrvhk0eWHFzV7",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q110852201",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q121745420",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6908296",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6908296",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6908296",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "source": "musicbrainz",
+      "path": "artist.id",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6908296",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:discogs",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "7HfUJxeVTgrvhk0eWHFzV7",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:free streaming",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q121745420",
+      "source": "musicbrainz",
+      "path": "artist.url-rels:wikidata",
+      "independentOrigin": "musicbrainz",
+      "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "6908296",
+      "source": "discogs",
+      "path": "artist.id",
+      "independentOrigin": "discogs",
+      "assertedByIdentifier": "6908296"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "7HfUJxeVTgrvhk0eWHFzV7",
+      "observedValues": [
+        "7HfUJxeVTgrvhk0eWHFzV7"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7HfUJxeVTgrvhk0eWHFzV7",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7HfUJxeVTgrvhk0eWHFzV7",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7HfUJxeVTgrvhk0eWHFzV7",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7HfUJxeVTgrvhk0eWHFzV7",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7HfUJxeVTgrvhk0eWHFzV7",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "Q110852201",
+        "Q121745420"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q110852201",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q121745420",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q121745420",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "observedValues": [
+        "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "6908296",
+      "observedValues": [
+        "6908296"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6908296",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6908296",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6908296",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6908296",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6908296",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "6908296"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "wikidataQid",
+      "observedValues": [
+        "Q110852201",
+        "Q121745420"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+        "name": "underscores",
+        "sortName": "underscores",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "glitch hop/pop artist",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "7HfUJxeVTgrvhk0eWHFzV7"
+        ],
+        "discogsArtistIds": [
+          "6908296"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": [
+          "multiple_active_wikidata_qids"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "musicbrainz",
+      "operation": "release_groups",
+      "identifier": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "statusCode": null,
+      "message": "fetch failed"
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "unresolved_identity",
+  "changedOutcome": false,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "7HfUJxeVTgrvhk0eWHFzV7",
+      "wikidataQid": "Q110852201",
+      "name": "underscores",
+      "musicBrainzArtistId": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "discogsArtistId": "6908296"
+    },
+    "musicBrainzRecords": {
+      "ab1a3f85-e0ea-470a-af5c-175447ae774c": {
+        "artist": {
+          "musicBrainzArtistId": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+          "name": "underscores",
+          "sortName": "underscores",
+          "artistType": "Person",
+          "disambiguation": "glitch hop/pop artist",
+          "country": "US",
+          "area": {
+            "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+            "name": "New York",
+            "sortName": "New York",
+            "type": null
+          },
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": "2000-04-21",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Under scores",
+              "sortName": "Under scores",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Underscores",
+              "sortName": "Underscores",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000476076239"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0004029455"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://underscores.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/6908296"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/11926479"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/underscores"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Underscores"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://underscores.plus/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/underscores"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id1204838812"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/2975892"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/underscores/601956"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/-/2975892"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/underscores/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/underscoresplus/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/underscoresplus"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/itsunderscores"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/itsunderscores"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/9680564"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/underscores"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1204838812"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/mx/artist/1204838812"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1204838812"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/2975892"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/9342771"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/-/2975892"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q121745420"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC7Dr19bFdqkkfREMITgY9Vg"
+            }
+          ]
+        },
+        "raw": {
+          "type": "Person",
+          "country": "US",
+          "aliases": [
+            {
+              "primary": null,
+              "type-id": null,
+              "end": null,
+              "ended": false,
+              "type": null,
+              "begin": null,
+              "sort-name": "Under scores",
+              "locale": null,
+              "name": "Under scores"
+            },
+            {
+              "sort-name": "Underscores",
+              "begin": null,
+              "name": "Underscores",
+              "locale": null,
+              "type-id": null,
+              "primary": null,
+              "end": null,
+              "type": null,
+              "ended": false
+            }
+          ],
+          "relations": [
+            {
+              "url": {
+                "id": "c0596a3a-8406-4f7e-b0cb-c2c721b9613f",
+                "resource": "https://www.allmusic.com/artist/mn0004029455"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "type": "allmusic",
+              "ended": false,
+              "begin": null,
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward"
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "id": "33a576db-1646-443e-905d-06ee2bf53b21",
+                "resource": "https://underscores.bandcamp.com/"
+              },
+              "type": "bandcamp",
+              "ended": false
+            },
+            {
+              "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "discogs",
+              "url": {
+                "resource": "https://www.discogs.com/artist/6908296",
+                "id": "5ad8330c-52d9-4333-ad6a-00b83123d14f"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": ""
+            },
+            {
+              "begin": null,
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "f0d6c18a-2a6d-4743-a70f-45063d615991",
+                "resource": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "free streaming"
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "attribute-ids": {},
+              "begin": null,
+              "type": "free streaming",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.deezer.com/artist/11926479",
+                "id": "92dd5d84-585f-4cca-99d9-bc1a26c732b0"
+              }
+            },
+            {
+              "begin": null,
+              "attribute-ids": {},
+              "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "url": {
+                "id": "c847b888-7550-4631-9809-3846a608ac50",
+                "resource": "https://www.last.fm/music/underscores"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "ended": false,
+              "type": "last.fm"
+            },
+            {
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null,
+              "type": "lyrics",
+              "ended": false,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://genius.com/artists/Underscores",
+                "id": "3f452648-b489-4f99-9e49-3a3f8307374f"
+              }
+            },
+            {
+              "type": "official homepage",
+              "ended": false,
+              "url": {
+                "id": "d2b2a313-6a8a-4c9a-8e42-8c900668a3fb",
+                "resource": "https://underscores.plus/"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "type": "other databases",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://rateyourmusic.com/artist/underscores",
+                "id": "4d3f653d-99fa-4a0e-af9d-eeff7c0102cb"
+              },
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "ended": false,
+              "type": "purchase for download",
+              "url": {
+                "id": "77d48351-3d34-4e2c-a69c-0b7c19674d54",
+                "resource": "https://itunes.apple.com/us/artist/id1204838812"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "16a8ad3e-b10a-45dc-8c02-c07cb80478c1",
+                "resource": "https://open.qobuz.com/artist/2975892"
+              },
+              "ended": false,
+              "type": "purchase for download"
+            },
+            {
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://www.beatport.com/artist/underscores/601956",
+                "id": "0813029d-9f83-41b8-ae3a-062cdcc3ec47"
+              },
+              "type": "purchase for download",
+              "ended": false,
+              "begin": null,
+              "target-type": "url",
+              "direction": "forward",
+              "attribute-values": {},
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+              "end": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "purchase for download",
+              "ended": false,
+              "url": {
+                "resource": "https://www.qobuz.com/us-en/interpreter/-/2975892",
+                "id": "4fb99a49-a002-4902-8021-7164483c4740"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": ""
+            },
+            {
+              "ended": false,
+              "type": "social network",
+              "url": {
+                "id": "6f6f2258-6382-49d0-bbb3-3b4425de27c2",
+                "resource": "https://www.instagram.com/underscores/"
+              },
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": "2023-05-15"
+            },
+            {
+              "ended": true,
+              "type": "social network",
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "url": {
+                "resource": "https://www.instagram.com/underscoresplus/",
+                "id": "a32326fc-aff6-487d-a48a-e0967fb9a88c"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": "2023-05-15",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "begin": null
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "attribute-ids": {},
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://twitter.com/underscoresplus",
+                "id": "ceb928e9-1243-4f3c-b284-2c052127e990"
+              },
+              "ended": false,
+              "type": "social network"
+            },
+            {
+              "begin": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "end": null,
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "resource": "https://www.facebook.com/itsunderscores",
+                "id": "df03c157-c69d-44f0-85d2-df2382063c13"
+              },
+              "ended": false,
+              "type": "social network"
+            },
+            {
+              "end": null,
+              "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+              "attribute-ids": {},
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null,
+              "ended": true,
+              "type": "social network",
+              "url": {
+                "id": "8e36a03a-86bb-40a5-9218-2ca2a3d0e304",
+                "resource": "https://twitter.com/itsunderscores"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": []
+            },
+            {
+              "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+              "attribute-ids": {},
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "songkick",
+              "url": {
+                "id": "61d27021-b67c-4a76-86c6-87fe8db44dcb",
+                "resource": "https://www.songkick.com/artists/9680564"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null,
+              "type": "soundcloud",
+              "ended": false,
+              "url": {
+                "id": "a25b59f0-866f-494f-aa85-68c5ec496a61",
+                "resource": "https://soundcloud.com/underscores"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": ""
+            },
+            {
+              "begin": null,
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "end": null,
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": "",
+              "url": {
+                "resource": "https://music.apple.com/gb/artist/1204838812",
+                "id": "5b9e80c7-7ac0-4c6c-8098-d90d140f878c"
+              },
+              "type": "streaming",
+              "ended": false
+            },
+            {
+              "ended": false,
+              "type": "streaming",
+              "url": {
+                "id": "e6d420e7-eb2f-41fc-b6be-0636c0595adf",
+                "resource": "https://music.apple.com/mx/artist/1204838812"
+              },
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "begin": null
+            },
+            {
+              "type": "streaming",
+              "ended": false,
+              "url": {
+                "resource": "https://music.apple.com/us/artist/1204838812",
+                "id": "c6069ca8-40cb-40fb-9fea-07c6522fa0bd"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "begin": null
+            },
+            {
+              "ended": false,
+              "type": "streaming",
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://open.qobuz.com/artist/2975892",
+                "id": "16a8ad3e-b10a-45dc-8c02-c07cb80478c1"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "end": null,
+              "attribute-ids": {},
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "begin": null
+            },
+            {
+              "target-type": "url",
+              "attribute-values": {},
+              "direction": "forward",
+              "end": null,
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "begin": null,
+              "type": "streaming",
+              "ended": false,
+              "source-credit": "",
+              "target-credit": "",
+              "attributes": [],
+              "url": {
+                "resource": "https://tidal.com/artist/9342771",
+                "id": "c20c4ab8-e310-454c-8a90-476274b1563a"
+              }
+            },
+            {
+              "ended": false,
+              "type": "streaming",
+              "attributes": [],
+              "target-credit": "",
+              "source-credit": "",
+              "url": {
+                "id": "4fb99a49-a002-4902-8021-7164483c4740",
+                "resource": "https://www.qobuz.com/us-en/interpreter/-/2975892"
+              },
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url",
+              "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+              "attribute-ids": {},
+              "end": null,
+              "begin": null
+            },
+            {
+              "attribute-ids": {},
+              "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+              "end": null,
+              "attribute-values": {},
+              "direction": "forward",
+              "target-type": "url",
+              "begin": null,
+              "ended": false,
+              "type": "wikidata",
+              "url": {
+                "resource": "https://www.wikidata.org/wiki/Q121745420",
+                "id": "2a2264f7-c826-485a-a745-00a4c835f1b6"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "source-credit": ""
+            },
+            {
+              "url": {
+                "id": "5ca87581-7f97-4c29-970d-ecfde8152079",
+                "resource": "https://www.youtube.com/channel/UC7Dr19bFdqkkfREMITgY9Vg"
+              },
+              "source-credit": "",
+              "attributes": [],
+              "target-credit": "",
+              "ended": false,
+              "type": "youtube",
+              "begin": null,
+              "end": null,
+              "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+              "attribute-ids": {},
+              "direction": "forward",
+              "attribute-values": {},
+              "target-type": "url"
+            }
+          ],
+          "life-span": {
+            "begin": "2000-04-21",
+            "end": null,
+            "ended": false
+          },
+          "area": {
+            "iso-3166-2-codes": [
+              "US-NY"
+            ],
+            "name": "New York",
+            "disambiguation": "",
+            "sort-name": "New York",
+            "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+            "type": null,
+            "type-id": null
+          },
+          "ipis": [],
+          "name": "underscores",
+          "disambiguation": "glitch hop/pop artist",
+          "sort-name": "underscores",
+          "isnis": [
+            "0000000476076239"
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "end-area": null,
+          "begin-area": null,
+          "gender": "Female",
+          "id": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+        }
+      }
+    },
+    "discogsRecords": {
+      "6908296": {
+        "artist": {
+          "discogsArtistId": "6908296",
+          "name": "underscores",
+          "realName": "April Harper Grey",
+          "profile": "Experimental electronic music producer based in San Francisco, USA.",
+          "artistUrls": [
+            "https://underscores.bandcamp.com/",
+            "https://soundcloud.com/underscores",
+            "https://www.youtube.com/channel/UC7Dr19bFdqkkfREMITgY9Vg",
+            "https://twitter.com/underscoresplus",
+            "https://www.facebook.com/itsunderscores/",
+            "https://www.instagram.com/underscoresplus/"
+          ],
+          "aliases": [
+            {
+              "discogsArtistId": "14239060",
+              "name": "April Harper Grey"
+            },
+            {
+              "discogsArtistId": "15561729",
+              "name": "Milkfish (2)"
+            }
+          ],
+          "nameVariations": [],
+          "discogsResourceUrl": "https://api.discogs.com/artists/6908296",
+          "discogsWebUrl": "https://www.discogs.com/artist/6908296-underscores",
+          "dataQuality": "Needs Vote"
+        },
+        "raw": {
+          "name": "underscores",
+          "id": 6908296,
+          "resource_url": "https://api.discogs.com/artists/6908296",
+          "uri": "https://www.discogs.com/artist/6908296-underscores",
+          "releases_url": "https://api.discogs.com/artists/6908296/releases",
+          "images": [
+            {
+              "type": "primary",
+              "uri": "https://i.discogs.com/XNcTKE5VvGer3vRzFMApAvY8f7zGMfBAzB3ETTUhNe0/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTc3NDA1Mzcw/Mi0xMzY2LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/XNcTKE5VvGer3vRzFMApAvY8f7zGMfBAzB3ETTUhNe0/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTc3NDA1Mzcw/Mi0xMzY2LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/LH9PkjZwFerPqFXqBIZXV0wzM1cPZPpkV8mJgWxsHHc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTc3NDA1Mzcw/Mi0xMzY2LmpwZWc.jpeg",
+              "width": 600,
+              "height": 750
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/5j8Y_HDaFRZHrPg26qCUokG3jhqJnr87Sg1iQw2_oKE/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTcwMjYwOTQy/Mi0yMDUyLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/5j8Y_HDaFRZHrPg26qCUokG3jhqJnr87Sg1iQw2_oKE/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTcwMjYwOTQy/Mi0yMDUyLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/e1BDTX1soY0_6jy5DnBQhYGbqb2k7XjfKqae4qjJ8I0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTcwMjYwOTQy/Mi0yMDUyLmpwZWc.jpeg",
+              "width": 600,
+              "height": 586
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/5V3wVBAtjt2p4X5FgVEdsGe3cLYVc7I8TjdHImUrVto/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTYyNDg2OTc5/MC04OTQxLmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/5V3wVBAtjt2p4X5FgVEdsGe3cLYVc7I8TjdHImUrVto/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTYyNDg2OTc5/MC04OTQxLmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/OmThU2_QeI0X0CMfllGdyk6raroEQCFH2Fi15qpQmeE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTYyNDg2OTc5/MC04OTQxLmpwZWc.jpeg",
+              "width": 600,
+              "height": 599
+            },
+            {
+              "type": "secondary",
+              "uri": "https://i.discogs.com/halp0qIlt-oYgVvy19MSLN34KmifOhDvtia_XUGXVDg/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTU0NzczNjk0/NC00MTY3LmpwZWc.jpeg",
+              "resource_url": "https://i.discogs.com/halp0qIlt-oYgVvy19MSLN34KmifOhDvtia_XUGXVDg/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTU0NzczNjk0/NC00MTY3LmpwZWc.jpeg",
+              "uri150": "https://i.discogs.com/GcUD8UVL-87qYtXebHSQRAW4MObRMb93s97hQZ5HDfk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5MDgy/OTYtMTU0NzczNjk0/NC00MTY3LmpwZWc.jpeg",
+              "width": 225,
+              "height": 225
+            }
+          ],
+          "realname": "April Harper Grey",
+          "profile": "Experimental electronic music producer based in San Francisco, USA.",
+          "urls": [
+            "https://underscores.bandcamp.com/",
+            "https://soundcloud.com/underscores",
+            "https://www.youtube.com/channel/UC7Dr19bFdqkkfREMITgY9Vg",
+            "https://twitter.com/underscoresplus",
+            "https://www.facebook.com/itsunderscores/",
+            "https://www.instagram.com/underscoresplus/"
+          ],
+          "aliases": [
+            {
+              "id": 14239060,
+              "name": "April Harper Grey",
+              "resource_url": "https://api.discogs.com/artists/14239060"
+            },
+            {
+              "id": 15561729,
+              "name": "Milkfish (2)",
+              "resource_url": "https://api.discogs.com/artists/15561729"
+            }
+          ],
+          "data_quality": "Needs Vote"
+        },
+        "authenticationUsed": false
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}

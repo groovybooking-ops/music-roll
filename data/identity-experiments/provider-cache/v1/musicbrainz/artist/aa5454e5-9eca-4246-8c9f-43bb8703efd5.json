@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "aa5454e5-9eca-4246-8c9f-43bb8703efd5",
+  "retrievedAt": "2026-08-14T05:18:51.220Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "aa5454e5-9eca-4246-8c9f-43bb8703efd5",
+      "name": "Wednesday",
+      "sortName": "Wednesday",
+      "artistType": "Group",
+      "disambiguation": "German‐English rock band active from 1975–1980",
+      "country": "DE",
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "name": "Germany",
+        "sortName": "Germany",
+        "type": null
+      },
+      "beginArea": {
+        "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+        "name": "Berlin",
+        "sortName": "Berlin",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1975",
+        "end": "1980",
+        "ended": true
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/306619"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/wednesday"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2554006"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "end": "1980",
+        "begin": "1975",
+        "ended": true
+      },
+      "begin-area": {
+        "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+        "name": "Berlin",
+        "sort-name": "Berlin",
+        "iso-3166-2-codes": [
+          "DE-BE"
+        ],
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "area": {
+        "name": "Germany",
+        "iso-3166-1-codes": [
+          "DE"
+        ],
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "sort-name": "Germany",
+        "type": null,
+        "type-id": null,
+        "disambiguation": ""
+      },
+      "country": "DE",
+      "gender": null,
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender-id": null,
+      "aliases": [],
+      "end-area": null,
+      "id": "aa5454e5-9eca-4246-8c9f-43bb8703efd5",
+      "name": "Wednesday",
+      "ipis": [],
+      "sort-name": "Wednesday",
+      "type": "Group",
+      "isnis": [],
+      "disambiguation": "German‐English rock band active from 1975–1980",
+      "relations": [
+        {
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type": "discogs",
+          "url": {
+            "resource": "https://www.discogs.com/artist/306619",
+            "id": "8c4cf0e1-6f04-472b-afb9-300e7b882973"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "other databases",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "5ffd5524-da15-41fa-ae87-6592056182c5",
+            "resource": "https://rateyourmusic.com/artist/wednesday"
+          }
+        },
+        {
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "end": null,
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q2554006",
+            "id": "40a5534e-2d08-46aa-a2aa-1d54bd23c957"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "wikidata"
+        }
+      ]
+    }
+  }
+}

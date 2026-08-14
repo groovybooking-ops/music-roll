@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "9af01d07-8f6e-4651-bdcb-38efae021af7",
+  "retrievedAt": "2026-08-14T05:18:52.437Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "9af01d07-8f6e-4651-bdcb-38efae021af7",
+      "name": "Wednesday",
+      "sortName": "Wednesday",
+      "artistType": "Group",
+      "disambiguation": "70s Canadian pop vocal group",
+      "country": "CA",
+      "area": {
+        "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+        "name": "Canada",
+        "sortName": "Canada",
+        "type": null
+      },
+      "beginArea": {
+        "id": "39783294-2224-427c-b0dc-65c6e8f03a67",
+        "name": "Oshawa",
+        "sortName": "Oshawa",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971",
+        "end": "1981",
+        "ended": true
+      },
+      "aliases": [],
+      "isni": [
+        "0000000092916446"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0001245715"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/976328"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/wednesday_f1"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7979232"
+        }
+      ]
+    },
+    "raw": {
+      "gender-id": null,
+      "country": "CA",
+      "name": "Wednesday",
+      "isnis": [
+        "0000000092916446"
+      ],
+      "area": {
+        "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+        "iso-3166-1-codes": [
+          "CA"
+        ],
+        "name": "Canada",
+        "type": null,
+        "disambiguation": "",
+        "sort-name": "Canada",
+        "type-id": null
+      },
+      "end-area": null,
+      "relations": [
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "allmusic",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "id": "aa369118-7841-4875-baf1-2305036ea74a",
+            "resource": "https://www.allmusic.com/artist/mn0001245715"
+          },
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+        },
+        {
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "id": "340b4fda-ee28-41ca-83cc-c2d2987cdb5b",
+            "resource": "https://www.discogs.com/artist/976328"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "discogs",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null
+        },
+        {
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "url": {
+            "id": "68bdd973-8f2a-45d2-ad46-61f87ee93150",
+            "resource": "https://rateyourmusic.com/artist/wednesday_f1"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [],
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "other databases",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward"
+        },
+        {
+          "type": "wikidata",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q7979232",
+            "id": "57f0cf67-8f5f-4f59-9c44-a00da062a926"
+          }
+        }
+      ],
+      "type": "Group",
+      "aliases": [],
+      "gender": null,
+      "sort-name": "Wednesday",
+      "id": "9af01d07-8f6e-4651-bdcb-38efae021af7",
+      "begin-area": {
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Oshawa",
+        "id": "39783294-2224-427c-b0dc-65c6e8f03a67",
+        "name": "Oshawa",
+        "type": null
+      },
+      "disambiguation": "70s Canadian pop vocal group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "life-span": {
+        "end": "1981",
+        "ended": true,
+        "begin": "1971"
+      },
+      "ipis": []
+    }
+  }
+}

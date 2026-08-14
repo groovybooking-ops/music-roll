@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-14T05:28:44.713Z",
+  "reviewOnly": true,
+  "files": [
+    "human-review-summary.json",
+    "artist-id-registry-extension.preview.json",
+    "artists-v2-migration-ready.preview.json"
+  ],
+  "validation": {
+    "candidates": 21,
+    "existingPermanentArtists": 20,
+    "v2DirectoryRecords": 41,
+    "schemaValid": true,
+    "compatibilityFieldsValid": true,
+    "uniqueMusicRollIds": true,
+    "uniqueSpotifyIds": true,
+    "curatedGenresAndStagesUnchanged": true,
+    "currentLiveRecordsUnchanged": true,
+    "candidateApprovalState": "not_approved",
+    "candidatesMigrationEligible": false,
+    "apiRequests": 0,
+    "protectedFilesUnchanged": true
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "75de4ac4af9e5db422f6971b40777a1c6f3b647a325e39af8b8b6dfcf3df666a",
+      "data/artist-id-registry.json": "0b393a97de149b9c05b1e6bf44f66cab9c1764112e6d7da1602b2e4615adf45d"
+    },
+    "after": {
+      "data/artists.json": "75de4ac4af9e5db422f6971b40777a1c6f3b647a325e39af8b8b6dfcf3df666a",
+      "data/artist-id-registry.json": "0b393a97de149b9c05b1e6bf44f66cab9c1764112e6d7da1602b2e4615adf45d"
+    }
+  },
+  "safety": {
+    "identitiesApproved": 0,
+    "identitiesVerified": 0,
+    "confidenceScoresCalculated": 0,
+    "migrationsPerformed": 0,
+    "migrationEligibilityChanged": false,
+    "liveDirectoryModified": false,
+    "permanentRegistryModified": false,
+    "apiRequests": 0
+  }
+}

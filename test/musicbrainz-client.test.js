@@ -2,7 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
-const { MusicBrainzApiError, getMusicBrainzArtist, searchMusicBrainzArtistsByExactName } = require("../lib/musicbrainz-client");
+const { MusicBrainzApiError, getMusicBrainzArtist, getMusicBrainzArtistResolution, lookupMusicBrainzArtistsByExactSpotifyUrl, searchMusicBrainzArtistsByExactName } = require("../lib/musicbrainz-client");
 
 const mbid = "272989c8-5535-492d-a25c-9f58803e027f";
 const fixture = JSON.parse(fs.readFileSync(path.join(__dirname, "fixtures", "musicbrainz-exact", "sza-artist.json"), "utf8"));
@@ -46,4 +46,36 @@ test("same-name audit returns only exact normalized display names", async () => 
     const result = await searchMusicBrainzArtistsByExactName("Nirvana", { fetchImpl: async () => response(200, searchFixture) });
     assert.equal(result.exactMatches.length, 2);
     assert.ok(result.exactMatches.every(artist => artist.name === "Nirvana"));
+});
+
+test("exact Spotify-URL lookup returns only directly related MusicBrainz artists", async () => {
+    const spotifyUrl = "https://open.spotify.com/artist/1234567890123456789012";
+    let requestedUrl;
+    const result = await lookupMusicBrainzArtistsByExactSpotifyUrl(spotifyUrl, { fetchImpl: async url => {
+        requestedUrl = String(url);
+        return response(200, { relations: [{ "target-type": "artist", type: "streaming music", direction: "backward", artist: { id: "11111111-1111-4111-8111-111111111111", name: "Exact Artist", type: "Person" } }, { "target-type": "label", label: { id: "ignored" } }] });
+    } });
+    assert.match(requestedUrl, /resource=https%3A%2F%2Fopen\.spotify\.com%2Fartist%2F1234567890123456789012/);
+    assert.deepEqual(result.candidates.map(item => item.musicBrainzArtistId), ["11111111-1111-4111-8111-111111111111"]);
+});
+
+test("exact Spotify-URL lookup preserves multiple MBIDs and treats 404 as absence", async () => {
+    const spotifyUrl = "https://open.spotify.com/artist/2234567890123456789012";
+    const many = await lookupMusicBrainzArtistsByExactSpotifyUrl(spotifyUrl, { fetchImpl: async () => response(200, { relations: [
+        { "target-type": "artist", artist: { id: "22222222-2222-4222-8222-222222222222", name: "One" } },
+        { "target-type": "artist", artist: { id: "33333333-3333-4333-8333-333333333333", name: "Two" } }
+    ] }) });
+    assert.equal(many.candidates.length, 2);
+    const missing = await lookupMusicBrainzArtistsByExactSpotifyUrl(spotifyUrl, { fetchImpl: async () => response(404, {}) });
+    assert.equal(missing.exactUrlFound, false);
+    assert.deepEqual(missing.candidates, []);
+});
+
+test("exact artist resolution preserves an exposed MusicBrainz redirect", async () => {
+    const oldMbid = "11111111-1111-4111-8111-111111111111";
+    const redirectedFixture = { ...fixture, id: mbid };
+    const result = await getMusicBrainzArtistResolution(oldMbid, { fetchImpl: async () => ({ ...response(200, redirectedFixture), url: `https://musicbrainz.org/ws/2/artist/${mbid}?inc=aliases+url-rels&fmt=json` }) });
+    assert.equal(result.state, "redirected");
+    assert.equal(result.requestedMbid, oldMbid);
+    assert.equal(result.resolvedMbid, mbid);
 });

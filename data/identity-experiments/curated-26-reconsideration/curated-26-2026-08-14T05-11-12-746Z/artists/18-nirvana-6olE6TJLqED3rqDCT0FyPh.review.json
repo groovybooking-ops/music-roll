@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Nirvana",
+    "proposedMusicRollId": "mr_artist_000036",
+    "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh"
+  },
+  "outcome": "unresolved_identity",
+  "exactSpotifyUrlFallback": {
+    "status": "no_artist_relationship",
+    "selectedMbid": null,
+    "candidates": []
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6olE6TJLqED3rqDCT0FyPh",
+      "source": "music_roll_input",
+      "path": "stored_spotify_candidate",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6olE6TJLqED3rqDCT0FyPh",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6olE6TJLqED3rqDCT0FyPh",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6olE6TJLqED3rqDCT0FyPh",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q11649",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q11649",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "125246",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "125246",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "125246",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    }
+  ],
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6olE6TJLqED3rqDCT0FyPh",
+      "observedValues": [
+        "6olE6TJLqED3rqDCT0FyPh"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6olE6TJLqED3rqDCT0FyPh",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6olE6TJLqED3rqDCT0FyPh",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6olE6TJLqED3rqDCT0FyPh",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6olE6TJLqED3rqDCT0FyPh",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q11649",
+      "observedValues": [
+        "Q11649"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11649",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11649",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "observedValues": [
+        "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "125246",
+      "observedValues": [
+        "125246"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "125246",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "125246",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "125246",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 7,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 6,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "GB",
+        "disambiguation": "60s band from the UK",
+        "score": 75,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "307513"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "c49d69dc-e008-47cf-b5ff-160fafb1fe1f",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "FR",
+        "disambiguation": "’70s French band from Martigues",
+        "score": 61,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "5145389"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "85af0709-95db-4fbc-801a-120e9f4766d0",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "FI",
+        "disambiguation": "early 1980s Finnish punk band",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "2744248"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "28a4618c-38e4-4027-ad2c-db66a14a2d85",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "YU",
+        "disambiguation": "Croatian prog-rock band active in first half of 70s in former Yugoslavia.",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1082359"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "3aa878c0-224b-41e5-abd1-63be359d2bca",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "founded in 1987 by a Michael Jackson double/imitator",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "457609"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "426f27d1-8ae5-4d4b-89ef-17d18472134a",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "James Ferraro",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1176738"
+        ]
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "1980s–1990s US grunge band",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "6olE6TJLqED3rqDCT0FyPh"
+        ],
+        "discogsArtistIds": [
+          "125246"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "GB",
+        "disambiguation": "60s band from the UK",
+        "score": 75,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "307513"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "c49d69dc-e008-47cf-b5ff-160fafb1fe1f",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "FR",
+        "disambiguation": "’70s French band from Martigues",
+        "score": 61,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "5145389"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "85af0709-95db-4fbc-801a-120e9f4766d0",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "FI",
+        "disambiguation": "early 1980s Finnish punk band",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "2744248"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "28a4618c-38e4-4027-ad2c-db66a14a2d85",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Group",
+        "country": "YU",
+        "disambiguation": "Croatian prog-rock band active in first half of 70s in former Yugoslavia.",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1082359"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "3aa878c0-224b-41e5-abd1-63be359d2bca",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "founded in 1987 by a Michael Jackson double/imitator",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "457609"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "426f27d1-8ae5-4d4b-89ef-17d18472134a",
+        "name": "Nirvana",
+        "sortName": "Nirvana",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "James Ferraro",
+        "score": 60,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "1176738"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "conflictResolution": {
+    "interpretation": {
+      "conflictType": "unresolved_multiplicity",
+      "mechanicallyResolvable": false,
+      "signals": {
+        "semanticContradictions": [],
+        "redirectedIdentifiers": [],
+        "deprecatedIdentifiers": [],
+        "providerMultiplicityEvidence": [],
+        "unresolvedIdentifiers": [
+          "musicbrainz:5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+          "discogs:125246"
+        ]
+      }
+    },
+    "fingerprintComparisons": [],
+    "hasPositiveCatalogAnchor": false,
+    "qualifiesAsProviderMultiplicity": false,
+    "automaticVerificationAllowed": false,
+    "migrationApprovalGranted": false
+  },
+  "missingEvidence": [],
+  "providerErrors": [
+    {
+      "provider": "musicbrainz",
+      "operation": "artist",
+      "identifier": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "statusCode": null,
+      "message": "MusicBrainz artist request failed before receiving a response."
+    },
+    {
+      "provider": "discogs",
+      "operation": "artist",
+      "identifier": "125246",
+      "statusCode": null,
+      "message": "Discogs artist request failed before receiving a response."
+    }
+  ],
+  "safety": {
+    "identityVerified": false,
+    "identityApproved": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "migrationPerformed": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  },
+  "conservativeFailureOverride": true,
+  "priorOutcome": "coherent_identity_with_same_name_ambiguity",
+  "changedOutcome": true,
+  "changeEvidence": [],
+  "evidence": {
+    "wikidata": {
+      "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
+      "wikidataQid": "Q11649",
+      "name": "Nirvana",
+      "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "discogsArtistId": "125246"
+    },
+    "musicBrainzRecords": {
+      "5b11f4ce-a62d-471e-81fc-a69a8278c7da": {
+        "state": "unresolved"
+      }
+    },
+    "discogsRecords": {
+      "125246": {
+        "state": "unresolved"
+      }
+    },
+    "musicBrainzFingerprints": {}
+  }
+}
