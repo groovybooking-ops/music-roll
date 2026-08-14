@@ -1,0 +1,33 @@
+{
+  "head": {
+    "vars": [
+      "item",
+      "itemLabel",
+      "musicBrainzArtistId",
+      "discogsArtistId"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "item": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q11649"
+        },
+        "musicBrainzArtistId": {
+          "type": "literal",
+          "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+        },
+        "discogsArtistId": {
+          "type": "literal",
+          "value": "125246"
+        },
+        "itemLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Nirvana"
+        }
+      }
+    ]
+  }
+}

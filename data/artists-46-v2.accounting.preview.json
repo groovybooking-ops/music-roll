@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": 1,
+  "reportId": "curated-46-v2-migration-accounting",
+  "generatedAt": "2026-08-13T00:28:35.931Z",
+  "reviewOnly": true,
+  "totalArtists": 46,
+  "records": [
+    {
+      "name": "Liv.e",
+      "genre": "rnb",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000007",
+      "spotify": {
+        "id": "0YCL71Clky5els6NireSBP",
+        "url": "https://open.spotify.com/artist/0YCL71Clky5els6NireSBP",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7715e0efa8b952e5f4eb01b2"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Fana Hues",
+      "genre": "rnb",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000008",
+      "spotify": {
+        "id": "4yJHrytMK7mqtKsXVGaBNg",
+        "url": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb14acb92572639946429e850f"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "GROOVY",
+      "genre": "rnb",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000001",
+      "spotify": {
+        "id": "6Y6qIKwe32BxNflpxbKsJc",
+        "url": "https://open.spotify.com/artist/6Y6qIKwe32BxNflpxbKsJc",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb2c58ddfee24946561ab5850d"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "Brent Faiyaz",
+      "genre": "rnb",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000005",
+      "spotify": {
+        "id": "3tlXnStJ1fFhdScmQeLpuG",
+        "url": "https://open.spotify.com/artist/3tlXnStJ1fFhdScmQeLpuG",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb582fbf712f5b6a9bf65d9b84"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "Elmiene",
+      "genre": "rnb",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000009",
+      "spotify": {
+        "id": "2CLclpIC43fLzsYq6LQvlL",
+        "url": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4355c56b476375eef04f283b"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "SZA",
+      "genre": "rnb",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000002",
+      "spotify": {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "url": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "Summer Walker",
+      "genre": "rnb",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000010",
+      "spotify": {
+        "id": "57LYzLEk2LcFghVwuWbcuS",
+        "url": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7dccb6280ed3402110d43ce3"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Beyoncé",
+      "genre": "rnb",
+      "stage": "legacy",
+      "proposedMusicRollId": "mr_artist_000011",
+      "spotify": {
+        "id": "6vWDO969PvNqNYHIOW5v0m",
+        "url": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Marvin Gaye",
+      "genre": "rnb",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000012",
+      "spotify": {
+        "id": "3koiLjNrgRTNbOwViDipeA",
+        "url": "https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA",
+        "image": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "MIKE",
+      "genre": "hiphop",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000013",
+      "spotify": {
+        "id": "1wlzPS1hSNrkriIIwLFTmU",
+        "url": "https://open.spotify.com/artist/1wlzPS1hSNrkriIIwLFTmU",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb592451e2718b94f9c49d2ebe"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Navy Blue",
+      "genre": "hiphop",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000014",
+      "spotify": {
+        "id": "5qRbfEf4Ooo19aRXKQzvUV",
+        "url": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb5c55deb805a2b76affbae0ab"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "redveil",
+      "genre": "hiphop",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000015",
+      "spotify": {
+        "id": "5BwsX8bXOFC1YnqSlyfOKM",
+        "url": "https://open.spotify.com/artist/5BwsX8bXOFC1YnqSlyfOKM",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb643474b62ac4479a65bece3"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Little Simz",
+      "genre": "hiphop",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000016",
+      "spotify": {
+        "id": "6eXZu6O7nAUA5z6vLV8NKI",
+        "url": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI",
+        "image": "https://i.scdn.co/image/ab6761610000e5eba22264dfbad2d96ffc6ee2e0"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Drake",
+      "genre": "hiphop",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000003",
+      "spotify": {
+        "id": "3TVXtAsR1Inumwj472S9r4",
+        "url": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "Kendrick Lamar",
+      "genre": "hiphop",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000017",
+      "spotify": {
+        "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+        "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Nas",
+      "genre": "hiphop",
+      "stage": "legacy",
+      "proposedMusicRollId": "mr_artist_000018",
+      "spotify": {
+        "id": "20qISvAhX20dpIbOOzGK3q",
+        "url": "https://open.spotify.com/artist/20qISvAhX20dpIbOOzGK3q",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb153198caeef9e3bda92f9285"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "A Tribe Called Quest",
+      "genre": "hiphop",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000019",
+      "spotify": {
+        "id": "09hVIj6vWgoCDtT03h8ZCa",
+        "url": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "The Notorious B.I.G.",
+      "genre": "hiphop",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000020",
+      "spotify": {
+        "id": "5me0Irg2ANcsgc93uaYrpb",
+        "url": "https://open.spotify.com/artist/5me0Irg2ANcsgc93uaYrpb",
+        "image": "https://i.scdn.co/image/1b4858fbd24046a81cace5ee18d19c868262b91f"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Allie X",
+      "genre": "pop",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000021",
+      "spotify": {
+        "id": "0wnYgCeP013HkKoOyC5V32",
+        "url": "https://open.spotify.com/artist/0wnYgCeP013HkKoOyC5V32",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebefa4cd3c68c95c21c9f87887"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "underscores",
+      "genre": "pop",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000022",
+      "spotify": {
+        "id": "7HfUJxeVTgrvhk0eWHFzV7",
+        "url": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebde8dfaf8e64fee65ef479e68"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Rachel Chinouriri",
+      "genre": "pop",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000023",
+      "spotify": {
+        "id": "4wrzxtBZw20ufDstKyTnnP",
+        "url": "https://open.spotify.com/artist/4wrzxtBZw20ufDstKyTnnP",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4ba395ca07ac729e7e01feb8"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Remi Wolf",
+      "genre": "pop",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000024",
+      "spotify": {
+        "id": "0NB5HROxc8dDBXpkIi1v3d",
+        "url": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb426099c39108e2963774c38f"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Billie Eilish",
+      "genre": "pop",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000025",
+      "spotify": {
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "url": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "genre": "pop",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000026",
+      "spotify": {
+        "id": "74KM79TiuVKeVCqs8QtB0B",
+        "url": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb78e45cfa4697ce3c437cb455"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Lady Gaga",
+      "genre": "pop",
+      "stage": "legacy",
+      "proposedMusicRollId": "mr_artist_000027",
+      "spotify": {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "url": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebaadc18cac8d48124357c38e6"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Michael Jackson",
+      "genre": "pop",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000004",
+      "spotify": {
+        "id": "3fMbdgg4jU18AjLCKBhRSm",
+        "url": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb997cc9a4aec335d46c9481fd"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "Madonna",
+      "genre": "pop",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000028",
+      "spotify": {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "url": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebed2208b41d49ebd24687985b"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Wednesday",
+      "genre": "rock",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000029",
+      "spotify": {
+        "id": "4j7DrazfBZLLD0OrVoAtEe",
+        "url": "https://open.spotify.com/artist/4j7DrazfBZLLD0OrVoAtEe",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebcbf22720296d758d8b373a85"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Hotline TNT",
+      "genre": "rock",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000030",
+      "spotify": {
+        "id": "5DDuwU1X2Aqdp3CxfXstRe",
+        "url": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb0e595860619b9d71254a6aa3"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "The Last Dinner Party",
+      "genre": "rock",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000031",
+      "spotify": {
+        "id": "5SHgclK1ZpTdfdAmXW7J6s",
+        "url": "https://open.spotify.com/artist/5SHgclK1ZpTdfdAmXW7J6s",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb9544964337177ad2936c39b"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Militarie Gun",
+      "genre": "rock",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000032",
+      "spotify": {
+        "id": "4us4NMG5wuqdUZvthZrj0Q",
+        "url": "https://open.spotify.com/artist/4us4NMG5wuqdUZvthZrj0Q",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb76a87b08c406235bfdb6104d"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Arctic Monkeys",
+      "genre": "rock",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000033",
+      "spotify": {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "url": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Paramore",
+      "genre": "rock",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000034",
+      "spotify": {
+        "id": "74XFHRwlV6OrjEM0A2NCMF",
+        "url": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebb10c34546a4ca2d7faeb8865"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Foo Fighters",
+      "genre": "rock",
+      "stage": "legacy",
+      "proposedMusicRollId": "mr_artist_000035",
+      "spotify": {
+        "id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "url": "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb1db35bc9c01d2b1c151e44ce"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Nirvana",
+      "genre": "rock",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000036",
+      "spotify": {
+        "id": "6olE6TJLqED3rqDCT0FyPh",
+        "url": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+        "image": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Fleetwood Mac",
+      "genre": "rock",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000037",
+      "spotify": {
+        "id": "08GQAI4eElDnROBrJRGE0X",
+        "url": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "DJ Python",
+      "genre": "dance",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000038",
+      "spotify": {
+        "id": "1LoZxxInSyuVFKSMAB4BPl",
+        "url": "https://open.spotify.com/artist/1LoZxxInSyuVFKSMAB4BPl",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb158da9891e116a55ea93834f"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "LSDXOXO",
+      "genre": "dance",
+      "stage": "underground",
+      "proposedMusicRollId": "mr_artist_000039",
+      "spotify": {
+        "id": "2M2blWl1LBN2UoxlJdaug2",
+        "url": "https://open.spotify.com/artist/2M2blWl1LBN2UoxlJdaug2",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb033825688d9e37db3a3c57d3"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Amaarae",
+      "genre": "dance",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000006",
+      "spotify": {
+        "id": "21UPYSRWFKwtqvSAnFnSvS",
+        "url": "https://open.spotify.com/artist/21UPYSRWFKwtqvSAnFnSvS",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb82d2f8ad2b13647357e18582"
+      },
+      "identity": {
+        "status": "verified_existing",
+        "confidence": 100,
+        "concerns": []
+      },
+      "migrationDecision": {
+        "eligible": true,
+        "decision": "approved_existing_live",
+        "reasons": []
+      },
+      "existingLive": true
+    },
+    {
+      "name": "salute",
+      "genre": "dance",
+      "stage": "emerging",
+      "proposedMusicRollId": "mr_artist_000040",
+      "spotify": {
+        "id": "1np8xozf7ATJZDi9JX8Dx5",
+        "url": "https://open.spotify.com/artist/1np8xozf7ATJZDi9JX8Dx5",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf431bdb80cf96cc5a3926e6c"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Fred again..",
+      "genre": "dance",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000041",
+      "spotify": {
+        "id": "4oLeXFyACqeem2VImYeBFe",
+        "url": "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebf760292919aee89e58d943d9"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "punctuation_or_symbol_risk",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Peggy Gou",
+      "genre": "dance",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000042",
+      "spotify": {
+        "id": "2mLA48B366zkELXYx7hcDN",
+        "url": "https://open.spotify.com/artist/2mLA48B366zkELXYx7hcDN",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebffbd43b1e54eb09a8c824f53"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "KAYTRANADA",
+      "genre": "dance",
+      "stage": "mainstream",
+      "proposedMusicRollId": "mr_artist_000043",
+      "spotify": {
+        "id": "6qgnBH6iDM91ipVXv28OMu",
+        "url": "https://open.spotify.com/artist/6qgnBH6iDM91ipVXv28OMu",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9b9d4fdf5e4cf58e2fa93167"
+      },
+      "identity": {
+        "status": "manual_review_required",
+        "confidence": 75,
+        "concerns": [
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "manual_review_required",
+          "short_or_single_token_name",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Daft Punk",
+      "genre": "dance",
+      "stage": "legacy",
+      "proposedMusicRollId": "mr_artist_000044",
+      "spotify": {
+        "id": "4tZwfgrHOc3mvqYlEYSvVi",
+        "url": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+        "image": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Donna Summer",
+      "genre": "dance",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000045",
+      "spotify": {
+        "id": "2eogQKWWoohI3BSnoG7E2U",
+        "url": "https://open.spotify.com/artist/2eogQKWWoohI3BSnoG7E2U",
+        "image": "https://i.scdn.co/image/ab6761610000e5eb9e708b5a9b76b98301d35123"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    },
+    {
+      "name": "Frankie Knuckles",
+      "genre": "dance",
+      "stage": "classic",
+      "proposedMusicRollId": "mr_artist_000046",
+      "spotify": {
+        "id": "63yl9nDNrHpiAYGlNJxxjc",
+        "url": "https://open.spotify.com/artist/63yl9nDNrHpiAYGlNJxxjc",
+        "image": "https://i.scdn.co/image/4430135715f2686c6ae65659dfac40472182c717"
+      },
+      "identity": {
+        "status": "high_confidence_candidate",
+        "confidence": 95,
+        "concerns": [
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "migrationDecision": {
+        "eligible": false,
+        "decision": "blocked_pending_identity_approval",
+        "reasons": [
+          "high_confidence_candidate",
+          "exact_name_candidate_is_review_only",
+          "stored_enrichment_does_not_preserve_alternate_exact_candidates"
+        ]
+      },
+      "existingLive": false
+    }
+  ],
+  "summary": {
+    "identityStatusCounts": {
+      "verified_existing": 6,
+      "high_confidence_candidate": 24,
+      "manual_review_required": 16,
+      "conflicting_identity": 0,
+      "unresolved": 0
+    },
+    "migrationEligible": 6,
+    "migrationBlocked": 40
+  },
+  "validation": {
+    "all46AccountedFor": true,
+    "uniqueMusicRollIds": true,
+    "uniqueSpotifyIds": true,
+    "classificationsPreserved": true,
+    "liveDirectoryModified": false,
+    "apiRequests": 0
+  }
+}
