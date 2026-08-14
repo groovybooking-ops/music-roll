@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "94497f93095295ba7d21091a",
+  "retrievedAt": "2026-08-14T03:56:38.906Z",
+  "value": {
+    "requestedName": "salute",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+        "name": "salute",
+        "sortName": "salute",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Manchester-based electronic producer",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "9b8f0b42-aa70-4aa5-b71e-0e07b50f7346",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "SE",
+        "disambiguation": "Sweden melodic hard rock band",
+        "score": 90
+      },
+      {
+        "musicBrainzArtistId": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Group",
+        "country": "GB",
+        "disambiguation": "UK Thrash Metal",
+        "score": 89
+      },
+      {
+        "musicBrainzArtistId": "d76d2a81-852e-47f4-804a-b33799746135",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "Performs on \"FM4 Sounselection: 29\"",
+        "score": 88
+      },
+      {
+        "musicBrainzArtistId": "6feccf8e-f292-460d-835d-adcf39d43834",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "probably us hiphop",
+        "score": 87
+      },
+      {
+        "musicBrainzArtistId": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+        "name": "Salute",
+        "sortName": "Salute",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Ron Wells",
+        "score": 87
+      },
+      {
+        "musicBrainzArtistId": "cdd87543-716c-4309-8e5f-e190976af0bf",
+        "name": "salute",
+        "sortName": "salute",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "reggae",
+        "score": 87
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:38.854Z",
+      "count": 40,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "b239bbd8-aa84-4f11-8bdb-c4159e730ee5",
+          "name": "salute",
+          "sort-name": "salute",
+          "gender": "non-binary",
+          "area": {
+            "id": "852531bf-3410-401f-b432-9c3157a386b9",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Manchester",
+            "sort-name": "Manchester",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "afff1a94-a98b-4322-8874-3148139ab6da",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Wien",
+            "sort-name": "Wien",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Manchester-based electronic producer",
+          "life-span": {
+            "begin": "1996",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "uk"
+            },
+            {
+              "count": 2,
+              "name": "dance-pop"
+            },
+            {
+              "count": 1,
+              "name": "funky house"
+            },
+            {
+              "count": 3,
+              "name": "uk garage"
+            },
+            {
+              "count": 1,
+              "name": "english"
+            },
+            {
+              "count": 1,
+              "name": "garage"
+            },
+            {
+              "count": 1,
+              "name": "united kingdom"
+            },
+            {
+              "count": 2,
+              "name": "french house"
+            },
+            {
+              "count": 3,
+              "name": "speed garage"
+            },
+            {
+              "count": 1,
+              "name": "uk electronic"
+            }
+          ]
+        },
+        {
+          "id": "9b8f0b42-aa70-4aa5-b71e-0e07b50f7346",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 90,
+          "name": "Salute",
+          "sort-name": "Salute",
+          "country": "SE",
+          "area": {
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Sweden",
+            "sort-name": "Sweden",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Sweden melodic hard rock band",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 89,
+          "name": "Salute",
+          "sort-name": "Salute",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "UK Thrash Metal",
+          "life-span": {
+            "begin": "2004",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "thrash metal"
+            }
+          ]
+        },
+        {
+          "id": "d76d2a81-852e-47f4-804a-b33799746135",
+          "score": 88,
+          "name": "Salute",
+          "sort-name": "Salute",
+          "disambiguation": "Performs on \"FM4 Sounselection: 29\"",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "6feccf8e-f292-460d-835d-adcf39d43834",
+          "score": 87,
+          "name": "Salute",
+          "sort-name": "Salute",
+          "disambiguation": "probably us hiphop",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 87,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Salute",
+          "sort-name": "Salute",
+          "gender": "male",
+          "disambiguation": "Ron Wells",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "cdd87543-716c-4309-8e5f-e190976af0bf",
+          "score": 87,
+          "name": "salute",
+          "sort-name": "salute",
+          "disambiguation": "reggae",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "b083288e-5d83-429f-a4d7-b73c95d82d02",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 85,
+          "name": "Trooper Salute",
+          "sort-name": "Trooper Salute",
+          "country": "JP",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Japan",
+            "sort-name": "Japan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "e57442a4-b5d2-45b0-8d50-69c48541482d",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Nagoya",
+            "sort-name": "Nagoya",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Nagoya-to-Tokyo indie symphonic rock band",
+          "isnis": [
+            "0000000524334555"
+          ],
+          "life-span": {
+            "begin": "2024-01-01",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "トルーパー",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "トルーパー",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Trooper Salute",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "トルーパーソリュート",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "indie rock"
+            },
+            {
+              "count": 1,
+              "name": "indie pop"
+            },
+            {
+              "count": 1,
+              "name": "symphonic rock"
+            },
+            {
+              "count": 1,
+              "name": "progressive pop"
+            },
+            {
+              "count": 1,
+              "name": "math pop"
+            }
+          ]
+        },
+        {
+          "id": "396ac64a-be52-4db4-a811-f66a670d0acc",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 83,
+          "name": "Two Finger Salute",
+          "sort-name": "Two Finger Salute",
+          "begin-area": {
+            "id": "0373cdff-eac8-3fbc-92dc-36a607da06d1",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Hong Kong",
+            "sort-name": "Hong Kong",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Hong Kong Street Punk/Oi!",
+          "life-span": {
+            "begin": "2015",
+            "ended": null
+          }
+        },
+        {
+          "id": "dba0f50c-9529-4646-ae98-a93532edad98",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 82,
+          "name": "Anvil Salute",
+          "sort-name": "Anvil Salute",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "577bab24-c3e3-4b60-a6d8-0533013d260d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 82,
+          "name": "The Magpie Salute",
+          "sort-name": "Magpie Salute, The",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Rich Robinson and friends with ex- Black Crowes members",
+          "life-span": {
+            "begin": "2016-10-06",
+            "ended": null
+          }
+        },
+        {
+          "id": "75876850-c806-459f-8fb7-436e34e65043",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 81,
+          "name": "Silver Salute",
+          "sort-name": "Silver Salute",
+          "area": {
+            "id": "3e80aaa7-9b71-450f-8147-0ecf101d8f1a",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Minneapolis",
+            "sort-name": "Minneapolis",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "4cad030a-8dbe-4a3a-9ba1-d2e0abc4b740",
+          "score": 80,
+          "name": "Pollution Salute",
+          "sort-name": "Pollution Salute",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "066bea86-54f7-4d31-828e-6ae0a3e18aaf",
+          "score": 80,
+          "name": "I Salute",
+          "sort-name": "I Salute",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "2ad2e934-d27a-4938-9ba5-44209f7915c3",
+          "score": 80,
+          "name": "Loyalty Salute",
+          "sort-name": "Salute, Loyalty",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "365d8e34-4071-4796-88dd-79367ba39e53",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "High Salute",
+          "sort-name": "High Salute",
+          "area": {
+            "id": "28d44913-d1b1-4cc8-8c51-bf80a2a210cf",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Genève",
+            "sort-name": "Genève",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8f58f1a7-4f93-4f6f-a4f9-6b0b57914bd6",
+          "score": 80,
+          "name": "Salute Events",
+          "sort-name": "Salute Events",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "650a79a9-3bf7-48e9-98d0-6b62df68b543",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "Sun Salute",
+          "sort-name": "Sun Salute",
+          "area": {
+            "id": "c1e9cc93-f223-470d-b9e1-653709de68c3",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Queensland",
+            "sort-name": "Queensland",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "d07c66d5-8f80-4a9a-abfc-00a7fbbb5c1b",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "Loose Salute",
+          "sort-name": "Loose Salute",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "eea69cf6-aab9-47c6-81eb-49f774d17413",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "ABBA Salute",
+          "sort-name": "ABBA Salute",
+          "disambiguation": "ABBA tribute band",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "21b6cf11-83ad-4810-9018-c07978f92083",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "Salute Something",
+          "sort-name": "Salute Something",
+          "area": {
+            "id": "226c4dca-ef2a-4d4b-ba25-4118d116557a",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Birmingham",
+            "sort-name": "Birmingham",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "226c4dca-ef2a-4d4b-ba25-4118d116557a",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Birmingham",
+            "sort-name": "Birmingham",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "2012-11-30",
+            "ended": null
+          }
+        },
+        {
+          "id": "467232f8-9054-41c8-8acb-934eca1ae3b0",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "I Salute",
+          "sort-name": "I Salute",
+          "disambiguation": "Lo-fi, electro, indie hip hop duo from Germany.",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "7f080a5c-7222-4e4e-a466-2e3bbd0bb4d8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 79,
+          "name": "The Loose Salute",
+          "sort-name": "Loose Salute, The",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "classic pop and rock"
+            }
+          ]
+        },
+        {
+          "id": "1d295739-933f-4232-9189-e5a61aa80d58",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 79,
+          "name": "The Salute To Band",
+          "sort-name": "Salute To Band, The",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "81fe2c3d-b7e8-49b7-b236-a64e174541d4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 78,
+          "name": "Middle Finger Salute",
+          "sort-name": "Middle Finger Salute",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "7ca97e51-54a1-4b5a-a6f9-3a00a27efcc7",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Blackburn",
+            "sort-name": "Blackburn",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "2005",
+            "end": "2014",
+            "ended": true
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "punk"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

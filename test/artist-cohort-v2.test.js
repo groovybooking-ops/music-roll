@@ -3,16 +3,20 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 const { buildCohortReview } = require("../lib/artist-cohort-v2");
-const { validateArtistDirectoryV2 } = require("../lib/music-roll-v2");
+const { mappingsChecksum, validateArtistDirectoryV2 } = require("../lib/music-roll-v2");
 const { adaptArtistDirectory } = require("../artist-model-adapter");
 
 const root = path.join(__dirname, "..");
 const read = relative => JSON.parse(fs.readFileSync(path.join(root, relative), "utf8"));
+function historicalRegistry() {
+    const mappings = read("data/artist-id-registry.json").mappings.slice(0, 6);
+    return { schemaVersion: 1, mappings, mappingsSha256: mappingsChecksum(mappings) };
+}
 const inputs = () => ({
     sourceArtists: read("data/artists-source.json"),
     enrichedArtists: read("data/artists-enriched.preview.json").artists,
-    liveArtists: read("data/artists.json"),
-    registry: read("data/artist-id-registry.json"),
+    liveArtists: read("data/artists-v2.preview.json"),
+    registry: historicalRegistry(),
     generatedAt: "2026-08-12T00:00:00.000Z"
 });
 

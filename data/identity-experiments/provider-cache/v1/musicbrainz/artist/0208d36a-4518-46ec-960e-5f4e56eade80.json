@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "0208d36a-4518-46ec-960e-5f4e56eade80",
+  "retrievedAt": "2026-08-14T04:11:50.503Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "0208d36a-4518-46ec-960e-5f4e56eade80",
+      "name": "She",
+      "sortName": "She",
+      "artistType": "Person",
+      "disambiguation": "Simbiatu Ajikawo",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5646758"
+        }
+      ]
+    },
+    "raw": {
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "disambiguation": "Simbiatu Ajikawo",
+      "aliases": [],
+      "type": "Person",
+      "id": "0208d36a-4518-46ec-960e-5f4e56eade80",
+      "area": null,
+      "begin-area": null,
+      "name": "She",
+      "gender": "Female",
+      "relations": [
+        {
+          "url": {
+            "resource": "https://www.discogs.com/artist/5646758",
+            "id": "c9074525-dc40-4bd7-bbae-d7dfad1690d7"
+          },
+          "begin": null,
+          "ended": false,
+          "attribute-values": {},
+          "direction": "forward",
+          "source-credit": "",
+          "type": "discogs",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "target-type": "url",
+          "end": null,
+          "attribute-ids": {},
+          "attributes": [],
+          "target-credit": ""
+        }
+      ],
+      "country": null,
+      "isnis": [],
+      "end-area": null,
+      "sort-name": "She",
+      "ipis": [],
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      }
+    },
+    "state": "active",
+    "statusCode": 200
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Little Simz",
+    "proposedMusicRollId": "mr_artist_000016",
+    "spotifyArtistId": "6eXZu6O7nAUA5z6vLV8NKI"
+  },
+  "outcome": "conflicting_identity",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "6eXZu6O7nAUA5z6vLV8NKI",
+      "wikidataQid": "Q6547427",
+      "name": "Little Simz",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": null,
+      "musicBrainzArtistIds": [
+        "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+        "0208d36a-4518-46ec-960e-5f4e56eade80",
+        "2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+      ],
+      "discogsArtistIds": [
+        "3887166",
+        "4407971",
+        "5646758"
+      ]
+    },
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6eXZu6O7nAUA5z6vLV8NKI",
+      "observedValues": [
+        "6eXZu6O7nAUA5z6vLV8NKI"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6eXZu6O7nAUA5z6vLV8NKI",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6eXZu6O7nAUA5z6vLV8NKI",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q6547427",
+      "observedValues": [
+        "Q6547427"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q6547427",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+        "0208d36a-4518-46ec-960e-5f4e56eade80",
+        "2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "0208d36a-4518-46ec-960e-5f4e56eade80",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "3887166",
+        "4407971",
+        "5646758"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3887166",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4407971",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5646758",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "musicBrainzArtistId",
+      "observedValues": [
+        "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+        "0208d36a-4518-46ec-960e-5f4e56eade80",
+        "2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+      ]
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "observedValues": [
+        "3887166",
+        "4407971",
+        "5646758"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_musicbrainz_id",
+    "wikidata_discogs_id"
+  ],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

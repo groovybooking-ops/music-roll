@@ -3,6 +3,23 @@
   "retrievedAt": "2026-08-13T01:33:57.935Z",
   "reviewOnly": true,
   "startingSpotifyId": "6olE6TJLqED3rqDCT0FyPh",
+  "uniquenessFindings": {
+    "wikidataEntityForSpotifyId": {
+      "status": "unique",
+      "count": 1,
+      "wikidataQids": [
+        "Q11649"
+      ]
+    },
+    "musicBrainzIdLinkedFromWikidata": {
+      "status": "unique",
+      "count": 1,
+      "musicBrainzArtistIds": [
+        "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+      ]
+    },
+    "scopeNote": "These are exact-ID uniqueness findings from the returned Wikidata bridge, not conclusions based on the display name."
+  },
   "sourceResults": {
     "wikidata": {
       "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
@@ -470,6 +487,24 @@
       "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
     }
   },
+  "agreeingIdentifiers": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6olE6TJLqED3rqDCT0FyPh"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q11649"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "125246"
+    }
+  ],
   "conflictingIdentifiers": [],
   "sameNameAudit": {
     "exactDisplayNameEntityCount": 7,

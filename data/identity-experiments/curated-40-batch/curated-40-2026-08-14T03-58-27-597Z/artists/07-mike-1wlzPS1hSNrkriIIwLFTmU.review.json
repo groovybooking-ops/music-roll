@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "MIKE",
+    "proposedMusicRollId": "mr_artist_000013",
+    "spotifyArtistId": "1wlzPS1hSNrkriIIwLFTmU"
+  },
+  "outcome": "coherent_identity_evidence",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "1wlzPS1hSNrkriIIwLFTmU",
+      "wikidataQid": "Q67407164",
+      "name": "MIKE",
+      "musicBrainzArtistId": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "discogsArtistId": "5852757"
+    },
+    "musicBrainz": {
+      "musicBrainzArtistId": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "name": "MIKE",
+      "sortName": "MIKE",
+      "artistType": "Person",
+      "disambiguation": "New York rapper, founder of 10k",
+      "country": "US",
+      "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "name": "New York",
+        "sortName": "New York",
+        "type": null
+      },
+      "beginArea": {
+        "id": "a5588c02-bd0d-4b05-96bb-f7aaf42854c6",
+        "name": "Livingston",
+        "sortName": "Livingston",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1998-10-13",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Michael Jordan Bonema",
+          "sortName": "Bonema, Michael Jordan",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003678202"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://mikelikesrap.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5852757"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/1wlzPS1hSNrkriIIwLFTmU"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/142759"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id1253023714"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/mike/11168"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/mikelikesrap/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/t6mikee"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1253023714"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/36706055"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q67407164"
+        }
+      ]
+    },
+    "discogs": {
+      "discogsArtistId": "5852757",
+      "name": "Mike (408)",
+      "realName": "Michael Bonema",
+      "profile": "Rapper and producer from Livingston, New Jersey. Born on October 13, 1998.\r\nActive since 2017.",
+      "artistUrls": [
+        "https://mikelikesrap.bandcamp.com",
+        "https://www.instagram.com/mikelikesrap",
+        "https://soundcloud.com/t6mikee",
+        "https://store.10k.global/mike",
+        "https://en.wikipedia.org/wiki/Mike_(musician)"
+      ],
+      "aliases": [
+        {
+          "discogsArtistId": "7989169",
+          "name": "DJ Blackpower"
+        },
+        {
+          "discogsArtistId": "13792780",
+          "name": "Michael Jordan Bonema"
+        },
+        {
+          "discogsArtistId": "17996640",
+          "name": "Dr. Grabba"
+        }
+      ],
+      "nameVariations": [
+        "MIKE",
+        "Michael Jordan Bonema",
+        "Mike"
+      ],
+      "discogsResourceUrl": "https://api.discogs.com/artists/5852757",
+      "discogsWebUrl": "https://www.discogs.com/artist/5852757-Mike-408",
+      "dataQuality": "Needs Vote"
+    }
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "1wlzPS1hSNrkriIIwLFTmU",
+      "observedValues": [
+        "1wlzPS1hSNrkriIIwLFTmU"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1wlzPS1hSNrkriIIwLFTmU",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1wlzPS1hSNrkriIIwLFTmU",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1wlzPS1hSNrkriIIwLFTmU",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q67407164",
+      "observedValues": [
+        "Q67407164"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q67407164",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q67407164",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "observedValues": [
+        "da943be1-5611-4bf9-ac4c-0eef1bc0c16b"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "5852757",
+      "observedValues": [
+        "5852757"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5852757",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5852757",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5852757",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+        "name": "MIKE",
+        "sortName": "MIKE",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "New York rapper, founder of 10k",
+        "score": 82,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "1wlzPS1hSNrkriIIwLFTmU"
+        ],
+        "discogsArtistIds": [
+          "5852757"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

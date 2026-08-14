@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6tbjWDEIzxoDsBA1FuhfPW",
+  "retrievedAt": "2026-08-14T03:56:11.703Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6tbjWDEIzxoDsBA1FuhfPW",
+      "wikidataQid": "Q1744",
+      "name": "Madonna",
+      "musicBrainzArtistId": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "discogsArtistId": "8760"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q1744"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "79239441-bfd5-4981-a70c-55c3f15c1287"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "8760"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Madonna"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "08GQAI4eElDnROBrJRGE0X",
+  "retrievedAt": "2026-08-14T03:56:25.539Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "08GQAI4eElDnROBrJRGE0X",
+      "wikidataQid": "Q106648",
+      "name": "Fleetwood Mac",
+      "musicBrainzArtistId": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
+      "discogsArtistId": "47333"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q106648"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "47333"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fleetwood Mac"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

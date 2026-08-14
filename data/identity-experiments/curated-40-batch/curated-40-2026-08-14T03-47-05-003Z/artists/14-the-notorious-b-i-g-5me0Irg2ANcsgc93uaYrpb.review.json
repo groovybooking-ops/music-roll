@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "The Notorious B.I.G.",
+    "proposedMusicRollId": "mr_artist_000020",
+    "spotifyArtistId": "5me0Irg2ANcsgc93uaYrpb"
+  },
+  "outcome": "unresolved_identity",
+  "sourceResults": {
+    "wikidata": null,
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {},
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_bridge"
+  ],
+  "providerErrors": [
+    {
+      "provider": "wikidata",
+      "operation": "spotify_bridge",
+      "statusCode": null,
+      "message": "Wikidata identity bridge request failed before receiving a response."
+    }
+  ],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

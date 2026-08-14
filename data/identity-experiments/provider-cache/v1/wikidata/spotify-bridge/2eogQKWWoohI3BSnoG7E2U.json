@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2eogQKWWoohI3BSnoG7E2U",
+  "retrievedAt": "2026-08-14T03:58:50.626Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2eogQKWWoohI3BSnoG7E2U",
+      "wikidataQid": "Q908933",
+      "name": "Donna Summer",
+      "musicBrainzArtistId": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "6270",
+        "1258632"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q908933"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6270"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Donna Summer"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q908933"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "b60527cc-54f3-4bbe-a01b-dcf34c95ae14"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1258632"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Donna Summer"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

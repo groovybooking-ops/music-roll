@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "4oLeXFyACqeem2VImYeBFe",
+  "retrievedAt": "2026-08-14T03:58:49.114Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "4oLeXFyACqeem2VImYeBFe",
+      "wikidataQid": "Q64009886",
+      "name": "Fred Again",
+      "musicBrainzArtistId": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "3807247",
+        "8664813"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q64009886"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3807247"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fred Again"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q64009886"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bca46a0c-25c9-42ca-98c2-e64c8a5e337e"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "8664813"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fred Again"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

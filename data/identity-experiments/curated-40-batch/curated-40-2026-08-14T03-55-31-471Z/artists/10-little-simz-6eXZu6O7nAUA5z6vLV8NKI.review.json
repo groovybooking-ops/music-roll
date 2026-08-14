@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Little Simz",
+    "proposedMusicRollId": "mr_artist_000016",
+    "spotifyArtistId": "6eXZu6O7nAUA5z6vLV8NKI"
+  },
+  "outcome": "unresolved_identity",
+  "sourceResults": {
+    "wikidata": null,
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {},
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_bridge"
+  ],
+  "providerErrors": [
+    {
+      "provider": "wikidata",
+      "operation": "spotify_bridge",
+      "statusCode": 409,
+      "message": "Wikidata returned multiple entities for Spotify ID 6eXZu6O7nAUA5z6vLV8NKI."
+    }
+  ],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

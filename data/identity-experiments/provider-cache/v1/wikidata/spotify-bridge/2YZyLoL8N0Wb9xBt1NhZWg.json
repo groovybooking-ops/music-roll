@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2YZyLoL8N0Wb9xBt1NhZWg",
+  "retrievedAt": "2026-08-14T03:58:29.554Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2YZyLoL8N0Wb9xBt1NhZWg",
+      "wikidataQid": "Q130798",
+      "name": "Kendrick Lamar",
+      "musicBrainzArtistId": "381086ea-f511-4aba-bdf9-71c753dc5077",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "1778977",
+        "1539549",
+        "3062364"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q130798"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1778977"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kendrick Lamar"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q130798"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1539549"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kendrick Lamar"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q130798"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "381086ea-f511-4aba-bdf9-71c753dc5077"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3062364"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kendrick Lamar"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

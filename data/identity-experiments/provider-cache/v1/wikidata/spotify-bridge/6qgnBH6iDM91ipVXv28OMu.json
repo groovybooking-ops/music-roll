@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6qgnBH6iDM91ipVXv28OMu",
+  "retrievedAt": "2026-08-14T03:58:50.374Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6qgnBH6iDM91ipVXv28OMu",
+      "wikidataQid": "Q17153342",
+      "name": "Kaytranada",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": "3160392",
+      "musicBrainzArtistIds": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q17153342"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "e56aee57-d90e-40cf-a70d-beb70f6f3c69"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3160392"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kaytranada"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q17153342"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "2012a778-d205-4294-906e-6bbde10df205"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3160392"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kaytranada"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

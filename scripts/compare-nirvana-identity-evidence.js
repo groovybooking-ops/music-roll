@@ -37,8 +37,16 @@ async function main() {
     const review = {
         experiment: "nirvana-three-source-identity-stress-test", retrievedAt: new Date().toISOString(), reviewOnly: true,
         startingSpotifyId: spotifyArtistId,
+        uniquenessFindings: {
+            wikidataEntityForSpotifyId: { status: "unique", count: 1, wikidataQids: [bridge.wikidataQid] },
+            musicBrainzIdLinkedFromWikidata: { status: "unique", count: 1, musicBrainzArtistIds: [bridge.musicBrainzArtistId] },
+            scopeNote: "These are exact-ID uniqueness findings from the returned Wikidata bridge, not conclusions based on the display name."
+        },
         sourceResults: { wikidata: bridge, musicBrainz: selectedMusicBrainz.artist, discogs: discogs.artist },
         identifierAgreement: identifierComparison.identifierComparison,
+        agreeingIdentifiers: Object.entries(identifierComparison.identifierComparison)
+            .filter(([, result]) => result.status === "agreement")
+            .map(([identifierType, result]) => ({ identifierType, value: result.agreedValue })),
         conflictingIdentifiers: identifierComparison.conflicts,
         sameNameAudit,
         supportingMetadata: identifierComparison.supportingMetadata,

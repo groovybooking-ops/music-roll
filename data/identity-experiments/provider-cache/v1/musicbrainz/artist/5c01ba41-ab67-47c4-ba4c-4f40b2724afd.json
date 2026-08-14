@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "5c01ba41-ab67-47c4-ba4c-4f40b2724afd",
+  "retrievedAt": "2026-08-14T03:58:53.911Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "5c01ba41-ab67-47c4-ba4c-4f40b2724afd",
+      "name": "Donna Summer",
+      "sortName": "Donna Summer",
+      "artistType": "Person",
+      "disambiguation": "electronic musician Jason Forrest",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "7e5e7fd7-c1eb-4cb8-87e2-fb1c0eda9e48",
+        "name": "Buffalo",
+        "sortName": "Buffalo",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1972-04-05",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "DJ Donna Summer",
+          "sortName": "DJ Donna Summer",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000372505334"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/99643"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://cockrockdisco.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/donna_summer_f1"
+        },
+        {
+          "relationshipType": "vgmdb",
+          "url": "https://vgmdb.net/artist/4720"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2504542"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "end": null,
+        "begin": "1972-04-05",
+        "ended": false
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "disambiguation": "electronic musician Jason Forrest",
+      "begin-area": {
+        "sort-name": "Buffalo",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Buffalo",
+        "type": null,
+        "id": "7e5e7fd7-c1eb-4cb8-87e2-fb1c0eda9e48"
+      },
+      "id": "5c01ba41-ab67-47c4-ba4c-4f40b2724afd",
+      "sort-name": "Donna Summer",
+      "gender": "Male",
+      "area": {
+        "type": null,
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type-id": null,
+        "sort-name": "United States",
+        "disambiguation": ""
+      },
+      "name": "Donna Summer",
+      "isnis": [
+        "0000000372505334"
+      ],
+      "type": "Person",
+      "relations": [
+        {
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "url": {
+            "id": "b527809c-fc74-4bc2-a1df-8a4aa70706c8",
+            "resource": "https://www.discogs.com/artist/99643"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type": "discogs",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "official homepage",
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "url": {
+            "id": "e633a6b9-4fb2-4a11-82b2-dfd0c3d9df2d",
+            "resource": "http://cockrockdisco.com/"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "other databases",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/donna_summer_f1",
+            "id": "7e942d49-807e-4342-abed-704b4742b723"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "attributes": [],
+          "url": {
+            "id": "ff4fcbc5-1ca8-47da-adbc-77618aa4d370",
+            "resource": "https://vgmdb.net/artist/4720"
+          },
+          "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+          "type": "vgmdb",
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "end": null,
+          "attribute-ids": {},
+          "begin": null
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "wikidata",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q2504542",
+            "id": "cbd8979e-62bb-4bae-af1b-60dd1f7d5df7"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        }
+      ],
+      "aliases": [
+        {
+          "end": null,
+          "primary": null,
+          "type-id": null,
+          "sort-name": "DJ Donna Summer",
+          "locale": null,
+          "begin": null,
+          "type": null,
+          "name": "DJ Donna Summer",
+          "ended": false
+        }
+      ],
+      "end-area": null,
+      "country": "US",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9"
+    }
+  }
+}

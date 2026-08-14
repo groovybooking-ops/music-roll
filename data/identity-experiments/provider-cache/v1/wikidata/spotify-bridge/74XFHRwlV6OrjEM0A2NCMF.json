@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "74XFHRwlV6OrjEM0A2NCMF",
+  "retrievedAt": "2026-08-14T03:56:20.014Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "74XFHRwlV6OrjEM0A2NCMF",
+      "wikidataQid": "Q473466",
+      "name": "Paramore",
+      "musicBrainzArtistId": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+      "discogsArtistId": "609563"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q473466"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "44cf61b8-5197-448a-b82b-cef6ee89fac5"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "609563"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Paramore"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

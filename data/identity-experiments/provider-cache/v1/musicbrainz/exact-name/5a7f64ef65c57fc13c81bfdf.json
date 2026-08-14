@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "5a7f64ef65c57fc13c81bfdf",
+  "retrievedAt": "2026-08-14T03:55:35.217Z",
+  "value": {
+    "requestedName": "Fana Hues",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+        "name": "Fana Hues",
+        "sortName": "Hues, Fana",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:55:35.167Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Fana Hues",
+          "sort-name": "Hues, Fana",
+          "gender": "female",
+          "area": {
+            "id": "56e1c305-859d-4fbb-8a7c-6e45e1b8ebf1",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Pasadena",
+            "sort-name": "Pasadena",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000493798655"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

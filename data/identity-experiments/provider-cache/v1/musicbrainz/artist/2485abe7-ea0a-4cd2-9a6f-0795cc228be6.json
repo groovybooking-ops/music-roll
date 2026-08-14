@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+  "retrievedAt": "2026-08-14T04:11:52.882Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+      "name": "Simbiatu Ajikawo",
+      "sortName": "Ajikawo, Simbiatu",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "e3b25e1c-0adf-4773-820e-533b4f245d01",
+        "name": "Islington",
+        "sortName": "Islington",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1994-02-23",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000467219197"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4407971"
+        }
+      ]
+    },
+    "raw": {
+      "relations": [
+        {
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "id": "02535154-de76-4881-b448-88872c89c4ff",
+            "resource": "https://www.discogs.com/artist/4407971"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "discogs",
+          "ended": false,
+          "begin": null,
+          "direction": "forward"
+        }
+      ],
+      "disambiguation": "",
+      "isnis": [
+        "0000000467219197"
+      ],
+      "type": "Person",
+      "sort-name": "Ajikawo, Simbiatu",
+      "ipis": [
+        "00706345456",
+        "00706345554"
+      ],
+      "name": "Simbiatu Ajikawo",
+      "id": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+      "end-area": null,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "aliases": [],
+      "gender": "Female",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "country": "GB",
+      "area": {
+        "name": "United Kingdom",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "sort-name": "United Kingdom",
+        "type": null,
+        "type-id": null,
+        "disambiguation": ""
+      },
+      "begin-area": {
+        "type": null,
+        "iso-3166-2-codes": [
+          "GB-ISL"
+        ],
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Islington",
+        "id": "e3b25e1c-0adf-4773-820e-533b4f245d01",
+        "sort-name": "Islington"
+      },
+      "life-span": {
+        "begin": "1994-02-23",
+        "end": null,
+        "ended": false
+      }
+    },
+    "state": "active",
+    "statusCode": 200
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "74KM79TiuVKeVCqs8QtB0B",
+  "retrievedAt": "2026-08-14T03:56:09.500Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "74KM79TiuVKeVCqs8QtB0B",
+      "wikidataQid": "Q7396400",
+      "name": "Sabrina Carpenter",
+      "musicBrainzArtistId": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+      "discogsArtistId": "4378284"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q7396400"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "1882fe91-cdd9-49c9-9956-8e06a3810bd4"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4378284"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Sabrina Carpenter"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

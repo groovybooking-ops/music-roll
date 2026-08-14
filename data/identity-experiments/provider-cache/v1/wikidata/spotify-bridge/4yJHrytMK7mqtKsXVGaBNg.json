@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "4yJHrytMK7mqtKsXVGaBNg",
+  "retrievedAt": "2026-08-14T03:55:33.090Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "4yJHrytMK7mqtKsXVGaBNg",
+      "wikidataQid": "Q102247717",
+      "name": "Fana Hues",
+      "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "discogsArtistId": null
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q102247717"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "b7b5b59e-4b8f-4577-94f4-f0770d79033f"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fana Hues"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

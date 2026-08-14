@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "739753b7-21f4-4842-b585-4c836570bd6c",
+  "retrievedAt": "2026-08-14T03:58:35.575Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "739753b7-21f4-4842-b585-4c836570bd6c",
+      "name": "NAS",
+      "sortName": "NAS",
+      "artistType": "Person",
+      "disambiguation": "Japanese electronic producer",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/nas-music"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+      },
+      "area": null,
+      "country": null,
+      "aliases": [],
+      "relations": [
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "end": null,
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "attribute-ids": {},
+          "begin": null,
+          "type": "soundcloud",
+          "ended": false,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://soundcloud.com/nas-music",
+            "id": "91251ced-bfe3-458e-9d40-1b0c659211ce"
+          }
+        }
+      ],
+      "type": "Person",
+      "sort-name": "NAS",
+      "disambiguation": "Japanese electronic producer",
+      "name": "NAS",
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "isnis": [],
+      "id": "739753b7-21f4-4842-b585-4c836570bd6c",
+      "gender": null,
+      "end-area": null,
+      "begin-area": null,
+      "gender-id": null
+    }
+  }
+}

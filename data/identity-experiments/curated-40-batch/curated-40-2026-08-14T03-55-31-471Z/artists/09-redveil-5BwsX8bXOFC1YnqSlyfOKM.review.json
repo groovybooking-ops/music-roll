@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "redveil",
+    "proposedMusicRollId": "mr_artist_000015",
+    "spotifyArtistId": "5BwsX8bXOFC1YnqSlyfOKM"
+  },
+  "outcome": "unresolved_identity",
+  "sourceResults": {
+    "wikidata": null,
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {},
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_bridge"
+  ],
+  "providerErrors": [
+    {
+      "provider": "wikidata",
+      "operation": "spotify_bridge",
+      "statusCode": 404,
+      "message": "Wikidata has no artist bridge for Spotify ID 5BwsX8bXOFC1YnqSlyfOKM."
+    }
+  ],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

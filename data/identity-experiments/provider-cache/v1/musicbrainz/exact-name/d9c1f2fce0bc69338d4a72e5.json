@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "d9c1f2fce0bc69338d4a72e5",
+  "retrievedAt": "2026-08-14T03:56:07.818Z",
+  "value": {
+    "requestedName": "Rachel Chinouriri",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+        "name": "Rachel Chinouriri",
+        "sortName": "Chinouriri, Rachel",
+        "artistType": "Person",
+        "country": "GB",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:07.767Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Rachel Chinouriri",
+          "sort-name": "Chinouriri, Rachel",
+          "gender": "female",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "82d06beb-9ddb-4f9b-bc83-95fab1304289",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Kingston upon Thames",
+            "sort-name": "Kingston upon Thames",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000491469022"
+          ],
+          "life-span": {
+            "begin": "1998-11-01",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "indie pop"
+            },
+            {
+              "count": 1,
+              "name": "pop rock"
+            },
+            {
+              "count": 3,
+              "name": "alternative pop"
+            },
+            {
+              "count": 1,
+              "name": "2020s"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "3d553499ef2d0924b7f878f1",
+  "retrievedAt": "2026-08-14T03:56:14.531Z",
+  "value": {
+    "requestedName": "Madonna",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "79239441-bfd5-4981-a70c-55c3f15c1287",
+        "name": "Madonna",
+        "sortName": "Madonna",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "“Queen of Pop”",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "3fd13140-6857-489a-9e53-a4e112b8354b",
+        "name": "Madonna",
+        "sortName": "Madonna",
+        "artistType": "Person",
+        "country": "LB",
+        "disambiguation": "Lebanese singer",
+        "score": 64
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:14.477Z",
+      "count": 32,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "79239441-bfd5-4981-a70c-55c3f15c1287",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna",
+          "sort-name": "Madonna",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "903111d9-9dc2-4129-b08a-3cf52bc72757",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Bay City",
+            "sort-name": "Bay City",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "“Queen of Pop”",
+          "ipis": [
+            "00125053706",
+            "00128246872",
+            "00211854787"
+          ],
+          "isnis": [
+            "000000010782262X"
+          ],
+          "life-span": {
+            "begin": "1958-08-16",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Ciccone, Madonna Louise",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "麥當娜",
+              "locale": "zh_Hant",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Ciccone, Madonna Louise Veronica",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Madonna Louise Veronica Ciccone",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "マドンナ",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "マドンナ",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Ciccone-Ritchie, Madonna",
+              "name": "Madonna Ciccone-Ritchie",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Ciccone, Madonna Louise",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Madonna Louise Ciccone",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Madonna",
+              "name": "Madonna",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "M. Ciccone",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "name": "M. Ciccone",
+              "locale": null,
+              "type": "Search hint",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 2,
+              "name": "electronic"
+            },
+            {
+              "count": -1,
+              "name": "downtempo"
+            },
+            {
+              "count": 32,
+              "name": "pop"
+            },
+            {
+              "count": 0,
+              "name": "80s"
+            },
+            {
+              "count": 2,
+              "name": "jazz"
+            },
+            {
+              "count": 0,
+              "name": "dance"
+            },
+            {
+              "count": -2,
+              "name": "american"
+            },
+            {
+              "count": -2,
+              "name": "arabic"
+            },
+            {
+              "count": 1,
+              "name": "new wave"
+            },
+            {
+              "count": -2,
+              "name": "singer"
+            },
+            {
+              "count": -2,
+              "name": "usa"
+            },
+            {
+              "count": 1,
+              "name": "easy listening"
+            },
+            {
+              "count": 2,
+              "name": "electronica"
+            },
+            {
+              "count": 3,
+              "name": "synth-pop"
+            },
+            {
+              "count": 6,
+              "name": "electropop"
+            },
+            {
+              "count": -2,
+              "name": "américain"
+            },
+            {
+              "count": 1,
+              "name": "female vocals"
+            },
+            {
+              "count": 14,
+              "name": "dance-pop"
+            },
+            {
+              "count": 1,
+              "name": "adult contemporary"
+            },
+            {
+              "count": 2,
+              "name": "pop rock"
+            },
+            {
+              "count": 1,
+              "name": "country pop"
+            },
+            {
+              "count": 1,
+              "name": "trip hop"
+            },
+            {
+              "count": 1,
+              "name": "club"
+            },
+            {
+              "count": -2,
+              "name": "chanteur"
+            },
+            {
+              "count": -2,
+              "name": "greatest hits"
+            },
+            {
+              "count": -2,
+              "name": "tell me"
+            },
+            {
+              "count": 1,
+              "name": "edm"
+            },
+            {
+              "count": -2,
+              "name": "pop and chart"
+            },
+            {
+              "count": 2,
+              "name": "dance music"
+            },
+            {
+              "count": 2,
+              "name": "folk music"
+            },
+            {
+              "count": -2,
+              "name": "multiple ipi"
+            },
+            {
+              "count": 2,
+              "name": "contemporary pop/rock"
+            },
+            {
+              "count": 4,
+              "name": "contemporary r&b"
+            },
+            {
+              "count": 7,
+              "name": "art pop"
+            },
+            {
+              "count": 1,
+              "name": "bubblegum pop"
+            },
+            {
+              "count": -2,
+              "name": "secret"
+            },
+            {
+              "count": 1,
+              "name": "adult contemporary music"
+            },
+            {
+              "count": 0,
+              "name": "nuno"
+            }
+          ]
+        },
+        {
+          "id": "3fd13140-6857-489a-9e53-a4e112b8354b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 64,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna",
+          "sort-name": "Madonna",
+          "gender": "female",
+          "country": "LB",
+          "area": {
+            "id": "8138206e-5786-3f86-a53b-19a7303e7419",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Lebanon",
+            "sort-name": "Lebanon",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Lebanese singer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "3f351696-75a2-4167-86b1-c5cd37770600",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 64,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "The Blessed Madonna",
+          "sort-name": "Blessed Madonna, The",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "house/disco artist Marea Stamper",
+          "isnis": [
+            "0000000407778042"
+          ],
+          "life-span": {
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Blessed Madonna, The",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "The Blessed Madonna",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": "2020-07-20",
+              "end-date": null
+            },
+            {
+              "sort-name": "Black Madonna, The",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "The Black Madonna",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": "2020-07-20"
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "house"
+            },
+            {
+              "count": 1,
+              "name": "techno"
+            },
+            {
+              "count": 1,
+              "name": "electro-disco"
+            },
+            {
+              "count": 1,
+              "name": "alternative dance"
+            }
+          ]
+        },
+        {
+          "id": "8353a6a9-815a-4c65-b495-c45fed04568f",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 61,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Luigi Madonna",
+          "sort-name": "Madonna, Luigi",
+          "gender": "male",
+          "country": "IT",
+          "area": {
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Italy",
+            "sort-name": "Italy",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Italian DJ and producer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "a03e6851-a046-4599-85f0-5977905f8e8a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 61,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna Nash",
+          "sort-name": "Nash, Madonna",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "000000037281564X"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "c106dd0c-4736-4bfd-81f4-500e229f5ca8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 60,
+          "name": "Madonna 303",
+          "sort-name": "Madonna 303",
+          "disambiguation": "alias of Air Liquide",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "d44c9bc0-53fd-4638-bd50-54a95b2cd250",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 60,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Annalisa Madonna",
+          "sort-name": "Madonna, Annalisa",
+          "gender": "female",
+          "country": "IT",
+          "area": {
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Italy",
+            "sort-name": "Italy",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "000000051033882X"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "ccf25bc1-0864-4b90-bb26-9e74c187975e",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 59,
+          "name": "Fortress Madonna",
+          "sort-name": "Fortress Madonna",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "afe9e530-c9b6-42b8-b878-fa56fb0b19fc",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 59,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Buffalo Madonna",
+          "sort-name": "Buffalo Madonna",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "e8e3fb47-d041-42d3-8903-7fe7b2d137e9",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 59,
+          "name": "SWEET MADONNA",
+          "sort-name": "SWEET MADONNA",
+          "country": "JP",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Japan",
+            "sort-name": "Japan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Tokyo",
+            "sort-name": "Tokyo",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "2008-02",
+            "end": "2013-02-27",
+            "ended": true
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "visual kei"
+            }
+          ]
+        },
+        {
+          "id": "53202bda-728e-47fe-9316-b988a26abd50",
+          "score": 59,
+          "name": "Madonna Martin",
+          "sort-name": "Madonna Martin",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "6fe20bfd-82bc-4a1c-9964-6bf7af71cd05",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna Tassi",
+          "sort-name": "Tassi, Madonna",
+          "gender": "female",
+          "begin-area": {
+            "id": "645a2090-c498-48ce-a58e-11379aaac827",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Newfoundland and Labrador",
+            "sort-name": "Newfoundland and Labrador",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000517268190"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "bca1fddb-012d-47d8-acdd-7c9d1e60e96e",
+          "score": 58,
+          "name": "Gorgon Madonna",
+          "sort-name": "Gorgon Madonna",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "b1aff435-d6d1-42e6-aec4-27da3ec04d36",
+          "score": 58,
+          "name": "Pre Madonna",
+          "sort-name": "Pre Madonna",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8da6e761-8184-443b-a532-fbae61037170",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Karamjeet Madonna",
+          "sort-name": "Madonna, Karamjeet",
+          "gender": "female",
+          "country": "IN",
+          "area": {
+            "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "India",
+            "sort-name": "India",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "9af246bd-4c4e-49fe-93a2-b6a08cf600ac",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "New Delhi",
+            "sort-name": "New Delhi",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Indian actress, dancer and singer",
+          "life-span": {
+            "begin": "2000-09-18",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "indian singer"
+            },
+            {
+              "count": 1,
+              "name": "indian dancer"
+            },
+            {
+              "count": 1,
+              "name": "indian actor"
+            },
+            {
+              "count": 1,
+              "name": "2000 born"
+            },
+            {
+              "count": 1,
+              "name": "karamjeet madonna"
+            }
+          ]
+        },
+        {
+          "id": "e565c6fe-a676-4970-8c8c-e30f5b27167d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 58,
+          "name": "Madonna King",
+          "sort-name": "Madonna King",
+          "disambiguation": "Hardcore, Punk Mitglieder: Norrin Radd (4)",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "e004b36a-867a-4144-8d66-02689b04ec93",
+          "score": 58,
+          "name": "Raw Madonna",
+          "sort-name": "Raw Madonna",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "fad93057-dba3-4234-a5d2-30a1367e0ddc",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Madonna Sebastian",
+          "sort-name": "Sebastian, Madonna",
+          "gender": "female",
+          "country": "IN",
+          "area": {
+            "id": "d31a9a15-537f-3669-ad53-25753ddd2772",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "India",
+            "sort-name": "India",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Actress",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "6197b500-9598-4412-b7eb-5a058bd48318",
+          "score": 58,
+          "name": "Madonna Kebab",
+          "sort-name": "Kebab, Madonna",
+          "disambiguation": "appears on RemixEverything compilation",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "89338c8c-9052-4227-ab20-a460e1328d7e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "name": "e madonna",
+          "sort-name": "e madonna",
+          "disambiguation": "hip hop producer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "89156c85-ebce-460b-bf5f-4fe1957bd2f0",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "name": "Matthew Madonna",
+          "sort-name": "Madonna, Matthew",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "911df6c2-1584-41f9-a000-28c45961bcb5",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 58,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Ray Madonna",
+          "sort-name": "Madonna, Ray",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "2479c557-3b18-491a-9eac-e06448f92960",
+          "score": 58,
+          "name": "Madonna III",
+          "sort-name": "Madonna III",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "5c3135af-994d-405a-aed9-a1215230163c",
+          "score": 58,
+          "name": "OH MADONNA",
+          "sort-name": "OH MADONNA",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "f68a6f65-4371-4d89-a51b-a3ec3405c69b",
+          "score": 55,
+          "name": "Madonna Over Yorkshire",
+          "sort-name": "Madonna Over Yorkshire",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

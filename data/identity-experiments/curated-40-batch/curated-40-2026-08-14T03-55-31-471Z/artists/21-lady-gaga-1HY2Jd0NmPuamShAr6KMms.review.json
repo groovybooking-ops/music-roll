@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Lady Gaga",
+    "proposedMusicRollId": "mr_artist_000027",
+    "spotifyArtistId": "1HY2Jd0NmPuamShAr6KMms"
+  },
+  "outcome": "unresolved_identity",
+  "sourceResults": {
+    "wikidata": null,
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {},
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_bridge"
+  ],
+  "providerErrors": [
+    {
+      "provider": "wikidata",
+      "operation": "spotify_bridge",
+      "statusCode": 409,
+      "message": "Wikidata returned multiple entities for Spotify ID 1HY2Jd0NmPuamShAr6KMms."
+    }
+  ],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

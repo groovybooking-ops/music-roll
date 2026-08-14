@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "artist": {
+    "displayName": "Beyoncé",
+    "proposedMusicRollId": "mr_artist_000011",
+    "spotifyArtistId": "6vWDO969PvNqNYHIOW5v0m"
+  },
+  "sourceConflictReport": "05-beyonce-6vWDO969PvNqNYHIOW5v0m.review.json",
+  "competingIdentifiers": {
+    "spotifyArtistIds": [
+      "6vWDO969PvNqNYHIOW5v0m",
+      "6HOb77B9Vyl7bdKj8YSfDS"
+    ],
+    "wikidataQids": [
+      "Q36153"
+    ],
+    "musicBrainzArtistIds": [
+      "859d0860-d480-4efd-970c-c05d5f1776b8"
+    ],
+    "discogsArtistIds": [
+      "112751",
+      "52835"
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6vWDO969PvNqNYHIOW5v0m",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6vWDO969PvNqNYHIOW5v0m",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6HOb77B9Vyl7bdKj8YSfDS",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6vWDO969PvNqNYHIOW5v0m",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q36153",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q36153",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "859d0860-d480-4efd-970c-c05d5f1776b8",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "859d0860-d480-4efd-970c-c05d5f1776b8",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "112751",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "52835",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "112751",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "52835",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    }
+  ],
+  "identifierStates": {
+    "spotify": {
+      "6vWDO969PvNqNYHIOW5v0m": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "Beyoncé"
+      },
+      "6HOb77B9Vyl7bdKj8YSfDS": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "Beyoncé"
+      }
+    },
+    "musicBrainz": {
+      "859d0860-d480-4efd-970c-c05d5f1776b8": {
+        "name": "Beyoncé",
+        "artistType": "Person",
+        "country": "US",
+        "lifeSpan": {
+          "begin": "1981-09-04",
+          "end": null,
+          "ended": false
+        },
+        "isni": [
+          "0000000114914936"
+        ],
+        "officialUrls": [
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/112751"
+          },
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/52835"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/6HOb77B9Vyl7bdKj8YSfDS"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://www.boomplay.com/artists/2773462"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://www.deezer.com/artist/145"
+          },
+          {
+            "relationshipType": "official homepage",
+            "url": "https://www.beyonce.com/"
+          },
+          {
+            "relationshipType": "wikidata",
+            "url": "https://www.wikidata.org/wiki/Q36153"
+          }
+        ]
+      }
+    },
+    "discogs": {
+      "52835": {
+        "state": "active",
+        "name": "Beyoncé",
+        "realName": "Beyoncé Giselle Knowles-Carter née Beyoncé Giselle Knowles",
+        "aliases": [
+          {
+            "discogsArtistId": "90038",
+            "name": "Foxxy Cleopatra"
+          },
+          {
+            "discogsArtistId": "112751",
+            "name": "Beyoncé Knowles"
+          },
+          {
+            "discogsArtistId": "3377944",
+            "name": "Third World Trill"
+          },
+          {
+            "discogsArtistId": "3377946",
+            "name": "Third Ward Trill"
+          },
+          {
+            "discogsArtistId": "3922835",
+            "name": "The Queen (2)"
+          },
+          {
+            "discogsArtistId": "4266511",
+            "name": "Sasha (38)"
+          },
+          {
+            "discogsArtistId": "5021638",
+            "name": "Beyoncé Knowles Carter"
+          }
+        ],
+        "urls": [
+          "https://beyonce.com/",
+          "https://www.facebook.com/beyonce/",
+          "https://www.imdb.com/name/nm0461498/",
+          "https://www.instagram.com/beyonce/",
+          "https://soundcloud.com/BEYONCE",
+          "https://www.tiktok.com/@beyonce",
+          "https://x.com/beyonce",
+          "https://en.wikipedia.org/wiki/Beyoncé",
+          "https://www.youtube.com/channel/UCuHzBCaKmtaLcRAOoazhCPA",
+          "https://music.youtube.com/channel/UCoPQ_TWm8JZ5nJv4a5BzSWA"
+        ]
+      },
+      "112751": {
+        "state": "active",
+        "name": "Beyoncé Knowles",
+        "realName": "Beyoncé Giselle Knowles-Carter née Beyoncé Giselle Knowles",
+        "aliases": [
+          {
+            "discogsArtistId": "52835",
+            "name": "Beyoncé"
+          },
+          {
+            "discogsArtistId": "90038",
+            "name": "Foxxy Cleopatra"
+          },
+          {
+            "discogsArtistId": "3377944",
+            "name": "Third World Trill"
+          },
+          {
+            "discogsArtistId": "3377946",
+            "name": "Third Ward Trill"
+          },
+          {
+            "discogsArtistId": "3922835",
+            "name": "The Queen (2)"
+          },
+          {
+            "discogsArtistId": "4266511",
+            "name": "Sasha (38)"
+          },
+          {
+            "discogsArtistId": "5021638",
+            "name": "Beyoncé Knowles Carter"
+          }
+        ],
+        "urls": [
+          "https://www.beyonce.com/",
+          "https://iam.beyonce.com/",
+          "https://www.facebook.com/beyonce",
+          "https://www.instagram.com/beyonce/",
+          "https://twitter.com/Beyonce",
+          "https://www.youtube.com/beyonce",
+          "https://soundcloud.com/beyonce",
+          "https://en.wikipedia.org/wiki/Beyonc%C3%A9",
+          "https://www.imdb.com/name/nm0461498/",
+          "https://www.songkick.com/artists/553938-beyonce",
+          "https://genius.com/artists/Beyonce"
+        ]
+      }
+    }
+  },
+  "wikidataStatements": [
+    {
+      "qid": "Q36153",
+      "property": "P1902",
+      "values": [
+        {
+          "identifier": "6vWDO969PvNqNYHIOW5v0m",
+          "assertions": [
+            {
+              "id": "Q36153$10158BC1-FDD7-45DE-A348-023B22CDE19A",
+              "rank": "normal",
+              "qualifiers": {
+                "P1552": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1552",
+                    "hash": "cd7b20383169715539c0c7d5d88b8c760830e0d1",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 98962768,
+                        "id": "Q98962768"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "ede3ceab842fa12934e8284216eb2161fc6b22c7",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a00692ffa33bf9a453aaaff50af5a48ba3a85ca2",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-08-29T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "6HOb77B9Vyl7bdKj8YSfDS",
+          "assertions": [],
+          "state": "not_present"
+        }
+      ]
+    },
+    {
+      "qid": "Q36153",
+      "property": "P434",
+      "values": [
+        {
+          "identifier": "859d0860-d480-4efd-970c-c05d5f1776b8",
+          "assertions": [
+            {
+              "id": "q36153$FA4E1D43-0244-4517-82B4-CED34697F5BF",
+              "rank": "normal",
+              "qualifiers": {},
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    },
+    {
+      "qid": "Q36153",
+      "property": "P1953",
+      "values": [
+        {
+          "identifier": "112751",
+          "assertions": [
+            {
+              "id": "Q36153$FE101830-9E95-40DC-BFB7-B8336534036E",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "8672f16e51bcd76a6ce8c9e2e259104dbe428543",
+                    "datavalue": {
+                      "value": "Beyoncé Knowles",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "52835",
+          "assertions": [
+            {
+              "id": "Q36153$0D0308AD-E895-40B5-B597-C9E95FF3A2B0",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "9093fcc38d584b9a92efb5e226f28fe464dd72d5",
+                    "datavalue": {
+                      "value": "Beyoncé",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "e04b692332431ddc6806b23a0e494c1937988340",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a00cc299e508357647636e29593b8ca3e534077d",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-08-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    }
+  ],
+  "catalogFingerprints": {
+    "spotify": {
+      "6vWDO969PvNqNYHIOW5v0m": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "6HOb77B9Vyl7bdKj8YSfDS": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "859d0860-d480-4efd-970c-c05d5f1776b8": {
+        "releaseCount": 233,
+        "distinctiveTitles": [
+          "beautiful liar",
+          "bow down i been on",
+          "top off",
+          "telephone",
+          "16 carriages",
+          "runnin lose it all",
+          "why don t you love me",
+          "all night",
+          "walk on water",
+          "check on it",
+          "summertime",
+          "i am world tour",
+          "best thing i never had",
+          "renaissance",
+          "halo",
+          "break my soul",
+          "4 the remix",
+          "irreplaceable",
+          "morning dew donk",
+          "listen",
+          "beyonce",
+          "2015 fanclub single",
+          "4",
+          "03 bonnie clyde",
+          "star spangled banner from the super bowl xxxviii performance",
+          "naughty girl",
+          "deja vu",
+          "formation",
+          "xo",
+          "video phone",
+          "break my soul remixes",
+          "fighting temptation summertime",
+          "si yo fuera un chico",
+          "my house",
+          "crazy in love",
+          "delresto echoes",
+          "grown woman",
+          "broken hearted girl",
+          "i am sasha fierce",
+          "mood 4 eva",
+          "be alive",
+          "fever",
+          "at last",
+          "god bless the usa",
+          "black parade",
+          "run the world girls",
+          "me myself and i",
+          "drunk in love",
+          "if i were a boy",
+          "partition",
+          "halo single remixes",
+          "die with you",
+          "hold up",
+          "sing a song",
+          "b day anthology video album",
+          "wishing on a star",
+          "ii most wanted",
+          "baby boy",
+          "make me say it again girl",
+          "pretty hurts",
+          "cuff it",
+          "texas hold em",
+          "b day",
+          "i am sasha fierce the",
+          "homecoming the live album",
+          "say yes",
+          "sweet dreams",
+          "proud to be an american",
+          "work it out",
+          "4 intimate nights with beyonce",
+          "irreemplazable",
+          "the beyonce experience live",
+          "virgo s groove",
+          "on the throne",
+          "the lion king the gift",
+          "creole",
+          "i am tour instrumentals",
+          "single ladies put a ring on it",
+          "lemonade",
+          "naive",
+          "what s it gonna be",
+          "ring off",
+          "above and beyonce dance mixes",
+          "get me bodied",
+          "krazy in luv adam 12 so crazy remix",
+          "7 11",
+          "speak my mind",
+          "live at wembley",
+          "i can t take no more",
+          "i am yours an intimate performance at wynn las vegas",
+          "sorry",
+          "shining",
+          "1 1",
+          "dangerously in love",
+          "cowboy carter",
+          "crazy in love remix",
+          "upgrade u",
+          "spirit",
+          "broken hearted girl single remixes",
+          "amen",
+          "break my soul the queens remix",
+          "renaissance a film by beyonce live",
+          "texas hold em pony up remix",
+          "renaissance world tour the live album",
+          "single ladies put a ring on it dance mixes",
+          "perfect duet",
+          "homecoming a film by beyonce",
+          "flaws and all",
+          "ring the alarm",
+          "the soundtracks collection",
+          "revolution",
+          "dolly p",
+          "oh louisiana",
+          "until the end of time",
+          "love on top live at roseland",
+          "green light freemasons ep",
+          "smoke hour ii",
+          "check on it bama boyz after dark remix",
+          "blow remix",
+          "dance for you",
+          "break my soul will i am remix",
+          "brown skin girl",
+          "break my soul nita aviance club mix",
+          "protector",
+          "cuff it wetter remix",
+          "greatest hits",
+          "drunk in love remix",
+          "otherside",
+          "heat",
+          "if i were a boy dance mixes volume i",
+          "sandcastles",
+          "my rose",
+          "feeling myself",
+          "daughter",
+          "the linda martell show",
+          "ring the alarm remixes",
+          "levii s jeans",
+          "beyonce bowl live from houston texas",
+          "if i were a boy dance mixes volume ii",
+          "video phone remix bundle",
+          "riiverdance",
+          "krazy in luv rockwilder remix",
+          "break my soul honey dijon remix",
+          "sweet honey buckiin",
+          "mine",
+          "best thing i never had remixes",
+          "flamenco",
+          "already",
+          "smoke hour willie nelson",
+          "mi gente",
+          "back to bey sic",
+          "just for fun",
+          "diva remixes",
+          "from the beginning the best",
+          "2011 06 26 glastonbury festival of contemporary performing arts uk",
+          "video phone extended remix",
+          "ring the alarm spanglish mix",
+          "bodyguard",
+          "ya ya",
+          "life is but a dream live in atlantic city",
+          "crazy in love drum bass remix dreaming kaleb drum bass remix",
+          "ameriican requiem",
+          "party",
+          "break my soul terry hunter remix",
+          "love letters",
+          "daddy lessons",
+          "alliigator tears",
+          "desert eagle",
+          "the don divas",
+          "jolene",
+          "gott nytt jul",
+          "ii hands ii heaven",
+          "run the world girls remixes",
+          "standing on the sun remix",
+          "love drought",
+          "tyrant",
+          "greatest hits the singles 1997 2010",
+          "morning dew donk remix pack",
+          "sweet dreams ego singles dance mixes",
+          "blackbiird",
+          "irreplaceable remixes",
+          "spaghettii",
+          "beautiful liar freemasons remix edit",
+          "flawless",
+          "savage remix",
+          "flawless remix",
+          "miss swing miss soul",
+          "l oreal paris",
+          "the singles collection",
+          "america has a problem",
+          "true star a private performance",
+          "rise up",
+          "countdown",
+          "beyonce and wow wow wubbzy together in wubb idol",
+          "drunk in love dancehall refix",
+          "runnin lose it all dj aron remix",
+          "drunk in love dirty pop deconstruction",
+          "hymn for the weekend remixes",
+          "end of time",
+          "donk",
+          "see me now",
+          "i was here",
+          "formation slaptop bootleg",
+          "move your body",
+          "love on top madsko afro remix",
+          "max boot project vol 1",
+          "diva",
+          "sing a song maurice joshua remix",
+          "baby boy walked outta heaven",
+          "if i were a boy remix",
+          "love on top",
+          "bacardi black repentance",
+          "jealousy boom sound",
+          "put it in a love song",
+          "countdown uk remixes",
+          "green light",
+          "freedom",
+          "the official best of beyonce",
+          "girls who run the world jopo hd remix",
+          "me myself and i crazy love"
+        ],
+        "earliestYear": 0,
+        "latestYear": 2026
+      }
+    }
+  },
+  "catalogFingerprintComparisons": {
+    "spotify": [
+      {
+        "left": "6vWDO969PvNqNYHIOW5v0m",
+        "right": "6HOb77B9Vyl7bdKj8YSfDS",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": null,
+            "latestYear": null
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      }
+    ],
+    "musicBrainz": []
+  },
+  "authorityMetadataComparison": {
+    "859d0860-d480-4efd-970c-c05d5f1776b8": {
+      "name": "Beyoncé",
+      "artistType": "Person",
+      "country": "US",
+      "lifeSpan": {
+        "begin": "1981-09-04",
+        "end": null,
+        "ended": false
+      },
+      "isni": [
+        "0000000114914936"
+      ],
+      "officialUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/112751"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/52835"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6HOb77B9Vyl7bdKj8YSfDS"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.boomplay.com/artists/2773462"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/145"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "https://www.beyonce.com/"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q36153"
+        }
+      ]
+    }
+  },
+  "chronologyComparison": {
+    "spotify": {
+      "6vWDO969PvNqNYHIOW5v0m": {
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "6HOb77B9Vyl7bdKj8YSfDS": {
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "859d0860-d480-4efd-970c-c05d5f1776b8": {
+        "earliestYear": 0,
+        "latestYear": 2026
+      }
+    }
+  },
+  "finalConflictInterpretation": {
+    "conflictType": "unresolved_multiplicity",
+    "mechanicallyResolvable": false,
+    "signals": {
+      "semanticContradictions": [],
+      "redirectedIdentifiers": [],
+      "deprecatedIdentifiers": [],
+      "providerMultiplicityEvidence": [
+        "multiple_spotify_profiles_asserted_by_one_musicbrainz_entity",
+        "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+      ],
+      "unresolvedIdentifiers": [
+        "spotify_catalog:6vWDO969PvNqNYHIOW5v0m",
+        "spotify_catalog:6HOb77B9Vyl7bdKj8YSfDS"
+      ]
+    }
+  },
+  "remainingUncertainty": [
+    "spotify_catalog:6vWDO969PvNqNYHIOW5v0m",
+    "spotify_catalog:6HOb77B9Vyl7bdKj8YSfDS"
+  ],
+  "safety": {
+    "identityVerified": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  }
+}

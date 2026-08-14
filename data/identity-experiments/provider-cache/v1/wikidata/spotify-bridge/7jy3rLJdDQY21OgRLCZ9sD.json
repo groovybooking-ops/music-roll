@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7jy3rLJdDQY21OgRLCZ9sD",
+  "retrievedAt": "2026-08-14T03:56:23.328Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7jy3rLJdDQY21OgRLCZ9sD",
+      "wikidataQid": "Q483718",
+      "name": "Foo Fighters",
+      "musicBrainzArtistId": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+      "discogsArtistId": "198282"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q483718"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "67f66c07-6e61-4026-ade5-7e782fad3a5d"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "198282"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Foo Fighters"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

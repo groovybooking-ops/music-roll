@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Liv.e",
+    "proposedMusicRollId": "mr_artist_000007",
+    "spotifyArtistId": "0YCL71Clky5els6NireSBP"
+  },
+  "outcome": "coherent_identity_evidence",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "0YCL71Clky5els6NireSBP",
+      "wikidataQid": "Q120453911",
+      "name": "Liv.e",
+      "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "discogsArtistId": "5922649"
+    },
+    "musicBrainz": {
+      "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "name": "Liv.e",
+      "sortName": "Liv.e",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "e96f1c0d-721b-470d-a9c4-0aa2d89cf9e7",
+        "name": "Dallas",
+        "sortName": "Dallas",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1998",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "(Liv).e",
+          "sortName": "(Liv).e",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003708195"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://o-liv.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5922649"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/0YCL71Clky5els6NireSBP"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/12948063"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Liv.e"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/live/751308"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/oliveosun"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/_osun/"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/pronouncedliv"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/dolfinrecordsliv.e"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/pronouncedliv.e/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/ohliveosun"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/8989086"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UCGotTQw1pL3paes_ddewvow"
+        }
+      ]
+    },
+    "discogs": {
+      "discogsArtistId": "5922649",
+      "name": "Liv.e",
+      "realName": "Hailee Olivia Williams",
+      "profile": "Singer-songwriter and producer born and raised in Dallas, Texas.\r\nPronounced \"Liv\".\r\nDaughter of [a=Norman Williams].",
+      "artistUrls": [
+        "https://twitter.com/oliveosun",
+        "https://www.instagram.com/_osun/",
+        "https://o-liv.bandcamp.com/",
+        "https://soundcloud.com/ohliveosun"
+      ],
+      "aliases": [
+        {
+          "discogsArtistId": "5922647",
+          "name": "HeyLee"
+        },
+        {
+          "discogsArtistId": "6759317",
+          "name": "Jade Fox (3)"
+        },
+        {
+          "discogsArtistId": "15263424",
+          "name": "Hailee Olivia Williams"
+        }
+      ],
+      "nameVariations": [
+        "Liv. E."
+      ],
+      "discogsResourceUrl": "https://api.discogs.com/artists/5922649",
+      "discogsWebUrl": "https://www.discogs.com/artist/5922649-Live",
+      "dataQuality": "Needs Vote"
+    }
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "0YCL71Clky5els6NireSBP",
+      "observedValues": [
+        "0YCL71Clky5els6NireSBP"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0YCL71Clky5els6NireSBP",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0YCL71Clky5els6NireSBP",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0YCL71Clky5els6NireSBP",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q120453911",
+      "observedValues": [
+        "Q120453911"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q120453911",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "observedValues": [
+        "0bcfef47-91d0-41dd-87fa-cbf3a396ead3"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "5922649",
+      "observedValues": [
+        "5922649"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5922649",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5922649",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5922649",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+        "name": "Liv.e",
+        "sortName": "Liv.e",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "0YCL71Clky5els6NireSBP"
+        ],
+        "discogsArtistIds": [
+          "5922649"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "missingEvidence": [],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

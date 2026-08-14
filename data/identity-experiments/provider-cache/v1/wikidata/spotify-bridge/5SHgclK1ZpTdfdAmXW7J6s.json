@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5SHgclK1ZpTdfdAmXW7J6s",
+  "retrievedAt": "2026-08-14T03:56:16.270Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5SHgclK1ZpTdfdAmXW7J6s",
+      "wikidataQid": "Q121433613",
+      "name": "The Last Dinner Party",
+      "musicBrainzArtistId": "2f0c90b1-84d5-47f1-ad75-ad8d30f53f70",
+      "discogsArtistId": "12964128"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q121433613"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "2f0c90b1-84d5-47f1-ad75-ad8d30f53f70"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "12964128"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "The Last Dinner Party"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

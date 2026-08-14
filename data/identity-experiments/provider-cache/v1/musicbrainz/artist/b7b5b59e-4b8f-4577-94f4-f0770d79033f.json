@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+  "retrievedAt": "2026-08-14T03:55:34.142Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "name": "Fana Hues",
+      "sortName": "Hues, Fana",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "56e1c305-859d-4fbb-8a7c-6e45e1b8ebf1",
+        "name": "Pasadena",
+        "sortName": "Pasadena",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000493798655"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://fanahues.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/9565081"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/77927822"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "https://www.fanahues.com/"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.apple.com/us/artist/1486304617"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://open.qobuz.com/artist/7657369"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://ototoy.jp/_/default/a/938806"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1486304617"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1486304617"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://open.qobuz.com/artist/7657369"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/17308347"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q102247717"
+        }
+      ]
+    },
+    "raw": {
+      "id": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "begin-area": null,
+      "disambiguation": "",
+      "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "country": "US",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "area": {
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Pasadena",
+        "id": "56e1c305-859d-4fbb-8a7c-6e45e1b8ebf1",
+        "type": null,
+        "name": "Pasadena"
+      },
+      "name": "Fana Hues",
+      "isnis": [
+        "0000000493798655"
+      ],
+      "aliases": [],
+      "type": "Person",
+      "relations": [
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "bandcamp",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "id": "4b3796a9-47d9-4d91-bbae-6bfb9487d07e",
+            "resource": "https://fanahues.bandcamp.com/"
+          },
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88"
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "discogs",
+          "url": {
+            "resource": "https://www.discogs.com/artist/9565081",
+            "id": "db2c27c3-e681-4e9e-8eac-9d82ecd8d7b4"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "free streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "resource": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg",
+            "id": "843fa18f-a7b3-4fb4-a351-5f99df5bb8f8"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "free streaming",
+          "url": {
+            "resource": "https://www.deezer.com/artist/77927822",
+            "id": "d3bde14d-9651-4a6f-8d6c-fbdc4388a256"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "official homepage",
+          "url": {
+            "id": "da64178c-5acc-4720-a775-6083170cbfb4",
+            "resource": "https://www.fanahues.com/"
+          },
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "attributes": [],
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "url": {
+            "id": "df424aae-d0a7-4565-8ec7-288bf2b0c6f9",
+            "resource": "https://music.apple.com/us/artist/1486304617"
+          },
+          "type": "purchase for download",
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "end": null,
+          "begin": null,
+          "attribute-ids": {}
+        },
+        {
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [],
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "url": {
+            "id": "634e6882-835d-4162-8a2d-f77dc5e6fea4",
+            "resource": "https://open.qobuz.com/artist/7657369"
+          },
+          "type": "purchase for download",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "begin": null,
+          "attribute-ids": {}
+        },
+        {
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "url": {
+            "resource": "https://ototoy.jp/_/default/a/938806",
+            "id": "f38da42a-9c8e-4468-8661-a37c6bb0c9e0"
+          },
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "purchase for download",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null
+        },
+        {
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "type": "streaming",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1486304617",
+            "id": "d6614816-c478-4229-be32-2e71856300bf"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": ""
+        },
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "id": "df424aae-d0a7-4565-8ec7-288bf2b0c6f9",
+            "resource": "https://music.apple.com/us/artist/1486304617"
+          }
+        },
+        {
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "634e6882-835d-4162-8a2d-f77dc5e6fea4",
+            "resource": "https://open.qobuz.com/artist/7657369"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        },
+        {
+          "type": "streaming",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "id": "78cd5fd0-a66b-4543-9934-c91ed9284e98",
+            "resource": "https://tidal.com/artist/17308347"
+          }
+        },
+        {
+          "url": {
+            "id": "c499feca-08d0-4136-a973-05653ec973cf",
+            "resource": "https://www.wikidata.org/wiki/Q102247717"
+          },
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "wikidata",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false
+        }
+      ],
+      "end-area": null,
+      "gender": "Female",
+      "sort-name": "Hues, Fana"
+    }
+  }
+}

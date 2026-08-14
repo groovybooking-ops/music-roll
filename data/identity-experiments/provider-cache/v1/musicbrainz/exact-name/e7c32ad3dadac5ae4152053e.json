@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "e7c32ad3dadac5ae4152053e",
+  "retrievedAt": "2026-08-14T03:56:52.244Z",
+  "value": {
+    "requestedName": "Peggy Gou",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "4c41d78d-9dd5-430d-81ea-286052158293",
+        "name": "Peggy Gou",
+        "sortName": "Gou, Peggy",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:52.194Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "4c41d78d-9dd5-430d-81ea-286052158293",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Peggy Gou",
+          "sort-name": "Gou, Peggy",
+          "gender": "female",
+          "area": {
+            "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Berlin",
+            "sort-name": "Berlin",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "805deaa9-f30c-4856-baa4-19f206df64ce",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Incheon",
+            "sort-name": "Incheon",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "00804724647",
+            "00813320482"
+          ],
+          "isnis": [
+            "0000000465541975"
+          ],
+          "life-span": {
+            "begin": "1991-07-03",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Min-ji, Kim",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "김민지",
+              "locale": "ko_KR",
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Gou, Peggy",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "페기 구",
+              "locale": "ko_KR",
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "dance"
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "house"
+            },
+            {
+              "count": 1,
+              "name": "techno"
+            },
+            {
+              "count": 1,
+              "name": "edm"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

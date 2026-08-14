@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "09hVIj6vWgoCDtT03h8ZCa",
+  "retrievedAt": "2026-08-14T03:55:56.446Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "09hVIj6vWgoCDtT03h8ZCa",
+      "wikidataQid": "Q300602",
+      "name": "A Tribe Called Quest",
+      "musicBrainzArtistId": "9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "discogsArtistId": "3268"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q300602"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "9689aa5a-4471-4fb4-9721-07cecda0fa9f"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3268"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "A Tribe Called Quest"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

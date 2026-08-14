@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Summer Walker",
+    "proposedMusicRollId": "mr_artist_000010",
+    "spotifyArtistId": "57LYzLEk2LcFghVwuWbcuS"
+  },
+  "outcome": "unresolved_identity",
+  "sourceResults": {
+    "wikidata": null,
+    "musicBrainz": null,
+    "discogs": null
+  },
+  "identifierAgreement": {},
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_bridge"
+  ],
+  "providerErrors": [
+    {
+      "provider": "wikidata",
+      "operation": "spotify_bridge",
+      "statusCode": null,
+      "message": "Wikidata identity bridge request failed before receiving a response."
+    }
+  ],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

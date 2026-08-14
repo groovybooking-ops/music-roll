@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "3fd13140-6857-489a-9e53-a4e112b8354b",
+  "retrievedAt": "2026-08-14T03:56:15.722Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "3fd13140-6857-489a-9e53-a4e112b8354b",
+      "name": "Madonna",
+      "sortName": "Madonna",
+      "artistType": "Person",
+      "disambiguation": "Lebanese singer",
+      "country": "LB",
+      "area": {
+        "id": "8138206e-5786-3f86-a53b-19a7303e7419",
+        "name": "Lebanon",
+        "sortName": "Lebanon",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/15545"
+        }
+      ]
+    },
+    "raw": {
+      "ipis": [],
+      "sort-name": "Madonna",
+      "id": "3fd13140-6857-489a-9e53-a4e112b8354b",
+      "name": "Madonna",
+      "disambiguation": "Lebanese singer",
+      "isnis": [],
+      "relations": [
+        {
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "streaming",
+          "source-credit": "",
+          "url": {
+            "id": "48d69fee-354a-4cf7-940a-7c3fd57488e0",
+            "resource": "https://tidal.com/artist/15545"
+          },
+          "attribute-ids": {},
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        }
+      ],
+      "type": "Person",
+      "area": {
+        "id": "8138206e-5786-3f86-a53b-19a7303e7419",
+        "iso-3166-1-codes": [
+          "LB"
+        ],
+        "name": "Lebanon",
+        "sort-name": "Lebanon",
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "country": "LB",
+      "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+      },
+      "begin-area": null,
+      "end-area": null,
+      "gender": "Female",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "aliases": []
+    }
+  }
+}

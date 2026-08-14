@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "operation": "catalog",
+  "identifier": "4zt8uayMFrhxhOnVCm8qNS",
+  "retrievedAt": "2026-08-14T04:13:05.168Z",
+  "value": {
+    "state": "active",
+    "statusCode": 200,
+    "pages": [
+      {
+        "href": "https://api.spotify.com/v1/artists/4zt8uayMFrhxhOnVCm8qNS/albums?offset=0&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0,
+        "items": []
+      }
+    ],
+    "releases": []
+  }
+}

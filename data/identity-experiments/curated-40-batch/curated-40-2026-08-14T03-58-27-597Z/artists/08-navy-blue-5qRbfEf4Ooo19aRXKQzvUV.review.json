@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Navy Blue",
+    "proposedMusicRollId": "mr_artist_000014",
+    "spotifyArtistId": "5qRbfEf4Ooo19aRXKQzvUV"
+  },
+  "outcome": "insufficient_corroboration",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "5qRbfEf4Ooo19aRXKQzvUV",
+      "wikidataQid": "Q64875639",
+      "name": "Sage Elsesser",
+      "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "discogsArtistId": null
+    },
+    "musicBrainz": {
+      "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": "Person",
+      "disambiguation": "US skateboarder & rapper",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "name": "Los Angeles",
+        "sortName": "Los Angeles",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1997-01-31",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Sage Elsesser",
+          "sortName": "Sage Elsesser",
+          "type": "Artist name",
+          "locale": "en",
+          "primary": true
+        }
+      ],
+      "isni": [
+        "000000049278303X"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://navybluethetruest.bandcamp.com/"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/86114"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/sageelsesser/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/navybluethewaterbearer"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/4170652"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q64875639"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UC_yZGAfHD366MYs6Rxdu_GA"
+        }
+      ]
+    },
+    "discogs": null
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "5qRbfEf4Ooo19aRXKQzvUV",
+      "observedValues": [
+        "5qRbfEf4Ooo19aRXKQzvUV"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q64875639",
+      "observedValues": [
+        "Q64875639"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64875639",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64875639",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "observedValues": [
+        "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "not_observed",
+      "agreedValue": null,
+      "observedValues": [],
+      "claims": [],
+      "independentSourceCount": 0,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 7,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "multiple_exact_display_name_entities",
+    "competingEntityCount": 6,
+    "competingEntities": [
+      {
+        "musicBrainzArtistId": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": null,
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "345235"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "5607b559-2929-4cb6-a556-124ea22aa171",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "US jazz artist",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "Alternative artist",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "Brazilian pop/punk band",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "easy listening artist from LA",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6LXztWXl5UjprS0qchHNic"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "appears on Babeheaven's track",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "US skateboarder & rapper",
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "5qRbfEf4Ooo19aRXKQzvUV"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": null,
+        "score": 88,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": [
+          "345235"
+        ]
+      },
+      {
+        "musicBrainzArtistId": "5607b559-2929-4cb6-a556-124ea22aa171",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "US jazz artist",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "Alternative artist",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "Brazilian pop/punk band",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "easy listening artist from LA",
+        "score": 87,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [
+          "6LXztWXl5UjprS0qchHNic"
+        ],
+        "discogsArtistIds": []
+      },
+      {
+        "musicBrainzArtistId": "088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9",
+        "name": "Navy Blue",
+        "sortName": "Navy Blue",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "appears on Babeheaven's track",
+        "score": 86,
+        "selectedExactEntity": false,
+        "spotifyArtistIds": [],
+        "discogsArtistIds": []
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "missingEvidence": [
+    "wikidata_discogs_id"
+  ],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

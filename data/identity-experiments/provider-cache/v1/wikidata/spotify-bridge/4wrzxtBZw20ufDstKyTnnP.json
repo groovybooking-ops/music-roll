@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "4wrzxtBZw20ufDstKyTnnP",
+  "retrievedAt": "2026-08-14T03:56:00.801Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "4wrzxtBZw20ufDstKyTnnP",
+      "wikidataQid": "Q111317463",
+      "name": "Rachel Chinouriri",
+      "musicBrainzArtistId": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+      "discogsArtistId": "7423934"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q111317463"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "7423934"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Rachel Chinouriri"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

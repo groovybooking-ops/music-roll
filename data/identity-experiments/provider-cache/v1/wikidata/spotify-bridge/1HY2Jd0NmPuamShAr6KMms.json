@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1HY2Jd0NmPuamShAr6KMms",
+  "retrievedAt": "2026-08-14T03:58:45.643Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1HY2Jd0NmPuamShAr6KMms",
+      "wikidataQid": "Q19848",
+      "name": "Lady Gaga",
+      "musicBrainzArtistId": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "1525683",
+        "1103159"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q19848"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1525683"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Lady Gaga"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q19848"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "650e7db6-b795-4eb5-a702-5ea2fc46c848"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1103159"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Lady Gaga"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

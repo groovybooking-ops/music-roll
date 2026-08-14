@@ -89,15 +89,17 @@ test("event v1 and evidence v1 validate identity references", () => {
     }), /Invalid evidence type/);
 });
 
-test("generated six-artist preview validates and preserves live compatibility fields", () => {
+test("permanent 20-artist directory validates and preserves the historical six", () => {
     const live = JSON.parse(fs.readFileSync(path.join(root, "data", "artists.json"), "utf8"));
     const preview = JSON.parse(fs.readFileSync(path.join(root, "data", "artists-v2.preview.json"), "utf8"));
     assert.equal(preview.length, 6);
+    assert.equal(live.length, 20);
     assert.equal(validateArtistDirectoryV2(preview), true);
-    assert.deepEqual(preview.map(item => item.musicRollId), registry.mappings.map(item => item.musicRollId));
+    assert.equal(validateArtistDirectoryV2(live), true);
+    assert.deepEqual(live.map(item => item.musicRollId), registry.mappings.map(item => item.musicRollId));
     assert.deepEqual(
         preview.map(item => [item.name, item.genre, item.tier, item.spotifyId, item.spotify, item.image, item.instagram, item.tiktok]),
-        live.map(item => [item.name, item.genre, item.tier, item.spotifyId, item.spotify, item.image, item.instagram, item.tiktok])
+        live.slice(0, 6).map(item => [item.name, item.genre, item.tier, item.spotifyId, item.spotify, item.image, item.instagram, item.tiktok])
     );
     assert.ok(preview.every(item => Object.keys(item.externalIds).join(",") === "spotify"));
     assert.ok(preview.every(item => Object.values(item.geography.home).every(value => value === null)));

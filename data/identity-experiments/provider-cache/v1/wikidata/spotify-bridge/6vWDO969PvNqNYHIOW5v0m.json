@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6vWDO969PvNqNYHIOW5v0m",
+  "retrievedAt": "2026-08-14T03:58:27.719Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6vWDO969PvNqNYHIOW5v0m",
+      "wikidataQid": "Q36153",
+      "name": "Beyoncé",
+      "musicBrainzArtistId": "859d0860-d480-4efd-970c-c05d5f1776b8",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "112751",
+        "52835"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q36153"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "859d0860-d480-4efd-970c-c05d5f1776b8"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "112751"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Beyoncé"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q36153"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "859d0860-d480-4efd-970c-c05d5f1776b8"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "52835"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Beyoncé"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

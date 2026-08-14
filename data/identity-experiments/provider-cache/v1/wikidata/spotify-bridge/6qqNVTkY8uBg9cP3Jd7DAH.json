@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6qqNVTkY8uBg9cP3Jd7DAH",
+  "retrievedAt": "2026-08-14T03:58:43.442Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6qqNVTkY8uBg9cP3Jd7DAH",
+      "wikidataQid": "Q29564107",
+      "name": "Billie Eilish",
+      "musicBrainzArtistId": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "5590213",
+        "6502756"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q29564107"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5590213"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Billie Eilish"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q29564107"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6502756"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Billie Eilish"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

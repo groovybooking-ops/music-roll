@@ -1,4 +1,17 @@
-/* Page setup */
+:root {
+    color-scheme: dark;
+    --page: #0b0912;
+    --surface: rgba(28, 23, 41, 0.82);
+    --surface-strong: #211a30;
+    --border: rgba(255, 255, 255, 0.12);
+    --text: #faf8ff;
+    --muted: #aaa3ba;
+    --color-primary: #0000FF;
+    --color-primary-hover: #2424ff;
+    --color-primary-readable: #a8b3ff;
+    --color-on-primary: #ffffff;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,155 +19,576 @@
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 64px 20px;
-    font-family: Arial, sans-serif;
-    color: #f8fafc;
-    text-align: center;
-    background: linear-gradient(145deg, #09090f, #171329 55%, #23143a);
+    padding: 72px 20px;
+    color: var(--text);
+    font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at 20% 0%, rgba(0, 0, 255, 0.24), transparent 36rem),
+        radial-gradient(circle at 90% 45%, rgba(0, 0, 255, 0.1), transparent 28rem),
+        var(--page);
+}
+
+button,
+select,
+a {
+    font: inherit;
+}
+
+button,
+a,
+select {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+    width: min(100%, 920px);
+    margin: 0 auto;
+}
+
+.hero {
+    max-width: 700px;
+    margin-bottom: 48px;
+}
+
+.eyebrow,
+.step-label,
+.artist-meta {
+    margin: 0 0 10px;
+    color: var(--color-primary-readable);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 }
 
 h1 {
-    margin: 0 0 10px;
-    font-size: clamp(2.5rem, 8vw, 4rem);
-    letter-spacing: -2px;
+    margin: 0;
+    font-size: clamp(3.5rem, 10vw, 7.5rem);
+    line-height: 0.88;
+    letter-spacing: -0.07em;
 }
 
-body > p {
-    margin: 0 0 36px;
-    color: #b8b5c7;
-    font-size: 1.1rem;
+h1 span {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(250, 248, 255, 0.72);
 }
 
-/* Form controls */
-label {
+.brand-lockup {
+    display: flex;
+    align-items: center;
+    gap: clamp(14px, 2.5vw, 26px);
+    width: fit-content;
+}
+
+.dice-mark {
+    flex: 0 0 auto;
+    width: clamp(58px, 9vw, 94px);
+    height: auto;
+    filter: drop-shadow(0 12px 22px rgba(0, 0, 255, 0.3));
+    transition: transform 220ms ease, filter 220ms ease;
+}
+
+.dice-face {
+    fill: #FFFFFF;
+}
+
+.dice-pip {
+    fill: #000000;
+}
+
+.brand-lockup:hover .dice-mark {
+    filter: drop-shadow(0 16px 28px rgba(0, 0, 255, 0.42));
+    transform: translateY(-2px) rotate(-4deg);
+}
+
+.intro {
+    max-width: 520px;
+    margin: 24px 0 0;
+    color: var(--muted);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.65;
+}
+
+.roll-panel,
+.artist-card {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(18px);
+}
+
+.roll-panel {
+    padding: clamp(24px, 5vw, 44px);
+    border-radius: 28px;
+}
+
+.panel-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.panel-heading h2,
+#artistName {
+    margin: 0;
+    letter-spacing: -0.035em;
+}
+
+.panel-heading h2 {
+    font-size: clamp(1.55rem, 4vw, 2.2rem);
+}
+
+.control-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.field label {
     display: block;
-    margin-bottom: 10px;
-    color: #dedbea;
-    font-weight: bold;
+    margin: 0 0 9px;
+    color: #dcd7e7;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.select-wrap {
+    position: relative;
+}
+
+.select-wrap::after {
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--muted);
+    border-bottom: 2px solid var(--muted);
+    content: "";
+    pointer-events: none;
+    transform: translateY(-70%) rotate(45deg);
 }
 
 select {
-    width: min(100%, 340px);
-    padding: 13px 44px 13px 16px;
-    border: 1px solid #454057;
-    border-radius: 12px;
-    color: #f8fafc;
-    background-color: #201d2c;
-    font: inherit;
+    width: 100%;
+    min-height: 54px;
+    padding: 0 46px 0 16px;
+    appearance: none;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    color: var(--text);
+    background: var(--surface-strong);
     cursor: pointer;
 }
 
 button,
-#spotifyLink {
-    display: inline-block;
+.spotify-link {
+    min-height: 52px;
     border: 0;
-    border-radius: 999px;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
+    border-radius: 14px;
+    font-weight: 800;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.2s ease,
-        box-shadow 0.2s ease;
+    transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
 }
 
-button {
-    padding: 14px 30px;
-    color: #ffffff;
-    background-color: #8b5cf6;
-    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+.collection-button {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 0 15px;
+    border: 1px solid rgba(168, 179, 255, 0.45);
+    color: var(--color-primary-readable);
+    background: rgba(0, 0, 255, 0.12);
+    font-size: 0.86rem;
 }
 
-button:hover,
-#spotifyLink:hover {
+.collection-button:hover:not(:disabled) {
+    background: rgba(0, 0, 255, 0.24);
+}
+
+button:hover:not(:disabled),
+.spotify-link:hover {
     transform: translateY(-2px);
 }
 
-button:hover {
-    background-color: #9f7aea;
+button:active:not(:disabled),
+.spotify-link:active {
+    transform: translateY(0);
 }
 
-button:active,
-#spotifyLink:active {
-    transform: translateY(0);
+button:disabled {
+    cursor: wait;
+    opacity: 0.5;
 }
 
 button:focus-visible,
 select:focus-visible,
-#spotifyLink:focus-visible {
-    outline: 3px solid #c4b5fd;
+.spotify-link:focus-visible,
+.artist-card:focus-visible {
+    outline: 3px solid var(--color-primary);
     outline-offset: 4px;
+    box-shadow: 0 0 0 6px var(--color-on-primary);
 }
 
-/* Artist result card */
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 0 24px;
+    color: var(--color-on-primary);
+    background: var(--color-primary);
+    box-shadow: 0 12px 32px rgba(0, 0, 255, 0.28);
+}
+
+.primary-button:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+    box-shadow: 0 16px 38px rgba(0, 0, 255, 0.38);
+}
+
+.primary-button span {
+    font-size: 0.65rem;
+}
+
+.status-message {
+    min-height: 1.4em;
+    margin: 16px 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.status-message[data-state="error"] {
+    color: #ffaaa5;
+}
+
+.status-message[hidden] {
+    display: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .artist-card {
-    width: min(100%, 440px);
-    margin: 44px auto 0;
-    padding: 28px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 24px;
-    background-color: rgba(27, 24, 39, 0.94);
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: minmax(260px, 0.9fr) minmax(280px, 1.1fr);
+    gap: clamp(28px, 5vw, 54px);
+    margin-top: 28px;
+    padding: clamp(18px, 3vw, 28px);
+    overflow: hidden;
+    border-radius: 28px;
 }
 
 .artist-card[hidden] {
     display: none;
 }
 
+.artwork-wrap {
+    position: relative;
+    min-height: 260px;
+}
+
 #artistImage {
-    display: none;
+    display: block;
     width: 100%;
-    max-width: 320px;
+    height: 100%;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 18px;
-    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+    background: var(--surface-strong);
+}
+
+#artistImage[hidden] {
+    display: none;
+}
+
+.result-badge {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    padding: 7px 10px;
+    border-radius: 999px;
+    color: var(--color-on-primary);
+    background: var(--color-primary);
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.artist-card-content {
+    align-self: center;
+    padding-right: clamp(4px, 2vw, 18px);
 }
 
 #artistName {
-    margin: 22px 0 8px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1;
+}
+
+.result-copy {
+    margin: 18px 0 28px;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.result-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.spotify-link,
+.secondary-button,
+.save-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.spotify-link {
+    gap: 10px;
+    color: #06130b;
+    background: #1ed760;
+    text-decoration: none;
+}
+
+.spotify-link:hover {
+    background: #44e57c;
+}
+
+.secondary-button {
+    color: var(--text);
+    background: #393148;
+}
+
+.secondary-button:hover:not(:disabled) {
+    background: #4a405d;
+}
+
+.save-button {
+    flex-basis: 100%;
+    color: var(--color-primary-readable);
+    background: rgba(0, 0, 255, 0.12);
+    border: 1px solid rgba(168, 179, 255, 0.4);
+}
+
+.save-button:hover:not(:disabled) {
+    background: rgba(0, 0, 255, 0.22);
+}
+
+.save-button[aria-pressed="true"] {
+    color: var(--color-on-primary);
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 26px rgba(0, 0, 255, 0.28);
+}
+
+.save-button.just-saved {
+    animation: saved-pulse 360ms ease-out;
+}
+
+@keyframes saved-pulse {
+    50% { transform: scale(1.025); }
+}
+
+.collection-dialog {
+    width: min(calc(100% - 32px), 720px);
+    max-height: min(80vh, 760px);
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    color: var(--text);
+    background: #15111f;
+    box-shadow: 0 32px 100px rgba(0, 0, 0, 0.65);
+}
+
+.collection-dialog::backdrop {
+    background: rgba(5, 3, 10, 0.78);
+    backdrop-filter: blur(8px);
+}
+
+.collection-dialog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.collection-dialog-header h2 {
+    margin: 0;
     font-size: 1.8rem;
 }
 
-#artistInfo {
-    margin: 0 0 22px;
-    color: #b8b5c7;
+.dialog-close {
+    width: 44px;
+    min-height: 44px;
+    padding: 0;
+    color: var(--text);
+    background: #393148;
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+.collection-list {
+    display: grid;
+    gap: 12px;
+    max-height: calc(80vh - 105px);
+    padding: 18px;
+    overflow-y: auto;
+}
+
+.collection-empty {
+    margin: 0;
+    padding: 50px 22px;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.saved-artist-card {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface-strong);
+}
+
+.saved-artist-card img {
+    width: 92px;
+    height: 92px;
+    border-radius: 12px;
+    object-fit: cover;
+    background: var(--page);
+}
+
+.saved-artist-card h3 {
+    margin: 0 0 7px;
+    font-size: 1.15rem;
+}
+
+.saved-artist-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.86rem;
     text-transform: capitalize;
 }
 
-#spotifyLink {
-    padding: 12px 22px;
-    color: #07140c;
-    background-color: #1ed760;
+.saved-artist-actions {
+    display: grid;
+    gap: 8px;
 }
 
-#spotifyLink:hover {
-    background-color: #43e57b;
-    box-shadow: 0 8px 24px rgba(30, 215, 96, 0.25);
+.saved-spotify-link,
+.remove-saved-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 0 12px;
+    border-radius: 10px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-decoration: none;
 }
 
-#rollAgainButton {
-    color: #dedbea;
-    background-color: #353044;
-    box-shadow: none;
+.saved-spotify-link {
+    color: #06130b;
+    background: #1ed760;
 }
 
-#rollAgainButton:hover {
-    background-color: #48415c;
+.remove-saved-button {
+    color: #ffc0bd;
+    background: rgba(255, 100, 92, 0.1);
 }
 
-/* Smaller screens */
-@media (max-width: 520px) {
+.saved-spotify-link:focus-visible,
+.remove-saved-button:focus-visible,
+.collection-button:focus-visible,
+.dialog-close:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px var(--color-on-primary);
+}
+
+@media (max-width: 680px) {
     body {
-        padding: 40px 16px;
+        padding: 44px 16px;
+    }
+
+    .hero {
+        margin-bottom: 32px;
+    }
+
+    .panel-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .brand-lockup {
+        align-items: flex-start;
+    }
+
+    .control-grid,
+    .artist-card {
+        grid-template-columns: 1fr;
     }
 
     .artist-card {
-        margin-top: 32px;
-        padding: 20px;
+        gap: 24px;
     }
 
-    button,
-    #spotifyLink {
+    .artist-card-content {
+        padding: 0 4px 8px;
+    }
+
+    .result-actions,
+    .spotify-link,
+    .secondary-button,
+    .save-button {
         width: 100%;
+    }
+
+    .saved-artist-card {
+        grid-template-columns: 72px minmax(0, 1fr);
+    }
+
+    .saved-artist-card img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .saved-artist-actions {
+        grid-column: 1 / -1;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
     }
 }

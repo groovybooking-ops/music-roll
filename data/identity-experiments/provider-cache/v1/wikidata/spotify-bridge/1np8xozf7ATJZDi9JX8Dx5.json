@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1np8xozf7ATJZDi9JX8Dx5",
+  "retrievedAt": "2026-08-14T03:56:37.648Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1np8xozf7ATJZDi9JX8Dx5",
+      "wikidataQid": "Q123982943",
+      "name": "salute",
+      "musicBrainzArtistId": "87484a93-1aae-4917-8d2f-7af0d16a2129",
+      "discogsArtistId": "4679378"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q123982943"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "87484a93-1aae-4917-8d2f-7af0d16a2129"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4679378"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "salute"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,15 +1,109 @@
 {
   "schemaVersion": 1,
-  "reviewOnly": true,
+  "reviewOnly": false,
   "registryCreatedAt": "2026-08-12T00:00:00.000Z",
-  "bindingRule": "Existing verified Spotify ID; never artist name alone.",
-  "mappingsSha256": "cfeef05266be17c43a00120124dcdab33d8bb7cfd74851519f6a60de80b5a319",
+  "bindingRule": "Exact Spotify ID binding from an existing verified identity or an explicitly human-approved corroboration package; never artist name alone.",
+  "mappingsSha256": "17f4ba6e0240984b8557dcb0070b631d506c0b3f26b5f99d5b255339fcbbae43",
   "mappings": [
-    { "musicRollId": "mr_artist_000001", "spotifyId": "6Y6qIKwe32BxNflpxbKsJc", "displayNameAtAssignment": "GROOVY" },
-    { "musicRollId": "mr_artist_000002", "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP", "displayNameAtAssignment": "SZA" },
-    { "musicRollId": "mr_artist_000003", "spotifyId": "3TVXtAsR1Inumwj472S9r4", "displayNameAtAssignment": "Drake" },
-    { "musicRollId": "mr_artist_000004", "spotifyId": "3fMbdgg4jU18AjLCKBhRSm", "displayNameAtAssignment": "Michael Jackson" },
-    { "musicRollId": "mr_artist_000005", "spotifyId": "3tlXnStJ1fFhdScmQeLpuG", "displayNameAtAssignment": "Brent Faiyaz" },
-    { "musicRollId": "mr_artist_000006", "spotifyId": "21UPYSRWFKwtqvSAnFnSvS", "displayNameAtAssignment": "Amaarae" }
+    {
+      "musicRollId": "mr_artist_000001",
+      "spotifyId": "6Y6qIKwe32BxNflpxbKsJc",
+      "displayNameAtAssignment": "GROOVY"
+    },
+    {
+      "musicRollId": "mr_artist_000002",
+      "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP",
+      "displayNameAtAssignment": "SZA"
+    },
+    {
+      "musicRollId": "mr_artist_000003",
+      "spotifyId": "3TVXtAsR1Inumwj472S9r4",
+      "displayNameAtAssignment": "Drake"
+    },
+    {
+      "musicRollId": "mr_artist_000004",
+      "spotifyId": "3fMbdgg4jU18AjLCKBhRSm",
+      "displayNameAtAssignment": "Michael Jackson"
+    },
+    {
+      "musicRollId": "mr_artist_000005",
+      "spotifyId": "3tlXnStJ1fFhdScmQeLpuG",
+      "displayNameAtAssignment": "Brent Faiyaz"
+    },
+    {
+      "musicRollId": "mr_artist_000006",
+      "spotifyId": "21UPYSRWFKwtqvSAnFnSvS",
+      "displayNameAtAssignment": "Amaarae"
+    },
+    {
+      "musicRollId": "mr_artist_000007",
+      "spotifyId": "0YCL71Clky5els6NireSBP",
+      "displayNameAtAssignment": "Liv.e"
+    },
+    {
+      "musicRollId": "mr_artist_000010",
+      "spotifyId": "57LYzLEk2LcFghVwuWbcuS",
+      "displayNameAtAssignment": "Summer Walker"
+    },
+    {
+      "musicRollId": "mr_artist_000011",
+      "spotifyId": "6vWDO969PvNqNYHIOW5v0m",
+      "displayNameAtAssignment": "Beyoncé"
+    },
+    {
+      "musicRollId": "mr_artist_000012",
+      "spotifyId": "3koiLjNrgRTNbOwViDipeA",
+      "displayNameAtAssignment": "Marvin Gaye"
+    },
+    {
+      "musicRollId": "mr_artist_000013",
+      "spotifyId": "1wlzPS1hSNrkriIIwLFTmU",
+      "displayNameAtAssignment": "MIKE"
+    },
+    {
+      "musicRollId": "mr_artist_000016",
+      "spotifyId": "6eXZu6O7nAUA5z6vLV8NKI",
+      "displayNameAtAssignment": "Little Simz"
+    },
+    {
+      "musicRollId": "mr_artist_000019",
+      "spotifyId": "09hVIj6vWgoCDtT03h8ZCa",
+      "displayNameAtAssignment": "A Tribe Called Quest"
+    },
+    {
+      "musicRollId": "mr_artist_000023",
+      "spotifyId": "4wrzxtBZw20ufDstKyTnnP",
+      "displayNameAtAssignment": "Rachel Chinouriri"
+    },
+    {
+      "musicRollId": "mr_artist_000026",
+      "spotifyId": "74KM79TiuVKeVCqs8QtB0B",
+      "displayNameAtAssignment": "Sabrina Carpenter"
+    },
+    {
+      "musicRollId": "mr_artist_000031",
+      "spotifyId": "5SHgclK1ZpTdfdAmXW7J6s",
+      "displayNameAtAssignment": "The Last Dinner Party"
+    },
+    {
+      "musicRollId": "mr_artist_000033",
+      "spotifyId": "7Ln80lUS6He07XvHI8qqHH",
+      "displayNameAtAssignment": "Arctic Monkeys"
+    },
+    {
+      "musicRollId": "mr_artist_000035",
+      "spotifyId": "7jy3rLJdDQY21OgRLCZ9sD",
+      "displayNameAtAssignment": "Foo Fighters"
+    },
+    {
+      "musicRollId": "mr_artist_000037",
+      "spotifyId": "08GQAI4eElDnROBrJRGE0X",
+      "displayNameAtAssignment": "Fleetwood Mac"
+    },
+    {
+      "musicRollId": "mr_artist_000042",
+      "spotifyId": "2mLA48B366zkELXYx7hcDN",
+      "displayNameAtAssignment": "Peggy Gou"
+    }
   ]
 }

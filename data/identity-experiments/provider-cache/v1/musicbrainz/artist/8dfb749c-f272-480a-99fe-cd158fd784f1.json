@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "8dfb749c-f272-480a-99fe-cd158fd784f1",
+  "retrievedAt": "2026-08-14T03:58:36.683Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "8dfb749c-f272-480a-99fe-cd158fd784f1",
+      "name": "NAS",
+      "sortName": "NAS",
+      "artistType": "Group",
+      "disambiguation": "Japanese anime production/merchandising company",
+      "country": "JP",
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "name": "Japan",
+        "sortName": "Japan",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": "1975-10-01",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Nihon Ad Systems",
+          "sortName": "Nihon Ad Systems",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.nasinc.co.jp/jp/"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2605105"
+        }
+      ]
+    },
+    "raw": {
+      "area": {
+        "type-id": null,
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type": null,
+        "name": "Japan",
+        "iso-3166-1-codes": [
+          "JP"
+        ],
+        "sort-name": "Japan",
+        "disambiguation": ""
+      },
+      "ipis": [],
+      "gender": null,
+      "country": "JP",
+      "aliases": [
+        {
+          "locale": null,
+          "ended": false,
+          "begin": null,
+          "type-id": null,
+          "end": null,
+          "primary": null,
+          "sort-name": "Nihon Ad Systems",
+          "name": "Nihon Ad Systems",
+          "type": null
+        }
+      ],
+      "type": "Group",
+      "name": "NAS",
+      "sort-name": "NAS",
+      "isnis": [],
+      "disambiguation": "Japanese anime production/merchandising company",
+      "gender-id": null,
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "begin-area": null,
+      "relations": [
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "official homepage",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "resource": "http://www.nasinc.co.jp/jp/",
+            "id": "8c60b4aa-be2f-4d49-bab9-2e06773c9201"
+          },
+          "direction": "forward",
+          "target-credit": ""
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "234416c0-dc4c-41b6-a904-2f72d4f1983a",
+            "resource": "https://www.wikidata.org/wiki/Q2605105"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "wikidata",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "ended": false,
+          "attributes": []
+        }
+      ],
+      "life-span": {
+        "end": null,
+        "begin": "1975-10-01",
+        "ended": false
+      },
+      "end-area": null,
+      "id": "8dfb749c-f272-480a-99fe-cd158fd784f1"
+    }
+  }
+}

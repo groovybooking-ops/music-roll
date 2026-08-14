@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+  "retrievedAt": "2026-08-14T03:56:41.167Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+      "name": "Salute",
+      "sortName": "Salute",
+      "artistType": "Group",
+      "disambiguation": "UK Thrash Metal",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": "2004",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/1989216"
+        },
+        {
+          "relationshipType": "myspace",
+          "url": "https://myspace.com/salutesalute"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.nastysalute.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://www.metal-archives.com/bands/Salute/54424"
+        }
+      ]
+    },
+    "raw": {
+      "area": {
+        "disambiguation": "",
+        "type-id": null,
+        "type": null,
+        "sort-name": "United Kingdom",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom"
+      },
+      "country": "GB",
+      "life-span": {
+        "ended": false,
+        "begin": "2004",
+        "end": null
+      },
+      "begin-area": null,
+      "end-area": null,
+      "gender": null,
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender-id": null,
+      "aliases": [],
+      "ipis": [],
+      "sort-name": "Salute",
+      "id": "0d74c338-5c80-49a7-b65b-44dd729aadc2",
+      "name": "Salute",
+      "isnis": [],
+      "disambiguation": "UK Thrash Metal",
+      "relations": [
+        {
+          "type": "discogs",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://www.discogs.com/artist/1989216",
+            "id": "fb3c8079-0fc2-4dea-a8b2-d13f6d64f60f"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {}
+        },
+        {
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "target-type": "url",
+          "end": null,
+          "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "url": {
+            "id": "14bb2b72-908b-4740-81e5-4f5e6f12f154",
+            "resource": "https://myspace.com/salutesalute"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "myspace"
+        },
+        {
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "http://www.nastysalute.com/",
+            "id": "d52fc60e-e48a-4cc2-82c0-6ce604241964"
+          },
+          "type": "official homepage",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "type": "other databases",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.metal-archives.com/bands/Salute/54424",
+            "id": "9e6fc5e0-f1d6-4f24-bee0-e38ab9934f21"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {}
+        }
+      ],
+      "type": "Group"
+    }
+  }
+}

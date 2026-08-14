@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "ff1fc9e7accc15e951375d76",
+  "retrievedAt": "2026-08-14T03:56:25.478Z",
+  "value": {
+    "requestedName": "Foo Fighters",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+        "name": "Foo Fighters",
+        "sortName": "Foo Fighters",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:25.429Z",
+      "count": 4,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Foo Fighters",
+          "sort-name": "Foo Fighters",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "10adc6b5-63bf-4b4e-993e-ed83b05c22fc",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Seattle",
+            "sort-name": "Seattle",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000122906805"
+          ],
+          "life-span": {
+            "begin": "1994",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "フー・ファイター",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "フー・ファイター",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "FooFighters",
+              "name": "FooFighters",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 22,
+              "name": "rock"
+            },
+            {
+              "count": 15,
+              "name": "alternative rock"
+            },
+            {
+              "count": 2,
+              "name": "american"
+            },
+            {
+              "count": 3,
+              "name": "grunge"
+            },
+            {
+              "count": 5,
+              "name": "hard rock"
+            },
+            {
+              "count": 0,
+              "name": "indie rock"
+            },
+            {
+              "count": -1,
+              "name": "alternative"
+            },
+            {
+              "count": 12,
+              "name": "post-grunge"
+            },
+            {
+              "count": -1,
+              "name": "acoustic rock"
+            },
+            {
+              "count": 0,
+              "name": "pop rock"
+            },
+            {
+              "count": 0,
+              "name": "us"
+            },
+            {
+              "count": 0,
+              "name": "rock and indie"
+            },
+            {
+              "count": 0,
+              "name": "everlong"
+            },
+            {
+              "count": 0,
+              "name": "nuno"
+            }
+          ]
+        },
+        {
+          "id": "e9a1b5f3-1e55-4481-a69e-5c216d8a66c2",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 63,
+          "name": "Foo Fighters GB",
+          "sort-name": "Foo Fighters GB",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "2012-01-01",
+            "ended": null
+          }
+        },
+        {
+          "id": "14d5435d-aec6-4417-b6ca-88ead89e3bdc",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 63,
+          "name": "Kung FOO Fighters",
+          "sort-name": "Kung FOO Fighters",
+          "country": "HR",
+          "area": {
+            "id": "7d30afff-e425-356a-873e-17ae9745b31d",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Croatia",
+            "sort-name": "Croatia",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Foo Fighters tribute band",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "627b5464-88f5-474c-ad31-aad4b973fd9a",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 63,
+          "name": "UK Foo Fighters",
+          "sort-name": "UK Foo Fighters",
+          "area": {
+            "id": "a584d799-9025-4c7c-a72a-cf214ff16563",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "North Yorkshire",
+            "sort-name": "North Yorkshire",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "a584d799-9025-4c7c-a72a-cf214ff16563",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "North Yorkshire",
+            "sort-name": "North Yorkshire",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "2007",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "foo fighters tribute band"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

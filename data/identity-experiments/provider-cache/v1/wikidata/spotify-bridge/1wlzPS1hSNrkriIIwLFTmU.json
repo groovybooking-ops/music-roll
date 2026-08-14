@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1wlzPS1hSNrkriIIwLFTmU",
+  "retrievedAt": "2026-08-14T03:55:40.918Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1wlzPS1hSNrkriIIwLFTmU",
+      "wikidataQid": "Q67407164",
+      "name": "MIKE",
+      "musicBrainzArtistId": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "discogsArtistId": "5852757"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q67407164"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5852757"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "MIKE"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

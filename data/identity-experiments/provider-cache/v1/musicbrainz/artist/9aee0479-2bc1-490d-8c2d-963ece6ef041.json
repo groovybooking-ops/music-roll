@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+  "retrievedAt": "2026-08-14T03:56:44.580Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+      "name": "Salute",
+      "sortName": "Salute",
+      "artistType": "Person",
+      "disambiguation": "Ron Wells",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4316016"
+        }
+      ]
+    },
+    "raw": {
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "country": null,
+      "gender": "Male",
+      "type": "Person",
+      "ipis": [],
+      "disambiguation": "Ron Wells",
+      "sort-name": "Salute",
+      "begin-area": null,
+      "isnis": [],
+      "aliases": [],
+      "name": "Salute",
+      "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+      },
+      "relations": [
+        {
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "discogs",
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://www.discogs.com/artist/4316016",
+            "id": "416971aa-5c7b-4ff5-a641-f516d6bdaa4a"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward"
+        }
+      ],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "end-area": null,
+      "id": "9aee0479-2bc1-490d-8c2d-963ece6ef041",
+      "area": null
+    }
+  }
+}

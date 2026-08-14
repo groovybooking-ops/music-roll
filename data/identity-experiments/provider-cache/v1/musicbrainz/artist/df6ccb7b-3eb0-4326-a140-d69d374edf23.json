@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+  "retrievedAt": "2026-08-14T03:55:53.853Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": "Person",
+      "disambiguation": "easy listening artist from LA",
+      "country": "US",
+      "area": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "name": "Los Angeles",
+        "sortName": "Los Angeles",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": "1997-01-31",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Cursed Winter",
+          "sortName": "Cursed Winter",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Ethan Schisel",
+          "sortName": "Schisel, Ethan",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6LXztWXl5UjprS0qchHNic"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.linkedin.com/in/ethan-schisel-8b9a6271/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/iamnavyblue"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1459946646"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UCmFIujUml5GOM1Ix0ABtcqw"
+        }
+      ]
+    },
+    "raw": {
+      "sort-name": "Navy Blue",
+      "end-area": null,
+      "isnis": [],
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1997-01-31"
+      },
+      "ipis": [],
+      "id": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+      "type": "Person",
+      "gender-id": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "aliases": [
+        {
+          "end": null,
+          "name": "Cursed Winter",
+          "locale": null,
+          "sort-name": "Cursed Winter",
+          "primary": null,
+          "ended": false,
+          "type": null,
+          "type-id": null,
+          "begin": null
+        },
+        {
+          "name": "Ethan Schisel",
+          "end": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "type": "Legal name",
+          "begin": null,
+          "primary": null,
+          "sort-name": "Schisel, Ethan",
+          "locale": null,
+          "ended": false
+        }
+      ],
+      "disambiguation": "easy listening artist from LA",
+      "area": {
+        "name": "Los Angeles",
+        "type": null,
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Los Angeles"
+      },
+      "begin-area": null,
+      "country": "US",
+      "relations": [
+        {
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "resource": "https://open.spotify.com/artist/6LXztWXl5UjprS0qchHNic",
+            "id": "8b90641c-d55d-4c69-9a89-48a1eceb62b6"
+          },
+          "begin": null,
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "target-type": "url",
+          "type": "free streaming",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        },
+        {
+          "direction": "forward",
+          "source-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "begin": null,
+          "url": {
+            "resource": "https://www.linkedin.com/in/ethan-schisel-8b9a6271/",
+            "id": "9e2a0220-b6fd-406d-b788-31b3f98c771a"
+          },
+          "target-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "attributes": [],
+          "target-type": "url",
+          "type": "social network",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+        },
+        {
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "target-credit": "",
+          "type": "soundcloud",
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "target-type": "url",
+          "direction": "forward",
+          "source-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "url": {
+            "id": "1512f923-3910-4617-80ff-08dcd651048b",
+            "resource": "https://soundcloud.com/iamnavyblue"
+          },
+          "begin": null
+        },
+        {
+          "source-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "3d3c1bfb-8ce9-4ace-94ff-19d85dc5d7ea",
+            "resource": "https://music.apple.com/us/artist/1459946646"
+          },
+          "begin": null,
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "attributes": [],
+          "end": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "type": "streaming"
+        },
+        {
+          "source-credit": "",
+          "direction": "forward",
+          "ended": false,
+          "attribute-values": {},
+          "url": {
+            "resource": "https://www.youtube.com/channel/UCmFIujUml5GOM1Ix0ABtcqw",
+            "id": "aa5a8856-4f15-4764-895d-42131f68c9d4"
+          },
+          "begin": null,
+          "target-credit": "",
+          "attributes": [],
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "type": "youtube"
+        }
+      ],
+      "gender": null,
+      "name": "Navy Blue"
+    }
+  }
+}

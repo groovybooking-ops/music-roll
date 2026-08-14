@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "0YCL71Clky5els6NireSBP",
+  "retrievedAt": "2026-08-14T03:55:31.777Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "0YCL71Clky5els6NireSBP",
+      "wikidataQid": "Q120453911",
+      "name": "Liv.e",
+      "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "discogsArtistId": "5922649"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q120453911"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5922649"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Liv.e"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

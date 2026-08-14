@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "57LYzLEk2LcFghVwuWbcuS",
+  "retrievedAt": "2026-08-14T03:55:35.581Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "57LYzLEk2LcFghVwuWbcuS",
+      "wikidataQid": "Q61959478",
+      "name": "Summer Walker",
+      "musicBrainzArtistId": "9167f739-da47-4495-9d63-9c13b40114ac",
+      "discogsArtistId": "1396401"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q61959478"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "9167f739-da47-4495-9d63-9c13b40114ac"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1396401"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Summer Walker"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

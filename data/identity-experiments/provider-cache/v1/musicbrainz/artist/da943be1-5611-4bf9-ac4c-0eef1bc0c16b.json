@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+  "retrievedAt": "2026-08-14T03:55:42.386Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "name": "MIKE",
+      "sortName": "MIKE",
+      "artistType": "Person",
+      "disambiguation": "New York rapper, founder of 10k",
+      "country": "US",
+      "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "name": "New York",
+        "sortName": "New York",
+        "type": null
+      },
+      "beginArea": {
+        "id": "a5588c02-bd0d-4b05-96bb-f7aaf42854c6",
+        "name": "Livingston",
+        "sortName": "Livingston",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1998-10-13",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Michael Jordan Bonema",
+          "sortName": "Bonema, Michael Jordan",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003678202"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://mikelikesrap.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5852757"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/1wlzPS1hSNrkriIIwLFTmU"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/142759"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id1253023714"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/mike/11168"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/mikelikesrap/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/t6mikee"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1253023714"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/36706055"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q67407164"
+        }
+      ]
+    },
+    "raw": {
+      "relations": [
+        {
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "attributes": [],
+          "url": {
+            "resource": "https://www.allmusic.com/artist/mn0003678202",
+            "id": "7b725bfa-6745-4386-9da6-f631542d804c"
+          },
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "source-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "type": "allmusic",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false
+        },
+        {
+          "type": "bandcamp",
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "attribute-ids": {},
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+          "url": {
+            "id": "9ccf8e93-847f-42fd-be18-e06a09102503",
+            "resource": "https://mikelikesrap.bandcamp.com/"
+          },
+          "begin": null,
+          "source-credit": "",
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "attributes": []
+        },
+        {
+          "attribute-ids": {},
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "type": "discogs",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "da667aa4-29d8-4e10-a9a9-c9e5337baa72",
+            "resource": "https://www.discogs.com/artist/5852757"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+        },
+        {
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "type": "free streaming",
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "444367bc-887e-48c8-b6e8-e81f45d2af01",
+            "resource": "https://open.spotify.com/artist/1wlzPS1hSNrkriIIwLFTmU"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward"
+        },
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "free streaming",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "f1b443a7-a4fc-4ca2-80d7-c654eabcd0e0",
+            "resource": "https://www.deezer.com/artist/142759"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        },
+        {
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "type": "purchase for download",
+          "attribute-ids": {},
+          "begin": null,
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "url": {
+            "id": "cfbcc909-0243-45e8-88be-62e0a0b3fcc6",
+            "resource": "https://itunes.apple.com/us/artist/id1253023714"
+          },
+          "attributes": [],
+          "direction": "forward",
+          "target-type": "url",
+          "end": null
+        },
+        {
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "f57c530c-445b-4328-9543-ecf565125bc3",
+            "resource": "https://www.beatport.com/artist/mike/11168"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "type": "purchase for download",
+          "attribute-ids": {}
+        },
+        {
+          "attribute-ids": {},
+          "type": "social network",
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "attributes": [],
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "url": {
+            "resource": "https://www.instagram.com/mikelikesrap/",
+            "id": "1fc1a965-9033-4f7a-afbe-c1e6adde848b"
+          },
+          "begin": null,
+          "source-credit": ""
+        },
+        {
+          "attributes": [],
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://soundcloud.com/t6mikee",
+            "id": "78405c8d-841a-46bc-bab2-221ad66de4ff"
+          },
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "soundcloud"
+        },
+        {
+          "begin": null,
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1253023714",
+            "id": "221cbd66-e08b-4976-ae58-c1aa56b1cece"
+          },
+          "attributes": [],
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "ended": false,
+          "attribute-values": {},
+          "target-credit": "",
+          "type": "streaming",
+          "attribute-ids": {}
+        },
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "type": "streaming",
+          "attributes": [],
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "begin": null,
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://tidal.com/artist/36706055",
+            "id": "fd3fc84c-5f85-4802-9333-8e4bc979839d"
+          }
+        },
+        {
+          "type": "wikidata",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attribute-ids": {},
+          "url": {
+            "id": "f024e762-66e2-452b-b3c3-86c7db49d2c4",
+            "resource": "https://www.wikidata.org/wiki/Q67407164"
+          },
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "source-credit": "",
+          "begin": null,
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attributes": []
+        }
+      ],
+      "life-span": {
+        "begin": "1998-10-13",
+        "ended": false,
+        "end": null
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+      "end-area": null,
+      "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "sort-name": "New York",
+        "name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null
+      },
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "country": "US",
+      "type": "Person",
+      "ipis": [],
+      "disambiguation": "New York rapper, founder of 10k",
+      "gender": "Male",
+      "sort-name": "MIKE",
+      "begin-area": {
+        "name": "Livingston",
+        "type-id": null,
+        "type": null,
+        "disambiguation": "",
+        "id": "a5588c02-bd0d-4b05-96bb-f7aaf42854c6",
+        "sort-name": "Livingston"
+      },
+      "isnis": [],
+      "aliases": [
+        {
+          "begin": null,
+          "ended": false,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "primary": null,
+          "type": "Legal name",
+          "sort-name": "Bonema, Michael Jordan",
+          "name": "Michael Jordan Bonema",
+          "end": null,
+          "locale": null
+        }
+      ],
+      "name": "MIKE"
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+  "retrievedAt": "2026-08-14T03:55:32.166Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "name": "Liv.e",
+      "sortName": "Liv.e",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "e96f1c0d-721b-470d-a9c4-0aa2d89cf9e7",
+        "name": "Dallas",
+        "sortName": "Dallas",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1998",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "(Liv).e",
+          "sortName": "(Liv).e",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003708195"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://o-liv.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5922649"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/0YCL71Clky5els6NireSBP"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/12948063"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Liv.e"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/live/751308"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/oliveosun"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/_osun/"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/pronouncedliv"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/dolfinrecordsliv.e"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/pronouncedliv.e/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/ohliveosun"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/8989086"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UCGotTQw1pL3paes_ddewvow"
+        }
+      ]
+    },
+    "raw": {
+      "type": "Person",
+      "disambiguation": "",
+      "isnis": [],
+      "relations": [
+        {
+          "type": "allmusic",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "id": "f53b6c7c-fd0f-48a8-81de-0d7c63af4a1a",
+            "resource": "https://www.allmusic.com/artist/mn0003708195"
+          },
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "source-credit": "(Liv).e",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://o-liv.bandcamp.com/",
+            "id": "88c64abd-c9dd-4463-8441-bf6547a914fb"
+          },
+          "type": "bandcamp",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "target-type": "url",
+          "end": null,
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88"
+        },
+        {
+          "type": "discogs",
+          "source-credit": "",
+          "url": {
+            "id": "3b3f20d3-32b1-4a18-acc7-033c06a13064",
+            "resource": "https://www.discogs.com/artist/5922649"
+          },
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "target-type": "url"
+        },
+        {
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "type": "free streaming",
+          "source-credit": "",
+          "url": {
+            "id": "6e584984-73ee-473e-9c8d-42172066b7b8",
+            "resource": "https://open.spotify.com/artist/0YCL71Clky5els6NireSBP"
+          },
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false
+        },
+        {
+          "type": "free streaming",
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.deezer.com/artist/12948063",
+            "id": "304d27ba-556a-4bc7-84f4-3fd2c2b4a96d"
+          },
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": []
+        },
+        {
+          "source-credit": "",
+          "url": {
+            "id": "185a7c02-343f-4e7c-a29f-91cf760d8ccf",
+            "resource": "https://www.last.fm/music/Liv.e"
+          },
+          "attribute-ids": {},
+          "type": "last.fm",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "target-type": "url"
+        },
+        {
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "purchase for download",
+          "source-credit": "",
+          "url": {
+            "id": "2d604121-9126-4a22-ad59-fd32cda55e5b",
+            "resource": "https://www.beatport.com/artist/live/751308"
+          },
+          "attribute-ids": {},
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "end": null
+        },
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": "2025-08-17",
+          "ended": true,
+          "direction": "forward",
+          "begin": null,
+          "type": "social network",
+          "url": {
+            "id": "665641a7-df23-4c1c-b364-3677c5b0770f",
+            "resource": "https://twitter.com/oliveosun"
+          },
+          "source-credit": "(Liv).e",
+          "attribute-ids": {}
+        },
+        {
+          "end": "2025-09",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "target-type": "url",
+          "source-credit": "(Liv).e",
+          "url": {
+            "resource": "https://www.instagram.com/_osun/",
+            "id": "64ef40ec-971b-4c83-b58b-70508068fe06"
+          },
+          "attribute-ids": {},
+          "type": "social network",
+          "begin": null,
+          "direction": "forward",
+          "ended": true
+        },
+        {
+          "source-credit": "",
+          "url": {
+            "resource": "https://twitter.com/pronouncedliv",
+            "id": "5568c5ab-ed64-421a-a4e6-bcd0830d27c0"
+          },
+          "attribute-ids": {},
+          "type": "social network",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "id": "224d5fa0-32b3-4ea0-a0e1-9ed7346428ba",
+            "resource": "https://www.facebook.com/dolfinrecordsliv.e"
+          },
+          "type": "social network",
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": null
+        },
+        {
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "social network",
+          "url": {
+            "resource": "https://www.instagram.com/pronouncedliv.e/",
+            "id": "88b207e1-60ab-44d1-bdce-680733d8811b"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": null
+        },
+        {
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "soundcloud",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://soundcloud.com/ohliveosun",
+            "id": "1be4aa86-1391-47c3-8d75-812eb1b11f8c"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://tidal.com/artist/8989086",
+            "id": "9eca8560-2355-4ede-b824-c027f984f75c"
+          },
+          "type": "streaming",
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "end": null
+        },
+        {
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "end": null,
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type": "youtube",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://www.youtube.com/channel/UCGotTQw1pL3paes_ddewvow",
+            "id": "c8625ebd-1c08-4659-bd21-8b00e74f5615"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        }
+      ],
+      "id": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+      "name": "Liv.e",
+      "ipis": [],
+      "sort-name": "Liv.e",
+      "gender": "Female",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "aliases": [
+        {
+          "end": null,
+          "type-id": null,
+          "primary": null,
+          "type": null,
+          "locale": null,
+          "sort-name": "(Liv).e",
+          "begin": null,
+          "ended": false,
+          "name": "(Liv).e"
+        }
+      ],
+      "end-area": null,
+      "life-span": {
+        "ended": false,
+        "begin": "1998",
+        "end": null
+      },
+      "begin-area": {
+        "type": null,
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Dallas",
+        "id": "e96f1c0d-721b-470d-a9c4-0aa2d89cf9e7",
+        "sort-name": "Dallas"
+      },
+      "area": {
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sort-name": "United States",
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "country": "US"
+    }
+  }
+}

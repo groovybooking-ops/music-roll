@@ -1,53 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Music Roll</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0912">
+    <title>Music Roll — Find your next artist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Music Roll 🎲</h1>
-    <p>Find new artist!</p>
-<label for="genre">What genre are you looking for?</label>
+    <main class="app-shell">
+        <header class="hero">
+            <p class="eyebrow">Your next favorite artist is one roll away</p>
+            <div class="brand-lockup">
+                <svg class="dice-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                    <rect class="dice-face" x="3" y="3" width="58" height="58" rx="15"></rect>
+                    <circle class="dice-pip" cx="20" cy="20" r="5"></circle>
+                    <circle class="dice-pip" cx="44" cy="20" r="5"></circle>
+                    <circle class="dice-pip" cx="32" cy="32" r="5"></circle>
+                    <circle class="dice-pip" cx="20" cy="44" r="5"></circle>
+                    <circle class="dice-pip" cx="44" cy="44" r="5"></circle>
+                </svg>
+                <h1>Music <span>Roll</span></h1>
+            </div>
+            <p class="intro">Pick a sound and how deep you want to dig. We’ll take it from there.</p>
+        </header>
 
-<select id="genre">
-    <option value="rnb">R&B</option>
-    <option value="hiphop">Hip-Hop</option>
-    <option value="pop">Pop</option>
-    <option value="rock">Rock</option>
-    <option value="dance">Dance</option>
-</select>
+        <section class="roll-panel" aria-labelledby="roll-heading">
+            <div class="panel-heading">
+                <div>
+                    <p class="step-label">Make your picks</p>
+                    <h2 id="roll-heading">What are you in the mood for?</h2>
+                </div>
+                <button id="myArtistsButton" class="collection-button" type="button" aria-haspopup="dialog">
+                    My Artists (<span id="savedArtistCount">0</span>)
+                </button>
+            </div>
 
-<br><br>
-<label for="tier">How deep are we digging?</label>
+            <form id="rollForm">
+                <div class="control-grid">
+                    <div class="field">
+                        <label for="genre">Choose a genre</label>
+                        <div class="select-wrap">
+                            <select id="genre" name="genre">
+                                <option value="rnb">R&amp;B</option>
+                                <option value="hiphop">Hip-Hop</option>
+                                <option value="pop">Pop</option>
+                                <option value="rock">Rock</option>
+                                <option value="dance">Dance</option>
+                            </select>
+                        </div>
+                    </div>
 
-<select id="tier">
-    <option value="local">Local</option>
-    <option value="underground">Underground</option>
-    <option value="emerging">Emerging</option>
-    <option value="mainstream">Mainstream</option>
-    <option value="legacy">Legacy</option>
-    <option value="classic">Classic</option>
-</select>
+                    <div class="field">
+                        <label for="tier">How deep are we digging?</label>
+                        <div class="select-wrap">
+                            <select id="tier" name="tier">
+                                <option value="local">Local</option>
+                                <option value="underground">Underground</option>
+                                <option value="emerging">Emerging</option>
+                                <option value="mainstream">Mainstream</option>
+                                <option value="legacy">Legacy</option>
+                                <option value="classic">Classic</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
 
-<br><br>
-<button id="rollButton" disabled>ROLL</button>
-<p id="loadingStatus" role="status">Loading artist directory...</p>
+                <button id="rollButton" class="primary-button" type="submit" disabled>
+                    <span aria-hidden="true">●</span>
+                    Roll for an artist
+                </button>
+            </form>
 
-<section id="result" class="artist-card" hidden>
+            <p id="loadingStatus" class="status-message" role="status" aria-live="polite">
+                Loading the artist directory…
+            </p>
+        </section>
 
-    <img id="artistImage" src="" alt="Artist Image">
+        <section id="result" class="artist-card" aria-labelledby="artistName" tabindex="-1" hidden>
+            <div class="artwork-wrap">
+                <img id="artistImage" src="" alt="">
+                <span class="result-badge">Your roll</span>
+            </div>
 
-    <h2 id="artistName"></h2>
+            <div class="artist-card-content">
+                <p id="artistInfo" class="artist-meta"></p>
+                <h2 id="artistName"></h2>
+                <p class="result-copy">Give them a listen. This might be the start of something good.</p>
 
-    <p id="artistInfo"></p>
+                <div class="result-actions">
+                    <a id="spotifyLink" class="spotify-link" href="#" target="_blank" rel="noopener noreferrer">
+                        Open in Spotify
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                    <button id="rollAgainButton" class="secondary-button" type="button" disabled>
+                        Roll again
+                    </button>
+                    <button id="saveArtistButton" class="save-button" type="button" aria-pressed="false" disabled>
+                        ＋ Add to My Artists
+                    </button>
+                </div>
+            </div>
+        </section>
 
-    <a id="spotifyLink" href="#" target="_blank">
-        Open in Spotify
-    </a>
+        <dialog id="myArtistsDialog" class="collection-dialog" aria-labelledby="myArtistsHeading">
+            <div class="collection-dialog-header">
+                <div>
+                    <p class="step-label">Your collection</p>
+                    <h2 id="myArtistsHeading">My Artists</h2>
+                </div>
+                <button id="closeMyArtistsButton" class="dialog-close" type="button" aria-label="Close My Artists">×</button>
+            </div>
+            <div id="myArtistsList" class="collection-list"></div>
+        </dialog>
 
-    <br><br>
-    <button id="rollAgainButton" disabled>Roll Again</button>
-</section>
-<script src="script.js"></script>
+        <p id="collectionAnnouncement" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="artist-model-adapter.js"></script>
+    <script src="my-artists-store.js"></script>
+    <script src="behavior-event-recorder.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

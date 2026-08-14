@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "3da6cf11b80a54960c5c86e0",
+  "retrievedAt": "2026-08-14T03:55:33.021Z",
+  "value": {
+    "requestedName": "Liv.e",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+        "name": "Liv.e",
+        "sortName": "Liv.e",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:55:32.972Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "0bcfef47-91d0-41dd-87fa-cbf3a396ead3",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Liv.e",
+          "sort-name": "Liv.e",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "e96f1c0d-721b-470d-a9c4-0aa2d89cf9e7",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Dallas",
+            "sort-name": "Dallas",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "1998",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "(Liv).e",
+              "name": "(Liv).e",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "hypnagogic pop"
+            },
+            {
+              "count": 0,
+              "name": "alternative r&b"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

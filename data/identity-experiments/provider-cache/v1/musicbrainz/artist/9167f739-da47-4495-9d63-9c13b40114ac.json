@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "9167f739-da47-4495-9d63-9c13b40114ac",
+  "retrievedAt": "2026-08-14T03:55:36.541Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "9167f739-da47-4495-9d63-9c13b40114ac",
+      "name": "Summer Walker",
+      "sortName": "Walker, Summer",
+      "artistType": "Person",
+      "disambiguation": "R&B singer",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "name": "Atlanta",
+        "sortName": "Atlanta",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1996-04-11",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Summer Marjani Walker",
+          "sortName": "Walker, Summer Marjani",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000475614808"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003733766"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/1396401"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/14482665"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Summer-walker"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.summerwalkermusic.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://imvdb.com/n/summer-walker"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/summer-walker"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.apple.com/us/artist/990402287"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://open.qobuz.com/artist/3631169"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/summer-walker/686170"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/summerwalker"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/SummerWalkerOfficial"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/summerwalker/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/summerwalker"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/990402287"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/990402287"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://open.qobuz.com/artist/3631169"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/9329127"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61959478"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UC4NBMVsQp6QvIjzUeaqX3ZA"
+        }
+      ]
+    },
+    "raw": {
+      "gender": "Female",
+      "id": "9167f739-da47-4495-9d63-9c13b40114ac",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "begin-area": {
+        "type": null,
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Atlanta",
+        "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+        "sort-name": "Atlanta"
+      },
+      "end-area": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "isnis": [
+        "0000000475614808"
+      ],
+      "name": "Summer Walker",
+      "disambiguation": "R&B singer",
+      "sort-name": "Walker, Summer",
+      "ipis": [
+        "00773750122"
+      ],
+      "life-span": {
+        "begin": "1996-04-11",
+        "end": null,
+        "ended": false
+      },
+      "area": {
+        "type": null,
+        "type-id": null,
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "disambiguation": "",
+        "name": "United States",
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98"
+      },
+      "type": "Person",
+      "aliases": [
+        {
+          "locale": null,
+          "name": "Summer Marjani Walker",
+          "begin": null,
+          "sort-name": "Walker, Summer Marjani",
+          "ended": false,
+          "type": "Legal name",
+          "end": null,
+          "primary": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
+        }
+      ],
+      "country": "US",
+      "relations": [
+        {
+          "ended": false,
+          "type": "allmusic",
+          "url": {
+            "id": "3ebfd0df-96af-4e12-a061-6afa13a12d7b",
+            "resource": "https://www.allmusic.com/artist/mn0003733766"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "begin": null
+        },
+        {
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "begin": null,
+          "ended": false,
+          "type": "discogs",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "id": "0a9e971e-65cd-4685-a24d-c4ae4df13bfa",
+            "resource": "https://www.discogs.com/artist/1396401"
+          }
+        },
+        {
+          "begin": null,
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attribute-ids": {},
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+            "id": "8545427b-60e4-4c53-9368-9a29984699df"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "type": "free streaming",
+          "ended": false
+        },
+        {
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "begin": null,
+          "type": "free streaming",
+          "ended": false,
+          "url": {
+            "id": "cc780c4d-2220-45f2-96c6-fa77fc4b5647",
+            "resource": "https://www.deezer.com/artist/14482665"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "end": null,
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "begin": null,
+          "type": "lyrics",
+          "ended": false,
+          "url": {
+            "id": "de3d37bb-8061-46b7-b475-f641f508f4a9",
+            "resource": "https://genius.com/artists/Summer-walker"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "ended": false,
+          "type": "official homepage",
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "id": "a5712bda-c5c3-43f1-89b3-626b38db9c70",
+            "resource": "http://www.summerwalkermusic.com/"
+          },
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "attribute-ids": {},
+          "end": null,
+          "begin": null
+        },
+        {
+          "begin": null,
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://imvdb.com/n/summer-walker",
+            "id": "529cc03f-1a90-4a77-8e55-a153cfdbb701"
+          },
+          "ended": false,
+          "type": "other databases"
+        },
+        {
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "begin": null,
+          "type": "other databases",
+          "ended": false,
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/summer-walker",
+            "id": "7c8bddc7-1e80-4358-8727-449666c114bd"
+          }
+        },
+        {
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "begin": null,
+          "ended": false,
+          "type": "purchase for download",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://music.apple.com/us/artist/990402287",
+            "id": "73dd94db-bc55-4ed9-97b6-79d6650f1aa3"
+          }
+        },
+        {
+          "ended": false,
+          "type": "purchase for download",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://open.qobuz.com/artist/3631169",
+            "id": "aa0d871b-6ead-46d7-976f-58ac36f94bef"
+          },
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "begin": null
+        },
+        {
+          "url": {
+            "id": "d1df29ec-4448-459c-9a5e-b448363c4b66",
+            "resource": "https://www.beatport.com/artist/summer-walker/686170"
+          },
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "type": "purchase for download",
+          "ended": false,
+          "begin": null,
+          "end": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {}
+        },
+        {
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attribute-ids": {},
+          "begin": null,
+          "ended": false,
+          "type": "social network",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "id": "d07a6adc-1623-4439-bcab-4be84000f0f7",
+            "resource": "https://twitter.com/summerwalker"
+          }
+        },
+        {
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.facebook.com/SummerWalkerOfficial",
+            "id": "71086ffa-c547-459b-b159-a85a412cf722"
+          },
+          "ended": false,
+          "type": "social network",
+          "begin": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://www.instagram.com/summerwalker/",
+            "id": "8fb25ddd-4181-450e-9a67-9e00f427f41d"
+          },
+          "ended": false,
+          "type": "social network",
+          "begin": null,
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attribute-ids": {}
+        },
+        {
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "url": {
+            "id": "284392c0-9c6f-4a87-8ecd-31c1ba320006",
+            "resource": "https://soundcloud.com/summerwalker"
+          },
+          "type": "soundcloud",
+          "ended": false,
+          "begin": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "end": null,
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "attribute-ids": {}
+        },
+        {
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "begin": null,
+          "type": "streaming",
+          "ended": false,
+          "url": {
+            "id": "d73e8cf0-4cbd-4600-93ea-9c4ce748e40e",
+            "resource": "https://music.apple.com/gb/artist/990402287"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "attribute-ids": {},
+          "end": null,
+          "begin": null,
+          "ended": false,
+          "type": "streaming",
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "resource": "https://music.apple.com/us/artist/990402287",
+            "id": "73dd94db-bc55-4ed9-97b6-79d6650f1aa3"
+          }
+        },
+        {
+          "type": "streaming",
+          "ended": false,
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "id": "aa0d871b-6ead-46d7-976f-58ac36f94bef",
+            "resource": "https://open.qobuz.com/artist/3631169"
+          },
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "attribute-ids": {},
+          "end": null,
+          "begin": null
+        },
+        {
+          "begin": null,
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "url": {
+            "resource": "https://tidal.com/artist/9329127",
+            "id": "85b24092-17e9-4148-b023-3013f7fe044e"
+          },
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "type": "streaming",
+          "ended": false
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "url": {
+            "id": "14cc4382-d2dd-44c8-83d5-0aa622d1de57",
+            "resource": "https://www.wikidata.org/wiki/Q61959478"
+          },
+          "attributes": [],
+          "target-credit": "",
+          "source-credit": "",
+          "type": "wikidata",
+          "ended": false
+        },
+        {
+          "ended": false,
+          "type": "youtube",
+          "url": {
+            "resource": "https://www.youtube.com/channel/UC4NBMVsQp6QvIjzUeaqX3ZA",
+            "id": "cb789e82-1b32-44df-9a99-09240caf5708"
+          },
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "begin": null
+        }
+      ]
+    }
+  }
+}

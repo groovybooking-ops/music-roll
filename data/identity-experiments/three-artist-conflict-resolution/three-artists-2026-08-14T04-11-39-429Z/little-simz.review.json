@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "artist": {
+    "displayName": "Little Simz",
+    "proposedMusicRollId": "mr_artist_000016",
+    "spotifyArtistId": "6eXZu6O7nAUA5z6vLV8NKI"
+  },
+  "sourceConflictReport": "10-little-simz-6eXZu6O7nAUA5z6vLV8NKI.review.json",
+  "competingIdentifiers": {
+    "spotifyArtistIds": [
+      "6eXZu6O7nAUA5z6vLV8NKI"
+    ],
+    "wikidataQids": [
+      "Q6547427"
+    ],
+    "musicBrainzArtistIds": [
+      "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+      "0208d36a-4518-46ec-960e-5f4e56eade80",
+      "2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+    ],
+    "discogsArtistIds": [
+      "3887166",
+      "4407971",
+      "5646758"
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6eXZu6O7nAUA5z6vLV8NKI",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6eXZu6O7nAUA5z6vLV8NKI",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q6547427",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "0208d36a-4518-46ec-960e-5f4e56eade80",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "3887166",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "4407971",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "5646758",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    }
+  ],
+  "identifierStates": {
+    "spotify": {
+      "6eXZu6O7nAUA5z6vLV8NKI": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "Little Simz"
+      }
+    },
+    "musicBrainz": {
+      "3cdb40fe-a63e-4bb9-b40d-17cda5f50979": {
+        "state": "active",
+        "name": "Little Simz",
+        "artistType": "Person",
+        "country": "GB",
+        "lifeSpan": {
+          "begin": "1994-02-23",
+          "end": null,
+          "ended": false
+        },
+        "isni": [
+          "0000000407746403"
+        ],
+        "officialUrls": [
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/3887166"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://www.deezer.com/artist/4578590"
+          },
+          {
+            "relationshipType": "official homepage",
+            "url": "https://www.littlesimz.com/"
+          },
+          {
+            "relationshipType": "official homepage",
+            "url": "http://littlesimz.co/"
+          },
+          {
+            "relationshipType": "wikidata",
+            "url": "https://www.wikidata.org/wiki/Q6547427"
+          }
+        ]
+      },
+      "0208d36a-4518-46ec-960e-5f4e56eade80": {
+        "state": "active",
+        "name": "She",
+        "artistType": "Person",
+        "country": null,
+        "lifeSpan": {
+          "begin": null,
+          "end": null,
+          "ended": false
+        },
+        "isni": [],
+        "officialUrls": [
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/5646758"
+          }
+        ]
+      },
+      "2485abe7-ea0a-4cd2-9a6f-0795cc228be6": {
+        "state": "active",
+        "name": "Simbiatu Ajikawo",
+        "artistType": "Person",
+        "country": "GB",
+        "lifeSpan": {
+          "begin": "1994-02-23",
+          "end": null,
+          "ended": false
+        },
+        "isni": [
+          "0000000467219197"
+        ],
+        "officialUrls": [
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/4407971"
+          }
+        ]
+      }
+    },
+    "discogs": {
+      "3887166": {
+        "state": "active",
+        "name": "Little Simz",
+        "realName": "Simbiatu Abisola Abiola Ajikawo",
+        "aliases": [
+          {
+            "discogsArtistId": "4407971",
+            "name": "Simbiatu Ajikawo"
+          },
+          {
+            "discogsArtistId": "5646758",
+            "name": "She (32)"
+          }
+        ],
+        "urls": [
+          "https://www.littlesimz.com",
+          "https://stillnessinwonderland.com",
+          "https://www.facebook.com/LittleSimz",
+          "https://twitter.com/LittleSimz",
+          "https://vine.co/u/939781365099032576",
+          "https://www.imdb.com/name/nm3787576",
+          "https://instagram.com/littlesimz",
+          "https://littlesimz.tumblr.com",
+          "https://genius.com/LittleSimz",
+          "https://www.songkick.com/artists/6418354-little-simz",
+          "https://soundcloud.com/littlesimz",
+          "https://littlesimz.bandcamp.com",
+          "https://www.glamourmagazine.co.uk/article/little-sims-interview",
+          "https://www.youtube.com/user/LittleSimzOfficial",
+          "https://www.youtube.com/user/LittleSimzVEVO",
+          "https://www.dailymotion.com/LittleSimz-vevo",
+          "https://en.wikipedia.org/wiki/Little_Simz"
+        ]
+      },
+      "4407971": {
+        "state": "active",
+        "name": "Simbiatu Ajikawo",
+        "realName": "Simbiatu Abisola Abiola Ajikawo",
+        "aliases": [
+          {
+            "discogsArtistId": "3887166",
+            "name": "Little Simz"
+          },
+          {
+            "discogsArtistId": "5646758",
+            "name": "She (32)"
+          }
+        ],
+        "urls": []
+      },
+      "5646758": {
+        "state": "active",
+        "name": "She (32)",
+        "realName": null,
+        "aliases": [
+          {
+            "discogsArtistId": "3887166",
+            "name": "Little Simz"
+          },
+          {
+            "discogsArtistId": "4407971",
+            "name": "Simbiatu Ajikawo"
+          }
+        ],
+        "urls": []
+      }
+    }
+  },
+  "wikidataStatements": [
+    {
+      "qid": "Q6547427",
+      "property": "P1902",
+      "values": [
+        {
+          "identifier": "6eXZu6O7nAUA5z6vLV8NKI",
+          "assertions": [
+            {
+              "id": "Q6547427$ba93a318-4000-545c-1dcc-6dedd073613d",
+              "rank": "normal",
+              "qualifiers": {},
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    },
+    {
+      "qid": "Q6547427",
+      "property": "P434",
+      "values": [
+        {
+          "identifier": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+          "assertions": [
+            {
+              "id": "Q6547427$BB8DA912-2D3B-48B8-8F56-74CCA2A61C1F",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "366551f280ae4d9326781449a252b016ab76d0ff",
+                    "datavalue": {
+                      "value": "Little Simz",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "706208b3024200fd0a39ad499808dd0d98d74065",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "0208d36a-4518-46ec-960e-5f4e56eade80",
+          "assertions": [
+            {
+              "id": "Q6547427$0f741d5f-49ad-5277-68eb-caa054dce98b",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "84ced6633eaf58af24b7832c7b9b2ae0e13934fc",
+                    "datavalue": {
+                      "value": "She",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+          "assertions": [
+            {
+              "id": "Q6547427$051428ac-456d-08d4-4692-4e8bae3a49aa",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "ed307cbacc516b6f6b6375c24e185376e195c5a3",
+                    "datavalue": {
+                      "value": "Simbiatu Ajikawo",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    },
+    {
+      "qid": "Q6547427",
+      "property": "P1953",
+      "values": [
+        {
+          "identifier": "3887166",
+          "assertions": [
+            {
+              "id": "Q6547427$074DF6F1-621A-447D-9745-1901B8EFB0CE",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "366551f280ae4d9326781449a252b016ab76d0ff",
+                    "datavalue": {
+                      "value": "Little Simz",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "8350377f390ef18ed7f2dcba1f726b19a31573e1",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "90dd15224de75b113810f54078f6c711c765441c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-08-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "4407971",
+          "assertions": [
+            {
+              "id": "Q6547427$4af1ec16-4dfe-c4e3-bdda-02c8cd683be5",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "ed307cbacc516b6f6b6375c24e185376e195c5a3",
+                    "datavalue": {
+                      "value": "Simbiatu Ajikawo",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "5646758",
+          "assertions": [
+            {
+              "id": "Q6547427$8d452372-4588-a100-1cf8-67ed4e95dbc1",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "a77ec903bbae92975ebffbf17191fa65d7a23b2a",
+                    "datavalue": {
+                      "value": "She (32)",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": []
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    }
+  ],
+  "catalogFingerprints": {
+    "spotify": {
+      "6eXZu6O7nAUA5z6vLV8NKI": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "3cdb40fe-a63e-4bb9-b40d-17cda5f50979": {
+        "releaseCount": 62,
+        "distinctiveTitles": [
+          "project unfollow",
+          "young",
+          "tiny desk concert",
+          "the eps",
+          "101fm episode 4",
+          "diamond",
+          "bombo fabrika remix",
+          "age 101 drop 2",
+          "tiny desk concert 2017",
+          "new breed",
+          "live from the fabrique 2022",
+          "a curious tale of trials persons",
+          "our conversations",
+          "passengers paris atelier des lumieres",
+          "3ww otg version",
+          "101fm episode 5",
+          "flowers live at metropolis studios london 2019",
+          "location london remix",
+          "age 101 drop 3 000",
+          "flood",
+          "xy zed",
+          "lotus live from the fillmore",
+          "lotus",
+          "time capsule",
+          "bad dreams",
+          "amazon music songline",
+          "2019 06 30 glastonbury festival of contemporary performing arts",
+          "age 101 drop 1",
+          "glastonbury 2024 concert",
+          "101 fm toddla t remix",
+          "drop 6",
+          "we pray jasleen royal version",
+          "pink youth",
+          "boiler room complexion in london may 12 2015",
+          "sugar girl",
+          "101fm episode 3",
+          "black and british",
+          "age 101 drop x",
+          "favourites",
+          "don t leave too soon from the netflix film steve",
+          "venom",
+          "age 101 drop 4",
+          "grey area",
+          "we pray twice version",
+          "introvert",
+          "101fm episode 2",
+          "backseat",
+          "drop 7",
+          "free",
+          "stillness in wonderland",
+          "sometimes i might be introvert",
+          "101 fm",
+          "feel good inc triple j like a version",
+          "the mixtapes",
+          "blank canvas",
+          "dead body part 2 3",
+          "woman",
+          "e d g e",
+          "hello hi",
+          "no thank you",
+          "101fm episode 1",
+          "satellite business 2 0"
+        ],
+        "earliestYear": 0,
+        "latestYear": 2026
+      },
+      "0208d36a-4518-46ec-960e-5f4e56eade80": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "2485abe7-ea0a-4cd2-9a6f-0795cc228be6": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      }
+    }
+  },
+  "catalogFingerprintComparisons": {
+    "spotify": [],
+    "musicBrainz": [
+      {
+        "left": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+        "right": "0208d36a-4518-46ec-960e-5f4e56eade80",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": 0,
+            "latestYear": 2026
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      },
+      {
+        "left": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+        "right": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": 0,
+            "latestYear": 2026
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      },
+      {
+        "left": "0208d36a-4518-46ec-960e-5f4e56eade80",
+        "right": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": null,
+            "latestYear": null
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      }
+    ]
+  },
+  "authorityMetadataComparison": {
+    "3cdb40fe-a63e-4bb9-b40d-17cda5f50979": {
+      "state": "active",
+      "name": "Little Simz",
+      "artistType": "Person",
+      "country": "GB",
+      "lifeSpan": {
+        "begin": "1994-02-23",
+        "end": null,
+        "ended": false
+      },
+      "isni": [
+        "0000000407746403"
+      ],
+      "officialUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/3887166"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/4578590"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "https://www.littlesimz.com/"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://littlesimz.co/"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6547427"
+        }
+      ]
+    },
+    "0208d36a-4518-46ec-960e-5f4e56eade80": {
+      "state": "active",
+      "name": "She",
+      "artistType": "Person",
+      "country": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "isni": [],
+      "officialUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/5646758"
+        }
+      ]
+    },
+    "2485abe7-ea0a-4cd2-9a6f-0795cc228be6": {
+      "state": "active",
+      "name": "Simbiatu Ajikawo",
+      "artistType": "Person",
+      "country": "GB",
+      "lifeSpan": {
+        "begin": "1994-02-23",
+        "end": null,
+        "ended": false
+      },
+      "isni": [
+        "0000000467219197"
+      ],
+      "officialUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4407971"
+        }
+      ]
+    }
+  },
+  "chronologyComparison": {
+    "spotify": {
+      "6eXZu6O7nAUA5z6vLV8NKI": {
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "3cdb40fe-a63e-4bb9-b40d-17cda5f50979": {
+        "earliestYear": 0,
+        "latestYear": 2026
+      },
+      "0208d36a-4518-46ec-960e-5f4e56eade80": {
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "2485abe7-ea0a-4cd2-9a6f-0795cc228be6": {
+        "earliestYear": null,
+        "latestYear": null
+      }
+    }
+  },
+  "finalConflictInterpretation": {
+    "conflictType": "semantic_identity_conflict",
+    "mechanicallyResolvable": false,
+    "signals": {
+      "semanticContradictions": [
+        "different_isni:3cdb40fe-a63e-4bb9-b40d-17cda5f50979:2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+      ],
+      "redirectedIdentifiers": [],
+      "deprecatedIdentifiers": [],
+      "providerMultiplicityEvidence": [],
+      "unresolvedIdentifiers": []
+    }
+  },
+  "remainingUncertainty": [],
+  "safety": {
+    "identityVerified": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  }
+}

@@ -27,6 +27,18 @@ app.get("/script.js", function(request, response) {
     response.sendFile(path.join(__dirname, "script.js"));
 });
 
+app.get("/artist-model-adapter.js", function(request, response) {
+    response.sendFile(path.join(__dirname, "artist-model-adapter.js"));
+});
+
+app.get("/my-artists-store.js", function(request, response) {
+    response.sendFile(path.join(__dirname, "my-artists-store.js"));
+});
+
+app.get("/behavior-event-recorder.js", function(request, response) {
+    response.sendFile(path.join(__dirname, "behavior-event-recorder.js"));
+});
+
 app.get("/data/artists.json", function(request, response) {
     response.sendFile(path.join(__dirname, "data", "artists.json"));
 });

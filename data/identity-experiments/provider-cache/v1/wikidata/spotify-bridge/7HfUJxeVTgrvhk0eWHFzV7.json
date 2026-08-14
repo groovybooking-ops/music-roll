@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7HfUJxeVTgrvhk0eWHFzV7",
+  "retrievedAt": "2026-08-14T03:55:58.312Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7HfUJxeVTgrvhk0eWHFzV7",
+      "wikidataQid": "Q110852201",
+      "name": "underscores",
+      "musicBrainzArtistId": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+      "discogsArtistId": "6908296"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q110852201"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "ab1a3f85-e0ea-470a-af5c-175447ae774c"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6908296"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "underscores"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

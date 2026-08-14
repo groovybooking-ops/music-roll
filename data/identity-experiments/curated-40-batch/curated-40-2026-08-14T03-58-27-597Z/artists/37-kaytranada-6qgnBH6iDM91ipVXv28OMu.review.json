@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "KAYTRANADA",
+    "proposedMusicRollId": "mr_artist_000043",
+    "spotifyArtistId": "6qgnBH6iDM91ipVXv28OMu"
+  },
+  "outcome": "conflicting_identity",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "6qgnBH6iDM91ipVXv28OMu",
+      "wikidataQid": "Q17153342",
+      "name": "Kaytranada",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": "3160392",
+      "musicBrainzArtistIds": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ]
+    },
+    "musicBrainz": null,
+    "discogs": {
+      "discogsArtistId": "3160392",
+      "name": "Kaytranada",
+      "realName": "Louis Kevin Celestin",
+      "profile": "Haitian-Canadian music producer and DJ born on August 25, 1992 in Port-au-Prince, Haiti. Shortly after he was born, he relocated with his family to Montreal where he was raised. \r\nHe is part of the hip hop duo [a=The Celestics].",
+      "artistUrls": [
+        "http://kaytranada.com",
+        "http://www.kaytranadamerch.com",
+        "http://kaytradamus.bandcamp.com",
+        "http://www.facebook.com/Kaytranada",
+        "http://huhwhatandwhere.com/kaytranada",
+        "http://instagram.com/kaytranada",
+        "http://last.fm/user/Kaytradamus",
+        "http://www.last.fm/music/Kaytranada",
+        "http://www.mixcloud.com/Kaytradamus",
+        "http://www.setlist.fm/setlists/kaytranada-6bdd1ef6.html",
+        "http://www.songkick.com/artists/6699424-kaytranada",
+        "http://soundcloud.com/kaytranada",
+        "http://twitter.com/KAYTRANADA",
+        "http://en.wikipedia.org/wiki/Kaytranada",
+        "http://www.youtube.com/user/Kaytradamus",
+        "http://www.youtube.com/channel/UCJwaqVwGHi73m-WQWK3QODw"
+      ],
+      "aliases": [
+        {
+          "discogsArtistId": "2813327",
+          "name": "Kaytradamus"
+        },
+        {
+          "discogsArtistId": "3318759",
+          "name": "Louis Kevin Celestin"
+        },
+        {
+          "discogsArtistId": "4912244",
+          "name": "Kaytra Laboom"
+        }
+      ],
+      "nameVariations": [
+        "KAYTRANADA"
+      ],
+      "discogsResourceUrl": "https://api.discogs.com/artists/3160392",
+      "discogsWebUrl": "https://www.discogs.com/artist/3160392-Kaytranada",
+      "dataQuality": "Needs Vote"
+    }
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "6qgnBH6iDM91ipVXv28OMu",
+      "observedValues": [
+        "6qgnBH6iDM91ipVXv28OMu"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qgnBH6iDM91ipVXv28OMu",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6qgnBH6iDM91ipVXv28OMu",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q17153342",
+      "observedValues": [
+        "Q17153342"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17153342",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "conflict",
+      "agreedValue": null,
+      "observedValues": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2012a778-d205-4294-906e-6bbde10df205",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "3160392",
+      "observedValues": [
+        "3160392"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3160392",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3160392",
+          "source": "discogs",
+          "path": "artist_record_id",
+          "independentOrigin": "discogs"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [
+    {
+      "identifierType": "musicBrainzArtistId",
+      "observedValues": [
+        "e56aee57-d90e-40cf-a70d-beb70f6f3c69",
+        "2012a778-d205-4294-906e-6bbde10df205"
+      ]
+    }
+  ],
+  "sameNameAmbiguity": {
+    "sameNameAmbiguity": "not_evaluated",
+    "competingEntities": []
+  },
+  "missingEvidence": [
+    "wikidata_musicbrainz_id"
+  ],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

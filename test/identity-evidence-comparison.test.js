@@ -20,6 +20,18 @@ test("Wikidata bridge uses the exact Spotify ID and normalizes linked IDs", asyn
     assert.deepEqual(result.bridge, { spotifyArtistId: spotifyId, wikidataQid: "Q16210722", name: "SZA", musicBrainzArtistId: "272989c8-5535-492d-a25c-9f58803e027f", discogsArtistId: "3272791" });
 });
 
+test("Wikidata separates repeated rows for one entity from conflicting linked IDs", async () => {
+    const raw = structuredClone(qidRaw);
+    raw.results.bindings.push(structuredClone(raw.results.bindings[0]));
+    raw.results.bindings[1].musicBrainzArtistId.value = "00000000-0000-4000-8000-000000000001";
+    const result = await getWikidataIdentityBridge(spotifyId, { fetchImpl: async () => ({ ok: true, status: 200, json: async () => raw }) });
+    assert.equal(result.bridge.wikidataQid, "Q16210722");
+    assert.equal(result.bridge.musicBrainzArtistId, null);
+    assert.deepEqual(result.bridge.musicBrainzArtistIds, ["272989c8-5535-492d-a25c-9f58803e027f", "00000000-0000-4000-8000-000000000001"]);
+    const comparison = compareIdentityEvidence({ spotifyArtistId: spotifyId, wikidata: result.bridge, musicBrainz: { externalUrls: [] }, discogs: { artistUrls: [] } });
+    assert.equal(comparison.identifierComparison.musicBrainzArtistId.status, "conflict");
+});
+
 test("comparison reports identifier agreement without calculating confidence", () => {
     const wikidata = { spotifyArtistId: spotifyId, wikidataQid: "Q16210722", name: "SZA", musicBrainzArtistId: musicBrainz.musicBrainzArtistId, discogsArtistId: discogs.discogsArtistId };
     const result = compareIdentityEvidence({ spotifyArtistId: spotifyId, wikidata, discogs, musicBrainz });
@@ -50,16 +62,10 @@ test("conflicting identifiers are explicit", () => {
 });
 
 test("same-name ambiguity remains separate from exact-ID agreement", () => {
-    const candidates = [
-        { musicBrainzArtistId: "5b11f4ce-a62d-471e-81fc-a69a8278c7da", name: "Nirvana", artistType: "Group", country: "US" },
-        { musicBrainzArtistId: "30751300-0000-4000-8000-000000000001", name: "Nirvana", artistType: "Group", country: "GB" }
-    ];
-    const details = [
-        { ...candidates[0], externalUrls: [{ relationshipType: "streaming", url: "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh" }, { relationshipType: "discogs", url: "https://www.discogs.com/artist/125246" }] },
-        { ...candidates[1], externalUrls: [{ relationshipType: "streaming", url: "https://open.spotify.com/artist/COMPETINGSPOTIFY00001" }, { relationshipType: "discogs", url: "https://www.discogs.com/artist/307513" }] }
-    ];
-    const audit = auditSameNameMusicBrainzEntities(candidates[0].musicBrainzArtistId, candidates, details);
+    const { expectedMbid, candidates, detailedArtists } = fixture("musicbrainz-exact/nirvana-ambiguity.json");
+    const audit = auditSameNameMusicBrainzEntities(expectedMbid, candidates, detailedArtists);
     assert.equal(audit.sameNameAmbiguity, "multiple_exact_display_name_entities");
     assert.equal(audit.competingEntityCount, 1);
+    assert.deepEqual(audit.competingEntities[0].spotifyArtistIds, ["0QTestCompetingArtist1"]);
     assert.deepEqual(audit.competingEntities[0].discogsArtistIds, ["307513"]);
 });

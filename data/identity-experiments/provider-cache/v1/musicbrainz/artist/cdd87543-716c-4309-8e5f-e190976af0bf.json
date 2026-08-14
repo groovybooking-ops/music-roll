@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "cdd87543-716c-4309-8e5f-e190976af0bf",
+  "retrievedAt": "2026-08-14T03:56:50.416Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "cdd87543-716c-4309-8e5f-e190976af0bf",
+      "name": "salute",
+      "sortName": "salute",
+      "artistType": null,
+      "disambiguation": "reggae",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4163342"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6EcJ1hsMPc7JDpg4R4RJL3"
+        }
+      ]
+    },
+    "raw": {
+      "gender": null,
+      "sort-name": "salute",
+      "gender-id": null,
+      "country": null,
+      "isnis": [],
+      "name": "salute",
+      "area": null,
+      "end-area": null,
+      "aliases": [],
+      "type": null,
+      "relations": [
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "discogs",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "url": {
+            "resource": "https://www.discogs.com/artist/4163342",
+            "id": "99eba84d-4772-4473-8878-259af0c62d16"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type": "free streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "2cf9aece-57a7-4b9b-bdca-bda328604df4",
+            "resource": "https://open.spotify.com/artist/6EcJ1hsMPc7JDpg4R4RJL3"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        }
+      ],
+      "disambiguation": "reggae",
+      "type-id": null,
+      "ipis": [],
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "id": "cdd87543-716c-4309-8e5f-e190976af0bf",
+      "begin-area": null
+    }
+  }
+}

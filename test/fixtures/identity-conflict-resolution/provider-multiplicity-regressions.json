@@ -1,0 +1,32 @@
+{
+  "beyonce": {
+    "reviewOnly": true,
+    "finalConflictInterpretation": { "conflictType": "provider_profile_multiplicity", "signals": { "semanticContradictions": [], "unresolvedIdentifiers": [], "providerMultiplicityEvidence": ["mutually_linked_discogs_alias_profiles", "multiple_spotify_profiles_asserted_by_one_musicbrainz_entity"] } },
+    "provenanceClaims": [{ "source": "musicbrainz", "path": "url_relationship:free streaming", "value": "spotify-a" }],
+    "catalogFingerprints": { "spotify": { "spotify-a": { "releaseCount": 65 }, "spotify-b": { "releaseCount": 0 } }, "musicBrainz": { "mb-a": { "releaseCount": 233 } } },
+    "catalogFingerprintComparisons": { "spotify": [{ "overlapCount": 0, "chronology": { "left": { "earliestYear": 2002 }, "right": { "earliestYear": null } } }] },
+    "authorityMetadataComparison": { "mb-a": { "name": "Beyoncé", "artistType": "Person", "lifeSpan": { "begin": "1981-09-04" } } },
+    "identifierStates": { "discogs": { "112751": { "name": "Beyoncé Knowles", "realName": "Beyoncé Giselle Knowles-Carter" }, "52835": { "name": "Beyoncé", "realName": "Beyoncé Giselle Knowles-Carter" } } },
+    "safety": { "identityVerified": false, "confidenceScoreCalculated": false, "migrationEligibilityChanged": false, "registryModified": false, "liveDirectoryModified": false }
+  },
+  "marvinGaye": {
+    "reviewOnly": true,
+    "finalConflictInterpretation": { "conflictType": "provider_profile_multiplicity", "signals": { "semanticContradictions": [], "unresolvedIdentifiers": [], "providerMultiplicityEvidence": ["multiple_spotify_profiles_asserted_by_one_musicbrainz_entity"] } },
+    "provenanceClaims": [{ "source": "musicbrainz", "path": "url_relationship:free streaming", "value": "spotify-a" }],
+    "catalogFingerprints": { "spotify": { "spotify-a": { "releaseCount": 59 }, "spotify-b": { "releaseCount": 0 }, "spotify-c": { "releaseCount": 0 } }, "musicBrainz": { "mb-a": { "releaseCount": 286 } } },
+    "catalogFingerprintComparisons": { "spotify": [] },
+    "authorityMetadataComparison": { "mb-a": { "name": "Marvin Gaye", "artistType": "Person", "lifeSpan": { "begin": "1939-04-02" } } },
+    "identifierStates": { "discogs": { "18984": { "name": "Marvin Gaye", "realName": "Marvin Pentz Gay Jr." } } },
+    "safety": { "identityVerified": false, "confidenceScoreCalculated": false, "migrationEligibilityChanged": false, "registryModified": false, "liveDirectoryModified": false }
+  },
+  "littleSimz": {
+    "reviewOnly": true,
+    "finalConflictInterpretation": { "conflictType": "provider_profile_multiplicity", "signals": { "semanticContradictions": [], "unresolvedIdentifiers": [], "providerMultiplicityEvidence": ["mutually_linked_discogs_alias_profiles", "compatible_alias_chronology:stage:legal"] } },
+    "provenanceClaims": [{ "source": "wikidata", "path": "P434", "value": "stage" }],
+    "catalogFingerprints": { "spotify": { "spotify-a": { "releaseCount": 43 } }, "musicBrainz": { "stage": { "releaseCount": 62 }, "legal": { "releaseCount": 0 }, "persona": { "releaseCount": 0 } } },
+    "catalogFingerprintComparisons": { "spotify": [] },
+    "authorityMetadataComparison": { "stage": { "name": "Little Simz", "artistType": "Person", "lifeSpan": { "begin": "1994-02-23" } }, "legal": { "name": "Simbiatu Ajikawo", "artistType": "Person", "lifeSpan": { "begin": "1994-02-23" } }, "persona": { "name": "She", "artistType": "Person", "lifeSpan": { "begin": null } } },
+    "identifierStates": { "discogs": { "1": { "name": "Little Simz", "realName": "Simbiatu Ajikawo" }, "2": { "name": "Simbiatu Ajikawo", "realName": "Simbiatu Ajikawo" }, "3": { "name": "She", "realName": null } } },
+    "safety": { "identityVerified": false, "confidenceScoreCalculated": false, "migrationEligibilityChanged": false, "registryModified": false, "liveDirectoryModified": false }
+  }
+}

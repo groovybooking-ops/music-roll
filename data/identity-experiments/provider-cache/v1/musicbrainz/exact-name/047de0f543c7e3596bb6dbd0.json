@@ -1,0 +1,916 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "047de0f543c7e3596bb6dbd0",
+  "retrievedAt": "2026-08-14T03:58:33.432Z",
+  "value": {
+    "requestedName": "Nas",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "cfbc0924-0035-4d6c-8197-f024653af823",
+        "name": "Nas",
+        "sortName": "Nas",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "US rapper",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "207f750c-5d9d-4202-a2e6-e04661ebb38f",
+        "name": "NAS",
+        "sortName": "NAS",
+        "artistType": null,
+        "country": "JP",
+        "disambiguation": "Stereomatics",
+        "score": 70
+      },
+      {
+        "musicBrainzArtistId": "739753b7-21f4-4842-b585-4c836570bd6c",
+        "name": "NAS",
+        "sortName": "NAS",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Japanese electronic producer",
+        "score": 69
+      },
+      {
+        "musicBrainzArtistId": "8dfb749c-f272-480a-99fe-cd158fd784f1",
+        "name": "NAS",
+        "sortName": "NAS",
+        "artistType": "Group",
+        "country": "JP",
+        "disambiguation": "Japanese anime production/merchandising company",
+        "score": 69
+      },
+      {
+        "musicBrainzArtistId": "3fb3b082-a55f-42f4-b70e-686508698d8b",
+        "name": "Nas",
+        "sortName": "Nas",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "Swiss rapper ?",
+        "score": 69
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:58:33.380Z",
+      "count": 51,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "cfbc0924-0035-4d6c-8197-f024653af823",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nas",
+          "sort-name": "Nas",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Brooklyn",
+            "sort-name": "Brooklyn",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US rapper",
+          "ipis": [
+            "00335978422"
+          ],
+          "isnis": [
+            "0000000078397432",
+            "0000000449346467"
+          ],
+          "life-span": {
+            "begin": "1973-09-14",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Nas Escobar",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Nas Escobar",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Kid Wave",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Kid Wave",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Nasty Nas",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Nasty Nas",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Jones, Nasir",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Nasir Jones",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Jones, Nasir bin Olu Dara",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Nasir bin Olu Dara Jones",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Nass",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "name": "Nass",
+              "locale": null,
+              "type": "Search hint",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "N. Jones",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "name": "N. Jones",
+              "locale": null,
+              "type": "Search hint",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Scarlett",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Scarlett",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 9,
+              "name": "hip hop"
+            },
+            {
+              "count": 0,
+              "name": "hiphop"
+            },
+            {
+              "count": 1,
+              "name": "rnb"
+            },
+            {
+              "count": 1,
+              "name": "deep soul"
+            },
+            {
+              "count": 0,
+              "name": "pop rap"
+            },
+            {
+              "count": 2,
+              "name": "east coast hip-hop"
+            },
+            {
+              "count": 0,
+              "name": "us"
+            },
+            {
+              "count": 1,
+              "name": "god"
+            },
+            {
+              "count": -1,
+              "name": "hip hop rnb and dance hall"
+            },
+            {
+              "count": 1,
+              "name": "hip hop soul"
+            },
+            {
+              "count": 1,
+              "name": "pop soul"
+            },
+            {
+              "count": 1,
+              "name": "conscious rap"
+            },
+            {
+              "count": -1,
+              "name": "the lost prophecy"
+            },
+            {
+              "count": 1,
+              "name": "top 100"
+            },
+            {
+              "count": 1,
+              "name": "smooth soul"
+            },
+            {
+              "count": 5,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            },
+            {
+              "count": -1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 7,
+              "name": "east coast hip hop"
+            },
+            {
+              "count": 0,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 1,
+              "name": "top 10"
+            },
+            {
+              "count": 1,
+              "name": "trap soul"
+            },
+            {
+              "count": 0,
+              "name": "relic inn"
+            },
+            {
+              "count": 2,
+              "name": "rap musicians"
+            },
+            {
+              "count": 1,
+              "name": "top 5"
+            },
+            {
+              "count": 1,
+              "name": "top 50"
+            }
+          ]
+        },
+        {
+          "id": "0b30341b-b59d-4979-8130-b66c0e475321",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 73,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Lil Nas X",
+          "sort-name": "Lil Nas X",
+          "gender": "male",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "d10ba752-c9ce-4804-afc0-7ff94aa5d8d6",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Georgia",
+            "sort-name": "Georgia",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "American rapper and singer",
+          "ipis": [
+            "00383689211"
+          ],
+          "isnis": [
+            "0000000476080561"
+          ],
+          "life-span": {
+            "begin": "1999-04-09",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Hill, Montero",
+              "name": "Montero Hill",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Hill, Montero Lamar",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Montero Lamar Hill",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Hill, Montero Lamar",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Montero Lamar Hill",
+              "locale": "en_US",
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": "1999-04-09",
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 4,
+              "name": "pop rap"
+            },
+            {
+              "count": 3,
+              "name": "queer"
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            },
+            {
+              "count": 0,
+              "name": "country hip hop"
+            },
+            {
+              "count": 1,
+              "name": "relic inn"
+            },
+            {
+              "count": 1,
+              "name": "2020s"
+            },
+            {
+              "count": 1,
+              "name": "lgbtqi"
+            },
+            {
+              "count": 1,
+              "name": "gen z"
+            }
+          ]
+        },
+        {
+          "id": "207f750c-5d9d-4202-a2e6-e04661ebb38f",
+          "score": 70,
+          "name": "NAS",
+          "sort-name": "NAS",
+          "country": "JP",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Japan",
+            "sort-name": "Japan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Tokyo",
+            "sort-name": "Tokyo",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Stereomatics",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "739753b7-21f4-4842-b585-4c836570bd6c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "name": "NAS",
+          "sort-name": "NAS",
+          "disambiguation": "Japanese electronic producer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8dfb749c-f272-480a-99fe-cd158fd784f1",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 69,
+          "name": "NAS",
+          "sort-name": "NAS",
+          "country": "JP",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Japan",
+            "sort-name": "Japan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Japanese anime production/merchandising company",
+          "life-span": {
+            "begin": "1975-10-01",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Nihon Ad Systems",
+              "name": "Nihon Ad Systems",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ]
+        },
+        {
+          "id": "3fb3b082-a55f-42f4-b70e-686508698d8b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "name": "Nas",
+          "sort-name": "Nas",
+          "disambiguation": "Swiss rapper ?",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8f88de6a-8812-45bc-820f-e78cbc1d5a87",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 66,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Digital Nas",
+          "sort-name": "Digital Nas",
+          "gender": "male",
+          "area": {
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Atlanta",
+            "sort-name": "Atlanta",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Atlanta",
+            "sort-name": "Atlanta",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "00697943570"
+          ],
+          "isnis": [
+            "0000000466004506",
+            "0000000478009777"
+          ],
+          "life-span": {
+            "begin": "1998-12-05",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Nasir Pemberton",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "name": "Nasir Pemberton",
+              "locale": null,
+              "type": "Search hint",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Pemberton, Nasir Harold",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Nasir Harold Pemberton",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ]
+        },
+        {
+          "id": "dae1d0d3-6949-4e04-8d3f-9b56ce5729a7",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 64,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nas-Tee",
+          "sort-name": "Nas-Tee",
+          "gender": "male",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Grime/hip-hop artist based in Wolverhampton, England",
+          "life-span": {
+            "begin": "1992-02-29",
+            "ended": null
+          }
+        },
+        {
+          "id": "ad23244b-87d1-48bd-be37-6705eaa98bf8",
+          "score": 64,
+          "name": "Polo Nas",
+          "sort-name": "Polo Nas",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "73655f47-a44d-4569-83b1-215644d69681",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 64,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nas Horizon",
+          "sort-name": "Nas Horizon",
+          "gender": "male",
+          "area": {
+            "id": "1876749b-4a07-495b-8b57-9dde0ac39c24",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Athens",
+            "sort-name": "Athens",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "DJ/producer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "a3646f87-975f-4c26-a9dd-30d7aaa1a7ac",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 64,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "MC Nas‐D",
+          "sort-name": "MC Nas‐D",
+          "gender": "male",
+          "disambiguation": "rapper Darnell Williams from Tampa, FL",
+          "life-span": {
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "miami bass"
+            }
+          ]
+        },
+        {
+          "id": "7254f30c-4beb-4d72-a52e-6958a1b795cb",
+          "score": 64,
+          "name": "Nas Drovje",
+          "sort-name": "Nas Drovje",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "bdd0052c-9ec9-4084-86c7-ed732382ca48",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Tallboy Nas",
+          "sort-name": "Tallboy Nas",
+          "gender": "male",
+          "area": {
+            "id": "291777c2-c48d-4002-9a0d-c7f87fea5c2b",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Johannesburg",
+            "sort-name": "Johannesburg",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "291777c2-c48d-4002-9a0d-c7f87fea5c2b",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Johannesburg",
+            "sort-name": "Johannesburg",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Rapper",
+          "life-span": {
+            "begin": "2004-05-01",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "#tallboynas"
+            },
+            {
+              "count": 1,
+              "name": "#nasgang"
+            }
+          ]
+        },
+        {
+          "id": "973e1036-da26-46f1-9d10-e49ac82af879",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "name": "NAS TEA",
+          "sort-name": "TEA, NAS",
+          "area": {
+            "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Berlin",
+            "sort-name": "Berlin",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "37252115-8ea8-4e22-ac5c-2be0456dcf9e",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nas Oterside",
+          "sort-name": "Nas Oterside",
+          "gender": "male",
+          "country": "GR",
+          "area": {
+            "id": "803db0ca-b6ed-3bbc-aeb8-f89efd0a2168",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Greece",
+            "sort-name": "Greece",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Konstantinos Gkiras",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "20871f6b-a963-47b5-833a-2fc3c640ff07",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nasty Nas",
+          "sort-name": "Nasty Nas",
+          "gender": "male",
+          "country": "FR",
+          "area": {
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "France",
+            "sort-name": "France",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "French rapper",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "63ecca75-e143-4ca1-92ce-4f79b6e08e18",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "DJ Nas",
+          "sort-name": "DJ Nas",
+          "gender": "male",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "40d3be7d-a2b7-4189-82d9-04d874952b4c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "name": "Nas One",
+          "sort-name": "Nas One",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "f6503ac9-5fd0-481e-83de-d45008a1d42d",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Nas Elmes",
+          "sort-name": "Elmes, Nas",
+          "gender": "male",
+          "area": {
+            "id": "e8e317a1-268c-4e46-9db1-f10af959ffca",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Amsterdam",
+            "sort-name": "Amsterdam",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Dutch-Moroccan house artist",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "debb9685-1639-4c7c-9f38-8bf6ff386666",
+          "score": 63,
+          "name": "Nas Mondro",
+          "sort-name": "Nas Mondro",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "0b1b5362-2345-473e-9fbc-12db44aab1d8",
+          "score": 63,
+          "name": "Vid Nas",
+          "sort-name": "Vid Nas",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8d637d06-3b7b-44d7-9bb5-3fdb696a83da",
+          "score": 63,
+          "name": "J Nas",
+          "sort-name": "J Nas",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "de521853-9344-4777-87df-8fac2ff74b70",
+          "score": 63,
+          "name": "MC Nas",
+          "sort-name": "MC Nas",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "1117829e-718c-4051-9568-80fe5a3c9462",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "name": "Nas Jee",
+          "sort-name": "Jee, Nas",
+          "area": {
+            "id": "431a085b-9f4c-4fbb-82de-2ca7ce735da8",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Queens",
+            "sort-name": "Queens",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "77b01293-4aff-47ed-9c42-2c5e9fbb8d72",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 63,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Ras Nas",
+          "sort-name": "Ras Nas",
+          "gender": "male",
+          "country": "NO",
+          "area": {
+            "id": "6743d351-6f37-3049-9724-5041161fff4d",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Norway",
+            "sort-name": "Norway",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "c2676abd-2ac7-351a-94a9-a802b3434737",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Tanzania",
+            "sort-name": "Tanzania",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Nasibu Mwanukuzi",
+          "life-span": {
+            "begin": "1958-05-05",
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

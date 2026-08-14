@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "generatedAt": "2026-08-14T04:14:22.862Z",
+  "reports": [
+    {
+      "artist": "Beyoncé",
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_spotify_profiles_asserted_by_one_musicbrainz_entity",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "remainingUncertainty": []
+    },
+    {
+      "artist": "Marvin Gaye",
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "multiple_spotify_profiles_asserted_by_one_musicbrainz_entity"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "remainingUncertainty": []
+    },
+    {
+      "artist": "Little Simz",
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "compatible_alias_chronology:3cdb40fe-a63e-4bb9-b40d-17cda5f50979:2485abe7-ea0a-4cd2-9a6f-0795cc228be6"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "remainingUncertainty": []
+    }
+  ],
+  "metrics": {
+    "cacheHits": 31,
+    "liveRequests": 1,
+    "retries": 0,
+    "apiErrors": [],
+    "byProvider": {
+      "spotify": {
+        "cacheHits": 12,
+        "liveRequests": 1
+      },
+      "musicbrainz": {
+        "cacheHits": 10,
+        "liveRequests": 0
+      },
+      "discogs": {
+        "cacheHits": 6,
+        "liveRequests": 0
+      },
+      "wikidata": {
+        "cacheHits": 3,
+        "liveRequests": 0
+      }
+    }
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "1bdda645915a5b63f93ec48a56b94195403cdf54ea05eb0201e2773dbc44059e",
+      "data/artist-id-registry.json": "75b5633dfe3bb57d96145c8dcf6da9b5fceea846cf6de4a71f558ee37cc01a06"
+    },
+    "after": {
+      "data/artists.json": "1bdda645915a5b63f93ec48a56b94195403cdf54ea05eb0201e2773dbc44059e",
+      "data/artist-id-registry.json": "75b5633dfe3bb57d96145c8dcf6da9b5fceea846cf6de4a71f558ee37cc01a06"
+    },
+    "unchanged": true
+  },
+  "safety": {
+    "identitiesVerified": 0,
+    "confidenceScoresCalculated": 0,
+    "migrationsPerformed": 0
+  }
+}

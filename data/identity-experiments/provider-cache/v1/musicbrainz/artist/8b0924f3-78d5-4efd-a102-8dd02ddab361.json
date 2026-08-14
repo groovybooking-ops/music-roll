@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+  "retrievedAt": "2026-08-14T03:55:51.230Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": null,
+      "disambiguation": "Alternative artist",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1549961296"
+        }
+      ]
+    },
+    "raw": {
+      "id": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+      "type": null,
+      "aliases": [],
+      "type-id": null,
+      "disambiguation": "Alternative artist",
+      "gender-id": null,
+      "area": null,
+      "begin-area": null,
+      "country": null,
+      "relations": [
+        {
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "target-credit": "",
+          "type": "streaming",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "target-type": "url",
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "resource": "https://music.apple.com/us/artist/1549961296",
+            "id": "6c3d6b85-e2f4-46dd-bb0a-d322bfcca96f"
+          },
+          "begin": null,
+          "ended": false,
+          "attribute-values": {}
+        }
+      ],
+      "gender": null,
+      "name": "Navy Blue",
+      "sort-name": "Navy Blue",
+      "end-area": null,
+      "isnis": [],
+      "ipis": [],
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+      }
+    }
+  }
+}

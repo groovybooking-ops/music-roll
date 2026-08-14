@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7Ln80lUS6He07XvHI8qqHH",
+  "retrievedAt": "2026-08-14T03:56:18.084Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7Ln80lUS6He07XvHI8qqHH",
+      "wikidataQid": "Q170599",
+      "name": "Arctic Monkeys",
+      "musicBrainzArtistId": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+      "discogsArtistId": "391170"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q170599"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "391170"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Arctic Monkeys"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2CLclpIC43fLzsYq6LQvlL",
+  "retrievedAt": "2026-08-14T03:55:35.403Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL",
+      "wikidataQid": "Q123698376",
+      "name": "Elmiene",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": null
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q123698376"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Elmiene"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

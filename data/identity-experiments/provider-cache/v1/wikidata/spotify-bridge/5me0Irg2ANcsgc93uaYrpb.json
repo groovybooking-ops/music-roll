@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5me0Irg2ANcsgc93uaYrpb",
+  "retrievedAt": "2026-08-14T03:58:37.822Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5me0Irg2ANcsgc93uaYrpb",
+      "wikidataQid": "Q179157",
+      "name": "The Notorious B.I.G.",
+      "musicBrainzArtistId": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "65049",
+        "643218"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q179157"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "65049"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "The Notorious B.I.G."
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q179157"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "d5d97b2b-b83b-4976-814a-056d9076c8c3"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "643218"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "The Notorious B.I.G."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

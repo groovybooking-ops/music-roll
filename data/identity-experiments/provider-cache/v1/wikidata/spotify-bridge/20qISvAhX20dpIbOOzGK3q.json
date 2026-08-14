@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "20qISvAhX20dpIbOOzGK3q",
+  "retrievedAt": "2026-08-14T03:58:31.174Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "20qISvAhX20dpIbOOzGK3q",
+      "wikidataQid": "Q194220",
+      "name": "Nas",
+      "musicBrainzArtistId": "cfbc0924-0035-4d6c-8197-f024653af823",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "50997",
+        "244720",
+        "664446"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q194220"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "cfbc0924-0035-4d6c-8197-f024653af823"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "50997"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Nas"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q194220"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "cfbc0924-0035-4d6c-8197-f024653af823"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "244720"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Nas"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q194220"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "cfbc0924-0035-4d6c-8197-f024653af823"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "664446"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Nas"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

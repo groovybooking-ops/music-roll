@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2mLA48B366zkELXYx7hcDN",
+  "retrievedAt": "2026-08-14T03:56:50.868Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2mLA48B366zkELXYx7hcDN",
+      "wikidataQid": "Q64158576",
+      "name": "Peggy Gou",
+      "musicBrainzArtistId": "4c41d78d-9dd5-430d-81ea-286052158293",
+      "discogsArtistId": "4838162"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q64158576"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "4c41d78d-9dd5-430d-81ea-286052158293"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4838162"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Peggy Gou"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

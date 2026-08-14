@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "0NB5HROxc8dDBXpkIi1v3d",
+  "retrievedAt": "2026-08-14T03:56:07.967Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "0NB5HROxc8dDBXpkIi1v3d",
+      "wikidataQid": "Q98445880",
+      "name": "Remi Wolf",
+      "musicBrainzArtistId": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41",
+      "discogsArtistId": null
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q98445880"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "afb6cc6d-a060-4f5e-bc3a-00d4b6832e41"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Remi Wolf"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

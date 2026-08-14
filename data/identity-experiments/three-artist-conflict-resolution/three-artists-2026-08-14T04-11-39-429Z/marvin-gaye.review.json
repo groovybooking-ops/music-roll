@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "artist": {
+    "displayName": "Marvin Gaye",
+    "proposedMusicRollId": "mr_artist_000012",
+    "spotifyArtistId": "3koiLjNrgRTNbOwViDipeA"
+  },
+  "sourceConflictReport": "06-marvin-gaye-3koiLjNrgRTNbOwViDipeA.review.json",
+  "competingIdentifiers": {
+    "spotifyArtistIds": [
+      "3koiLjNrgRTNbOwViDipeA",
+      "4zt8uayMFrhxhOnVCm8qNS",
+      "6aT0zYTGApRGv6uLObh3ZY"
+    ],
+    "wikidataQids": [
+      "Q189758"
+    ],
+    "musicBrainzArtistIds": [
+      "afdb7919-059d-43c1-b668-ba1d265e7e42"
+    ],
+    "discogsArtistIds": [
+      "18984"
+    ]
+  },
+  "provenanceClaims": [
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "3koiLjNrgRTNbOwViDipeA",
+      "source": "music_roll_input",
+      "path": "verified_starting_identifier",
+      "independentOrigin": "music_roll"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "3koiLjNrgRTNbOwViDipeA",
+      "source": "wikidata",
+      "path": "P1902",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "3koiLjNrgRTNbOwViDipeA",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "4zt8uayMFrhxhOnVCm8qNS",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "spotifyArtistId",
+      "value": "6aT0zYTGApRGv6uLObh3ZY",
+      "source": "musicbrainz",
+      "path": "url_relationship:free streaming",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q189758",
+      "source": "wikidata",
+      "path": "entity",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "wikidataQid",
+      "value": "Q189758",
+      "source": "musicbrainz",
+      "path": "url_relationship:wikidata",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+      "source": "wikidata",
+      "path": "P434",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "musicBrainzArtistId",
+      "value": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+      "source": "musicbrainz",
+      "path": "artist_record_id",
+      "independentOrigin": "musicbrainz"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "18984",
+      "source": "wikidata",
+      "path": "P1953",
+      "independentOrigin": "wikidata"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "18984",
+      "source": "discogs",
+      "path": "artist_record_id",
+      "independentOrigin": "discogs"
+    },
+    {
+      "identifierType": "discogsArtistId",
+      "value": "18984",
+      "source": "musicbrainz",
+      "path": "url_relationship:discogs",
+      "independentOrigin": "musicbrainz"
+    }
+  ],
+  "identifierStates": {
+    "spotify": {
+      "3koiLjNrgRTNbOwViDipeA": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "Marvin Gaye"
+      },
+      "4zt8uayMFrhxhOnVCm8qNS": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "Marvin Gaye"
+      },
+      "6aT0zYTGApRGv6uLObh3ZY": {
+        "state": "active",
+        "statusCode": 200,
+        "name": "MARVIN GAYE"
+      }
+    },
+    "musicBrainz": {
+      "afdb7919-059d-43c1-b668-ba1d265e7e42": {
+        "name": "Marvin Gaye",
+        "artistType": "Person",
+        "country": "US",
+        "lifeSpan": {
+          "begin": "1939-04-02",
+          "end": "1984-04-01",
+          "ended": true
+        },
+        "isni": [
+          "0000000083797238"
+        ],
+        "officialUrls": [
+          {
+            "relationshipType": "discogs",
+            "url": "https://www.discogs.com/artist/18984"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/4zt8uayMFrhxhOnVCm8qNS"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://open.spotify.com/artist/6aT0zYTGApRGv6uLObh3ZY"
+          },
+          {
+            "relationshipType": "free streaming",
+            "url": "https://www.deezer.com/artist/1154"
+          },
+          {
+            "relationshipType": "official homepage",
+            "url": "http://www.marvingaye.net/"
+          },
+          {
+            "relationshipType": "wikidata",
+            "url": "https://www.wikidata.org/wiki/Q189758"
+          }
+        ]
+      }
+    },
+    "discogs": {
+      "18984": {
+        "name": "Marvin Gaye",
+        "realName": "Marvin Pentz Gay Jr.",
+        "aliases": [
+          {
+            "discogsArtistId": "2820653",
+            "name": "Trouble Man (2)"
+          }
+        ],
+        "urls": [
+          "https://www.marvingaye.net/",
+          "https://www.facebook.com/MarvinGaye",
+          "https://genius.com/artists/Marvin-gaye",
+          "https://www.ibdb.com/broadway-cast-staff/marvin-gaye-73056",
+          "https://www.imdb.com/name/nm0310848/",
+          "https://www.instagram.com/officialmarvingayemusic/",
+          "https://www.whosampled.com/Marvin-Gaye/",
+          "https://en.wikipedia.org/wiki/Marvin_Gaye",
+          "https://www.allmusic.com/artist/marvin-gaye-mn0000316834"
+        ]
+      }
+    }
+  },
+  "wikidataStatements": [
+    {
+      "qid": "Q189758",
+      "property": "P1902",
+      "values": [
+        {
+          "identifier": "3koiLjNrgRTNbOwViDipeA",
+          "assertions": [
+            {
+              "id": "Q189758$8084D9C4-779B-4A13-A892-CFA11F1EB169",
+              "rank": "normal",
+              "qualifiers": {
+                "P1552": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1552",
+                    "hash": "cd7b20383169715539c0c7d5d88b8c760830e0d1",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 98962768,
+                        "id": "Q98962768"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "7baabcb471032f84aab649b1694ccc0c3ecde53a",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "da1153a7cf425ee7f8390f59ae38b1c576731cf1",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-08-24T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        },
+        {
+          "identifier": "4zt8uayMFrhxhOnVCm8qNS",
+          "assertions": [],
+          "state": "not_present"
+        },
+        {
+          "identifier": "6aT0zYTGApRGv6uLObh3ZY",
+          "assertions": [],
+          "state": "not_present"
+        }
+      ]
+    },
+    {
+      "qid": "Q189758",
+      "property": "P434",
+      "values": [
+        {
+          "identifier": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+          "assertions": [
+            {
+              "id": "q189758$07E4B9C8-0358-4B07-A888-963775FEC0A7",
+              "rank": "normal",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "42f0035ac1320c4d5a987ab1a8a388184fe9bc80",
+                    "datavalue": {
+                      "value": "Marvin Gaye",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "references": [
+                {
+                  "hash": "711f5f2482f1b77874ab177207a57b5a5a754397",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P887": [
+                      {
+                        "snaktype": "value",
+                        "property": "P887",
+                        "hash": "f3e99660a4a99c505f45b32a146e9aba87ef75ef",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1266546,
+                            "id": "Q1266546"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P434": [
+                      {
+                        "snaktype": "value",
+                        "property": "P434",
+                        "hash": "538367fef9e856b03cff53c521522a5d120f2cb8",
+                        "datavalue": {
+                          "value": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "94525c3b6a508a81b1fb6772605beeac341af0e6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-08-19T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P887",
+                    "P434",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    },
+    {
+      "qid": "Q189758",
+      "property": "P1953",
+      "values": [
+        {
+          "identifier": "18984",
+          "assertions": [
+            {
+              "id": "Q189758$005CCDEC-9ACE-47BD-B7E6-C00034B4DA97",
+              "rank": "normal",
+              "qualifiers": {},
+              "references": [
+                {
+                  "hash": "d770a038a4ab6024956c3929bb0a220e1a7c08f0",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 14005,
+                            "id": "Q14005"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03661795920fb5d3f9cd1f27db5305ccf2426a68",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-07-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "state": "asserted"
+        }
+      ]
+    }
+  ],
+  "catalogFingerprints": {
+    "spotify": {
+      "3koiLjNrgRTNbOwViDipeA": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "4zt8uayMFrhxhOnVCm8qNS": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "6aT0zYTGApRGv6uLObh3ZY": {
+        "releaseCount": 0,
+        "distinctiveTitles": [],
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "afdb7919-059d-43c1-b668-ba1d265e7e42": {
+        "releaseCount": 286,
+        "distinctiveTitles": [
+          "soul collection",
+          "united",
+          "the marvin gaye classics collection",
+          "hello broadway",
+          "romantically yours",
+          "that s the way love is",
+          "the love songs",
+          "midnight love",
+          "that stubborn kinda fellow how sweet it is to be loved by you",
+          "the history of rock volume twenty four",
+          "let s get it on",
+          "in our lifetime",
+          "forever yours",
+          "i want you",
+          "the norman whitfield sessions",
+          "here my dear",
+          "distant lover",
+          "super hits",
+          "mr hitch hike",
+          "marvin gaye his women 21 classic duets",
+          "i heard it through the grapevine",
+          "midnight love the sexual healing sessions",
+          "early classics marvin gaye",
+          "motown legends",
+          "take two",
+          "in the groove",
+          "anthology",
+          "20th century masters the millennium collection the best of marvin gaye vol 2 the 70s",
+          "i heard it through the grapevine i want you",
+          "the man the music the legend",
+          "easy",
+          "the complete duets",
+          "that stubborn kinda fellow",
+          "greatest hits",
+          "compact command performances 20 greatest hits",
+          "marvin gaye s greatest hits",
+          "20th century masters the millennium collection the best of marvin gaye volume 1 the 60s",
+          "love songs",
+          "legends of soul",
+          "moods of marvin gaye that s the way love is",
+          "inner city blues the music of marvin gaye",
+          "m p g",
+          "you re all i need",
+          "18 greatest hits",
+          "vulnerable",
+          "the marvin gaye collection",
+          "the very best of marvin gaye",
+          "you re the man",
+          "smokey robinson s greatest hits the best of marvin gaye",
+          "together take two",
+          "best of 2 super acts on 1 great compact disc",
+          "the soulful moods of marvin gaye",
+          "diana marvin",
+          "motown superstar series volume 15",
+          "compact command performances 15 greatest hits",
+          "marvin gaye and his girls",
+          "the best of marvin gaye",
+          "how sweet it is to be loved by you",
+          "the sexual healer",
+          "marvin gaye here my dear in our lifetime",
+          "motown remembers marvin gaye",
+          "marvin gaye live",
+          "night life",
+          "20th century masters the millennium collection the best of marvin gaye tammi terrell",
+          "a tribute to the great nat king cole",
+          "a musical testament 1964 1984",
+          "what s going on",
+          "moods of marvin gaye",
+          "marvin gaye super hits",
+          "classic marvin gaye",
+          "the soulful sound of marvin gaye",
+          "les indispensables",
+          "every great motown hit of marvin gaye",
+          "united you re all i need",
+          "great songs and performances",
+          "trouble man m p g",
+          "dream of a lifetime",
+          "when i m alone i cry",
+          "greatest hits vol 2",
+          "together",
+          "motown legends marvin gaye",
+          "motown s greatest hits",
+          "seek you shall find more of the best 1963 1981",
+          "m p g that s the way love is",
+          "what s going on let s get it on",
+          "the master 1961 1984",
+          "marvin gaye",
+          "missing you the best of",
+          "collection gold",
+          "love starved heart",
+          "songbook",
+          "his greatest hits",
+          "joy",
+          "the final concert",
+          "icon 2",
+          "i heard it through the grapevine last live concert",
+          "soul legends",
+          "the ultimate collection",
+          "live",
+          "motown unreleased 1965 marvin gaye",
+          "playlist the very best of marvin gaye",
+          "les legendes de la soul",
+          "ain t nothing like the real thing",
+          "forever gold sexual healing",
+          "golden legends",
+          "legenden des soul marvin gaye",
+          "rockin after midnight",
+          "essential classics vol 540 marvin gaye",
+          "50",
+          "love songs bedroom ballads",
+          "let s get it on his greatest hits in concert",
+          "the great marvin gaye live",
+          "the legendary marvin gaye",
+          "soul magic",
+          "s o u l 2",
+          "a stubborn kind of fellow",
+          "ain t no mountain high enough the collection",
+          "collections",
+          "the greatest hits live",
+          "sexual healing",
+          "funky nation the detroit instrumentals",
+          "let s get it on live",
+          "favorites",
+          "inner city blues",
+          "the essential collection",
+          "classics",
+          "the beginning",
+          "live at the london palladium",
+          "icon love songs",
+          "can i get a witness",
+          "love marvin the greatest love songs of marvin gaye",
+          "marvin gaye and friends",
+          "best of",
+          "volume two 1966 1970",
+          "the complete collection",
+          "what s going on then now always",
+          "the soul legend",
+          "number 1 s",
+          "got to give it up",
+          "live sexual healing",
+          "les 50 plus belles chansons",
+          "the midnight lover live",
+          "discoveries",
+          "live in concert",
+          "volume three 1971 1981",
+          "then now",
+          "what s going on best",
+          "every great motown hit",
+          "volume one 1961 1965",
+          "in concert",
+          "collected",
+          "love songs greatest duets",
+          "marvin gaye the o jays luther vandross isley brothers teddy pendergrass the very best of soul",
+          "the last concert tour",
+          "sanctified lady",
+          "icon",
+          "4 original albums",
+          "love for sale forgotten gems",
+          "more trouble",
+          "a motown legend",
+          "the love collection",
+          "in concert in the 80s",
+          "timeless hits",
+          "gold greatest hits",
+          "trouble man",
+          "playlist plus",
+          "ballads",
+          "classic",
+          "got to give it up the funk collection",
+          "marvin gaye recorded live on stage",
+          "let s get it on flight facilities remix",
+          "the concert anthology",
+          "recorded live in miami",
+          "keep on dancing",
+          "1979 11 13 tokyo japan",
+          "save the world remix suite",
+          "stop look listen to your heart love twins",
+          "mercy mercy me the ecology super duper remix",
+          "hello there angel hitch hike",
+          "ain t nothing like the real thing little ole boy little ole girl",
+          "the essential marvin gaye",
+          "easy come easy go the marvin mix",
+          "love man",
+          "grandes mitos",
+          "just a closer walk with thee his eye is on the sparrow",
+          "forever gold live",
+          "soon i ll be loving you again salaam remi remix",
+          "greatest hits live live radio broadcast",
+          "brooklyn soul",
+          "sexual healing kygo remix",
+          "motown remixed",
+          "marvin gaye sampler",
+          "rocking after midnight",
+          "ain t no mountain high enough",
+          "rainforest what s going on 19 mix",
+          "you are everything",
+          "ain t no mountain high enough dj komori remix",
+          "live in montreux 1980",
+          "rainforest what s going on original mix",
+          "baby don t you do it",
+          "oh yes",
+          "greatest hits live in 76",
+          "summer days",
+          "best of marvin gaye live",
+          "mercy mercy me the ecology",
+          "the last concert live",
+          "marvin jay 2",
+          "music",
+          "how sweet it is to be loved by you forever",
+          "at the copa",
+          "greatest hits live",
+          "legends marvin gaye daily mirror",
+          "a funky space reincarnation parts 1 2",
+          "grapevine",
+          "the motown breakdown part 1",
+          "sunny",
+          "you are undeniable amerigo remix",
+          "funk me",
+          "sexual healing snbrn radio remix",
+          "live at the indiana speedway stadium",
+          "let s get it on papa was a rolling stone",
+          "pride and joy one of these days",
+          "it takes two it s got to be a miracle this thing called love",
+          "sexual healing felguk remix",
+          "rainforest what s going on house mix mashup",
+          "i want you the john morales m m mixes",
+          "i ll be doggone",
+          "what s going on live",
+          "can i get a witness i m crazy bout my baby",
+          "the soundboard archive 1978 1983",
+          "let s get it on da producers mpg groove remix",
+          "let your conscience be your guide",
+          "my love is waiting",
+          "what s going on paul oakenfold x kilanova remix",
+          "rainforest what s going on soulful house mix",
+          "what s going on the end of our road",
+          "timeless classics live",
+          "the hits"
+        ],
+        "earliestYear": 0,
+        "latestYear": 2026
+      }
+    }
+  },
+  "catalogFingerprintComparisons": {
+    "spotify": [
+      {
+        "left": "3koiLjNrgRTNbOwViDipeA",
+        "right": "4zt8uayMFrhxhOnVCm8qNS",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": null,
+            "latestYear": null
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      },
+      {
+        "left": "3koiLjNrgRTNbOwViDipeA",
+        "right": "6aT0zYTGApRGv6uLObh3ZY",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": null,
+            "latestYear": null
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      },
+      {
+        "left": "4zt8uayMFrhxhOnVCm8qNS",
+        "right": "6aT0zYTGApRGv6uLObh3ZY",
+        "distinctiveReleaseOverlap": [],
+        "overlapCount": 0,
+        "chronology": {
+          "left": {
+            "earliestYear": null,
+            "latestYear": null
+          },
+          "right": {
+            "earliestYear": null,
+            "latestYear": null
+          }
+        }
+      }
+    ],
+    "musicBrainz": []
+  },
+  "authorityMetadataComparison": {
+    "afdb7919-059d-43c1-b668-ba1d265e7e42": {
+      "name": "Marvin Gaye",
+      "artistType": "Person",
+      "country": "US",
+      "lifeSpan": {
+        "begin": "1939-04-02",
+        "end": "1984-04-01",
+        "ended": true
+      },
+      "isni": [
+        "0000000083797238"
+      ],
+      "officialUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/18984"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/3koiLjNrgRTNbOwViDipeA"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4zt8uayMFrhxhOnVCm8qNS"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6aT0zYTGApRGv6uLObh3ZY"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/1154"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.marvingaye.net/"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q189758"
+        }
+      ]
+    }
+  },
+  "chronologyComparison": {
+    "spotify": {
+      "3koiLjNrgRTNbOwViDipeA": {
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "4zt8uayMFrhxhOnVCm8qNS": {
+        "earliestYear": null,
+        "latestYear": null
+      },
+      "6aT0zYTGApRGv6uLObh3ZY": {
+        "earliestYear": null,
+        "latestYear": null
+      }
+    },
+    "musicBrainz": {
+      "afdb7919-059d-43c1-b668-ba1d265e7e42": {
+        "earliestYear": 0,
+        "latestYear": 2026
+      }
+    }
+  },
+  "finalConflictInterpretation": {
+    "conflictType": "provider_profile_multiplicity",
+    "mechanicallyResolvable": true,
+    "signals": {
+      "semanticContradictions": [],
+      "redirectedIdentifiers": [],
+      "deprecatedIdentifiers": [],
+      "providerMultiplicityEvidence": [
+        "multiple_spotify_profiles_asserted_by_one_musicbrainz_entity"
+      ],
+      "unresolvedIdentifiers": []
+    }
+  },
+  "remainingUncertainty": [],
+  "safety": {
+    "identityVerified": false,
+    "confidenceScoreCalculated": false,
+    "migrationEligibilityChanged": false,
+    "registryModified": false,
+    "liveDirectoryModified": false
+  }
+}

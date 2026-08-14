@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "4tZwfgrHOc3mvqYlEYSvVi",
+  "retrievedAt": "2026-08-14T03:56:52.562Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "4tZwfgrHOc3mvqYlEYSvVi",
+      "wikidataQid": "Q185828",
+      "name": "Daft Punk",
+      "musicBrainzArtistId": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "discogsArtistId": "1289"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q185828"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1289"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Daft Punk"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

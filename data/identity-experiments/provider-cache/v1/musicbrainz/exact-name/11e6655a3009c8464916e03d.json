@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "11e6655a3009c8464916e03d",
+  "retrievedAt": "2026-08-14T03:56:11.398Z",
+  "value": {
+    "requestedName": "Sabrina Carpenter",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+        "name": "Sabrina Carpenter",
+        "sortName": "Carpenter, Sabrina",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:11.350Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Sabrina Carpenter",
+          "sort-name": "Carpenter, Sabrina",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "2b680a86-d543-47cd-9361-68ed5ee5a710",
+            "type": "County",
+            "type-id": "bcecec27-8bdb-3e00-8254-d948dda502fa",
+            "name": "Bucks County",
+            "sort-name": "Bucks County",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "00662307358"
+          ],
+          "isnis": [
+            "0000000440350523"
+          ],
+          "life-span": {
+            "begin": "1999-05-11",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Carpenter, Sabrina",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "サブリナ・カーペンター",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Carpenter, Sabrina Annlynn",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Sabrina Annlynn Carpenter",
+              "locale": "en",
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": "1999-05-11",
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 9,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "american"
+            },
+            {
+              "count": 2,
+              "name": "electropop"
+            },
+            {
+              "count": 1,
+              "name": "rnb"
+            },
+            {
+              "count": 1,
+              "name": "female vocalists"
+            },
+            {
+              "count": 2,
+              "name": "dance-pop"
+            },
+            {
+              "count": 2,
+              "name": "2020s"
+            },
+            {
+              "count": 1,
+              "name": "gen z"
+            },
+            {
+              "count": 0,
+              "name": "nepo baby"
+            },
+            {
+              "count": 1,
+              "name": "my top songs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

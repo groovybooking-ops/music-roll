@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "3koiLjNrgRTNbOwViDipeA",
+  "retrievedAt": "2026-08-14T03:55:37.891Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "3koiLjNrgRTNbOwViDipeA",
+      "wikidataQid": "Q189758",
+      "name": "Marvin Gaye",
+      "musicBrainzArtistId": "afdb7919-059d-43c1-b668-ba1d265e7e42",
+      "discogsArtistId": "18984"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q189758"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "afdb7919-059d-43c1-b668-ba1d265e7e42"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "18984"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Marvin Gaye"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

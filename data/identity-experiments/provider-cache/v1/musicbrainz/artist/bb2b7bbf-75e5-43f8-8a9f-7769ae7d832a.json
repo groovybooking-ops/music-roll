@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+  "retrievedAt": "2026-08-14T03:56:02.189Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+      "name": "Rachel Chinouriri",
+      "sortName": "Chinouriri, Rachel",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "82d06beb-9ddb-4f9b-bc83-95fab1304289",
+        "name": "Kingston upon Thames",
+        "sortName": "Kingston upon Thames",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1998-11-01",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000491469022"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003865679"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/7423934"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4wrzxtBZw20ufDstKyTnnP"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/227785195"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/8763546"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Rachel+Chinouriri"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Rachel-chinouriri"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "https://www.rachelchinouriri.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/rachel-chinouriri"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/gb/artist/id1033202344"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.apple.com/gb/artist/1033202344"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://open.qobuz.com/artist/3771977"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/rachelchinourir"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/rachelchinouririmusic"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/rachelchinouriri/"
+        },
+        {
+          "relationshipType": "songkick",
+          "url": "https://www.songkick.com/artists/9720564"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/rachel-chinouriri"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1033202344"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://open.qobuz.com/artist/3771977"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/7182599"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111317463"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UCmluVMOmrTozqKtRXDz7RXg"
+        }
+      ]
+    },
+    "raw": {
+      "isnis": [
+        "0000000491469022"
+      ],
+      "sort-name": "Chinouriri, Rachel",
+      "name": "Rachel Chinouriri",
+      "type": "Person",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "disambiguation": "",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "id": "bb2b7bbf-75e5-43f8-8a9f-7769ae7d832a",
+      "end-area": null,
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1998-11-01"
+      },
+      "relations": [
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "4b9460ec-0805-487a-a730-116df65cb635",
+            "resource": "https://www.allmusic.com/artist/mn0003865679"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "allmusic",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+        },
+        {
+          "type": "discogs",
+          "attribute-values": {},
+          "source-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "fc529de0-92bc-4060-b4df-c161c0f887d2",
+            "resource": "https://www.discogs.com/artist/7423934"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {}
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "id": "6794c7a1-d8e5-4440-a2dc-49543aa1d0cc",
+            "resource": "https://open.spotify.com/artist/4wrzxtBZw20ufDstKyTnnP"
+          },
+          "target-credit": "",
+          "end": null,
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "free streaming"
+        },
+        {
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null,
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "free streaming",
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.deezer.com/artist/227785195",
+            "id": "243b0444-4095-4d6d-b0d8-8820434afdd9"
+          },
+          "target-credit": ""
+        },
+        {
+          "url": {
+            "resource": "https://www.deezer.com/artist/8763546",
+            "id": "c3166b0e-4b32-4f93-88fa-1d0571e1a4d4"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "end": null,
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "ended": false,
+          "attributes": [],
+          "type": "free streaming",
+          "attribute-values": {}
+        },
+        {
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.last.fm/music/Rachel+Chinouriri",
+            "id": "9f301098-ba46-48e3-957e-6f375dd1ef9b"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": "",
+          "source-credit": "",
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "end": null,
+          "ended": false,
+          "attributes": [],
+          "type": "last.fm",
+          "attribute-values": {}
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://genius.com/artists/Rachel-chinouriri",
+            "id": "4477eeb0-90c9-4848-932e-e0feb2b438bb"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "lyrics",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "0d60de52-dd30-4b33-8255-70615729335e",
+            "resource": "https://www.rachelchinouriri.com/"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "official homepage",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+        },
+        {
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/rachel-chinouriri",
+            "id": "c5066086-8f10-4d66-bb2d-ec3ca4aeb845"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "source-credit": "",
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "ended": false,
+          "attributes": [],
+          "type": "other databases",
+          "attribute-values": {}
+        },
+        {
+          "end": "2019-05-19",
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "ended": true,
+          "attributes": [],
+          "type": "purchase for download",
+          "attribute-values": {},
+          "url": {
+            "id": "5340e1ae-07c5-446d-8391-4b7b25233f72",
+            "resource": "https://itunes.apple.com/gb/artist/id1033202344"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": ""
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1033202344",
+            "id": "1f1b9678-8785-4fdd-8334-e8fb3b9ef207"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "ended": false,
+          "end": null,
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-values": {},
+          "type": "purchase for download"
+        },
+        {
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "type": "purchase for download",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "id": "801cdcbb-8a25-44e6-b474-c4ada0128751",
+            "resource": "https://open.qobuz.com/artist/3771977"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": ""
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "ended": false,
+          "attributes": [],
+          "type": "social network",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "id": "9bcb999d-85af-463e-bc7f-4b6432d031cc",
+            "resource": "https://twitter.com/rachelchinourir"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": ""
+        },
+        {
+          "url": {
+            "id": "c1858445-ebbe-4996-8c87-038b01e61575",
+            "resource": "https://www.facebook.com/rachelchinouririmusic"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "attributes": [],
+          "type": "social network",
+          "attribute-values": {}
+        },
+        {
+          "url": {
+            "resource": "https://www.instagram.com/rachelchinouriri/",
+            "id": "95fe47e9-b22b-483b-bc81-482a8cc89891"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "target-credit": "",
+          "ended": false,
+          "attributes": [],
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "source-credit": "",
+          "end": null,
+          "type": "social network",
+          "attribute-values": {}
+        },
+        {
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "url": {
+            "id": "14054476-3082-4155-9c6f-91d1c0bff2d1",
+            "resource": "https://www.songkick.com/artists/9720564"
+          },
+          "direction": "forward",
+          "target-credit": "",
+          "attributes": [],
+          "ended": false,
+          "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+          "source-credit": "",
+          "end": null,
+          "attribute-values": {},
+          "type": "songkick"
+        },
+        {
+          "target-credit": "",
+          "url": {
+            "resource": "https://soundcloud.com/rachel-chinouriri",
+            "id": "16d113fe-871f-40b4-87e5-5f0a489e74f8"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "type": "soundcloud",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+        },
+        {
+          "target-credit": "",
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1033202344",
+            "id": "1f1b9678-8785-4fdd-8334-e8fb3b9ef207"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "type": "streaming",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "end": null
+        },
+        {
+          "type": "streaming",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "801cdcbb-8a25-44e6-b474-c4ada0128751",
+            "resource": "https://open.qobuz.com/artist/3771977"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {}
+        },
+        {
+          "direction": "forward",
+          "url": {
+            "resource": "https://tidal.com/artist/7182599",
+            "id": "6df6b456-a748-4a7f-ae6f-494ae770fddd"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": "",
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "type": "streaming",
+          "attribute-values": {}
+        },
+        {
+          "attribute-values": {},
+          "type": "wikidata",
+          "end": null,
+          "source-credit": "",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "attributes": [],
+          "ended": false,
+          "target-credit": "",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "id": "ad8c6472-353f-4f60-b669-745773ec706c",
+            "resource": "https://www.wikidata.org/wiki/Q111317463"
+          },
+          "direction": "forward"
+        },
+        {
+          "target-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "url": {
+            "resource": "https://www.youtube.com/channel/UCmluVMOmrTozqKtRXDz7RXg",
+            "id": "cc81262f-542c-4240-acf4-82e9f1887c85"
+          },
+          "direction": "forward",
+          "attribute-values": {},
+          "type": "youtube",
+          "attributes": [],
+          "ended": false,
+          "end": null,
+          "source-credit": "",
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+        }
+      ],
+      "begin-area": {
+        "id": "82d06beb-9ddb-4f9b-bc83-95fab1304289",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "Kingston upon Thames",
+        "name": "Kingston upon Thames",
+        "type": null
+      },
+      "gender": "Female",
+      "ipis": [],
+      "area": {
+        "type": null,
+        "name": "United Kingdom",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "sort-name": "United Kingdom",
+        "disambiguation": "",
+        "type-id": null,
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+      },
+      "country": "GB",
+      "aliases": []
+    }
+  }
+}

@@ -1,0 +1,4009 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "operation": "catalog",
+  "identifier": "6eXZu6O7nAUA5z6vLV8NKI",
+  "retrievedAt": "2026-08-14T04:13:06.680Z",
+  "value": {
+    "state": "active",
+    "statusCode": 200,
+    "pages": [
+      {
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=0&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=10&limit=10&market=US&locale=*&include_groups=album,single",
+        "offset": 0,
+        "previous": null,
+        "total": 43,
+        "items": [
+          {
+            "album_type": "album",
+            "total_tracks": 13,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0ofdTvYtx4LpsVjemJt71X"
+            },
+            "href": "https://api.spotify.com/v1/albums/0ofdTvYtx4LpsVjemJt71X",
+            "id": "0ofdTvYtx4LpsVjemJt71X",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273d0e17539a0ac5b32b6db47bb",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851d0e17539a0ac5b32b6db47bb",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Lotus",
+            "release_date": "2025-06-06",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:0ofdTvYtx4LpsVjemJt71X",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 7,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2jK2rbbnrzsId5WWSc67HP"
+            },
+            "href": "https://api.spotify.com/v1/albums/2jK2rbbnrzsId5WWSc67HP",
+            "id": "2jK2rbbnrzsId5WWSc67HP",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2734de8d5c48a2f7ab893e25e1f",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e024de8d5c48a2f7ab893e25e1f",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048514de8d5c48a2f7ab893e25e1f",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Drop 7",
+            "release_date": "2024-02-09",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2jK2rbbnrzsId5WWSc67HP",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 10,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/57263zG8Md6XZ9lBUPPYCm"
+            },
+            "href": "https://api.spotify.com/v1/albums/57263zG8Md6XZ9lBUPPYCm",
+            "id": "57263zG8Md6XZ9lBUPPYCm",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27372f48f1e2e04cc76d06ee708",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0272f48f1e2e04cc76d06ee708",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485172f48f1e2e04cc76d06ee708",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "NO THANK YOU",
+            "release_date": "2022-12-12",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:57263zG8Md6XZ9lBUPPYCm",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 19,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4nOym5RKE8Opauf3rMxPAW"
+            },
+            "href": "https://api.spotify.com/v1/albums/4nOym5RKE8Opauf3rMxPAW",
+            "id": "4nOym5RKE8Opauf3rMxPAW",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273aede85ed28c2237a33b63dba",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02aede85ed28c2237a33b63dba",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851aede85ed28c2237a33b63dba",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Sometimes I Might Be Introvert",
+            "release_date": "2021-09-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4nOym5RKE8Opauf3rMxPAW",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 10,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3Z8Df4ghTJ7afEWkurB2I1"
+            },
+            "href": "https://api.spotify.com/v1/albums/3Z8Df4ghTJ7afEWkurB2I1",
+            "id": "3Z8Df4ghTJ7afEWkurB2I1",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27308fd43f4ba0708fa58dd2805",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0208fd43f4ba0708fa58dd2805",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485108fd43f4ba0708fa58dd2805",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "GREY Area",
+            "release_date": "2019-03-01",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3Z8Df4ghTJ7afEWkurB2I1",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 23,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5Hie74vOip1lR1VOk6i2DI"
+            },
+            "href": "https://api.spotify.com/v1/albums/5Hie74vOip1lR1VOk6i2DI",
+            "id": "5Hie74vOip1lR1VOk6i2DI",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27331b7e754f6254dcbeb0636b4",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0231b7e754f6254dcbeb0636b4",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485131b7e754f6254dcbeb0636b4",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Stillness In Wonderland (Deluxe Edition)",
+            "release_date": "2017-11-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:5Hie74vOip1lR1VOk6i2DI",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 10,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4hXcI8zGSBClqEs72f0GGR"
+            },
+            "href": "https://api.spotify.com/v1/albums/4hXcI8zGSBClqEs72f0GGR",
+            "id": "4hXcI8zGSBClqEs72f0GGR",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273462a22e8cbc7730d87022207",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02462a22e8cbc7730d87022207",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851462a22e8cbc7730d87022207",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "A Curious Tale of Trials + Persons",
+            "release_date": "2015-09-18",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4hXcI8zGSBClqEs72f0GGR",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 12,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1o0XDWp8dSojoZ7yZh6fgu"
+            },
+            "href": "https://api.spotify.com/v1/albums/1o0XDWp8dSojoZ7yZh6fgu",
+            "id": "1o0XDWp8dSojoZ7yZh6fgu",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732ee7b0fbebbc88a42720e543",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022ee7b0fbebbc88a42720e543",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512ee7b0fbebbc88a42720e543",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Blank Canvas",
+            "release_date": "2014-10-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:1o0XDWp8dSojoZ7yZh6fgu",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "album",
+            "total_tracks": 13,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/32RJzqlapfiU0fr2l4SSW9"
+            },
+            "href": "https://api.spotify.com/v1/albums/32RJzqlapfiU0fr2l4SSW9",
+            "id": "32RJzqlapfiU0fr2l4SSW9",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732c87a313245ab463d6a02b85",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022c87a313245ab463d6a02b85",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512c87a313245ab463d6a02b85",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "E.D.G.E",
+            "release_date": "2014-10-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:32RJzqlapfiU0fr2l4SSW9",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 4,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1CJBeo8t68wKcsvN4QRuLI"
+            },
+            "href": "https://api.spotify.com/v1/albums/1CJBeo8t68wKcsvN4QRuLI",
+            "id": "1CJBeo8t68wKcsvN4QRuLI",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2737b530fdc46f8954a80e83e84",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e027b530fdc46f8954a80e83e84",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048517b530fdc46f8954a80e83e84",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Sugar Girl",
+            "release_date": "2026-05-08",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:1CJBeo8t68wKcsvN4QRuLI",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=10&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=20&limit=10&market=US&locale=*&include_groups=album,single",
+        "offset": 10,
+        "previous": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=0&limit=10&market=US&locale=*&include_groups=album,single",
+        "total": 43,
+        "items": [
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4VVroj6CaFvnbQ5fvTEmQj"
+            },
+            "href": "https://api.spotify.com/v1/albums/4VVroj6CaFvnbQ5fvTEmQj",
+            "id": "4VVroj6CaFvnbQ5fvTEmQj",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273fa365ad00af6ffa328acc01f",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02fa365ad00af6ffa328acc01f",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851fa365ad00af6ffa328acc01f",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Don't Leave Too Soon (From the Netflix Film 'Steve')",
+            "release_date": "2025-09-12",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4VVroj6CaFvnbQ5fvTEmQj",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 3,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3kA6SPFnEBihAT9IfCQ4vY"
+            },
+            "href": "https://api.spotify.com/v1/albums/3kA6SPFnEBihAT9IfCQ4vY",
+            "id": "3kA6SPFnEBihAT9IfCQ4vY",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273b7fbf8ca927c6013a19ffe8c",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02b7fbf8ca927c6013a19ffe8c",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851b7fbf8ca927c6013a19ffe8c",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Young",
+            "release_date": "2025-05-14",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3kA6SPFnEBihAT9IfCQ4vY",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 2,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3HfZsOOCcsDXiqciichy9J"
+            },
+            "href": "https://api.spotify.com/v1/albums/3HfZsOOCcsDXiqciichy9J",
+            "id": "3HfZsOOCcsDXiqciichy9J",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273a6022600e5a9779a1dd7d39c",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02a6022600e5a9779a1dd7d39c",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851a6022600e5a9779a1dd7d39c",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Free",
+            "release_date": "2025-03-27",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3HfZsOOCcsDXiqciichy9J",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2W71nSL9RnbhRvnlwDlmT1"
+            },
+            "href": "https://api.spotify.com/v1/albums/2W71nSL9RnbhRvnlwDlmT1",
+            "id": "2W71nSL9RnbhRvnlwDlmT1",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273237e866eb66b4be3081a5433",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02237e866eb66b4be3081a5433",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851237e866eb66b4be3081a5433",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Flood",
+            "release_date": "2025-02-26",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2W71nSL9RnbhRvnlwDlmT1",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/10HfbJ0arWU8m6YOg85Q9y"
+            },
+            "href": "https://api.spotify.com/v1/albums/10HfbJ0arWU8m6YOg85Q9y",
+            "id": "10HfbJ0arWU8m6YOg85Q9y",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273c14eef8d596a0c2bbb88695c",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02c14eef8d596a0c2bbb88695c",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851c14eef8d596a0c2bbb88695c",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Hello, Hi",
+            "release_date": "2024-12-30",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:10HfbJ0arWU8m6YOg85Q9y",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3xKODZhuOxgS6hNQGlSKL6"
+            },
+            "href": "https://api.spotify.com/v1/albums/3xKODZhuOxgS6hNQGlSKL6",
+            "id": "3xKODZhuOxgS6hNQGlSKL6",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2733e76243c05b6107b0ed1f23e",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e023e76243c05b6107b0ed1f23e",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048513e76243c05b6107b0ed1f23e",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Black and British (feat. Little Simz & Benjamin AD)",
+            "release_date": "2024-10-24",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3xKODZhuOxgS6hNQGlSKL6",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0T2sGLJKge2eaFmZJxX7sq"
+                },
+                "href": "https://api.spotify.com/v1/artists/0T2sGLJKge2eaFmZJxX7sq",
+                "id": "0T2sGLJKge2eaFmZJxX7sq",
+                "name": "Wretch 32",
+                "type": "artist",
+                "uri": "spotify:artist:0T2sGLJKge2eaFmZJxX7sq"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4UWmplYALfjUhWM6jZ8ftN"
+                },
+                "href": "https://api.spotify.com/v1/artists/4UWmplYALfjUhWM6jZ8ftN",
+                "id": "4UWmplYALfjUhWM6jZ8ftN",
+                "name": "Benjamin A.D",
+                "type": "artist",
+                "uri": "spotify:artist:4UWmplYALfjUhWM6jZ8ftN"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5GBYP7EkYjz4ZffoOVd6Zb"
+            },
+            "href": "https://api.spotify.com/v1/albums/5GBYP7EkYjz4ZffoOVd6Zb",
+            "id": "5GBYP7EkYjz4ZffoOVd6Zb",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273a35ead6e4b1dcebe0be6e6df",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02a35ead6e4b1dcebe0be6e6df",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851a35ead6e4b1dcebe0be6e6df",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Satellite Business 2.0",
+            "release_date": "2024-07-16",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:5GBYP7EkYjz4ZffoOVd6Zb",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2WoVwexZuODvclzULjPQtm"
+                },
+                "href": "https://api.spotify.com/v1/artists/2WoVwexZuODvclzULjPQtm",
+                "id": "2WoVwexZuODvclzULjPQtm",
+                "name": "Sampha",
+                "type": "artist",
+                "uri": "spotify:artist:2WoVwexZuODvclzULjPQtm"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3HquAICHyEiZYOANDefdXt"
+            },
+            "href": "https://api.spotify.com/v1/albums/3HquAICHyEiZYOANDefdXt",
+            "id": "3HquAICHyEiZYOANDefdXt",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27327c634184c75dcc9220326f7",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0227c634184c75dcc9220326f7",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485127c634184c75dcc9220326f7",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Venom (Remix) [from Venom: Let There Be Carnage]",
+            "release_date": "2021-10-01",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3HquAICHyEiZYOANDefdXt",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3wHjrWhk4dg9Mk0vieg5aK"
+            },
+            "href": "https://api.spotify.com/v1/albums/3wHjrWhk4dg9Mk0vieg5aK",
+            "id": "3wHjrWhk4dg9Mk0vieg5aK",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ba429a887b305e47abd3f22c",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ba429a887b305e47abd3f22c",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ba429a887b305e47abd3f22c",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Point and Kill",
+            "release_date": "2021-09-01",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3wHjrWhk4dg9Mk0vieg5aK",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6l7R1jntPahGxwJt7Tky8h"
+                },
+                "href": "https://api.spotify.com/v1/artists/6l7R1jntPahGxwJt7Tky8h",
+                "id": "6l7R1jntPahGxwJt7Tky8h",
+                "name": "Obongjayar",
+                "type": "artist",
+                "uri": "spotify:artist:6l7R1jntPahGxwJt7Tky8h"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3HoLZn0rGd1jRffEQKKz5c"
+            },
+            "href": "https://api.spotify.com/v1/albums/3HoLZn0rGd1jRffEQKKz5c",
+            "id": "3HoLZn0rGd1jRffEQKKz5c",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27370317a937e0ef155eea70c06",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0270317a937e0ef155eea70c06",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485170317a937e0ef155eea70c06",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "I Love You, I Hate You",
+            "release_date": "2021-07-08",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3HoLZn0rGd1jRffEQKKz5c",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=20&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=30&limit=10&market=US&locale=*&include_groups=album,single",
+        "offset": 20,
+        "previous": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=10&limit=10&market=US&locale=*&include_groups=album,single",
+        "total": 43,
+        "items": [
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5legQfsV5f5YSOlrHIPRPz"
+            },
+            "href": "https://api.spotify.com/v1/albums/5legQfsV5f5YSOlrHIPRPz",
+            "id": "5legQfsV5f5YSOlrHIPRPz",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273eaef7198421164728e1bf294",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02eaef7198421164728e1bf294",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851eaef7198421164728e1bf294",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Rollin Stone",
+            "release_date": "2021-06-14",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:5legQfsV5f5YSOlrHIPRPz",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0AYztKSTNeElcShrbQx0gx"
+            },
+            "href": "https://api.spotify.com/v1/albums/0AYztKSTNeElcShrbQx0gx",
+            "id": "0AYztKSTNeElcShrbQx0gx",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27321ebc8f071e347968babbf55",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0221ebc8f071e347968babbf55",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485121ebc8f071e347968babbf55",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Woman",
+            "release_date": "2021-05-06",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:0AYztKSTNeElcShrbQx0gx",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0HmDIZgIFxVQsfvBusjcGs"
+            },
+            "href": "https://api.spotify.com/v1/albums/0HmDIZgIFxVQsfvBusjcGs",
+            "id": "0HmDIZgIFxVQsfvBusjcGs",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273d693cd98b1460ee632eee960",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02d693cd98b1460ee632eee960",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851d693cd98b1460ee632eee960",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Introvert",
+            "release_date": "2021-04-21",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:0HmDIZgIFxVQsfvBusjcGs",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 5,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5kleJz7Rct23Gan0hdKXiA"
+            },
+            "href": "https://api.spotify.com/v1/albums/5kleJz7Rct23Gan0hdKXiA",
+            "id": "5kleJz7Rct23Gan0hdKXiA",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273e87c1c709ebcba96c9d7041e",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02e87c1c709ebcba96c9d7041e",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851e87c1c709ebcba96c9d7041e",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Drop 6",
+            "release_date": "2020-05-06",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:5kleJz7Rct23Gan0hdKXiA",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2o8vYIclwlDV2617KQINzQ"
+            },
+            "href": "https://api.spotify.com/v1/albums/2o8vYIclwlDV2617KQINzQ",
+            "id": "2o8vYIclwlDV2617KQINzQ",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f0b5349d4e30ccf28283f2a4",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f0b5349d4e30ccf28283f2a4",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f0b5349d4e30ccf28283f2a4",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Flowers (Live at Metropolis Studios, London, 2019)",
+            "release_date": "2019-09-16",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2o8vYIclwlDV2617KQINzQ",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/7a3IxiF3JVmQgA4bfXFsDQ"
+            },
+            "href": "https://api.spotify.com/v1/albums/7a3IxiF3JVmQgA4bfXFsDQ",
+            "id": "7a3IxiF3JVmQgA4bfXFsDQ",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273581df721411fd0ffdde8e282",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02581df721411fd0ffdde8e282",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851581df721411fd0ffdde8e282",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Venom",
+            "release_date": "2019-09-13",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:7a3IxiF3JVmQgA4bfXFsDQ",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/52lWZNXWoJMWFNPmXdAWz9"
+            },
+            "href": "https://api.spotify.com/v1/albums/52lWZNXWoJMWFNPmXdAWz9",
+            "id": "52lWZNXWoJMWFNPmXdAWz9",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273c8e6fdf7f59c71bd31d30bb2",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02c8e6fdf7f59c71bd31d30bb2",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851c8e6fdf7f59c71bd31d30bb2",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Pink Youth",
+            "release_date": "2019-06-28",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:52lWZNXWoJMWFNPmXdAWz9",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3kHVioJpVxlazAAKQ64pC1"
+                },
+                "href": "https://api.spotify.com/v1/artists/3kHVioJpVxlazAAKQ64pC1",
+                "id": "3kHVioJpVxlazAAKQ64pC1",
+                "name": "Yuna",
+                "type": "artist",
+                "uri": "spotify:artist:3kHVioJpVxlazAAKQ64pC1"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4K32S2LWzZuwV6lpGm6WWL"
+            },
+            "href": "https://api.spotify.com/v1/albums/4K32S2LWzZuwV6lpGm6WWL",
+            "id": "4K32S2LWzZuwV6lpGm6WWL",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ca46a2cad8038893fe80daf3",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ca46a2cad8038893fe80daf3",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ca46a2cad8038893fe80daf3",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "101 FM (feat. Spragga Benz) [Toddla T Remix]",
+            "release_date": "2019-06-07",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4K32S2LWzZuwV6lpGm6WWL",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3l1C23aRp4lfkBK3lLAp2m"
+                },
+                "href": "https://api.spotify.com/v1/artists/3l1C23aRp4lfkBK3lLAp2m",
+                "id": "3l1C23aRp4lfkBK3lLAp2m",
+                "name": "Toddla T",
+                "type": "artist",
+                "uri": "spotify:artist:3l1C23aRp4lfkBK3lLAp2m"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3d6jPdXxN5jDnww1RWPrwA"
+            },
+            "href": "https://api.spotify.com/v1/albums/3d6jPdXxN5jDnww1RWPrwA",
+            "id": "3d6jPdXxN5jDnww1RWPrwA",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ef8498ec5394ed67df3f2905",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ef8498ec5394ed67df3f2905",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ef8498ec5394ed67df3f2905",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "101 FM",
+            "release_date": "2018-12-05",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3d6jPdXxN5jDnww1RWPrwA",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0EQ6Wy0w67lqr24euswa55"
+            },
+            "href": "https://api.spotify.com/v1/albums/0EQ6Wy0w67lqr24euswa55",
+            "id": "0EQ6Wy0w67lqr24euswa55",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2736cb048f1aa56d859aa0263c3",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e026cb048f1aa56d859aa0263c3",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048516cb048f1aa56d859aa0263c3",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Boss",
+            "release_date": "2018-09-23",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:0EQ6Wy0w67lqr24euswa55",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=30&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=40&limit=10&market=US&locale=*&include_groups=album,single",
+        "offset": 30,
+        "previous": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=20&limit=10&market=US&locale=*&include_groups=album,single",
+        "total": 43,
+        "items": [
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/6iXfpbB3SxBKoTnZHAxCnH"
+            },
+            "href": "https://api.spotify.com/v1/albums/6iXfpbB3SxBKoTnZHAxCnH",
+            "id": "6iXfpbB3SxBKoTnZHAxCnH",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27391408abf430c29df89207aaf",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0291408abf430c29df89207aaf",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485191408abf430c29df89207aaf",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Offence",
+            "release_date": "2018-09-17",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:6iXfpbB3SxBKoTnZHAxCnH",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/13DiRRO8DTuLxsD6qqQlp4"
+            },
+            "href": "https://api.spotify.com/v1/albums/13DiRRO8DTuLxsD6qqQlp4",
+            "id": "13DiRRO8DTuLxsD6qqQlp4",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273701508dd701d33ef791c8cda",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02701508dd701d33ef791c8cda",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851701508dd701d33ef791c8cda",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Proud of Me (feat. Little Simz)",
+            "release_date": "2018-02-02",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:13DiRRO8DTuLxsD6qqQlp4",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/16rCzZOMQX7P8Kmn5YKexI"
+                },
+                "href": "https://api.spotify.com/v1/artists/16rCzZOMQX7P8Kmn5YKexI",
+                "id": "16rCzZOMQX7P8Kmn5YKexI",
+                "name": "Mahalia",
+                "type": "artist",
+                "uri": "spotify:artist:16rCzZOMQX7P8Kmn5YKexI"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/7JmMbGqDRJN384gRgEpk5F"
+            },
+            "href": "https://api.spotify.com/v1/albums/7JmMbGqDRJN384gRgEpk5F",
+            "id": "7JmMbGqDRJN384gRgEpk5F",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732402f6d069d474e238664400",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022402f6d069d474e238664400",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512402f6d069d474e238664400",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Bombo Fabrika (Remix)",
+            "release_date": "2017-11-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:7JmMbGqDRJN384gRgEpk5F",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1R4GxRuSVTPSb6oy56SPST"
+                },
+                "href": "https://api.spotify.com/v1/artists/1R4GxRuSVTPSb6oy56SPST",
+                "id": "1R4GxRuSVTPSb6oy56SPST",
+                "name": "Gabriel Garzón-Montano",
+                "type": "artist",
+                "uri": "spotify:artist:1R4GxRuSVTPSb6oy56SPST"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1pzgrY0azjN2nR6QHLTX75"
+            },
+            "href": "https://api.spotify.com/v1/albums/1pzgrY0azjN2nR6QHLTX75",
+            "id": "1pzgrY0azjN2nR6QHLTX75",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273aaeb1244774b6b1197403a1f",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02aaeb1244774b6b1197403a1f",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851aaeb1244774b6b1197403a1f",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Good For What",
+            "release_date": "2017-10-11",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:1pzgrY0azjN2nR6QHLTX75",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4CTGavcfzvh0Qr71ezBbbA"
+            },
+            "href": "https://api.spotify.com/v1/albums/4CTGavcfzvh0Qr71ezBbbA",
+            "id": "4CTGavcfzvh0Qr71ezBbbA",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2731e82e15323930980b8bc6152",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e021e82e15323930980b8bc6152",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048511e82e15323930980b8bc6152",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Backseat",
+            "release_date": "2017-05-11",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4CTGavcfzvh0Qr71ezBbbA",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/6gpF5fWmHXCvsSY0MwDYPX"
+            },
+            "href": "https://api.spotify.com/v1/albums/6gpF5fWmHXCvsSY0MwDYPX",
+            "id": "6gpF5fWmHXCvsSY0MwDYPX",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f5435d011f2ce8ac6c5f2b98",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f5435d011f2ce8ac6c5f2b98",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f5435d011f2ce8ac6c5f2b98",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Picture Perfect",
+            "release_date": "2016-12-14",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:6gpF5fWmHXCvsSY0MwDYPX",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3x8XnipEKwDCJyqRvgB4yC"
+            },
+            "href": "https://api.spotify.com/v1/albums/3x8XnipEKwDCJyqRvgB4yC",
+            "id": "3x8XnipEKwDCJyqRvgB4yC",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273a0f787531f8fb222abb460d3",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02a0f787531f8fb222abb460d3",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851a0f787531f8fb222abb460d3",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Poison Ivy",
+            "release_date": "2016-12-13",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3x8XnipEKwDCJyqRvgB4yC",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/6y5lHR30aC4souMynJv0IL"
+            },
+            "href": "https://api.spotify.com/v1/albums/6y5lHR30aC4souMynJv0IL",
+            "id": "6y5lHR30aC4souMynJv0IL",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273d9bf1eb7b207ef306d8331d6",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02d9bf1eb7b207ef306d8331d6",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851d9bf1eb7b207ef306d8331d6",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Dead Body Part 2+3",
+            "release_date": "2015-09-23",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:6y5lHR30aC4souMynJv0IL",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4zAYRZYmMBk12gLxJ27YU1"
+            },
+            "href": "https://api.spotify.com/v1/albums/4zAYRZYmMBk12gLxJ27YU1",
+            "id": "4zAYRZYmMBk12gLxJ27YU1",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273e46ba796da0788d13835adba",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02e46ba796da0788d13835adba",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851e46ba796da0788d13835adba",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Dead Body",
+            "release_date": "2015-08-17",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:4zAYRZYmMBk12gLxJ27YU1",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 1,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2iWuBhNJf0CoPbr4eg0LW2"
+            },
+            "href": "https://api.spotify.com/v1/albums/2iWuBhNJf0CoPbr4eg0LW2",
+            "id": "2iWuBhNJf0CoPbr4eg0LW2",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273d51a5fd9cbf031eaf099aebf",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02d51a5fd9cbf031eaf099aebf",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851d51a5fd9cbf031eaf099aebf",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Wings",
+            "release_date": "2015-08-17",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2iWuBhNJf0CoPbr4eg0LW2",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=40&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": null,
+        "offset": 40,
+        "previous": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI/albums?offset=30&limit=10&market=US&locale=*&include_groups=album,single",
+        "total": 43,
+        "items": [
+          {
+            "album_type": "single",
+            "total_tracks": 4,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/7f9HJSiHkxJCOzsjhg9TAh"
+            },
+            "href": "https://api.spotify.com/v1/albums/7f9HJSiHkxJCOzsjhg9TAh",
+            "id": "7f9HJSiHkxJCOzsjhg9TAh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2739f7c42d17ba60a0878fd8ed7",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e029f7c42d17ba60a0878fd8ed7",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048519f7c42d17ba60a0878fd8ed7",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Time Capsule",
+            "release_date": "2014-12-14",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:7f9HJSiHkxJCOzsjhg9TAh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 4,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2uMgJR5R91PMAvl4UxJEmP"
+            },
+            "href": "https://api.spotify.com/v1/albums/2uMgJR5R91PMAvl4UxJEmP",
+            "id": "2uMgJR5R91PMAvl4UxJEmP",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273e2d57248777a75e37e1793a3",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02e2d57248777a75e37e1793a3",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851e2d57248777a75e37e1793a3",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Age 101 : Drop 1",
+            "release_date": "2014-10-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2uMgJR5R91PMAvl4UxJEmP",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          },
+          {
+            "album_type": "single",
+            "total_tracks": 5,
+            "is_playable": true,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3yPrtCGPFaq4MC9Dn7DCwX"
+            },
+            "href": "https://api.spotify.com/v1/albums/3yPrtCGPFaq4MC9Dn7DCwX",
+            "id": "3yPrtCGPFaq4MC9Dn7DCwX",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27386bffd3c1ae7bc83edbc0f59",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0286bffd3c1ae7bc83edbc0f59",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485186bffd3c1ae7bc83edbc0f59",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Age 101 : Drop 2",
+            "release_date": "2014-10-03",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3yPrtCGPFaq4MC9Dn7DCwX",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+                },
+                "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+                "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                "name": "Little Simz",
+                "type": "artist",
+                "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "releases": [
+      {
+        "album_type": "album",
+        "total_tracks": 13,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0ofdTvYtx4LpsVjemJt71X"
+        },
+        "href": "https://api.spotify.com/v1/albums/0ofdTvYtx4LpsVjemJt71X",
+        "id": "0ofdTvYtx4LpsVjemJt71X",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273d0e17539a0ac5b32b6db47bb",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02d0e17539a0ac5b32b6db47bb",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851d0e17539a0ac5b32b6db47bb",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Lotus",
+        "release_date": "2025-06-06",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:0ofdTvYtx4LpsVjemJt71X",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 7,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2jK2rbbnrzsId5WWSc67HP"
+        },
+        "href": "https://api.spotify.com/v1/albums/2jK2rbbnrzsId5WWSc67HP",
+        "id": "2jK2rbbnrzsId5WWSc67HP",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2734de8d5c48a2f7ab893e25e1f",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e024de8d5c48a2f7ab893e25e1f",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048514de8d5c48a2f7ab893e25e1f",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Drop 7",
+        "release_date": "2024-02-09",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2jK2rbbnrzsId5WWSc67HP",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 10,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/57263zG8Md6XZ9lBUPPYCm"
+        },
+        "href": "https://api.spotify.com/v1/albums/57263zG8Md6XZ9lBUPPYCm",
+        "id": "57263zG8Md6XZ9lBUPPYCm",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27372f48f1e2e04cc76d06ee708",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0272f48f1e2e04cc76d06ee708",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485172f48f1e2e04cc76d06ee708",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "NO THANK YOU",
+        "release_date": "2022-12-12",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:57263zG8Md6XZ9lBUPPYCm",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 19,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4nOym5RKE8Opauf3rMxPAW"
+        },
+        "href": "https://api.spotify.com/v1/albums/4nOym5RKE8Opauf3rMxPAW",
+        "id": "4nOym5RKE8Opauf3rMxPAW",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273aede85ed28c2237a33b63dba",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02aede85ed28c2237a33b63dba",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851aede85ed28c2237a33b63dba",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Sometimes I Might Be Introvert",
+        "release_date": "2021-09-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4nOym5RKE8Opauf3rMxPAW",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 10,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3Z8Df4ghTJ7afEWkurB2I1"
+        },
+        "href": "https://api.spotify.com/v1/albums/3Z8Df4ghTJ7afEWkurB2I1",
+        "id": "3Z8Df4ghTJ7afEWkurB2I1",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27308fd43f4ba0708fa58dd2805",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0208fd43f4ba0708fa58dd2805",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485108fd43f4ba0708fa58dd2805",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "GREY Area",
+        "release_date": "2019-03-01",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3Z8Df4ghTJ7afEWkurB2I1",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 23,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5Hie74vOip1lR1VOk6i2DI"
+        },
+        "href": "https://api.spotify.com/v1/albums/5Hie74vOip1lR1VOk6i2DI",
+        "id": "5Hie74vOip1lR1VOk6i2DI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27331b7e754f6254dcbeb0636b4",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0231b7e754f6254dcbeb0636b4",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485131b7e754f6254dcbeb0636b4",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Stillness In Wonderland (Deluxe Edition)",
+        "release_date": "2017-11-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5Hie74vOip1lR1VOk6i2DI",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 10,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4hXcI8zGSBClqEs72f0GGR"
+        },
+        "href": "https://api.spotify.com/v1/albums/4hXcI8zGSBClqEs72f0GGR",
+        "id": "4hXcI8zGSBClqEs72f0GGR",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273462a22e8cbc7730d87022207",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02462a22e8cbc7730d87022207",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851462a22e8cbc7730d87022207",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "A Curious Tale of Trials + Persons",
+        "release_date": "2015-09-18",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4hXcI8zGSBClqEs72f0GGR",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 12,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1o0XDWp8dSojoZ7yZh6fgu"
+        },
+        "href": "https://api.spotify.com/v1/albums/1o0XDWp8dSojoZ7yZh6fgu",
+        "id": "1o0XDWp8dSojoZ7yZh6fgu",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2732ee7b0fbebbc88a42720e543",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e022ee7b0fbebbc88a42720e543",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048512ee7b0fbebbc88a42720e543",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Blank Canvas",
+        "release_date": "2014-10-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:1o0XDWp8dSojoZ7yZh6fgu",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "album",
+        "total_tracks": 13,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/32RJzqlapfiU0fr2l4SSW9"
+        },
+        "href": "https://api.spotify.com/v1/albums/32RJzqlapfiU0fr2l4SSW9",
+        "id": "32RJzqlapfiU0fr2l4SSW9",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2732c87a313245ab463d6a02b85",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e022c87a313245ab463d6a02b85",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048512c87a313245ab463d6a02b85",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "E.D.G.E",
+        "release_date": "2014-10-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:32RJzqlapfiU0fr2l4SSW9",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 4,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1CJBeo8t68wKcsvN4QRuLI"
+        },
+        "href": "https://api.spotify.com/v1/albums/1CJBeo8t68wKcsvN4QRuLI",
+        "id": "1CJBeo8t68wKcsvN4QRuLI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2737b530fdc46f8954a80e83e84",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e027b530fdc46f8954a80e83e84",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048517b530fdc46f8954a80e83e84",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Sugar Girl",
+        "release_date": "2026-05-08",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:1CJBeo8t68wKcsvN4QRuLI",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4VVroj6CaFvnbQ5fvTEmQj"
+        },
+        "href": "https://api.spotify.com/v1/albums/4VVroj6CaFvnbQ5fvTEmQj",
+        "id": "4VVroj6CaFvnbQ5fvTEmQj",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273fa365ad00af6ffa328acc01f",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02fa365ad00af6ffa328acc01f",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851fa365ad00af6ffa328acc01f",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Don't Leave Too Soon (From the Netflix Film 'Steve')",
+        "release_date": "2025-09-12",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4VVroj6CaFvnbQ5fvTEmQj",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 3,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3kA6SPFnEBihAT9IfCQ4vY"
+        },
+        "href": "https://api.spotify.com/v1/albums/3kA6SPFnEBihAT9IfCQ4vY",
+        "id": "3kA6SPFnEBihAT9IfCQ4vY",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273b7fbf8ca927c6013a19ffe8c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02b7fbf8ca927c6013a19ffe8c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851b7fbf8ca927c6013a19ffe8c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Young",
+        "release_date": "2025-05-14",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3kA6SPFnEBihAT9IfCQ4vY",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 2,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3HfZsOOCcsDXiqciichy9J"
+        },
+        "href": "https://api.spotify.com/v1/albums/3HfZsOOCcsDXiqciichy9J",
+        "id": "3HfZsOOCcsDXiqciichy9J",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273a6022600e5a9779a1dd7d39c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02a6022600e5a9779a1dd7d39c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851a6022600e5a9779a1dd7d39c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Free",
+        "release_date": "2025-03-27",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3HfZsOOCcsDXiqciichy9J",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2W71nSL9RnbhRvnlwDlmT1"
+        },
+        "href": "https://api.spotify.com/v1/albums/2W71nSL9RnbhRvnlwDlmT1",
+        "id": "2W71nSL9RnbhRvnlwDlmT1",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273237e866eb66b4be3081a5433",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02237e866eb66b4be3081a5433",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851237e866eb66b4be3081a5433",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Flood",
+        "release_date": "2025-02-26",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2W71nSL9RnbhRvnlwDlmT1",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/10HfbJ0arWU8m6YOg85Q9y"
+        },
+        "href": "https://api.spotify.com/v1/albums/10HfbJ0arWU8m6YOg85Q9y",
+        "id": "10HfbJ0arWU8m6YOg85Q9y",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273c14eef8d596a0c2bbb88695c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02c14eef8d596a0c2bbb88695c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851c14eef8d596a0c2bbb88695c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Hello, Hi",
+        "release_date": "2024-12-30",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:10HfbJ0arWU8m6YOg85Q9y",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3xKODZhuOxgS6hNQGlSKL6"
+        },
+        "href": "https://api.spotify.com/v1/albums/3xKODZhuOxgS6hNQGlSKL6",
+        "id": "3xKODZhuOxgS6hNQGlSKL6",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2733e76243c05b6107b0ed1f23e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e023e76243c05b6107b0ed1f23e",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048513e76243c05b6107b0ed1f23e",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Black and British (feat. Little Simz & Benjamin AD)",
+        "release_date": "2024-10-24",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3xKODZhuOxgS6hNQGlSKL6",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0T2sGLJKge2eaFmZJxX7sq"
+            },
+            "href": "https://api.spotify.com/v1/artists/0T2sGLJKge2eaFmZJxX7sq",
+            "id": "0T2sGLJKge2eaFmZJxX7sq",
+            "name": "Wretch 32",
+            "type": "artist",
+            "uri": "spotify:artist:0T2sGLJKge2eaFmZJxX7sq"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4UWmplYALfjUhWM6jZ8ftN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4UWmplYALfjUhWM6jZ8ftN",
+            "id": "4UWmplYALfjUhWM6jZ8ftN",
+            "name": "Benjamin A.D",
+            "type": "artist",
+            "uri": "spotify:artist:4UWmplYALfjUhWM6jZ8ftN"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5GBYP7EkYjz4ZffoOVd6Zb"
+        },
+        "href": "https://api.spotify.com/v1/albums/5GBYP7EkYjz4ZffoOVd6Zb",
+        "id": "5GBYP7EkYjz4ZffoOVd6Zb",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273a35ead6e4b1dcebe0be6e6df",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02a35ead6e4b1dcebe0be6e6df",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851a35ead6e4b1dcebe0be6e6df",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Satellite Business 2.0",
+        "release_date": "2024-07-16",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5GBYP7EkYjz4ZffoOVd6Zb",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2WoVwexZuODvclzULjPQtm"
+            },
+            "href": "https://api.spotify.com/v1/artists/2WoVwexZuODvclzULjPQtm",
+            "id": "2WoVwexZuODvclzULjPQtm",
+            "name": "Sampha",
+            "type": "artist",
+            "uri": "spotify:artist:2WoVwexZuODvclzULjPQtm"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3HquAICHyEiZYOANDefdXt"
+        },
+        "href": "https://api.spotify.com/v1/albums/3HquAICHyEiZYOANDefdXt",
+        "id": "3HquAICHyEiZYOANDefdXt",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27327c634184c75dcc9220326f7",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0227c634184c75dcc9220326f7",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485127c634184c75dcc9220326f7",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Venom (Remix) [from Venom: Let There Be Carnage]",
+        "release_date": "2021-10-01",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3HquAICHyEiZYOANDefdXt",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3wHjrWhk4dg9Mk0vieg5aK"
+        },
+        "href": "https://api.spotify.com/v1/albums/3wHjrWhk4dg9Mk0vieg5aK",
+        "id": "3wHjrWhk4dg9Mk0vieg5aK",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273ba429a887b305e47abd3f22c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02ba429a887b305e47abd3f22c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851ba429a887b305e47abd3f22c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Point and Kill",
+        "release_date": "2021-09-01",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3wHjrWhk4dg9Mk0vieg5aK",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6l7R1jntPahGxwJt7Tky8h"
+            },
+            "href": "https://api.spotify.com/v1/artists/6l7R1jntPahGxwJt7Tky8h",
+            "id": "6l7R1jntPahGxwJt7Tky8h",
+            "name": "Obongjayar",
+            "type": "artist",
+            "uri": "spotify:artist:6l7R1jntPahGxwJt7Tky8h"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3HoLZn0rGd1jRffEQKKz5c"
+        },
+        "href": "https://api.spotify.com/v1/albums/3HoLZn0rGd1jRffEQKKz5c",
+        "id": "3HoLZn0rGd1jRffEQKKz5c",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27370317a937e0ef155eea70c06",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0270317a937e0ef155eea70c06",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485170317a937e0ef155eea70c06",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "I Love You, I Hate You",
+        "release_date": "2021-07-08",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3HoLZn0rGd1jRffEQKKz5c",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5legQfsV5f5YSOlrHIPRPz"
+        },
+        "href": "https://api.spotify.com/v1/albums/5legQfsV5f5YSOlrHIPRPz",
+        "id": "5legQfsV5f5YSOlrHIPRPz",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273eaef7198421164728e1bf294",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02eaef7198421164728e1bf294",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851eaef7198421164728e1bf294",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Rollin Stone",
+        "release_date": "2021-06-14",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5legQfsV5f5YSOlrHIPRPz",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0AYztKSTNeElcShrbQx0gx"
+        },
+        "href": "https://api.spotify.com/v1/albums/0AYztKSTNeElcShrbQx0gx",
+        "id": "0AYztKSTNeElcShrbQx0gx",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27321ebc8f071e347968babbf55",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0221ebc8f071e347968babbf55",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485121ebc8f071e347968babbf55",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Woman",
+        "release_date": "2021-05-06",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:0AYztKSTNeElcShrbQx0gx",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0HmDIZgIFxVQsfvBusjcGs"
+        },
+        "href": "https://api.spotify.com/v1/albums/0HmDIZgIFxVQsfvBusjcGs",
+        "id": "0HmDIZgIFxVQsfvBusjcGs",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273d693cd98b1460ee632eee960",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02d693cd98b1460ee632eee960",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851d693cd98b1460ee632eee960",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Introvert",
+        "release_date": "2021-04-21",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:0HmDIZgIFxVQsfvBusjcGs",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 5,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5kleJz7Rct23Gan0hdKXiA"
+        },
+        "href": "https://api.spotify.com/v1/albums/5kleJz7Rct23Gan0hdKXiA",
+        "id": "5kleJz7Rct23Gan0hdKXiA",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273e87c1c709ebcba96c9d7041e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02e87c1c709ebcba96c9d7041e",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851e87c1c709ebcba96c9d7041e",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Drop 6",
+        "release_date": "2020-05-06",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5kleJz7Rct23Gan0hdKXiA",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2o8vYIclwlDV2617KQINzQ"
+        },
+        "href": "https://api.spotify.com/v1/albums/2o8vYIclwlDV2617KQINzQ",
+        "id": "2o8vYIclwlDV2617KQINzQ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273f0b5349d4e30ccf28283f2a4",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02f0b5349d4e30ccf28283f2a4",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851f0b5349d4e30ccf28283f2a4",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Flowers (Live at Metropolis Studios, London, 2019)",
+        "release_date": "2019-09-16",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2o8vYIclwlDV2617KQINzQ",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7a3IxiF3JVmQgA4bfXFsDQ"
+        },
+        "href": "https://api.spotify.com/v1/albums/7a3IxiF3JVmQgA4bfXFsDQ",
+        "id": "7a3IxiF3JVmQgA4bfXFsDQ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273581df721411fd0ffdde8e282",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02581df721411fd0ffdde8e282",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851581df721411fd0ffdde8e282",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Venom",
+        "release_date": "2019-09-13",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:7a3IxiF3JVmQgA4bfXFsDQ",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/52lWZNXWoJMWFNPmXdAWz9"
+        },
+        "href": "https://api.spotify.com/v1/albums/52lWZNXWoJMWFNPmXdAWz9",
+        "id": "52lWZNXWoJMWFNPmXdAWz9",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273c8e6fdf7f59c71bd31d30bb2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02c8e6fdf7f59c71bd31d30bb2",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851c8e6fdf7f59c71bd31d30bb2",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Pink Youth",
+        "release_date": "2019-06-28",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:52lWZNXWoJMWFNPmXdAWz9",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3kHVioJpVxlazAAKQ64pC1"
+            },
+            "href": "https://api.spotify.com/v1/artists/3kHVioJpVxlazAAKQ64pC1",
+            "id": "3kHVioJpVxlazAAKQ64pC1",
+            "name": "Yuna",
+            "type": "artist",
+            "uri": "spotify:artist:3kHVioJpVxlazAAKQ64pC1"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4K32S2LWzZuwV6lpGm6WWL"
+        },
+        "href": "https://api.spotify.com/v1/albums/4K32S2LWzZuwV6lpGm6WWL",
+        "id": "4K32S2LWzZuwV6lpGm6WWL",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273ca46a2cad8038893fe80daf3",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02ca46a2cad8038893fe80daf3",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851ca46a2cad8038893fe80daf3",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "101 FM (feat. Spragga Benz) [Toddla T Remix]",
+        "release_date": "2019-06-07",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4K32S2LWzZuwV6lpGm6WWL",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3l1C23aRp4lfkBK3lLAp2m"
+            },
+            "href": "https://api.spotify.com/v1/artists/3l1C23aRp4lfkBK3lLAp2m",
+            "id": "3l1C23aRp4lfkBK3lLAp2m",
+            "name": "Toddla T",
+            "type": "artist",
+            "uri": "spotify:artist:3l1C23aRp4lfkBK3lLAp2m"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3d6jPdXxN5jDnww1RWPrwA"
+        },
+        "href": "https://api.spotify.com/v1/albums/3d6jPdXxN5jDnww1RWPrwA",
+        "id": "3d6jPdXxN5jDnww1RWPrwA",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273ef8498ec5394ed67df3f2905",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02ef8498ec5394ed67df3f2905",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851ef8498ec5394ed67df3f2905",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "101 FM",
+        "release_date": "2018-12-05",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3d6jPdXxN5jDnww1RWPrwA",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0EQ6Wy0w67lqr24euswa55"
+        },
+        "href": "https://api.spotify.com/v1/albums/0EQ6Wy0w67lqr24euswa55",
+        "id": "0EQ6Wy0w67lqr24euswa55",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2736cb048f1aa56d859aa0263c3",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e026cb048f1aa56d859aa0263c3",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048516cb048f1aa56d859aa0263c3",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Boss",
+        "release_date": "2018-09-23",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:0EQ6Wy0w67lqr24euswa55",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6iXfpbB3SxBKoTnZHAxCnH"
+        },
+        "href": "https://api.spotify.com/v1/albums/6iXfpbB3SxBKoTnZHAxCnH",
+        "id": "6iXfpbB3SxBKoTnZHAxCnH",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27391408abf430c29df89207aaf",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0291408abf430c29df89207aaf",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485191408abf430c29df89207aaf",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Offence",
+        "release_date": "2018-09-17",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6iXfpbB3SxBKoTnZHAxCnH",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/13DiRRO8DTuLxsD6qqQlp4"
+        },
+        "href": "https://api.spotify.com/v1/albums/13DiRRO8DTuLxsD6qqQlp4",
+        "id": "13DiRRO8DTuLxsD6qqQlp4",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273701508dd701d33ef791c8cda",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02701508dd701d33ef791c8cda",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851701508dd701d33ef791c8cda",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Proud of Me (feat. Little Simz)",
+        "release_date": "2018-02-02",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:13DiRRO8DTuLxsD6qqQlp4",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/16rCzZOMQX7P8Kmn5YKexI"
+            },
+            "href": "https://api.spotify.com/v1/artists/16rCzZOMQX7P8Kmn5YKexI",
+            "id": "16rCzZOMQX7P8Kmn5YKexI",
+            "name": "Mahalia",
+            "type": "artist",
+            "uri": "spotify:artist:16rCzZOMQX7P8Kmn5YKexI"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7JmMbGqDRJN384gRgEpk5F"
+        },
+        "href": "https://api.spotify.com/v1/albums/7JmMbGqDRJN384gRgEpk5F",
+        "id": "7JmMbGqDRJN384gRgEpk5F",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2732402f6d069d474e238664400",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e022402f6d069d474e238664400",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048512402f6d069d474e238664400",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Bombo Fabrika (Remix)",
+        "release_date": "2017-11-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:7JmMbGqDRJN384gRgEpk5F",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1R4GxRuSVTPSb6oy56SPST"
+            },
+            "href": "https://api.spotify.com/v1/artists/1R4GxRuSVTPSb6oy56SPST",
+            "id": "1R4GxRuSVTPSb6oy56SPST",
+            "name": "Gabriel Garzón-Montano",
+            "type": "artist",
+            "uri": "spotify:artist:1R4GxRuSVTPSb6oy56SPST"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/1pzgrY0azjN2nR6QHLTX75"
+        },
+        "href": "https://api.spotify.com/v1/albums/1pzgrY0azjN2nR6QHLTX75",
+        "id": "1pzgrY0azjN2nR6QHLTX75",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273aaeb1244774b6b1197403a1f",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02aaeb1244774b6b1197403a1f",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851aaeb1244774b6b1197403a1f",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Good For What",
+        "release_date": "2017-10-11",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:1pzgrY0azjN2nR6QHLTX75",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4CTGavcfzvh0Qr71ezBbbA"
+        },
+        "href": "https://api.spotify.com/v1/albums/4CTGavcfzvh0Qr71ezBbbA",
+        "id": "4CTGavcfzvh0Qr71ezBbbA",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2731e82e15323930980b8bc6152",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e021e82e15323930980b8bc6152",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048511e82e15323930980b8bc6152",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Backseat",
+        "release_date": "2017-05-11",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4CTGavcfzvh0Qr71ezBbbA",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6gpF5fWmHXCvsSY0MwDYPX"
+        },
+        "href": "https://api.spotify.com/v1/albums/6gpF5fWmHXCvsSY0MwDYPX",
+        "id": "6gpF5fWmHXCvsSY0MwDYPX",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273f5435d011f2ce8ac6c5f2b98",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02f5435d011f2ce8ac6c5f2b98",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851f5435d011f2ce8ac6c5f2b98",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Picture Perfect",
+        "release_date": "2016-12-14",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6gpF5fWmHXCvsSY0MwDYPX",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3x8XnipEKwDCJyqRvgB4yC"
+        },
+        "href": "https://api.spotify.com/v1/albums/3x8XnipEKwDCJyqRvgB4yC",
+        "id": "3x8XnipEKwDCJyqRvgB4yC",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273a0f787531f8fb222abb460d3",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02a0f787531f8fb222abb460d3",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851a0f787531f8fb222abb460d3",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Poison Ivy",
+        "release_date": "2016-12-13",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3x8XnipEKwDCJyqRvgB4yC",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6y5lHR30aC4souMynJv0IL"
+        },
+        "href": "https://api.spotify.com/v1/albums/6y5lHR30aC4souMynJv0IL",
+        "id": "6y5lHR30aC4souMynJv0IL",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273d9bf1eb7b207ef306d8331d6",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02d9bf1eb7b207ef306d8331d6",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851d9bf1eb7b207ef306d8331d6",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Dead Body Part 2+3",
+        "release_date": "2015-09-23",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6y5lHR30aC4souMynJv0IL",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4zAYRZYmMBk12gLxJ27YU1"
+        },
+        "href": "https://api.spotify.com/v1/albums/4zAYRZYmMBk12gLxJ27YU1",
+        "id": "4zAYRZYmMBk12gLxJ27YU1",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273e46ba796da0788d13835adba",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02e46ba796da0788d13835adba",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851e46ba796da0788d13835adba",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Dead Body",
+        "release_date": "2015-08-17",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:4zAYRZYmMBk12gLxJ27YU1",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 1,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2iWuBhNJf0CoPbr4eg0LW2"
+        },
+        "href": "https://api.spotify.com/v1/albums/2iWuBhNJf0CoPbr4eg0LW2",
+        "id": "2iWuBhNJf0CoPbr4eg0LW2",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273d51a5fd9cbf031eaf099aebf",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02d51a5fd9cbf031eaf099aebf",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851d51a5fd9cbf031eaf099aebf",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Wings",
+        "release_date": "2015-08-17",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2iWuBhNJf0CoPbr4eg0LW2",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 4,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7f9HJSiHkxJCOzsjhg9TAh"
+        },
+        "href": "https://api.spotify.com/v1/albums/7f9HJSiHkxJCOzsjhg9TAh",
+        "id": "7f9HJSiHkxJCOzsjhg9TAh",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2739f7c42d17ba60a0878fd8ed7",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e029f7c42d17ba60a0878fd8ed7",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048519f7c42d17ba60a0878fd8ed7",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Time Capsule",
+        "release_date": "2014-12-14",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:7f9HJSiHkxJCOzsjhg9TAh",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 4,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2uMgJR5R91PMAvl4UxJEmP"
+        },
+        "href": "https://api.spotify.com/v1/albums/2uMgJR5R91PMAvl4UxJEmP",
+        "id": "2uMgJR5R91PMAvl4UxJEmP",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273e2d57248777a75e37e1793a3",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02e2d57248777a75e37e1793a3",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851e2d57248777a75e37e1793a3",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Age 101 : Drop 1",
+        "release_date": "2014-10-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2uMgJR5R91PMAvl4UxJEmP",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      },
+      {
+        "album_type": "single",
+        "total_tracks": 5,
+        "is_playable": true,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3yPrtCGPFaq4MC9Dn7DCwX"
+        },
+        "href": "https://api.spotify.com/v1/albums/3yPrtCGPFaq4MC9Dn7DCwX",
+        "id": "3yPrtCGPFaq4MC9Dn7DCwX",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27386bffd3c1ae7bc83edbc0f59",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0286bffd3c1ae7bc83edbc0f59",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485186bffd3c1ae7bc83edbc0f59",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Age 101 : Drop 2",
+        "release_date": "2014-10-03",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3yPrtCGPFaq4MC9Dn7DCwX",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6eXZu6O7nAUA5z6vLV8NKI"
+            },
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI",
+            "id": "6eXZu6O7nAUA5z6vLV8NKI",
+            "name": "Little Simz",
+            "type": "artist",
+            "uri": "spotify:artist:6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      }
+    ]
+  }
+}

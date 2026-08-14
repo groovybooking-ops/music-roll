@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "operation": "catalog",
+  "identifier": "6aT0zYTGApRGv6uLObh3ZY",
+  "retrievedAt": "2026-08-14T04:13:05.289Z",
+  "value": {
+    "state": "active",
+    "statusCode": 200,
+    "pages": [
+      {
+        "href": "https://api.spotify.com/v1/artists/6aT0zYTGApRGv6uLObh3ZY/albums?offset=0&limit=10&market=US&locale=*&include_groups=album,single",
+        "limit": 10,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0,
+        "items": []
+      }
+    ],
+    "releases": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "82894376a19ea0b836ddd3b4",
+  "retrievedAt": "2026-08-14T03:56:17.764Z",
+  "value": {
+    "requestedName": "The Last Dinner Party",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "2f0c90b1-84d5-47f1-ad75-ad8d30f53f70",
+        "name": "The Last Dinner Party",
+        "sortName": "Last Dinner Party, The",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T03:56:17.715Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "2f0c90b1-84d5-47f1-ad75-ad8d30f53f70",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "The Last Dinner Party",
+          "sort-name": "Last Dinner Party, The",
+          "area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000512927564"
+          ],
+          "life-span": {
+            "begin": "2021",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Last Dinner Party, The",
+              "name": "The Last Dinner Party",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 5,
+              "name": "indie rock"
+            },
+            {
+              "count": 0,
+              "name": "indie"
+            },
+            {
+              "count": 0,
+              "name": "alternative"
+            },
+            {
+              "count": 5,
+              "name": "glam rock"
+            },
+            {
+              "count": 2,
+              "name": "art rock"
+            },
+            {
+              "count": 4,
+              "name": "baroque pop"
+            },
+            {
+              "count": 0,
+              "name": "pop rock"
+            },
+            {
+              "count": 1,
+              "name": "windmill scene"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

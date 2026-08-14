@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "candidate": {
+    "displayName": "Fana Hues",
+    "proposedMusicRollId": "mr_artist_000008",
+    "spotifyArtistId": "4yJHrytMK7mqtKsXVGaBNg"
+  },
+  "outcome": "insufficient_corroboration",
+  "sourceResults": {
+    "wikidata": {
+      "spotifyArtistId": "4yJHrytMK7mqtKsXVGaBNg",
+      "wikidataQid": "Q102247717",
+      "name": "Fana Hues",
+      "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "discogsArtistId": null
+    },
+    "musicBrainz": {
+      "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "name": "Fana Hues",
+      "sortName": "Hues, Fana",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "56e1c305-859d-4fbb-8a7c-6e45e1b8ebf1",
+        "name": "Pasadena",
+        "sortName": "Pasadena",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000493798655"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://fanahues.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/9565081"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4yJHrytMK7mqtKsXVGaBNg"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/77927822"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "https://www.fanahues.com/"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.apple.com/us/artist/1486304617"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://open.qobuz.com/artist/7657369"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://ototoy.jp/_/default/a/938806"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1486304617"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1486304617"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://open.qobuz.com/artist/7657369"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/17308347"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q102247717"
+        }
+      ]
+    },
+    "discogs": null
+  },
+  "identifierAgreement": {
+    "spotifyArtistId": {
+      "status": "agreement",
+      "agreedValue": "4yJHrytMK7mqtKsXVGaBNg",
+      "observedValues": [
+        "4yJHrytMK7mqtKsXVGaBNg"
+      ],
+      "claims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4yJHrytMK7mqtKsXVGaBNg",
+          "source": "music_roll_input",
+          "path": "verified_starting_identifier",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4yJHrytMK7mqtKsXVGaBNg",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4yJHrytMK7mqtKsXVGaBNg",
+          "source": "musicbrainz",
+          "path": "url_relationship:free streaming",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 3,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "wikidataQid": {
+      "status": "agreement",
+      "agreedValue": "Q102247717",
+      "observedValues": [
+        "Q102247717"
+      ],
+      "claims": [
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q102247717",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q102247717",
+          "source": "musicbrainz",
+          "path": "url_relationship:wikidata",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "musicBrainzArtistId": {
+      "status": "agreement",
+      "agreedValue": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+      "observedValues": [
+        "b7b5b59e-4b8f-4577-94f4-f0770d79033f"
+      ],
+      "claims": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+          "source": "musicbrainz",
+          "path": "artist_record_id",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 2,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    },
+    "discogsArtistId": {
+      "status": "agreement",
+      "agreedValue": "9565081",
+      "observedValues": [
+        "9565081"
+      ],
+      "claims": [
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9565081",
+          "source": "musicbrainz",
+          "path": "url_relationship:discogs",
+          "independentOrigin": "musicbrainz"
+        }
+      ],
+      "independentSourceCount": 1,
+      "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+    }
+  },
+  "conflictingIdentifiers": [],
+  "sameNameAmbiguity": {
+    "exactDisplayNameEntityCount": 1,
+    "selectedEntityPresent": true,
+    "sameNameAmbiguity": "none_observed",
+    "competingEntityCount": 0,
+    "competingEntities": [],
+    "allExactNameEntities": [
+      {
+        "musicBrainzArtistId": "b7b5b59e-4b8f-4577-94f4-f0770d79033f",
+        "name": "Fana Hues",
+        "sortName": "Hues, Fana",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100,
+        "selectedExactEntity": true,
+        "spotifyArtistIds": [
+          "4yJHrytMK7mqtKsXVGaBNg"
+        ],
+        "discogsArtistIds": [
+          "9565081"
+        ]
+      }
+    ],
+    "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+  },
+  "missingEvidence": [
+    "wikidata_discogs_id"
+  ],
+  "providerErrors": [],
+  "confidenceScoreCalculated": false,
+  "automaticVerificationPerformed": false,
+  "migrationPerformed": false
+}

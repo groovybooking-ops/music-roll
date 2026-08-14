@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "0wnYgCeP013HkKoOyC5V32",
+  "retrievedAt": "2026-08-14T03:58:40.146Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "0wnYgCeP013HkKoOyC5V32",
+      "wikidataQid": "Q16150821",
+      "name": "Allie X",
+      "musicBrainzArtistId": "7c922f2c-9d2b-4f37-a139-cddb83722ab3",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "3635043",
+        "6256195"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q16150821"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3635043"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Allie X"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q16150821"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "7c922f2c-9d2b-4f37-a139-cddb83722ab3"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6256195"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Allie X"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

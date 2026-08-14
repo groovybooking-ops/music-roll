@@ -1,0 +1,30 @@
+{
+  "candidates": [
+    { "displayName": "SZA", "proposedMusicRollId": "fixture_sza", "spotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP" },
+    { "displayName": "Nirvana", "proposedMusicRollId": "fixture_nirvana", "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh" },
+    { "displayName": "Missing Artist", "proposedMusicRollId": "fixture_missing", "spotifyArtistId": "0000000000000000000001" },
+    { "displayName": "Conflict Artist", "proposedMusicRollId": "fixture_conflict", "spotifyArtistId": "0000000000000000000002" }
+  ],
+  "evidence": {
+    "7tYKF4w9nC0nq9CsPZTHyP": {
+      "wikidata": { "spotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP", "wikidataQid": "Q16210722", "name": "SZA", "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "discogsArtistId": "3272791" },
+      "musicBrainz": { "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA", "externalUrls": [{ "relationshipType": "spotify", "url": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/3272791" }] },
+      "discogs": { "discogsArtistId": "3272791", "name": "SZA", "artistUrls": [] },
+      "nameCandidates": [{ "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA", "externalUrls": [] }]
+    },
+    "6olE6TJLqED3rqDCT0FyPh": {
+      "wikidata": { "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh", "wikidataQid": "Q11649", "name": "Nirvana", "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "discogsArtistId": "125246" },
+      "musicBrainz": { "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana", "externalUrls": [{ "relationshipType": "spotify", "url": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/125246" }] },
+      "discogs": { "discogsArtistId": "125246", "name": "Nirvana", "artistUrls": [] },
+      "nameCandidates": [{ "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana" }, { "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6", "name": "Nirvana", "country": "GB" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana", "externalUrls": [] }, { "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6", "name": "Nirvana", "externalUrls": [{ "relationshipType": "discogs", "url": "https://www.discogs.com/artist/307513" }] }]
+    },
+    "0000000000000000000001": {},
+    "0000000000000000000002": {
+      "wikidata": { "spotifyArtistId": "0000000000000000000002", "wikidataQid": "Q999", "name": "Conflict Artist", "musicBrainzArtistId": "00000000-0000-4000-8000-000000000001", "discogsArtistId": "999" },
+      "musicBrainz": { "musicBrainzArtistId": "00000000-0000-4000-8000-000000000002", "name": "Conflict Artist", "externalUrls": [] },
+      "discogs": { "discogsArtistId": "998", "name": "Conflict Artist", "artistUrls": [] }
+    }
+  }
+}
