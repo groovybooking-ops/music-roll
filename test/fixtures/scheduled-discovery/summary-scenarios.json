@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "scenarios": [
+    "normal_daily_summary",
+    "provider_outage",
+    "open_circuit_breaker",
+    "queue_high_water_mark",
+    "retry_exhaustion",
+    "no_activity_day",
+    "multiple_run_aggregation",
+    "weekly_grouping_by_blocker",
+    "queue_age_calculations",
+    "median_resolution_time",
+    "deleted_summary_rebuilt_identically",
+    "summary_never_mutates_candidate_state"
+  ]
+}

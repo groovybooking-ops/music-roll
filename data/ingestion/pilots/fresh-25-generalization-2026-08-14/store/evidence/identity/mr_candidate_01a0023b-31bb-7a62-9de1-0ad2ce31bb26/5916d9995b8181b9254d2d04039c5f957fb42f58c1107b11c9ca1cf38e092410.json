@@ -1,0 +1,2525 @@
+{
+  "evidenceId": "sha256:5916d9995b8181b9254d2d04039c5f957fb42f58c1107b11c9ca1cf38e092410",
+  "createdAt": "2026-08-14T21:45:14.827Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31bb-7a62-9de1-0ad2ce31bb26",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "JPEGMAFIA",
+        "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q50415953",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4501713",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4501713",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q50415953",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q50415953",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8781406",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "551EawRj5350YQYs1MC2Ot",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q50415953",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4501713",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4501713"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "8781406",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "8781406"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "6yJ6QQ3Y5l0s0tn7b0arrO",
+            "551EawRj5350YQYs1MC2Ot"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "551EawRj5350YQYs1MC2Ot",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q50415953",
+          "observedValues": [
+            "Q50415953"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q50415953",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q50415953",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q50415953",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q50415953",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "4501713",
+            "8781406"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4501713",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4501713",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "8781406",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4501713",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "4501713"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "8781406",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "8781406"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "6yJ6QQ3Y5l0s0tn7b0arrO",
+            "551EawRj5350YQYs1MC2Ot"
+          ]
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "4501713",
+            "8781406"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "compatible_alias_chronology:c42e60f4-4520-4954-b6e4-82bbdf532c11:4a08f237-59f6-476d-a98f-66b19a7470ed",
+              "compatible_alias_chronology:c42e60f4-4520-4954-b6e4-82bbdf532c11:680f0fa0-e465-44b0-be81-2fedb99e54a2",
+              "compatible_alias_chronology:4a08f237-59f6-476d-a98f-66b19a7470ed:680f0fa0-e465-44b0-be81-2fedb99e54a2",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": [
+              "incompatible_or_unlinked_official_urls"
+            ]
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "right": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2011,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "right": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2011,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2010,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "right": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2010,
+                "latestYear": 2026
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "unresolved_identifier_present",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "musicbrainz_identifier_not_unique",
+            "unresolved_alternate_spotify_identifier"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4501713",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "8781406",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "c42e60f4-4520-4954-b6e4-82bbdf532c11": {
+          "artist": {
+            "musicBrainzArtistId": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "name": "JPEGMAFIA",
+            "sortName": "JPEGMAFIA",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+              "name": "Flatbush",
+              "sortName": "Flatbush",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1989-10-22",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Barrington DeVaughn Hendricks",
+                "sortName": "Hendricks, Barrington DeVaughn",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Barrington Hendricks",
+                "sortName": "Hendricks, Barrington",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "DJ SNITCH BITCH",
+                "sortName": "DJ SNITCH BITCH",
+                "type": "Artist name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Peggy",
+                "sortName": "Peggy",
+                "type": "Artist name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000466526056"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003712096"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://jpegmafia.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/4501713"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/10785056"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm9231243/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/JPEGMAFIA"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Jpegmafia"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.jpegmafia.net/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/jpegmafia"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id1130088441"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://mora.jp/artist/1108387/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/jpegmafia/727813"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/jpegmafia"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/jpegmafia"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/jpegmafia/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/darkskinmanson"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/jpegmafia"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1130088441"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/7958797"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q50415953"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCnAbB39RDMkmkMLigykYvQw"
+              }
+            ]
+          },
+          "raw": {
+            "relations": [
+              {
+                "attribute-values": {},
+                "type": "allmusic",
+                "source-credit": "",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0003712096",
+                  "id": "9307aa32-5270-4bf5-81f0-6e241d22a6d8"
+                },
+                "direction": "forward"
+              },
+              {
+                "type": "bandcamp",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "target-credit": "",
+                "url": {
+                  "id": "b6e57158-0cac-4a9f-84a1-8cb91ce9ef39",
+                  "resource": "https://jpegmafia.bandcamp.com/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "ended": false,
+                "attributes": [],
+                "type": "discogs",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/4501713",
+                  "id": "ff6b1143-d01b-484d-8a59-90ef730710c6"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": ""
+              },
+              {
+                "type": "free streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "8730c4a4-3a87-404b-986f-b0f618243e85",
+                  "resource": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url"
+              },
+              {
+                "type": "free streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/10785056",
+                  "id": "735ad91d-c02b-4171-bfd8-36a1e030ff8b"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "3f123329-2b15-49ef-9bac-2240c8a641f6",
+                  "resource": "https://www.imdb.com/name/nm9231243/"
+                },
+                "target-credit": "",
+                "end": null,
+                "source-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "IMDb"
+              },
+              {
+                "type": "last.fm",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.last.fm/music/JPEGMAFIA",
+                  "id": "07381577-89a5-4c74-985b-1aba3f7ebb3e"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://genius.com/artists/Jpegmafia",
+                  "id": "0585c8fa-0354-4f4c-9891-a225fe4809f6"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "ended": false,
+                "attributes": [],
+                "type": "lyrics",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "76536f0f-bed0-490e-88e9-8552fabb6c8b",
+                  "resource": "http://www.jpegmafia.net/"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "official homepage",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "attributes": [],
+                "type": "other databases",
+                "attribute-values": {},
+                "url": {
+                  "id": "2c36c88d-9d98-452b-b46c-6ac193a29e9b",
+                  "resource": "https://rateyourmusic.com/artist/jpegmafia"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id1130088441",
+                  "id": "cbda3b6c-dc15-4ff8-9749-a178de766304"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://mora.jp/artist/1108387/",
+                  "id": "82c78653-4d04-4a6c-88b0-b917629ed59a"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "type": "purchase for download",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "42de2dca-e937-4479-8ffe-1150e51bbf62",
+                  "resource": "https://www.beatport.com/artist/jpegmafia/727813"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type": "purchase for download",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "type": "social network",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "4e7c588f-ca7a-49c6-b213-b3a7b677035f",
+                  "resource": "https://twitter.com/jpegmafia"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "type": "social network",
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "73a366f7-19c0-4c76-9caa-61a54cf6bea9",
+                  "resource": "https://www.facebook.com/jpegmafia"
+                }
+              },
+              {
+                "attribute-values": {},
+                "type": "social network",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.instagram.com/jpegmafia/",
+                  "id": "d2068ffb-9ce4-4d41-a70f-14b0d6321b7d"
+                },
+                "direction": "forward"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "ed6c40e3-8bc0-4143-8e92-92aa6cbeaa88",
+                  "resource": "https://twitter.com/darkskinmanson"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": true,
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "type": "social network"
+              },
+              {
+                "attribute-values": {},
+                "type": "soundcloud",
+                "source-credit": "",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "d180a1d4-fb8d-4c6e-a480-b63f6139f2da",
+                  "resource": "https://soundcloud.com/jpegmafia"
+                }
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "type": "streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "4b48c764-fbd9-414e-96cd-e6b8e48322c8",
+                  "resource": "https://music.apple.com/us/artist/1130088441"
+                },
+                "target-credit": ""
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "ended": false,
+                "attributes": [],
+                "type": "streaming",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://tidal.com/artist/7958797",
+                  "id": "5474e710-6a9e-4668-8bdc-6c07213ee8e0"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": ""
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "ended": false,
+                "attributes": [],
+                "type": "wikidata",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "7388f02a-2580-42c7-915a-4ef9089fce74",
+                  "resource": "https://www.wikidata.org/wiki/Q50415953"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCnAbB39RDMkmkMLigykYvQw",
+                  "id": "736663e1-98e9-4cbe-b0b6-bc85ce1a7cb8"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type": "youtube",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+              }
+            ],
+            "begin-area": {
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+              "type-id": null,
+              "disambiguation": "",
+              "sort-name": "Flatbush",
+              "type": null,
+              "name": "Flatbush"
+            },
+            "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+            "end-area": null,
+            "life-span": {
+              "end": null,
+              "begin": "1989-10-22",
+              "ended": false
+            },
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": "",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "JPEGMAFIA",
+            "type": "Person",
+            "isnis": [
+              "0000000466526056"
+            ],
+            "sort-name": "JPEGMAFIA",
+            "aliases": [
+              {
+                "primary": null,
+                "sort-name": "Hendricks, Barrington DeVaughn",
+                "name": "Barrington DeVaughn Hendricks",
+                "type": "Legal name",
+                "ended": false,
+                "locale": null,
+                "begin": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null
+              },
+              {
+                "sort-name": "Hendricks, Barrington",
+                "type": "Legal name",
+                "name": "Barrington Hendricks",
+                "primary": null,
+                "begin": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null,
+                "locale": null,
+                "ended": false
+              },
+              {
+                "begin": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "end": null,
+                "locale": null,
+                "ended": false,
+                "sort-name": "DJ SNITCH BITCH",
+                "name": "DJ SNITCH BITCH",
+                "type": "Artist name",
+                "primary": null
+              },
+              {
+                "name": "Peggy",
+                "type": "Artist name",
+                "sort-name": "Peggy",
+                "primary": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "locale": null
+              }
+            ],
+            "country": "US",
+            "ipis": [
+              "00792343619",
+              "00792343717"
+            ],
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type-id": null,
+              "disambiguation": "",
+              "sort-name": "United States",
+              "type": null,
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ]
+            },
+            "gender": "Male"
+          }
+        },
+        "4a08f237-59f6-476d-a98f-66b19a7470ed": {
+          "artist": {
+            "musicBrainzArtistId": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "name": "Barrington DeVaughn Hendricks",
+            "sortName": "Hendricks, Barrington DeVaughn",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+              "name": "Flatbush",
+              "sortName": "Flatbush",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1989-10-22",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q50415953"
+              }
+            ]
+          },
+          "raw": {
+            "gender": "Male",
+            "sort-name": "Hendricks, Barrington DeVaughn",
+            "country": "US",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "area": {
+              "type": null,
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type-id": null,
+              "sort-name": "United States",
+              "disambiguation": ""
+            },
+            "isnis": [],
+            "name": "Barrington DeVaughn Hendricks",
+            "aliases": [],
+            "type": "Person",
+            "relations": [
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "wikidata",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "url": {
+                  "id": "7388f02a-2580-42c7-915a-4ef9089fce74",
+                  "resource": "https://www.wikidata.org/wiki/Q50415953"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              }
+            ],
+            "end-area": null,
+            "disambiguation": "",
+            "life-span": {
+              "begin": "1989-10-22",
+              "ended": false,
+              "end": null
+            },
+            "ipis": [],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "id": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "begin-area": {
+              "type-id": null,
+              "sort-name": "Flatbush",
+              "disambiguation": "",
+              "type": null,
+              "name": "Flatbush",
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1"
+            }
+          }
+        },
+        "680f0fa0-e465-44b0-be81-2fedb99e54a2": {
+          "artist": {
+            "musicBrainzArtistId": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "name": "Devon Hendryx",
+            "sortName": "Hendryx, Devon",
+            "artistType": "Person",
+            "disambiguation": "early name for JPEGMAFIA",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+              "name": "Flatbush",
+              "sortName": "Flatbush",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1989-10-22",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Devon Hendryx \"The Rockwood Escape Plan\"",
+                "sortName": "Devon Hendryx \"The Rockwood Escape Plan\"",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Dévon Hendryx",
+                "sortName": "Dévon Hendryx",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "PicheDreams",
+                "sortName": "PicheDreams",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "The Rockwood Escape Plan",
+                "sortName": "The Rockwood Escape Plan",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "geny⁸⁹",
+                "sortName": "geny⁸⁹",
+                "type": null,
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://dvonhendryx.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/8781406"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/551EawRj5350YQYs1MC2Ot"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/176481987"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Devon+Hendryx"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://devonhendryx.com/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id1634450674"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1634450674"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/40978758"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q50415953"
+              },
+              {
+                "relationshipType": "youtube music",
+                "url": "https://music.youtube.com/channel/UC2FdkU6QNOTlKRsICUaJ4Kw"
+              }
+            ]
+          },
+          "raw": {
+            "begin-area": {
+              "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+              "name": "Flatbush",
+              "sort-name": "Flatbush",
+              "type-id": null,
+              "type": null,
+              "disambiguation": ""
+            },
+            "life-span": {
+              "begin": "1989-10-22",
+              "end": null,
+              "ended": false
+            },
+            "country": "US",
+            "area": {
+              "disambiguation": "",
+              "type": null,
+              "type-id": null,
+              "sort-name": "United States",
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "id": "489ce91b-6658-3307-9877-795b68554c98"
+            },
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "aliases": [
+              {
+                "type": null,
+                "locale": null,
+                "type-id": null,
+                "primary": null,
+                "end": "2015-04-06",
+                "name": "Devon Hendryx \"The Rockwood Escape Plan\"",
+                "ended": true,
+                "sort-name": "Devon Hendryx \"The Rockwood Escape Plan\"",
+                "begin": "2012-02-14"
+              },
+              {
+                "end": "2011-07-11",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "type-id": null,
+                "begin": "2011-01-11",
+                "sort-name": "Dévon Hendryx",
+                "name": "Dévon Hendryx",
+                "ended": true
+              },
+              {
+                "ended": true,
+                "name": "PicheDreams",
+                "sort-name": "PicheDreams",
+                "begin": "2012-02-27",
+                "type-id": null,
+                "primary": null,
+                "type": null,
+                "locale": null,
+                "end": "2012-03-10"
+              },
+              {
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "type-id": null,
+                "end": "2013-09-03",
+                "name": "The Rockwood Escape Plan",
+                "ended": true,
+                "begin": "2012-02-14",
+                "sort-name": "The Rockwood Escape Plan"
+              },
+              {
+                "end": "2013-10-22",
+                "type-id": null,
+                "primary": null,
+                "type": null,
+                "locale": null,
+                "sort-name": "geny⁸⁹",
+                "begin": "2013-09-03",
+                "ended": true,
+                "name": "geny⁸⁹"
+              }
+            ],
+            "gender": "Male",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "end-area": null,
+            "name": "Devon Hendryx",
+            "id": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "sort-name": "Hendryx, Devon",
+            "ipis": [],
+            "type": "Person",
+            "relations": [
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "ee50b4b9-a6c5-412b-824a-5a4bc43d590e",
+                  "resource": "https://dvonhendryx.bandcamp.com/"
+                },
+                "attribute-ids": {},
+                "type": "bandcamp",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "8965040c-e2d8-4ce3-934a-d0c9cd46f53e",
+                  "resource": "https://www.discogs.com/artist/8781406"
+                },
+                "type": "discogs"
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/551EawRj5350YQYs1MC2Ot",
+                  "id": "9abc9e5d-1f0b-4f42-b42c-890fa0c0ba25"
+                },
+                "attribute-ids": {},
+                "type": "free streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/176481987",
+                  "id": "3dcd1379-c509-410e-bfe3-4c004cb39341"
+                },
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "url": {
+                  "id": "96829aa0-8cd2-46e1-98ac-8e5a23f23512",
+                  "resource": "https://www.last.fm/music/Devon+Hendryx"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "last.fm",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "http://devonhendryx.com/",
+                  "id": "06e94ac6-a493-436c-af41-259a1efcf837"
+                },
+                "type": "official homepage",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id1634450674",
+                  "id": "f88ee76b-bb83-4c68-9818-1cb147669824"
+                },
+                "type": "purchase for download",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "type": "streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "369b450b-15fa-423e-97b7-45fe4a9019e1",
+                  "resource": "https://music.apple.com/us/artist/1634450674"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "13ec4a4d-573c-45d5-83f5-833473928072",
+                  "resource": "https://tidal.com/artist/40978758"
+                },
+                "type": "streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "type": "wikidata",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q50415953",
+                  "id": "7388f02a-2580-42c7-915a-4ef9089fce74"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "youtube music",
+                "url": {
+                  "resource": "https://music.youtube.com/channel/UC2FdkU6QNOTlKRsICUaJ4Kw",
+                  "id": "cb37aa22-8f8a-4367-b1f3-2b136ef6283f"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4"
+              }
+            ],
+            "isnis": [],
+            "disambiguation": "early name for JPEGMAFIA"
+          }
+        }
+      },
+      "discogsRecords": {
+        "4501713": {
+          "artist": {
+            "discogsArtistId": "4501713",
+            "name": "JPEGMAFIA",
+            "realName": "Barrington DeVaughn Hendricks",
+            "profile": null,
+            "artistUrls": [
+              "http://www.jpegmafia.net",
+              "https://jpegmafia.bandcamp.com",
+              "https://www.facebook.com/jpegmafia",
+              "https://twitter.com/darkskinmanson",
+              "https://web.archive.org/web/20150822212736/twitter.com/darkskinmanson",
+              "https://www.instagram.com/jpegmafia",
+              "https://en.wikipedia.org/wiki/JPEGMafia",
+              "https://vimeo.com/jpegmafia",
+              "https://www.tiktok.com/@jpegmafiaburneraccount",
+              "https://youtube.com/@jpegmafia",
+              "https://www.youtube.com/@jpgmafia-br2we"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "6827969",
+                "name": "Barrington Hendricks"
+              },
+              {
+                "discogsArtistId": "8781406",
+                "name": "Devon Hendryx"
+              },
+              {
+                "discogsArtistId": "8781601",
+                "name": "GenY⁸⁹"
+              }
+            ],
+            "nameVariations": [
+              "JPEGMAF1A",
+              "JPEGMAFIA | JPEGMAF1A"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/4501713",
+            "discogsWebUrl": "https://www.discogs.com/artist/4501713-JPEGMAFIA",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "JPEGMAFIA",
+            "id": 4501713,
+            "resource_url": "https://api.discogs.com/artists/4501713",
+            "uri": "https://www.discogs.com/artist/4501713-JPEGMAFIA",
+            "releases_url": "https://api.discogs.com/artists/4501713/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/CtpYnM-hcBAeSPz86eIpfvtFKgNY1QjQoa0MH0oCYi4/rs:fit/g:sm/q:90/h:636/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0NDczNTc0/NC01ODYxLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/CtpYnM-hcBAeSPz86eIpfvtFKgNY1QjQoa0MH0oCYi4/rs:fit/g:sm/q:90/h:636/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0NDczNTc0/NC01ODYxLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/ZXjL5u7hdQ5iPaBY2zL59yxX4RK558dN9XISsBBR9U0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0NDczNTc0/NC01ODYxLnBuZw.jpeg",
+                "width": 600,
+                "height": 636
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-dcpJQPko24lt6Vgxg5U5SiuFWjyynqKRud-ZBnt8yU/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczOTA2NDEx/Ni0zMjQ3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/-dcpJQPko24lt6Vgxg5U5SiuFWjyynqKRud-ZBnt8yU/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczOTA2NDEx/Ni0zMjQ3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/bDFpltVM8pDlrx-iYy4sTvoI4Gy4F3KcpbdrLpPC6Is/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczOTA2NDEx/Ni0zMjQ3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/LtaGK97fqtsbCa2bM1Cp-HlkY1YDd3aezz31QReuZPI/rs:fit/g:sm/q:90/h:899/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjgw/My01MzM0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/LtaGK97fqtsbCa2bM1Cp-HlkY1YDd3aezz31QReuZPI/rs:fit/g:sm/q:90/h:899/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjgw/My01MzM0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/b3Z8fNfMkgJ7PfYi3Dr8SxQLIFWuVTa63WZj55ZlV6Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjgw/My01MzM0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 899
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Dt5c8u9CmYjRyQtDANd5qFWxbe2-kLnlI7cflGKp7NY/rs:fit/g:sm/q:90/h:579/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTU3/Mi0zMjQ0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Dt5c8u9CmYjRyQtDANd5qFWxbe2-kLnlI7cflGKp7NY/rs:fit/g:sm/q:90/h:579/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTU3/Mi0zMjQ0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/JFGd2CxD7HPH3QkvX5DN7ld9WCmRTXU2aYXwCjKi4QM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTU3/Mi0zMjQ0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 579
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SPsj5oGYaMTTPb_NLCWrLBIC2PHGO8J4r76BTUqZBZE/rs:fit/g:sm/q:90/h:640/w:427/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Mi03NzUxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/SPsj5oGYaMTTPb_NLCWrLBIC2PHGO8J4r76BTUqZBZE/rs:fit/g:sm/q:90/h:640/w:427/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Mi03NzUxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/AIPj4qtgrec138dBKZhPy8dyjnlOYCKEo5lu08oz-t8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Mi03NzUxLmpwZWc.jpeg",
+                "width": 427,
+                "height": 640
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ym42IRenoaI1IV9RgONc-xViSi2MpajbEF4K3mCIRTg/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMz/MS0yOTA1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/ym42IRenoaI1IV9RgONc-xViSi2MpajbEF4K3mCIRTg/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMz/MS0yOTA1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/9x_e4aH5tpN-WkYvkW5qAN_FNKuGhcVnTk4N0_aWuM4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMz/MS0yOTA1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/xXOpcoCROS1OzcWNLKe9P0SviUoZ68f8L54lGnS8tPI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjYy/Ny02MzEyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/xXOpcoCROS1OzcWNLKe9P0SviUoZ68f8L54lGnS8tPI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjYy/Ny02MzEyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/m7r_f-ttdDVsaXAkcTkQOMUHqmak938XPMTCkLWC7K0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjcyMjYy/Ny02MzEyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MsOzS94VB0FdQ0YbqQT43jbUGMycxUaM-X4_-JTduOA/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDkz/OC0yODU1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/MsOzS94VB0FdQ0YbqQT43jbUGMycxUaM-X4_-JTduOA/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDkz/OC0yODU1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/iTL3_rmpTLcxEJPY7lqfgsS4NLGxYeknfQyZi5zpMQQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDkz/OC0yODU1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 904
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vjwmStywaRiuZVWigPmSpLl9amfP9q5Nfs_oui-BMZI/rs:fit/g:sm/q:90/h:730/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTU4Mzg0NTI3/My02NjM3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/vjwmStywaRiuZVWigPmSpLl9amfP9q5Nfs_oui-BMZI/rs:fit/g:sm/q:90/h:730/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTU4Mzg0NTI3/My02NjM3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/9Jkj_HlZIk-LtiA29bUusvjsW1ki--oAOqqcC3wyAuw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTU4Mzg0NTI3/My02NjM3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 730
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/USqaGV0sJjAsw1D4cDFf1hfgp-pu9jnV8OxG9lS8IdE/rs:fit/g:sm/q:90/h:850/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMy/MC04NDAxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/USqaGV0sJjAsw1D4cDFf1hfgp-pu9jnV8OxG9lS8IdE/rs:fit/g:sm/q:90/h:850/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMy/MC04NDAxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/4nPtXllCB2D_AD7X_MozTfgBS8xknrxaCuMcmvFdzHU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTMy/MC04NDAxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 850
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/jELZbmWVrea8eJCM4R0w6BgcmKEm6zuJ5pQSNqmPg2U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04MDg1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/jELZbmWVrea8eJCM4R0w6BgcmKEm6zuJ5pQSNqmPg2U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04MDg1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/b5KKNeeFlTQGpmZvbO7XA47ncKNEqFK1mUJu-9y-pug/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04MDg1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/B7byPD1PJBkrlQyEbvxLBFPuAogkCk_LcI2fjhutjsM/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Ny01MTEwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/B7byPD1PJBkrlQyEbvxLBFPuAogkCk_LcI2fjhutjsM/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Ny01MTEwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/vFPr08YNXKYAdJMXy2V3lRRDAGjQkeSPHdmm7RDSKmw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMzYz/Ny01MTEwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-Bp-3PkPhJ6UhkHZMNQMImkt-uLKhAxdTmTuTzNNmS0/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTMxODY0/Ny0yMTk2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/-Bp-3PkPhJ6UhkHZMNQMImkt-uLKhAxdTmTuTzNNmS0/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTMxODY0/Ny0yMTk2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/HK6xJ1Xbp3Aoyfp1_OMYdGK7XQETIM6ovdJefIAG84w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTMxODY0/Ny0yMTk2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 792
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qKiP8iBat-hqXzmeBvFbHLImLge-txptOhIRsLse6K8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTkzODkx/NC03ODcyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/qKiP8iBat-hqXzmeBvFbHLImLge-txptOhIRsLse6K8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTkzODkx/NC03ODcyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/BkAlrFZeYJjN80QvK465cElUzt_7Lt7tm_n5miC9ruw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTkzODkx/NC03ODcyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2P7kJHodZ0d2U6LQ2Z87CkHOzbTCBO7rNNloUu6lCHY/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODI1NTQ5/OC02OTA1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/2P7kJHodZ0d2U6LQ2Z87CkHOzbTCBO7rNNloUu6lCHY/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODI1NTQ5/OC02OTA1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/J-W4x47vKL8XJopDI9NgrGDV1u6Fe5W_Zhlw6RxhXd4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODI1NTQ5/OC02OTA1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 336
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XlOeqYRqE0Ih7PHkMNI26ruepk4qt1fu92wXUSVoIrs/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkyMzU3/Ni01MjgyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/XlOeqYRqE0Ih7PHkMNI26ruepk4qt1fu92wXUSVoIrs/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkyMzU3/Ni01MjgyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/6yzzaszw-PMn87aFtB8BBMwy-PKjmRBqe5SJXDMpjDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkyMzU3/Ni01MjgyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ntkOJHpZ9VG5RsUy5h0y3fw6_fgE1laL-MrHWdhtI1w/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ3MTc5/My01MjAxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/ntkOJHpZ9VG5RsUy5h0y3fw6_fgE1laL-MrHWdhtI1w/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ3MTc5/My01MjAxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/0hHCHhv14ciI64xZKPC3LomYUZmPdf0EDK-r_PyXX7I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ3MTc5/My01MjAxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/JxxQ2ap7GEOlm_VWhEECV-9Dhn9YrvJ1xcXV4lzVQwM/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc5/NC00ODM4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/JxxQ2ap7GEOlm_VWhEECV-9Dhn9YrvJ1xcXV4lzVQwM/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc5/NC00ODM4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/PrkhQgpUWSOBAWL1x7nkyRTKTCBW1p3VfV7aGas_PpU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc5/NC00ODM4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 398
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CMDcugvpwzpRKEWkOlXI7aCnNSzklO9cioyvdUvtQxc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkxNjgx/OS0xMjc0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/CMDcugvpwzpRKEWkOlXI7aCnNSzklO9cioyvdUvtQxc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkxNjgx/OS0xMjc0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/uPmnl0deIgwdhWgZFjy2wbwUo75GEE3ziPyVNStUWYQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNzkxNjgx/OS0xMjc0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/K7kto1Ozrli8_tPvgMn8A-_gqCe7J45ImVy-Aq0RfmY/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ2OTkz/OS00MTYwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/K7kto1Ozrli8_tPvgMn8A-_gqCe7J45ImVy-Aq0RfmY/rs:fit/g:sm/q:90/h:376/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ2OTkz/OS00MTYwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/42V-Gr7Yd0GQzbVM8gfiqCZT8spuylSAO4UNMcNB3Fo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ2OTkz/OS00MTYwLnBuZw.jpeg",
+                "width": 600,
+                "height": 376
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/IeCW_NsEK0f4pPeF3uuvtZSUklnvBpdS7nEb6DwkxFg/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi00NzUwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/IeCW_NsEK0f4pPeF3uuvtZSUklnvBpdS7nEb6DwkxFg/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi00NzUwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/kj4n_fawiEPoJ3G6nqHllNoIPtpJzTuBy6dew7SS25c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi00NzUwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 598
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/aCbs1emIBO7DQQ_fbB6LdXjFyVq_tUiuaZNHz5TjJhw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTgy/My04MjI4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/aCbs1emIBO7DQQ_fbB6LdXjFyVq_tUiuaZNHz5TjJhw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTgy/My04MjI4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ndIcEXsShV4YeyE1PiLTdkCDzVyVlWJ6YTc3kYIx-Mk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTgy/My04MjI4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_Bas4eA-_-eZNfwucFBP2QVTSoUF1gpiT5TGItk6dNA/rs:fit/g:sm/q:90/h:436/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAy/Ni01MDE2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/_Bas4eA-_-eZNfwucFBP2QVTSoUF1gpiT5TGItk6dNA/rs:fit/g:sm/q:90/h:436/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAy/Ni01MDE2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/afaY6R4vbYVSyaRd_SLm-3Q4ltzJmbAQZniFokmOgC8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAy/Ni01MDE2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 436
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_YX8WCybwmdbfvibnZt9RcDukYNjluF1UepNA4zntCg/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDk3/My02Njg0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/_YX8WCybwmdbfvibnZt9RcDukYNjluF1UepNA4zntCg/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDk3/My02Njg0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/5SYWBMQ_FtyTc_0Y3-WxTptfRwSoXWZBJL_224tFTZ8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjI4NDk3/My02Njg0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qlQZpweFDfUxkPDFcWh6bD4TOo-NdPWj0NJe7Of1pRI/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04OTk1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/qlQZpweFDfUxkPDFcWh6bD4TOo-NdPWj0NJe7Of1pRI/rs:fit/g:sm/q:90/h:398/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04OTk1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/1Pa51F_eBt67MsCAPBBbsXi-KBET4OHN3ehsaxWsn80/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NTc1/Mi04OTk1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 398
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/hfbqfenyxGtJOupD8O5HOA3cGldD6ew-CHyza8FRFWU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTE1MTY2/NS0xNTIxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/hfbqfenyxGtJOupD8O5HOA3cGldD6ew-CHyza8FRFWU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTE1MTY2/NS0xNTIxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/mWaUba4MOvZ-33XnEkjVwIW7qUc8E6zjlirMeohMMbU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTE1MTY2/NS0xNTIxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/RA0fLGadkoIWlQP_TimkxTNZydcfUZwL7vdiuheK4hs/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDE1MTY1/Mi04NDUwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/RA0fLGadkoIWlQP_TimkxTNZydcfUZwL7vdiuheK4hs/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDE1MTY1/Mi04NDUwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/0HBytb0WW2mBEkHuYOtnWNac2l4mAmzAF7__rF3oH6I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDE1MTY1/Mi04NDUwLnBuZw.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/kpHc6FZghi6PnHcdUJcRaJjJP5bbier7GZHhlQ3zlLg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODAwMzM0/Ni03Mjk0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/kpHc6FZghi6PnHcdUJcRaJjJP5bbier7GZHhlQ3zlLg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODAwMzM0/Ni03Mjk0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/NlIZ2at9L-FhDrD5xcrM-Spmv5Ws3ubo7fOSO124MsY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODAwMzM0/Ni03Mjk0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QQvs6FDLzPLJmS4yOhcsxqMzDHM6SF6Qnz1auwEXFk4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAx/MC0yNTM1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/QQvs6FDLzPLJmS4yOhcsxqMzDHM6SF6Qnz1auwEXFk4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAx/MC0yNTM1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tmbz0qdMDjZU0CeqbrlYliwVbiJfeYaaTa0PfLX-fjQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxODE2NjAx/MC0yNTM1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VmYYVsHqJROzAoHs2qrHvqRmwQJQRg8sueGTIdtMBOM/rs:fit/g:sm/q:90/h:804/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjMzOTk3/My01NDEwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/VmYYVsHqJROzAoHs2qrHvqRmwQJQRg8sueGTIdtMBOM/rs:fit/g:sm/q:90/h:804/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjMzOTk3/My01NDEwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ZedJ1dcHKbq8NmM75al_9JfXk2DnMW4cRHtdxND1BCU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcxNjMzOTk3/My01NDEwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 804
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MCA8icuSGCmZPZpIFZnXHoqrLU68zLy0kcdG1eszrhg/rs:fit/g:sm/q:90/h:406/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NC0yMzE4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/MCA8icuSGCmZPZpIFZnXHoqrLU68zLy0kcdG1eszrhg/rs:fit/g:sm/q:90/h:406/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NC0yMzE4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/AMsxNTMBlZwIwCnw3WZHAzvdd9_buEJgXYNyoyxgxVk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NC0yMzE4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 406
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/mEWHJRVztseghjcFzzjcw3_hAX1pOHYSV7xZFa0eolk/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS01Nzc3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/mEWHJRVztseghjcFzzjcw3_hAX1pOHYSV7xZFa0eolk/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS01Nzc3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/YoAZHcB7z50ERgypAHy7WakMoh4CDiDPBw7OidwfbDM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS01Nzc3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MHD3jqi1iQ-MtnvbPHehmXrRf_YPZlN1y4z3IWxml1I/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS0yNDQ3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/MHD3jqi1iQ-MtnvbPHehmXrRf_YPZlN1y4z3IWxml1I/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS0yNDQ3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/F5-YZfOmqC_QwN4GNzD82nzQpOcxH62uPz1wfBpHiEo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS0yNDQ3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/8h43WSAVEkVfUz_PVCLqDvC2ZmSZp2zruiSGwggCKkI/rs:fit/g:sm/q:90/h:859/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/My02NjY4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/8h43WSAVEkVfUz_PVCLqDvC2ZmSZp2zruiSGwggCKkI/rs:fit/g:sm/q:90/h:859/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/My02NjY4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/HtoisgJ5GibhaynCJgFh-y46wCsQe0PhsQYmbF7YvZI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/My02NjY4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 859
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/IQ0WIxIL2D0oLvYdO4v4WE4jDOnTlwf-OMyaDgVtYJM/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS03MzEwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/IQ0WIxIL2D0oLvYdO4v4WE4jDOnTlwf-OMyaDgVtYJM/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS03MzEwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/TiBsSn1a6FBOg30wV7VmGqQ9zsHnbLpfqpwjth-v-KI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzA5/NS03MzEwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QfHLyBZ1zeB3PntwURelrLYuTSsnriZpeMv7TVv1ZWQ/rs:fit/g:sm/q:90/h:923/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ny0xNjE1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/QfHLyBZ1zeB3PntwURelrLYuTSsnriZpeMv7TVv1ZWQ/rs:fit/g:sm/q:90/h:923/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ny0xNjE1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tnwQwZqL0y4tZTtwJWy9qJA9Jj8yMCTImh4ZVjnHcYQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ny0xNjE1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 923
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qBfcgmgieuC6fdHEGmbTlE6rs2QINpii7eiZjwuntbU/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS04NjA5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/qBfcgmgieuC6fdHEGmbTlE6rs2QINpii7eiZjwuntbU/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS04NjA5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/4hpFjMZNEdERRe3vz6otcFrBBbr5Zni7hIsPK93Z9i4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS04NjA5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5gT_58H7ywOdpoG0x87o-oFnyKh4sKHprFN2rSPESOo/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS02OTQwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/5gT_58H7ywOdpoG0x87o-oFnyKh4sKHprFN2rSPESOo/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS02OTQwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/31dDocUhzKkpVa7xM9k4gPXKjFdLMVFp50ayMhlsUnc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/NS02OTQwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 401
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/01zaZRQdSaBIRvAx1ItdMdk_sA4bXQv1DWMJillIZzA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni05MjcxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/01zaZRQdSaBIRvAx1ItdMdk_sA4bXQv1DWMJillIZzA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni05MjcxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/J6iyF5Xc44-CBpL4lhLf2RiKfTvxWqy3cDI7LLiNJrY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni05MjcxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/JhsJiobAq6RIs04ypcZkXsDxUbjou6dk84KBL3QhUPs/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni02NDAxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/JhsJiobAq6RIs04ypcZkXsDxUbjou6dk84KBL3QhUPs/rs:fit/g:sm/q:90/h:905/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni02NDAxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/eJxiRHrkLivcYvKRnjpFmhfl_XRDONlRctgwNHz3Ryw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzEz/Ni02NDAxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 905
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/yu67QJifAhllK1dsxaOuYbi8v08zDxyenNf8pFrVL4E/rs:fit/g:sm/q:90/h:937/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE2/OC0yODAxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/yu67QJifAhllK1dsxaOuYbi8v08zDxyenNf8pFrVL4E/rs:fit/g:sm/q:90/h:937/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE2/OC0yODAxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/V4v3zo1hyuGT32jyHF8tEY32G8hUR7_NSCEdi2vXncQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE2/OC0yODAxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 937
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/nvMDuZQZSaRz3g-SNO6vwSBEo2ePv6OfKLQGFg0D5ZQ/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTI4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/nvMDuZQZSaRz3g-SNO6vwSBEo2ePv6OfKLQGFg0D5ZQ/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTI4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/sd2J2D9SYxtYb1U2QeXLnF0KoV_aMzhNCyeVZ28amtw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTI4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/1nwqnoXmHgZdakg4EC84HE1nvSohffcMx0n4KC1ehuU/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTE3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/1nwqnoXmHgZdakg4EC84HE1nvSohffcMx0n4KC1ehuU/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTE3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/KKBWiC-raSTsDbvA_KxazjKaswiXu0C1ErgwtKzhETU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny0yMTE3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rLN6YLq_9fRceB3WTlNnYAzFvblVcAN0btUAgOmN6vg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTM3/Ni04MzQ5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/rLN6YLq_9fRceB3WTlNnYAzFvblVcAN0btUAgOmN6vg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTM3/Ni04MzQ5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ithV0XfNzWZElpYxi1LlO_IbH-Up6p1r-vAL42FkX3U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTY1NTU4NTM3/Ni04MzQ5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/agZ5lLLkxZzHiY-vOEKERlXjzN2Y3cl-QgbNxDS0aMM/rs:fit/g:sm/q:90/h:412/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny04NjI2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/agZ5lLLkxZzHiY-vOEKERlXjzN2Y3cl-QgbNxDS0aMM/rs:fit/g:sm/q:90/h:412/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny04NjI2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/NmIwiZKTtC80Dep6gL3hBdTTVIuBeW7KYUzPsyLxcI4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDY2NzE4/Ny04NjI2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 412
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/hRttwokM46MHr-pyHGibQLkU19Fw8TGQV0l-LzZTYX4/rs:fit/g:sm/q:90/h:840/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDk3NTQ1/Ny0yNTYzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/hRttwokM46MHr-pyHGibQLkU19Fw8TGQV0l-LzZTYX4/rs:fit/g:sm/q:90/h:840/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDk3NTQ1/Ny0yNTYzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/n5o4rnIaKQNO50wXdfIn7w0MvlekEHjx1LnXi1Ln39A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTcyNDk3NTQ1/Ny0yNTYzLmpwZWc.jpeg",
+                "width": 600,
+                "height": 840
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UtoNBHy8t_v5o_FFJ1aDFeC5MhS3QovFXjM0vJHi13g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTI1NzI0/My05NjAyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/UtoNBHy8t_v5o_FFJ1aDFeC5MhS3QovFXjM0vJHi13g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTI1NzI0/My05NjAyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/HZjud2Mp64qowP-8je3plqs8SEM_QGcpCY2yUka5070/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MTI1NzI0/My05NjAyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/h3ymTlskNQLXrUzzbIvGXhh08bj1XXc5ED3gymD1LUY/rs:fit/g:sm/q:90/h:512/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMjU4/Ny01MDgyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/h3ymTlskNQLXrUzzbIvGXhh08bj1XXc5ED3gymD1LUY/rs:fit/g:sm/q:90/h:512/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMjU4/Ny01MDgyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/c3q-HZjJ6HeGPGEr_mgZvqT5vIjIfSRGSmle4UI7q6E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQxMjU4/Ny01MDgyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 512
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/tsYXXun-wt1o9Iacl2zeseRbUqZpABja0AQagqyQ0FA/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ5ODEy/NS01MzIzLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/tsYXXun-wt1o9Iacl2zeseRbUqZpABja0AQagqyQ0FA/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ5ODEy/NS01MzIzLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/8ZKdXAhTX29i_PzXlT8tv-7hjtHIEe0qtvyKvVErBZc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTczNjQ5ODEy/NS01MzIzLnBuZw.jpeg",
+                "width": 600,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vdjwTU9T4b8is3nNsj5OT9SinHLYoGb5Aj5r8mjMXNo/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDc5OTc1/My01MTk2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/vdjwTU9T4b8is3nNsj5OT9SinHLYoGb5Aj5r8mjMXNo/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDc5OTc1/My01MTk2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/jIeSR2nZqg1HxsDwQJp4lzzbrIV7Qz63gxXyHFnXy8M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ1MDE3/MTMtMTc0MDc5OTc1/My01MTk2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 904
+              }
+            ],
+            "realname": "Barrington DeVaughn Hendricks",
+            "profile": "",
+            "urls": [
+              "http://www.jpegmafia.net",
+              "https://jpegmafia.bandcamp.com",
+              "https://www.facebook.com/jpegmafia",
+              "https://twitter.com/darkskinmanson",
+              "https://web.archive.org/web/20150822212736/twitter.com/darkskinmanson",
+              "https://www.instagram.com/jpegmafia",
+              "https://en.wikipedia.org/wiki/JPEGMafia",
+              "https://vimeo.com/jpegmafia",
+              "https://www.tiktok.com/@jpegmafiaburneraccount",
+              "https://youtube.com/@jpegmafia",
+              "https://www.youtube.com/@jpgmafia-br2we"
+            ],
+            "namevariations": [
+              "JPEGMAF1A",
+              "JPEGMAFIA | JPEGMAF1A"
+            ],
+            "aliases": [
+              {
+                "id": 6827969,
+                "name": "Barrington Hendricks",
+                "resource_url": "https://api.discogs.com/artists/6827969"
+              },
+              {
+                "id": 8781406,
+                "name": "Devon Hendryx",
+                "resource_url": "https://api.discogs.com/artists/8781406"
+              },
+              {
+                "id": 8781601,
+                "name": "GenY⁸⁹",
+                "resource_url": "https://api.discogs.com/artists/8781601"
+              }
+            ],
+            "groups": [
+              {
+                "id": 17504947,
+                "name": "89MAFIACULT",
+                "resource_url": "https://api.discogs.com/artists/17504947",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "8781406": {
+          "artist": {
+            "discogsArtistId": "8781406",
+            "name": "Devon Hendryx",
+            "realName": "Barrington DeVaughn Hendricks",
+            "profile": "Early alias of Barrington Hendricks aka [a=JPEGMAFIA].",
+            "artistUrls": [
+              "https://web.archive.org/web/20110630182736/http://devonhendryx.com/",
+              "https://web.archive.org/web/20120831050223/http://geny89.com/",
+              "https://web.archive.org/web/20150523084430/http://ghostpop.jp/",
+              "https://theghostpoptape.tumblr.com/",
+              "https://web.archive.org/web/20110124004923/http://rhythmshare.com/members/devonhendryx.htm",
+              "https://web.archive.org/web/20110220011948/http://www.datpiff.com/profile/devonhendryx",
+              "https://dvonhendryx.bandcamp.com/",
+              "https://ghostpop1.bandcamp.com/",
+              "https://web.archive.org/web/20140328165610/https://benyuddha.bandcamp.com/",
+              "https://web.archive.org/web/20140328184229/http://killwhitey.net/",
+              "https://www.xvideos.com/profiles/therockwoodescapeplan",
+              "https://www.youtube.com/@joechillworld",
+              "https://myspace.com/devonhendyx"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "4501713",
+                "name": "JPEGMAFIA"
+              },
+              {
+                "discogsArtistId": "6827969",
+                "name": "Barrington Hendricks"
+              },
+              {
+                "discogsArtistId": "8781601",
+                "name": "GenY⁸⁹"
+              }
+            ],
+            "nameVariations": [
+              "DeVon Hendryx",
+              "Devon Hendryx \"The Rockwood Escape Plan\"",
+              "Dévon Hendryx",
+              "Joe Chill",
+              "The Rockwood Escape Plan"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/8781406",
+            "discogsWebUrl": "https://www.discogs.com/artist/8781406-Devon-Hendryx",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Devon Hendryx",
+            "id": 8781406,
+            "resource_url": "https://api.discogs.com/artists/8781406",
+            "uri": "https://www.discogs.com/artist/8781406-Devon-Hendryx",
+            "releases_url": "https://api.discogs.com/artists/8781406/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/m25BIktmV1UaCTCuYZWnKrDUTYOYo4ZQj8Nog4Acmr0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDYz/OC0zNzg3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/m25BIktmV1UaCTCuYZWnKrDUTYOYo4ZQj8Nog4Acmr0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDYz/OC0zNzg3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/MRDhJwcHaoltZdrLbqPPQp2dCzP67Hl_6Ec5vRXmEzM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDYz/OC0zNzg3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Dpg2tK7BNdPSIU3b129d0Z0vxaRWcN6wyku2D0XuuFU/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcwODkxMzIw/NC0xMDMwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Dpg2tK7BNdPSIU3b129d0Z0vxaRWcN6wyku2D0XuuFU/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcwODkxMzIw/NC0xMDMwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/nPmzlY7UKAE4rxP22mxZ1PADwgMH4MBKAzUZmG4fUBc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcwODkxMzIw/NC0xMDMwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 749
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/YkJIx9p1FnkPxOeL1oKoRSMzFUspPJzHukXhqc1sT5A/rs:fit/g:sm/q:90/h:627/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODI2NjMy/Ny0yNjMyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/YkJIx9p1FnkPxOeL1oKoRSMzFUspPJzHukXhqc1sT5A/rs:fit/g:sm/q:90/h:627/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODI2NjMy/Ny0yNjMyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/YeWUPtO69I66TiTXhkPAD39fyDra76nrE5j1REdV7eg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODI2NjMy/Ny0yNjMyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 627
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/9TzF2diZtR5niwR1dNSp7HjqRD0xbzPAaEyUyPUUb50/rs:fit/g:sm/q:90/h:707/w:566/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDcy/OS05MTE5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/9TzF2diZtR5niwR1dNSp7HjqRD0xbzPAaEyUyPUUb50/rs:fit/g:sm/q:90/h:707/w:566/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDcy/OS05MTE5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/-L9qYU9ldJ9NHJg3hovOUGdtIJFQw4BFCXYXVPMykbo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc0MTQwMDcy/OS05MTE5LmpwZWc.jpeg",
+                "width": 566,
+                "height": 707
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/BtXx0rX1NateIeYGEnqFU8IZdvfktMlzDJXMc_GB2SA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1ODc4/MC03OTAwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/BtXx0rX1NateIeYGEnqFU8IZdvfktMlzDJXMc_GB2SA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1ODc4/MC03OTAwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/gCTdXehoSE-bOBdSec-WrReCyU_9QtYsFwjlPpHsAoU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1ODc4/MC03OTAwLnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WhsKucW6JFNfBQDyTMKJfN7L6eFqe7SNvpxE_dInxEM/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc1NjQ4NzA5/NS03NjkxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/WhsKucW6JFNfBQDyTMKJfN7L6eFqe7SNvpxE_dInxEM/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc1NjQ4NzA5/NS03NjkxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/7_ogmkN9w6cLLmBbNOt4lMpOV-FMZy_DRbY0eF97OKo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTc1NjQ4NzA5/NS03NjkxLmpwZWc.jpeg",
+                "width": 500,
+                "height": 500
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VjK_OYvReNtqjfzNgcSOXP7xRU7Ae0bo5t4mI3Cz1Y0/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My0zMzMyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/VjK_OYvReNtqjfzNgcSOXP7xRU7Ae0bo5t4mI3Cz1Y0/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My0zMzMyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/c2QteUuqlfJILyOAa_NO6Lzb9-Rm2fzh7sa_hjI_t4I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My0zMzMyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MTGI9ZoTGmruMkb0QZiWyGyOh0pTlox_jZKHc3i9vT0/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/Mi0yMzczLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/MTGI9ZoTGmruMkb0QZiWyGyOh0pTlox_jZKHc3i9vT0/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/Mi0yMzczLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/pimCK_zAvlNFHQuIvBXWKS2c4wPgxNCkLtVQQ1iKUy4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/Mi0yMzczLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/AQN8WdqmDHJ1tUAJhxQeHLltZGGmB7e572U-CGDx4RI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My05NTI2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/AQN8WdqmDHJ1tUAJhxQeHLltZGGmB7e572U-CGDx4RI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My05NTI2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/f4l5vHv8DlcnejOZPHXeAL7ZuFiUFORezCLRN5YF-MM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxOTA2OTYz/My05NTI2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Y-PZJN747NVzYzPgxGCV9AskJcH0WwNG3bXFgKquq2c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1OTAy/Mi01Njk4LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/Y-PZJN747NVzYzPgxGCV9AskJcH0WwNG3bXFgKquq2c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1OTAy/Mi01Njk4LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/kKLyRJ0WRrqRL2KDmBn7gbxnLCHqcVIcSNGSrGvlP5o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTcxODk1OTAy/Mi01Njk4LnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/AHd2SeBKlsGpy3Kk_IKueHNeVEULNOsFyZL_aRHDhtc/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MTYzMTg0/MC00NjMyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/AHd2SeBKlsGpy3Kk_IKueHNeVEULNOsFyZL_aRHDhtc/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MTYzMTg0/MC00NjMyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tTkqmOl47kEua2n8q17_A4dyxSYTBVIMDZ_UWc6r790/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MTYzMTg0/MC00NjMyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 590
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/pHoFxC5Pc-EvAlYt9bAbl1vX9KHA4b4cmpvQ7VsdA7g/rs:fit/g:sm/q:90/h:213/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MDUwOTEy/Mi03NjU5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/pHoFxC5Pc-EvAlYt9bAbl1vX9KHA4b4cmpvQ7VsdA7g/rs:fit/g:sm/q:90/h:213/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MDUwOTEy/Mi03NjU5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ugf4lB9fxq-uGVyCs-nnRqTb6QyGldaN6WZDcT2TW9o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3ODE0/MDYtMTY5MDUwOTEy/Mi03NjU5LmpwZWc.jpeg",
+                "width": 320,
+                "height": 213
+              }
+            ],
+            "realname": "Barrington DeVaughn Hendricks",
+            "profile": "Early alias of Barrington Hendricks aka [a=JPEGMAFIA].",
+            "urls": [
+              "https://web.archive.org/web/20110630182736/http://devonhendryx.com/",
+              "https://web.archive.org/web/20120831050223/http://geny89.com/",
+              "https://web.archive.org/web/20150523084430/http://ghostpop.jp/",
+              "https://theghostpoptape.tumblr.com/",
+              "https://web.archive.org/web/20110124004923/http://rhythmshare.com/members/devonhendryx.htm",
+              "https://web.archive.org/web/20110220011948/http://www.datpiff.com/profile/devonhendryx",
+              "https://dvonhendryx.bandcamp.com/",
+              "https://ghostpop1.bandcamp.com/",
+              "https://web.archive.org/web/20140328165610/https://benyuddha.bandcamp.com/",
+              "https://web.archive.org/web/20140328184229/http://killwhitey.net/",
+              "https://www.xvideos.com/profiles/therockwoodescapeplan",
+              "https://www.youtube.com/@joechillworld",
+              "https://myspace.com/devonhendyx"
+            ],
+            "namevariations": [
+              "DeVon Hendryx",
+              "Devon Hendryx \"The Rockwood Escape Plan\"",
+              "Dévon Hendryx",
+              "Joe Chill",
+              "The Rockwood Escape Plan"
+            ],
+            "aliases": [
+              {
+                "id": 4501713,
+                "name": "JPEGMAFIA",
+                "resource_url": "https://api.discogs.com/artists/4501713"
+              },
+              {
+                "id": 6827969,
+                "name": "Barrington Hendricks",
+                "resource_url": "https://api.discogs.com/artists/6827969"
+              },
+              {
+                "id": 8781601,
+                "name": "GenY⁸⁹",
+                "resource_url": "https://api.discogs.com/artists/8781601"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "c42e60f4-4520-4954-b6e4-82bbdf532c11": {
+          "releaseCount": 74,
+          "distinctiveTitles": [
+            "junebug",
+            "the who",
+            "thug tears a colors show",
+            "manic",
+            "freestyles",
+            "the bends",
+            "man purse",
+            "covered in money",
+            "babygirl",
+            "i lay down my life for you",
+            "2022 03 28 nts radio london england",
+            "awake",
+            "fake jeezy",
+            "the wolf returns ep",
+            "money",
+            "rough 7",
+            "protect the cross",
+            "darkskin manson ep",
+            "bald remix",
+            "puff daddy",
+            "ep",
+            "veteran",
+            "millennium freestyle",
+            "track 1",
+            "fatal fury",
+            "the 2nd amendment",
+            "luh granky type beat",
+            "communist slow jams",
+            "wu tang freestyle i made dis shit like 2 seconds ago i aint mix it so whatever",
+            "scaring the hoes",
+            "lean beef patty",
+            "valentine s day freestyle 25",
+            "drake era",
+            "i might vote 4 donald trump",
+            "valentine s day freestyle 26",
+            "yen",
+            "don t rely on other men",
+            "bodyguard",
+            "1539 n calvert",
+            "baby i m bleeding",
+            "sin miedo",
+            "war over land",
+            "ok ok hamdi remix",
+            "not on veteran",
+            "hazard duty pay",
+            "scaring the hoes dlc pack",
+            "black moses",
+            "experimental rap",
+            "darkskin manson",
+            "bald",
+            "trust",
+            "the rockwood ep",
+            "thug tears",
+            "beautiful pussy",
+            "call me maybe",
+            "we live in a society",
+            "all my heroes are cornballs",
+            "lp",
+            "black ben carson",
+            "hate you",
+            "does this ski mask make me look fat",
+            "cutie pie",
+            "black enuff",
+            "wassup",
+            "starrcade 97",
+            "dirt",
+            "jesus forgive me i am a thot",
+            "unreleased",
+            "beware of veteran",
+            "allcapsnospaces",
+            "offline",
+            "ep2"
+          ],
+          "earliestYear": 2011,
+          "latestYear": 2026
+        },
+        "4a08f237-59f6-476d-a98f-66b19a7470ed": {
+          "releaseCount": 0,
+          "distinctiveTitles": [],
+          "earliestYear": null,
+          "latestYear": null
+        },
+        "680f0fa0-e465-44b0-be81-2fedb99e54a2": {
+          "releaseCount": 16,
+          "distinctiveTitles": [
+            "end to the means",
+            "dreamcast summer songs",
+            "sex on the beach",
+            "qwop",
+            "early rockwood tape",
+            "hi fi",
+            "anne hathaway",
+            "the rockwood escape plan",
+            "lisa",
+            "fuckcheese",
+            "joechillworld",
+            "generation y",
+            "black materia",
+            "l ll ll l",
+            "the ghost pop tape"
+          ],
+          "earliestYear": 2010,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO",
+        "wikidataQid": "Q50415953",
+        "name": "JPEGMafia",
+        "musicBrainzArtistId": null,
+        "discogsArtistId": "4501713",
+        "musicBrainzArtistIds": [
+          "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q50415953",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4501713",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/4501713.json",
+    "provider-cache/v1/discogs/artist/8781406.json",
+    "provider-cache/v1/musicbrainz/artist/4a08f237-59f6-476d-a98f-66b19a7470ed.json",
+    "provider-cache/v1/musicbrainz/artist/680f0fa0-e465-44b0-be81-2fedb99e54a2.json",
+    "provider-cache/v1/musicbrainz/artist/c42e60f4-4520-4954-b6e4-82bbdf532c11.json",
+    "provider-cache/v1/musicbrainz/release-groups/4a08f237-59f6-476d-a98f-66b19a7470ed.json",
+    "provider-cache/v1/musicbrainz/release-groups/680f0fa0-e465-44b0-be81-2fedb99e54a2.json",
+    "provider-cache/v1/musicbrainz/release-groups/c42e60f4-4520-4954-b6e4-82bbdf532c11.json",
+    "provider-cache/v1/wikidata/spotify-bridge/6yJ6QQ3Y5l0s0tn7b0arrO.json"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7GlBOeep6PqTfFi59PTUUN",
+  "retrievedAt": "2026-08-14T21:45:25.716Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7GlBOeep6PqTfFi59PTUUN",
+      "wikidataQid": "Q110281146",
+      "name": "Chappell Roan",
+      "musicBrainzArtistId": "56a55378-f155-48de-80a5-d80104221267",
+      "discogsArtistId": "6360106"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q110281146"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "56a55378-f155-48de-80a5-d80104221267"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6360106"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Chappell Roan"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

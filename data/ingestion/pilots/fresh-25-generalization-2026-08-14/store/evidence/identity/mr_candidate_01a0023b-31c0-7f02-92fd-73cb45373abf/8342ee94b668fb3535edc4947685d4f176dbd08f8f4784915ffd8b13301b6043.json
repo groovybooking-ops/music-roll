@@ -1,0 +1,1886 @@
+{
+  "evidenceId": "sha256:8342ee94b668fb3535edc4947685d4f176dbd08f8f4784915ffd8b13301b6043",
+  "createdAt": "2026-08-14T21:45:25.335Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31c0-7f02-92fd-73cb45373abf",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Doechii",
+        "spotifyArtistId": "4E2rKHVDssGJm2SCDOMMJB"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4E2rKHVDssGJm2SCDOMMJB",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4E2rKHVDssGJm2SCDOMMJB",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q106629186",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "11109506",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "11109506",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "12006994",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4E2rKHVDssGJm2SCDOMMJB",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q106629186",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "11109506",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "11109506"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "12006994",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "12006994"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "4E2rKHVDssGJm2SCDOMMJB",
+          "observedValues": [
+            "4E2rKHVDssGJm2SCDOMMJB"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4E2rKHVDssGJm2SCDOMMJB",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4E2rKHVDssGJm2SCDOMMJB",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4E2rKHVDssGJm2SCDOMMJB",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q106629186",
+          "observedValues": [
+            "Q106629186"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q106629186",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q106629186",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "observedValues": [
+            "9f75277c-b283-4846-ac8c-f932255cd0ac"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "11109506",
+            "12006994"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "11109506",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "11109506",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "12006994",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "11109506",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "11109506"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "12006994",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "12006994"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "11109506",
+            "12006994"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+            "name": "Doechii",
+            "sortName": "Doechii",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "US rapper",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "4E2rKHVDssGJm2SCDOMMJB"
+            ],
+            "discogsArtistIds": [
+              "11109506",
+              "12006994"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": true,
+          "reasons": [],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "11109506",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "12006994",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "9f75277c-b283-4846-ac8c-f932255cd0ac": {
+          "artist": {
+            "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+            "name": "Doechii",
+            "sortName": "Doechii",
+            "artistType": "Person",
+            "disambiguation": "US rapper",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "ff21865c-ce46-4417-967c-a3d2d02d29bf",
+              "name": "Tampa",
+              "sortName": "Tampa",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1998-08-14",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Iamdoechii",
+                "sortName": "Iamdoechii",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Jaylah Ji'mya Hickmon",
+                "sortName": "Hickmon, Jaylah Ji'mya",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "도이치",
+                "sortName": "도이치",
+                "type": "Artist name",
+                "locale": "ko",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000507050593"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0004110061"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/15515183"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/11109506"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/12006994"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/4E2rKHVDssGJm2SCDOMMJB"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/51965252"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/51965602"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://i.discogs.com/l46IjrffH7yQ5Oo8zvc9N06kFILzfZAvrDxnArRVM94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm13677320/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Doechii"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Doechii"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.iamdoechii.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2023042560"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb18187405m"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/1360259228"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/1361297530"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/doechii"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.muziekweb.nl/Link/M00000592511/POPULAR/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Doechii/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no2023042560/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id1437641643"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/10054766"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://ototoy.jp/_/default/a/1086006"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/223318"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/doechii-7bf3f24c.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/iamdoechii"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/doechii/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.tiktok.com/@iamdoechii_"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/10251425"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/iam-doechii"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.amazon.com/artists/B07HRXK2C3"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/fr/artist/1437641643"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1437641643"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/10054766"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/10404097"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/82076527"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/53173727273911591904"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/9168226116252781097"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/937174328001401590000"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q106629186"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCksiqtuWYtN2YluvAQnV2dQ"
+              }
+            ]
+          },
+          "raw": {
+            "id": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": "US rapper",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "aliases": [
+              {
+                "type": null,
+                "type-id": null,
+                "begin": null,
+                "locale": null,
+                "sort-name": "Iamdoechii",
+                "primary": null,
+                "ended": false,
+                "name": "Iamdoechii",
+                "end": null
+              },
+              {
+                "name": "Jaylah Ji'mya Hickmon",
+                "end": null,
+                "type": "Legal name",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "begin": null,
+                "sort-name": "Hickmon, Jaylah Ji'mya",
+                "locale": null,
+                "primary": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "name": "도이치",
+                "ended": false,
+                "sort-name": "도이치",
+                "locale": "ko",
+                "primary": true,
+                "begin": null,
+                "type": "Artist name",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+              }
+            ],
+            "area": {
+              "sort-name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": null,
+              "type-id": null,
+              "disambiguation": "",
+              "name": "United States"
+            },
+            "begin-area": {
+              "name": "Tampa",
+              "sort-name": "Tampa",
+              "disambiguation": "",
+              "type-id": null,
+              "type": null,
+              "id": "ff21865c-ce46-4417-967c-a3d2d02d29bf"
+            },
+            "gender": "Female",
+            "name": "Doechii",
+            "country": "US",
+            "relations": [
+              {
+                "type": "allmusic",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "454e91a4-2d98-4b32-9bff-058244abea13",
+                  "resource": "https://www.allmusic.com/artist/mn0004110061"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "type": "bandsintown",
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "da9b4826-c8d1-4655-88c4-6d8b4fb46837",
+                  "resource": "https://www.bandsintown.com/a/15515183"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "type": "discogs",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "begin": null,
+                "url": {
+                  "id": "ef6710c4-4f4e-4b51-a7be-40375a533686",
+                  "resource": "https://www.discogs.com/artist/11109506"
+                },
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-type": "url",
+                "type": "discogs",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "direction": "forward",
+                "source-credit": "Jaylah Ji'mya Hickmon",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "1d2e0dc8-9619-45d7-978e-e0fb9c88c67f",
+                  "resource": "https://www.discogs.com/artist/12006994"
+                },
+                "begin": null
+              },
+              {
+                "url": {
+                  "id": "8e3047b6-51fe-4ab6-9825-bdac5d1198a4",
+                  "resource": "https://open.spotify.com/artist/4E2rKHVDssGJm2SCDOMMJB"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "source-credit": "",
+                "direction": "forward",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "type": "free streaming",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "type": "free streaming",
+                "source-credit": "",
+                "direction": "forward",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "d20c51c3-8a13-4ae1-aca2-f620fb161f07",
+                  "resource": "https://www.deezer.com/artist/51965252"
+                },
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "6e6e2c76-62ee-4ed2-b948-848eebfdff51",
+                  "resource": "https://www.deezer.com/artist/51965602"
+                },
+                "begin": null,
+                "source-credit": "Iamdoechii",
+                "direction": "forward",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "type": "free streaming",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": ""
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-values": {},
+                "begin": null,
+                "url": {
+                  "id": "f5e4a8ef-2de5-4d5f-8c41-0dd8a490efd6",
+                  "resource": "https://i.discogs.com/l46IjrffH7yQ5Oo8zvc9N06kFILzfZAvrDxnArRVM94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "type": "image"
+              },
+              {
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm13677320/",
+                  "id": "c7c46e4b-8001-4518-a359-c8d3ca4eed83"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "type": "IMDb",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": ""
+              },
+              {
+                "direction": "forward",
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.last.fm/music/Doechii",
+                  "id": "5af16368-b37d-4639-b36c-a487e4c9a501"
+                },
+                "begin": null,
+                "target-credit": "",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-type": "url",
+                "type": "last.fm",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f"
+              },
+              {
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "c0522497-cc11-4109-be53-38615e9959b9",
+                  "resource": "https://genius.com/artists/Doechii"
+                },
+                "begin": null,
+                "target-credit": "",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-type": "url",
+                "type": "lyrics",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+              },
+              {
+                "target-type": "url",
+                "type": "official homepage",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "target-credit": "",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.iamdoechii.com/",
+                  "id": "14c1b3e9-c7c6-4400-a97d-e90d7c1f297a"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/no2023042560",
+                  "id": "7008137c-0402-48d4-b832-19a7ac0da205"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "target-type": "url",
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": []
+              },
+              {
+                "target-type": "url",
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "71ee907e-5406-4b20-abbb-a60e643ec703",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb18187405m"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-type": "url",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "2cc24313-2364-406a-b1aa-2573f65f3445",
+                  "resource": "https://d-nb.info/gnd/1360259228"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://d-nb.info/gnd/1361297530",
+                  "id": "0f3b0a2f-b445-4609-8504-90ed17deb48b"
+                },
+                "begin": null,
+                "ended": false,
+                "attribute-values": {},
+                "source-credit": "",
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": ""
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "target-type": "url",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "544c130c-8685-4a5b-9aac-4fced544ca90",
+                  "resource": "https://rateyourmusic.com/artist/doechii"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward"
+              },
+              {
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "eb50793f-7366-4302-a985-a4da7be05f08",
+                  "resource": "https://www.muziekweb.nl/Link/M00000592511/POPULAR/"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "target-type": "url",
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "a7a8d860-a6e6-46cd-82d4-c8b8f1109e54",
+                  "resource": "https://www.whosampled.com/Doechii/"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-type": "url",
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "cdec9465-0a68-4c9a-8352-d315cbfc377b",
+                  "resource": "https://www.worldcat.org/identities/lccn-no2023042560/"
+                },
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "9b280b0e-a053-456e-9f3e-7e2f36a02ead",
+                  "resource": "https://itunes.apple.com/us/artist/id1437641643"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-credit": "",
+                "type": "purchase for download",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "target-type": "url"
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/10054766",
+                  "id": "a904679f-047a-45a6-a55f-2fbe167af74c"
+                },
+                "begin": null,
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "type": "purchase for download"
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "458a4b71-23c6-41ad-9565-23bbe737a4e1",
+                  "resource": "https://ototoy.jp/_/default/a/1086006"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "type": "purchase for download"
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/223318",
+                  "id": "c67665d7-5ca8-458a-8294-26f1dcf7f8a2"
+                },
+                "begin": null,
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "type": "secondhandsongs",
+                "target-type": "url"
+              },
+              {
+                "target-type": "url",
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "type": "setlistfm",
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "b2313b8d-21e3-4555-80b4-0d9fcd09be2c",
+                  "resource": "https://www.setlist.fm/setlists/doechii-7bf3f24c.html"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward"
+              },
+              {
+                "attribute-values": {},
+                "ended": false,
+                "begin": null,
+                "url": {
+                  "id": "728ae9d2-ac32-46dd-8ac7-92f1eb40c5f8",
+                  "resource": "https://twitter.com/iamdoechii"
+                },
+                "source-credit": "",
+                "direction": "forward",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "type": "social network",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": ""
+              },
+              {
+                "type": "social network",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "489da0ce-877a-43e0-8d13-e84ae6415812",
+                  "resource": "https://www.instagram.com/doechii/"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-values": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.tiktok.com/@iamdoechii_",
+                  "id": "81c2b2ab-0712-4784-a45a-b1ee6ba730f7"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "type": "social network"
+              },
+              {
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-credit": "",
+                "type": "songkick",
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "id": "08f095d5-9673-4bd9-890e-936aa47f93bc",
+                  "resource": "https://www.songkick.com/artists/10251425"
+                },
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "type": "soundcloud",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "target-credit": "",
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "attribute-values": {},
+                "ended": false,
+                "url": {
+                  "resource": "https://soundcloud.com/iam-doechii",
+                  "id": "922ab416-a979-447b-b907-22c91c2dac8a"
+                },
+                "begin": null,
+                "direction": "forward",
+                "source-credit": ""
+              },
+              {
+                "direction": "forward",
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "f74ad745-56a7-4158-b6a3-65f40174f48b",
+                  "resource": "https://music.amazon.com/artists/B07HRXK2C3"
+                },
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-type": "url",
+                "type": "streaming",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "direction": "forward",
+                "source-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "28fc7042-66e1-4651-8c52-084c4a9d47ae",
+                  "resource": "https://music.apple.com/fr/artist/1437641643"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "target-credit": "",
+                "type": "streaming",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-type": "url"
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "target-type": "url",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "url": {
+                  "id": "c32dd553-28f8-4f97-9526-83ca2dfca374",
+                  "resource": "https://music.apple.com/us/artist/1437641643"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "source-credit": "",
+                "direction": "forward",
+                "ended": false,
+                "attribute-values": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/10054766",
+                  "id": "a904679f-047a-45a6-a55f-2fbe167af74c"
+                }
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "begin": null,
+                "url": {
+                  "id": "5ea3698d-e7eb-4d74-9733-772e8052d890",
+                  "resource": "https://tidal.com/artist/10404097"
+                },
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "target-type": "url"
+              },
+              {
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "target-type": "url",
+                "source-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://tidal.com/artist/82076527",
+                  "id": "29e88a89-7eee-4d2a-8b00-a8a40fdc56ee"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "http://viaf.org/viaf/53173727273911591904",
+                  "id": "6ba2449c-d451-41fa-bf88-f54cb9657e88"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": "",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "type": "VIAF",
+                "target-type": "url"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "type": "VIAF",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "4c3b7533-65c5-47d9-8345-937a4f601864",
+                  "resource": "http://viaf.org/viaf/9168226116252781097"
+                },
+                "ended": false,
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "type": "VIAF",
+                "source-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "4dfa2d5d-461a-45e7-a4ae-bc70c31592c4",
+                  "resource": "http://viaf.org/viaf/937174328001401590000"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "attributes": [],
+                "target-credit": "",
+                "type": "wikidata",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "f842ac03-4b50-4713-9afd-60605186b14b",
+                  "resource": "https://www.wikidata.org/wiki/Q106629186"
+                },
+                "begin": null,
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "179d2109-390d-45bd-bd7e-d1fdb202e069",
+                  "resource": "https://www.youtube.com/channel/UCksiqtuWYtN2YluvAQnV2dQ"
+                },
+                "begin": null,
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "type": "youtube"
+              }
+            ],
+            "end-area": null,
+            "isnis": [
+              "0000000507050593"
+            ],
+            "sort-name": "Doechii",
+            "ipis": [
+              "00372986904",
+              "01122682875"
+            ],
+            "life-span": {
+              "begin": "1998-08-14",
+              "ended": false,
+              "end": null
+            }
+          }
+        }
+      },
+      "discogsRecords": {
+        "11109506": {
+          "artist": {
+            "discogsArtistId": "11109506",
+            "name": "Doechii",
+            "realName": "Jaylah Ji'mya Hickmon",
+            "profile": "American rapper and singer from Tampa, Florida\r\nBorn on August 14, 1998\r\nActive since 2018",
+            "artistUrls": [
+              "https://www.iamdoechii.com",
+              "https://www.instagram.com/doechii",
+              "https://www.threads.com/@doechii",
+              "https://twitter.com/iamdoechii"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "12006994",
+                "name": "Jaylah Ji'mya Hickmon"
+              }
+            ],
+            "nameVariations": [
+              "IamDoechii",
+              "Iamdoechii",
+              "多琪"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/11109506",
+            "discogsWebUrl": "https://www.discogs.com/artist/11109506-Doechii",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Doechii",
+            "id": 11109506,
+            "resource_url": "https://api.discogs.com/artists/11109506",
+            "uri": "https://www.discogs.com/artist/11109506-Doechii",
+            "releases_url": "https://api.discogs.com/artists/11109506/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/C3IQvBNtVRJvD8ctQhWN_4W37v7lbAGJuuWWKhueLJI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3NDU4NTM5/MzgtMzI5NC5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/C3IQvBNtVRJvD8ctQhWN_4W37v7lbAGJuuWWKhueLJI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3NDU4NTM5/MzgtMzI5NC5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/nit1VNMSqb1pONRZyc-FLu3JeNJErAOLMag4KNUVY10/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3NDU4NTM5/MzgtMzI5NC5wbmc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Zp2HiiIJBI4TxefTxR3iyDIZi568jW3apyWztJnCFy4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE2ODY1MjEz/NjgtNzczNy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Zp2HiiIJBI4TxefTxR3iyDIZi568jW3apyWztJnCFy4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE2ODY1MjEz/NjgtNzczNy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/RkXrJK0d8vYDtfRmGI1i2ccAWueaRpWGfV4Ggt1jLC8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE2ODY1MjEz/NjgtNzczNy5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/trWMXfBbh5dmJA6RxSwMAfdF-ZGZSTbCZqFwnXzbz8A/rs:fit/g:sm/q:90/h:823/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjMtOTIxOC5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/trWMXfBbh5dmJA6RxSwMAfdF-ZGZSTbCZqFwnXzbz8A/rs:fit/g:sm/q:90/h:823/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjMtOTIxOC5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/W6e4e4bLM-IDi-XjynK8F9hxwX5hDLWydGzqt5Zca6o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjMtOTIxOC5wbmc.jpeg",
+                "width": 600,
+                "height": 823
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/o3aNZslEswMSm9q0YguF9lXZ0trDcCOqK2gNoze4UIo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzg2Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/o3aNZslEswMSm9q0YguF9lXZ0trDcCOqK2gNoze4UIo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzg2Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/_kQzlvay6uhqDOKoH0EUHhHwoov4Zje4L5IdgYB2NFI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzg2Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/aaLLGGBCQSMpbi0N0J643N520x2XyqY4cA8dlClA7Bw/rs:fit/g:sm/q:90/h:332/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzY5Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/aaLLGGBCQSMpbi0N0J643N520x2XyqY4cA8dlClA7Bw/rs:fit/g:sm/q:90/h:332/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzY5Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/zi0ug6UO2JbYw4stNn91-FpVQRQLZ-jZEkb-3B2iwL8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExMTA5/NTA2LTE3MjUxOTE2/NjItMzY5Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 332
+              }
+            ],
+            "realname": "Jaylah Ji'mya Hickmon",
+            "profile": "American rapper and singer from Tampa, Florida\r\nBorn on August 14, 1998\r\nActive since 2018",
+            "urls": [
+              "https://www.iamdoechii.com",
+              "https://www.instagram.com/doechii",
+              "https://www.threads.com/@doechii",
+              "https://twitter.com/iamdoechii"
+            ],
+            "namevariations": [
+              "IamDoechii",
+              "Iamdoechii",
+              "多琪"
+            ],
+            "aliases": [
+              {
+                "id": 12006994,
+                "name": "Jaylah Ji'mya Hickmon",
+                "resource_url": "https://api.discogs.com/artists/12006994"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "12006994": {
+          "artist": {
+            "discogsArtistId": "12006994",
+            "name": "Jaylah Ji'mya Hickmon",
+            "realName": "Jaylah Ji'mya Hickmon",
+            "profile": "American rapper and singer from Florida\r\nKnown as Doechii",
+            "artistUrls": [
+              "https://www.iamdoechii.com"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "11109506",
+                "name": "Doechii"
+              }
+            ],
+            "nameVariations": [
+              "Jaylah Hickmon",
+              "Jaylah Ji Mya Hickmon",
+              "Jaylah Ji'miya Hickmon"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/12006994",
+            "discogsWebUrl": "https://www.discogs.com/artist/12006994-Jaylah-Jimya-Hickmon",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Jaylah Ji'mya Hickmon",
+            "id": 12006994,
+            "resource_url": "https://api.discogs.com/artists/12006994",
+            "uri": "https://www.discogs.com/artist/12006994-Jaylah-Jimya-Hickmon",
+            "releases_url": "https://api.discogs.com/artists/12006994/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/l46IjrffH7yQ5Oo8zvc9N06kFILzfZAvrDxnArRVM94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/l46IjrffH7yQ5Oo8zvc9N06kFILzfZAvrDxnArRVM94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/cZm2VSgHKwGlUEeDTOq7SNioY_3YfemIzbbXu2x8YJQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              }
+            ],
+            "realname": "Jaylah Ji'mya Hickmon",
+            "profile": "American rapper and singer from Florida\r\nKnown as Doechii",
+            "urls": [
+              "https://www.iamdoechii.com"
+            ],
+            "namevariations": [
+              "Jaylah Hickmon",
+              "Jaylah Ji Mya Hickmon",
+              "Jaylah Ji'miya Hickmon"
+            ],
+            "aliases": [
+              {
+                "id": 11109506,
+                "name": "Doechii",
+                "resource_url": "https://api.discogs.com/artists/11109506"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "9f75277c-b283-4846-ac8c-f932255cd0ac": {
+          "releaseCount": 51,
+          "distinctiveTitles": [
+            "what s your name",
+            "nosebleeds",
+            "i hate your ex girlfriend",
+            "right now",
+            "runway",
+            "live at camp flog gnaw",
+            "alligator bites never heal",
+            "timeless remix",
+            "persuasive",
+            "what it is",
+            "alter ego",
+            "denial is a river",
+            "trampoline",
+            "boom bap",
+            "coven music session vol 1",
+            "beat a b tch up",
+            "i m his he s mine",
+            "stressed a colors show",
+            "pacer",
+            "get it right",
+            "afro blues",
+            "nissan altima taiki nulight edit",
+            "girl get up",
+            "coven music sessions",
+            "nissan altima",
+            "stressed",
+            "live at tiny desk 2024",
+            "mph",
+            "spookie coochie",
+            "universal swamp anthem",
+            "yucky blucky fruitcake",
+            "xtasy remix",
+            "bitch i m nice",
+            "crazy",
+            "anxiety",
+            "rocket",
+            "bra less",
+            "wat u sed",
+            "booty drop",
+            "live from the swamp tour",
+            "girls",
+            "oh the places you ll go",
+            "live at camp flog gnaw 2025",
+            "extral",
+            "nissan altima whethan remix",
+            "egypt remix",
+            "live at the 2025 grammys",
+            "she her black bitch",
+            "trampoline cedric gervais remix"
+          ],
+          "earliestYear": 2018,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "4E2rKHVDssGJm2SCDOMMJB",
+        "wikidataQid": "Q106629186",
+        "name": "Doechii",
+        "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+        "discogsArtistId": "11109506"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4E2rKHVDssGJm2SCDOMMJB",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q106629186",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "11109506",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "name": "Doechii",
+          "sortName": "Doechii",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US rapper",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "name": "Doechii",
+          "sortName": "Doechii",
+          "artistType": "Person",
+          "disambiguation": "US rapper",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "ff21865c-ce46-4417-967c-a3d2d02d29bf",
+            "name": "Tampa",
+            "sortName": "Tampa",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1998-08-14",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Iamdoechii",
+              "sortName": "Iamdoechii",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Jaylah Ji'mya Hickmon",
+              "sortName": "Hickmon, Jaylah Ji'mya",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "도이치",
+              "sortName": "도이치",
+              "type": "Artist name",
+              "locale": "ko",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000507050593"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0004110061"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/15515183"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/11109506"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/12006994"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/4E2rKHVDssGJm2SCDOMMJB"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/51965252"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/51965602"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://i.discogs.com/l46IjrffH7yQ5Oo8zvc9N06kFILzfZAvrDxnArRVM94/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyMDA2/OTk0LTE2ODY1MjEz/OTAtMTUyNi5qcGVn.jpeg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm13677320/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Doechii"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Doechii"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.iamdoechii.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2023042560"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb18187405m"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1360259228"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1361297530"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/doechii"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000592511/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Doechii/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2023042560/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id1437641643"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/10054766"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/1086006"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/223318"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/doechii-7bf3f24c.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/iamdoechii"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/doechii/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@iamdoechii_"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/10251425"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/iam-doechii"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B07HRXK2C3"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/fr/artist/1437641643"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1437641643"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/10054766"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/10404097"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/82076527"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/53173727273911591904"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/9168226116252781097"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/937174328001401590000"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q106629186"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCksiqtuWYtN2YluvAQnV2dQ"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/11109506.json",
+    "provider-cache/v1/discogs/artist/12006994.json",
+    "provider-cache/v1/musicbrainz/artist/9f75277c-b283-4846-ac8c-f932255cd0ac.json",
+    "provider-cache/v1/musicbrainz/exact-name/36ee6bb2137ff497798c52b5.json",
+    "provider-cache/v1/musicbrainz/release-groups/9f75277c-b283-4846-ac8c-f932255cd0ac.json",
+    "provider-cache/v1/wikidata/spotify-bridge/4E2rKHVDssGJm2SCDOMMJB.json"
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "schemaVersion": 1,
+  "provider": "ticketmaster",
+  "configurationHash": "sha256:96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377",
+  "retrievedAt": "2026-08-14T23:07:05.398Z",
+  "requestUrl": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=REDACTED&classificationName=music&stateCode=CA&startDateTime=2026-08-15T00%3A00%3A00Z&endDateTime=2026-08-22T00%3A00%3A00Z&size=2&page=0&sort=date%2Casc",
+  "responseDigest": "sha256:856654f1bf51378754833a6875034fc6cd54886bba9860c31e5b49e54dd81ce9",
+  "raw": {
+    "_embedded": {
+      "events": [
+        {
+          "name": "Whethan (21+)",
+          "type": "event",
+          "id": "Z7r9jZ1A7Pe_8",
+          "test": false,
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe_8",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640,
+              "height": 427,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_SOURCE",
+              "width": 3928,
+              "height": 2210,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": false
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_CUSTOM.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": false
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "1900-01-01T18:00:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-15T00:00:00Z"
+            }
+          },
+          "dates": {
+            "start": {
+              "localDate": "2026-08-14",
+              "localTime": "17:00:00",
+              "dateTime": "2026-08-15T00:00:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "status": {
+              "code": "onsale"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAvl",
+                "name": "Other"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vk1I",
+                "name": "Other"
+              },
+              "family": false
+            }
+          ],
+          "outlets": [
+            {
+              "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe_8",
+              "type": "tmMarketPlace"
+            }
+          ],
+          "ticketing": {
+            "allInclusivePricing": {
+              "enabled": true
+            }
+          },
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/Z7r9jZ1A7Pe_8?locale=en-us"
+            },
+            "attractions": [
+              {
+                "href": "/discovery/v2/attractions/K8vZ9174C6f?locale=en-us"
+              }
+            ],
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/Z7r9jZak3P?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "Fit Social",
+                "type": "venue",
+                "id": "Z7r9jZak3P",
+                "test": false,
+                "locale": "en-us",
+                "postalCode": "92109",
+                "timezone": "America/Los_Angeles",
+                "city": {
+                  "name": "San Diego"
+                },
+                "state": {
+                  "name": "California",
+                  "stateCode": "CA"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "3125 Ocean Front Walk"
+                },
+                "location": {
+                  "longitude": "-117.236298000",
+                  "latitude": "32.798401000"
+                },
+                "dmas": [
+                  {
+                    "id": 381
+                  }
+                ],
+                "upcomingEvents": {
+                  "tmr": 1,
+                  "_total": 1,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/Z7r9jZak3P?locale=en-us"
+                  }
+                }
+              }
+            ],
+            "attractions": [
+              {
+                "name": "Whethan",
+                "type": "attraction",
+                "id": "K8vZ9174C6f",
+                "test": false,
+                "url": "https://www.ticketmaster.com/whethan-tickets/artist/2278363",
+                "locale": "en-us",
+                "externalLinks": {
+                  "youtube": [
+                    {
+                      "url": "https://www.youtube.com/whethan"
+                    }
+                  ],
+                  "twitter": [
+                    {
+                      "url": "https://twitter.com/whethanmusic"
+                    }
+                  ],
+                  "itunes": [
+                    {
+                      "url": "https://music.apple.com/us/artist/whethan/1131838621"
+                    }
+                  ],
+                  "facebook": [
+                    {
+                      "url": "https://www.facebook.com/whethanmusic"
+                    }
+                  ],
+                  "spotify": [
+                    {
+                      "url": "https://open.spotify.com/artist/0vqJkZ0RpLZixt3lTmD8vP"
+                    }
+                  ],
+                  "instagram": [
+                    {
+                      "url": "https://www.instagram.com/whethan/"
+                    }
+                  ],
+                  "musicbrainz": [
+                    {
+                      "id": "9dbb9d00-e2d3-484d-8049-10e5e125913c",
+                      "url": "https://musicbrainz.org/artist/9dbb9d00-e2d3-484d-8049-10e5e125913c"
+                    }
+                  ],
+                  "homepage": [
+                    {
+                      "url": "https://www.whethan.com/"
+                    }
+                  ]
+                },
+                "images": [
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_PORTRAIT_3_2.jpg",
+                    "width": 640,
+                    "height": 427,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                    "width": 2048,
+                    "height": 1152,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RECOMENDATION_16_9.jpg",
+                    "width": 100,
+                    "height": 56,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_16_9.jpg",
+                    "width": 1024,
+                    "height": 576,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_ARTIST_PAGE_3_2.jpg",
+                    "width": 305,
+                    "height": 203,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_LANDSCAPE_16_9.jpg",
+                    "width": 1136,
+                    "height": 639,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_TABLET_LANDSCAPE_3_2.jpg",
+                    "width": 1024,
+                    "height": 683,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_RETINA_PORTRAIT_16_9.jpg",
+                    "width": 640,
+                    "height": 360,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_SOURCE",
+                    "width": 3928,
+                    "height": 2210,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_EVENT_DETAIL_PAGE_16_9.jpg",
+                    "width": 205,
+                    "height": 115,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "4_3",
+                    "url": "https://s1.ticketm.net/dam/a/1eb/c274a768-ad52-4114-afd8-60453de451eb_CUSTOM.jpg",
+                    "width": 305,
+                    "height": 225,
+                    "fallback": false
+                  }
+                ],
+                "classifications": [
+                  {
+                    "primary": true,
+                    "segment": {
+                      "id": "KZFzniwnSyZfZ7v7nJ",
+                      "name": "Music"
+                    },
+                    "genre": {
+                      "id": "KnvZfZ7vAvF",
+                      "name": "Dance/Electronic"
+                    },
+                    "subGenre": {
+                      "id": "KZazBEonSMnZfZ7vA1E",
+                      "name": "Dance/Electronic"
+                    },
+                    "type": {
+                      "id": "KZAyXgnZfZ7v7la",
+                      "name": "Individual"
+                    },
+                    "subType": {
+                      "id": "KZFzBErXgnZfZ7vAd7",
+                      "name": "Musician"
+                    },
+                    "family": false
+                  }
+                ],
+                "upcomingEvents": {
+                  "universe": 1,
+                  "tmr": 10,
+                  "ticketmaster": 1,
+                  "_total": 12,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/attractions/K8vZ9174C6f?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rush, Def Leppard, Joan Jett, AC/DC Tributes",
+          "type": "event",
+          "id": "rZ7HnEZ1A4Z6ON",
+          "test": false,
+          "url": "https://www.ticketweb.com/event/rush-def-leppard-joan-jett-garden-amphitheatre-tickets/15007823",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640,
+              "height": 427,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": true
+            },
+            {
+              "url": "https://i.ticketweb.com/i/00/13/61/01/83_Edp.jpg?v=9",
+              "width": 341,
+              "height": 427,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": true
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dbimages/182738a.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dbimages/182737a.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": false
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "2026-08-02T02:00:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-15T04:00:00Z"
+            }
+          },
+          "dates": {
+            "access": {
+              "startDateTime": "2026-08-15T00:00:00Z",
+              "startApproximate": false,
+              "endDateTime": "2026-08-15T05:00:00Z",
+              "endApproximate": false
+            },
+            "start": {
+              "localDate": "2026-08-14",
+              "localTime": "17:00:00",
+              "dateTime": "2026-08-15T00:00:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "end": {
+              "localDate": "2026-08-14",
+              "localTime": "22:00:00",
+              "dateTime": "2026-08-15T05:00:00Z",
+              "approximate": false,
+              "noSpecificTime": false
+            },
+            "timezone": "America/Los_Angeles",
+            "status": {
+              "code": "onsale"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAeA",
+                "name": "Rock"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7v6an",
+                "name": "Rock & Roll"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            },
+            {
+              "primary": false,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAvl",
+                "name": "Other"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            },
+            {
+              "primary": false,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAvt",
+                "name": "Metal"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vk6E",
+                "name": "Metal"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            },
+            {
+              "primary": false,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAeA",
+                "name": "Rock"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7v6an",
+                "name": "Rock & Roll"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            }
+          ],
+          "priceRanges": [
+            {
+              "type": "standard",
+              "currency": "USD",
+              "min": 12.25,
+              "max": 12.25
+            }
+          ],
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/rZ7HnEZ1A4Z6ON?locale=en-us"
+            },
+            "attractions": [
+              {
+                "href": "/discovery/v2/attractions/K8vZ917GyW0?locale=en-us"
+              }
+            ],
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/rZ7HnEZ178Ve4?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "Garden Amphitheatre",
+                "type": "venue",
+                "id": "rZ7HnEZ178Ve4",
+                "test": false,
+                "url": "https://www.ticketweb.com/venue/garden-amphitheatre-garden-grove-ca/434095",
+                "locale": "en-us",
+                "postalCode": "92840",
+                "timezone": "America/Los_Angeles",
+                "city": {
+                  "name": "Garden Grove"
+                },
+                "state": {
+                  "name": "California",
+                  "stateCode": "CA"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "12762 Main Street"
+                },
+                "location": {
+                  "longitude": "-117.940602",
+                  "latitude": "33.777011"
+                },
+                "upcomingEvents": {
+                  "ticketweb": 45,
+                  "_total": 45,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/rZ7HnEZ178Ve4?locale=en-us"
+                  }
+                }
+              }
+            ],
+            "attractions": [
+              {
+                "name": "Hysteria",
+                "type": "attraction",
+                "id": "K8vZ917GyW0",
+                "test": false,
+                "url": "https://www.ticketmaster.com/hysteria-tickets/artist/1485296",
+                "locale": "en-us",
+                "images": [
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_ARTIST_PAGE_3_2.jpg",
+                    "width": 305,
+                    "height": 203,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_16_9.jpg",
+                    "width": 1024,
+                    "height": 576,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                    "width": 2048,
+                    "height": 1152,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_LANDSCAPE_16_9.jpg",
+                    "width": 1136,
+                    "height": 639,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_3_2.jpg",
+                    "width": 1024,
+                    "height": 683,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_PORTRAIT_3_2.jpg",
+                    "width": 640,
+                    "height": 427,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RETINA_PORTRAIT_16_9.jpg",
+                    "width": 640,
+                    "height": 360,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_RECOMENDATION_16_9.jpg",
+                    "width": 100,
+                    "height": 56,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "4_3",
+                    "url": "https://s1.ticketm.net/dbimages/182738a.jpg",
+                    "width": 305,
+                    "height": 225,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dbimages/182737a.jpg",
+                    "width": 205,
+                    "height": 115,
+                    "fallback": false
+                  }
+                ],
+                "classifications": [
+                  {
+                    "primary": true,
+                    "segment": {
+                      "id": "KZFzniwnSyZfZ7v7nJ",
+                      "name": "Music"
+                    },
+                    "genre": {
+                      "id": "KnvZfZ7vAe6",
+                      "name": "Undefined"
+                    },
+                    "subGenre": {
+                      "id": "KZazBEonSMnZfZ7v6JI",
+                      "name": "Undefined"
+                    },
+                    "type": {
+                      "id": "KZAyXgnZfZ7v7l1",
+                      "name": "Group"
+                    },
+                    "subType": {
+                      "id": "KZFzBErXgnZfZ7vAAI",
+                      "name": "Tribute Band"
+                    },
+                    "family": false
+                  }
+                ],
+                "upcomingEvents": {
+                  "ticketweb": 1,
+                  "_total": 1,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/attractions/K8vZ917GyW0?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-15T00%3A00%3A00Z&classificationName=music&stateCode=CA&endDateTime=2026-08-22T00%3A00%3A00Z&page=0&size=2&sort=date,asc"
+      },
+      "self": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-15T00%3A00%3A00Z&size=2&classificationName=music&stateCode=CA&page=0&sort=date%2Casc&endDateTime=2026-08-22T00%3A00%3A00Z"
+      },
+      "next": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-15T00%3A00%3A00Z&classificationName=music&stateCode=CA&endDateTime=2026-08-22T00%3A00%3A00Z&page=1&size=2&sort=date,asc"
+      },
+      "last": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-15T00%3A00%3A00Z&classificationName=music&stateCode=CA&endDateTime=2026-08-22T00%3A00%3A00Z&page=174&size=2&sort=date,asc"
+      }
+    },
+    "page": {
+      "size": 2,
+      "totalElements": 349,
+      "totalPages": 175,
+      "number": 0
+    }
+  }
+}

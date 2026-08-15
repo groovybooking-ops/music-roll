@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dd2-7da6-a5e5-c092860728b4",
+  "candidateId": "mr_candidate_01a00223-5dd2-7a11-93ed-593261f5331e",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.346Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:623896224e74b1b9ba1ba3aebcf0605265093a70f7f2a115b9b456304918fd83",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-008",
+      "sourceUrl": "https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU",
+      "rawArtistName": "Solange",
+      "normalizedArtistName": "solange",
+      "spotifyArtistId": "2auiVi8sUZo17dLy1HwrTU",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

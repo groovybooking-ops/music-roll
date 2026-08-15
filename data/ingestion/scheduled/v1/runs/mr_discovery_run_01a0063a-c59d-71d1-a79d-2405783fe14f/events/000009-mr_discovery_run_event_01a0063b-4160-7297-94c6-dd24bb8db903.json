@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a0063b-4160-7297-94c6-dd24bb8db903",
+  "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+  "eventType": "provider_execution_recorded",
+  "previousRevision": 8,
+  "runRevision": 9,
+  "phase": null,
+  "disposition": null,
+  "occurredAt": "2026-08-15T16:22:21.792Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_provider_controller_v1"
+  },
+  "payload": {
+    "provider": "discogs",
+    "metrics": {
+      "requestsAttempted": 4,
+      "successfulRequests": 4,
+      "cacheHits": 0,
+      "errors": 0,
+      "retries": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0
+    },
+    "circuitBreaker": {
+      "schemaVersion": 1,
+      "provider": "discogs",
+      "state": "closed",
+      "revision": 0,
+      "openedAt": null,
+      "failureCount": 0,
+      "lastFailureType": null,
+      "nextProbeAt": null,
+      "reason": null,
+      "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+      "createdAt": "2026-08-15T16:22:21.790Z",
+      "updatedAt": "2026-08-15T16:22:21.790Z"
+    },
+    "stopReason": null
+  }
+}

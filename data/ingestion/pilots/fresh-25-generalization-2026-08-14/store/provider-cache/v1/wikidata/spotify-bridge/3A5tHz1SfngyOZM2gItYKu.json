@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "3A5tHz1SfngyOZM2gItYKu",
+  "retrievedAt": "2026-08-14T21:44:58.178Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "3A5tHz1SfngyOZM2gItYKu",
+      "wikidataQid": "Q1033188",
+      "name": "Earl Sweatshirt",
+      "musicBrainzArtistId": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+      "discogsArtistId": "1967265"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q1033188"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "8b22acd6-20e6-4463-a75c-c14b5cfdb666"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1967265"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Earl Sweatshirt"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

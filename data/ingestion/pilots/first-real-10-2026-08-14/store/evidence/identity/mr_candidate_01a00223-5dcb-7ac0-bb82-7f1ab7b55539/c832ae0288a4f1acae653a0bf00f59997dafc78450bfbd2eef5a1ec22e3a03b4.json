@@ -1,0 +1,149 @@
+{
+  "evidenceId": "sha256:c832ae0288a4f1acae653a0bf00f59997dafc78450bfbd2eef5a1ec22e3a03b4",
+  "createdAt": "2026-08-14T21:18:43.029Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dcb-7ac0-bb82-7f1ab7b55539",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Hotline TNT",
+        "spotifyArtistId": "5DDuwU1X2Aqdp3CxfXstRe"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "exact_url_not_found",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5DDuwU1X2Aqdp3CxfXstRe",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "5DDuwU1X2Aqdp3CxfXstRe",
+          "observedValues": [
+            "5DDuwU1X2Aqdp3CxfXstRe"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5DDuwU1X2Aqdp3CxfXstRe",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false
+      },
+      "missingEvidence": [
+        "wikidata_qid",
+        "musicbrainz_artist_id",
+        "discogs_artist_id",
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "5DDuwU1X2Aqdp3CxfXstRe",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 5DDuwU1X2Aqdp3CxfXstRe."
+        }
+      ],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "5DDuwU1X2Aqdp3CxfXstRe",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 5DDuwU1X2Aqdp3CxfXstRe."
+        }
+      ],
+      "musicBrainzRecords": {},
+      "discogsRecords": {},
+      "musicBrainzFingerprints": {},
+      "wikidataClaims": [],
+      "exactSpotifyUrlLookup": {
+        "spotifyArtistUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+        "exactUrlFound": false,
+        "candidates": [],
+        "raw": null
+      }
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/spotify-url/5DDuwU1X2Aqdp3CxfXstRe.json",
+    "provider-cache/v1/wikidata/spotify-bridge/5DDuwU1X2Aqdp3CxfXstRe.json"
+  ]
+}

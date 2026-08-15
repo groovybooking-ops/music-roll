@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+  "reviewOnly": true,
+  "phases": {
+    "created": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:21:50.109Z",
+      "eventId": "mr_discovery_run_event_01a0063a-c59d-7934-9a82-6367089da29c",
+      "checkpointRefs": []
+    },
+    "spotify_discovery_complete_or_skipped": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:21:50.724Z",
+      "eventId": "mr_discovery_run_event_01a0063a-c804-78c8-940e-989ace5b6365",
+      "checkpointRefs": [
+        "checkpoints/spotify/spotify_live_bounded_discovery_v1/v1/cb3cbcda5fc81aac194c47e97b2d6ddc5d8e58c91f8f6cf616838f740677b98d/history/000002.json",
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/spotify-discovery.json"
+      ]
+    },
+    "ticketmaster_discovery_complete_or_skipped": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:21:51.031Z",
+      "eventId": "mr_discovery_run_event_01a0063a-c937-79bc-86dc-7531b3009a67",
+      "checkpointRefs": [
+        "checkpoints/ticketmaster/ticketmaster_live_bounded_discovery_v1/v1/9ba68d3fea8e425c2d8f5142930c8b3a9a1a91ec3ec20c45a1c78f8dad0b3815/history/000002.json",
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/ticketmaster-discovery.json"
+      ]
+    },
+    "convergence_complete": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:21:51.084Z",
+      "eventId": "mr_discovery_run_event_01a0063a-c96c-7a9c-8196-3e362e3bfe51",
+      "checkpointRefs": [
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/convergence.json"
+      ]
+    },
+    "stage3_complete": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:22:21.795Z",
+      "eventId": "mr_discovery_run_event_01a0063b-4163-7157-a2be-a131f00822d8",
+      "checkpointRefs": [
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/stage3-eligible-snapshot.json",
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/stage3.json"
+      ]
+    },
+    "identity_discovery_complete": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:22:21.933Z",
+      "eventId": "mr_discovery_run_event_01a0063b-41ed-7606-9a53-64310e460eff",
+      "checkpointRefs": [
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/identity-discovery-eligible-snapshot.json",
+        "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/identity-discovery.json"
+      ]
+    },
+    "summary_complete": {
+      "status": "completed",
+      "disposition": "completed",
+      "completedAt": "2026-08-15T16:22:21.945Z",
+      "eventId": "mr_discovery_run_event_01a0063b-41f9-75f3-bdd4-aaa78bd67cd3",
+      "checkpointRefs": [
+        "summaries/daily/2026-08-15.json"
+      ]
+    }
+  },
+  "providers": {
+    "spotify": {
+      "requests": 2,
+      "successfulRequests": 2,
+      "cacheHits": 0,
+      "retries": 0,
+      "errors": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0,
+      "circuitBreaker": {
+        "schemaVersion": 1,
+        "provider": "spotify",
+        "state": "closed",
+        "revision": 0,
+        "openedAt": null,
+        "failureCount": 0,
+        "lastFailureType": null,
+        "nextProbeAt": null,
+        "reason": null,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "createdAt": "2026-08-15T16:21:50.720Z",
+        "updatedAt": "2026-08-15T16:21:50.722Z"
+      },
+      "stopReasons": []
+    },
+    "ticketmaster": {
+      "requests": 1,
+      "successfulRequests": 1,
+      "cacheHits": 0,
+      "retries": 0,
+      "errors": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0,
+      "circuitBreaker": {
+        "schemaVersion": 1,
+        "provider": "ticketmaster",
+        "state": "closed",
+        "revision": 0,
+        "openedAt": null,
+        "failureCount": 0,
+        "lastFailureType": null,
+        "nextProbeAt": null,
+        "reason": null,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "createdAt": "2026-08-15T16:21:51.023Z",
+        "updatedAt": "2026-08-15T16:21:51.026Z"
+      },
+      "stopReasons": []
+    },
+    "wikidata": {
+      "requests": 4,
+      "successfulRequests": 4,
+      "cacheHits": 0,
+      "retries": 0,
+      "errors": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0,
+      "circuitBreaker": {
+        "schemaVersion": 1,
+        "provider": "wikidata",
+        "state": "closed",
+        "revision": 0,
+        "openedAt": null,
+        "failureCount": 0,
+        "lastFailureType": null,
+        "nextProbeAt": null,
+        "reason": null,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "createdAt": "2026-08-15T16:22:21.783Z",
+        "updatedAt": "2026-08-15T16:22:21.784Z"
+      },
+      "stopReasons": []
+    },
+    "musicbrainz": {
+      "requests": 10,
+      "successfulRequests": 10,
+      "cacheHits": 0,
+      "retries": 1,
+      "errors": 0,
+      "retryAfterWaits": 1,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0,
+      "circuitBreaker": {
+        "schemaVersion": 1,
+        "provider": "musicbrainz",
+        "state": "closed",
+        "revision": 0,
+        "openedAt": null,
+        "failureCount": 0,
+        "lastFailureType": null,
+        "nextProbeAt": null,
+        "reason": null,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "createdAt": "2026-08-15T16:22:21.928Z",
+        "updatedAt": "2026-08-15T16:22:21.929Z"
+      },
+      "stopReasons": []
+    },
+    "discogs": {
+      "requests": 4,
+      "successfulRequests": 4,
+      "cacheHits": 0,
+      "retries": 0,
+      "errors": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0,
+      "circuitBreaker": {
+        "schemaVersion": 1,
+        "provider": "discogs",
+        "state": "closed",
+        "revision": 0,
+        "openedAt": null,
+        "failureCount": 0,
+        "lastFailureType": null,
+        "nextProbeAt": null,
+        "reason": null,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "createdAt": "2026-08-15T16:22:21.790Z",
+        "updatedAt": "2026-08-15T16:22:21.792Z"
+      },
+      "stopReasons": []
+    }
+  },
+  "checkpoints": [
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:cb3cbcda5fc81aac194c47e97b2d6ddc5d8e58c91f8f6cf616838f740677b98d",
+      "provider": "spotify",
+      "adapterId": "spotify_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:05325368998e90de1cf00c7b1ea0fab1b906fc80fc4fdd818e5fbc2f2df11f07",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": null,
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json",
+      "createdAt": "2026-08-15T16:21:50.109Z",
+      "updatedAt": "2026-08-15T16:21:50.720Z"
+    },
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:9ba68d3fea8e425c2d8f5142930c8b3a9a1a91ec3ec20c45a1c78f8dad0b3815",
+      "provider": "ticketmaster",
+      "adapterId": "ticketmaster_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:b9efe03314098810d363492aa2ac4ec47b5c181380ec3e17ff9e2723a5d9b3a3",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": {
+        "startDateTime": "2026-08-16T00:00:00Z",
+        "endDateTime": "2026-08-22T00:00:00Z"
+      },
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/ticketmaster/6369d2ff6ec661a927a97fefd787e413a0a8afb972ab34dc14c49f98608118e1.json",
+      "createdAt": "2026-08-15T16:21:50.109Z",
+      "updatedAt": "2026-08-15T16:21:51.023Z"
+    }
+  ],
+  "budgetConsumption": {
+    "providers": {
+      "spotify": {
+        "requests": 2,
+        "pages": 1,
+        "normalizedOccurrences": 4,
+        "newCandidates": 4
+      },
+      "ticketmaster": {
+        "requests": 1,
+        "pages": 1,
+        "normalizedOccurrences": 1,
+        "newCandidates": 1
+      }
+    },
+    "workers": {
+      "stage3Candidates": 3,
+      "identityDiscoveryCandidates": 1
+    }
+  },
+  "discovery": {
+    "spotify": 4,
+    "ticketmaster": 1
+  },
+  "convergence": {
+    "schemaVersion": 1,
+    "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+    "createdAt": "2026-08-15T16:21:51.083Z",
+    "queueBefore": {
+      "total": 0,
+      "byState": {}
+    },
+    "queueAfter": {
+      "total": 5,
+      "byState": {
+        "identity_discovery_pending": 1,
+        "identity_pending": 4
+      }
+    },
+    "queueGrowth": 5,
+    "createdByProvider": {
+      "spotify": 4,
+      "ticketmaster": 1
+    },
+    "results": [
+      {
+        "provider": "spotify",
+        "occurrenceId": "sha256:7e0a2be62e858279c00247c7008b9fa7c1c941b9b31faa070a52613f1ada5b1a",
+        "artistName": "Björk",
+        "providerEntityId": "7w29UYBi0qsHi5RTcv3lmA",
+        "action": "create_new_candidate",
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+        "lifecycleState": "identity_pending",
+        "occurrenceCreated": true,
+        "createdCandidate": true
+      },
+      {
+        "provider": "spotify",
+        "occurrenceId": "sha256:e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd",
+        "artistName": "The Sugarcubes",
+        "providerEntityId": "1G0Xwj8mza6b03iYkVdzDP",
+        "action": "create_new_candidate",
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+        "lifecycleState": "identity_pending",
+        "occurrenceCreated": true,
+        "createdCandidate": true
+      },
+      {
+        "provider": "spotify",
+        "occurrenceId": "sha256:3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e",
+        "artistName": "Fiona Apple",
+        "providerEntityId": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "action": "create_new_candidate",
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+        "lifecycleState": "identity_pending",
+        "occurrenceCreated": true,
+        "createdCandidate": true
+      },
+      {
+        "provider": "spotify",
+        "occurrenceId": "sha256:a9394371fd7a9dc4825c9e200231ce3d9c7dadba07291e4f0ea18b03b3f8840a",
+        "artistName": "Andreas Björkstrand",
+        "providerEntityId": "4C0SwV2WJqRW290Xz2HIfV",
+        "action": "create_new_candidate",
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+        "lifecycleState": "identity_pending",
+        "occurrenceCreated": true,
+        "createdCandidate": true
+      },
+      {
+        "provider": "ticketmaster",
+        "occurrenceId": "sha256:b8d237fa6957fd5584f0db8e97d3a06b0e2421b50361d0306e892799f7a5dd2b",
+        "artistName": "Charles Mingus Orchestra",
+        "providerEntityId": "K8vZ917GmE7",
+        "action": "create_identity_discovery_candidate",
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+        "lifecycleState": "identity_discovery_pending",
+        "occurrenceCreated": true,
+        "createdCandidate": true
+      }
+    ],
+    "reviewOnly": true
+  },
+  "stage3": {
+    "schemaVersion": 1,
+    "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+    "snapshotRef": "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/stage3-eligible-snapshot.json",
+    "completedAt": "2026-08-15T16:22:21.783Z",
+    "selected": 3,
+    "metrics": {
+      "cacheHits": 0,
+      "liveRequests": 17,
+      "retries": 1,
+      "immutableEvidenceReuses": 0,
+      "immutableEvidenceWrites": 3,
+      "byProvider": {
+        "wikidata": {
+          "cacheHits": 0,
+          "liveRequests": 4
+        },
+        "musicbrainz": {
+          "cacheHits": 0,
+          "liveRequests": 9
+        },
+        "discogs": {
+          "cacheHits": 0,
+          "liveRequests": 4
+        }
+      }
+    },
+    "results": [
+      {
+        "schemaVersion": 1,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+        "completedAt": "2026-08-15T16:21:51.086Z",
+        "workerResult": {
+          "selected": 1,
+          "processed": 1,
+          "retryWait": 0,
+          "staleRevisions": 0,
+          "workerErrors": 0,
+          "results": [
+            {
+              "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+              "status": "processed",
+              "outcome": "provider_profile_multiplicity",
+              "state": "needs_review",
+              "evidenceRef": "evidence/identity/mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4/d3b58498417790f43dfed07e6a4098ce87ca465199b224a750ac956e0942e4eb.json"
+            }
+          ]
+        },
+        "reviewOnly": true
+      },
+      {
+        "schemaVersion": 1,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+        "completedAt": "2026-08-15T16:22:17.421Z",
+        "workerResult": {
+          "selected": 1,
+          "processed": 1,
+          "retryWait": 0,
+          "staleRevisions": 0,
+          "workerErrors": 0,
+          "results": [
+            {
+              "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+              "status": "processed",
+              "outcome": "unresolved_identity",
+              "state": "failed_match",
+              "evidenceRef": "evidence/identity/mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016/db76e4892e3a7d237c8c84d3d8d5eec58ac01c71687255bf33c31b57973c11d7.json"
+            }
+          ]
+        },
+        "reviewOnly": true
+      },
+      {
+        "schemaVersion": 1,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "candidateId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+        "completedAt": "2026-08-15T16:22:19.577Z",
+        "workerResult": {
+          "selected": 1,
+          "processed": 1,
+          "retryWait": 0,
+          "staleRevisions": 0,
+          "workerErrors": 0,
+          "results": [
+            {
+              "candidateId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+              "status": "processed",
+              "outcome": "coherent_identity_evidence",
+              "state": "identity_coherent",
+              "evidenceRef": "evidence/identity/mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e/9d76271d90ee4f56009f87d257d29442749ef8aa624731b8f6c8b4b216b248c4.json"
+            }
+          ]
+        },
+        "reviewOnly": true
+      }
+    ],
+    "reviewOnly": true
+  },
+  "identityDiscovery": {
+    "schemaVersion": 1,
+    "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+    "snapshotRef": "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/identity-discovery-eligible-snapshot.json",
+    "completedAt": "2026-08-15T16:22:21.928Z",
+    "selected": 1,
+    "metrics": {
+      "cacheHits": 0,
+      "cacheMisses": 1,
+      "liveRequests": 1,
+      "retries": 0,
+      "immutableEvidenceWrites": 1,
+      "immutableEvidenceReuses": 0,
+      "byProvider": {
+        "musicbrainz": {
+          "cacheHits": 0,
+          "cacheMisses": 0,
+          "liveRequests": 1
+        }
+      }
+    },
+    "results": [
+      {
+        "schemaVersion": 1,
+        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "candidateId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+        "completedAt": "2026-08-15T16:22:21.799Z",
+        "workerResult": {
+          "selected": 1,
+          "processed": 1,
+          "skippedCacheMiss": 0,
+          "retryWait": 0,
+          "staleRevisions": 0,
+          "workerErrors": 0,
+          "results": [
+            {
+              "candidateId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+              "status": "processed",
+              "decision": "completed_without_safe_exact_bridge",
+              "spotifyArtistId": null,
+              "state": "needs_review",
+              "evidenceRef": "evidence/identity-discovery/mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0/33975b2f3b6d507bd14155699eb93cc8e35658b5bb06372b959f7e53b9351a69.json"
+            }
+          ]
+        },
+        "reviewOnly": true
+      }
+    ],
+    "stage3ChainingAllowed": false,
+    "reviewOnly": true
+  },
+  "queueBefore": {
+    "total": 0,
+    "byState": {}
+  },
+  "queueAfter": {
+    "total": 5,
+    "byState": {
+      "failed_match": 1,
+      "identity_coherent": 1,
+      "identity_pending": 1,
+      "needs_review": 2
+    }
+  },
+  "queueGrowth": 5,
+  "dailySummary": {
+    "schemaVersion": 1,
+    "summaryType": "daily_operational",
+    "date": "2026-08-15",
+    "period": {
+      "start": "2026-08-15T00:00:00.000Z",
+      "end": "2026-08-16T00:00:00.000Z"
+    },
+    "generatedAt": "2026-08-16T00:00:00.000Z",
+    "runIds": [
+      "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f"
+    ],
+    "providers": {
+      "spotify": {
+        "requests": 2,
+        "successfulRequests": 2,
+        "cacheHits": 0,
+        "retries": 0,
+        "errors": 0,
+        "retryAfterWaits": 0,
+        "permanentAbsences": 0,
+        "authenticationFailures": 0,
+        "transientFailures": 0,
+        "candidatesSkippedLaneOpen": 0,
+        "circuitBreaker": {
+          "schemaVersion": 1,
+          "provider": "spotify",
+          "state": "closed",
+          "revision": 0,
+          "openedAt": null,
+          "failureCount": 0,
+          "lastFailureType": null,
+          "nextProbeAt": null,
+          "reason": null,
+          "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+          "createdAt": "2026-08-15T16:21:50.720Z",
+          "updatedAt": "2026-08-15T16:21:50.722Z"
+        },
+        "stopReasons": []
+      },
+      "ticketmaster": {
+        "requests": 1,
+        "successfulRequests": 1,
+        "cacheHits": 0,
+        "retries": 0,
+        "errors": 0,
+        "retryAfterWaits": 0,
+        "permanentAbsences": 0,
+        "authenticationFailures": 0,
+        "transientFailures": 0,
+        "candidatesSkippedLaneOpen": 0,
+        "circuitBreaker": {
+          "schemaVersion": 1,
+          "provider": "ticketmaster",
+          "state": "closed",
+          "revision": 0,
+          "openedAt": null,
+          "failureCount": 0,
+          "lastFailureType": null,
+          "nextProbeAt": null,
+          "reason": null,
+          "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+          "createdAt": "2026-08-15T16:21:51.023Z",
+          "updatedAt": "2026-08-15T16:21:51.026Z"
+        },
+        "stopReasons": []
+      },
+      "wikidata": {
+        "requests": 4,
+        "successfulRequests": 4,
+        "cacheHits": 0,
+        "retries": 0,
+        "errors": 0,
+        "retryAfterWaits": 0,
+        "permanentAbsences": 0,
+        "authenticationFailures": 0,
+        "transientFailures": 0,
+        "candidatesSkippedLaneOpen": 0,
+        "circuitBreaker": {
+          "schemaVersion": 1,
+          "provider": "wikidata",
+          "state": "closed",
+          "revision": 0,
+          "openedAt": null,
+          "failureCount": 0,
+          "lastFailureType": null,
+          "nextProbeAt": null,
+          "reason": null,
+          "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+          "createdAt": "2026-08-15T16:22:21.783Z",
+          "updatedAt": "2026-08-15T16:22:21.784Z"
+        },
+        "stopReasons": []
+      },
+      "musicbrainz": {
+        "requests": 10,
+        "successfulRequests": 10,
+        "cacheHits": 0,
+        "retries": 1,
+        "errors": 0,
+        "retryAfterWaits": 1,
+        "permanentAbsences": 0,
+        "authenticationFailures": 0,
+        "transientFailures": 0,
+        "candidatesSkippedLaneOpen": 0,
+        "circuitBreaker": {
+          "schemaVersion": 1,
+          "provider": "musicbrainz",
+          "state": "closed",
+          "revision": 0,
+          "openedAt": null,
+          "failureCount": 0,
+          "lastFailureType": null,
+          "nextProbeAt": null,
+          "reason": null,
+          "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+          "createdAt": "2026-08-15T16:22:21.928Z",
+          "updatedAt": "2026-08-15T16:22:21.929Z"
+        },
+        "stopReasons": []
+      },
+      "discogs": {
+        "requests": 4,
+        "successfulRequests": 4,
+        "cacheHits": 0,
+        "retries": 0,
+        "errors": 0,
+        "retryAfterWaits": 0,
+        "permanentAbsences": 0,
+        "authenticationFailures": 0,
+        "transientFailures": 0,
+        "candidatesSkippedLaneOpen": 0,
+        "circuitBreaker": {
+          "schemaVersion": 1,
+          "provider": "discogs",
+          "state": "closed",
+          "revision": 0,
+          "openedAt": null,
+          "failureCount": 0,
+          "lastFailureType": null,
+          "nextProbeAt": null,
+          "reason": null,
+          "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+          "createdAt": "2026-08-15T16:22:21.790Z",
+          "updatedAt": "2026-08-15T16:22:21.792Z"
+        },
+        "stopReasons": []
+      }
+    },
+    "checkpoints": [
+      {
+        "schemaVersion": 1,
+        "checkpointId": "sha256:cb3cbcda5fc81aac194c47e97b2d6ddc5d8e58c91f8f6cf616838f740677b98d",
+        "provider": "spotify",
+        "adapterId": "spotify_live_bounded_discovery_v1",
+        "adapterVersion": "v1",
+        "stableConfigurationHash": "sha256:05325368998e90de1cf00c7b1ea0fab1b906fc80fc4fdd818e5fbc2f2df11f07",
+        "revision": 2,
+        "position": {
+          "providerPage": 1,
+          "cursor": null,
+          "itemOffset": 0
+        },
+        "rollingWindowIdentity": null,
+        "exhausted": true,
+        "lastCompletedRunId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "latestRawPageEvidenceRef": "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json",
+        "createdAt": "2026-08-15T16:21:50.109Z",
+        "updatedAt": "2026-08-15T16:21:50.720Z"
+      },
+      {
+        "schemaVersion": 1,
+        "checkpointId": "sha256:9ba68d3fea8e425c2d8f5142930c8b3a9a1a91ec3ec20c45a1c78f8dad0b3815",
+        "provider": "ticketmaster",
+        "adapterId": "ticketmaster_live_bounded_discovery_v1",
+        "adapterVersion": "v1",
+        "stableConfigurationHash": "sha256:b9efe03314098810d363492aa2ac4ec47b5c181380ec3e17ff9e2723a5d9b3a3",
+        "revision": 2,
+        "position": {
+          "providerPage": 1,
+          "cursor": null,
+          "itemOffset": 0
+        },
+        "rollingWindowIdentity": {
+          "startDateTime": "2026-08-16T00:00:00Z",
+          "endDateTime": "2026-08-22T00:00:00Z"
+        },
+        "exhausted": true,
+        "lastCompletedRunId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+        "latestRawPageEvidenceRef": "discovery/provider-listing-cache/ticketmaster/6369d2ff6ec661a927a97fefd787e413a0a8afb972ab34dc14c49f98608118e1.json",
+        "createdAt": "2026-08-15T16:21:50.109Z",
+        "updatedAt": "2026-08-15T16:21:51.023Z"
+      }
+    ],
+    "budgets": {
+      "providers": {
+        "spotify": {
+          "requests": 2,
+          "pages": 1,
+          "normalizedOccurrences": 4,
+          "newCandidates": 4
+        },
+        "ticketmaster": {
+          "requests": 1,
+          "pages": 1,
+          "normalizedOccurrences": 1,
+          "newCandidates": 1
+        }
+      },
+      "workers": {
+        "stage3Candidates": 3,
+        "identityDiscoveryCandidates": 1
+      },
+      "stopReasons": []
+    },
+    "discovery": {
+      "normalizedOccurrences": 5,
+      "byProvider": {
+        "spotify": 4,
+        "ticketmaster": 1
+      },
+      "existingLiveArtistRediscoveries": 0,
+      "candidateAttachments": 0,
+      "newCandidates": 5
+    },
+    "queue": {
+      "before": {},
+      "after": {
+        "failed_match": 1,
+        "identity_coherent": 1,
+        "identity_pending": 1,
+        "needs_review": 2
+      },
+      "growthByState": {
+        "failed_match": 1,
+        "identity_coherent": 1,
+        "identity_pending": 1,
+        "needs_review": 2
+      },
+      "netGrowth": 5,
+      "agePercentiles": {
+        "p50Hours": 7.6358,
+        "p75Hours": 7.6358,
+        "p90Hours": 7.6358,
+        "p95Hours": 7.6358,
+        "maxHours": 7.6358
+      },
+      "oldestPendingOrRetryCandidates": [
+        {
+          "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+          "artistName": "Andreas Björkstrand",
+          "state": "identity_pending",
+          "firstDiscoveredAt": "2026-08-15T16:21:51.073Z",
+          "ageHours": 7.6358
+        }
+      ]
+    },
+    "workers": {
+      "stage3": {
+        "selections": 3,
+        "outcomesByState": {
+          "failed_match": 1,
+          "identity_coherent": 1,
+          "needs_review": 1
+        },
+        "outcomesByIdentityOutcome": {
+          "coherent_identity_evidence": 1,
+          "provider_profile_multiplicity": 1,
+          "unresolved_identity": 1
+        }
+      },
+      "identityDiscovery": {
+        "selections": 1,
+        "outcomesByState": {
+          "needs_review": 1
+        },
+        "outcomesByBridgeOutcome": {
+          "completed_without_safe_exact_bridge": 1
+        }
+      },
+      "newlyEntered": {
+        "needs_review": [
+          "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+          "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0"
+        ],
+        "conflicting_identity": [],
+        "failed_match": [
+          "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016"
+        ],
+        "retry_wait": []
+      },
+      "retryExhaustion": {
+        "count": 0,
+        "candidateIds": []
+      }
+    },
+    "manualPause": {
+      "active": false,
+      "runs": []
+    },
+    "metrics": {
+      "discoveryYield": 1,
+      "rediscoveryRate": 0,
+      "duplicatePreventionRate": 0,
+      "identityCoherentRoutingRate": 0.3333,
+      "reviewRoutingRate": 0.5,
+      "failedMatchRate": 0.3333,
+      "ticketmasterExactBridgeRate": 0,
+      "retryRecoveryRate": null,
+      "retryExhaustionRate": null,
+      "medianDiscoveryToIdentityTerminalHours": 0.0082
+    },
+    "sourceArtifactCounts": {
+      "runs": 1,
+      "candidateEvents": 23,
+      "discoveryOccurrences": 5,
+      "discoveryAssociations": 5,
+      "evidenceArtifacts": 4
+    },
+    "reviewOnly": true,
+    "mutatesCandidateState": false,
+    "artifactDigest": "sha256:64875cb6d35cf8df3e3a4ade203ca8fc44baf4f27a405a9b336c72b7c93c7154"
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "after": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "unchanged": true
+  },
+  "safety": {
+    "approvals": 0,
+    "reservations": 0,
+    "migrationPerformed": false,
+    "stage3BarrierPreserved": true
+  }
+}

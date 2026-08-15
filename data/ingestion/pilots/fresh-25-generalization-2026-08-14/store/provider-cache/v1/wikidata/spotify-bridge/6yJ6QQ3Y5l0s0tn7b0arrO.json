@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6yJ6QQ3Y5l0s0tn7b0arrO",
+  "retrievedAt": "2026-08-14T21:45:07.264Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO",
+      "wikidataQid": "Q50415953",
+      "name": "JPEGMafia",
+      "musicBrainzArtistId": null,
+      "discogsArtistId": "4501713",
+      "musicBrainzArtistIds": [
+        "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+        "4a08f237-59f6-476d-a98f-66b19a7470ed",
+        "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q50415953"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4501713"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "JPEGMafia"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q50415953"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4501713"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "JPEGMafia"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q50415953"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4501713"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "JPEGMafia"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "7tYKF4w9nC0nq9CsPZTHyP": {
+    "label": "SZA-style coherent identity",
+    "acquisition": {
+      "wikidataBridge": { "spotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP", "wikidataQid": "Q16210722", "name": "SZA", "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "discogsArtistId": "3272791" },
+      "musicBrainzRecords": {
+        "272989c8-5535-492d-a25c-9f58803e027f": { "artist": { "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA", "artistType": "Person", "externalUrls": [{ "relationshipType": "streaming", "url": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/3272791" }] } }
+      },
+      "discogsRecords": { "3272791": { "artist": { "discogsArtistId": "3272791", "name": "SZA", "artistUrls": [], "aliases": [] } } },
+      "nameCandidates": [{ "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "272989c8-5535-492d-a25c-9f58803e027f", "name": "SZA", "externalUrls": [] }]
+    }
+  },
+  "6olE6TJLqED3rqDCT0FyPh": {
+    "label": "Nirvana-style same-name ambiguity",
+    "acquisition": {
+      "wikidataBridge": { "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh", "wikidataQid": "Q11649", "name": "Nirvana", "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "discogsArtistId": "125246" },
+      "musicBrainzRecords": {
+        "5b11f4ce-a62d-471e-81fc-a69a8278c7da": { "artist": { "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana", "artistType": "Group", "externalUrls": [{ "relationshipType": "streaming", "url": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/125246" }] } }
+      },
+      "discogsRecords": { "125246": { "artist": { "discogsArtistId": "125246", "name": "Nirvana", "artistUrls": [], "aliases": [] } } },
+      "nameCandidates": [{ "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana" }, { "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6", "name": "Nirvana", "country": "GB" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da", "name": "Nirvana", "externalUrls": [] }, { "musicBrainzArtistId": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6", "name": "Nirvana", "externalUrls": [{ "relationshipType": "discogs", "url": "https://www.discogs.com/artist/307513" }] }]
+    }
+  },
+  "6vWDO969PvNqNYHIOW5v0m": {
+    "label": "Beyonce-style provider multiplicity",
+    "acquisition": {
+      "wikidataBridge": { "spotifyArtistId": "6vWDO969PvNqNYHIOW5v0m", "wikidataQid": "Q36153", "name": "Beyoncé", "musicBrainzArtistId": "859d0860-d480-4efd-970c-c05d5f1776b8", "discogsArtistIds": ["112751", "52835"] },
+      "musicBrainzRecords": {
+        "859d0860-d480-4efd-970c-c05d5f1776b8": { "artist": { "musicBrainzArtistId": "859d0860-d480-4efd-970c-c05d5f1776b8", "name": "Beyoncé", "artistType": "Person", "lifeSpan": { "begin": "1981-09-04" }, "externalUrls": [{ "relationshipType": "streaming", "url": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/112751" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/52835" }] } }
+      },
+      "discogsRecords": {
+        "112751": { "artist": { "discogsArtistId": "112751", "name": "Beyoncé Knowles", "realName": "Beyoncé Giselle Knowles-Carter", "artistUrls": [], "aliases": [{ "discogsArtistId": "52835", "name": "Beyoncé" }] } },
+        "52835": { "artist": { "discogsArtistId": "52835", "name": "Beyoncé", "realName": "Beyoncé Giselle Knowles-Carter", "artistUrls": [], "aliases": [{ "discogsArtistId": "112751", "name": "Beyoncé Knowles" }] } }
+      },
+      "musicBrainzFingerprints": { "859d0860-d480-4efd-970c-c05d5f1776b8": { "releaseCount": 120, "distinctiveTitles": ["lemonade", "renaissance"], "earliestYear": 2003, "latestYear": 2026 } },
+      "nameCandidates": [{ "musicBrainzArtistId": "859d0860-d480-4efd-970c-c05d5f1776b8", "name": "Beyoncé" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "859d0860-d480-4efd-970c-c05d5f1776b8", "name": "Beyoncé", "externalUrls": [] }]
+    }
+  },
+  "0000000000000000000004": {
+    "label": "Wikidata missing with exact Spotify URL fallback",
+    "acquisition": {
+      "providerErrors": [{ "provider": "wikidata", "operation": "spotify_bridge", "statusCode": 404, "message": "No Wikidata bridge." }],
+      "exactSpotifyUrlLookup": { "spotifyArtistUrl": "https://open.spotify.com/artist/0000000000000000000004", "exactUrlFound": true, "candidates": [{ "musicBrainzArtistId": "00000000-0000-4000-8000-000000000004", "name": "Fallback Artist" }] },
+      "musicBrainzRecords": { "00000000-0000-4000-8000-000000000004": { "artist": { "musicBrainzArtistId": "00000000-0000-4000-8000-000000000004", "name": "Fallback Artist", "artistType": "Person", "externalUrls": [{ "relationshipType": "streaming", "url": "https://open.spotify.com/artist/0000000000000000000004" }, { "relationshipType": "discogs", "url": "https://www.discogs.com/artist/4004" }] } } },
+      "discogsRecords": { "4004": { "artist": { "discogsArtistId": "4004", "name": "Fallback Artist", "artistUrls": [], "aliases": [] } } },
+      "nameCandidates": [{ "musicBrainzArtistId": "00000000-0000-4000-8000-000000000004", "name": "Fallback Artist" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "00000000-0000-4000-8000-000000000004", "name": "Fallback Artist", "externalUrls": [] }]
+    }
+  },
+  "0000000000000000000005": {
+    "label": "insufficient evidence",
+    "acquisition": {
+      "wikidataBridge": { "spotifyArtistId": "0000000000000000000005", "wikidataQid": "Q5005", "name": "Insufficient Artist", "musicBrainzArtistId": "00000000-0000-4000-8000-000000000005" },
+      "musicBrainzRecords": { "00000000-0000-4000-8000-000000000005": { "artist": { "musicBrainzArtistId": "00000000-0000-4000-8000-000000000005", "name": "Insufficient Artist", "artistType": "Person", "externalUrls": [] } } },
+      "nameCandidates": [{ "musicBrainzArtistId": "00000000-0000-4000-8000-000000000005", "name": "Insufficient Artist" }],
+      "nameCandidateDetails": [{ "musicBrainzArtistId": "00000000-0000-4000-8000-000000000005", "name": "Insufficient Artist", "externalUrls": [] }]
+    }
+  },
+  "0000000000000000000006": {
+    "label": "semantic person-group conflict",
+    "acquisition": {
+      "wikidataBridge": { "spotifyArtistId": "0000000000000000000006", "wikidataQid": "Q6006", "name": "Conflict Artist", "musicBrainzArtistIds": ["00000000-0000-4000-8000-000000000006", "00000000-0000-4000-8000-000000000016"], "discogsArtistId": "6006" },
+      "musicBrainzRecords": {
+        "00000000-0000-4000-8000-000000000006": { "artist": { "musicBrainzArtistId": "00000000-0000-4000-8000-000000000006", "name": "Conflict Artist", "artistType": "Person", "lifeSpan": { "begin": "1990-01-01" }, "externalUrls": [{ "relationshipType": "streaming", "url": "https://open.spotify.com/artist/0000000000000000000006" }] } },
+        "00000000-0000-4000-8000-000000000016": { "artist": { "musicBrainzArtistId": "00000000-0000-4000-8000-000000000016", "name": "Conflict Artist", "artistType": "Group", "lifeSpan": { "begin": "1970-01-01" }, "externalUrls": [] } }
+      },
+      "discogsRecords": { "6006": { "artist": { "discogsArtistId": "6006", "name": "Conflict Artist", "artistUrls": [], "aliases": [] } } },
+      "musicBrainzFingerprints": { "00000000-0000-4000-8000-000000000006": { "releaseCount": 4, "distinctiveTitles": ["person album"], "earliestYear": 2010, "latestYear": 2020 }, "00000000-0000-4000-8000-000000000016": { "releaseCount": 5, "distinctiveTitles": ["group album"], "earliestYear": 1970, "latestYear": 1980 } }
+    }
+  },
+  "0000000000000000000007": {
+    "label": "temporary provider failure",
+    "temporaryFailure": { "message": "MusicBrainz fixture 503", "provider": "musicbrainz", "operation": "artist", "identifier": "fixture-mbid", "statusCode": 503 }
+  }
+}

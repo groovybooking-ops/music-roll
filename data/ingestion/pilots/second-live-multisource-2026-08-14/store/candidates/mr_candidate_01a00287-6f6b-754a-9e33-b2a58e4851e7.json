@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7",
+  "revision": 5,
+  "state": "failed_match",
+  "stateEnteredAt": "2026-08-14T23:34:40.831Z",
+  "createdAt": "2026-08-14T23:07:05.451Z",
+  "updatedAt": "2026-08-14T23:34:40.831Z",
+  "name": {
+    "raw": "Mc Beyonce",
+    "normalized": "mc beyonce"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:0cd23e64af7ce5d42b0aeb8453aa9159e2ff1e5f26a739942e3d738b0a6423e7",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:4:7vbtWyaqcB8RlHqqIKlHCU",
+      "sourceUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+      "rawArtistName": "Mc Beyonce",
+      "normalizedArtistName": "mc beyonce",
+      "spotifyArtistId": "7vbtWyaqcB8RlHqqIKlHCU",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "7vbtWyaqcB8RlHqqIKlHCU",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7/29eb862193cdde9b163db94cd731a3827d7c1e43f4f7d75bef2ad3e7a15a5b15.json",
+      "provider-cache/v1/wikidata/spotify-bridge/7vbtWyaqcB8RlHqqIKlHCU.json",
+      "provider-cache/v1/musicbrainz/spotify-url/7vbtWyaqcB8RlHqqIKlHCU.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "sameNameAmbiguity": "not_evaluated",
+      "competingEntities": []
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "provider_error_present",
+          "stored_spotify_not_confirmed_by_musicbrainz",
+          "no_positive_catalog_anchor",
+          "same_name_ambiguity_present_or_not_evaluated",
+          "wikidata_identifier_not_unique",
+          "musicbrainz_identifier_not_unique"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7vbtWyaqcB8RlHqqIKlHCU",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      }
+    ],
+    "providerErrors": [
+      {
+        "provider": "wikidata",
+        "operation": "spotify_bridge",
+        "identifier": "7vbtWyaqcB8RlHqqIKlHCU",
+        "statusCode": 404,
+        "message": "Wikidata has no artist bridge for Spotify ID 7vbtWyaqcB8RlHqqIKlHCU."
+      }
+    ],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T23:34:40.828Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "failed_match",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a002a0-b1bf-7604-9323-5ad35978d40a",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:39fcbe47c66580409e509498bd8dfc81dc8ceff191f7c914f13650e0df4cfc13",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7/2dd7f4abbefe6ec9fa9cbf491c3a9afdfea2bd2457222513b2f76f93ad22203f.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:7vbtWyaqcB8RlHqqIKlHCU"
+    }
+  ]
+}

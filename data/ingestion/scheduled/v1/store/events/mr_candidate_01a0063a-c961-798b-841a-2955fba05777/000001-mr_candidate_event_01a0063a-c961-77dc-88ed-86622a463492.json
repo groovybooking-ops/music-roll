@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0063a-c961-77dc-88ed-86622a463492",
+  "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:21:51.073Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/a9394371fd7a9dc4825c9e200231ce3d9c7dadba07291e4f0ea18b03b3f8840a.json",
+    "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:034dcc4184005f76645433f419211dafe818d42acfcda59911359f884d613078",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:3:4C0SwV2WJqRW290Xz2HIfV",
+      "sourceUrl": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV",
+      "rawArtistName": "Andreas Björkstrand",
+      "normalizedArtistName": "andreas björkstrand",
+      "spotifyArtistId": "4C0SwV2WJqRW290Xz2HIfV",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0026a-b2ef-7c1b-b8cb-9b3a619e865f",
+  "candidateId": "mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T22:35:42.191Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21.json",
+    "discovery/provider-listing-cache/spotify/c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:0c6b38a7fef3a64bc5669c90102ae0ca930e0f191b0448a9ba0c4a44188133f7",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-sza:result:2:33M4iSlHYWg8S5p7zvDzoI",
+      "sourceUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+      "rawArtistName": "Szady",
+      "normalizedArtistName": "szady",
+      "spotifyArtistId": "33M4iSlHYWg8S5p7zvDzoI",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T22:34:32.351Z"
+    }
+  }
+}

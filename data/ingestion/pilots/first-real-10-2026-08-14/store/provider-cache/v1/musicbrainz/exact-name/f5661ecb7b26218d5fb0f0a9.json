@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "f5661ecb7b26218d5fb0f0a9",
+  "retrievedAt": "2026-08-14T21:18:19.269Z",
+  "value": {
+    "requestedName": "Elmiene",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+        "name": "Elmiene",
+        "sortName": "Elmiene",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:18:19.212Z",
+      "count": 2,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Elmiene",
+          "sort-name": "Elmiene",
+          "gender": "male",
+          "area": {
+            "id": "33587495-c775-4483-b819-931c4cf438cd",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Oxford",
+            "sort-name": "Oxford",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "r&b"
+            }
+          ]
+        },
+        {
+          "id": "c608015e-10be-49fb-9048-afa9968b67b5",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 78,
+          "name": "Abdala Mohamed Elmiene",
+          "sort-name": "Elmiene, Abdala Mohamed",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

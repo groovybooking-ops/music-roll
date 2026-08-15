@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-15T16:22:21.923Z",
+  "createdAt": "2026-08-15T16:21:51.079Z",
+  "updatedAt": "2026-08-15T16:22:21.923Z",
+  "name": {
+    "raw": "Charles Mingus Orchestra",
+    "normalized": "charles mingus orchestra"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:3eb0afd4ed5310e4da656b185d50cb7e30cdcd96625ff4de6e683c7a4d8dd338",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll first human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "rZ7HnEZ1Af-ErK/attraction/K8vZ917GmE7",
+      "sourceUrl": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867793",
+      "rawArtistName": "Charles Mingus Orchestra",
+      "normalizedArtistName": "charles mingus orchestra",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identityDiscovery": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0063b-41e3-7140-ac21-1d8a86086633",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:b8d237fa6957fd5584f0db8e97d3a06b0e2421b50361d0306e892799f7a5dd2b",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0/5b69f1b22423dcadb912602e3a1b61ea4d807bd135039d0996d1e5bd50d8006a.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ917GmE7"
+    }
+  ],
+  "identityDiscovery": {
+    "outcome": "completed_without_safe_exact_bridge",
+    "resultingSpotifyArtistId": null,
+    "evidenceRefs": [
+      "evidence/identity-discovery/mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0/33975b2f3b6d507bd14155699eb93cc8e35658b5bb06372b959f7e53b9351a69.json",
+      "provider-cache/v1/musicbrainz/exact-provider-url/af32b78e8ccee66a0845aa3d8bcf40fe4621776366e52f18a087fb31e09ca53f.json"
+    ],
+    "providerErrors": [],
+    "provenanceClaims": [],
+    "resolvedAt": "2026-08-15T16:22:21.922Z",
+    "resolverVersion": "identity_discovery_resolver_v1",
+    "reviewOnly": true
+  }
+}

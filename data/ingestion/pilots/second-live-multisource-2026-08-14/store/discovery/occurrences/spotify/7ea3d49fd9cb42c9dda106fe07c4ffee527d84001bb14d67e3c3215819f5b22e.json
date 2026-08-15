@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:7ea3d49fd9cb42c9dda106fe07c4ffee527d84001bb14d67e3c3215819f5b22e",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second bounded live discovery pilot",
+  "sourceRecordId": "bounded-query-beyonce:result:1:5pKCCKE2ajJHZ9KAiaK11H",
+  "sourceUrl": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+  "artist": {
+    "rawName": "Rihanna",
+    "normalizedName": "rihanna"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "5pKCCKE2ajJHZ9KAiaK11H",
+    "url": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "5pKCCKE2ajJHZ9KAiaK11H",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Beyoncé",
+    "resultPosition": 1,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json",
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "reviewOnly": true
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31e2-73e0-a38b-4f1b56a55fca",
+  "candidateId": "mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.962Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:99eae09bcbbcd439d8c1079e6adcf44afbb4ec76f41e872a01194fcde2eb8f82",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-020",
+      "sourceUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "rawArtistName": "The Cure",
+      "normalizedArtistName": "the cure",
+      "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+  "retrievedAt": "2026-08-14T21:47:02.707Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+      "name": "4T Recordings",
+      "sortName": "4T Recordings",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "name": "Putney",
+        "sortName": "Putney",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1977-09",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/319092"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/3IClDoHNFHx3lYOjGlDh2v"
+        }
+      ]
+    },
+    "raw": {
+      "ipis": [],
+      "sort-name": "4T Recordings",
+      "disambiguation": "",
+      "name": "4T Recordings",
+      "aliases": [],
+      "country": "GB",
+      "relations": [
+        {
+          "type": "discogs",
+          "ended": false,
+          "url": {
+            "resource": "https://www.discogs.com/artist/319092",
+            "id": "ce5862b0-ca52-4585-ba36-f848a7b5f7d8"
+          },
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "ended": false,
+          "type": "free streaming",
+          "url": {
+            "resource": "https://open.spotify.com/artist/3IClDoHNFHx3lYOjGlDh2v",
+            "id": "d9813298-a0b4-4d06-a781-94dfe50d84d5"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attribute-ids": {},
+          "end": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "begin": null
+        }
+      ],
+      "type": "Person",
+      "life-span": {
+        "ended": false,
+        "begin": "1977-09",
+        "end": null
+      },
+      "area": {
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "sort-name": "United Kingdom",
+        "disambiguation": "",
+        "name": "United Kingdom",
+        "type": null,
+        "type-id": null
+      },
+      "begin-area": {
+        "type-id": null,
+        "type": null,
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "sort-name": "Putney",
+        "name": "Putney",
+        "disambiguation": ""
+      },
+      "end-area": null,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "id": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+      "gender": "Male",
+      "isnis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+    }
+  }
+}

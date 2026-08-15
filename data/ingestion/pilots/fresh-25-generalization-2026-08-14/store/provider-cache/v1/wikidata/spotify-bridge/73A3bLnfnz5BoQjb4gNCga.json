@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "73A3bLnfnz5BoQjb4gNCga",
+  "retrievedAt": "2026-08-14T21:47:44.404Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+      "wikidataQid": "Q28855240",
+      "name": "Bicep",
+      "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+      "discogsArtistId": "1540289"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q28855240"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1540289"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Bicep"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1840 @@
+{
+  "evidenceId": "sha256:65e61cb22980fe715b519b0d2fa81012eaff0825ca47fafa4e654b61ecf66fd8",
+  "createdAt": "2026-08-14T21:45:52.577Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31cd-775b-80b1-aff090e2043e",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Kelela",
+        "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1U0sIzpRtDkvu1hXXzxh60",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1U0sIzpRtDkvu1hXXzxh60",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17306137",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2200067",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2884794",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2200067",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2884794",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1U0sIzpRtDkvu1hXXzxh60",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17306137",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2200067",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2200067"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2884794",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2884794"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "1U0sIzpRtDkvu1hXXzxh60",
+          "observedValues": [
+            "1U0sIzpRtDkvu1hXXzxh60"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1U0sIzpRtDkvu1hXXzxh60",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1U0sIzpRtDkvu1hXXzxh60",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1U0sIzpRtDkvu1hXXzxh60",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q17306137",
+          "observedValues": [
+            "Q17306137"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17306137",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17306137",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "observedValues": [
+            "045494aa-e913-4e62-bf4e-dcc276e0075a"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "2200067",
+            "2884794"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2200067",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2884794",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2200067",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2884794",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2200067",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2200067"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2884794",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2884794"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "2200067",
+            "2884794"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+            "name": "Kelela",
+            "sortName": "Kelela",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "US | R&B",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "1U0sIzpRtDkvu1hXXzxh60"
+            ],
+            "discogsArtistIds": [
+              "2200067",
+              "2884794"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": true,
+          "reasons": [],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2200067",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2884794",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "045494aa-e913-4e62-bf4e-dcc276e0075a": {
+          "artist": {
+            "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+            "name": "Kelela",
+            "sortName": "Kelela",
+            "artistType": "Person",
+            "disambiguation": "US | R&B",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+              "name": "Washington, D.C.",
+              "sortName": "Washington, D.C.",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1983-06-06",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Kelela",
+                "sortName": "Kelela",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Kelela Mizanekristos",
+                "sortName": "Mizanekristos, Kelela",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Ke󠀱le󠀱la",
+                "sortName": "Ke󠀱le󠀱la",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "ከለላ",
+                "sortName": "ከለላ",
+                "type": "Artist name",
+                "locale": "am",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000407756249"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002946658"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://kelela.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/5651775"
+              },
+              {
+                "relationshipType": "blog",
+                "url": "https://kelelamusic.tumblr.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2200067"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2884794"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/4648381"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Kelela"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Kelela"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.kelela.co/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/kelela"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://ra.co/dj/kelela"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/kelela"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Kelela/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://play.google.com/store/music/artist?id=A5o4jpei7gyb4dvtcmjujxrwgzq"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://bleep.com/artist/33640"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://boomkat.com/artists/kelela"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id549186342"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://us.7digital.com/artist/kelela"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/kelela/281454"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "http://www.junodownload.com/artists/Kelela"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://bleep.com/artist/33640"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://boomkat.com/artists/kelela"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/kelelam"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/kelelamusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/kelela/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.tiktok.com/@k_e_l_e_l_a"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/6039679"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/kelelam"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/549186342"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/5175422"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/9149485539893420774"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q17306137"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCI2aWCbAUZDzZZ5a5GDtRew"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/user/KelelaVEVO"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "end": null,
+              "begin": "1983-06-06",
+              "ended": false
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "type": null,
+              "iso-3166-2-codes": [
+                "US-DC"
+              ],
+              "type-id": null,
+              "sort-name": "Washington, D.C.",
+              "name": "Washington, D.C.",
+              "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7"
+            },
+            "area": {
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sort-name": "United States",
+              "type-id": null,
+              "type": null,
+              "disambiguation": ""
+            },
+            "country": "US",
+            "gender": "Female",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "aliases": [
+              {
+                "primary": null,
+                "type-id": null,
+                "locale": null,
+                "type": null,
+                "end": null,
+                "ended": false,
+                "name": "Kelela",
+                "begin": null,
+                "sort-name": "Kelela"
+              },
+              {
+                "ended": false,
+                "name": "Kelela Mizanekristos",
+                "begin": null,
+                "sort-name": "Mizanekristos, Kelela",
+                "primary": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "locale": null,
+                "type": "Legal name",
+                "end": null
+              },
+              {
+                "primary": null,
+                "type-id": null,
+                "locale": null,
+                "type": null,
+                "end": null,
+                "ended": false,
+                "name": "Ke󠀱le󠀱la",
+                "begin": null,
+                "sort-name": "Ke󠀱le󠀱la"
+              },
+              {
+                "begin": null,
+                "sort-name": "ከለላ",
+                "ended": false,
+                "name": "ከለላ",
+                "end": null,
+                "primary": true,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "locale": "am",
+                "type": "Artist name"
+              }
+            ],
+            "end-area": null,
+            "id": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+            "name": "Kelela",
+            "ipis": [
+              "00632762448"
+            ],
+            "sort-name": "Kelela",
+            "type": "Person",
+            "isnis": [
+              "0000000407756249"
+            ],
+            "disambiguation": "US | R&B",
+            "relations": [
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "allmusic",
+                "source-credit": "",
+                "url": {
+                  "id": "c84069d7-c7a1-4292-a393-31e9bc7c6623",
+                  "resource": "https://www.allmusic.com/artist/mn0002946658"
+                },
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+              },
+              {
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "bandcamp",
+                "url": {
+                  "resource": "https://kelela.bandcamp.com/",
+                  "id": "c2818357-7473-4c99-809e-1a9e3108d1a4"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/5651775",
+                  "id": "aba93c04-51d5-4362-9c74-c43cf00fbc52"
+                },
+                "attribute-ids": {},
+                "type": "bandsintown"
+              },
+              {
+                "type": "blog",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://kelelamusic.tumblr.com/",
+                  "id": "d7d87273-691d-432a-888f-12b50830fd7c"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "Kelela Mizanekristos",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/2200067",
+                  "id": "a0eaa7eb-c56b-4eae-896e-fbc362ea6099"
+                },
+                "attribute-ids": {},
+                "type": "discogs",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "discogs",
+                "url": {
+                  "id": "a63bf5c6-6e2f-41ae-9e9c-41a93e534bb2",
+                  "resource": "https://www.discogs.com/artist/2884794"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "dde12d26-795e-406b-ace0-dba091df08b3",
+                  "resource": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60"
+                },
+                "type": "free streaming",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "free streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.deezer.com/artist/4648381",
+                  "id": "b424b38a-79c1-4770-b5d0-5bc7ebfdedce"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.last.fm/music/Kelela",
+                  "id": "30bb32a3-2e53-4bb1-8a8b-4450542bad81"
+                },
+                "type": "last.fm",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://genius.com/artists/Kelela",
+                  "id": "b6cdb976-bcc0-45fa-8bb2-7de18be4fe45"
+                },
+                "type": "lyrics"
+              },
+              {
+                "url": {
+                  "resource": "https://www.kelela.co/",
+                  "id": "c41c1d5a-1b0f-466c-8a8c-ffc27d4c168b"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "official homepage",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://imvdb.com/n/kelela",
+                  "id": "882036b6-8511-4281-a4bc-f680cf08a456"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://ra.co/dj/kelela",
+                  "id": "6162057f-e0bb-4c3c-9aac-28c7a80433bf"
+                },
+                "type": "other databases"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "877171e0-207c-43f9-891a-8adcd2c437d4",
+                  "resource": "https://rateyourmusic.com/artist/kelela"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.whosampled.com/Kelela/",
+                  "id": "af496004-f5a7-4edb-9a31-e3cfe9ff0445"
+                },
+                "type": "other databases"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": true,
+                "type": "purchase for download",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://play.google.com/store/music/artist?id=A5o4jpei7gyb4dvtcmjujxrwgzq",
+                  "id": "41b02879-5f69-441a-9118-71ba73da6ee9"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": "2020-10-12",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://bleep.com/artist/33640",
+                  "id": "675facdb-5760-43c0-999e-39295d6dc0cb"
+                },
+                "type": "purchase for download",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://boomkat.com/artists/kelela",
+                  "id": "a5b7dfe1-9af9-4720-87af-6204acf1ba7b"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id549186342",
+                  "id": "70bca950-a3cb-4a02-b532-0b64b4e504db"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://us.7digital.com/artist/kelela",
+                  "id": "474fe422-8fbb-4fbd-a498-3fc9008c0f63"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.beatport.com/artist/kelela/281454",
+                  "id": "425e36d4-eac5-4678-96f6-0f2c2b206f3a"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "http://www.junodownload.com/artists/Kelela",
+                  "id": "eef67069-3848-4186-b0d7-9d2e97acfe5c"
+                },
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://bleep.com/artist/33640",
+                  "id": "675facdb-5760-43c0-999e-39295d6dc0cb"
+                },
+                "type": "purchase for mail-order",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d"
+              },
+              {
+                "end": null,
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "id": "a5b7dfe1-9af9-4720-87af-6204acf1ba7b",
+                  "resource": "https://boomkat.com/artists/kelela"
+                },
+                "attribute-ids": {},
+                "type": "purchase for mail-order",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "250dff42-5dfa-451b-9217-da9fe91b8fde",
+                  "resource": "https://twitter.com/kelelam"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network"
+              },
+              {
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "social network",
+                "source-credit": "",
+                "url": {
+                  "id": "32a4ee75-c332-4012-b626-d062b1dbaa42",
+                  "resource": "https://www.facebook.com/kelelamusic"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "type": "social network",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.instagram.com/kelela/",
+                  "id": "f31cd17b-3574-4876-b55c-e73aadfb8a63"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "5bc8576e-1b02-4ba6-baf4-87c06e5f28f2",
+                  "resource": "https://www.tiktok.com/@k_e_l_e_l_a"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/6039679",
+                  "id": "11b46c00-8fca-42e0-91af-b782efaa2519"
+                },
+                "attribute-ids": {},
+                "type": "songkick",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "end": null
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://soundcloud.com/kelelam",
+                  "id": "13799e81-ccea-4750-a5af-9d1710d38ea8"
+                },
+                "type": "soundcloud",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/549186342",
+                  "id": "71af33df-843b-4c13-aabd-9998d2032f7a"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://tidal.com/artist/5175422",
+                  "id": "7c7b5e4e-9491-485e-85b1-e2d78e907ce1"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "VIAF",
+                "source-credit": "",
+                "url": {
+                  "id": "5f4515b8-6026-4af8-83ce-e0767b118d9b",
+                  "resource": "http://viaf.org/viaf/9149485539893420774"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "wikidata",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q17306137",
+                  "id": "08c1cbb0-27a1-4e86-a210-3cec3885fc5e"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "youtube",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "b69231df-a0ee-47e2-a5ba-0e837fcdc103",
+                  "resource": "https://www.youtube.com/channel/UCI2aWCbAUZDzZZ5a5GDtRew"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+              },
+              {
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "youtube",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/user/KelelaVEVO",
+                  "id": "537b3871-0d43-455a-8ccc-cedb08da0103"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              }
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "2200067": {
+          "artist": {
+            "discogsArtistId": "2200067",
+            "name": "Kelela Mizanekristos",
+            "realName": null,
+            "profile": null,
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "2884794",
+                "name": "Kelela"
+              }
+            ],
+            "nameVariations": [
+              "K. Mizanekristos"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2200067",
+            "discogsWebUrl": "https://www.discogs.com/artist/2200067-Kelela-Mizanekristos",
+            "dataQuality": "Needs Major Changes"
+          },
+          "raw": {
+            "name": "Kelela Mizanekristos",
+            "id": 2200067,
+            "resource_url": "https://api.discogs.com/artists/2200067",
+            "uri": "https://www.discogs.com/artist/2200067-Kelela-Mizanekristos",
+            "releases_url": "https://api.discogs.com/artists/2200067/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/UlJta2Pns7QLv5B5916ciDm2tz89Lt8kwKCFX7mbrXo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC05MjI2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/UlJta2Pns7QLv5B5916ciDm2tz89Lt8kwKCFX7mbrXo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC05MjI2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/vJkReE_m6_GKRVZ1rb_oXxHyQNA7BHybdENVGWyDcaw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC05MjI2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2LyCDq02SxrrWR_LU8vx6006hO6mQdA2YNfIjPdMgKY/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC02MTY0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/2LyCDq02SxrrWR_LU8vx6006hO6mQdA2YNfIjPdMgKY/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC02MTY0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/HSMAZROUCYh7_sVBxzHqRJf2CH7yD5B_LTY4mrk_mb4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/MC02MTY0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Nq7TWZKlNv4h3LgVvaPrTEh4Ae0R0hQhszEzuQ9CIvQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/Mi05ODkwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/Nq7TWZKlNv4h3LgVvaPrTEh4Ae0R0hQhszEzuQ9CIvQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/Mi05ODkwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/WX8Mzyacmkar-foIGGrKFmEakdL9myFGUzAnCgLrWd8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTU0/Mi05ODkwLnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/B2F3Zr-y_Qn53GQ0k6Y-Qe8AmYOqgm-ZDmoipHoYIIE/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS03MDgyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/B2F3Zr-y_Qn53GQ0k6Y-Qe8AmYOqgm-ZDmoipHoYIIE/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS03MDgyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/29elkwojhwaXGSlZWU-WjgbMkVSVMo4Y2lT8PdeV9x8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS03MDgyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/yN_HNGx1P76dU7_FqFKK8S99Tft0hM7EcHLIT1t8ZwQ/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS01MTcwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/yN_HNGx1P76dU7_FqFKK8S99Tft0hM7EcHLIT1t8ZwQ/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS01MTcwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/gJHYh0kmtxFdkTtIp67YyAMh9KORSrA-gXlmaT4dzgc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDAw/NjctMTY1NDAzMTUz/OS01MTcwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 337
+              }
+            ],
+            "profile": "",
+            "namevariations": [
+              "K. Mizanekristos"
+            ],
+            "aliases": [
+              {
+                "id": 2884794,
+                "name": "Kelela",
+                "resource_url": "https://api.discogs.com/artists/2884794"
+              }
+            ],
+            "data_quality": "Needs Major Changes"
+          },
+          "authenticationUsed": false
+        },
+        "2884794": {
+          "artist": {
+            "discogsArtistId": "2884794",
+            "name": "Kelela",
+            "realName": "Kelela Mizanekristos",
+            "profile": "Kelela Mizanekristos, born June 6, 1983, is an American singer and songwriter, better known mononymously as Kelela.",
+            "artistUrls": [
+              "http://fadetomind.net/artist/kelela",
+              "http://kelela.bigcartel.com",
+              "http://www.facebook.com/kelelamusic",
+              "http://instagram.com/kelelam",
+              "http://soundcloud.com/kelelam",
+              "http://kelelamusic.tumblr.com",
+              "http://twitter.com/kelelam",
+              "http://en.wikipedia.org/wiki/Kelela",
+              "https://kelela.bandcamp.com/"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "2200067",
+                "name": "Kelela Mizanekristos"
+              }
+            ],
+            "nameVariations": [
+              "ケレラ"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2884794",
+            "discogsWebUrl": "https://www.discogs.com/artist/2884794-Kelela",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Kelela",
+            "id": 2884794,
+            "resource_url": "https://api.discogs.com/artists/2884794",
+            "uri": "https://www.discogs.com/artist/2884794-Kelela",
+            "releases_url": "https://api.discogs.com/artists/2884794/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/_s479MyL8jThXZvastQ4bj3pQwxHdJLqLFNxv8RvLkA/rs:fit/g:sm/q:90/h:555/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTc0NzI3NDEx/MC02ODU2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/_s479MyL8jThXZvastQ4bj3pQwxHdJLqLFNxv8RvLkA/rs:fit/g:sm/q:90/h:555/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTc0NzI3NDEx/MC02ODU2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/vrDSiyy8PWpKuece0ujT79Bcx7GbYDWAwdm6KI8_WVI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTc0NzI3NDEx/MC02ODU2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 555
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/fi8QkAwd8GBzKAvThfi0PnV4gZHa2WVa7lfXJyy5MeM/rs:fit/g:sm/q:90/h:408/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2MzUyODMx/My02Nzc5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/fi8QkAwd8GBzKAvThfi0PnV4gZHa2WVa7lfXJyy5MeM/rs:fit/g:sm/q:90/h:408/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2MzUyODMx/My02Nzc5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Ty5Lsd5evbWxLxYW0hj8Jwpy48lmN131YD9f6HhinRE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2MzUyODMx/My02Nzc5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 408
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/I8xpaNe9qJ_4gVVfDf_LLgh1K-COCXhlJ1912GBKU34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTU5MTk1Mzkz/NS0zMzY4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/I8xpaNe9qJ_4gVVfDf_LLgh1K-COCXhlJ1912GBKU34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTU5MTk1Mzkz/NS0zMzY4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/1T0mJpGm_h_xSGXuivz5yBjr41a0Aa446ArfirvXT8U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTU5MTk1Mzkz/NS0zMzY4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WJNSIzSFsn2EifglfjIBn9yyWfgEApgzFw4f3Z7NsLg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTQ0MjU3MDk5/MS01NTM0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/WJNSIzSFsn2EifglfjIBn9yyWfgEApgzFw4f3Z7NsLg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTQ0MjU3MDk5/MS01NTM0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/5gD0h8VDTYb1GslceySUxRlkHx7Djrx77t-fYyNSVrc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTQ0MjU3MDk5/MS01NTM0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3QwW0hg-kPLRHQfZufC0r07Zx0oK9ts_C8stjD3ACDQ/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/Ni05MDE5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/3QwW0hg-kPLRHQfZufC0r07Zx0oK9ts_C8stjD3ACDQ/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/Ni05MDE5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/rKUfBCZkOuRK0BI3nkH-_cRq4gMKD34w_5JH_S1Ll_Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/Ni05MDE5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rsTgyLyISrwXEJBH9Ltf9VwecNYkvn5GLfeMaHF-AXo/rs:fit/g:sm/q:90/h:428/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/NS0zODMyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/rsTgyLyISrwXEJBH9Ltf9VwecNYkvn5GLfeMaHF-AXo/rs:fit/g:sm/q:90/h:428/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/NS0zODMyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/iH4atR_34kCTZnsGlonlWNkhoELPMDt_E5KmbCaKU_Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTUwNzI0NDg2/NS0zODMyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 428
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KjP3uJ7Fb5CNt16XqvjE9yUihIrxOPkysV4Ingm4PnM/rs:fit/g:sm/q:90/h:432/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2ODM2MDEx/My0zOTkzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/KjP3uJ7Fb5CNt16XqvjE9yUihIrxOPkysV4Ingm4PnM/rs:fit/g:sm/q:90/h:432/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2ODM2MDEx/My0zOTkzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/RP1hnKIR3XOkhDSOfXYUrnNu-aNMKxus-KjeFMG-7OE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4ODQ3/OTQtMTY2ODM2MDEx/My0zOTkzLmpwZWc.jpeg",
+                "width": 600,
+                "height": 432
+              }
+            ],
+            "realname": "Kelela Mizanekristos",
+            "profile": "Kelela Mizanekristos, born June 6, 1983, is an American singer and songwriter, better known mononymously as Kelela.",
+            "urls": [
+              "http://fadetomind.net/artist/kelela",
+              "http://kelela.bigcartel.com",
+              "http://www.facebook.com/kelelamusic",
+              "http://instagram.com/kelelam",
+              "http://soundcloud.com/kelelam",
+              "http://kelelamusic.tumblr.com",
+              "http://twitter.com/kelelam",
+              "http://en.wikipedia.org/wiki/Kelela",
+              "https://kelela.bandcamp.com/"
+            ],
+            "namevariations": [
+              "ケレラ"
+            ],
+            "aliases": [
+              {
+                "id": 2200067,
+                "name": "Kelela Mizanekristos",
+                "resource_url": "https://api.discogs.com/artists/2200067"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "045494aa-e913-4e62-bf4e-dcc276e0075a": {
+          "releaseCount": 41,
+          "distinctiveTitles": [
+            "new avatar",
+            "cut 4 me",
+            "happy ending",
+            "rave n the remixes",
+            "outta time",
+            "point blank",
+            "lmk what s really good remix",
+            "lmk",
+            "aquaphoria",
+            "idea 1",
+            "melba s call",
+            "th bridg",
+            "in the blue light",
+            "linknb",
+            "waitin",
+            "frontline",
+            "take me apart",
+            "washed away",
+            "blue light",
+            "a message",
+            "contact",
+            "contact karen nyame kg remix",
+            "happy ending a g remix",
+            "the bridge",
+            "hallucinogen remixes",
+            "raven",
+            "reference track tf scrape",
+            "on the run",
+            "waitin kaytranada remix",
+            "enough for love",
+            "vii within without liberation",
+            "take me a part the remixes",
+            "hallucinogen",
+            "holier jd reid remix",
+            "closure flexulant x bambii remix",
+            "better",
+            "kaytranada waitin 115 bpm"
+          ],
+          "earliestYear": 2013,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+        "wikidataQid": "Q17306137",
+        "name": "Kelela",
+        "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+        "discogsArtistId": null,
+        "discogsArtistIds": [
+          "2200067",
+          "2884794"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1U0sIzpRtDkvu1hXXzxh60",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17306137",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2200067",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2884794",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "name": "Kelela",
+          "sortName": "Kelela",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US | R&B",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "name": "Kelela",
+          "sortName": "Kelela",
+          "artistType": "Person",
+          "disambiguation": "US | R&B",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "name": "Washington, D.C.",
+            "sortName": "Washington, D.C.",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1983-06-06",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Kelela",
+              "sortName": "Kelela",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Kelela Mizanekristos",
+              "sortName": "Mizanekristos, Kelela",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Ke󠀱le󠀱la",
+              "sortName": "Ke󠀱le󠀱la",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "ከለላ",
+              "sortName": "ከለላ",
+              "type": "Artist name",
+              "locale": "am",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000407756249"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0002946658"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://kelela.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/5651775"
+            },
+            {
+              "relationshipType": "blog",
+              "url": "https://kelelamusic.tumblr.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/2200067"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/2884794"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/4648381"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Kelela"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Kelela"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.kelela.co/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/kelela"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/kelela"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/kelela"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Kelela/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=A5o4jpei7gyb4dvtcmjujxrwgzq"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://bleep.com/artist/33640"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://boomkat.com/artists/kelela"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id549186342"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://us.7digital.com/artist/kelela"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/kelela/281454"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "http://www.junodownload.com/artists/Kelela"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://bleep.com/artist/33640"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://boomkat.com/artists/kelela"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/kelelam"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/kelelamusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/kelela/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@k_e_l_e_l_a"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/6039679"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/kelelam"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/549186342"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/5175422"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/9149485539893420774"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q17306137"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCI2aWCbAUZDzZZ5a5GDtRew"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/user/KelelaVEVO"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/2200067.json",
+    "provider-cache/v1/discogs/artist/2884794.json",
+    "provider-cache/v1/musicbrainz/artist/045494aa-e913-4e62-bf4e-dcc276e0075a.json",
+    "provider-cache/v1/musicbrainz/exact-name/e59bf2f960aa5a6e1150d417.json",
+    "provider-cache/v1/musicbrainz/release-groups/045494aa-e913-4e62-bf4e-dcc276e0075a.json",
+    "provider-cache/v1/wikidata/spotify-bridge/1U0sIzpRtDkvu1hXXzxh60.json"
+  ]
+}

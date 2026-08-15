@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2qnpHrOzdmOo1S4ox3j17x",
+  "retrievedAt": "2026-08-14T21:46:04.238Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2qnpHrOzdmOo1S4ox3j17x",
+      "wikidataQid": "Q18719133",
+      "name": "Turnstile",
+      "musicBrainzArtistId": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+      "discogsArtistId": "2921052"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q18719133"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2921052"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Turnstile"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

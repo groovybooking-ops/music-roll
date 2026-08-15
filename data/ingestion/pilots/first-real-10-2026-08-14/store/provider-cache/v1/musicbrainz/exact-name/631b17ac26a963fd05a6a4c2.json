@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "631b17ac26a963fd05a6a4c2",
+  "retrievedAt": "2026-08-14T21:18:41.868Z",
+  "value": {
+    "requestedName": "underscores",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+        "name": "underscores",
+        "sortName": "underscores",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "glitch hop/pop artist",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:18:41.814Z",
+      "count": 2,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "underscores",
+          "sort-name": "underscores",
+          "gender": "female",
+          "area": {
+            "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "New York",
+            "sort-name": "New York",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "glitch hop/pop artist",
+          "isnis": [
+            "0000000476076239"
+          ],
+          "life-span": {
+            "begin": "2000-04-21",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Underscores",
+              "name": "Underscores",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Under scores",
+              "name": "Under scores",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 3,
+              "name": "electronic"
+            },
+            {
+              "count": 3,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "indie rock"
+            },
+            {
+              "count": 1,
+              "name": "indie pop"
+            },
+            {
+              "count": 1,
+              "name": "indietronica"
+            },
+            {
+              "count": 4,
+              "name": "queer"
+            },
+            {
+              "count": 1,
+              "name": "glitch hop"
+            },
+            {
+              "count": 6,
+              "name": "hyperpop"
+            },
+            {
+              "count": 0,
+              "name": "hyper-pop"
+            }
+          ]
+        },
+        {
+          "id": "667ec3c6-958d-497b-92ae-a7e7e4faf98a",
+          "score": 64,
+          "name": "DJ UNDERSCORES DO MATO GROSSO",
+          "sort-name": "UNDERSCORES DO MATO GROSSO, DJ",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

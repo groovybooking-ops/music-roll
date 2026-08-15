@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "2a827687-f114-46fe-9e5d-74acb7d33995",
+  "retrievedAt": "2026-08-14T21:44:28.494Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "2a827687-f114-46fe-9e5d-74acb7d33995",
+      "name": "Metal Fingers",
+      "sortName": "Metal Fingers",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "name": "London",
+        "sortName": "London",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-07-13",
+        "end": "2020-10-31",
+        "ended": true
+      },
+      "aliases": [],
+      "isni": [
+        "0000000373008604"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0001379953"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/188739"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb15045275b"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/mf-doom"
+        }
+      ]
+    },
+    "raw": {
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "country": "US",
+      "end-area": null,
+      "type": "Person",
+      "relations": [
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "allmusic",
+          "url": {
+            "resource": "https://www.allmusic.com/artist/mn0001379953",
+            "id": "35ee9f60-1c2d-4685-9186-66f79df008c8"
+          },
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "discogs",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "url": {
+            "resource": "https://www.discogs.com/artist/188739",
+            "id": "43957fa2-0dda-4648-92a0-32e13e9d390e"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "attributes": []
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "other databases",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "url": {
+            "resource": "https://catalogue.bnf.fr/ark:/12148/cb15045275b",
+            "id": "9c9fad4b-0f9f-4f21-b9e3-3278a20df0bc"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "url": {
+            "id": "f7db9d2c-a6d7-45bb-8286-db94ed9cfc5f",
+            "resource": "https://rateyourmusic.com/artist/mf-doom"
+          },
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "other databases"
+        }
+      ],
+      "aliases": [],
+      "name": "Metal Fingers",
+      "isnis": [
+        "0000000373008604"
+      ],
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "type": null,
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type-id": null
+      },
+      "gender": "Male",
+      "sort-name": "Metal Fingers",
+      "id": "2a827687-f114-46fe-9e5d-74acb7d33995",
+      "begin-area": {
+        "sort-name": "London",
+        "type-id": null,
+        "disambiguation": "Greater London",
+        "type": null,
+        "name": "London",
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f"
+      },
+      "disambiguation": "",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "ipis": [],
+      "life-span": {
+        "begin": "1971-07-13",
+        "ended": true,
+        "end": "2020-10-31"
+      }
+    }
+  }
+}

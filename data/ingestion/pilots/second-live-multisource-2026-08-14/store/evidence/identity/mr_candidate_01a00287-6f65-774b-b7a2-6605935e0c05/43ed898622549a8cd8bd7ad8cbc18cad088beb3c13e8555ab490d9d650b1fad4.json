@@ -1,0 +1,2058 @@
+{
+  "evidenceId": "sha256:43ed898622549a8cd8bd7ad8cbc18cad088beb3c13e8555ab490d9d650b1fad4",
+  "createdAt": "2026-08-14T23:34:33.086Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Ciara",
+        "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2NdeV5rLm47xAvogXrYhJX",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2NdeV5rLm47xAvogXrYhJX",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q203223",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "232451",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2466394",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "232451",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2466394",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2NdeV5rLm47xAvogXrYhJX",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3emAumJ1orTyui3rSycQfs",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q203223",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "232451",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "232451"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2466394",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2466394"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "2NdeV5rLm47xAvogXrYhJX",
+            "3emAumJ1orTyui3rSycQfs"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2NdeV5rLm47xAvogXrYhJX",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2NdeV5rLm47xAvogXrYhJX",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2NdeV5rLm47xAvogXrYhJX",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3emAumJ1orTyui3rSycQfs",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q203223",
+          "observedValues": [
+            "Q203223"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q203223",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q203223",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "observedValues": [
+            "03172286-f7ed-4864-a4db-459cd5ca9790"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "232451",
+            "2466394"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "232451",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2466394",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "232451",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2466394",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "232451",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "232451"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2466394",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2466394"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "2NdeV5rLm47xAvogXrYhJX",
+            "3emAumJ1orTyui3rSycQfs"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "232451",
+            "2466394"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 2,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "multiple_exact_display_name_entities",
+        "competingEntityCount": 1,
+        "competingEntities": [
+          {
+            "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+            "name": "Ciara",
+            "sortName": "Ciara",
+            "artistType": "Person",
+            "country": "FR",
+            "disambiguation": "French underground rapper near Swift Guad",
+            "score": 76,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+            "name": "Ciara",
+            "sortName": "Ciara",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "American singer",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "2NdeV5rLm47xAvogXrYhJX",
+              "3emAumJ1orTyui3rSycQfs"
+            ],
+            "discogsArtistIds": [
+              "232451",
+              "2466394"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+            "name": "Ciara",
+            "sortName": "Ciara",
+            "artistType": "Person",
+            "country": "FR",
+            "disambiguation": "French underground rapper near Swift Guad",
+            "score": 76,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "same_name_ambiguity_present_or_not_evaluated",
+            "unresolved_alternate_spotify_identifier"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "232451",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2466394",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "03172286-f7ed-4864-a4db-459cd5ca9790": {
+          "artist": {
+            "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+            "name": "Ciara",
+            "sortName": "Ciara",
+            "artistType": "Person",
+            "disambiguation": "American singer",
+            "country": "US",
+            "area": {
+              "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+              "name": "Atlanta",
+              "sortName": "Atlanta",
+              "type": null
+            },
+            "beginArea": {
+              "id": "58d2816b-daf9-4fc5-962c-06967f14a5e5",
+              "name": "Austin",
+              "sortName": "Austin",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1985-10-25",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Ciara Harris",
+                "sortName": "Harris, Ciara",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Ciara Princess Harris",
+                "sortName": "Harris, Ciara Princess",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Ciara Princess Wilson",
+                "sortName": "Wilson, Ciara Princess",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Ciarra",
+                "sortName": "Ciarra",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "シアラ",
+                "sortName": "シアラ",
+                "type": "Artist name",
+                "locale": "ja",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000114687104"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000215513"
+              },
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002575646"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/03172286-f7ed-4864-a4db-459cd5ca9790"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/232451"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2466394"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/3emAumJ1orTyui3rSycQfs"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/2619"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm1733488/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Ciara"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Ciara"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/ciara"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.ciaraworld.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/ciara"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/ciara"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://www.worldcat.org/identities/lccn-no2004107843/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/53658"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/ciara/53658"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/artist/id14317116"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://tower.jp/artist/377641"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/58052"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/ciara"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/ciaramusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/ciara/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.pinterest.com/ciaramusic/"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/ciara"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/14317116"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/53658"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/1562"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/19925388"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q203223"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UClc5Eis2-L2JCcN62jmD21w"
+              }
+            ]
+          },
+          "raw": {
+            "sort-name": "Ciara",
+            "gender": "Female",
+            "end-area": null,
+            "type": "Person",
+            "aliases": [
+              {
+                "begin": null,
+                "primary": null,
+                "end": null,
+                "locale": null,
+                "sort-name": "Harris, Ciara",
+                "type-id": null,
+                "ended": false,
+                "type": null,
+                "name": "Ciara Harris"
+              },
+              {
+                "name": "Ciara Princess Harris",
+                "type": "Legal name",
+                "ended": false,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "sort-name": "Harris, Ciara Princess",
+                "locale": null,
+                "primary": null,
+                "end": null,
+                "begin": null
+              },
+              {
+                "primary": null,
+                "end": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "sort-name": "Wilson, Ciara Princess",
+                "locale": null,
+                "begin": "2016",
+                "type": "Legal name",
+                "name": "Ciara Princess Wilson",
+                "ended": false
+              },
+              {
+                "begin": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "locale": null,
+                "sort-name": "Ciarra",
+                "end": null,
+                "primary": null,
+                "ended": false,
+                "name": "Ciarra",
+                "type": "Search hint"
+              },
+              {
+                "type": "Artist name",
+                "name": "シアラ",
+                "ended": false,
+                "end": null,
+                "primary": true,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "sort-name": "シアラ",
+                "locale": "ja",
+                "begin": null
+              }
+            ],
+            "relations": [
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000215513",
+                  "id": "3776c17d-5073-4547-9dff-f1ccb3f96639"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "allmusic",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0002575646",
+                  "id": "aa3e00a9-1db9-495e-8075-838d39bf2f07"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "source-credit": "Ciara Harris",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "allmusic"
+              },
+              {
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/03172286-f7ed-4864-a4db-459cd5ca9790",
+                  "id": "8fc2d88f-8df0-4620-a651-45c50fb281dd"
+                },
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": "2020-11-19",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "BBC Music page",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": true
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/232451",
+                  "id": "fd8a9cfc-36c1-40c8-8685-b2149f111b66"
+                },
+                "type": "discogs",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "type": "discogs",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "Ciara Harris",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/2466394",
+                  "id": "dc01c253-6ea0-4817-aed7-0a74994c5dd5"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "7e7249a4-c247-40f6-8468-f2ac5bf6f8f4",
+                  "resource": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/3emAumJ1orTyui3rSycQfs",
+                  "id": "d7f11122-c21d-4b19-8a6f-d3cdeff4c673"
+                },
+                "source-credit": "Ciara featuring Justin Timberlake",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "free streaming"
+              },
+              {
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "acc89616-9c4c-4b0d-98cb-43acd53aae0e",
+                  "resource": "https://www.deezer.com/artist/2619"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "free streaming"
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm1733488/",
+                  "id": "5b90d953-c329-4058-aaad-a57972953520"
+                },
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "type": "IMDb",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.last.fm/music/Ciara",
+                  "id": "d7964fe4-5812-461b-9703-51009cbe0d27"
+                },
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "last.fm",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://genius.com/artists/Ciara",
+                  "id": "7d69bf23-5d3e-4f27-a315-7274d80372df"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "type": "lyrics",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "url": {
+                  "resource": "https://myspace.com/ciara",
+                  "id": "ff51ceab-a7e3-488f-aa12-b8f196eca7bd"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "myspace"
+              },
+              {
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "resource": "http://www.ciaraworld.com/",
+                  "id": "a200c91e-902a-4419-81db-b683ac01d216"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "official homepage"
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://imvdb.com/n/ciara",
+                  "id": "559f4a7e-2772-4675-8fc8-424be43ac492"
+                },
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "153707a5-6688-4130-966c-ddfc97458b8b",
+                  "resource": "https://rateyourmusic.com/artist/ciara"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "http://www.worldcat.org/identities/lccn-no2004107843/",
+                  "id": "edcd53f6-1aca-4dcf-b133-c4c5c6361a60"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "type": "purchase for download",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "baa024a3-23b6-414b-bddf-9b5f22faa137",
+                  "resource": "https://open.qobuz.com/artist/53658"
+                }
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/ciara/53658",
+                  "id": "d284961f-d939-4d16-840e-c52e67c1aa98"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "purchase for download",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "e0492356-7591-4d5c-b2e3-8b57ee3a2810",
+                  "resource": "https://itunes.apple.com/artist/id14317116"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": true,
+                "type": "purchase for download"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "url": {
+                  "resource": "https://tower.jp/artist/377641",
+                  "id": "2426e8d7-c8ad-43f9-ac69-3ed37ab3da71"
+                },
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "purchase for mail-order",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/58052",
+                  "id": "211edf8f-9fba-4fac-a19b-22e521506818"
+                },
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "secondhandsongs"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://twitter.com/ciara",
+                  "id": "34d93771-3f1e-45ce-9a66-c4611fae3461"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://www.facebook.com/ciaramusic",
+                  "id": "40063e0e-0f91-4e2e-b314-d352976f4e25"
+                }
+              },
+              {
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "9136a3d6-2028-47c1-a2ea-2ebbfe19ddaf",
+                  "resource": "https://www.instagram.com/ciara/"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "id": "4baba577-913a-43ae-a1bc-73eab77dcba1",
+                  "resource": "https://www.pinterest.com/ciaramusic/"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "social network"
+              },
+              {
+                "url": {
+                  "resource": "https://soundcloud.com/ciara",
+                  "id": "0173acac-eceb-46b1-9618-e1dd41132d08"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "soundcloud",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "81290a9e-a55f-41af-a13f-cf32cb99a7df",
+                  "resource": "https://music.apple.com/us/artist/14317116"
+                },
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/53658",
+                  "id": "baa024a3-23b6-414b-bddf-9b5f22faa137"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://tidal.com/artist/1562",
+                  "id": "a6a80d50-6545-4bc5-ab44-0a5ca1fa828a"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "VIAF",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "id": "c7127d0f-5e0a-4d3a-9240-517cc38a96df",
+                  "resource": "http://viaf.org/viaf/19925388"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "type": "wikidata",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q203223",
+                  "id": "8b339b62-c92f-48f0-ac1e-b1a8c2323fc7"
+                },
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698"
+              },
+              {
+                "url": {
+                  "id": "15daca14-d206-4914-bee1-d7a7724ac985",
+                  "resource": "https://www.youtube.com/channel/UClc5Eis2-L2JCcN62jmD21w"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "youtube"
+              }
+            ],
+            "isnis": [
+              "0000000114687104"
+            ],
+            "name": "Ciara",
+            "area": {
+              "disambiguation": "",
+              "sort-name": "Atlanta",
+              "type-id": null,
+              "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+              "type": null,
+              "name": "Atlanta"
+            },
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "country": "US",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "life-span": {
+              "end": null,
+              "ended": false,
+              "begin": "1985-10-25"
+            },
+            "ipis": [
+              "00197599001",
+              "00447302373"
+            ],
+            "disambiguation": "American singer",
+            "begin-area": {
+              "type-id": null,
+              "sort-name": "Austin",
+              "disambiguation": "",
+              "name": "Austin",
+              "type": null,
+              "id": "58d2816b-daf9-4fc5-962c-06967f14a5e5"
+            },
+            "id": "03172286-f7ed-4864-a4db-459cd5ca9790"
+          }
+        }
+      },
+      "discogsRecords": {
+        "232451": {
+          "artist": {
+            "discogsArtistId": "232451",
+            "name": "Ciara (2)",
+            "realName": "Ciara Princess Wilson (née Harris)",
+            "profile": "American R&B vocalist/dancer born October 25th 1985 in Austin, Texas and based in Atlanta, Georgia.\r\n",
+            "artistUrls": [
+              "https://www.officialciara.com/",
+              "https://www.facebook.com/ciaramusic",
+              "https://www.instagram.com/ciara",
+              "https://myspace.com/ciara",
+              "https://pinterest.com/ciaramusic/",
+              "https://www.tiktok.com/@ciara",
+              "https://en.wikipedia.org/wiki/Ciara",
+              "https://twitter.com/ciara",
+              "https://www.youtube.com/channel/UClc5Eis2-L2JCcN62jmD21w"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "2466394",
+                "name": "Ciara Princess Harris"
+              }
+            ],
+            "nameVariations": [
+              "Ciarra",
+              "Ciera",
+              "Clara",
+              "シアラ",
+              "席亞拉"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/232451",
+            "discogsWebUrl": "https://www.discogs.com/artist/232451-Ciara-2",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Ciara (2)",
+            "id": 232451,
+            "resource_url": "https://api.discogs.com/artists/232451",
+            "uri": "https://www.discogs.com/artist/232451-Ciara-2",
+            "releases_url": "https://api.discogs.com/artists/232451/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/MUd7lySGmciJ90GhEJL3cVCEJagSNdQAE8WuXd6sZjA/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQ0NzcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/MUd7lySGmciJ90GhEJL3cVCEJagSNdQAE8WuXd6sZjA/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQ0NzcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/2_VzYnH_iKcc6b6Y5RDPHHKI_omWjJCTi5yDp71dfeQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQ0NzcuanBlZw.jpeg",
+                "width": 600,
+                "height": 900
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ghPeVvT8FrlDVH5_lhWXQHYYHiZ8N2Tk-siTdzgB2ww/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTExNzI5NzEz/LTc5MjcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/ghPeVvT8FrlDVH5_lhWXQHYYHiZ8N2Tk-siTdzgB2ww/rs:fit/g:sm/q:90/h:782/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTExNzI5NzEz/LTc5MjcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/zVykwVHoL3DB3e383miWzpTxtAUFMx0rWPjdcnUfN7g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTExNzI5NzEz/LTc5MjcuanBlZw.jpeg",
+                "width": 600,
+                "height": 782
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gZJKLXoexw6TyNIyGuvey37c1PC38APK4c0l2RSzVYM/rs:fit/g:sm/q:90/h:814/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTMzMjc2OTE4/LTU5NzkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/gZJKLXoexw6TyNIyGuvey37c1PC38APK4c0l2RSzVYM/rs:fit/g:sm/q:90/h:814/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTMzMjc2OTE4/LTU5NzkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/uee_o71ldfXifMRbiJ9bbnmZx0qiAvE5aFVqlSO426A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTMzMjc2OTE4/LTU5NzkuanBlZw.jpeg",
+                "width": 600,
+                "height": 814
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/cwS8IaUuueUYTiIjILGXRKKcjRAlHAM0ead-mmLsEEQ/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTEyMDM5OTkz/LTQwNTQuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/cwS8IaUuueUYTiIjILGXRKKcjRAlHAM0ead-mmLsEEQ/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTEyMDM5OTkz/LTQwNTQuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/e5bXYjXxUDCjYbaj1L7ccpFly-pu6eXNjkHgWUN4btg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTEyMDM5OTkz/LTQwNTQuanBlZw.jpeg",
+                "width": 600,
+                "height": 582
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/16KULgJ4stkwpzQIqbMeAXfaIdrsIx2nNOiSLj4bFi8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjU4NTM2NTg3/LTQxMjUuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/16KULgJ4stkwpzQIqbMeAXfaIdrsIx2nNOiSLj4bFi8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjU4NTM2NTg3/LTQxMjUuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/J1bYkIOz2PalqSCUIRRkVFm71lFTVkC6HQePOj4bt5A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjU4NTM2NTg3/LTQxMjUuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-XMYWbAs0JIhSReKfNFCzPqSGcOxlma2ZErlJCC9zb8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTg4MjkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/-XMYWbAs0JIhSReKfNFCzPqSGcOxlma2ZErlJCC9zb8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTg4MjkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/lFySgGRV_NJIj-uTMFhIV-L2TjH40d_RWwFVcSegu9w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTg4MjkuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Es95ffhyYfKzI8Pg_ModGB4RwyKxhGi4A_ZrlWvJlRU/rs:fit/g:sm/q:90/h:743/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjQyNzg5MTQz/LTMxODEuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/Es95ffhyYfKzI8Pg_ModGB4RwyKxhGi4A_ZrlWvJlRU/rs:fit/g:sm/q:90/h:743/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjQyNzg5MTQz/LTMxODEuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/kaiBBCWbgwGuORe_UHy1CXaBKtbDJF9GazHVmdbdkGM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjQyNzg5MTQz/LTMxODEuanBlZw.jpeg",
+                "width": 600,
+                "height": 743
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/abXO8-ZBV5Sq9nyn1VeVqZ9t0YAsFyNEFP_i09FeUSk/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTA2ODE3NTMw/LTg5MzMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/abXO8-ZBV5Sq9nyn1VeVqZ9t0YAsFyNEFP_i09FeUSk/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTA2ODE3NTMw/LTg5MzMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/DkI2TiTrbocICwdHjwdTyCxMan3rve09GJJmrd5sbe8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTA2ODE3NTMw/LTg5MzMuanBlZw.jpeg",
+                "width": 600,
+                "height": 396
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/k7sdrlyXakOv_NoK8darUjrfWr7JXlLC1Wu525kCyPc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDYz/LTE0NTcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/k7sdrlyXakOv_NoK8darUjrfWr7JXlLC1Wu525kCyPc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDYz/LTE0NTcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/Afa0JfnzM0vcskbD5kmhYNu2VqP0kLcSxwVMApQ2-2I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDYz/LTE0NTcuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/tJ5Uo0f4t84AbP-aMnhDVp9vnEs8DMym7lmENLdC9sc/rs:fit/g:sm/q:90/h:898/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3NTcw/LTIyOTYuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/tJ5Uo0f4t84AbP-aMnhDVp9vnEs8DMym7lmENLdC9sc/rs:fit/g:sm/q:90/h:898/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3NTcw/LTIyOTYuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/djAAfkpre9-a_oujgyBa5CntGpbRGd7AXNNoqS6EU4E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3NTcw/LTIyOTYuanBlZw.jpeg",
+                "width": 600,
+                "height": 898
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/uFq95I3jfxlKLIwcPLzTJTkEifWoZM8ZDPao6AhgF2Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTg2OTAuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/uFq95I3jfxlKLIwcPLzTJTkEifWoZM8ZDPao6AhgF2Q/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTg2OTAuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/xKtRub2BwJOnX_9u8N4yHWPvx0Wuob3uNggpV2Cqugs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTg2OTAuanBlZw.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-5fLtIsTldGx_U6zfcQfyuojx6aFXbPsFxr1VAt_x2c/rs:fit/g:sm/q:90/h:1007/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTU5MTkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/-5fLtIsTldGx_U6zfcQfyuojx6aFXbPsFxr1VAt_x2c/rs:fit/g:sm/q:90/h:1007/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTU5MTkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/aJlwtV0VYMU1YN9hQ5OKBvB5731AWFMdNVpvS_DqHU0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTU5MTkuanBlZw.jpeg",
+                "width": 600,
+                "height": 1007
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gzzSmCRzZgMPDZnByAUy_tpQTvMJY1_F3_wof8FELw0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDY0/LTg5NTcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/gzzSmCRzZgMPDZnByAUy_tpQTvMJY1_F3_wof8FELw0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDY0/LTg5NTcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/_pNCDuBH756ZZT5TnjjvuFw3Inm3t2liwEHfEQ-7LYI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjM2MDM2NDY0/LTg5NTcuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/81vMrQQa-638Bj21tYgjIX1tmwrSujHQgF-CtHpwx6A/rs:fit/g:sm/q:90/h:375/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTcwMDIuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/81vMrQQa-638Bj21tYgjIX1tmwrSujHQgF-CtHpwx6A/rs:fit/g:sm/q:90/h:375/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTcwMDIuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/z0h2cVt-9CBsARHdaUZcAE3DT53cVDChmRoBLBbQ06Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTcwMDIuanBlZw.jpeg",
+                "width": 600,
+                "height": 375
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/oba9EoHYfDTU-iMdXK5nW5BGQ1gRsMbtPFxpxAp8ARo/rs:fit/g:sm/q:90/h:479/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTMxNzMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/oba9EoHYfDTU-iMdXK5nW5BGQ1gRsMbtPFxpxAp8ARo/rs:fit/g:sm/q:90/h:479/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTMxNzMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/0XM7fDNLk6seUMoNZpeCJyvH9meUviz7QYJ0tlRvFcw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTMxNzMuanBlZw.jpeg",
+                "width": 480,
+                "height": 479
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ikWzw6f3D2EGV_Fa-NkRHLW-iwYwiwmtxewctMdYjh8/rs:fit/g:sm/q:90/h:895/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTgxNDEuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/ikWzw6f3D2EGV_Fa-NkRHLW-iwYwiwmtxewctMdYjh8/rs:fit/g:sm/q:90/h:895/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTgxNDEuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/EVpDkmrQ9N7C_VApKBDySFWK0ttaTNrctmUXlPEOoHQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTgxNDEuanBlZw.jpeg",
+                "width": 600,
+                "height": 895
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Kda3tgLL3r_VrtBsZZMQzajdFdUIeWJyaVlNppNWSYQ/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTQ0ODYuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/Kda3tgLL3r_VrtBsZZMQzajdFdUIeWJyaVlNppNWSYQ/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTQ0ODYuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/9tCBTVcJ0Tb7pDgHaTNJx9kgIrV_u605W-46WvJ07iY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTQ0ODYuanBlZw.jpeg",
+                "width": 600,
+                "height": 900
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/nAltscppktuAnZGdd2EG3DMeDUuIqCUn6J_-7qdUZJY/rs:fit/g:sm/q:90/h:351/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTEwMTYuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/nAltscppktuAnZGdd2EG3DMeDUuIqCUn6J_-7qdUZJY/rs:fit/g:sm/q:90/h:351/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTEwMTYuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/vCfXJaXD0XqGYvuEZhcmEDiyFgm5-TadKdxpqJ6G8ng/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTEwMTYuanBlZw.jpeg",
+                "width": 600,
+                "height": 351
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/zwuC6_iuJzXiQPplNesD3YaqEFJrR7mDloG5i3BRT88/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTE0ODguanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/zwuC6_iuJzXiQPplNesD3YaqEFJrR7mDloG5i3BRT88/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTE0ODguanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/cq0Aq6rUX3eBaXAvKnZAXVDpxhGkGtBg2xJ4BKD_BTU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ3/LTE0ODguanBlZw.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/H4NHIuaSkLzMCjttSDkZ6mnBZfH5hOfV6qbCN4RqfkI/rs:fit/g:sm/q:90/h:1090/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTEwMTMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/H4NHIuaSkLzMCjttSDkZ6mnBZfH5hOfV6qbCN4RqfkI/rs:fit/g:sm/q:90/h:1090/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTEwMTMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/7WrnZHrZ6f4eNDgRqq_cfrJMmdqqH-WQncqFTPO1UHw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNjI2NzA3MzQ2/LTEwMTMuanBlZw.jpeg",
+                "width": 600,
+                "height": 1090
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/d8I2Bnb0iSkdqKI-10-gQzQyffjPRTPS6u-7ZDAvZG8/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTAxMzU1MDA2/LTc2MjkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/d8I2Bnb0iSkdqKI-10-gQzQyffjPRTPS6u-7ZDAvZG8/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTAxMzU1MDA2/LTc2MjkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/no4UkFixij2XODd0Ym0HDEd8PrnqgyT0WBTKFChfNxY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNTAxMzU1MDA2/LTc2MjkuanBlZw.jpeg",
+                "width": 600,
+                "height": 597
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/6shEMywPvRGDtA12rClPS2gDlUNXL6JdswjLhUQioiY/rs:fit/g:sm/q:90/h:896/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQzMzkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/6shEMywPvRGDtA12rClPS2gDlUNXL6JdswjLhUQioiY/rs:fit/g:sm/q:90/h:896/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQzMzkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/Ey1LJabiQgFxMAuoJfoFq5riFnQf9UGz0kIqYQkaod0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTQzMzkuanBlZw.jpeg",
+                "width": 600,
+                "height": 896
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/lyylJLGNxjIql-HzzTVlLUyAXq-TqQYvlDyPFy7hSjw/rs:fit/g:sm/q:90/h:469/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTMw/LTEwMTcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/lyylJLGNxjIql-HzzTVlLUyAXq-TqQYvlDyPFy7hSjw/rs:fit/g:sm/q:90/h:469/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTMw/LTEwMTcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/UZgC28B9HZLvmP-SSzzwsTZxnIZybpbakGWI4ntheFY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTMw/LTEwMTcuanBlZw.jpeg",
+                "width": 600,
+                "height": 469
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/viAYgsfUO9Ha4oeEe5ziZ8NggjPDlHP3Fow9Qegf0kw/rs:fit/g:sm/q:90/h:763/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTI5MzguanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/viAYgsfUO9Ha4oeEe5ziZ8NggjPDlHP3Fow9Qegf0kw/rs:fit/g:sm/q:90/h:763/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTI5MzguanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/kVkm0G-41Uum6655_xQYhcKOcLb0FD94V3Vd5uiyot8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTI5MzguanBlZw.jpeg",
+                "width": 600,
+                "height": 763
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/hqLAX8M4xDIuhbVrQlAV4hwDD2aJXZlDHgqiCBGqZ4M/rs:fit/g:sm/q:90/h:389/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTU5MDkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/hqLAX8M4xDIuhbVrQlAV4hwDD2aJXZlDHgqiCBGqZ4M/rs:fit/g:sm/q:90/h:389/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTU5MDkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/iizGpTe3c-911WH3rNfb1RsSJ4Z6Ls7RNABXjLoRBEg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTU5MDkuanBlZw.jpeg",
+                "width": 600,
+                "height": 389
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/66QZ48WvJuxiMReHQhkeZhC41nqWbn3q65SOlbCrC4g/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTE2OTMucG5n.jpeg",
+                "resource_url": "https://i.discogs.com/66QZ48WvJuxiMReHQhkeZhC41nqWbn3q65SOlbCrC4g/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTE2OTMucG5n.jpeg",
+                "uri150": "https://i.discogs.com/bernPRO0aY66Cz_NQAJp1ibwcJrxTu9lzYWSG8jBQuw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIzMjQ1/MS0xNzUwNTI1OTI5/LTE2OTMucG5n.jpeg",
+                "width": 600,
+                "height": 337
+              }
+            ],
+            "realname": "Ciara Princess Wilson (née Harris)",
+            "profile": "American R&B vocalist/dancer born October 25th 1985 in Austin, Texas and based in Atlanta, Georgia.\r\n",
+            "urls": [
+              "https://www.officialciara.com/",
+              "https://www.facebook.com/ciaramusic",
+              "https://www.instagram.com/ciara",
+              "https://myspace.com/ciara",
+              "https://pinterest.com/ciaramusic/",
+              "https://www.tiktok.com/@ciara",
+              "https://en.wikipedia.org/wiki/Ciara",
+              "https://twitter.com/ciara",
+              "https://www.youtube.com/channel/UClc5Eis2-L2JCcN62jmD21w"
+            ],
+            "namevariations": [
+              "Ciarra",
+              "Ciera",
+              "Clara",
+              "シアラ",
+              "席亞拉"
+            ],
+            "aliases": [
+              {
+                "id": 2466394,
+                "name": "Ciara Princess Harris",
+                "resource_url": "https://api.discogs.com/artists/2466394"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "2466394": {
+          "artist": {
+            "discogsArtistId": "2466394",
+            "name": "Ciara Princess Harris",
+            "realName": "Ciara Princess Wilson (née Harris)",
+            "profile": "Real name profile of R&B artist [a232451].",
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "232451",
+                "name": "Ciara (2)"
+              }
+            ],
+            "nameVariations": [
+              "C Harris",
+              "C. Harris",
+              "C. P. Harris",
+              "C.P. Harris",
+              "Ciara",
+              "Ciara Harris",
+              "Ciara P. Harris",
+              "Harris"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2466394",
+            "discogsWebUrl": "https://www.discogs.com/artist/2466394-Ciara-Princess-Harris",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Ciara Princess Harris",
+            "id": 2466394,
+            "resource_url": "https://api.discogs.com/artists/2466394",
+            "uri": "https://www.discogs.com/artist/2466394-Ciara-Princess-Harris",
+            "releases_url": "https://api.discogs.com/artists/2466394/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/O0nW3JLOqUIe-ktMilg96_Rs4kP0U329GxJi_ZA3NA8/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUxMjA0MDAy/MC0zOTg2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/O0nW3JLOqUIe-ktMilg96_Rs4kP0U329GxJi_ZA3NA8/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUxMjA0MDAy/MC0zOTg2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ofmjv_TCzrj4JzMgMF1INS8sZVxJGlikzyWa_miWhu8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUxMjA0MDAy/MC0zOTg2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 582
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/lgk3l9jIHnYKYrrcgE22Nb7uSP3xcHzaz7O0o-qaojw/rs:fit/g:sm/q:90/h:814/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUzMzI3Njk2/Ni0zMDIzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/lgk3l9jIHnYKYrrcgE22Nb7uSP3xcHzaz7O0o-qaojw/rs:fit/g:sm/q:90/h:814/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUzMzI3Njk2/Ni0zMDIzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/CLN5CFSpau7z035Fy4E51ncLfLYaEw9XBN827X-1h3Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTUzMzI3Njk2/Ni0zMDIzLmpwZWc.jpeg",
+                "width": 600,
+                "height": 814
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CdJzvzSWc6lmBqjsY40cbmCOivaLj_HB-le8FztLHmg/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTM5ODQyODI5/MC0zMTczLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/CdJzvzSWc6lmBqjsY40cbmCOivaLj_HB-le8FztLHmg/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTM5ODQyODI5/MC0zMTczLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/_vDZT0Lr9GjEUhjZsIl_4RMwcRQCAL3NUtIy7XgUTL8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NjYz/OTQtMTM5ODQyODI5/MC0zMTczLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              }
+            ],
+            "realname": "Ciara Princess Wilson (née Harris)",
+            "profile": "Real name profile of R&B artist [a232451].",
+            "namevariations": [
+              "C Harris",
+              "C. Harris",
+              "C. P. Harris",
+              "C.P. Harris",
+              "Ciara",
+              "Ciara Harris",
+              "Ciara P. Harris",
+              "Harris"
+            ],
+            "aliases": [
+              {
+                "id": 232451,
+                "name": "Ciara (2)",
+                "resource_url": "https://api.discogs.com/artists/232451"
+              }
+            ],
+            "groups": [
+              {
+                "id": 3499198,
+                "name": "Artists & Friends For Hurricane Relief",
+                "resource_url": "https://api.discogs.com/artists/3499198",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "03172286-f7ed-4864-a4db-459cd5ca9790": {
+          "releaseCount": 90,
+          "distinctiveTitles": [
+            "this right here",
+            "got me good",
+            "playlist the very best of ciara",
+            "da girls dance mix",
+            "say no",
+            "takin back my love remixes",
+            "beauty marks",
+            "how we roll versions",
+            "go girl",
+            "how we roll",
+            "i m out",
+            "paint it black",
+            "level up remix",
+            "slow",
+            "takin back my love",
+            "body party remix",
+            "overdose",
+            "work",
+            "level up",
+            "wassup",
+            "like a boy",
+            "evapora",
+            "i bet r3hab remix",
+            "freak me",
+            "fantasy ride the mini collection",
+            "roll with you",
+            "goodies the videos more",
+            "one woman army",
+            "stepped on my j z",
+            "sorry",
+            "goodies",
+            "ride bei maejor remix",
+            "jackie",
+            "get up",
+            "better thangs",
+            "thinkin bout you",
+            "body party remixes",
+            "run it up",
+            "ciara",
+            "basic instinct",
+            "altar remix",
+            "ride jbroadway remix",
+            "cici",
+            "get loose",
+            "the evolution",
+            "speechless",
+            "ecstasy",
+            "better thangs remix",
+            "1 2 step",
+            "i bet",
+            "lose control",
+            "da girls versions",
+            "dose",
+            "fantasy",
+            "get up two fingers remix",
+            "so so",
+            "and i",
+            "the collection",
+            "like you",
+            "get up kshmr remix",
+            "promise",
+            "my girl remix",
+            "left right remixx",
+            "body party",
+            "gimmie dat",
+            "da girls",
+            "melanin",
+            "give me love",
+            "ride",
+            "fantasy ride",
+            "dance like we re making love",
+            "gott nytt jul",
+            "y all life",
+            "love sex magic",
+            "i bet remix",
+            "jump",
+            "nice n sweet",
+            "never ever",
+            "how we roll remix",
+            "greatest love",
+            "oh",
+            "yes",
+            "sorry remix part 2",
+            "rooted",
+            "da girls girls mix",
+            "can t leave em alone"
+          ],
+          "earliestYear": 2004,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+        "wikidataQid": "Q203223",
+        "name": "Q203223",
+        "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+        "discogsArtistId": null,
+        "discogsArtistIds": [
+          "232451",
+          "2466394"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2NdeV5rLm47xAvogXrYhJX",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q203223",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "232451",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2466394",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "American singer",
+          "score": 100
+        },
+        {
+          "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "country": "FR",
+          "disambiguation": "French underground rapper near Swift Guad",
+          "score": 76
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "disambiguation": "American singer",
+          "country": "US",
+          "area": {
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "name": "Atlanta",
+            "sortName": "Atlanta",
+            "type": null
+          },
+          "beginArea": {
+            "id": "58d2816b-daf9-4fc5-962c-06967f14a5e5",
+            "name": "Austin",
+            "sortName": "Austin",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1985-10-25",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Ciara Harris",
+              "sortName": "Harris, Ciara",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Ciara Princess Harris",
+              "sortName": "Harris, Ciara Princess",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Ciara Princess Wilson",
+              "sortName": "Wilson, Ciara Princess",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Ciarra",
+              "sortName": "Ciarra",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "シアラ",
+              "sortName": "シアラ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000114687104"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000215513"
+            },
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0002575646"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/232451"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/2466394"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/3emAumJ1orTyui3rSycQfs"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/2619"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm1733488/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Ciara"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Ciara"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/ciara"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.ciaraworld.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/ciara"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/ciara"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.worldcat.org/identities/lccn-no2004107843/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/53658"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/ciara/53658"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/artist/id14317116"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://tower.jp/artist/377641"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/58052"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/ciara"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/ciaramusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/ciara/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.pinterest.com/ciaramusic/"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/ciara"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/14317116"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/53658"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/1562"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/19925388"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q203223"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UClc5Eis2-L2JCcN62jmD21w"
+            }
+          ]
+        },
+        {
+          "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "disambiguation": "French underground rapper near Swift Guad",
+          "country": "FR",
+          "area": {
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "name": "France",
+            "sortName": "France",
+            "type": null
+          },
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": []
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/232451.json",
+    "provider-cache/v1/discogs/artist/2466394.json",
+    "provider-cache/v1/musicbrainz/artist/03172286-f7ed-4864-a4db-459cd5ca9790.json",
+    "provider-cache/v1/musicbrainz/artist/a7628cc4-9aa5-4f2d-b7f6-19d8782ca410.json",
+    "provider-cache/v1/musicbrainz/exact-name/86da0abd3ee1d8d2342b3c0e.json",
+    "provider-cache/v1/musicbrainz/release-groups/03172286-f7ed-4864-a4db-459cd5ca9790.json",
+    "provider-cache/v1/wikidata/spotify-bridge/2NdeV5rLm47xAvogXrYhJX.json"
+  ]
+}

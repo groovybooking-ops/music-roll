@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31f1-7731-b7cc-ed3763ce45f2",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:47:47.139Z",
+  "createdAt": "2026-08-14T21:43:48.977Z",
+  "updatedAt": "2026-08-14T21:47:47.139Z",
+  "name": {
+    "raw": "BICEP",
+    "normalized": "bicep"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:cf18540a26a308f029879f07a486d1a2dc73d75352f101859983845547343931",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-024",
+      "sourceUrl": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+      "rawArtistName": "BICEP",
+      "normalizedArtistName": "bicep",
+      "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+    "wikidataQids": [
+      "Q28855240"
+    ],
+    "musicBrainzArtistIds": [
+      "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+    ],
+    "discogsArtistIds": [
+      "1540289"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31f1-7731-b7cc-ed3763ce45f2/30cf0b1cdb312503c1145be5d0c1d8b5141d4954e57afc7df3a2c1db86b2b12f.json",
+      "provider-cache/v1/wikidata/spotify-bridge/73A3bLnfnz5BoQjb4gNCga.json",
+      "provider-cache/v1/musicbrainz/artist/10e8f0df-90f9-4957-aedd-c4e0d187e3a8.json",
+      "provider-cache/v1/discogs/artist/1540289.json",
+      "provider-cache/v1/musicbrainz/exact-name/216ee3f9676007ad16dac8d0.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "name": "Bicep",
+          "sortName": "Bicep",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "73A3bLnfnz5BoQjb4gNCga"
+          ],
+          "discogsArtistIds": [
+            "1540289"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "73A3bLnfnz5BoQjb4gNCga",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "73A3bLnfnz5BoQjb4gNCga",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q28855240",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1540289",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1540289",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "73A3bLnfnz5BoQjb4gNCga",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q28855240",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1540289",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "1540289"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:47:47.138Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023e-d443-7dd2-95fe-bd8372761e27"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:a3594bf970c0a219d77b31881e270a8fae19d411c78e66fe36995365502c67f1",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll first bounded live discovery pilot",
+  "sourceRecordId": "bounded-query-sza:result:1:57LYzLEk2LcFghVwuWbcuS",
+  "sourceUrl": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+  "artist": {
+    "rawName": "Summer Walker",
+    "normalizedName": "summer walker"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "57LYzLEk2LcFghVwuWbcuS",
+    "url": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "57LYzLEk2LcFghVwuWbcuS",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "SZA",
+    "resultPosition": 1,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52.json",
+  "discoveredAt": "2026-08-14T22:34:32.351Z",
+  "reviewOnly": true
+}

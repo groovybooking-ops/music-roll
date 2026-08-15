@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+  "retrievedAt": "2026-08-14T21:47:14.400Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+      "name": "00110100 01010100",
+      "sortName": "00110100 01010100",
+      "artistType": "Person",
+      "disambiguation": "Kieran Hebden",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "name": "Putney",
+        "sortName": "Putney",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1977-09",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/5ZzXaAuivVXuQaHCaRuxlD"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/67877322"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/00110100-01010100"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://bleep.com/artist/156498"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/-/945199"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.traxsource.com/artist/591638"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1543973436"
+        }
+      ]
+    },
+    "raw": {
+      "relations": [
+        {
+          "end": null,
+          "attribute-ids": {},
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attribute-values": {},
+          "direction": "forward",
+          "target-type": "url",
+          "begin": null,
+          "ended": false,
+          "type": "free streaming",
+          "url": {
+            "resource": "https://open.spotify.com/artist/5ZzXaAuivVXuQaHCaRuxlD",
+            "id": "c0821a96-876e-4378-90bd-e2376aaaca4f"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attribute-ids": {},
+          "begin": null,
+          "ended": false,
+          "type": "free streaming",
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "url": {
+            "id": "655b560d-5c2b-4e4b-a35b-cdad8a6e1f38",
+            "resource": "https://www.deezer.com/artist/67877322"
+          }
+        },
+        {
+          "attribute-ids": {},
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "begin": null,
+          "type": "other databases",
+          "ended": false,
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/00110100-01010100",
+            "id": "66c69149-69e6-4957-9d43-aede3197300e"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": ""
+        },
+        {
+          "begin": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "end": null,
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "id": "11e5f0f0-cd1d-46a9-8e03-44b7d8feded5",
+            "resource": "https://bleep.com/artist/156498"
+          },
+          "type": "purchase for download",
+          "ended": false
+        },
+        {
+          "type": "purchase for download",
+          "ended": false,
+          "url": {
+            "resource": "https://www.beatport.com/artist/-/945199",
+            "id": "9dfedadd-c897-49f9-9ebe-52370d55647f"
+          },
+          "source-credit": "",
+          "target-credit": "",
+          "attributes": [],
+          "end": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "attribute-values": {},
+          "begin": null
+        },
+        {
+          "begin": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.traxsource.com/artist/591638",
+            "id": "06cbf3e2-740a-4290-aeb1-5e4953dd7e2c"
+          },
+          "attributes": [],
+          "target-credit": "",
+          "source-credit": "",
+          "type": "purchase for download",
+          "ended": false
+        },
+        {
+          "url": {
+            "id": "a0aa5857-d22a-4763-a551-2e792c786ce7",
+            "resource": "https://music.apple.com/us/artist/1543973436"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "ended": false,
+          "type": "streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "end": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url"
+        }
+      ],
+      "aliases": [],
+      "country": "GB",
+      "type": "Person",
+      "area": {
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "disambiguation": "",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type": null,
+        "type-id": null
+      },
+      "life-span": {
+        "end": null,
+        "begin": "1977-09",
+        "ended": false
+      },
+      "ipis": [],
+      "sort-name": "00110100 01010100",
+      "name": "00110100 01010100",
+      "disambiguation": "Kieran Hebden",
+      "isnis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "begin-area": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "sort-name": "Putney",
+        "name": "Putney",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null
+      },
+      "end-area": null,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "id": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+      "gender": "Male"
+    }
+  }
+}

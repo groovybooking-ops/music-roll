@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31b8-7e08-bdac-292e7f9364e8",
+  "candidateId": "mr_candidate_01a0023b-31b8-7053-970f-475d00a98f58",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.920Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:58700543f1e1c20eddb03357674e4b80bb9c5a7783b791c64601201d2c0e3694",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-007",
+      "sourceUrl": "https://open.spotify.com/artist/3A5tHz1SfngyOZM2gItYKu",
+      "rawArtistName": "Earl Sweatshirt",
+      "normalizedArtistName": "earl sweatshirt",
+      "spotifyArtistId": "3A5tHz1SfngyOZM2gItYKu",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3A5tHz1SfngyOZM2gItYKu",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

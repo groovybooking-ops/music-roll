@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a0063a-c59d-7934-9a82-6367089da29c",
+  "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+  "eventType": "run_created",
+  "previousRevision": 0,
+  "runRevision": 1,
+  "phase": "created",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:21:50.109Z",
+  "actor": {
+    "type": "command",
+    "id": "human_triggered_scheduled_coordinator_v1"
+  },
+  "payload": {
+    "networkAllowed": true,
+    "stableConfigurationHash": "sha256:1cf203a037dd920309aefdb50afd34401be9c3550b3a90255af0f03cbd2b419a",
+    "configuration": {
+      "schemaVersion": 1,
+      "coordinatorVersion": "scheduled_live_coordinator_v1",
+      "reviewOnly": true,
+      "spotify": {
+        "mode": "artist_search_results",
+        "query": "Björk",
+        "queryRecordId": "scheduled-bounded-query-bjork-v1",
+        "limit": 4,
+        "market": "US",
+        "sourceType": "public_music_database",
+        "sourceName": "Music Roll first human-triggered scheduled discovery run"
+      },
+      "ticketmaster": {
+        "mode": "event_attractions",
+        "stateCode": "NY",
+        "startDateTime": "2026-08-16T00:00:00Z",
+        "endDateTime": "2026-08-22T00:00:00Z",
+        "size": 2,
+        "sourceType": "ticketmaster_event",
+        "sourceName": "Music Roll first human-triggered scheduled Ticketmaster discovery run"
+      },
+      "budgets": {
+        "providers": {
+          "spotify": {
+            "maxRequests": 4,
+            "maxPages": 1,
+            "maxNormalizedOccurrences": 8,
+            "maxNewCandidates": 4
+          },
+          "ticketmaster": {
+            "maxRequests": 4,
+            "maxPages": 1,
+            "maxNormalizedOccurrences": 8,
+            "maxNewCandidates": 4
+          }
+        },
+        "workers": {
+          "stage3Candidates": 3,
+          "identityDiscoveryCandidates": 2
+        },
+        "queueHighWaterMarks": {
+          "identity_pending": 50,
+          "identity_discovery_pending": 25,
+          "retry_wait": 25,
+          "needs_review": 100
+        }
+      },
+      "maximumTotalNewCandidates": 6,
+      "listingFreshnessHours": {
+        "spotify": 72,
+        "ticketmaster": 24
+      }
+    },
+    "budgets": {
+      "providers": {
+        "spotify": {
+          "maxRequests": 4,
+          "maxPages": 1,
+          "maxNormalizedOccurrences": 8,
+          "maxNewCandidates": 4
+        },
+        "ticketmaster": {
+          "maxRequests": 4,
+          "maxPages": 1,
+          "maxNormalizedOccurrences": 8,
+          "maxNewCandidates": 4
+        }
+      },
+      "workers": {
+        "stage3Candidates": 3,
+        "identityDiscoveryCandidates": 2
+      },
+      "queueHighWaterMarks": {
+        "identity_pending": 50,
+        "identity_discovery_pending": 25,
+        "retry_wait": 25,
+        "needs_review": 100
+      }
+    },
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 0,
+          "pages": 0,
+          "normalizedOccurrences": 0,
+          "newCandidates": 0
+        },
+        "ticketmaster": {
+          "requests": 0,
+          "pages": 0,
+          "normalizedOccurrences": 0,
+          "newCandidates": 0
+        }
+      },
+      "workers": {
+        "stage3Candidates": 0,
+        "identityDiscoveryCandidates": 0
+      }
+    },
+    "protectedChecksums": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    }
+  }
+}

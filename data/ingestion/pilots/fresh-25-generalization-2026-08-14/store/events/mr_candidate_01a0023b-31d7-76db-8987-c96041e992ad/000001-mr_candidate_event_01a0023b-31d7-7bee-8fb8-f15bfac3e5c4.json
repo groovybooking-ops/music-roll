@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31d7-7bee-8fb8-f15bfac3e5c4",
+  "candidateId": "mr_candidate_01a0023b-31d7-76db-8987-c96041e992ad",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.951Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:ecfe4d8fc0c44b86f11c249d90dbdb1959d748f56d8982c696dcf154bf3a6daf",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-018",
+      "sourceUrl": "https://open.spotify.com/artist/7Hvq85OU8T7Hsd63zNBwaL",
+      "rawArtistName": "black midi",
+      "normalizedArtistName": "black midi",
+      "spotifyArtistId": "7Hvq85OU8T7Hsd63zNBwaL",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7Hvq85OU8T7Hsd63zNBwaL",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

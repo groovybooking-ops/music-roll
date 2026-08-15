@@ -1,0 +1,1631 @@
+{
+  "evidenceId": "sha256:1fb4b1c1eec49ca442800c2bce826efd4f55c1d3300f624068d9d23cd7310c64",
+  "createdAt": "2026-08-14T21:44:14.186Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31b1-7a83-85db-7ee6890b23a4",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Ravyn Lenae",
+        "spotifyArtistId": "5RTLRtXjbXI2lSXc6jxlAz"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5RTLRtXjbXI2lSXc6jxlAz",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5RTLRtXjbXI2lSXc6jxlAz",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28962463",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4732204",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4732204",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5RTLRtXjbXI2lSXc6jxlAz",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28962463",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4732204",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4732204"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "5RTLRtXjbXI2lSXc6jxlAz",
+          "observedValues": [
+            "5RTLRtXjbXI2lSXc6jxlAz"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5RTLRtXjbXI2lSXc6jxlAz",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5RTLRtXjbXI2lSXc6jxlAz",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5RTLRtXjbXI2lSXc6jxlAz",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q28962463",
+          "observedValues": [
+            "Q28962463"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28962463",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28962463",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "observedValues": [
+            "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "4732204",
+          "observedValues": [
+            "4732204"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4732204",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4732204",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4732204",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "4732204"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+            "name": "Ravyn Lenae",
+            "sortName": "Lenae, Ravyn",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "5RTLRtXjbXI2lSXc6jxlAz"
+            ],
+            "discogsArtistIds": [
+              "4732204"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "94c64122-dbd4-4927-b2fa-f204b0b4b0c2": {
+          "artist": {
+            "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+            "name": "Ravyn Lenae",
+            "sortName": "Lenae, Ravyn",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+              "name": "Chicago",
+              "sortName": "Chicago",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1999-01-22",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Ravyn Lenae Washington",
+                "sortName": "Washington, Ravyn Lenae",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000466007416"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003537540"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/12698814"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/4732204"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/5RTLRtXjbXI2lSXc6jxlAz"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/309452841"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/8973774"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm13782644/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Ravyn+Lenae"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Ravyn-lenae"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://www.musixmatch.com/artist/Ravyn-Lenae"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.ravynlenae.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/ravyn-lenae"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/ravyn-lenae/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.muziekweb.nl/Link/M00000582342/POPULAR/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Ravyn-Lenae/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id1044417443"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://mora.jp/artist/707313/all"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.bugs.co.kr/artist/80265301"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/2731250"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://us.7digital.com/artist/ravyn-lenae"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/ravyn-lenae/608971"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.junodownload.com/artists/Ravyn+Lenae/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/gb-en/interpreter/ravyn-lenae/2731250"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/233045"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/ravyn-lenae-53c41fd5.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/ravynlenae"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/ravynlenae"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/ravynlenae/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/8668669"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/ravynlenaesounds"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.amazon.co.uk/artists/B01603XAR0"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/bs/artist/1044417443"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1044417443"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1044417443"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.bugs.co.kr/artist/80265301"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/2731250"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/7262284"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q28962463"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw"
+              },
+              {
+                "relationshipType": "youtube music",
+                "url": "https://music.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "begin": "1999-01-22",
+              "end": null,
+              "ended": false
+            },
+            "begin-area": {
+              "type-id": null,
+              "type": null,
+              "disambiguation": "",
+              "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+              "name": "Chicago",
+              "sort-name": "Chicago"
+            },
+            "area": {
+              "name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "sort-name": "United States",
+              "type": null,
+              "type-id": null,
+              "disambiguation": ""
+            },
+            "country": "US",
+            "gender": "Female",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "aliases": [
+              {
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null,
+                "name": "Ravyn Lenae Washington",
+                "ended": false,
+                "begin": null,
+                "sort-name": "Washington, Ravyn Lenae"
+              }
+            ],
+            "end-area": null,
+            "id": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+            "name": "Ravyn Lenae",
+            "ipis": [],
+            "sort-name": "Lenae, Ravyn",
+            "type": "Person",
+            "disambiguation": "",
+            "isnis": [
+              "0000000466007416"
+            ],
+            "relations": [
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "c162b6cb-3c43-4293-a959-5b55d06da80b",
+                  "resource": "https://www.allmusic.com/artist/mn0003537540"
+                },
+                "type": "allmusic"
+              },
+              {
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "f8ddfb01-d7dc-42e3-84e2-2cb629227d12",
+                  "resource": "https://www.bandsintown.com/a/12698814"
+                },
+                "type": "bandsintown",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "end": null,
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.discogs.com/artist/4732204",
+                  "id": "fc286703-4532-4dd4-8f92-b5770e89f62b"
+                },
+                "type": "discogs",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/5RTLRtXjbXI2lSXc6jxlAz",
+                  "id": "82fa2521-3714-4d3e-bc73-bb6792e293ec"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/309452841",
+                  "id": "b935b62e-f4ee-4bb6-8abd-c37e54ded923"
+                },
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.deezer.com/artist/8973774",
+                  "id": "bfdff9cd-f428-4c7d-9ec8-3163826c3a5c"
+                }
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "8cfedab5-52f7-4979-9cd4-8a7e14b4d439",
+                  "resource": "https://www.imdb.com/name/nm13782644/"
+                },
+                "attribute-ids": {},
+                "type": "IMDb",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.last.fm/music/Ravyn+Lenae",
+                  "id": "b0d68058-e392-4db0-ac78-3730218303cd"
+                },
+                "attribute-ids": {},
+                "type": "last.fm"
+              },
+              {
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "lyrics",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "bfc1f2ba-7f12-4882-aaa2-3d640b287972",
+                  "resource": "https://genius.com/artists/Ravyn-lenae"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "id": "1c751091-6054-4a9e-9ce8-14bcd31be6cc",
+                  "resource": "https://www.musixmatch.com/artist/Ravyn-Lenae"
+                },
+                "attribute-ids": {},
+                "type": "lyrics",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "4b6e2e0d-0f5c-459f-b010-d38f9380ba29",
+                  "resource": "https://www.ravynlenae.com/"
+                },
+                "attribute-ids": {},
+                "type": "official homepage"
+              },
+              {
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "0143e656-e36a-49b5-9a5c-a5d91c52a0ce",
+                  "resource": "https://rateyourmusic.com/artist/ravyn-lenae"
+                },
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "cba7021c-a473-4b42-977e-7c59109ba22b",
+                  "resource": "https://www.musik-sammler.de/artist/ravyn-lenae/"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "a4e90181-affb-4897-974d-00443fe4e42c",
+                  "resource": "https://www.muziekweb.nl/Link/M00000582342/POPULAR/"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.whosampled.com/Ravyn-Lenae/",
+                  "id": "b3542430-7abc-410b-a045-697dc5e7f84e"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "07e9090c-4320-4c47-bd03-3812d1134109",
+                  "resource": "https://itunes.apple.com/us/artist/id1044417443"
+                },
+                "type": "purchase for download",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "d26b5d09-2ab0-4489-b753-e9970badd02a",
+                  "resource": "https://mora.jp/artist/707313/all"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://music.bugs.co.kr/artist/80265301",
+                  "id": "e87567cf-3c2b-4f3b-8cd2-ef059257b20c"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/2731250",
+                  "id": "cc29ab6c-59f0-41ec-a854-5f731d467208"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "purchase for download",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://us.7digital.com/artist/ravyn-lenae",
+                  "id": "b09877de-c195-49d4-903d-939e52831946"
+                }
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.beatport.com/artist/ravyn-lenae/608971",
+                  "id": "dbedd993-e933-4967-b6d9-a4f85a8e6d88"
+                },
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.junodownload.com/artists/Ravyn+Lenae/",
+                  "id": "4223c61e-6f06-4937-8f3f-545b5410182d"
+                },
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.qobuz.com/gb-en/interpreter/ravyn-lenae/2731250",
+                  "id": "2fbe701a-b2c0-48ed-b9c8-34c146d24930"
+                },
+                "type": "purchase for download",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "secondhandsongs",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "8e3d6cb3-e243-4b38-ab8b-4660fda5a831",
+                  "resource": "https://secondhandsongs.com/artist/233045"
+                }
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "setlistfm",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.setlist.fm/setlists/ravyn-lenae-53c41fd5.html",
+                  "id": "2ee7d1d2-1c4b-46a5-bade-2b5e83a32dfd"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207"
+              },
+              {
+                "type": "social network",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://twitter.com/ravynlenae",
+                  "id": "9e3e69a6-7206-40aa-9bfc-cdcf4153a97a"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "social network",
+                "url": {
+                  "resource": "https://www.facebook.com/ravynlenae",
+                  "id": "54f53f6d-034d-4c10-a682-7f693a0573d2"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "1636278f-b761-4d08-a410-92a14812ecf9",
+                  "resource": "https://www.instagram.com/ravynlenae/"
+                },
+                "type": "social network"
+              },
+              {
+                "type": "songkick",
+                "source-credit": "",
+                "url": {
+                  "id": "ee02bb7d-f988-4ea7-8297-14d30f803d0f",
+                  "resource": "https://www.songkick.com/artists/8668669"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "527cf290-9932-495c-953e-4901d93c46c9",
+                  "resource": "https://soundcloud.com/ravynlenaesounds"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "soundcloud",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "cb0061e4-ae22-4d4e-a9b6-7dc79492f77b",
+                  "resource": "https://music.amazon.co.uk/artists/B01603XAR0"
+                },
+                "attribute-ids": {},
+                "type": "streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "type": "streaming",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/bs/artist/1044417443",
+                  "id": "99ebdee4-4f7f-4591-ad11-f32d3d48679f"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "url": {
+                  "id": "63031d1f-c991-4aef-a9d1-1729afb1bf8d",
+                  "resource": "https://music.apple.com/gb/artist/1044417443"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "6ce36bf5-2f79-4115-b527-6b3eedfedbe5",
+                  "resource": "https://music.apple.com/us/artist/1044417443"
+                },
+                "type": "streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.bugs.co.kr/artist/80265301",
+                  "id": "e87567cf-3c2b-4f3b-8cd2-ef059257b20c"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "type": "streaming",
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/2731250",
+                  "id": "cc29ab6c-59f0-41ec-a854-5f731d467208"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "url": {
+                  "id": "657cc225-7e87-4905-9d88-85fbbbd7c355",
+                  "resource": "https://tidal.com/artist/7262284"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "streaming",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "99ec52dd-7e68-4664-b28b-7a52a15f74ae",
+                  "resource": "https://www.wikidata.org/wiki/Q28962463"
+                },
+                "type": "wikidata",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw",
+                  "id": "b233f60d-9d0f-4f7e-8be8-07898e2114b2"
+                },
+                "type": "youtube",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "2b4cae37-827f-4fe4-a72b-ec70f7c77a43",
+                  "resource": "https://music.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw"
+                },
+                "attribute-ids": {},
+                "type": "youtube music",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              }
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "4732204": {
+          "artist": {
+            "discogsArtistId": "4732204",
+            "name": "Ravyn Lenae",
+            "realName": "Ravyn Lenae Washington",
+            "profile": "Chicago-born singer-songwriter Ravyn Lenae, first gained attention with her EPs [m=1145855], [m=3951314] and [m=3951302] before releasing her acclaimed debut album [m=2644160] in 2022. Her sophomore album [m=3568067] broadened her R&B foundations with pop and experimental production, and its lead single [m=3991408] became a viral breakout—peaking at No. 5 on the Billboard Hot 100 and climbing charts globally. Backed by major festival appearances and touring, the track marked a definitive mainstream breakthrough, transforming her from an underground favorite into a widely recognized pop and R&B force.",
+            "artistUrls": [
+              "http://ravynlenae.com/",
+              "https://www.instagram.com/ravynlenae/",
+              "https://www.tiktok.com/@ravynlenae"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "Ravyn Lenae Washington"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/4732204",
+            "discogsWebUrl": "https://www.discogs.com/artist/4732204-Ravyn-Lenae",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Ravyn Lenae",
+            "id": 4732204,
+            "resource_url": "https://api.discogs.com/artists/4732204",
+            "uri": "https://www.discogs.com/artist/4732204-Ravyn-Lenae",
+            "releases_url": "https://api.discogs.com/artists/4732204/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/GoiZDUdm8-TC8MRjRWoR5rSxtJ6uIQEj1-d3n8Iwbbg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc4NTg2NTk1/Ny00ODU0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/GoiZDUdm8-TC8MRjRWoR5rSxtJ6uIQEj1-d3n8Iwbbg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc4NTg2NTk1/Ny00ODU0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/psmjDSsfdnAwe5Qj9XKtdJM3Vye1kIH3ufoKuVMxYHo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc4NTg2NTk1/Ny00ODU0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/13-ieC7c3GDUQ0C3BkCelph0bEcV43ByGwsvK7IMSk4/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC03ODQxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/13-ieC7c3GDUQ0C3BkCelph0bEcV43ByGwsvK7IMSk4/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC03ODQxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/kqFtU6M76Q5Pfw5PcpMWaO5bOwhdKeVwQEHmC_LDy_Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC03ODQxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/aeE8rJEnhsebZmodJc6h4LKxHYpmp5tu3COLMKbPv9g/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC0xNDExLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/aeE8rJEnhsebZmodJc6h4LKxHYpmp5tu3COLMKbPv9g/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC0xNDExLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/f_PB2Nh0F2Vr1nbDcTTzzdOvji6KH5NX-avtLTOe540/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/OC0xNDExLmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/IsE4X8CAx7wbeSnl4hOrv72G9rv3A0pFMdpXsaGXeto/rs:fit/g:sm/q:90/h:700/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/Ni00MzI2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/IsE4X8CAx7wbeSnl4hOrv72G9rv3A0pFMdpXsaGXeto/rs:fit/g:sm/q:90/h:700/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/Ni00MzI2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/iLzM21bn35iEcNu0nMlkIcZ0BMr5NO3ogjjXyNwAjw0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTc1ODI0NjI1/Ni00MzI2LmpwZWc.jpeg",
+                "width": 550,
+                "height": 700
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_gc1-gqq0or5KmgRFjeRDQ0CSDvDIVCYWKX5oo4v87o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzkw/MC01MjE0LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/_gc1-gqq0or5KmgRFjeRDQ0CSDvDIVCYWKX5oo4v87o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzkw/MC01MjE0LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/cJn290bdU7DjI3wiRfz_4EyBAbWrOfGxrMut084cJMk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzkw/MC01MjE0LnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/oed-LONweoPRQP16RXrt01DWBdfi__iNwmPlyaIllq0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzg5/OS01MTU4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/oed-LONweoPRQP16RXrt01DWBdfi__iNwmPlyaIllq0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzg5/OS01MTU4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/scjWjcS1sRX34N-LMJL86fqLIwPrggtyWFGIo8pj_f4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTY1MzI3Mzg5/OS01MTU4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WaIuxiELpg-eTKFp2b9Cyl4GWAFS6cn3mCO-aWE-Bfk/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTU1NDcxNjM4/NC0xNjA1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/WaIuxiELpg-eTKFp2b9Cyl4GWAFS6cn3mCO-aWE-Bfk/rs:fit/g:sm/q:90/h:225/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTU1NDcxNjM4/NC0xNjA1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tDPvTz1Ng6wONjccbMBYCh4l90EhfZP_U_HMpculB9A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ3MzIy/MDQtMTU1NDcxNjM4/NC0xNjA1LmpwZWc.jpeg",
+                "width": 225,
+                "height": 225
+              }
+            ],
+            "realname": "Ravyn Lenae Washington",
+            "profile": "Chicago-born singer-songwriter Ravyn Lenae, first gained attention with her EPs [m=1145855], [m=3951314] and [m=3951302] before releasing her acclaimed debut album [m=2644160] in 2022. Her sophomore album [m=3568067] broadened her R&B foundations with pop and experimental production, and its lead single [m=3991408] became a viral breakout—peaking at No. 5 on the Billboard Hot 100 and climbing charts globally. Backed by major festival appearances and touring, the track marked a definitive mainstream breakthrough, transforming her from an underground favorite into a widely recognized pop and R&B force.",
+            "urls": [
+              "http://ravynlenae.com/",
+              "https://www.instagram.com/ravynlenae/",
+              "https://www.tiktok.com/@ravynlenae"
+            ],
+            "namevariations": [
+              "Ravyn Lenae Washington"
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "5RTLRtXjbXI2lSXc6jxlAz",
+        "wikidataQid": "Q28962463",
+        "name": "Ravyn Lenae",
+        "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+        "discogsArtistId": "4732204"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5RTLRtXjbXI2lSXc6jxlAz",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28962463",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4732204",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "name": "Ravyn Lenae",
+          "sortName": "Lenae, Ravyn",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "name": "Ravyn Lenae",
+          "sortName": "Lenae, Ravyn",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+            "name": "Chicago",
+            "sortName": "Chicago",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1999-01-22",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Ravyn Lenae Washington",
+              "sortName": "Washington, Ravyn Lenae",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000466007416"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003537540"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/12698814"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/4732204"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/5RTLRtXjbXI2lSXc6jxlAz"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/309452841"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/8973774"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm13782644/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Ravyn+Lenae"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Ravyn-lenae"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Ravyn-Lenae"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.ravynlenae.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/ravyn-lenae"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/ravyn-lenae/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000582342/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Ravyn-Lenae/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id1044417443"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/707313/all"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/80265301"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/2731250"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://us.7digital.com/artist/ravyn-lenae"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/ravyn-lenae/608971"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Ravyn+Lenae/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/gb-en/interpreter/ravyn-lenae/2731250"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/233045"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/ravyn-lenae-53c41fd5.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/ravynlenae"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/ravynlenae"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/ravynlenae/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/8668669"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/ravynlenaesounds"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.co.uk/artists/B01603XAR0"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/bs/artist/1044417443"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1044417443"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1044417443"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/80265301"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/2731250"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7262284"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q28962463"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCtgNg5yxCyfjEE7Q7KeSmBw"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/4732204.json",
+    "provider-cache/v1/musicbrainz/artist/94c64122-dbd4-4927-b2fa-f204b0b4b0c2.json",
+    "provider-cache/v1/musicbrainz/exact-name/e85e7c806fb7808275a7c629.json",
+    "provider-cache/v1/wikidata/spotify-bridge/5RTLRtXjbXI2lSXc6jxlAz.json"
+  ]
+}

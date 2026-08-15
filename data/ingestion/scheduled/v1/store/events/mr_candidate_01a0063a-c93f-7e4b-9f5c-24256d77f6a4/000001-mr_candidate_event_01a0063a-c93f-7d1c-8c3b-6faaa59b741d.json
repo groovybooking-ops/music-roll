@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0063a-c93f-7d1c-8c3b-6faaa59b741d",
+  "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:21:51.039Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/7e0a2be62e858279c00247c7008b9fa7c1c941b9b31faa070a52613f1ada5b1a.json",
+    "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:302e65c59d40c708ba3f8c2749218798d781bd1eef8ced5f67037831ffadae40",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:0:7w29UYBi0qsHi5RTcv3lmA",
+      "sourceUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "rawArtistName": "Björk",
+      "normalizedArtistName": "björk",
+      "spotifyArtistId": "7w29UYBi0qsHi5RTcv3lmA",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  }
+}

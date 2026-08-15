@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "7ada3cb954611466a402ea9f",
+  "retrievedAt": "2026-08-14T21:46:05.475Z",
+  "value": {
+    "requestedName": "Turnstile",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+        "name": "Turnstile",
+        "sortName": "Turnstile",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "US hardcore punk band",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "936a1d22-e8c4-4940-876e-09b47190d571",
+        "name": "TURNSTiLE",
+        "sortName": "TURNSTiLE",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "US modern rock band",
+        "score": 87
+      },
+      {
+        "musicBrainzArtistId": "351bee54-3ee7-449d-b68e-c94da6798b97",
+        "name": "Turnstile",
+        "sortName": "Turnstile",
+        "artistType": "Group",
+        "country": "ES",
+        "disambiguation": "Spanish punk-rock band",
+        "score": 87
+      },
+      {
+        "musicBrainzArtistId": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+        "name": "Turnstile",
+        "sortName": "Turnstile",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "Dutch band",
+        "score": 86
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:05.449Z",
+      "count": 5,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Turnstile",
+          "sort-name": "Turnstile",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "2fb5445d-3987-49fe-957a-f730a7acc4a2",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Baltimore",
+            "sort-name": "Baltimore",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US hardcore punk band",
+          "isnis": [
+            "0000000469107543"
+          ],
+          "life-span": {
+            "begin": "2010",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 0,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "alternative rock"
+            },
+            {
+              "count": 2,
+              "name": "hardcore"
+            },
+            {
+              "count": 2,
+              "name": "punk"
+            },
+            {
+              "count": 7,
+              "name": "hardcore punk"
+            },
+            {
+              "count": 1,
+              "name": "post-hardcore"
+            },
+            {
+              "count": 0,
+              "name": "united states"
+            },
+            {
+              "count": 0,
+              "name": "groovy"
+            },
+            {
+              "count": 0,
+              "name": "punk metal"
+            },
+            {
+              "count": 0,
+              "name": "alternative/indie rock"
+            },
+            {
+              "count": 0,
+              "name": "beatdown hardcore"
+            },
+            {
+              "count": 1,
+              "name": "harsh vocals"
+            }
+          ]
+        },
+        {
+          "id": "936a1d22-e8c4-4940-876e-09b47190d571",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 87,
+          "name": "TURNSTiLE",
+          "sort-name": "TURNSTiLE",
+          "area": {
+            "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Los Angeles",
+            "sort-name": "Los Angeles",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US modern rock band",
+          "life-span": {
+            "begin": "2000",
+            "ended": true
+          }
+        },
+        {
+          "id": "351bee54-3ee7-449d-b68e-c94da6798b97",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 87,
+          "name": "Turnstile",
+          "sort-name": "Turnstile",
+          "country": "ES",
+          "area": {
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Spain",
+            "sort-name": "Spain",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Spanish punk-rock band",
+          "isnis": [
+            "0000000471183430"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 86,
+          "name": "Turnstile",
+          "sort-name": "Turnstile",
+          "area": {
+            "id": "0d44773f-eda1-49e0-99b2-660de1a66b12",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Den Helder",
+            "sort-name": "Den Helder",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Dutch band",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "b131017b-31d8-4945-8478-58d7c5e1b7ca",
+          "score": 79,
+          "name": "KT Turnstile",
+          "sort-name": "KT Turnstile",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "evidenceId": "sha256:d456ead2b6520bca845378fd836775f98e0bdf577cf8c4834c231bc0d4f4c5a7",
+  "createdAt": "2026-08-14T23:38:28.157Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3",
+  "evidenceType": "exact_spotify_bridge_discovery",
+  "resolverVersion": "identity_discovery_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "candidateId": "mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3",
+      "candidateName": "Whethan",
+      "reviewOnly": true,
+      "decision": "completed_without_safe_exact_bridge",
+      "resultingSpotifyArtistId": null,
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ9174C6f",
+          "legacyIds": [
+            "2278363"
+          ],
+          "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/whethan-tickets/artist/2278363"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "stage3Run": false,
+        "migrationPerformed": false
+      }
+    },
+    "acquisition": {
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ9174C6f",
+          "legacyIds": [
+            "2278363"
+          ],
+          "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/whethan-tickets/artist/2278363"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": []
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/exact-provider-url/00165d1208e167bcba5ca9fe43b90b60a1455534c3af05a4d1ea92b0871c6856.json"
+  ],
+  "reviewOnly": true
+}

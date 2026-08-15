@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dcc-7e80-92f4-5b96104763fe",
+  "candidateId": "mr_candidate_01a00223-5dcc-78a1-b2df-0f090996243d",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.340Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:e4e51309d98aedeeca190736d69b15e6e4f5d91420c045dc0451244796659365",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-005",
+      "sourceUrl": "https://open.spotify.com/artist/63yl9nDNrHpiAYGlNJxxjc",
+      "rawArtistName": "Frankie Knuckles",
+      "normalizedArtistName": "frankie knuckles",
+      "spotifyArtistId": "63yl9nDNrHpiAYGlNJxxjc",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/63yl9nDNrHpiAYGlNJxxjc",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

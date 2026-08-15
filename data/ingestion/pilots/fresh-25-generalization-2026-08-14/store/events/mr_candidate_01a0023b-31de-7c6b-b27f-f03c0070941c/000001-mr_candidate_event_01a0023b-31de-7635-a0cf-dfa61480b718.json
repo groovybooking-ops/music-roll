@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31de-7635-a0cf-dfa61480b718",
+  "candidateId": "mr_candidate_01a0023b-31de-7c6b-b27f-f03c0070941c",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.958Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:da10ae3b9f8122d700ee33c8d1410f25ce31bdb0b832bdc4c13e76273e1608ef",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-019",
+      "sourceUrl": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+      "rawArtistName": "Big Thief",
+      "normalizedArtistName": "big thief",
+      "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

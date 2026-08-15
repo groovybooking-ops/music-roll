@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:378fc97be1419686c6b8f3939e8ad420056cacf406c53fb0e5d17bb481109b33",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second bounded live discovery pilot",
+  "sourceRecordId": "bounded-query-beyonce:result:2:1Y8cdNmUJH7yBTd9yOvr5i",
+  "sourceUrl": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i",
+  "artist": {
+    "rawName": "Destiny's Child",
+    "normalizedName": "destiny's child"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "1Y8cdNmUJH7yBTd9yOvr5i",
+    "url": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "1Y8cdNmUJH7yBTd9yOvr5i",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Beyoncé",
+    "resultPosition": 2,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json",
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "reviewOnly": true
+}

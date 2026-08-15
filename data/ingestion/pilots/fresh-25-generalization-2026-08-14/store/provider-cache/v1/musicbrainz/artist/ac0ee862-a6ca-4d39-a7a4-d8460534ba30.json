@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+  "retrievedAt": "2026-08-14T21:45:46.754Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+      "name": "Rosalía",
+      "sortName": "Rosalía",
+      "artistType": "Person",
+      "disambiguation": "60s pop singer",
+      "country": "ES",
+      "area": {
+        "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+        "name": "Spain",
+        "sortName": "Spain",
+        "type": null
+      },
+      "beginArea": {
+        "id": "9ddf829c-48ee-4457-a80d-f7370f24f2ec",
+        "name": "Madrid",
+        "sortName": "Madrid",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1944-05-21",
+        "end": "2021-09-10",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "name": "Rosalía Garrido Muñoz",
+          "sortName": "Garrido Muñoz, Rosalía",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000466566998"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/2143771"
+        },
+        {
+          "relationshipType": "IMDb",
+          "url": "https://www.imdb.com/name/nm0740998/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/rosalia-3"
+        },
+        {
+          "relationshipType": "songkick",
+          "url": "https://www.songkick.com/artists/786955"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5394851"
+        }
+      ]
+    },
+    "raw": {
+      "begin-area": {
+        "sort-name": "Madrid",
+        "name": "Madrid",
+        "id": "9ddf829c-48ee-4457-a80d-f7370f24f2ec",
+        "disambiguation": "",
+        "type": null,
+        "type-id": null
+      },
+      "life-span": {
+        "begin": "1944-05-21",
+        "end": "2021-09-10",
+        "ended": true
+      },
+      "country": "ES",
+      "area": {
+        "sort-name": "Spain",
+        "name": "Spain",
+        "iso-3166-1-codes": [
+          "ES"
+        ],
+        "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+        "disambiguation": "",
+        "type": null,
+        "type-id": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Garrido Muñoz, Rosalía",
+          "begin": null,
+          "ended": false,
+          "name": "Rosalía Garrido Muñoz",
+          "end": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "primary": null,
+          "type": "Legal name",
+          "locale": null
+        }
+      ],
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender": "Female",
+      "end-area": {
+        "sort-name": "El Campello",
+        "id": "889b1386-f1d1-46f1-affd-17c6a447a240",
+        "name": "El Campello",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null
+      },
+      "name": "Rosalía",
+      "id": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+      "sort-name": "Rosalía",
+      "ipis": [],
+      "type": "Person",
+      "relations": [
+        {
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "discogs",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "959a8160-f604-4f86-a81a-6850a8332285",
+            "resource": "https://www.discogs.com/artist/2143771"
+          }
+        },
+        {
+          "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.imdb.com/name/nm0740998/",
+            "id": "149bb68d-6459-4acd-aff5-bbf3c5bbcba4"
+          },
+          "type": "IMDb",
+          "ended": false,
+          "begin": null,
+          "direction": "forward"
+        },
+        {
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/rosalia-3",
+            "id": "0094ffdf-c058-4ead-a62c-e966de14f357"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "other databases",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "songkick",
+          "source-credit": "",
+          "url": {
+            "id": "aa6db17e-bb1f-45b6-8b69-ed5764752d83",
+            "resource": "https://www.songkick.com/artists/786955"
+          },
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+        },
+        {
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "wikidata",
+          "source-credit": "",
+          "url": {
+            "id": "740ef615-4363-4bab-95a8-96581e807b27",
+            "resource": "https://www.wikidata.org/wiki/Q5394851"
+          },
+          "attribute-ids": {}
+        }
+      ],
+      "disambiguation": "60s pop singer",
+      "isnis": [
+        "0000000466566998"
+      ]
+    }
+  }
+}

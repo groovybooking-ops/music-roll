@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00224-2b36-7516-80b0-fa20144f1fd9",
+  "candidateId": "mr_candidate_01a00223-5dc7-7962-854d-ae56d5e57afa",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "needs_review",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "identity_corroboration_insufficient",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:18:39.926Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a00223-5dc7-7962-854d-ae56d5e57afa/7331552a91f971863932986bc4da2da5f31a304138eea055da4b9fe45bec8443.json",
+    "provider-cache/v1/wikidata/spotify-bridge/5qRbfEf4Ooo19aRXKQzvUV.json",
+    "provider-cache/v1/musicbrainz/artist/304c731f-ea4f-407c-b4fc-65131b1b2b37.json",
+    "provider-cache/v1/musicbrainz/exact-name/53caff60ffea4fc7bc9ba739.json",
+    "provider-cache/v1/musicbrainz/artist/c6809ef1-b9ee-48de-a175-e05816f880a3.json",
+    "provider-cache/v1/musicbrainz/artist/5607b559-2929-4cb6-a556-124ea22aa171.json",
+    "provider-cache/v1/musicbrainz/artist/8b0924f3-78d5-4efd-a102-8dd02ddab361.json",
+    "provider-cache/v1/musicbrainz/artist/72e6c71e-4625-4c27-b68c-64c6596db92b.json",
+    "provider-cache/v1/musicbrainz/artist/df6ccb7b-3eb0-4326-a140-d69d374edf23.json",
+    "provider-cache/v1/musicbrainz/artist/088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "insufficient_corroboration",
+      "selectedSpotifyArtistId": null,
+      "wikidataQids": [
+        "Q64875639"
+      ],
+      "musicBrainzArtistIds": [
+        "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+      ],
+      "discogsArtistIds": [],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a00223-5dc7-7962-854d-ae56d5e57afa/7331552a91f971863932986bc4da2da5f31a304138eea055da4b9fe45bec8443.json",
+        "provider-cache/v1/wikidata/spotify-bridge/5qRbfEf4Ooo19aRXKQzvUV.json",
+        "provider-cache/v1/musicbrainz/artist/304c731f-ea4f-407c-b4fc-65131b1b2b37.json",
+        "provider-cache/v1/musicbrainz/exact-name/53caff60ffea4fc7bc9ba739.json",
+        "provider-cache/v1/musicbrainz/artist/c6809ef1-b9ee-48de-a175-e05816f880a3.json",
+        "provider-cache/v1/musicbrainz/artist/5607b559-2929-4cb6-a556-124ea22aa171.json",
+        "provider-cache/v1/musicbrainz/artist/8b0924f3-78d5-4efd-a102-8dd02ddab361.json",
+        "provider-cache/v1/musicbrainz/artist/72e6c71e-4625-4c27-b68c-64c6596db92b.json",
+        "provider-cache/v1/musicbrainz/artist/df6ccb7b-3eb0-4326-a140-d69d374edf23.json",
+        "provider-cache/v1/musicbrainz/artist/088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9.json"
+      ],
+      "conflicts": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 7,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "multiple_exact_display_name_entities",
+        "competingEntityCount": 6,
+        "competingEntities": [
+          {
+            "musicBrainzArtistId": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Group",
+            "country": null,
+            "disambiguation": null,
+            "score": 88,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "345235"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "5607b559-2929-4cb6-a556-124ea22aa171",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "US jazz artist",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": null,
+            "country": null,
+            "disambiguation": "Alternative artist",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Group",
+            "country": null,
+            "disambiguation": "Brazilian pop/punk band",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "easy listening artist from LA",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [
+              "6LXztWXl5UjprS0qchHNic"
+            ],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": null,
+            "country": null,
+            "disambiguation": "appears on Babeheaven's track",
+            "score": 86,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "US skateboarder & rapper",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "5qRbfEf4Ooo19aRXKQzvUV"
+            ],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Group",
+            "country": null,
+            "disambiguation": null,
+            "score": 88,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "345235"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "5607b559-2929-4cb6-a556-124ea22aa171",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "US jazz artist",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "8b0924f3-78d5-4efd-a102-8dd02ddab361",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": null,
+            "country": null,
+            "disambiguation": "Alternative artist",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Group",
+            "country": null,
+            "disambiguation": "Brazilian pop/punk band",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "df6ccb7b-3eb0-4326-a140-d69d374edf23",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "easy listening artist from LA",
+            "score": 87,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [
+              "6LXztWXl5UjprS0qchHNic"
+            ],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "088f3f22-1b6c-4e8b-9c3c-2a3f7accc0e9",
+            "name": "Navy Blue",
+            "sortName": "Navy Blue",
+            "artistType": null,
+            "country": null,
+            "disambiguation": "appears on Babeheaven's track",
+            "score": 86,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64875639",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5qRbfEf4Ooo19aRXKQzvUV",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q64875639",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+        }
+      ],
+      "providerErrors": [],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:18:39.923Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "needs_review"
+    }
+  }
+}

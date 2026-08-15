@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+  "retrievedAt": "2026-08-14T21:45:36.642Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+      "name": "Ramona Lisa",
+      "sortName": "Ramona Lisa",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "name": "Manhattan",
+        "sortName": "Manhattan",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1985-06-20",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003225438"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://ramonalisa.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/3734963"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4rznUCgRWVTHQX9tUyQ4BV"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Ramona+Lisa"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Ramona-lisa"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.theramonalisa.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "http://id.loc.gov/authorities/names/no2021049984"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://imvdb.com/n/ramona-lisa"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id829728022"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/theeramonalisa"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/theeramonalisa/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/ramonalisa"
+        },
+        {
+          "relationshipType": "VIAF",
+          "url": "http://viaf.org/viaf/317064300"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17086369"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/user/theeramonalisa"
+        }
+      ]
+    },
+    "raw": {
+      "id": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+      "name": "Ramona Lisa",
+      "ipis": [],
+      "sort-name": "Ramona Lisa",
+      "type": "Person",
+      "disambiguation": "",
+      "isnis": [],
+      "relations": [
+        {
+          "type": "allmusic",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "id": "cb41dc52-9b39-43b1-905c-6ad7df29df11",
+            "resource": "https://www.allmusic.com/artist/mn0003225438"
+          },
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "type": "bandcamp",
+          "source-credit": "",
+          "url": {
+            "id": "9a506629-5348-456d-b3c8-d4f8369617c8",
+            "resource": "https://ramonalisa.bandcamp.com/"
+          },
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+          "end": null,
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {}
+        },
+        {
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "discogs",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "id": "881f610f-b29a-4e42-83a6-7de181f3c663",
+            "resource": "https://www.discogs.com/artist/3734963"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "url": {
+            "resource": "https://open.spotify.com/artist/4rznUCgRWVTHQX9tUyQ4BV",
+            "id": "02c48ac1-eaeb-4b9a-a8c4-172de6574376"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "free streaming",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "id": "01a75a20-8220-4824-a7fd-d11b60070ebf",
+            "resource": "https://www.last.fm/music/Ramona+Lisa"
+          },
+          "attribute-ids": {},
+          "type": "last.fm",
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "end": null
+        },
+        {
+          "url": {
+            "resource": "https://genius.com/artists/Ramona-lisa",
+            "id": "9fe1f493-fdb9-4356-b8c6-aee21cda6f8a"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "lyrics",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "type": "official homepage",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "http://www.theramonalisa.com/",
+            "id": "aa47e778-3d85-4593-90e7-fc77da1ae519"
+          },
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "454603da-5139-4b53-940a-9d1331ef598f",
+            "resource": "http://id.loc.gov/authorities/names/no2021049984"
+          },
+          "type": "other databases",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "type": "other databases",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://imvdb.com/n/ramona-lisa",
+            "id": "9a565862-1072-4659-af06-a5400dbfe7d1"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": []
+        },
+        {
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "url": {
+            "resource": "https://itunes.apple.com/us/artist/id829728022",
+            "id": "3410c58f-299f-4e5e-860e-24dadd292ede"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "purchase for download",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+        },
+        {
+          "type": "social network",
+          "url": {
+            "resource": "https://www.facebook.com/theeramonalisa",
+            "id": "8e4a8a8d-eca7-4a2c-87b4-1b6c132c23c5"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": []
+        },
+        {
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "social network",
+          "url": {
+            "resource": "https://www.instagram.com/theeramonalisa/",
+            "id": "ad9ef0e4-59a4-44ef-9171-7b75171f422c"
+          },
+          "source-credit": "",
+          "attribute-ids": {}
+        },
+        {
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "51a71f05-ec73-489e-a114-f241e6aad5e4",
+            "resource": "https://soundcloud.com/ramonalisa"
+          },
+          "type": "soundcloud",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+        },
+        {
+          "source-credit": "",
+          "url": {
+            "resource": "http://viaf.org/viaf/317064300",
+            "id": "0d1ddcd7-df89-4ead-9dae-a8ffeb3bd7e4"
+          },
+          "attribute-ids": {},
+          "type": "VIAF",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": ""
+        },
+        {
+          "url": {
+            "id": "419e2c92-7339-4bbb-b3ad-41428e2b5d5e",
+            "resource": "https://www.wikidata.org/wiki/Q17086369"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "wikidata",
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "youtube",
+          "url": {
+            "id": "66baf582-4096-4091-86d7-9877f0fb360b",
+            "resource": "https://www.youtube.com/user/theeramonalisa"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        }
+      ],
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1985-06-20"
+      },
+      "begin-area": {
+        "disambiguation": "",
+        "type-id": null,
+        "type": null,
+        "sort-name": "Manhattan",
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "name": "Manhattan"
+      },
+      "area": {
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "name": "United States",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null
+      },
+      "country": "US",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender": "Female",
+      "aliases": [],
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "end-area": null
+    }
+  }
+}

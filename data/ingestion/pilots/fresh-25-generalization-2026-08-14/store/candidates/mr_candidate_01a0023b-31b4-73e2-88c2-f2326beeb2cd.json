@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31b4-73e2-88c2-f2326beeb2cd",
+  "revision": 4,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T21:44:25.327Z",
+  "createdAt": "2026-08-14T21:43:48.916Z",
+  "updatedAt": "2026-08-14T21:44:25.327Z",
+  "name": {
+    "raw": "Cleo Sol",
+    "normalized": "cleo sol"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:9638ebea9da671e171faf0db6c1d18cb42727b6e7ade8a116d7b9623aa2b5b8a",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-005",
+      "sourceUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "rawArtistName": "Cleo Sol",
+      "normalizedArtistName": "cleo sol",
+      "spotifyArtistId": "3ETLPQkcEd7z4k3IbZmXMq",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "3ETLPQkcEd7z4k3IbZmXMq",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "provider_profile_multiplicity",
+    "selectedSpotifyArtistId": "3ETLPQkcEd7z4k3IbZmXMq",
+    "wikidataQids": [
+      "Q109781335"
+    ],
+    "musicBrainzArtistIds": [
+      "37e87694-b263-4ff4-839f-463f78cfef54"
+    ],
+    "discogsArtistIds": [
+      "1511198",
+      "7018496"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31b4-73e2-88c2-f2326beeb2cd/f84d10d39db742127b7a93656f4182f58dfe11b174ef49aaf967b0861a8c862e.json",
+      "provider-cache/v1/wikidata/spotify-bridge/3ETLPQkcEd7z4k3IbZmXMq.json",
+      "provider-cache/v1/musicbrainz/spotify-url/3ETLPQkcEd7z4k3IbZmXMq.json",
+      "provider-cache/v1/musicbrainz/artist/37e87694-b263-4ff4-839f-463f78cfef54.json",
+      "provider-cache/v1/discogs/artist/1511198.json",
+      "provider-cache/v1/discogs/artist/7018496.json",
+      "provider-cache/v1/musicbrainz/exact-name/2b20894d3cfcdbc8b57606be.json",
+      "provider-cache/v1/musicbrainz/release-groups/37e87694-b263-4ff4-839f-463f78cfef54.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "1511198",
+          "7018496"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "name": "Cleo Sol",
+          "sortName": "Sol, Cleo",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "3ETLPQkcEd7z4k3IbZmXMq"
+          ],
+          "discogsArtistIds": [
+            "1511198",
+            "7018496"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": true,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "provider_error_present"
+        ],
+        "explainedAlternates": [
+          {
+            "identifierType": "discogsArtistId",
+            "value": "1511198",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          },
+          {
+            "identifierType": "discogsArtistId",
+            "value": "7018496",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          }
+        ],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3ETLPQkcEd7z4k3IbZmXMq",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1511198",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "7018496",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3ETLPQkcEd7z4k3IbZmXMq",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q109781335",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1511198",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "1511198"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "7018496",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "7018496"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+        "source": "musicbrainz",
+        "path": "url.exact_spotify_artist_relationship",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+      }
+    ],
+    "providerErrors": [
+      {
+        "provider": "wikidata",
+        "operation": "spotify_bridge",
+        "identifier": "3ETLPQkcEd7z4k3IbZmXMq",
+        "statusCode": 404,
+        "message": "Wikidata has no artist bridge for Spotify ID 3ETLPQkcEd7z4k3IbZmXMq."
+      }
+    ],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:44:25.326Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023b-bfef-7d6a-b21e-ebe8f32640c9"
+}

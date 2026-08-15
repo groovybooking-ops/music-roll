@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "4928259fc13cbdbf42aca6d7",
+  "retrievedAt": "2026-08-14T21:46:30.186Z",
+  "value": {
+    "requestedName": "Jamie xx",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+        "name": "Jamie xx",
+        "sortName": "xx, Jamie",
+        "artistType": "Person",
+        "country": "GB",
+        "disambiguation": "English DJ, record producer, and remixer",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:30.161Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Jamie xx",
+          "sort-name": "xx, Jamie",
+          "gender": "male",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "English DJ, record producer, and remixer",
+          "ipis": [
+            "00598347296"
+          ],
+          "isnis": [
+            "0000000118014919"
+          ],
+          "life-span": {
+            "begin": "1988-10-28",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Smith, James",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "James Smith",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Smith, Jamie",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Jamie Smith",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Smith, James Thomas",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "James Thomas Smith",
+              "locale": "en",
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 4,
+              "name": "electronic"
+            },
+            {
+              "count": 3,
+              "name": "house"
+            },
+            {
+              "count": 1,
+              "name": "deep house"
+            },
+            {
+              "count": 0,
+              "name": "indie pop"
+            },
+            {
+              "count": 1,
+              "name": "pop rap"
+            },
+            {
+              "count": 0,
+              "name": "uk garage"
+            },
+            {
+              "count": 2,
+              "name": "uk funky"
+            },
+            {
+              "count": 2,
+              "name": "future garage"
+            },
+            {
+              "count": 3,
+              "name": "uk bass"
+            },
+            {
+              "count": 1,
+              "name": "post-dubstep"
+            },
+            {
+              "count": 0,
+              "name": "hardcore breaks"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

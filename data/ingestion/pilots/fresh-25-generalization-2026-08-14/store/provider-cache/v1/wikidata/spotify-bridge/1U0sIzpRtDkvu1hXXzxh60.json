@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1U0sIzpRtDkvu1hXXzxh60",
+  "retrievedAt": "2026-08-14T21:45:49.283Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+      "wikidataQid": "Q17306137",
+      "name": "Kelela",
+      "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "2200067",
+        "2884794"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q17306137"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2200067"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kelela"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q17306137"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2884794"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kelela"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

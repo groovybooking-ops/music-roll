@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "2CLclpIC43fLzsYq6LQvlL",
+  "retrievedAt": "2026-08-14T21:18:17.301Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+        "name": "Elmiene",
+        "sortName": "Elmiene",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "relations": [
+        {
+          "ended": false,
+          "direction": "backward",
+          "begin": null,
+          "type": "free streaming",
+          "attribute-ids": {},
+          "source-credit": "",
+          "target-type": "artist",
+          "attribute-values": {},
+          "artist": {
+            "disambiguation": "",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "sort-name": "Elmiene",
+            "country": "GB",
+            "name": "Elmiene",
+            "id": "1a610683-e359-4895-a4a7-e98cf314e502"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null
+        }
+      ],
+      "id": "c211159a-b233-44ec-a5d8-e1d34e1a3920",
+      "resource": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "646d0ccf04cc38d283f60b21",
+  "retrievedAt": "2026-08-14T21:46:40.639Z",
+  "value": {
+    "requestedName": "Overmono",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+        "name": "Overmono",
+        "sortName": "Overmono",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:40.613Z",
+      "count": 2,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Overmono",
+          "sort-name": "Overmono",
+          "area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "4335c9f7-9e83-4226-ae2d-99a897546ae8",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Overmonnow",
+            "sort-name": "Overmonnow",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+          "isnis": [
+            "0000000470144528"
+          ],
+          "life-span": {
+            "begin": "2015",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "ambient"
+            },
+            {
+              "count": 1,
+              "name": "breakbeat"
+            },
+            {
+              "count": 1,
+              "name": "uk garage"
+            },
+            {
+              "count": 1,
+              "name": "edm"
+            }
+          ]
+        },
+        {
+          "id": "fb99e2be-0ba5-4205-b89e-5a90b680c565",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 80,
+          "name": "Joy Overmono",
+          "sort-name": "Joy Overmono",
+          "disambiguation": "Joy Orbison & Overmono",
+          "isnis": [
+            "0000000483056738"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

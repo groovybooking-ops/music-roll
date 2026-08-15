@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31d3-734c-9394-e41b7d2fb047",
+  "revision": 4,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T21:46:14.013Z",
+  "createdAt": "2026-08-14T21:43:48.947Z",
+  "updatedAt": "2026-08-14T21:46:14.013Z",
+  "name": {
+    "raw": "Turnstile",
+    "normalized": "turnstile"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:3987c2d696daaf6157df3f1a9824edba6c0a9d0992ce630dfd4f4c113b992545",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-017",
+      "sourceUrl": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x",
+      "rawArtistName": "Turnstile",
+      "normalizedArtistName": "turnstile",
+      "spotifyArtistId": "2qnpHrOzdmOo1S4ox3j17x",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "2qnpHrOzdmOo1S4ox3j17x",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_with_same_name_ambiguity",
+    "selectedSpotifyArtistId": "2qnpHrOzdmOo1S4ox3j17x",
+    "wikidataQids": [
+      "Q18719133"
+    ],
+    "musicBrainzArtistIds": [
+      "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+    ],
+    "discogsArtistIds": [
+      "2921052"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31d3-734c-9394-e41b7d2fb047/e5894852e8433894ffcf981243ea36b0bbfdb02f3b81e98e039beb1d719fdd9d.json",
+      "provider-cache/v1/wikidata/spotify-bridge/2qnpHrOzdmOo1S4ox3j17x.json",
+      "provider-cache/v1/musicbrainz/artist/7b748dac-f5ce-45a7-9b95-c1d8b5b013ed.json",
+      "provider-cache/v1/discogs/artist/2921052.json",
+      "provider-cache/v1/musicbrainz/exact-name/7ada3cb954611466a402ea9f.json",
+      "provider-cache/v1/musicbrainz/artist/936a1d22-e8c4-4940-876e-09b47190d571.json",
+      "provider-cache/v1/musicbrainz/artist/351bee54-3ee7-449d-b68e-c94da6798b97.json",
+      "provider-cache/v1/musicbrainz/artist/effbdb1d-1aac-4d8c-ad7c-bb6203edee87.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 4,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "multiple_exact_display_name_entities",
+      "competingEntityCount": 3,
+      "competingEntities": [
+        {
+          "musicBrainzArtistId": "936a1d22-e8c4-4940-876e-09b47190d571",
+          "name": "TURNSTiLE",
+          "sortName": "TURNSTiLE",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "US modern rock band",
+          "score": 87,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [
+            "53CqZPLKFa4OsovaNByApg"
+          ],
+          "discogsArtistIds": []
+        },
+        {
+          "musicBrainzArtistId": "351bee54-3ee7-449d-b68e-c94da6798b97",
+          "name": "Turnstile",
+          "sortName": "Turnstile",
+          "artistType": "Group",
+          "country": "ES",
+          "disambiguation": "Spanish punk-rock band",
+          "score": 87,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "2696986"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+          "name": "Turnstile",
+          "sortName": "Turnstile",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "Dutch band",
+          "score": 86,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        }
+      ],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+          "name": "Turnstile",
+          "sortName": "Turnstile",
+          "artistType": "Group",
+          "country": "US",
+          "disambiguation": "US hardcore punk band",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "2qnpHrOzdmOo1S4ox3j17x"
+          ],
+          "discogsArtistIds": [
+            "2921052"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "936a1d22-e8c4-4940-876e-09b47190d571",
+          "name": "TURNSTiLE",
+          "sortName": "TURNSTiLE",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "US modern rock band",
+          "score": 87,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [
+            "53CqZPLKFa4OsovaNByApg"
+          ],
+          "discogsArtistIds": []
+        },
+        {
+          "musicBrainzArtistId": "351bee54-3ee7-449d-b68e-c94da6798b97",
+          "name": "Turnstile",
+          "sortName": "Turnstile",
+          "artistType": "Group",
+          "country": "ES",
+          "disambiguation": "Spanish punk-rock band",
+          "score": 87,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "2696986"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+          "name": "Turnstile",
+          "sortName": "Turnstile",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "Dutch band",
+          "score": 86,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor",
+          "same_name_ambiguity_present_or_not_evaluated"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2qnpHrOzdmOo1S4ox3j17x",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2qnpHrOzdmOo1S4ox3j17x",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q18719133",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2921052",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2921052",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2qnpHrOzdmOo1S4ox3j17x",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q18719133",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7b748dac-f5ce-45a7-9b95-c1d8b5b013ed"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2921052",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "2921052"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:46:14.012Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-687d-746a-a49b-08f2603f7712"
+}

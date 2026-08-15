@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31d0-714e-88fc-7fc6d26db638",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:46:04.158Z",
+  "createdAt": "2026-08-14T21:43:48.944Z",
+  "updatedAt": "2026-08-14T21:46:04.158Z",
+  "name": {
+    "raw": "Fontaines D.C.",
+    "normalized": "fontaines d.c."
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:134cdc6107de9a15c1a5edec20f85c67603bec01ad1a8b9f12e95c83839120d7",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-016",
+      "sourceUrl": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+      "rawArtistName": "Fontaines D.C.",
+      "normalizedArtistName": "fontaines d.c.",
+      "spotifyArtistId": "3SXwqSqAoBz9WCI9PDQzY6",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "3SXwqSqAoBz9WCI9PDQzY6",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "3SXwqSqAoBz9WCI9PDQzY6",
+    "wikidataQids": [
+      "Q65056403"
+    ],
+    "musicBrainzArtistIds": [
+      "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+    ],
+    "discogsArtistIds": [
+      "6322880"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31d0-714e-88fc-7fc6d26db638/cf436bf2f8615d5f3d490db6050852b0495adfbb5287c4995368a5b5d54ae39d.json",
+      "provider-cache/v1/wikidata/spotify-bridge/3SXwqSqAoBz9WCI9PDQzY6.json",
+      "provider-cache/v1/musicbrainz/artist/fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68.json",
+      "provider-cache/v1/discogs/artist/6322880.json",
+      "provider-cache/v1/musicbrainz/exact-name/3a6d9aab57546f1525efb3d6.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+          "name": "Fontaines D.C.",
+          "sortName": "Fontaines D.C.",
+          "artistType": "Group",
+          "country": "IE",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "3SXwqSqAoBz9WCI9PDQzY6"
+          ],
+          "discogsArtistIds": [
+            "6322880"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3SXwqSqAoBz9WCI9PDQzY6",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3SXwqSqAoBz9WCI9PDQzY6",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q65056403",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6322880",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6322880",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3SXwqSqAoBz9WCI9PDQzY6",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q65056403",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6322880",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "6322880"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:46:04.157Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-41fe-713a-95c7-c0f9094174a1"
+}

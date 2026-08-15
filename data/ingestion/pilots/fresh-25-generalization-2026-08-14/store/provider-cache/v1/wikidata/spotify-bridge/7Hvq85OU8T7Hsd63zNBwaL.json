@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7Hvq85OU8T7Hsd63zNBwaL",
+  "retrievedAt": "2026-08-14T21:46:14.102Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7Hvq85OU8T7Hsd63zNBwaL",
+      "wikidataQid": "Q65070663",
+      "name": "Black Midi",
+      "musicBrainzArtistId": "4afbef0a-05ee-4551-b0e0-f1f1870d8f1c",
+      "discogsArtistId": "6447017"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q65070663"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "4afbef0a-05ee-4551-b0e0-f1f1870d8f1c"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6447017"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Black Midi"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

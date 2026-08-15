@@ -1,0 +1,555 @@
+{
+  "evidenceId": "sha256:14fb8ed8ae90868fc39e94f252917c287cd7d4f5367f6cbf86af809bb59fb466",
+  "createdAt": "2026-08-14T21:18:19.273Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dc5-7169-96ff-09246b7af1b4",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Elmiene",
+        "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL"
+      },
+      "outcome": "insufficient_corroboration",
+      "exactSpotifyUrlFallback": {
+        "status": "unique_exact_url_relationship",
+        "selectedMbid": "1a610683-e359-4895-a4a7-e98cf314e502",
+        "candidates": [
+          {
+            "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+            "name": "Elmiene",
+            "sortName": "Elmiene",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ]
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123698376",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "2CLclpIC43fLzsYq6LQvlL",
+          "observedValues": [
+            "2CLclpIC43fLzsYq6LQvlL"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2CLclpIC43fLzsYq6LQvlL",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2CLclpIC43fLzsYq6LQvlL",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2CLclpIC43fLzsYq6LQvlL",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q123698376",
+          "observedValues": [
+            "Q123698376"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q123698376",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "observedValues": [
+            "1a610683-e359-4895-a4a7-e98cf314e502"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+              "source": "musicbrainz",
+              "path": "url.exact_spotify_artist_relationship",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+            "name": "Elmiene",
+            "sortName": "Elmiene",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "2CLclpIC43fLzsYq6LQvlL"
+            ],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false
+      },
+      "missingEvidence": [
+        "discogs_artist_id"
+      ],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "1a610683-e359-4895-a4a7-e98cf314e502": {
+          "artist": {
+            "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+            "name": "Elmiene",
+            "sortName": "Elmiene",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "33587495-c775-4483-b819-931c4cf438cd",
+              "name": "Oxford",
+              "sortName": "Oxford",
+              "type": null
+            },
+            "beginArea": null,
+            "lifeSpan": {
+              "begin": null,
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0004208835"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/153953212"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/1599562425"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1599562425"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/29667862"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "ended": false,
+              "begin": null,
+              "end": null
+            },
+            "relations": [
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "allmusic",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "609c26ff-9335-4968-aa04-375e1f0bff62",
+                  "resource": "https://www.allmusic.com/artist/mn0004208835"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+                  "id": "c211159a-b233-44ec-a5d8-e1d34e1a3920"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward"
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "free streaming",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "24ecf5a5-c5d4-4642-8395-a5038297df18",
+                  "resource": "https://www.deezer.com/artist/153953212"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "type": "purchase for download",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/1599562425",
+                  "id": "cd140af1-0e4f-4a76-b49c-5724843b7f8a"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "streaming",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "cd140af1-0e4f-4a76-b49c-5724843b7f8a",
+                  "resource": "https://music.apple.com/gb/artist/1599562425"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://tidal.com/artist/29667862",
+                  "id": "82503a11-b87e-42ee-80dc-0302f7be07bd"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "streaming",
+                "attribute-ids": {}
+              }
+            ],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "end-area": null,
+            "id": "1a610683-e359-4895-a4a7-e98cf314e502",
+            "area": {
+              "type-id": null,
+              "name": "Oxford",
+              "disambiguation": "",
+              "type": null,
+              "sort-name": "Oxford",
+              "id": "33587495-c775-4483-b819-931c4cf438cd"
+            },
+            "country": "GB",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "type": "Person",
+            "ipis": [],
+            "gender": "Male",
+            "disambiguation": "",
+            "sort-name": "Elmiene",
+            "begin-area": null,
+            "name": "Elmiene",
+            "isnis": [],
+            "aliases": []
+          }
+        }
+      },
+      "discogsRecords": {},
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL",
+        "wikidataQid": "Q123698376",
+        "name": "Elmiene",
+        "musicBrainzArtistId": null,
+        "discogsArtistId": null
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2CLclpIC43fLzsYq6LQvlL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q123698376",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "exactSpotifyUrlLookup": {
+        "spotifyArtistUrl": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+        "exactUrlFound": true,
+        "candidates": [
+          {
+            "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+            "name": "Elmiene",
+            "sortName": "Elmiene",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ],
+        "raw": {
+          "relations": [
+            {
+              "ended": false,
+              "direction": "backward",
+              "begin": null,
+              "type": "free streaming",
+              "attribute-ids": {},
+              "source-credit": "",
+              "target-type": "artist",
+              "attribute-values": {},
+              "artist": {
+                "disambiguation": "",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Elmiene",
+                "country": "GB",
+                "name": "Elmiene",
+                "id": "1a610683-e359-4895-a4a7-e98cf314e502"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+              "end": null
+            }
+          ],
+          "id": "c211159a-b233-44ec-a5d8-e1d34e1a3920",
+          "resource": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL"
+        }
+      },
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "name": "Elmiene",
+          "sortName": "Elmiene",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "name": "Elmiene",
+          "sortName": "Elmiene",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "33587495-c775-4483-b819-931c4cf438cd",
+            "name": "Oxford",
+            "sortName": "Oxford",
+            "type": null
+          },
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0004208835"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/153953212"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/1599562425"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1599562425"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/29667862"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/artist/1a610683-e359-4895-a4a7-e98cf314e502.json",
+    "provider-cache/v1/musicbrainz/exact-name/f5661ecb7b26218d5fb0f0a9.json",
+    "provider-cache/v1/musicbrainz/spotify-url/2CLclpIC43fLzsYq6LQvlL.json",
+    "provider-cache/v1/wikidata/spotify-bridge/2CLclpIC43fLzsYq6LQvlL.json"
+  ]
+}

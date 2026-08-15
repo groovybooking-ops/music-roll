@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dd2-7a11-93ed-593261f5331e",
+  "revision": 4,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T21:19:38.573Z",
+  "createdAt": "2026-08-14T21:17:47.346Z",
+  "updatedAt": "2026-08-14T21:19:38.573Z",
+  "name": {
+    "raw": "Solange",
+    "normalized": "solange"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:623896224e74b1b9ba1ba3aebcf0605265093a70f7f2a115b9b456304918fd83",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-008",
+      "sourceUrl": "https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU",
+      "rawArtistName": "Solange",
+      "normalizedArtistName": "solange",
+      "spotifyArtistId": "2auiVi8sUZo17dLy1HwrTU",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "2auiVi8sUZo17dLy1HwrTU",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "provider_profile_multiplicity",
+    "selectedSpotifyArtistId": "2auiVi8sUZo17dLy1HwrTU",
+    "wikidataQids": [
+      "Q231228"
+    ],
+    "musicBrainzArtistIds": [
+      "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+    ],
+    "discogsArtistIds": [
+      "587458",
+      "160408"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00223-5dd2-7a11-93ed-593261f5331e/a3088bb9342a9be909364a60781c3f25a264bc8a79a0dc7871eee961d3f86cc1.json",
+      "provider-cache/v1/wikidata/spotify-bridge/2auiVi8sUZo17dLy1HwrTU.json",
+      "provider-cache/v1/musicbrainz/artist/410e7fd3-b865-4fa0-bb18-1b7fd53382ca.json",
+      "provider-cache/v1/discogs/artist/587458.json",
+      "provider-cache/v1/discogs/artist/160408.json",
+      "provider-cache/v1/musicbrainz/exact-name/a99ade232ab5dcb9cde3e5f4.json",
+      "provider-cache/v1/musicbrainz/artist/ff7103c5-da9e-434d-b8aa-037424ba45ad.json",
+      "provider-cache/v1/musicbrainz/artist/e7c99fbc-bc40-48f7-abff-883390514c8b.json",
+      "provider-cache/v1/musicbrainz/artist/6d09a977-af24-4bbb-868b-508886d9e2f8.json",
+      "provider-cache/v1/musicbrainz/artist/d010e725-c5ed-4808-ad05-f9d2b7e8989d.json",
+      "provider-cache/v1/musicbrainz/release-groups/410e7fd3-b865-4fa0-bb18-1b7fd53382ca.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "587458",
+          "160408"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 5,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "multiple_exact_display_name_entities",
+      "competingEntityCount": 4,
+      "competingEntities": [
+        {
+          "musicBrainzArtistId": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "trance duo \"Messages\"",
+          "score": 85,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "6115"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "e7c99fbc-bc40-48f7-abff-883390514c8b",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": "BR",
+          "disambiguation": "Brazilian pop singer",
+          "score": 83,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "403382"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "6d09a977-af24-4bbb-868b-508886d9e2f8",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "singer on the Italians Do It Better label",
+          "score": 83,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        },
+        {
+          "musicBrainzArtistId": "d010e725-c5ed-4808-ad05-f9d2b7e8989d",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "Vocals on \"Minimal Deep\" single of 2010",
+          "score": 82,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "4115738"
+          ]
+        }
+      ],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US RnB vocalist Solange Knowles",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "2auiVi8sUZo17dLy1HwrTU"
+          ],
+          "discogsArtistIds": [
+            "160408",
+            "587458"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "trance duo \"Messages\"",
+          "score": 85,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "6115"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "e7c99fbc-bc40-48f7-abff-883390514c8b",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": "BR",
+          "disambiguation": "Brazilian pop singer",
+          "score": 83,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "403382"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "6d09a977-af24-4bbb-868b-508886d9e2f8",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "singer on the Italians Do It Better label",
+          "score": 83,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        },
+        {
+          "musicBrainzArtistId": "d010e725-c5ed-4808-ad05-f9d2b7e8989d",
+          "name": "Solange",
+          "sortName": "Solange",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "Vocals on \"Minimal Deep\" single of 2010",
+          "score": 82,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": [
+            "4115738"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": true,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2auiVi8sUZo17dLy1HwrTU",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2auiVi8sUZo17dLy1HwrTU",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q231228",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "587458",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160408",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160408",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "587458",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2auiVi8sUZo17dLy1HwrTU",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q231228",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160408",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "160408"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "587458",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "587458"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:19:38.572Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00225-104d-7b65-816d-7df93ddf3077"
+}

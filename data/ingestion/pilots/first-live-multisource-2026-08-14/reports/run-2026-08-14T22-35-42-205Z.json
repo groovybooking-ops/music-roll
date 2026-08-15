@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "first-live-multisource-2026-08-14",
+  "reviewOnly": true,
+  "completedAt": "2026-08-14T22:35:42.205Z",
+  "limits": {
+    "totalProviderRequests": 8,
+    "spotifyRequests": 4,
+    "ticketmasterRequests": 4,
+    "normalizedOccurrences": 20,
+    "newCandidates": 10,
+    "unresolvedQueueGrowth": 10
+  },
+  "providerMetrics": {
+    "requests": {
+      "total": 3,
+      "spotify": 2,
+      "ticketmaster": 1
+    },
+    "cacheHits": {
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "pages": {
+      "spotify": 1,
+      "ticketmaster": 1
+    },
+    "retries": {
+      "total": 0,
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "errors": []
+  },
+  "occurrenceMetrics": {
+    "totalNormalized": 4,
+    "spotify": 3,
+    "ticketmaster": 1,
+    "before": 0,
+    "after": 4,
+    "created": 4
+  },
+  "queueImpact": {
+    "before": 0,
+    "after": 2,
+    "growth": 2,
+    "countsByState": {
+      "identity_discovery_pending": 1,
+      "identity_pending": 1
+    },
+    "idempotentOccurrences": 0,
+    "candidateAttachments": 0,
+    "existingLiveAssociations": 2,
+    "newSpotifyCandidates": 1,
+    "newTicketmasterOnlyCandidates": 1,
+    "convergenceReviewCandidates": 0,
+    "crossSourceConvergences": [],
+    "duplicateCandidatesPrevented": 2,
+    "nameCollisionWarnings": []
+  },
+  "associations": {
+    "before": 0,
+    "after": 4,
+    "created": 4
+  },
+  "checkpoints": {
+    "spotify": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52",
+      "providerPage": 1,
+      "itemOffset": 0,
+      "exhausted": true
+    },
+    "ticketmaster": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6",
+      "providerPage": 1,
+      "itemOffset": 0,
+      "exhausted": true
+    }
+  },
+  "occurrenceResults": [
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:d98a94f9fba58a6d5b1af01fdcd26bcd2da32e28f7abcbdcd9ba43dadac55440",
+      "artistName": "SZA",
+      "providerEntityId": "7tYKF4w9nC0nq9CsPZTHyP",
+      "action": "associate_existing_live_artist",
+      "targetType": "live_artist",
+      "targetId": "mr_artist_000002",
+      "lifecycleState": null,
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:a3594bf970c0a219d77b31881e270a8fae19d411c78e66fe36995365502c67f1",
+      "artistName": "Summer Walker",
+      "providerEntityId": "57LYzLEk2LcFghVwuWbcuS",
+      "action": "associate_existing_live_artist",
+      "targetType": "live_artist",
+      "targetId": "mr_artist_000010",
+      "lifecycleState": null,
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21",
+      "artistName": "Szady",
+      "providerEntityId": "33M4iSlHYWg8S5p7zvDzoI",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2",
+      "artistName": "Charles Mingus Orchestra",
+      "providerEntityId": "K8vZ917GmE7",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true
+    }
+  ],
+  "providerErrors": [],
+  "replayVerification": {
+    "checked": 2,
+    "exact": 2
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "after": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "unchanged": true
+  },
+  "safety": {
+    "identityWorkerRun": false,
+    "candidatesApproved": false,
+    "candidatesMigrated": false,
+    "liveDirectoryModified": false,
+    "permanentRegistryModified": false
+  }
+}

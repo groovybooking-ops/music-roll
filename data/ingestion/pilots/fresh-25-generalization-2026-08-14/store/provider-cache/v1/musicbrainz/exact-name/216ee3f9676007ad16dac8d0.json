@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "216ee3f9676007ad16dac8d0",
+  "retrievedAt": "2026-08-14T21:47:47.135Z",
+  "value": {
+    "requestedName": "Bicep",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+        "name": "Bicep",
+        "sortName": "Bicep",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:47:47.111Z",
+      "count": 3,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Bicep",
+          "sort-name": "Bicep",
+          "area": {
+            "id": "057ce294-2684-46fd-aee1-4d8c6b4bf4ef",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Belfast",
+            "sort-name": "Belfast",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000469561295"
+          ],
+          "life-span": {
+            "begin": "2009",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "stutter house"
+            },
+            {
+              "count": 1,
+              "name": "club"
+            },
+            {
+              "count": 1,
+              "name": "leftfield"
+            },
+            {
+              "count": 1,
+              "name": "edm"
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "count": 2,
+              "name": "techno"
+            },
+            {
+              "count": 2,
+              "name": "electronic"
+            }
+          ]
+        },
+        {
+          "id": "9bc8441c-0ab0-4de0-8d13-d18d4c85544c",
+          "score": 77,
+          "name": "Radical_Bicep",
+          "sort-name": "Radical_Bicep",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "4a1ab3ca-0738-4c5b-8db3-f3b6108a77c2",
+          "score": 75,
+          "name": "Roselaine Bicep",
+          "sort-name": "Roselaine Bicep",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

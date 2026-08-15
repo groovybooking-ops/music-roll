@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31d3-7996-9547-6c9cc1649328",
+  "candidateId": "mr_candidate_01a0023b-31d3-734c-9394-e41b7d2fb047",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.947Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:3987c2d696daaf6157df3f1a9824edba6c0a9d0992ce630dfd4f4c113b992545",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-017",
+      "sourceUrl": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x",
+      "rawArtistName": "Turnstile",
+      "normalizedArtistName": "turnstile",
+      "spotifyArtistId": "2qnpHrOzdmOo1S4ox3j17x",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2qnpHrOzdmOo1S4ox3j17x",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

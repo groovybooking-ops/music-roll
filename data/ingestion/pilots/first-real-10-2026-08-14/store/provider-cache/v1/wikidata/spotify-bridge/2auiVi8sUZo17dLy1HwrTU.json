@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2auiVi8sUZo17dLy1HwrTU",
+  "retrievedAt": "2026-08-14T21:19:15.706Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2auiVi8sUZo17dLy1HwrTU",
+      "wikidataQid": "Q231228",
+      "name": "Solange Knowles",
+      "musicBrainzArtistId": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "587458",
+        "160408"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q231228"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "587458"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Solange Knowles"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q231228"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "160408"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Solange Knowles"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

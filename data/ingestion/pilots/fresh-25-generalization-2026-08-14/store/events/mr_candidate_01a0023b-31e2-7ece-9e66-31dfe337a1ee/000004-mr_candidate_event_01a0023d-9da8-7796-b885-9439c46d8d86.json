@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023d-9da8-7796-b885-9439c46d8d86",
+  "candidateId": "mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "identity_coherent",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "identity_evidence_coherent",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:46:27.624Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee/96336cc630e4c2b361c0a7ae1dc5a2fda939ed9fb4976e6e8da916eef2ed4ebf.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7bu3H8JO7d0UbMoVzbo70s.json",
+    "provider-cache/v1/musicbrainz/artist/69ee3720-a7cb-4402-b48d-a02c366f2bcf.json",
+    "provider-cache/v1/discogs/artist/28972.json",
+    "provider-cache/v1/musicbrainz/exact-name/1b9d92292d0df003e83b4e43.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "coherent_identity_evidence",
+      "selectedSpotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+      "wikidataQids": [
+        "Q484427"
+      ],
+      "musicBrainzArtistIds": [
+        "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+      ],
+      "discogsArtistIds": [
+        "28972"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee/96336cc630e4c2b361c0a7ae1dc5a2fda939ed9fb4976e6e8da916eef2ed4ebf.json",
+        "provider-cache/v1/wikidata/spotify-bridge/7bu3H8JO7d0UbMoVzbo70s.json",
+        "provider-cache/v1/musicbrainz/artist/69ee3720-a7cb-4402-b48d-a02c366f2bcf.json",
+        "provider-cache/v1/discogs/artist/28972.json",
+        "provider-cache/v1/musicbrainz/exact-name/1b9d92292d0df003e83b4e43.json"
+      ],
+      "conflicts": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+            "name": "The Cure",
+            "sortName": "Cure, The",
+            "artistType": "Group",
+            "country": "GB",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "7bu3H8JO7d0UbMoVzbo70s"
+            ],
+            "discogsArtistIds": [
+              "28972"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q484427",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q484427",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "28972"
+        }
+      ],
+      "providerErrors": [],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:46:27.623Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "complete"
+    }
+  }
+}

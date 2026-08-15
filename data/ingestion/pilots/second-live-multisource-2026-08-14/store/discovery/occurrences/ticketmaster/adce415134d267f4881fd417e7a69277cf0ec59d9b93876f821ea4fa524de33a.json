@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a",
+  "provider": "ticketmaster",
+  "sourceType": "ticketmaster_event",
+  "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+  "sourceRecordId": "rZ7HnEZ1A4Z6ON/attraction/K8vZ917GyW0",
+  "sourceUrl": "https://www.ticketweb.com/event/rush-def-leppard-joan-jett-garden-amphitheatre-tickets/15007823",
+  "artist": {
+    "rawName": "Hysteria",
+    "normalizedName": "hysteria"
+  },
+  "providerEntity": {
+    "provider": "ticketmaster",
+    "type": "attraction",
+    "id": "K8vZ917GyW0",
+    "url": "https://www.ticketmaster.com/hysteria-tickets/artist/1485296",
+    "legacyIds": [
+      "1485296"
+    ]
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "event_attractions",
+    "eventId": "rZ7HnEZ1A4Z6ON",
+    "eventName": "Rush, Def Leppard, Joan Jett, AC/DC Tributes",
+    "eventDateTime": {
+      "localDate": "2026-08-14",
+      "localTime": "17:00:00",
+      "utcDateTime": "2026-08-15T00:00:00Z"
+    },
+    "eventClassifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAeA",
+          "name": "Rock"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7v6an",
+          "name": "Rock & Roll"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      },
+      {
+        "primary": false,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvl",
+          "name": "Other"
+        },
+        "subGenre": null,
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      },
+      {
+        "primary": false,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvt",
+          "name": "Metal"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vk6E",
+          "name": "Metal"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      },
+      {
+        "primary": false,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAeA",
+          "name": "Rock"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7v6an",
+          "name": "Rock & Roll"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      }
+    ],
+    "eventPosition": 1,
+    "attractionPosition": 0,
+    "venue": {
+      "id": "rZ7HnEZ178Ve4",
+      "name": "Garden Amphitheatre",
+      "city": "Garden Grove",
+      "region": "CA",
+      "country": "US",
+      "latitude": 33.777011,
+      "longitude": -117.940602
+    },
+    "eventEvidenceRef": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+    "discoveryAttractionId": "K8vZ917GyW0",
+    "legacyAttractionIds": [
+      "1485296"
+    ],
+    "attractionUrl": "https://www.ticketmaster.com/hysteria-tickets/artist/1485296",
+    "classifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAe6",
+          "name": "Undefined"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7v6JI",
+          "name": "Undefined"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7l1",
+          "name": "Group"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7vAAI",
+          "name": "Tribute Band"
+        }
+      }
+    ],
+    "evidenceRefs": {
+      "rawPage": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+      "attraction": null,
+      "event": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json"
+    },
+    "note": "Ticketmaster classifications are source evidence only and do not set Music Roll genre or stage."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "reviewOnly": true
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll first bounded live discovery pilot",
+  "sourceRecordId": "bounded-query-sza:result:2:33M4iSlHYWg8S5p7zvDzoI",
+  "sourceUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+  "artist": {
+    "rawName": "Szady",
+    "normalizedName": "szady"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "33M4iSlHYWg8S5p7zvDzoI",
+    "url": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "33M4iSlHYWg8S5p7zvDzoI",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "SZA",
+    "resultPosition": 2,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52.json",
+  "discoveredAt": "2026-08-14T22:34:32.351Z",
+  "reviewOnly": true
+}

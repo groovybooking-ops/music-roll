@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31ad-7379-9261-ab3ede0b3a4d",
+  "candidateId": "mr_candidate_01a0023b-31ad-7277-8628-b6e5196596ae",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.909Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:44cfe4d395dcc52a35218f51ca848ba43b3fe4460522b52f5160ca88b377718f",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-001",
+      "sourceUrl": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "rawArtistName": "Jorja Smith",
+      "normalizedArtistName": "jorja smith",
+      "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

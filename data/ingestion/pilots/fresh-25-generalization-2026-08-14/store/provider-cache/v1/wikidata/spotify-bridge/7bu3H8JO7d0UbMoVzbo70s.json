@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7bu3H8JO7d0UbMoVzbo70s",
+  "retrievedAt": "2026-08-14T21:46:26.374Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+      "wikidataQid": "Q484427",
+      "name": "The Cure",
+      "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "discogsArtistId": "28972"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q484427"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "28972"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "The Cure"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

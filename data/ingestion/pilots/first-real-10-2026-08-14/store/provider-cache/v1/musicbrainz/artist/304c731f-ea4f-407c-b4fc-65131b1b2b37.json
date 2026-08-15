@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+  "retrievedAt": "2026-08-14T21:18:20.892Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": "Person",
+      "disambiguation": "US skateboarder & rapper",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "name": "Los Angeles",
+        "sortName": "Los Angeles",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1997-01-31",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Sage Elsesser",
+          "sortName": "Sage Elsesser",
+          "type": "Artist name",
+          "locale": "en",
+          "primary": true
+        }
+      ],
+      "isni": [
+        "000000049278303X"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://navybluethetruest.bandcamp.com/"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/86114"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/sageelsesser/"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/navybluethewaterbearer"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/4170652"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q64875639"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UC_yZGAfHD366MYs6Rxdu_GA"
+        }
+      ]
+    },
+    "raw": {
+      "begin-area": {
+        "type": null,
+        "name": "Los Angeles",
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "sort-name": "Los Angeles",
+        "type-id": null,
+        "disambiguation": ""
+      },
+      "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "ipis": [],
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1997-01-31"
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "disambiguation": "US skateboarder & rapper",
+      "area": {
+        "type": null,
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "sort-name": "United States",
+        "type-id": null,
+        "disambiguation": ""
+      },
+      "name": "Navy Blue",
+      "isnis": [
+        "000000049278303X"
+      ],
+      "type": "Person",
+      "aliases": [
+        {
+          "begin": null,
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "sort-name": "Sage Elsesser",
+          "locale": "en",
+          "end": null,
+          "primary": true,
+          "ended": false,
+          "name": "Sage Elsesser",
+          "type": "Artist name"
+        }
+      ],
+      "relations": [
+        {
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+          "url": {
+            "id": "23dcd764-77f9-4073-b8fa-6a3d1bc88004",
+            "resource": "https://navybluethetruest.bandcamp.com/"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "type": "bandcamp",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward"
+        },
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "url": {
+            "resource": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV",
+            "id": "3abf06c2-4c8b-4cdb-8b35-3c5215f48bce"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "type": "free streaming",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "end": null,
+          "attribute-ids": {},
+          "begin": null
+        },
+        {
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "930d43ac-eed9-4d57-aedc-c4ecc66bf11a",
+            "resource": "https://www.deezer.com/artist/86114"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "free streaming",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null
+        },
+        {
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type": "social network",
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "ec012641-63a3-4ca9-9d1d-1e1d3ff8a88d",
+            "resource": "https://www.instagram.com/sageelsesser/"
+          },
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+        },
+        {
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": "",
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "url": {
+            "resource": "https://soundcloud.com/navybluethewaterbearer",
+            "id": "844277b8-90dc-4ea7-b764-d202b7354936"
+          },
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "soundcloud",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": "",
+          "url": {
+            "id": "6298d21a-50d5-4fa5-9750-476103331497",
+            "resource": "https://tidal.com/artist/4170652"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        },
+        {
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q64875639",
+            "id": "2f5e5b9d-68d4-4bc7-9d15-0e46f0ac6baf"
+          },
+          "type": "wikidata",
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "end": null,
+          "begin": null,
+          "attribute-ids": {}
+        },
+        {
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+          "url": {
+            "id": "b51992b7-56c4-4b51-bdc6-191a72f19c13",
+            "resource": "https://www.youtube.com/channel/UC_yZGAfHD366MYs6Rxdu_GA"
+          },
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "youtube"
+        }
+      ],
+      "end-area": null,
+      "country": "US",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "sort-name": "Navy Blue",
+      "gender": "Male"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "configurationHash": "sha256:3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4",
+  "retrievedAt": "2026-08-14T23:07:05.180Z",
+  "requestUrl": "https://api.spotify.com/v1/search?q=Beyonc%C3%A9&type=artist&limit=5&market=US",
+  "responseDigest": "sha256:03730ee3f29e51d5f8e7748bd9a0140dcf966952ec238b1b90147f690ad945c1",
+  "raw": {
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?offset=0&limit=5&query=Beyonc%C3%A9&type=artist&market=US&locale=*",
+      "limit": 5,
+      "next": "https://api.spotify.com/v1/search?offset=5&limit=5&query=Beyonc%C3%A9&type=artist&market=US&locale=*",
+      "offset": 0,
+      "previous": null,
+      "total": 12,
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m"
+          },
+          "href": "https://api.spotify.com/v1/artists/6vWDO969PvNqNYHIOW5v0m",
+          "id": "6vWDO969PvNqNYHIOW5v0m",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb7eaa373538359164b843f7c0",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1787eaa373538359164b843f7c0",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Beyoncé",
+          "type": "artist",
+          "uri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H"
+          },
+          "href": "https://api.spotify.com/v1/artists/5pKCCKE2ajJHZ9KAiaK11H",
+          "id": "5pKCCKE2ajJHZ9KAiaK11H",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebcb565a8e684e3be458d329ac",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178cb565a8e684e3be458d329ac",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Rihanna",
+          "type": "artist",
+          "uri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i"
+          },
+          "href": "https://api.spotify.com/v1/artists/1Y8cdNmUJH7yBTd9yOvr5i",
+          "id": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebf75e64532704bd6acf0b4e76",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f75e64532704bd6acf0b4e76",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178f75e64532704bd6acf0b4e76",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Destiny's Child",
+          "type": "artist",
+          "uri": "spotify:artist:1Y8cdNmUJH7yBTd9yOvr5i"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX"
+          },
+          "href": "https://api.spotify.com/v1/artists/2NdeV5rLm47xAvogXrYhJX",
+          "id": "2NdeV5rLm47xAvogXrYhJX",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb5d1fbc6d7d17e7ba6b587eaf",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745d1fbc6d7d17e7ba6b587eaf",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1785d1fbc6d7d17e7ba6b587eaf",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Ciara",
+          "type": "artist",
+          "uri": "spotify:artist:2NdeV5rLm47xAvogXrYhJX"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU"
+          },
+          "href": "https://api.spotify.com/v1/artists/7vbtWyaqcB8RlHqqIKlHCU",
+          "id": "7vbtWyaqcB8RlHqqIKlHCU",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b273a309988693e9c0ec23532a9a",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02a309988693e9c0ec23532a9a",
+              "height": 300,
+              "width": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00004851a309988693e9c0ec23532a9a",
+              "height": 64,
+              "width": 64
+            }
+          ],
+          "name": "Mc Beyonce",
+          "type": "artist",
+          "uri": "spotify:artist:7vbtWyaqcB8RlHqqIKlHCU"
+        }
+      ]
+    },
+    "query": "Beyoncé",
+    "queryRecordId": "bounded-query-beyonce"
+  }
+}

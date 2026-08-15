@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+  "retrievedAt": "2026-08-14T21:45:08.658Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+      "name": "Barrington DeVaughn Hendricks",
+      "sortName": "Hendricks, Barrington DeVaughn",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+        "name": "Flatbush",
+        "sortName": "Flatbush",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1989-10-22",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q50415953"
+        }
+      ]
+    },
+    "raw": {
+      "gender": "Male",
+      "sort-name": "Hendricks, Barrington DeVaughn",
+      "country": "US",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "area": {
+        "type": null,
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type-id": null,
+        "sort-name": "United States",
+        "disambiguation": ""
+      },
+      "isnis": [],
+      "name": "Barrington DeVaughn Hendricks",
+      "aliases": [],
+      "type": "Person",
+      "relations": [
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "wikidata",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "id": "7388f02a-2580-42c7-915a-4ef9089fce74",
+            "resource": "https://www.wikidata.org/wiki/Q50415953"
+          },
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        }
+      ],
+      "end-area": null,
+      "disambiguation": "",
+      "life-span": {
+        "begin": "1989-10-22",
+        "ended": false,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "id": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+      "begin-area": {
+        "type-id": null,
+        "sort-name": "Flatbush",
+        "disambiguation": "",
+        "type": null,
+        "name": "Flatbush",
+        "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1"
+      }
+    }
+  }
+}

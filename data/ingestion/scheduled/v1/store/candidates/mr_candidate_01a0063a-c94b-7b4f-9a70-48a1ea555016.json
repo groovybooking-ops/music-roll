@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+  "revision": 5,
+  "state": "failed_match",
+  "stateEnteredAt": "2026-08-15T16:22:19.570Z",
+  "createdAt": "2026-08-15T16:21:51.051Z",
+  "updatedAt": "2026-08-15T16:22:19.570Z",
+  "name": {
+    "raw": "The Sugarcubes",
+    "normalized": "the sugarcubes"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:0128125274e2cc71b0dd467f31dc1a1c0042c38d6c2eeb546b9c1f0a353ed9d1",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:1:1G0Xwj8mza6b03iYkVdzDP",
+      "sourceUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+      "rawArtistName": "The Sugarcubes",
+      "normalizedArtistName": "the sugarcubes",
+      "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [
+      "Q876705"
+    ],
+    "musicBrainzArtistIds": [
+      "95303251-46d5-4239-89c8-eaf0b0947a11"
+    ],
+    "discogsArtistIds": [
+      "9452"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016/db76e4892e3a7d237c8c84d3d8d5eec58ac01c71687255bf33c31b57973c11d7.json",
+      "provider-cache/v1/wikidata/spotify-bridge/1G0Xwj8mza6b03iYkVdzDP.json",
+      "provider-cache/v1/musicbrainz/artist/95303251-46d5-4239-89c8-eaf0b0947a11.json",
+      "provider-cache/v1/discogs/artist/9452.json",
+      "provider-cache/v1/musicbrainz/exact-name/8635e7251df2b0f4c394ce54.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "spotifyArtistId",
+        "observedValues": [
+          "1G0Xwj8mza6b03iYkVdzDP",
+          "6pPeAu0W9isg12fUOCCvPQ"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "name": "The Sugarcubes",
+          "sortName": "Sugarcubes, The",
+          "artistType": "Group",
+          "country": "IS",
+          "disambiguation": "Icelandic alternative/post-punk rock band",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "1G0Xwj8mza6b03iYkVdzDP",
+            "6pPeAu0W9isg12fUOCCvPQ"
+          ],
+          "discogsArtistIds": [
+            "9452"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor",
+          "unresolved_alternate_spotify_identifier"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1G0Xwj8mza6b03iYkVdzDP",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1G0Xwj8mza6b03iYkVdzDP",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q876705",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "9452",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "9452",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1G0Xwj8mza6b03iYkVdzDP",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6pPeAu0W9isg12fUOCCvPQ",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q876705",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "9452",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "9452"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:22:19.568Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "failed_match",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0063b-38b2-748b-8339-a77d5ff3e964",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016/8966d15afa09a13903cbb275689e91fb00a73028bfe6316631634544603a50a3.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:1G0Xwj8mza6b03iYkVdzDP"
+    }
+  ]
+}

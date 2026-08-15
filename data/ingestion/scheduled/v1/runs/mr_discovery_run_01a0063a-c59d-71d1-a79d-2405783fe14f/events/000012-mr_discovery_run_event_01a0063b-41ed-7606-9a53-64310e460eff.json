@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a0063b-41ed-7606-9a53-64310e460eff",
+  "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+  "eventType": "phase_completed",
+  "previousRevision": 11,
+  "runRevision": 12,
+  "phase": "identity_discovery_complete",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:22:21.933Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_discovery_coordinator"
+  },
+  "payload": {
+    "checkpointRefs": [
+      "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/identity-discovery-eligible-snapshot.json",
+      "runs/mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f/artifacts/identity-discovery.json"
+    ],
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 2,
+          "pages": 1,
+          "normalizedOccurrences": 4,
+          "newCandidates": 4
+        },
+        "ticketmaster": {
+          "requests": 1,
+          "pages": 1,
+          "normalizedOccurrences": 1,
+          "newCandidates": 1
+        }
+      },
+      "workers": {
+        "stage3Candidates": 3,
+        "identityDiscoveryCandidates": 1
+      }
+    }
+  }
+}

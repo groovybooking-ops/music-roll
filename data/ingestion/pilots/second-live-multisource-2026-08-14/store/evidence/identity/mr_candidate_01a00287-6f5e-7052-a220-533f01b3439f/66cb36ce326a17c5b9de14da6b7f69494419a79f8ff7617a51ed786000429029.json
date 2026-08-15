@@ -1,0 +1,2380 @@
+{
+  "evidenceId": "sha256:66cb36ce326a17c5b9de14da6b7f69494419a79f8ff7617a51ed786000429029",
+  "createdAt": "2026-08-14T23:34:28.934Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f5e-7052-a220-533f01b3439f",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Destiny's Child",
+        "spotifyArtistId": "1Y8cdNmUJH7yBTd9yOvr5i"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q153056",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "22008",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "22008",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q153056",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "22008",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "22008"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "observedValues": [
+            "1Y8cdNmUJH7yBTd9yOvr5i"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q153056",
+          "observedValues": [
+            "Q153056"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q153056",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q153056",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "observedValues": [
+            "a796b92e-c137-4895-9c89-10f900617a4f"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a796b92e-c137-4895-9c89-10f900617a4f",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a796b92e-c137-4895-9c89-10f900617a4f",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "22008",
+          "observedValues": [
+            "22008"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "22008",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "22008",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a796b92e-c137-4895-9c89-10f900617a4f"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "22008",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "22008"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+            "name": "Destiny’s Child",
+            "sortName": "Destiny’s Child",
+            "artistType": "Group",
+            "country": "US",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "1Y8cdNmUJH7yBTd9yOvr5i"
+            ],
+            "discogsArtistIds": [
+              "22008"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "a796b92e-c137-4895-9c89-10f900617a4f": {
+          "artist": {
+            "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+            "name": "Destiny’s Child",
+            "sortName": "Destiny’s Child",
+            "artistType": "Group",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "c920948b-83e3-40b7-8fe9-9ab5abaac55b",
+              "name": "Houston",
+              "sortName": "Houston",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1990",
+              "end": "2006",
+              "ended": true
+            },
+            "aliases": [
+              {
+                "name": "Destinys Child",
+                "sortName": "Destinys Child",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Destiny´s Child",
+                "sortName": "Destiny´s Child",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Destiny’s Child",
+                "sortName": "Destiny’s Child",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Girl's Tyme",
+                "sortName": "Girl's Tyme",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Girls Tyme",
+                "sortName": "Girls Tyme",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "デスティニーズ・チャイルド",
+                "sortName": "デスティニーズ・チャイルド",
+                "type": "Artist name",
+                "locale": "ja",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000123486849"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000210991"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/241"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/a796b92e-c137-4895-9c89-10f900617a4f"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/22008"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://music.yandex.com/artist/28162"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://play.anghami.com/artist/1561"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.boomplay.com/artists/4557352"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/595"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm1560213/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Destiny's+Child"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Destinys-child"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://www.musixmatch.com/artist/Destiny%E2%80%99s-Child"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/destinyschild"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.destinyschild.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://jaxsta.com/profile/11cc4816-cdaf-4483-9220-782b2506411b"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no00017286"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://musicmoz.org/Bands_and_Artists/D/Destiny's_Child/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb140120410"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/5554955-X"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/destinys-child"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://nla.gov.au/nla.party-1455900"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/destinys_child"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.idref.fr/078974615"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/destinys-child/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.muziekweb.nl/Link/M00000062373/POPULAR/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no00017286/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id634287"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://tower.jp/artist/192876"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/2528"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/destinys-child-23d6bc0f.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/destinyschild"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/destinyschild"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/destinyschild/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/367767"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/destinys-child-official"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://us.napster.com/artist/destinys-child"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.amazon.com/artists/B001T2GZYI"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/634287"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/533"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/150301399"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q153056"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC2064-GFZ1y5NYZuUGX4iEA"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCjvlwa6AOFGJ6e3Mjr2cg3w"
+              },
+              {
+                "relationshipType": "youtube music",
+                "url": "https://music.youtube.com/channel/UCksv4FYu55EEkyy5Q1W_yUw"
+              }
+            ]
+          },
+          "raw": {
+            "isnis": [
+              "0000000123486849"
+            ],
+            "aliases": [
+              {
+                "sort-name": "Destinys Child",
+                "locale": null,
+                "name": "Destinys Child",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "type": null,
+                "primary": null,
+                "type-id": null
+              },
+              {
+                "end": null,
+                "name": "Destiny´s Child",
+                "locale": null,
+                "sort-name": "Destiny´s Child",
+                "primary": null,
+                "type-id": null,
+                "type": null,
+                "ended": false,
+                "begin": null
+              },
+              {
+                "begin": null,
+                "ended": false,
+                "type": null,
+                "type-id": null,
+                "primary": null,
+                "sort-name": "Destiny’s Child",
+                "locale": null,
+                "name": "Destiny’s Child",
+                "end": null
+              },
+              {
+                "locale": null,
+                "name": "Girl's Tyme",
+                "end": null,
+                "sort-name": "Girl's Tyme",
+                "type": null,
+                "type-id": null,
+                "primary": null,
+                "begin": null,
+                "ended": false
+              },
+              {
+                "primary": null,
+                "type-id": null,
+                "type": null,
+                "ended": false,
+                "begin": null,
+                "name": "Girls Tyme",
+                "end": null,
+                "locale": null,
+                "sort-name": "Girls Tyme"
+              },
+              {
+                "begin": null,
+                "ended": false,
+                "type": "Artist name",
+                "primary": true,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "sort-name": "デスティニーズ・チャイルド",
+                "locale": "ja",
+                "end": null,
+                "name": "デスティニーズ・チャイルド"
+              }
+            ],
+            "name": "Destiny’s Child",
+            "begin-area": {
+              "name": "Houston",
+              "type-id": null,
+              "type": null,
+              "disambiguation": "",
+              "id": "c920948b-83e3-40b7-8fe9-9ab5abaac55b",
+              "sort-name": "Houston"
+            },
+            "sort-name": "Destiny’s Child",
+            "type": "Group",
+            "disambiguation": "",
+            "gender": null,
+            "ipis": [],
+            "gender-id": null,
+            "country": "US",
+            "area": {
+              "type": null,
+              "disambiguation": "",
+              "type-id": null,
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "sort-name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98"
+            },
+            "id": "a796b92e-c137-4895-9c89-10f900617a4f",
+            "end-area": null,
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "relations": [
+              {
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000210991",
+                  "id": "b9c30c4a-eebc-48df-88c3-5f0f6954e94f"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "type": "allmusic",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {}
+              },
+              {
+                "attribute-ids": {},
+                "type": "bandsintown",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/241",
+                  "id": "d8ab5391-7786-4bf4-afc6-c64c06aac119"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/a796b92e-c137-4895-9c89-10f900617a4f",
+                  "id": "3401a4b2-880a-48e6-b59f-2ca048b558cf"
+                },
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": "2020-11-19",
+                "direction": "forward",
+                "attributes": [],
+                "type": "BBC Music page",
+                "attribute-values": {},
+                "ended": true,
+                "target-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type": "discogs",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "id": "67c2616b-90fb-4503-95bf-186ed8973384",
+                  "resource": "https://www.discogs.com/artist/22008"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "free streaming",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "55609451-f392-494c-8428-22fd3ec6496e",
+                  "resource": "https://music.yandex.com/artist/28162"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "7cbf76d6-5250-4b37-ac1b-8934dce86133",
+                  "resource": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type": "free streaming",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "8c543fa4-4a84-4152-8490-a371d2122737",
+                  "resource": "https://play.anghami.com/artist/1561"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://www.boomplay.com/artists/4557352",
+                  "id": "485ebf48-53f2-4bc9-a620-bed03dc083f2"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming",
+                "attribute-ids": {}
+              },
+              {
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "8bcbf79b-cfc3-4ad6-933e-6d7889453f86",
+                  "resource": "https://www.deezer.com/artist/595"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm1560213/",
+                  "id": "70de2915-56e8-43ea-a783-31aea5a1df70"
+                },
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "IMDb",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.last.fm/music/Destiny's+Child",
+                  "id": "34bafaca-9e1f-4513-a44e-d2a8530d2ce1"
+                },
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "last.fm",
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "url": {
+                  "resource": "https://genius.com/artists/Destinys-child",
+                  "id": "5091ef3b-9cd0-44e6-98b3-c6280ff890d9"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type": "lyrics",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type": "lyrics",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {},
+                "url": {
+                  "id": "67dc9b8f-700e-405f-9fdd-0772e27ba977",
+                  "resource": "https://www.musixmatch.com/artist/Destiny%E2%80%99s-Child"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "myspace",
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "begin": null,
+                "source-credit": "",
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "url": {
+                  "resource": "https://myspace.com/destinyschild",
+                  "id": "6086c2f3-60d3-430e-a516-be322f79ec60"
+                }
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "official homepage",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "id": "a3a62888-94d7-4aa8-85af-e194ff66021b",
+                  "resource": "http://www.destinyschild.com/"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": true,
+                "target-credit": "",
+                "target-type": "url",
+                "end": "2025-12-17",
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://jaxsta.com/profile/11cc4816-cdaf-4483-9220-782b2506411b",
+                  "id": "357d8ce8-f4f6-4347-8dd0-cb6d4f2aba8a"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "fccdbb0b-5808-4b86-a3a6-23b5cb4e36e8",
+                  "resource": "http://id.loc.gov/authorities/names/no00017286"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "http://musicmoz.org/Bands_and_Artists/D/Destiny's_Child/",
+                  "id": "43d8d395-58ea-4a64-add3-db66330ba204"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "f015047e-afba-40b9-8b33-28fdfbe4b7ec",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb140120410"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward"
+              },
+              {
+                "type": "other databases",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "a5826256-7b2b-4c56-af57-9584deb0fc47",
+                  "resource": "https://d-nb.info/gnd/5554955-X"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "other databases",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://imvdb.com/n/destinys-child",
+                  "id": "c76bb6d4-918d-47dc-9998-108e23fcc518"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://nla.gov.au/nla.party-1455900",
+                  "id": "6ca732b0-f059-467e-a982-6a81cb2b75cb"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "other databases",
+                "attribute-ids": {}
+              },
+              {
+                "type": "other databases",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/destinys_child",
+                  "id": "c55877ae-9675-4d1a-a376-25225b759f72"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.idref.fr/078974615",
+                  "id": "680efc01-8d37-4102-8eba-b41fe85b297b"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "0b14d5d9-20da-41bb-966c-39a714354c84",
+                  "resource": "https://www.musik-sammler.de/artist/destinys-child/"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "3644755b-9df8-48fc-ba10-82df92f7ba06",
+                  "resource": "https://www.muziekweb.nl/Link/M00000062373/POPULAR/"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "type": "other databases",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "404fc1c5-2046-47d9-9cea-94b4b55ec4cc",
+                  "resource": "https://www.worldcat.org/identities/lccn-no00017286/"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731",
+                  "id": "8a04fd57-00c1-4d32-830e-ab82c45e74b9"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "purchase for download"
+              },
+              {
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id634287",
+                  "id": "aedc1d12-d8a2-47ac-9aa9-8aaf83c3960c"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "url": {
+                  "resource": "https://tower.jp/artist/192876",
+                  "id": "098c235a-92f1-4d7d-8b70-3dde26f97863"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for mail-order",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "secondhandsongs",
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/2528",
+                  "id": "54bbb941-8f26-4494-bb61-7d53e1111bcb"
+                }
+              },
+              {
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "url": {
+                  "id": "6403d47a-2f39-4209-9ca5-bd68d163613f",
+                  "resource": "https://www.setlist.fm/setlists/destinys-child-23d6bc0f.html"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "setlistfm",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type": "social network",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://twitter.com/destinyschild",
+                  "id": "f5f5f5e4-6168-4d4b-9b8d-ed74f041a6c4"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "a1754863-f7af-454c-953c-57c1cd73ad74",
+                  "resource": "https://www.facebook.com/destinyschild"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "social network",
+                "attribute-ids": {}
+              },
+              {
+                "type": "social network",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://www.instagram.com/destinyschild/",
+                  "id": "8489d22a-5ab3-4ba0-8959-3f7bd40b6f06"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/367767",
+                  "id": "a534757a-6dc1-4675-8b1a-255b870e1774"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "songkick",
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "49713621-fb01-4446-9193-b4c159acf0f8",
+                  "resource": "https://soundcloud.com/destinys-child-official"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "soundcloud"
+              },
+              {
+                "url": {
+                  "id": "40e2ef15-68fa-49be-ba05-4eeb9f8ed8a5",
+                  "resource": "https://us.napster.com/artist/destinys-child"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": "2022-06-08",
+                "direction": "forward",
+                "attributes": [],
+                "type": "streaming",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": true,
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "e623daf0-1edf-427b-8f00-701941a6e214",
+                  "resource": "https://music.amazon.com/artists/B001T2GZYI"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "streaming"
+              },
+              {
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/634287",
+                  "id": "0bd338bd-d1a2-46d7-ada4-f6340185780a"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "streaming",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": ""
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://tidal.com/artist/533",
+                  "id": "eacfd198-d1a1-4772-810e-6253a6481e05"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "streaming",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731",
+                  "id": "8a04fd57-00c1-4d32-830e-ab82c45e74b9"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "streaming"
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "resource": "http://viaf.org/viaf/150301399",
+                  "id": "2333ffbf-86b4-45d4-8317-9a33f8116afc"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "VIAF"
+              },
+              {
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "url": {
+                  "id": "d7d3855c-ea6d-458b-b151-df43268cc15a",
+                  "resource": "https://www.wikidata.org/wiki/Q153056"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "wikidata",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {}
+              },
+              {
+                "url": {
+                  "id": "8a8e488a-5181-4f7d-ba9d-e7832eac58df",
+                  "resource": "https://www.youtube.com/channel/UC2064-GFZ1y5NYZuUGX4iEA"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "type": "youtube",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "url": {
+                  "id": "28396ad8-225e-4287-bec4-bd5296432944",
+                  "resource": "https://www.youtube.com/channel/UCjvlwa6AOFGJ6e3Mjr2cg3w"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "youtube"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+                "url": {
+                  "resource": "https://music.youtube.com/channel/UCksv4FYu55EEkyy5Q1W_yUw",
+                  "id": "41e89f79-7347-4d5c-b1b5-461c1d685ccd"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "youtube music",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              }
+            ],
+            "life-span": {
+              "end": "2006",
+              "ended": true,
+              "begin": "1990"
+            }
+          }
+        }
+      },
+      "discogsRecords": {
+        "22008": {
+          "artist": {
+            "discogsArtistId": "22008",
+            "name": "Destiny's Child",
+            "realName": null,
+            "profile": "American R&B group formed in 1990 in Houston, Texas under name [a=Girls Tyme]. After years of limited success, the quartet—Beyoncé, Rowland, LaTavia Roberson, and LeToya Luckett—were signed in 1996 to Columbia Records.\n\nIn early 2000, both Roberson and Luckett were replaced by Williams and Farrah Franklin; however, Franklin quit after a few months, leaving the group as a trio. \n\nIn 2001, Destiny's Child announced a hiatus to pursue solo careers. They later reunited to release their fifth and final album, Destiny Fulfilled. Since the group officially disbanded in 2006, Beyoncé, Rowland, and Williams have reunited several times, including at the 2013 Super Bowl halftime show, the 2018 Coachella festival, and the final show of the 2025 Cowboy Carter Tour.\n\nFinal members:\nBeyoncé Knowles – vocals (1990–2006, 2013, 2018, 2025)\nKelly Rowland – vocals (1992–2006, 2013, 2018, 2025)\nMichelle Williams – vocals (2000–2006, 2013, 2018, 2025)\n\nFormer members:\nLaTavia Roberson – vocals (1990–2000)\nTámar Davis – vocals (1990–1993)\nNina Taylor – vocals (1990–1993)\nNikki Taylor – vocals (1990–1993)\nLeToya Luckett – vocals (1993–2000)\nFarrah Franklin – vocals (2000)\n\nNames timeline:\nGirls Tyme (1990–1993)\nSomething Fresh (1993)\nCliché (1993)\nBorderline (1993)\nThe Dolls (1993–1995)\nDestiny (1995–1996)\nDestiny's Child (1996–2006, 2013, 2018, 2025)",
+            "artistUrls": [
+              "https://www.destinyschild.com/",
+              "https://www.facebook.com/destinyschild",
+              "https://instagram.com/destinyschild",
+              "https://myspace.com/destinyschild",
+              "https://pinterest.com/destinyschild/",
+              "https://destinyschild.tumblr.com/",
+              "https://twitter.com/destinyschild",
+              "https://en.wikipedia.org/wiki/Destiny%27s_Child",
+              "https://www.youtube.com/user/DestinysChildVEVO",
+              "https://www.youtube.com/channel/UC2064-GFZ1y5NYZuUGX4iEA"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "7528309",
+                "name": "Girls Tyme"
+              },
+              {
+                "discogsArtistId": "8280414",
+                "name": "My Girls"
+              }
+            ],
+            "nameVariations": [
+              "D Child",
+              "DC",
+              "Dastiny's Childs",
+              "Desitny´s Child",
+              "Desteny's Child",
+              "Destenys Child",
+              "Desting's Child",
+              "Destiny",
+              "Destiny Chied",
+              "Destiny Child",
+              "Destiny Child's",
+              "Destiny Childs",
+              "Destiny s Child",
+              "Destiny's",
+              "Destiny'sChild",
+              "Destinys Child",
+              "Destinys Cild",
+              "Destiny´s Child",
+              "Destiny’s Child",
+              "デスティニーズ・チャイルド",
+              "天命真女",
+              "天命真女合唱團"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/22008",
+            "discogsWebUrl": "https://www.discogs.com/artist/22008-Destinys-Child",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Destiny's Child",
+            "id": 22008,
+            "resource_url": "https://api.discogs.com/artists/22008",
+            "uri": "https://www.discogs.com/artist/22008-Destinys-Child",
+            "releases_url": "https://api.discogs.com/artists/22008/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/g5COxPcH5nyDxsaUtV7-D9AKNisMUe1rJRqzYeGn2-8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDY4NDEt/NzYzOC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/g5COxPcH5nyDxsaUtV7-D9AKNisMUe1rJRqzYeGn2-8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDY4NDEt/NzYzOC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/xVSlJ9rpq5vu0PEkiGaZybcBp2qHwPqrPfJjGU83Occ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDY4NDEt/NzYzOC5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/zQfTdS9yGTTfs1wzuqJba5mIqFFUk12QQFtJNlM6xbA/rs:fit/g:sm/q:90/h:483/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NTI5Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/zQfTdS9yGTTfs1wzuqJba5mIqFFUk12QQFtJNlM6xbA/rs:fit/g:sm/q:90/h:483/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NTI5Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/XGa37Mdk2bzma6_g1NHJkzAsjqJlBu4L9OuqUikUwZE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NTI5Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 483
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/lAwjCjf8lT9-EBnw3g7ErdIX5Xr5ENGwMWNqqfn9tFQ/rs:fit/g:sm/q:90/h:667/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxOTAt/NDI0NC5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/lAwjCjf8lT9-EBnw3g7ErdIX5Xr5ENGwMWNqqfn9tFQ/rs:fit/g:sm/q:90/h:667/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxOTAt/NDI0NC5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/yBvwuo1RJuftTiv9jV6AGzDZPhoCZiN1LEs0A9vnkNw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxOTAt/NDI0NC5wbmc.jpeg",
+                "width": 600,
+                "height": 667
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KsFVvyb9QO2lZ8Rzwm8T-IGAJ0SN2v1K90szN3FQQiY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/NjQ1Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/KsFVvyb9QO2lZ8Rzwm8T-IGAJ0SN2v1K90szN3FQQiY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/NjQ1Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/EizkzfpDqKj541m7KsrxMgDUz-91SwjaPH3h_XxRW_U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/NjQ1Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/k425Z5guFn9VAPiiPlMvd7phSw2aqyjak3dhvjByZTw/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxNjYt/MjAwNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/k425Z5guFn9VAPiiPlMvd7phSw2aqyjak3dhvjByZTw/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxNjYt/MjAwNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/8oURoPIOFbgRvxe2bIYLItHUxK_YpoprKIGh6n67DtI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxNjYt/MjAwNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5rAXaI9Bf_SnP4SUTjIEklZhNgrECV23ZhWcQPLPcVY/rs:fit/g:sm/q:90/h:407/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAyMjAt/NTA0NS5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/5rAXaI9Bf_SnP4SUTjIEklZhNgrECV23ZhWcQPLPcVY/rs:fit/g:sm/q:90/h:407/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAyMjAt/NTA0NS5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/WDRJe5DwYdRrh_raJLozAN4jnmAQXh4b9XGhsSJSR6c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAyMjAt/NTA0NS5wbmc.jpeg",
+                "width": 600,
+                "height": 407
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Zhu4zl3JDq2ze4rk8WjwMf4uATEtvovlVbvoWdPdxeI/rs:fit/g:sm/q:90/h:757/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDkxODAt/OTQ4NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Zhu4zl3JDq2ze4rk8WjwMf4uATEtvovlVbvoWdPdxeI/rs:fit/g:sm/q:90/h:757/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDkxODAt/OTQ4NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/qcUQBJFef31rZM5yWXSL8FUk26ZRSY7cXnJoZQp9HUQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDkxODAt/OTQ4NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 757
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/10ATwkNWifry9ABrM8RWb8KSIeQPVfYsa-VGzNYVI9g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/MTk1OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/10ATwkNWifry9ABrM8RWb8KSIeQPVfYsa-VGzNYVI9g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/MTk1OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/JBNdUz45ohNm7q1kfDiXClWXop94d9uUJzXDBVaRaWg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/MTk1OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/6ZIwBXSQBfQTL8F-nESftxZrA9_c4YIWdgTBnPtF46k/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/ODA2OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/6ZIwBXSQBfQTL8F-nESftxZrA9_c4YIWdgTBnPtF46k/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/ODA2OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/xWw0TZjRBskAUrKikWBbI_QYtJrvVJqtnzT3tVSppZk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/ODA2OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/JdPiw_PETC30k1sxE_yUvtInG1yA05PgBqohhPZPMKA/rs:fit/g:sm/q:90/h:350/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/ODU4NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/JdPiw_PETC30k1sxE_yUvtInG1yA05PgBqohhPZPMKA/rs:fit/g:sm/q:90/h:350/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/ODU4NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/Yuw0NOXHLcdd3-ITdbyN00qkNDJSyj4SmmpYxinuGCI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/ODU4NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 350
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/8me6zRYu09z25yw_o_3mInxmbyqvdog5n8u9BQwppFM/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDg5OTIt/Njc3OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/8me6zRYu09z25yw_o_3mInxmbyqvdog5n8u9BQwppFM/rs:fit/g:sm/q:90/h:904/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDg5OTIt/Njc3OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/kCdoDrS-yrgCiRS_PFxlOY6e6Ak8aFpawxjQQuMDb9E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MDg5OTIt/Njc3OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 904
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/AWPdGMpmr2R_qVf2VkxDIeEde_yuBYR2jxQZPzABkYQ/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NDc0NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/AWPdGMpmr2R_qVf2VkxDIeEde_yuBYR2jxQZPzABkYQ/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NDc0NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/cmwU91B8x0w0GYSYuf3hCK-6leSPgR_m4_NZJucJZLM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NDc0NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 396
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/oBUdkbvKfbBKz7MKk3HEOR5O_1tmwftyBuS2uSMauis/rs:fit/g:sm/q:90/h:746/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/MTYzOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/oBUdkbvKfbBKz7MKk3HEOR5O_1tmwftyBuS2uSMauis/rs:fit/g:sm/q:90/h:746/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/MTYzOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/wYUwtUrPqhatKnzL8aoa5M8R3WvprChaAaI5QfAaNTA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/MTYzOS5qcGVn.jpeg",
+                "width": 600,
+                "height": 746
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/136gns4ltr_9iFsX7q7lfqh61zpxIW31qYT0K5_CITw/rs:fit/g:sm/q:90/h:690/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwOTkt/OTI1MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/136gns4ltr_9iFsX7q7lfqh61zpxIW31qYT0K5_CITw/rs:fit/g:sm/q:90/h:690/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwOTkt/OTI1MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/mScpCenrB9RoYLuhyDiEsLPHOHzwLR1KBWeZEUKCy2E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwOTkt/OTI1MC5qcGVn.jpeg",
+                "width": 600,
+                "height": 690
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/U2RrRYYL5552Rk4px4Swdyg6ZP6tJknye6dFYN8rFpM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzOTQxOTk1ODct/NDE1Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/U2RrRYYL5552Rk4px4Swdyg6ZP6tJknye6dFYN8rFpM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzOTQxOTk1ODct/NDE1Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/zXc3Cic8SN2rAt9aw02spbdllPEzh7d3pFcyQyTW8cM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzOTQxOTk1ODct/NDE1Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/GPXz2n_iO-pRCYojm2vF0-unRmG9CBCE_KumajeO3TM/rs:fit/g:sm/q:90/h:722/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzMzE1NjkzMDAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/GPXz2n_iO-pRCYojm2vF0-unRmG9CBCE_KumajeO3TM/rs:fit/g:sm/q:90/h:722/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzMzE1NjkzMDAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/0ntGSYVWLGJfrRsN1G4hlf-9M7_UGZQnemqawD8TRAg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzMzE1NjkzMDAu/anBlZw.jpeg",
+                "width": 600,
+                "height": 722
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/bPsnoSu6eSeB6bCZ-XH9gJ7uUUTsxHbMEu4BFsHLUxg/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTExNTQ3MzI2ODEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/bPsnoSu6eSeB6bCZ-XH9gJ7uUUTsxHbMEu4BFsHLUxg/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTExNTQ3MzI2ODEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/pW5bAclGg7fh3oQF7N7bFS-KHgYMZywsNhWR70tCmtE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTExNTQ3MzI2ODEu/anBlZw.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ZEfC8tGoVFS_KiHFZptef3JNu-4NEdqokCyh_zKoH9w/rs:fit/g:sm/q:90/h:600/w:427/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1NTEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/ZEfC8tGoVFS_KiHFZptef3JNu-4NEdqokCyh_zKoH9w/rs:fit/g:sm/q:90/h:600/w:427/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1NTEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/hnNALmrcCpGVswhaKP-17I9Vm95Vi1_pQiyxehcSAEM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1NTEu/anBlZw.jpeg",
+                "width": 427,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Tg-8czS84VEtLuOzRu1foIj9zky3NrB5Z1Xkk1sfKNY/rs:fit/g:sm/q:90/h:445/w:381/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2MjEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/Tg-8czS84VEtLuOzRu1foIj9zky3NrB5Z1Xkk1sfKNY/rs:fit/g:sm/q:90/h:445/w:381/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2MjEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/HrrQgLvdm09ew1HQNn4Mm0GrZ80w2RWEAklvXwRSYD8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2MjEu/anBlZw.jpeg",
+                "width": 381,
+                "height": 445
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/M50q5hJgK3q3SaJyMjnvFvetVKw78SadMjENXDJs2PQ/rs:fit/g:sm/q:90/h:800/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1Njku/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/M50q5hJgK3q3SaJyMjnvFvetVKw78SadMjENXDJs2PQ/rs:fit/g:sm/q:90/h:800/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1Njku/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/vdQbRTK5XCTOorka98qDP0zlRMahLd4TWvm5x0nkSeY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA1Njku/anBlZw.jpeg",
+                "width": 575,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/omy-FuCoLh40UuulY-_Nvd16aTVBQLH2LTiteJLOwvY/rs:fit/g:sm/q:90/h:360/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/Mjc4OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/omy-FuCoLh40UuulY-_Nvd16aTVBQLH2LTiteJLOwvY/rs:fit/g:sm/q:90/h:360/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/Mjc4OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/_BtAGO547xzu6SZGv6VpxZcs2dgevl-BH6e4YB29G0o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MTA5MTkyNTMt/Mjc4OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 360
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5VXk9i65BI5HVAG3N_TEeOLtZqCiGH7FWLiiiZkIdh0/rs:fit/g:sm/q:90/h:568/w:535/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2NDUu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/5VXk9i65BI5HVAG3N_TEeOLtZqCiGH7FWLiiiZkIdh0/rs:fit/g:sm/q:90/h:568/w:535/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2NDUu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/rKK6F1FWPynU4cRJS-6rb0RNiFcMFFTM0CdcuHv5Wvg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA2NDUu/anBlZw.jpeg",
+                "width": 535,
+                "height": 568
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/n1T426mJnJLY2sTumT9gHqaR6cE35JJKemcjiXYCDGM/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4MDgu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/n1T426mJnJLY2sTumT9gHqaR6cE35JJKemcjiXYCDGM/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4MDgu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/tV3IvkyL7yGoiIAXtABBXyrX1DranKKeTku4Y4fRTLc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4MDgu/anBlZw.jpeg",
+                "width": 600,
+                "height": 528
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/9zsUcByDFoBPLu58JYftB7MLZtpHsBFSMT5OHSdp8H0/rs:fit/g:sm/q:90/h:501/w:526/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4ODYu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/9zsUcByDFoBPLu58JYftB7MLZtpHsBFSMT5OHSdp8H0/rs:fit/g:sm/q:90/h:501/w:526/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4ODYu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/ix0GPphdOXPA2_YWK6aDzCExSunH7y64oU3Qt9gT9MI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4ODYu/anBlZw.jpeg",
+                "width": 526,
+                "height": 501
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/kBWWQdWeBgh9VaktHVB7CLZClU_Xgvyn3xdkuKy8oA8/rs:fit/g:sm/q:90/h:357/w:531/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4OTUu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/kBWWQdWeBgh9VaktHVB7CLZClU_Xgvyn3xdkuKy8oA8/rs:fit/g:sm/q:90/h:357/w:531/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4OTUu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/yxR8PoSl2fweyr4Yz_bPj900ZBKVO5IZpCSh7PeCERA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA4OTUu/anBlZw.jpeg",
+                "width": 531,
+                "height": 357
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qNoSfyZFEHhTYDOZQNZLtj9WINKa8stSoMX5Tmgx3sQ/rs:fit/g:sm/q:90/h:812/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NDA2NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/qNoSfyZFEHhTYDOZQNZLtj9WINKa8stSoMX5Tmgx3sQ/rs:fit/g:sm/q:90/h:812/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NDA2NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/6f5o7SAngUF4-7clCM6KVrW29GrCwAHu5nBkEIcP8vA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0MzA4MTAt/NDA2NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 812
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/8ZHCPlpDbEAi8Zdos6ygR_OifZfocZnPATpNDKIofBI/rs:fit/g:sm/q:90/h:734/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzNTgzNzU2NTEt/ODA2Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/8ZHCPlpDbEAi8Zdos6ygR_OifZfocZnPATpNDKIofBI/rs:fit/g:sm/q:90/h:734/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzNTgzNzU2NTEt/ODA2Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/V-X7lDFHTSVn87qNkuki6edzS0dvXFcmgV8ToSUzC8A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEzNTgzNzU2NTEt/ODA2Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 734
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/blXUXryX9qDBZhSM_0rZEFUUttWhRuDJB1n-vmxaytE/rs:fit/g:sm/q:90/h:742/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/NTkzOC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/blXUXryX9qDBZhSM_0rZEFUUttWhRuDJB1n-vmxaytE/rs:fit/g:sm/q:90/h:742/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/NTkzOC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/nx9cxSwiFYIKkf3cpI6JSgSIIiP1FSNcbBZIdVem3Xc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/NTkzOC5qcGVn.jpeg",
+                "width": 600,
+                "height": 742
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/s7Pj0p5g3Dvzuv7xdWX3_ZpcqbIVuRa8mlf0MPG-69s/rs:fit/g:sm/q:90/h:403/w:531/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA5MDMu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/s7Pj0p5g3Dvzuv7xdWX3_ZpcqbIVuRa8mlf0MPG-69s/rs:fit/g:sm/q:90/h:403/w:531/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA5MDMu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/XeAce-YDZ-p82r9yiv4vJsyTsC6ocFpG3k1lscA6TFs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTEyNzU5MDA5MDMu/anBlZw.jpeg",
+                "width": 531,
+                "height": 403
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WAIcWqW3-eLW8m0hn2PwWujJvjZvzLnbPNNlKepg0Zo/rs:fit/g:sm/q:90/h:733/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NzMwNi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/WAIcWqW3-eLW8m0hn2PwWujJvjZvzLnbPNNlKepg0Zo/rs:fit/g:sm/q:90/h:733/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NzMwNi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/kYQbSfgyL4CIQn9YyljKh6YChu52-oYbwlgrM9in3uY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/NzMwNi5qcGVn.jpeg",
+                "width": 600,
+                "height": 733
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/U2a1XUAwk1UTc8bxQ4JwctxfIstDm40EjETItX6unqk/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/OTI2NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/U2a1XUAwk1UTc8bxQ4JwctxfIstDm40EjETItX6unqk/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/OTI2NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/jzyi8zCJftyTq0DSPL5SeJpEr19O3k9hMtg1102BaAU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/OTI2NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Zi4_866ftItPTlFXSggeG6fAE0T3rhJDYxycQaNZZwM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/OTAxOC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Zi4_866ftItPTlFXSggeG6fAE0T3rhJDYxycQaNZZwM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/OTAxOC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/sLaYwFmj0QP0ez9tSZswnLwmLdjJ6pnbOXlEehDVanw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/OTAxOC5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UQs0UFJ5p6Kd3BgybgAkA2P6g4IvK07Uis1TNPtaR0s/rs:fit/g:sm/q:90/h:623/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/MTU4MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UQs0UFJ5p6Kd3BgybgAkA2P6g4IvK07Uis1TNPtaR0s/rs:fit/g:sm/q:90/h:623/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/MTU4MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/9QI4q9LDruStel3p3OXNmMYZRs8a42dTfwg72iqdSqA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2MzI3MTAxMjYt/MTU4MC5qcGVn.jpeg",
+                "width": 600,
+                "height": 623
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/u_80aPc23Rat0c42duxMWG9PMhY7JnpqVwRP0ABoS5c/rs:fit/g:sm/q:90/h:556/w:492/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQzNjUt/NzQwMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/u_80aPc23Rat0c42duxMWG9PMhY7JnpqVwRP0ABoS5c/rs:fit/g:sm/q:90/h:556/w:492/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQzNjUt/NzQwMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/rV8fLNoCDiawcNQ6u1QqqyjsmMprp0lWdqFypIUjp1c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQzNjUt/NzQwMy5qcGVn.jpeg",
+                "width": 492,
+                "height": 556
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/BH3xhVuic7jbe-spPh_-UxRCG5cPzLSgrfRlALBkyRw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODM5NDQt/MTg2OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/BH3xhVuic7jbe-spPh_-UxRCG5cPzLSgrfRlALBkyRw/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODM5NDQt/MTg2OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/vw-gAo82qCdqhogkUk7NJ7dvQV8_4ZWIVysXpJYw3Jg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODM5NDQt/MTg2OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 601
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Cj1Ls4K5dPo9RFIwnt2GLZrmDsN9O_pAgWEaMMnn3G8/rs:fit/g:sm/q:90/h:355/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQ2MDQt/MjUzMS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Cj1Ls4K5dPo9RFIwnt2GLZrmDsN9O_pAgWEaMMnn3G8/rs:fit/g:sm/q:90/h:355/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQ2MDQt/MjUzMS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/Gh3UdnPcvyw6dcETPy4yLWTFm6tDXQWkZSESXC_q7bY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODQ3ODQ2MDQt/MjUzMS5qcGVn.jpeg",
+                "width": 540,
+                "height": 355
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2rlEAmSjGxfXLRkJpH5cDsKfgoX-PQWsdxTDinMHpoY/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/MTg2MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/2rlEAmSjGxfXLRkJpH5cDsKfgoX-PQWsdxTDinMHpoY/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/MTg2MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/mLFHtLUawsnFWWc-oIMU1nia0cT7kOFyIys8QpyRzGg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/MTg2MS5qcGVn.jpeg",
+                "width": 600,
+                "height": 410
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/D-_HLHfc6WeJ1ZJ_xYk3PtFQnIvbfIRIgW8UqW7egX0/rs:fit/g:sm/q:90/h:529/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/NjkyMC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/D-_HLHfc6WeJ1ZJ_xYk3PtFQnIvbfIRIgW8UqW7egX0/rs:fit/g:sm/q:90/h:529/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/NjkyMC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/VvVcCVBTQD6YfiMl2aAj1Tb7klTBAyOZ-hEOUUUnlwg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMzAt/NjkyMC5qcGVn.jpeg",
+                "width": 500,
+                "height": 529
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3MSICEkE2VuRIV2QZMBU3334E24QGLHoU-dw3OQcn7M/rs:fit/g:sm/q:90/h:693/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/NjY3Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/3MSICEkE2VuRIV2QZMBU3334E24QGLHoU-dw3OQcn7M/rs:fit/g:sm/q:90/h:693/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/NjY3Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/Bmi1XbeA9FAJqXm3XktSj8-MX99X317N4pbJbOzc8lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/NjY3Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 693
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/IIXWXjJ8WNUiGb0rCrxRllK07X2z7c4KyPDZU7cK19w/rs:fit/g:sm/q:90/h:734/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/OTk2Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/IIXWXjJ8WNUiGb0rCrxRllK07X2z7c4KyPDZU7cK19w/rs:fit/g:sm/q:90/h:734/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/OTk2Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/dAzPQIYv6-ZxqIwLIAhfYPipOxbUlHXl1W0YvPTXwH4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDgt/OTk2Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 734
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5dAACglhm4kW4K8OG3vAayN54mpl4sCvHZcN5C9QqpE/rs:fit/g:sm/q:90/h:372/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/ODU0OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/5dAACglhm4kW4K8OG3vAayN54mpl4sCvHZcN5C9QqpE/rs:fit/g:sm/q:90/h:372/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/ODU0OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/5zowFxcbwMG-Ubbgqy8hayEWzuF_pKaavaNq2f9QQp0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE0ODUxNTkwMjkt/ODU0OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 372
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/C8iTdvKsIZr4s4Dsw055sqCYEhWi8zITppF_SiZ8Hzo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE1NTUyMDE4NzEt/ODc2Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/C8iTdvKsIZr4s4Dsw055sqCYEhWi8zITppF_SiZ8Hzo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE1NTUyMDE4NzEt/ODc2Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/pmjzBQzLFbGs_tSEmvCGdjXvcQPE15nAvvFPcZJlhag/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE1NTUyMDE4NzEt/ODc2Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 598
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UwmDSQzdbfvSwub7bpfIn-BHz5adbyaob4F8KY5I5aw/rs:fit/g:sm/q:90/h:523/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/MTA5OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UwmDSQzdbfvSwub7bpfIn-BHz5adbyaob4F8KY5I5aw/rs:fit/g:sm/q:90/h:523/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/MTA5OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/OV97u33FZi6BXAwVabT1yKbiC6O9bLyUnvrZzfF9C0g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE2Mzk0NDgzNDct/MTA5OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 523
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/dSnBu49Tj1Q4l6dmYv0kiAf2yUFGsnP3XtB0ji6qiaI/rs:fit/g:sm/q:90/h:643/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQyMDQ0OTgt/NzE3NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/dSnBu49Tj1Q4l6dmYv0kiAf2yUFGsnP3XtB0ji6qiaI/rs:fit/g:sm/q:90/h:643/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQyMDQ0OTgt/NzE3NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/aiz_55SnOPI1y_a8U9Wcdtbxi3eadhrFKmXPHCjsjAY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQyMDQ0OTgt/NzE3NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 643
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SHqT0cWl9jAqv4cnEqKoHoST_AZWUoc3IoaT1nnftO4/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYxODAt/ODIyMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/SHqT0cWl9jAqv4cnEqKoHoST_AZWUoc3IoaT1nnftO4/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYxODAt/ODIyMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/rYYYBF4HOBwVWxnqTr6lcIZzlYC3gIP0djnH84TXRIA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYxODAt/ODIyMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 401
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/4vUr9khcQkr139lSNvUwW8p4CVff_W4s-69nZNus_Xc/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYyMDUt/MjUzMC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/4vUr9khcQkr139lSNvUwW8p4CVff_W4s-69nZNus_Xc/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYyMDUt/MjUzMC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/GA9kUcLzZVE341-liQ5i9ezAAnCucCUKpgt4HEpiZXU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTQ1NzYyMDUt/MjUzMC5qcGVn.jpeg",
+                "width": 600,
+                "height": 401
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HPPySTjDuEm7UsBB1HVT-Bz26OWJ4xiniTGiEziqOC8/rs:fit/g:sm/q:90/h:1065/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTUyMDUwNzYt/MzYzOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/HPPySTjDuEm7UsBB1HVT-Bz26OWJ4xiniTGiEziqOC8/rs:fit/g:sm/q:90/h:1065/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTUyMDUwNzYt/MzYzOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/gy1YiWxl5eGK_14hsGyjC7iOOqv07P7BYrRFLkyelxA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTUyMDUwNzYt/MzYzOS5qcGVn.jpeg",
+                "width": 600,
+                "height": 1065
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/eHsTHp4zrEGHsVMZReeidnsLyqCpD-yOR7oqZzp4DeE/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTg0MzU2OTEt/OTczNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/eHsTHp4zrEGHsVMZReeidnsLyqCpD-yOR7oqZzp4DeE/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTg0MzU2OTEt/OTczNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/dskea8cHJyaQnn59gcQKp1vuPxooxnoCWlU1ttlkKRc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyMDA4/LTE3NTg0MzU2OTEt/OTczNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 410
+              }
+            ],
+            "profile": "American R&B group formed in 1990 in Houston, Texas under name [a=Girls Tyme]. After years of limited success, the quartet—Beyoncé, Rowland, LaTavia Roberson, and LeToya Luckett—were signed in 1996 to Columbia Records.\n\nIn early 2000, both Roberson and Luckett were replaced by Williams and Farrah Franklin; however, Franklin quit after a few months, leaving the group as a trio. \n\nIn 2001, Destiny's Child announced a hiatus to pursue solo careers. They later reunited to release their fifth and final album, Destiny Fulfilled. Since the group officially disbanded in 2006, Beyoncé, Rowland, and Williams have reunited several times, including at the 2013 Super Bowl halftime show, the 2018 Coachella festival, and the final show of the 2025 Cowboy Carter Tour.\n\nFinal members:\nBeyoncé Knowles – vocals (1990–2006, 2013, 2018, 2025)\nKelly Rowland – vocals (1992–2006, 2013, 2018, 2025)\nMichelle Williams – vocals (2000–2006, 2013, 2018, 2025)\n\nFormer members:\nLaTavia Roberson – vocals (1990–2000)\nTámar Davis – vocals (1990–1993)\nNina Taylor – vocals (1990–1993)\nNikki Taylor – vocals (1990–1993)\nLeToya Luckett – vocals (1993–2000)\nFarrah Franklin – vocals (2000)\n\nNames timeline:\nGirls Tyme (1990–1993)\nSomething Fresh (1993)\nCliché (1993)\nBorderline (1993)\nThe Dolls (1993–1995)\nDestiny (1995–1996)\nDestiny's Child (1996–2006, 2013, 2018, 2025)",
+            "urls": [
+              "https://www.destinyschild.com/",
+              "https://www.facebook.com/destinyschild",
+              "https://instagram.com/destinyschild",
+              "https://myspace.com/destinyschild",
+              "https://pinterest.com/destinyschild/",
+              "https://destinyschild.tumblr.com/",
+              "https://twitter.com/destinyschild",
+              "https://en.wikipedia.org/wiki/Destiny%27s_Child",
+              "https://www.youtube.com/user/DestinysChildVEVO",
+              "https://www.youtube.com/channel/UC2064-GFZ1y5NYZuUGX4iEA"
+            ],
+            "namevariations": [
+              "D Child",
+              "DC",
+              "Dastiny's Childs",
+              "Desitny´s Child",
+              "Desteny's Child",
+              "Destenys Child",
+              "Desting's Child",
+              "Destiny",
+              "Destiny Chied",
+              "Destiny Child",
+              "Destiny Child's",
+              "Destiny Childs",
+              "Destiny s Child",
+              "Destiny's",
+              "Destiny'sChild",
+              "Destinys Child",
+              "Destinys Cild",
+              "Destiny´s Child",
+              "Destiny’s Child",
+              "デスティニーズ・チャイルド",
+              "天命真女",
+              "天命真女合唱團"
+            ],
+            "aliases": [
+              {
+                "id": 7528309,
+                "name": "Girls Tyme",
+                "resource_url": "https://api.discogs.com/artists/7528309"
+              },
+              {
+                "id": 8280414,
+                "name": "My Girls",
+                "resource_url": "https://api.discogs.com/artists/8280414"
+              }
+            ],
+            "members": [
+              {
+                "id": 98498,
+                "name": "Kelly Rowland",
+                "resource_url": "https://api.discogs.com/artists/98498",
+                "active": true
+              },
+              {
+                "id": 175227,
+                "name": "Latavia Roberson",
+                "resource_url": "https://api.discogs.com/artists/175227",
+                "active": false
+              },
+              {
+                "id": 175228,
+                "name": "Letoya Luckett",
+                "resource_url": "https://api.discogs.com/artists/175228",
+                "active": false
+              },
+              {
+                "id": 230674,
+                "name": "Michelle Williams",
+                "resource_url": "https://api.discogs.com/artists/230674",
+                "active": true
+              },
+              {
+                "id": 3131533,
+                "name": "Farrah Franklin",
+                "resource_url": "https://api.discogs.com/artists/3131533",
+                "active": false
+              },
+              {
+                "id": 5021638,
+                "name": "Beyoncé Knowles Carter",
+                "resource_url": "https://api.discogs.com/artists/5021638",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "1Y8cdNmUJH7yBTd9yOvr5i",
+        "wikidataQid": "Q153056",
+        "name": "Destiny's Child",
+        "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+        "discogsArtistId": "22008"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1Y8cdNmUJH7yBTd9yOvr5i",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q153056",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "22008",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "name": "Destiny’s Child",
+          "sortName": "Destiny’s Child",
+          "artistType": "Group",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+          "name": "Destiny’s Child",
+          "sortName": "Destiny’s Child",
+          "artistType": "Group",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "c920948b-83e3-40b7-8fe9-9ab5abaac55b",
+            "name": "Houston",
+            "sortName": "Houston",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1990",
+            "end": "2006",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "Destinys Child",
+              "sortName": "Destinys Child",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Destiny´s Child",
+              "sortName": "Destiny´s Child",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Destiny’s Child",
+              "sortName": "Destiny’s Child",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Girl's Tyme",
+              "sortName": "Girl's Tyme",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Girls Tyme",
+              "sortName": "Girls Tyme",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "デスティニーズ・チャイルド",
+              "sortName": "デスティニーズ・チャイルド",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000123486849"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000210991"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/241"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/a796b92e-c137-4895-9c89-10f900617a4f"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/22008"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/28162"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://play.anghami.com/artist/1561"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/4557352"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/595"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm1560213/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Destiny's+Child"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Destinys-child"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.musixmatch.com/artist/Destiny%E2%80%99s-Child"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/destinyschild"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.destinyschild.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/11cc4816-cdaf-4483-9220-782b2506411b"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no00017286"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/D/Destiny's_Child/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb140120410"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/5554955-X"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/destinys-child"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://nla.gov.au/nla.party-1455900"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/destinys_child"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/078974615"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/destinys-child/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000062373/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no00017286/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id634287"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://tower.jp/artist/192876"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/2528"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/destinys-child-23d6bc0f.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/destinyschild"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/destinyschild"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/destinyschild/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/367767"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/destinys-child-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/destinys-child"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B001T2GZYI"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/634287"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/533"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/destiny-s-child/159731"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/150301399"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q153056"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC2064-GFZ1y5NYZuUGX4iEA"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCjvlwa6AOFGJ6e3Mjr2cg3w"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCksv4FYu55EEkyy5Q1W_yUw"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/22008.json",
+    "provider-cache/v1/musicbrainz/artist/a796b92e-c137-4895-9c89-10f900617a4f.json",
+    "provider-cache/v1/musicbrainz/exact-name/e5a43beb3172d655048a6587.json",
+    "provider-cache/v1/wikidata/spotify-bridge/1Y8cdNmUJH7yBTd9yOvr5i.json"
+  ]
+}

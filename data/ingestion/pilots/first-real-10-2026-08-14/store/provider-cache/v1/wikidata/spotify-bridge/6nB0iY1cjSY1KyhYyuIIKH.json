@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6nB0iY1cjSY1KyhYyuIIKH",
+  "retrievedAt": "2026-08-14T21:19:38.875Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6nB0iY1cjSY1KyhYyuIIKH",
+      "wikidataQid": "Q15291033",
+      "name": "FKA twigs",
+      "musicBrainzArtistId": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8",
+      "discogsArtistId": "3452157"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q15291033"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3452157"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "FKA twigs"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

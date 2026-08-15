@@ -1,0 +1,79 @@
+{
+  "evidenceId": "sha256:41b2875d37757cabcf20d8209be084473158488687456f67758b99b7226665b9",
+  "createdAt": "2026-08-14T23:00:09.557Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+  "evidenceType": "exact_spotify_bridge_discovery",
+  "resolverVersion": "identity_discovery_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "candidateId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+      "candidateName": "Charles Mingus Orchestra",
+      "reviewOnly": true,
+      "decision": "completed_without_safe_exact_bridge",
+      "resultingSpotifyArtistId": null,
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ917GmE7",
+          "legacyIds": [
+            "1478438"
+          ],
+          "occurrenceId": "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/charles-mingus-orchestra-tickets/artist/1478438"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "stage3Run": false,
+        "migrationPerformed": false
+      }
+    },
+    "acquisition": {
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ917GmE7",
+          "legacyIds": [
+            "1478438"
+          ],
+          "occurrenceId": "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/charles-mingus-orchestra-tickets/artist/1478438"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": []
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/exact-provider-url/af32b78e8ccee66a0845aa3d8bcf40fe4621776366e52f18a087fb31e09ca53f.json"
+  ],
+  "reviewOnly": true
+}

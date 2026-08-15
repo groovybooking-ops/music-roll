@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31af-7372-aec3-31d89b3f1904",
+  "candidateId": "mr_candidate_01a0023b-31af-781b-86fe-c612effe3e5e",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.911Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:ab1161bf0a28fe47acfa10c73923410c934a5901775e7006d485d35035e5e972",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-002",
+      "sourceUrl": "https://open.spotify.com/artist/63XBtGSEZINSyXylZxEUbv",
+      "rawArtistName": "Victoria Monét",
+      "normalizedArtistName": "victoria monét",
+      "spotifyArtistId": "63XBtGSEZINSyXylZxEUbv",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/63XBtGSEZINSyXylZxEUbv",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

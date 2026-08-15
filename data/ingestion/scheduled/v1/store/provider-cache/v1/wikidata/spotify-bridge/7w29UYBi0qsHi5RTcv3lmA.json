@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7w29UYBi0qsHi5RTcv3lmA",
+  "retrievedAt": "2026-08-15T16:21:52.320Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7w29UYBi0qsHi5RTcv3lmA",
+      "wikidataQid": "Q42455",
+      "name": "Björk",
+      "musicBrainzArtistId": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "1373",
+        "517951"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q42455"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1373"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Björk"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q42455"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "517951"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Björk"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

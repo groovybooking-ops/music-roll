@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00224-32d3-7f28-a672-5e51ab0422f0",
+  "candidateId": "mr_candidate_01a00223-5dcb-7ac0-bb82-7f1ab7b55539",
+  "eventType": "state_transition",
+  "previousState": "identity_pending",
+  "nextState": "identity_resolving",
+  "previousRevision": 2,
+  "candidateRevision": 3,
+  "reasonCode": "identity_worker_lease_acquired",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:18:41.875Z",
+  "evidenceRefs": [],
+  "payload": {
+    "processing": {
+      "attemptsByStep": {
+        "identity": 1
+      },
+      "lease": {
+        "leaseId": "mr_candidate_event_01a00224-32d2-789b-b7ec-7ca845c6588e",
+        "workerId": "identity_worker_v1",
+        "acquiredAt": "2026-08-14T21:18:41.874Z",
+        "expiresAt": "2026-08-14T21:23:41.874Z",
+        "startingRevision": 2
+      },
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "resolving"
+    }
+  }
+}

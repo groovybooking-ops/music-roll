@@ -1,0 +1,2240 @@
+{
+  "evidenceId": "sha256:9d76271d90ee4f56009f87d257d29442749ef8aa624731b8f6c8b4b216b248c4",
+  "createdAt": "2026-08-15T16:22:21.773Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Fiona Apple",
+        "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q228968",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "255740",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "255740",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q228968",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "255740",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "255740"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "observedValues": [
+            "3g2kUQ6tHLLbmkV7T4GPtL"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q228968",
+          "observedValues": [
+            "Q228968"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q228968",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q228968",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "observedValues": [
+            "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "255740",
+          "observedValues": [
+            "255740"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "255740",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "255740",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "255740",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "255740"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+            "name": "Fiona Apple",
+            "sortName": "Apple, Fiona",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "singer-songwriter and pianist",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "3g2kUQ6tHLLbmkV7T4GPtL"
+            ],
+            "discogsArtistIds": [
+              "255740"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "a9ee533f-8871-4f62-a6bb-91eb264abc90": {
+          "artist": {
+            "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+            "name": "Fiona Apple",
+            "sortName": "Apple, Fiona",
+            "artistType": "Person",
+            "disambiguation": "singer-songwriter and pianist",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan",
+              "sortName": "Manhattan",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09-13",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Fiona Apple McAfee-Maggart",
+                "sortName": "McAfee-Maggart, Fiona Apple",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000078390054"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000169795"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/506"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/a9ee533f-8871-4f62-a6bb-91eb264abc90"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/255740"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.boomplay.com/artists/2783948"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/422"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Fiona_Apple_2012.png"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm0004712/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Fiona+Apple"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Fiona-apple"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://muzikum.eu/en/fiona-apple/lyrics"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-5105/fiona-apple/lyrics.html"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/fionaapple"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.fiona-apple.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no96061733"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://musicmoz.org/Bands_and_Artists/F/Fiona_Apple/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb139944916"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/135001587"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://id.oclc.org/worldcat/entity/E39PBJymy6BhxrCxTkRYRmYMfq"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/fiona-apple"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://snaccooperative.org/ark:/99166/w6089hr2"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://nla.gov.au/nla.party-1484314"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://openlibrary.org/authors/OL2786206A"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/fiona-apple"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.mobygames.com/person/434677"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.themoviedb.org/person/215486"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Fiona-Apple"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no96061733"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id466131"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/us/artist/466131"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.bugs.co.kr/artist/33587"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/156395"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://vibe.naver.com/artist/657"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.amazon.com/-/e/B000APV8HO"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=27985"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://www.amazon.com/-/e/B000APV8HO"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/396"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/fiona-apple-23d6a443.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/fionaapple"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/fionaapple"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/327732"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/fionaapple"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://us.napster.com/artist/fiona-apple"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.amazon.com/artists/B000QK5766"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/au/artist/466131"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/466131"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.bugs.co.kr/artist/33587"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/156395"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/2978"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://vibe.naver.com/artist/657"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=27985"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.supraphonline.cz/umelec/46392"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://web.napster.com/artist/fiona-apple"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/7583905"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q228968"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC5dgHJR5MnbNzzkXWkU_CzQ"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCtuF-p5_86ajFS-49gXIlHw"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCx7oc-KdHX3OosmhmWryDBQ"
+              }
+            ]
+          },
+          "raw": {
+            "disambiguation": "singer-songwriter and pianist",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "type": "Person",
+            "name": "Fiona Apple",
+            "sort-name": "Apple, Fiona",
+            "isnis": [
+              "0000000078390054"
+            ],
+            "begin-area": {
+              "type-id": null,
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan",
+              "type": null,
+              "sort-name": "Manhattan",
+              "disambiguation": ""
+            },
+            "relations": [
+              {
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "type": "allmusic",
+                "attribute-values": {},
+                "url": {
+                  "id": "8d973970-cb38-479f-a412-f8bd4b97f1c6",
+                  "resource": "https://www.allmusic.com/artist/mn0000169795"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "type": "bandsintown",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/506",
+                  "id": "6c03b705-8a17-4a42-b3e5-d68ff18f876e"
+                }
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/a9ee533f-8871-4f62-a6bb-91eb264abc90",
+                  "id": "ba21e920-f1ee-4d59-aa6e-89221a416cc5"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "ended": true,
+                "attributes": [],
+                "end": "2020-11-19",
+                "source-credit": "",
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "type": "BBC Music page",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "discogs",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "3958efce-94cc-4096-8865-85dabcbc9956",
+                  "resource": "https://www.discogs.com/artist/255740"
+                },
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+                  "id": "576e4c71-1c5a-4aed-9318-9219c1a3249f"
+                },
+                "attribute-values": {},
+                "type": "free streaming",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "edb85d1d-3293-4997-9328-ce037840f2d3",
+                  "resource": "https://www.boomplay.com/artists/2783948"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "6b67ce91-d3b2-4350-beb8-5257fd0e6c24",
+                  "resource": "https://www.deezer.com/artist/422"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "ended": false,
+                "attributes": [],
+                "type": "image",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Fiona_Apple_2012.png",
+                  "id": "08e7456f-29f3-44c2-a58d-eddc1b1d06f4"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "id": "9faf09c0-e96c-47ee-8c3c-852492670862",
+                  "resource": "https://www.imdb.com/name/nm0004712/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "end": null,
+                "source-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "ended": false,
+                "attributes": [],
+                "type": "IMDb",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.last.fm/music/Fiona+Apple",
+                  "id": "1cba3633-6797-482b-9362-11b707b1958a"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "last.fm",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f"
+              },
+              {
+                "type": "lyrics",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "target-credit": "",
+                "url": {
+                  "id": "f1db129b-e70a-4be0-a49d-86585deb4bc7",
+                  "resource": "https://genius.com/artists/Fiona-apple"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "type": "lyrics",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "c1e0a94f-8838-47c5-8810-e96a10a68613",
+                  "resource": "https://muzikum.eu/en/fiona-apple/lyrics"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url"
+              },
+              {
+                "attributes": [],
+                "ended": true,
+                "end": null,
+                "source-credit": "",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attribute-values": {},
+                "type": "lyrics",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "26d41f36-2bb6-4a27-856a-64ff815893b6",
+                  "resource": "http://muzikum.eu/en/122-5105/fiona-apple/lyrics.html"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://myspace.com/fionaapple",
+                  "id": "6a63bdda-ee66-4a90-8201-375d1b98a217"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "type": "myspace",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "source-credit": "",
+                "end": null
+              },
+              {
+                "type": "official homepage",
+                "attribute-values": {},
+                "ended": true,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "target-credit": "",
+                "url": {
+                  "resource": "http://www.fiona-apple.com/",
+                  "id": "04bee9cd-c12d-47c0-80cc-1badced58466"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "type": "other databases",
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "4550457e-ee3e-408a-bad7-6139fecfb13e",
+                  "resource": "http://id.loc.gov/authorities/names/no96061733"
+                }
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "http://musicmoz.org/Bands_and_Artists/F/Fiona_Apple/",
+                  "id": "ea6c73f5-4f65-49c7-b43d-cafe00e70101"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "other databases",
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-credit": "",
+                "url": {
+                  "id": "adca0e4a-14c8-47e1-9327-f139548ede93",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb139944916"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://d-nb.info/gnd/135001587",
+                  "id": "18f93038-d386-42b3-8237-4e0a13d2eca0"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "other databases",
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "type": "other databases",
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://id.oclc.org/worldcat/entity/E39PBJymy6BhxrCxTkRYRmYMfq",
+                  "id": "c096f396-2d04-493b-8238-eb451db0c61b"
+                }
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://imvdb.com/n/fiona-apple",
+                  "id": "907463a3-5438-4feb-ac6b-defd483889d8"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "url": {
+                  "resource": "http://snaccooperative.org/ark:/99166/w6089hr2",
+                  "id": "7dc66f37-9f70-4319-a66d-4188f64e2540"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://nla.gov.au/nla.party-1484314",
+                  "id": "9f329b40-616c-41a4-bb99-868f1a7ce5f5"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "other databases",
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "655b9e21-6253-4dea-ae60-182438e94f1c",
+                  "resource": "https://openlibrary.org/authors/OL2786206A"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url"
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/fiona-apple",
+                  "id": "22fb5567-44c8-4cb4-a59c-a0598e080e79"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.mobygames.com/person/434677",
+                  "id": "be755d4d-614d-4944-ab48-0ff38bf1c352"
+                },
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "2a1d7d7d-38d6-46db-89d3-ec9cc1e64470",
+                  "resource": "https://www.themoviedb.org/person/215486"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "a479c307-40cc-427b-b7b6-9ae05f0246bd",
+                  "resource": "https://www.whosampled.com/Fiona-Apple"
+                },
+                "attribute-values": {},
+                "type": "other databases",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": true,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-no96061733",
+                  "id": "93c7c25f-270e-4ed5-b657-4781b5843424"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for download",
+                "attributes": [],
+                "ended": true,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": "2019-05-19",
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "154d6d00-f869-4f9e-ba29-1789af47050e",
+                  "resource": "https://itunes.apple.com/us/artist/id466131"
+                },
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/466131",
+                  "id": "1e95859d-540d-4a91-8ffe-f488b07d3417"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type": "purchase for download",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for download",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "9be66571-c464-4359-836e-b64b30056bb2",
+                  "resource": "https://music.bugs.co.kr/artist/33587"
+                }
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "b1ac076e-f741-47ca-88c8-b288319abc2d",
+                  "resource": "https://open.qobuz.com/artist/156395"
+                },
+                "target-credit": "",
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "84eca19d-0829-4249-b138-2f1109cd243e",
+                  "resource": "https://vibe.naver.com/artist/657"
+                },
+                "attribute-values": {},
+                "type": "purchase for download",
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "type": "purchase for download",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.amazon.com/-/e/B000APV8HO",
+                  "id": "3db45a7e-db7f-4c8e-a4c1-15431679b2c6"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "type": "purchase for download",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "a5a7c57c-5130-4134-9921-a5781e518d76",
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=27985"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "36efe973-9a4e-4266-b3d2-fb2fa9dae448",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "end": null
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for mail-order",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "3db45a7e-db7f-4c8e-a4c1-15431679b2c6",
+                  "resource": "https://www.amazon.com/-/e/B000APV8HO"
+                },
+                "direction": "forward"
+              },
+              {
+                "attribute-values": {},
+                "type": "secondhandsongs",
+                "end": null,
+                "source-credit": "",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "b4885d11-c952-42d8-9fe7-82655c60eab5",
+                  "resource": "https://secondhandsongs.com/artist/396"
+                }
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "0d8575d0-855a-4b73-b2b7-46843bdeb9e9",
+                  "resource": "https://www.setlist.fm/setlists/fiona-apple-23d6a443.html"
+                },
+                "attribute-values": {},
+                "type": "setlistfm",
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "type": "social network",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "b41fa980-86f9-4914-b53d-d2175eb4e86a",
+                  "resource": "https://www.facebook.com/fionaapple"
+                }
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attributes": [],
+                "ended": true,
+                "attribute-values": {},
+                "type": "social network",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://twitter.com/fionaapple",
+                  "id": "876b5481-97dc-477d-a733-1fa278c8b02f"
+                },
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "id": "8339797b-c3ea-4d34-927a-3e813b1ed0ba",
+                  "resource": "https://www.songkick.com/artists/327732"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "type": "songkick",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "a7b12d66-e2cb-403a-9bdb-cc5dae657910",
+                  "resource": "https://soundcloud.com/fionaapple"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "soundcloud",
+                "source-credit": "",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "f94f8fbd-a0b5-4b2f-b80d-06ce93749ce1",
+                  "resource": "https://us.napster.com/artist/fiona-apple"
+                },
+                "target-credit": "",
+                "source-credit": "",
+                "end": "2022-06-08",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "ended": true,
+                "attribute-values": {},
+                "type": "streaming"
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.amazon.com/artists/B000QK5766",
+                  "id": "f5c01514-9b56-4324-afc4-7859723d61b0"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "4ac717db-31fc-41ee-971f-6ef6d8ea0d00",
+                  "resource": "https://music.apple.com/au/artist/466131"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "1e95859d-540d-4a91-8ffe-f488b07d3417",
+                  "resource": "https://music.apple.com/us/artist/466131"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": ""
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.bugs.co.kr/artist/33587",
+                  "id": "9be66571-c464-4359-836e-b64b30056bb2"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "type": "streaming",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/156395",
+                  "id": "b1ac076e-f741-47ca-88c8-b288319abc2d"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "url": {
+                  "id": "e1fae9c0-20e7-475e-8286-09a043587cba",
+                  "resource": "https://tidal.com/artist/2978"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://vibe.naver.com/artist/657",
+                  "id": "84eca19d-0829-4249-b138-2f1109cd243e"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-values": {},
+                "type": "streaming",
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=27985",
+                  "id": "a5a7c57c-5130-4134-9921-a5781e518d76"
+                },
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "36efe973-9a4e-4266-b3d2-fb2fa9dae448",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+                },
+                "attribute-values": {},
+                "type": "streaming",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "id": "c86462bf-ab6d-4667-8c83-964e3359f856",
+                  "resource": "https://www.supraphonline.cz/umelec/46392"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "attribute-values": {}
+              },
+              {
+                "attribute-values": {},
+                "type": "streaming",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": true,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://web.napster.com/artist/fiona-apple",
+                  "id": "d10f7c06-298b-45dd-9b28-fa78d9c4760f"
+                }
+              },
+              {
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "4d97f991-e74e-44f0-a1d9-49d7597b57c1",
+                  "resource": "http://viaf.org/viaf/7583905"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "end": null,
+                "source-credit": "",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "VIAF"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "wikidata",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q228968",
+                  "id": "80730aca-07ea-4e51-b51c-173e49a2673d"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "5f8a353f-86a1-4036-a41b-c84618a3bdc5",
+                  "resource": "https://www.youtube.com/channel/UC5dgHJR5MnbNzzkXWkU_CzQ"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "youtube",
+                "source-credit": "",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "youtube",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCtuF-p5_86ajFS-49gXIlHw",
+                  "id": "d1f1da25-fd8b-440a-9af3-009af01e9438"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "type": "youtube",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCx7oc-KdHX3OosmhmWryDBQ",
+                  "id": "3df41f08-845f-4d08-a670-5400f994feae"
+                }
+              }
+            ],
+            "end-area": null,
+            "life-span": {
+              "begin": "1977-09-13",
+              "end": null,
+              "ended": false
+            },
+            "id": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type-id": null,
+              "disambiguation": "",
+              "sort-name": "United States",
+              "type": null,
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States"
+            },
+            "ipis": [
+              "00338861826",
+              "00338861924"
+            ],
+            "gender": "Female",
+            "aliases": [
+              {
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "Fiona Apple McAfee-Maggart",
+                "type": "Legal name",
+                "sort-name": "McAfee-Maggart, Fiona Apple",
+                "primary": null
+              }
+            ],
+            "country": "US"
+          }
+        }
+      },
+      "discogsRecords": {
+        "255740": {
+          "artist": {
+            "discogsArtistId": "255740",
+            "name": "Fiona Apple",
+            "realName": "Fiona Apple McAfee Maggart",
+            "profile": "American singer-songwriter and pianist, born September 13, 1977 in New York City, New York.",
+            "artistUrls": [
+              "https://facebook.com/fionaapple/",
+              "https://en.wikipedia.org/wiki/Fiona_Apple",
+              "https://www.allmusic.com/artist/fiona-apple-mn0000169795"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "2921588",
+                "name": "Feedy"
+              }
+            ],
+            "nameVariations": [
+              "Apple",
+              "F. Apple",
+              "Fiona Apple Maggart",
+              "Fionna Apple",
+              "フィオナ・アップル",
+              "費歐娜艾波"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/255740",
+            "discogsWebUrl": "https://www.discogs.com/artist/255740-Fiona-Apple",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Fiona Apple",
+            "id": 255740,
+            "resource_url": "https://api.discogs.com/artists/255740",
+            "uri": "https://www.discogs.com/artist/255740-Fiona-Apple",
+            "releases_url": "https://api.discogs.com/artists/255740/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/vTd9TKIMqyOtr7MbuWIFBAFSxHHFP0sZh_H8E83xqEE/rs:fit/g:sm/q:90/h:557/w:416/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzcwMjI2Nzg1/LTE0NDMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/vTd9TKIMqyOtr7MbuWIFBAFSxHHFP0sZh_H8E83xqEE/rs:fit/g:sm/q:90/h:557/w:416/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzcwMjI2Nzg1/LTE0NDMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/AuNv1Mkh-A4vUSpOvqeLjOxamNOR1hVlYsP-dg1sgGY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzcwMjI2Nzg1/LTE0NDMuanBlZw.jpeg",
+                "width": 416,
+                "height": 557
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/kuMZpgyqOpgS4-5TMOWroFWF4HgVA1DzFVqPhXNyA4Y/rs:fit/g:sm/q:90/h:770/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjQxMjYxMjQ0/LTU5MDUuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/kuMZpgyqOpgS4-5TMOWroFWF4HgVA1DzFVqPhXNyA4Y/rs:fit/g:sm/q:90/h:770/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjQxMjYxMjQ0/LTU5MDUuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/xJjgkMrtpVB5DJZ4bsrCJeTI2kk4Kdx-20fgCYkTItI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjQxMjYxMjQ0/LTU5MDUuanBlZw.jpeg",
+                "width": 600,
+                "height": 770
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ycN4AsGpyvCC44DuQFHq6isiIO4PPnlRgcVP4BugGXo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjU0OTYzMDIy/LTU1NjkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/ycN4AsGpyvCC44DuQFHq6isiIO4PPnlRgcVP4BugGXo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjU0OTYzMDIy/LTU1NjkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/meYTv5xjdNy5ZJXU5ix1V1keDSNf190t8UzcSbkxGsM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNjU0OTYzMDIy/LTU1NjkuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/jYaiq7T6soZ9T1pxvZC7KbyPYmV2CvXXV3PcJ3ECtSc/rs:fit/g:sm/q:90/h:479/w:347/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xMTA1ODc1NDk1/LmpwZw.jpeg",
+                "resource_url": "https://i.discogs.com/jYaiq7T6soZ9T1pxvZC7KbyPYmV2CvXXV3PcJ3ECtSc/rs:fit/g:sm/q:90/h:479/w:347/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xMTA1ODc1NDk1/LmpwZw.jpeg",
+                "uri150": "https://i.discogs.com/lwQCx7E3Vcocl6_fcbVK3JoBJKjN1LbfFvZLNuiTXcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xMTA1ODc1NDk1/LmpwZw.jpeg",
+                "width": 347,
+                "height": 479
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/EZ5C2A3f_-vMU3AEKL5H3neGbx1cDab36S023_UAOdg/rs:fit/g:sm/q:90/h:644/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzg1/LTM0NTcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/EZ5C2A3f_-vMU3AEKL5H3neGbx1cDab36S023_UAOdg/rs:fit/g:sm/q:90/h:644/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzg1/LTM0NTcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/hBltfcxVXnfUtfveIGog2akQO2zng1t0ijc6EEeYmoo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzg1/LTM0NTcuanBlZw.jpeg",
+                "width": 600,
+                "height": 644
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/pysE8GVeFC96Wgp8NsBauq55FzF9gGFNhbdP0y3-yMY/rs:fit/g:sm/q:90/h:715/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzcz/LTExNDcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/pysE8GVeFC96Wgp8NsBauq55FzF9gGFNhbdP0y3-yMY/rs:fit/g:sm/q:90/h:715/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzcz/LTExNDcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/EXbnH_muDunY6hS_FoY6q1xm3XPGFKdkNh7TVO10VQ0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzcz/LTExNDcuanBlZw.jpeg",
+                "width": 600,
+                "height": 715
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WPgBev-gzYZXJbf2amqPm7JVNZL23QbObHEBMDgvmJU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc1/LTgxNjAuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/WPgBev-gzYZXJbf2amqPm7JVNZL23QbObHEBMDgvmJU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc1/LTgxNjAuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/aY9TlysF9eZTWkGVsHURaMI88ojE-7i92RMzj-94yKE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc1/LTgxNjAuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/H_xvnZKvHi1nE3B2Y0hRttNHauWALKxDh-BAaJj1sSw/rs:fit/g:sm/q:90/h:382/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzgx/LTc2NjMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/H_xvnZKvHi1nE3B2Y0hRttNHauWALKxDh-BAaJj1sSw/rs:fit/g:sm/q:90/h:382/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzgx/LTc2NjMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/8JgtRP8TQP2NenSPYwu9hkHaT7u7BDG4Dpmxlw7oWgA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzgx/LTc2NjMuanBlZw.jpeg",
+                "width": 600,
+                "height": 382
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/D1RR4FONosDa48k1x80v-HyahAsceft7YPpzIxjQiIY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc4/LTc2NTQuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/D1RR4FONosDa48k1x80v-HyahAsceft7YPpzIxjQiIY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc4/LTc2NTQuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/nzL4vYtC7ADY6Zg_J9dr-yGiAYPseAQLhr7NPhtKdbk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNTkxNTY0Nzc4/LTc2NTQuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/RFcNys8ghiHtDwcY8y5-Jf-7OXG2JVFVtqPnc8sUCJ4/rs:fit/g:sm/q:90/h:502/w:402/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzM5OTA2MTIy/LTE1MjAuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/RFcNys8ghiHtDwcY8y5-Jf-7OXG2JVFVtqPnc8sUCJ4/rs:fit/g:sm/q:90/h:502/w:402/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzM5OTA2MTIy/LTE1MjAuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/HinLaZWyvD-bN4QXNLEtHa6axfiEMwoJNHg-2fUyTVs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NTc0/MC0xNzM5OTA2MTIy/LTE1MjAuanBlZw.jpeg",
+                "width": 402,
+                "height": 502
+              }
+            ],
+            "realname": "Fiona Apple McAfee Maggart",
+            "profile": "American singer-songwriter and pianist, born September 13, 1977 in New York City, New York.",
+            "urls": [
+              "https://facebook.com/fionaapple/",
+              "https://en.wikipedia.org/wiki/Fiona_Apple",
+              "https://www.allmusic.com/artist/fiona-apple-mn0000169795"
+            ],
+            "namevariations": [
+              "Apple",
+              "F. Apple",
+              "Fiona Apple Maggart",
+              "Fionna Apple",
+              "フィオナ・アップル",
+              "費歐娜艾波"
+            ],
+            "aliases": [
+              {
+                "id": 2921588,
+                "name": "Feedy",
+                "resource_url": "https://api.discogs.com/artists/2921588"
+              }
+            ],
+            "groups": [
+              {
+                "id": 4513049,
+                "name": "Watkins Family Hour",
+                "resource_url": "https://api.discogs.com/artists/4513049",
+                "active": false
+              },
+              {
+                "id": 15374613,
+                "name": "The Boltcutters",
+                "resource_url": "https://api.discogs.com/artists/15374613",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "wikidataQid": "Q228968",
+        "name": "Fiona Apple",
+        "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+        "discogsArtistId": "255740"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q228968",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "255740",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "name": "Fiona Apple",
+          "sortName": "Apple, Fiona",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "singer-songwriter and pianist",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "name": "Fiona Apple",
+          "sortName": "Apple, Fiona",
+          "artistType": "Person",
+          "disambiguation": "singer-songwriter and pianist",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+            "name": "Manhattan",
+            "sortName": "Manhattan",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1977-09-13",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Fiona Apple McAfee-Maggart",
+              "sortName": "McAfee-Maggart, Fiona Apple",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000078390054"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000169795"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/506"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/255740"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.boomplay.com/artists/2783948"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/422"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Fiona_Apple_2012.png"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0004712/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Fiona+Apple"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Fiona-apple"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/fiona-apple/lyrics"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-5105/fiona-apple/lyrics.html"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/fionaapple"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.fiona-apple.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no96061733"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/F/Fiona_Apple/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb139944916"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/135001587"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PBJymy6BhxrCxTkRYRmYMfq"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/fiona-apple"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://snaccooperative.org/ark:/99166/w6089hr2"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://nla.gov.au/nla.party-1484314"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://openlibrary.org/authors/OL2786206A"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/fiona-apple"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.mobygames.com/person/434677"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/215486"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Fiona-Apple"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no96061733"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id466131"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/466131"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/33587"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/156395"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://vibe.naver.com/artist/657"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.amazon.com/-/e/B000APV8HO"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=27985"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.amazon.com/-/e/B000APV8HO"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/396"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/fiona-apple-23d6a443.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/fionaapple"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/fionaapple"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/327732"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/fionaapple"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://us.napster.com/artist/fiona-apple"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.com/artists/B000QK5766"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/au/artist/466131"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/466131"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/33587"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/156395"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/2978"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://vibe.naver.com/artist/657"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=27985"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/fiona-apple/156395"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.supraphonline.cz/umelec/46392"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://web.napster.com/artist/fiona-apple"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/7583905"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q228968"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC5dgHJR5MnbNzzkXWkU_CzQ"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCtuF-p5_86ajFS-49gXIlHw"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCx7oc-KdHX3OosmhmWryDBQ"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/255740.json",
+    "provider-cache/v1/musicbrainz/artist/a9ee533f-8871-4f62-a6bb-91eb264abc90.json",
+    "provider-cache/v1/musicbrainz/exact-name/788fde7428741104e1681bfb.json",
+    "provider-cache/v1/wikidata/spotify-bridge/3g2kUQ6tHLLbmkV7T4GPtL.json"
+  ]
+}

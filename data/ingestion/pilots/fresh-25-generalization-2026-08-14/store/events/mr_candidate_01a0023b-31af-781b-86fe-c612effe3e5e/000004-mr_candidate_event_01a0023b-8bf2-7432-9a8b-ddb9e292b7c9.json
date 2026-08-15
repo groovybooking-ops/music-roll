@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-8bf2-7432-9a8b-ddb9e292b7c9",
+  "candidateId": "mr_candidate_01a0023b-31af-781b-86fe-c612effe3e5e",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "failed_match",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "no_safe_exact_identity_resolved",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:44:12.018Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0023b-31af-781b-86fe-c612effe3e5e/6f9c793df3813c972c527ab07345a045e8123dc47b3a249ada888a497794bdda.json",
+    "provider-cache/v1/wikidata/spotify-bridge/63XBtGSEZINSyXylZxEUbv.json",
+    "provider-cache/v1/musicbrainz/artist/28d83274-26ab-4a6a-b9ff-340f4784e7dd.json",
+    "provider-cache/v1/discogs/artist/1971095.json",
+    "provider-cache/v1/discogs/artist/2834992.json",
+    "provider-cache/v1/discogs/artist/7526904.json",
+    "provider-cache/v1/musicbrainz/exact-name/f93d9ae04019f8d6e424a4eb.json",
+    "provider-cache/v1/musicbrainz/release-groups/28d83274-26ab-4a6a-b9ff-340f4784e7dd.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "unresolved_identity",
+      "selectedSpotifyArtistId": null,
+      "wikidataQids": [
+        "Q19864989"
+      ],
+      "musicBrainzArtistIds": [
+        "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+      ],
+      "discogsArtistIds": [
+        "1971095",
+        "2834992",
+        "7526904"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0023b-31af-781b-86fe-c612effe3e5e/6f9c793df3813c972c527ab07345a045e8123dc47b3a249ada888a497794bdda.json",
+        "provider-cache/v1/wikidata/spotify-bridge/63XBtGSEZINSyXylZxEUbv.json",
+        "provider-cache/v1/musicbrainz/artist/28d83274-26ab-4a6a-b9ff-340f4784e7dd.json",
+        "provider-cache/v1/discogs/artist/1971095.json",
+        "provider-cache/v1/discogs/artist/2834992.json",
+        "provider-cache/v1/discogs/artist/7526904.json",
+        "provider-cache/v1/musicbrainz/exact-name/f93d9ae04019f8d6e424a4eb.json",
+        "provider-cache/v1/musicbrainz/release-groups/28d83274-26ab-4a6a-b9ff-340f4784e7dd.json"
+      ],
+      "conflicts": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "1971095",
+            "2834992",
+            "7526904"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "28d83274-26ab-4a6a-b9ff-340f4784e7dd",
+            "name": "Victoria Monét",
+            "sortName": "Monét, Victoria",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "63XBtGSEZINSyXylZxEUbv"
+            ],
+            "discogsArtistIds": [
+              "1971095",
+              "2834992",
+              "7526904"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity"
+            ],
+            "unresolvedIdentifiers": [
+              "discogs:2834992"
+            ]
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "unresolved_identifier_present",
+            "provider_error_present",
+            "missing_discogs_record:2834992",
+            "discogs_alternates_not_mutually_linked"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63XBtGSEZINSyXylZxEUbv",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63XBtGSEZINSyXylZxEUbv",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q19864989",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "28d83274-26ab-4a6a-b9ff-340f4784e7dd",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1971095",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2834992",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "28d83274-26ab-4a6a-b9ff-340f4784e7dd",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1971095",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2834992",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7526904",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63XBtGSEZINSyXylZxEUbv",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q19864989",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1971095",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1971095"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7526904",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "7526904"
+        }
+      ],
+      "providerErrors": [
+        {
+          "provider": "discogs",
+          "operation": "artist",
+          "identifier": "2834992",
+          "statusCode": 404,
+          "message": "Discogs artist 2834992 was not found."
+        }
+      ],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:44:12.016Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "failed_match"
+    }
+  }
+}

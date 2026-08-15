@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T23:38:49.630Z",
+  "createdAt": "2026-08-14T23:07:05.464Z",
+  "updatedAt": "2026-08-14T23:38:49.630Z",
+  "name": {
+    "raw": "Hysteria",
+    "normalized": "hysteria"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:e73d1fde4d4503c33bcfba30adc279a2101c2b9fa5ea4dcc48ae2a63eff0a0bb",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+      "sourceRecordId": "rZ7HnEZ1A4Z6ON/attraction/K8vZ917GyW0",
+      "sourceUrl": "https://www.ticketweb.com/event/rush-def-leppard-joan-jett-garden-amphitheatre-tickets/15007823",
+      "rawArtistName": "Hysteria",
+      "normalizedArtistName": "hysteria",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identityDiscovery": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a002a4-7d9e-711c-8ac1-7e2288ae61a7",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c/8aeb8dae469135cef783d9fb1b08ca78b434cc12b1fa61b7012361f8d8f42e55.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ917GyW0"
+    }
+  ],
+  "identityDiscovery": {
+    "outcome": "completed_without_safe_exact_bridge",
+    "resultingSpotifyArtistId": null,
+    "evidenceRefs": [
+      "evidence/identity-discovery/mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c/6ddd9f8d755be6efa86b466002e0c839f0de7355c0e6d8492266ec451dfd127b.json",
+      "provider-cache/v1/musicbrainz/exact-provider-url/7c7ee336a5c2fb72f07bc32ef2f9b0776134926c21d4e06fb5f7ae32bacda32d.json"
+    ],
+    "providerErrors": [],
+    "provenanceClaims": [],
+    "resolvedAt": "2026-08-14T23:38:49.628Z",
+    "resolverVersion": "identity_discovery_resolver_v1",
+    "reviewOnly": true
+  }
+}

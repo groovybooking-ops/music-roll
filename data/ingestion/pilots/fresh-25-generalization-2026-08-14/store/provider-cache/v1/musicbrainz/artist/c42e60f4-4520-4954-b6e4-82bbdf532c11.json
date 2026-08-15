@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+  "retrievedAt": "2026-08-14T21:45:07.587Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+      "name": "JPEGMAFIA",
+      "sortName": "JPEGMAFIA",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+        "name": "Flatbush",
+        "sortName": "Flatbush",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1989-10-22",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Barrington DeVaughn Hendricks",
+          "sortName": "Hendricks, Barrington DeVaughn",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Barrington Hendricks",
+          "sortName": "Hendricks, Barrington",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "DJ SNITCH BITCH",
+          "sortName": "DJ SNITCH BITCH",
+          "type": "Artist name",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Peggy",
+          "sortName": "Peggy",
+          "type": "Artist name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000466526056"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0003712096"
+        },
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://jpegmafia.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4501713"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/10785056"
+        },
+        {
+          "relationshipType": "IMDb",
+          "url": "https://www.imdb.com/name/nm9231243/"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/JPEGMAFIA"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Jpegmafia"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.jpegmafia.net/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/jpegmafia"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id1130088441"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://mora.jp/artist/1108387/"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/jpegmafia/727813"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/jpegmafia"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.facebook.com/jpegmafia"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://www.instagram.com/jpegmafia/"
+        },
+        {
+          "relationshipType": "social network",
+          "url": "https://twitter.com/darkskinmanson"
+        },
+        {
+          "relationshipType": "soundcloud",
+          "url": "https://soundcloud.com/jpegmafia"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/1130088441"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/7958797"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q50415953"
+        },
+        {
+          "relationshipType": "youtube",
+          "url": "https://www.youtube.com/channel/UCnAbB39RDMkmkMLigykYvQw"
+        }
+      ]
+    },
+    "raw": {
+      "relations": [
+        {
+          "attribute-values": {},
+          "type": "allmusic",
+          "source-credit": "",
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "end": null,
+          "attributes": [],
+          "ended": false,
+          "target-credit": "",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "resource": "https://www.allmusic.com/artist/mn0003712096",
+            "id": "9307aa32-5270-4bf5-81f0-6e241d22a6d8"
+          },
+          "direction": "forward"
+        },
+        {
+          "type": "bandcamp",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+          "target-credit": "",
+          "url": {
+            "id": "b6e57158-0cac-4a9f-84a1-8cb91ce9ef39",
+            "resource": "https://jpegmafia.bandcamp.com/"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "ended": false,
+          "attributes": [],
+          "type": "discogs",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.discogs.com/artist/4501713",
+            "id": "ff6b1143-d01b-484d-8a59-90ef730710c6"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": ""
+        },
+        {
+          "type": "free streaming",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "8730c4a4-3a87-404b-986f-b0f618243e85",
+            "resource": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url"
+        },
+        {
+          "type": "free streaming",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.deezer.com/artist/10785056",
+            "id": "735ad91d-c02b-4171-bfd8-36a1e030ff8b"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {}
+        },
+        {
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "id": "3f123329-2b15-49ef-9bac-2240c8a641f6",
+            "resource": "https://www.imdb.com/name/nm9231243/"
+          },
+          "target-credit": "",
+          "end": null,
+          "source-credit": "",
+          "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "IMDb"
+        },
+        {
+          "type": "last.fm",
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "resource": "https://www.last.fm/music/JPEGMAFIA",
+            "id": "07381577-89a5-4c74-985b-1aba3f7ebb3e"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null
+        },
+        {
+          "direction": "forward",
+          "url": {
+            "resource": "https://genius.com/artists/Jpegmafia",
+            "id": "0585c8fa-0354-4f4c-9891-a225fe4809f6"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": "",
+          "source-credit": "",
+          "end": null,
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+          "ended": false,
+          "attributes": [],
+          "type": "lyrics",
+          "attribute-values": {}
+        },
+        {
+          "target-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "url": {
+            "id": "76536f0f-bed0-490e-88e9-8552fabb6c8b",
+            "resource": "http://www.jpegmafia.net/"
+          },
+          "direction": "forward",
+          "attribute-values": {},
+          "type": "official homepage",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "end": null
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "ended": false,
+          "attributes": [],
+          "type": "other databases",
+          "attribute-values": {},
+          "url": {
+            "id": "2c36c88d-9d98-452b-b46c-6ac193a29e9b",
+            "resource": "https://rateyourmusic.com/artist/jpegmafia"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": ""
+        },
+        {
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-values": {},
+          "type": "purchase for download",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "resource": "https://itunes.apple.com/us/artist/id1130088441",
+            "id": "cbda3b6c-dc15-4ff8-9749-a178de766304"
+          },
+          "direction": "forward",
+          "target-credit": ""
+        },
+        {
+          "url": {
+            "resource": "https://mora.jp/artist/1108387/",
+            "id": "82c78653-4d04-4a6c-88b0-b917629ed59a"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "target-credit": "",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "end": null,
+          "type": "purchase for download",
+          "attribute-values": {}
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "42de2dca-e937-4479-8ffe-1150e51bbf62",
+            "resource": "https://www.beatport.com/artist/jpegmafia/727813"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "purchase for download",
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "ended": false,
+          "attributes": []
+        },
+        {
+          "type": "social network",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "url": {
+            "id": "4e7c588f-ca7a-49c6-b213-b3a7b677035f",
+            "resource": "https://twitter.com/jpegmafia"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null
+        },
+        {
+          "attribute-values": {},
+          "type": "social network",
+          "source-credit": "",
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "end": null,
+          "attributes": [],
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "id": "73a366f7-19c0-4c76-9caa-61a54cf6bea9",
+            "resource": "https://www.facebook.com/jpegmafia"
+          }
+        },
+        {
+          "attribute-values": {},
+          "type": "social network",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "target-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "url": {
+            "resource": "https://www.instagram.com/jpegmafia/",
+            "id": "d2068ffb-9ce4-4d41-a70f-14b0d6321b7d"
+          },
+          "direction": "forward"
+        },
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "id": "ed6c40e3-8bc0-4143-8e92-92aa6cbeaa88",
+            "resource": "https://twitter.com/darkskinmanson"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "ended": true,
+          "source-credit": "",
+          "end": null,
+          "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+          "attribute-values": {},
+          "type": "social network"
+        },
+        {
+          "attribute-values": {},
+          "type": "soundcloud",
+          "source-credit": "",
+          "end": null,
+          "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+          "attributes": [],
+          "ended": false,
+          "target-credit": "",
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "id": "d180a1d4-fb8d-4c6e-a480-b63f6139f2da",
+            "resource": "https://soundcloud.com/jpegmafia"
+          }
+        },
+        {
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "attribute-values": {},
+          "type": "streaming",
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "id": "4b48c764-fbd9-414e-96cd-e6b8e48322c8",
+            "resource": "https://music.apple.com/us/artist/1130088441"
+          },
+          "target-credit": ""
+        },
+        {
+          "source-credit": "",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "ended": false,
+          "attributes": [],
+          "type": "streaming",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://tidal.com/artist/7958797",
+            "id": "5474e710-6a9e-4668-8bdc-6c07213ee8e0"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": ""
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "ended": false,
+          "attributes": [],
+          "type": "wikidata",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "id": "7388f02a-2580-42c7-915a-4ef9089fce74",
+            "resource": "https://www.wikidata.org/wiki/Q50415953"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": ""
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.youtube.com/channel/UCnAbB39RDMkmkMLigykYvQw",
+            "id": "736663e1-98e9-4cbe-b0b6-bc85ce1a7cb8"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "youtube",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+        }
+      ],
+      "begin-area": {
+        "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "Flatbush",
+        "type": null,
+        "name": "Flatbush"
+      },
+      "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+      "end-area": null,
+      "life-span": {
+        "end": null,
+        "begin": "1989-10-22",
+        "ended": false
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "disambiguation": "",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "JPEGMAFIA",
+      "type": "Person",
+      "isnis": [
+        "0000000466526056"
+      ],
+      "sort-name": "JPEGMAFIA",
+      "aliases": [
+        {
+          "primary": null,
+          "sort-name": "Hendricks, Barrington DeVaughn",
+          "name": "Barrington DeVaughn Hendricks",
+          "type": "Legal name",
+          "ended": false,
+          "locale": null,
+          "begin": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "end": null
+        },
+        {
+          "sort-name": "Hendricks, Barrington",
+          "type": "Legal name",
+          "name": "Barrington Hendricks",
+          "primary": null,
+          "begin": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "end": null,
+          "locale": null,
+          "ended": false
+        },
+        {
+          "begin": null,
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "end": null,
+          "locale": null,
+          "ended": false,
+          "sort-name": "DJ SNITCH BITCH",
+          "name": "DJ SNITCH BITCH",
+          "type": "Artist name",
+          "primary": null
+        },
+        {
+          "name": "Peggy",
+          "type": "Artist name",
+          "sort-name": "Peggy",
+          "primary": null,
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "end": null,
+          "begin": null,
+          "ended": false,
+          "locale": null
+        }
+      ],
+      "country": "US",
+      "ipis": [
+        "00792343619",
+        "00792343717"
+      ],
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type": null,
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ]
+      },
+      "gender": "Male"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31ca-7391-9d0f-7bd3c90a0171",
+  "candidateId": "mr_candidate_01a0023b-31ca-7462-8cc2-ef403f659614",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.938Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:da1e85385772d878a6b75e6f325eefa8b7c399cd1f845fca67babe3e64b54c1c",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-014",
+      "sourceUrl": "https://open.spotify.com/artist/7ltDVBr6mKbRvohxheJ9h1",
+      "rawArtistName": "ROSALÍA",
+      "normalizedArtistName": "rosalía",
+      "spotifyArtistId": "7ltDVBr6mKbRvohxheJ9h1",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7ltDVBr6mKbRvohxheJ9h1",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

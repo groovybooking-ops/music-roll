@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "configurationHash": "sha256:c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52",
+  "retrievedAt": "2026-08-14T22:35:41.962Z",
+  "requestUrl": "https://api.spotify.com/v1/search?q=SZA&type=artist&limit=3&market=US",
+  "responseDigest": "sha256:e456990166a21e63a57c201f22f466558e1595aa6011c6ee3d8d338fde600df8",
+  "raw": {
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?offset=0&limit=3&query=SZA&type=artist&market=US&locale=*",
+      "limit": 3,
+      "next": "https://api.spotify.com/v1/search?offset=3&limit=3&query=SZA&type=artist&market=US&locale=*",
+      "offset": 0,
+      "previous": null,
+      "total": 5,
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+          },
+          "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+          "id": "7tYKF4w9nC0nq9CsPZTHyP",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174fd0a9fb6c252a3ba44079acf",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178fd0a9fb6c252a3ba44079acf",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "SZA",
+          "type": "artist",
+          "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS"
+          },
+          "href": "https://api.spotify.com/v1/artists/57LYzLEk2LcFghVwuWbcuS",
+          "id": "57LYzLEk2LcFghVwuWbcuS",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb7dccb6280ed3402110d43ce3",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051747dccb6280ed3402110d43ce3",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1787dccb6280ed3402110d43ce3",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Summer Walker",
+          "type": "artist",
+          "uri": "spotify:artist:57LYzLEk2LcFghVwuWbcuS"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI"
+          },
+          "href": "https://api.spotify.com/v1/artists/33M4iSlHYWg8S5p7zvDzoI",
+          "id": "33M4iSlHYWg8S5p7zvDzoI",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb7060785575dcf524382b0eb5",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051747060785575dcf524382b0eb5",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1787060785575dcf524382b0eb5",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Szady",
+          "type": "artist",
+          "uri": "spotify:artist:33M4iSlHYWg8S5p7zvDzoI"
+        }
+      ]
+    },
+    "query": "SZA",
+    "queryRecordId": "bounded-query-sza"
+  }
+}

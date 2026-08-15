@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T23:38:28.159Z",
+  "createdAt": "2026-08-14T23:07:05.457Z",
+  "updatedAt": "2026-08-14T23:38:28.159Z",
+  "name": {
+    "raw": "Whethan",
+    "normalized": "whethan"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:e61c74ed6ad21598aff30c15ea1865dc0f7eec9bb7024d6f7f5986ca1ac21573",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+      "sourceRecordId": "Z7r9jZ1A7Pe_8/attraction/K8vZ9174C6f",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe_8",
+      "rawArtistName": "Whethan",
+      "normalizedArtistName": "whethan",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identityDiscovery": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a002a4-29bf-7685-b0be-a1b0b9c98a55",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3/7b70fd6c354c1130443a9d11b59443e9baf67b62487c55e7479a6abd15bd6a7f.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ9174C6f"
+    }
+  ],
+  "identityDiscovery": {
+    "outcome": "completed_without_safe_exact_bridge",
+    "resultingSpotifyArtistId": null,
+    "evidenceRefs": [
+      "evidence/identity-discovery/mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3/d456ead2b6520bca845378fd836775f98e0bdf577cf8c4834c231bc0d4f4c5a7.json",
+      "provider-cache/v1/musicbrainz/exact-provider-url/00165d1208e167bcba5ca9fe43b90b60a1455534c3af05a4d1ea92b0871c6856.json"
+    ],
+    "providerErrors": [],
+    "provenanceClaims": [],
+    "resolvedAt": "2026-08-14T23:38:28.157Z",
+    "resolverVersion": "identity_discovery_resolver_v1",
+    "reviewOnly": true
+  }
+}

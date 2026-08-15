@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f4c-7781-812c-b53d72a87720",
+  "candidateId": "mr_candidate_01a00287-6f47-7da9-9aa8-6974092eba13",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.420Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/7ea3d49fd9cb42c9dda106fe07c4ffee527d84001bb14d67e3c3215819f5b22e.json",
+    "discovery/associations/candidates/mr_candidate_01a00287-6f47-7da9-9aa8-6974092eba13/b98c65c76acedddbd5038f4b03361a283560e7238e36e7b1a68833301300e5eb.json",
+    "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:0b86dbd898d3694316aa7f809b405433cdc86e10cc16b3c76df9e490051ff738",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:1:5pKCCKE2ajJHZ9KAiaK11H",
+      "sourceUrl": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+      "rawArtistName": "Rihanna",
+      "normalizedArtistName": "rihanna",
+      "spotifyArtistId": "5pKCCKE2ajJHZ9KAiaK11H",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:7ea3d49fd9cb42c9dda106fe07c4ffee527d84001bb14d67e3c3215819f5b22e",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f47-7da9-9aa8-6974092eba13/b98c65c76acedddbd5038f4b03361a283560e7238e36e7b1a68833301300e5eb.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "4f79bd8be358d4eae17e8c2f",
+  "retrievedAt": "2026-08-14T21:46:22.845Z",
+  "value": {
+    "requestedName": "Big Thief",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+        "name": "Big Thief",
+        "sortName": "Big Thief",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "US indie folk band",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:22.817Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Big Thief",
+          "sort-name": "Big Thief",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Brooklyn",
+            "sort-name": "Brooklyn",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US indie folk band",
+          "isnis": [
+            "0000000470109298"
+          ],
+          "life-span": {
+            "begin": "2015",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 2,
+              "name": "alternative rock"
+            },
+            {
+              "count": 1,
+              "name": "singer-songwriter"
+            },
+            {
+              "count": 4,
+              "name": "indie rock"
+            },
+            {
+              "count": 2,
+              "name": "folk rock"
+            },
+            {
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "count": 0,
+              "name": "2010s"
+            },
+            {
+              "count": 0,
+              "name": "2020s"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dce-73e9-96fe-9e2e74a0cf59",
+  "candidateId": "mr_candidate_01a00223-5dce-7d52-b470-542554fdc081",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.342Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:5aaa56ff4352cb7b736f79c659d956afac5d557f34284b314ebbab37ea76df45",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-006",
+      "sourceUrl": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5",
+      "rawArtistName": "Charli xcx",
+      "normalizedArtistName": "charli xcx",
+      "spotifyArtistId": "25uiPmTg16RbhZWAqwLBy5",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

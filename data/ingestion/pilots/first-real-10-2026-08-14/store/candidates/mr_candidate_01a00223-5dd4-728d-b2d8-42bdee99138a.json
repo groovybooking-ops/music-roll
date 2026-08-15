@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dd4-728d-b2d8-42bdee99138a",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:19:40.525Z",
+  "createdAt": "2026-08-14T21:17:47.348Z",
+  "updatedAt": "2026-08-14T21:19:40.525Z",
+  "name": {
+    "raw": "FKA twigs",
+    "normalized": "fka twigs"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:60ab153d0a4b0e75fa2c34864abbd8022098d58939ebe725b50b8389f3526d4f",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-009",
+      "sourceUrl": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+      "rawArtistName": "FKA twigs",
+      "normalizedArtistName": "fka twigs",
+      "spotifyArtistId": "6nB0iY1cjSY1KyhYyuIIKH",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "6nB0iY1cjSY1KyhYyuIIKH",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "6nB0iY1cjSY1KyhYyuIIKH",
+    "wikidataQids": [
+      "Q15291033"
+    ],
+    "musicBrainzArtistIds": [
+      "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+    ],
+    "discogsArtistIds": [
+      "3452157"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00223-5dd4-728d-b2d8-42bdee99138a/0fe381663f452aa68c7ad3bd90a949979f74195bbc52f7a44b233b805a537abf.json",
+      "provider-cache/v1/wikidata/spotify-bridge/6nB0iY1cjSY1KyhYyuIIKH.json",
+      "provider-cache/v1/musicbrainz/artist/1e4e9db7-5068-4a9c-bdd0-5777e47172c8.json",
+      "provider-cache/v1/discogs/artist/3452157.json",
+      "provider-cache/v1/musicbrainz/exact-name/e9f9bce11e782ba7d2692e0a.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8",
+          "name": "FKA twigs",
+          "sortName": "FKA twigs",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "British electro‐pop artist",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "6nB0iY1cjSY1KyhYyuIIKH"
+          ],
+          "discogsArtistIds": [
+            "3452157"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6nB0iY1cjSY1KyhYyuIIKH",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6nB0iY1cjSY1KyhYyuIIKH",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q15291033",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "3452157",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "3452157",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6nB0iY1cjSY1KyhYyuIIKH",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q15291033",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1e4e9db7-5068-4a9c-bdd0-5777e47172c8"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "3452157",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "3452157"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:19:40.524Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00225-17ed-7b76-ba4f-233ce3847a72"
+}

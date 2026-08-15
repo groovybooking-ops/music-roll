@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll first human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:1:1G0Xwj8mza6b03iYkVdzDP",
+  "sourceUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+  "artist": {
+    "rawName": "The Sugarcubes",
+    "normalizedName": "the sugarcubes"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "1G0Xwj8mza6b03iYkVdzDP",
+    "url": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Björk",
+    "resultPosition": 1,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json",
+  "discoveredAt": "2026-08-15T16:21:50.109Z",
+  "reviewOnly": true
+}

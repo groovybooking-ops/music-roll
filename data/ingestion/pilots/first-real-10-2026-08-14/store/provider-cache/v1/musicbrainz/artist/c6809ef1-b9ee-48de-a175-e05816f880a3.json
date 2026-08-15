@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+  "retrievedAt": "2026-08-14T21:18:35.117Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "c6809ef1-b9ee-48de-a175-e05816f880a3",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": "Group",
+      "disambiguation": null,
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000471864287"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/345235"
+        }
+      ]
+    },
+    "raw": {
+      "type": "Group",
+      "relations": [
+        {
+          "url": {
+            "id": "e9231b29-dec4-46a5-9449-e345dd4aaef6",
+            "resource": "https://www.discogs.com/artist/345235"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "ended": false,
+          "type": "discogs",
+          "begin": null,
+          "attribute-ids": {},
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "direction": "forward",
+          "attribute-values": {},
+          "target-type": "url"
+        }
+      ],
+      "aliases": [],
+      "country": null,
+      "area": null,
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "ipis": [],
+      "disambiguation": "",
+      "name": "Navy Blue",
+      "sort-name": "Navy Blue",
+      "isnis": [
+        "0000000471864287"
+      ],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender-id": null,
+      "begin-area": null,
+      "end-area": null,
+      "gender": null,
+      "id": "c6809ef1-b9ee-48de-a175-e05816f880a3"
+    }
+  }
+}

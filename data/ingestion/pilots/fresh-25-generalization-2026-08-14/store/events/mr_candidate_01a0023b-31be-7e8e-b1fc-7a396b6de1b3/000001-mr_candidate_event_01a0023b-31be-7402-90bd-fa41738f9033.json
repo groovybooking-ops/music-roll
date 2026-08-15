@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31be-7402-90bd-fa41738f9033",
+  "candidateId": "mr_candidate_01a0023b-31be-7e8e-b1fc-7a396b6de1b3",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.926Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:cdf88e69ddd5293ba80e64dfd79389060a73486d977da11fc8e8a1d019012044",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-009",
+      "sourceUrl": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
+      "rawArtistName": "Clipse",
+      "normalizedArtistName": "clipse",
+      "spotifyArtistId": "2J257euzcjnDLipsyJH3F2",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2J257euzcjnDLipsyJH3F2",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

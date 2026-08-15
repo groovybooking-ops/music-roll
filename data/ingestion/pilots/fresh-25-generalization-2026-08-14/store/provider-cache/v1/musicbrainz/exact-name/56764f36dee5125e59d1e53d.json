@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "56764f36dee5125e59d1e53d",
+  "retrievedAt": "2026-08-14T21:46:16.260Z",
+  "value": {
+    "requestedName": "black midi",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "4afbef0a-05ee-4551-b0e0-f1f1870d8f1c",
+        "name": "black midi",
+        "sortName": "black midi",
+        "artistType": "Group",
+        "country": null,
+        "disambiguation": "UK experimental rock band",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "8674e354-25a8-460b-a53a-953e8285ea91",
+        "name": "Black Midi",
+        "sortName": "Black Midi",
+        "artistType": null,
+        "country": null,
+        "disambiguation": "vaporwave artist",
+        "score": 83
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:16.235Z",
+      "count": 3,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "4afbef0a-05ee-4551-b0e0-f1f1870d8f1c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "black midi",
+          "sort-name": "black midi",
+          "area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "77bd9218-74c6-4881-9495-457be4ba62e7",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Croydon",
+            "sort-name": "Croydon",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "end-area": {
+            "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "England",
+            "sort-name": "England",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "UK experimental rock band",
+          "isnis": [
+            "0000000476294420"
+          ],
+          "life-span": {
+            "begin": "2017",
+            "end": "2024-08-10",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "sort-name": "Black Midi",
+              "name": "Black Midi",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 5,
+              "name": "experimental rock"
+            },
+            {
+              "count": -1,
+              "name": "indie rock"
+            },
+            {
+              "count": -1,
+              "name": "alternative rock"
+            },
+            {
+              "count": 0,
+              "name": "windmill scene"
+            },
+            {
+              "count": 3,
+              "name": "avant-prog"
+            },
+            {
+              "count": 2,
+              "name": "post-punk"
+            },
+            {
+              "count": 1,
+              "name": "progressive rock"
+            },
+            {
+              "count": 5,
+              "name": "math rock"
+            },
+            {
+              "count": 4,
+              "name": "noise rock"
+            }
+          ]
+        },
+        {
+          "id": "8674e354-25a8-460b-a53a-953e8285ea91",
+          "score": 83,
+          "name": "Black Midi",
+          "sort-name": "Black Midi",
+          "disambiguation": "vaporwave artist",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "85de03e1-4aae-4965-aa29-c2942cd4a6c4",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 73,
+          "name": "black midi, New Road",
+          "sort-name": "black midi, New Road",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000508919326"
+          ],
+          "life-span": {
+            "begin": "2020",
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

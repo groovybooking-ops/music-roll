@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "25uiPmTg16RbhZWAqwLBy5",
+  "retrievedAt": "2026-08-14T21:18:48.890Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "25uiPmTg16RbhZWAqwLBy5",
+      "wikidataQid": "Q5084390",
+      "name": "Charli XCX",
+      "musicBrainzArtistId": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+      "discogsArtistId": "1345479"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5084390"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1345479"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Charli XCX"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

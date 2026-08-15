@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1CoZyIx7UvdxT5c8UkMzHd",
+  "retrievedAt": "2026-08-14T21:44:06.069Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+      "wikidataQid": "Q29452199",
+      "name": "Jorja Smith",
+      "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+      "discogsArtistId": "5314733"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q29452199"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5314733"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Jorja Smith"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

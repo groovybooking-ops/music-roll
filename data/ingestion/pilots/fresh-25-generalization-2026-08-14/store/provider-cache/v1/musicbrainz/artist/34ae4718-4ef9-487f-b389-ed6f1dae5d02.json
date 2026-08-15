@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+  "retrievedAt": "2026-08-14T21:48:11.710Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+      "name": "Phonic Boy on Dope",
+      "sortName": "Phonic Boy on Dope",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sortName": "Limerick",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-08-18",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "PBoD",
+          "sortName": "PBoD",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000465315724"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4101534"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/phonic-boy-on-dope"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://www.whosampled.com/Phonic-Boy-on-Dope/"
+        }
+      ]
+    },
+    "raw": {
+      "ipis": [],
+      "sort-name": "Phonic Boy on Dope",
+      "id": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+      "name": "Phonic Boy on Dope",
+      "disambiguation": "",
+      "isnis": [
+        "0000000465315724"
+      ],
+      "relations": [
+        {
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "discogs",
+          "url": {
+            "resource": "https://www.discogs.com/artist/4101534",
+            "id": "fed69cd2-d0e2-4a46-9533-7a69ee5fc1d0"
+          },
+          "source-credit": "",
+          "attribute-ids": {}
+        },
+        {
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/phonic-boy-on-dope",
+            "id": "139458a3-f2a1-40ed-8d6e-17e56409eaf6"
+          },
+          "type": "other databases",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url",
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+        },
+        {
+          "url": {
+            "resource": "https://www.whosampled.com/Phonic-Boy-on-Dope/",
+            "id": "fe26846f-261b-46b8-91fd-36d3a5a8c175"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "other databases",
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "url"
+        }
+      ],
+      "type": "Person",
+      "area": {
+        "disambiguation": "",
+        "type": null,
+        "type-id": null,
+        "sort-name": "United Kingdom",
+        "name": "United Kingdom",
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "iso-3166-1-codes": [
+          "GB"
+        ]
+      },
+      "country": "GB",
+      "life-span": {
+        "end": null,
+        "begin": "1971-08-18",
+        "ended": false
+      },
+      "begin-area": {
+        "type-id": null,
+        "type": null,
+        "disambiguation": "",
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sort-name": "Limerick"
+      },
+      "end-area": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender": "Male",
+      "aliases": [
+        {
+          "ended": false,
+          "name": "PBoD",
+          "sort-name": "PBoD",
+          "begin": null,
+          "type-id": null,
+          "primary": null,
+          "type": null,
+          "locale": null,
+          "end": null
+        }
+      ],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7ltDVBr6mKbRvohxheJ9h1",
+  "retrievedAt": "2026-08-14T21:45:43.520Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7ltDVBr6mKbRvohxheJ9h1",
+      "wikidataQid": "Q28843759",
+      "name": "Rosalía",
+      "musicBrainzArtistId": "25f3abd9-63b5-471a-bd25-feb9672dfa11",
+      "discogsArtistId": "5648334"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q28843759"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5648334"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Rosalía"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

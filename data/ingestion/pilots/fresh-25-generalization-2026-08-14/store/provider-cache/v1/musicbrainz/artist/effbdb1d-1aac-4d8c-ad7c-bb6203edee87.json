@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+  "retrievedAt": "2026-08-14T21:46:14.009Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+      "name": "Turnstile",
+      "sortName": "Turnstile",
+      "artistType": "Group",
+      "disambiguation": "Dutch band",
+      "country": "NL",
+      "area": {
+        "id": "0d44773f-eda1-49e0-99b2-660de1a66b12",
+        "name": "Den Helder",
+        "sortName": "Den Helder",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "image",
+          "url": "https://i.imgur.com/ORuQrat.jpg"
+        }
+      ]
+    },
+    "raw": {
+      "area": {
+        "type": null,
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Den Helder",
+        "id": "0d44773f-eda1-49e0-99b2-660de1a66b12",
+        "sort-name": "Den Helder"
+      },
+      "country": "NL",
+      "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+      },
+      "begin-area": null,
+      "end-area": null,
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender": null,
+      "aliases": [],
+      "gender-id": null,
+      "ipis": [],
+      "sort-name": "Turnstile",
+      "id": "effbdb1d-1aac-4d8c-ad7c-bb6203edee87",
+      "name": "Turnstile",
+      "disambiguation": "Dutch band",
+      "isnis": [],
+      "relations": [
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "image",
+          "url": {
+            "id": "7f856ac5-4582-443f-aa4f-d1a43ccb2dc8",
+            "resource": "https://i.imgur.com/ORuQrat.jpg"
+          },
+          "source-credit": "",
+          "attribute-ids": {}
+        }
+      ],
+      "type": "Group"
+    }
+  }
+}

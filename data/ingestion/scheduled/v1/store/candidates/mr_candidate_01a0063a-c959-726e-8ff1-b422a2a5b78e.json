@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+  "revision": 5,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-15T16:22:21.777Z",
+  "createdAt": "2026-08-15T16:21:51.065Z",
+  "updatedAt": "2026-08-15T16:22:21.777Z",
+  "name": {
+    "raw": "Fiona Apple",
+    "normalized": "fiona apple"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:348ae42112cb8ad24c634fbd9bb0ac6b1605450103e64402e918f16c464e243a",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:2:3g2kUQ6tHLLbmkV7T4GPtL",
+      "sourceUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+      "rawArtistName": "Fiona Apple",
+      "normalizedArtistName": "fiona apple",
+      "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+    "wikidataQids": [
+      "Q228968"
+    ],
+    "musicBrainzArtistIds": [
+      "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+    ],
+    "discogsArtistIds": [
+      "255740"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e/9d76271d90ee4f56009f87d257d29442749ef8aa624731b8f6c8b4b216b248c4.json",
+      "provider-cache/v1/wikidata/spotify-bridge/3g2kUQ6tHLLbmkV7T4GPtL.json",
+      "provider-cache/v1/musicbrainz/artist/a9ee533f-8871-4f62-a6bb-91eb264abc90.json",
+      "provider-cache/v1/discogs/artist/255740.json",
+      "provider-cache/v1/musicbrainz/exact-name/788fde7428741104e1681bfb.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "name": "Fiona Apple",
+          "sortName": "Apple, Fiona",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "singer-songwriter and pianist",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "3g2kUQ6tHLLbmkV7T4GPtL"
+          ],
+          "discogsArtistIds": [
+            "255740"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q228968",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "255740",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "255740",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3g2kUQ6tHLLbmkV7T4GPtL",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q228968",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "255740",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "255740"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:22:21.774Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0063b-4151-751a-960d-83bba8a56dd7",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e/e84eaa59dd0edb630faa92e6a847dbb50af62fae35c4d09ec99137b122f72f0e.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:3g2kUQ6tHLLbmkV7T4GPtL"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5RTLRtXjbXI2lSXc6jxlAz",
+  "retrievedAt": "2026-08-14T21:44:12.140Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5RTLRtXjbXI2lSXc6jxlAz",
+      "wikidataQid": "Q28962463",
+      "name": "Ravyn Lenae",
+      "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+      "discogsArtistId": "4732204"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q28962463"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4732204"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Ravyn Lenae"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dd4-72dc-b8d8-aade353316fe",
+  "candidateId": "mr_candidate_01a00223-5dd4-728d-b2d8-42bdee99138a",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.348Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:60ab153d0a4b0e75fa2c34864abbd8022098d58939ebe725b50b8389f3526d4f",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-009",
+      "sourceUrl": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+      "rawArtistName": "FKA twigs",
+      "normalizedArtistName": "fka twigs",
+      "spotifyArtistId": "6nB0iY1cjSY1KyhYyuIIKH",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6nB0iY1cjSY1KyhYyuIIKH",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

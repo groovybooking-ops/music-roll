@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f5e-766e-98a1-8257acdc71b9",
+  "candidateId": "mr_candidate_01a00287-6f5e-7052-a220-533f01b3439f",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.438Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/378fc97be1419686c6b8f3939e8ad420056cacf406c53fb0e5d17bb481109b33.json",
+    "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:d13762f3bd2ee0eb76c673192df3b1189ea49c89903b14572513ff5c2251440a",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:2:1Y8cdNmUJH7yBTd9yOvr5i",
+      "sourceUrl": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i",
+      "rawArtistName": "Destiny's Child",
+      "normalizedArtistName": "destiny's child",
+      "spotifyArtistId": "1Y8cdNmUJH7yBTd9yOvr5i",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1Y8cdNmUJH7yBTd9yOvr5i",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  }
+}

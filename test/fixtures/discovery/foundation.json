@@ -1,0 +1,116 @@
+{
+  "permanentRegistry": {
+    "schemaVersion": 1,
+    "mappings": [
+      { "musicRollId": "mr_artist_000001", "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP" }
+    ]
+  },
+  "liveArtists": [
+    { "musicRollId": "mr_artist_000001", "name": "SZA", "spotifyId": "7tYKF4w9nC0nq9CsPZTHyP", "externalIds": { "spotify": "7tYKF4w9nC0nq9CsPZTHyP" } }
+  ],
+  "occurrences": {
+    "spotifyAlphaFirst": {
+      "provider": "spotify",
+      "sourceType": "manual_curated_list",
+      "sourceName": "fixture spotify source one",
+      "sourceRecordId": "spotify-alpha-first",
+      "sourceUrl": "https://open.spotify.com/artist/1111111111111111111111",
+      "rawArtistName": "Artist Alpha",
+      "providerEntity": { "type": "artist", "id": "1111111111111111111111", "url": "https://open.spotify.com/artist/1111111111111111111111" },
+      "trustedIdentifiers": { "spotifyArtistId": "1111111111111111111111", "spotifyArtistUrl": "https://open.spotify.com/artist/1111111111111111111111" },
+      "sourceContext": { "fixture": "first" },
+      "rawEvidenceRef": "fixture:spotify-alpha-first",
+      "discoveredAt": "2026-08-14T22:00:00.000Z"
+    },
+    "spotifyAlphaSecond": {
+      "provider": "spotify",
+      "sourceType": "playlist",
+      "sourceName": "fixture spotify source two",
+      "sourceRecordId": "playlist-1/artist-alpha",
+      "sourceUrl": "https://open.spotify.com/artist/1111111111111111111111",
+      "rawArtistName": "Artist Alpha",
+      "providerEntity": { "type": "artist", "id": "1111111111111111111111", "url": "https://open.spotify.com/artist/1111111111111111111111" },
+      "trustedIdentifiers": { "spotifyArtistId": "1111111111111111111111", "spotifyArtistUrl": "https://open.spotify.com/artist/1111111111111111111111" },
+      "sourceContext": { "playlistId": "playlist-1" },
+      "rawEvidenceRef": "fixture:spotify-alpha-second",
+      "discoveredAt": "2026-08-14T22:01:00.000Z"
+    },
+    "spotifySameNameDifferentId": {
+      "provider": "spotify",
+      "sourceType": "manual_curated_list",
+      "sourceName": "fixture same-name source",
+      "sourceRecordId": "spotify-alpha-different-id",
+      "rawArtistName": "Artist Alpha",
+      "providerEntity": { "type": "artist", "id": "2222222222222222222222" },
+      "trustedIdentifiers": { "spotifyArtistId": "2222222222222222222222", "spotifyArtistUrl": "https://open.spotify.com/artist/2222222222222222222222" },
+      "rawEvidenceRef": "fixture:spotify-alpha-different",
+      "discoveredAt": "2026-08-14T22:02:00.000Z"
+    },
+    "spotifyLiveSza": {
+      "provider": "spotify",
+      "sourceType": "playlist",
+      "sourceName": "fixture live rediscovery",
+      "sourceRecordId": "playlist-live/sza",
+      "rawArtistName": "SZA",
+      "providerEntity": { "type": "artist", "id": "7tYKF4w9nC0nq9CsPZTHyP", "url": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" },
+      "trustedIdentifiers": { "spotifyArtistId": "7tYKF4w9nC0nq9CsPZTHyP", "spotifyArtistUrl": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" },
+      "rawEvidenceRef": "fixture:spotify-live-sza",
+      "discoveredAt": "2026-08-14T22:03:00.000Z"
+    },
+    "ticketmasterOnlyFirst": {
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "fixture ticketmaster events",
+      "sourceRecordId": "event-one/attraction-one",
+      "sourceUrl": "https://www.ticketmaster.com/event-one",
+      "rawArtistName": "Fixture Attraction",
+      "providerEntity": { "type": "attraction", "id": "K8vZFixture1", "url": "https://www.ticketmaster.com/fixture-attraction" },
+      "trustedIdentifiers": {},
+      "sourceContext": { "eventId": "event-one", "venueId": "venue-one" },
+      "rawEvidenceRef": "fixture:ticketmaster-event-one",
+      "discoveredAt": "2026-08-14T22:04:00.000Z"
+    },
+    "ticketmasterOnlySecond": {
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "fixture ticketmaster events",
+      "sourceRecordId": "event-two/attraction-one",
+      "sourceUrl": "https://www.ticketmaster.com/event-two",
+      "rawArtistName": "Fixture Attraction",
+      "providerEntity": { "type": "attraction", "id": "K8vZFixture1", "url": "https://www.ticketmaster.com/fixture-attraction" },
+      "trustedIdentifiers": {},
+      "sourceContext": { "eventId": "event-two", "venueId": "venue-two" },
+      "rawEvidenceRef": "fixture:ticketmaster-event-two",
+      "discoveredAt": "2026-08-14T22:05:00.000Z"
+    },
+    "ticketmasterSpotifyBridge": {
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "fixture explicit bridge",
+      "sourceRecordId": "event-bridge/attraction-alpha",
+      "rawArtistName": "Artist Alpha",
+      "providerEntity": { "type": "attraction", "id": "K8vZBridge1" },
+      "trustedIdentifiers": {},
+      "exactIdentityBridges": [
+        { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "1111111111111111111111", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:exact-ticketmaster-spotify-bridge" }
+      ],
+      "rawEvidenceRef": "fixture:ticketmaster-bridge",
+      "discoveredAt": "2026-08-14T22:06:00.000Z"
+    },
+    "ticketmasterAmbiguousBridges": {
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "fixture conflicting bridges",
+      "sourceRecordId": "event-conflict/attraction-conflict",
+      "rawArtistName": "Ambiguous Attraction",
+      "providerEntity": { "type": "attraction", "id": "K8vZConflict1" },
+      "trustedIdentifiers": {},
+      "exactIdentityBridges": [
+        { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "1111111111111111111111", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:conflicting-bridge-one" },
+        { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "2222222222222222222222", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:conflicting-bridge-two" }
+      ],
+      "rawEvidenceRef": "fixture:ticketmaster-conflict",
+      "discoveredAt": "2026-08-14T22:07:00.000Z"
+    }
+  }
+}

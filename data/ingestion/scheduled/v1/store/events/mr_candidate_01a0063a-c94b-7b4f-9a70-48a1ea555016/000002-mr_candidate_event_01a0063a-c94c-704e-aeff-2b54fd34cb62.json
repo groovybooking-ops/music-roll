@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0063a-c94c-704e-aeff-2b54fd34cb62",
+  "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:21:51.052Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd.json",
+    "discovery/associations/candidates/mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016/8966d15afa09a13903cbb275689e91fb00a73028bfe6316631634544603a50a3.json",
+    "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:0128125274e2cc71b0dd467f31dc1a1c0042c38d6c2eeb546b9c1f0a353ed9d1",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:1:1G0Xwj8mza6b03iYkVdzDP",
+      "sourceUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+      "rawArtistName": "The Sugarcubes",
+      "normalizedArtistName": "the sugarcubes",
+      "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016/8966d15afa09a13903cbb275689e91fb00a73028bfe6316631634544603a50a3.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:1G0Xwj8mza6b03iYkVdzDP"
+    }
+  }
+}

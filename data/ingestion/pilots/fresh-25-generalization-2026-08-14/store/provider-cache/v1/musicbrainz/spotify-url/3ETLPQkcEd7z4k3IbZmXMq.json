@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "3ETLPQkcEd7z4k3IbZmXMq",
+  "retrievedAt": "2026-08-14T21:44:21.322Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+        "name": "Cleo Sol",
+        "sortName": "Sol, Cleo",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "id": "9123a60f-32e6-4ac7-8190-6cee6d269d9f",
+      "resource": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "relations": [
+        {
+          "direction": "backward",
+          "begin": null,
+          "ended": false,
+          "type": "free streaming",
+          "source-credit": "",
+          "attribute-ids": {},
+          "attribute-values": {},
+          "target-credit": "",
+          "artist": {
+            "name": "Cleo Sol",
+            "id": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "sort-name": "Sol, Cleo",
+            "country": "GB",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": ""
+          },
+          "attributes": [],
+          "target-type": "artist",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1G0Xwj8mza6b03iYkVdzDP",
+  "retrievedAt": "2026-08-15T16:22:17.573Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+      "wikidataQid": "Q876705",
+      "name": "The Sugarcubes",
+      "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+      "discogsArtistId": "9452"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q876705"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "9452"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "The Sugarcubes"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

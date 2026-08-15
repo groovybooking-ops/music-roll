@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "f494ef2871b2e9df6a1a4dbb",
+  "retrievedAt": "2026-08-14T21:45:22.374Z",
+  "value": {
+    "requestedName": "Clipse",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "e6424fa5-08d3-41c6-96f3-8549f733708c",
+        "name": "Clipse",
+        "sortName": "Clipse",
+        "artistType": "Group",
+        "country": "US",
+        "disambiguation": "American hip hop duo",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:45:22.241Z",
+      "count": 3,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "e6424fa5-08d3-41c6-96f3-8549f733708c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Clipse",
+          "sort-name": "Clipse",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "21834e17-8606-4e10-af5c-76d5d668eba9",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Virginia Beach",
+            "sort-name": "Virginia Beach",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "American hip hop duo",
+          "isnis": [
+            "0000000114818055"
+          ],
+          "life-span": {
+            "begin": "1992",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "The Clipse",
+              "name": "The Clipse",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 0,
+              "name": "rap"
+            },
+            {
+              "count": 0,
+              "name": "hip-hop"
+            },
+            {
+              "count": 3,
+              "name": "hip hop"
+            },
+            {
+              "count": 3,
+              "name": "coke rap"
+            }
+          ]
+        },
+        {
+          "id": "78337997-3384-4c91-9284-b8036726348b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 72,
+          "name": "E‐Clipse",
+          "sort-name": "E‐Clipse",
+          "disambiguation": "Yellow Flame Gang",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "3f804f0a-4278-4685-9035-f52273eacae8",
+          "score": 72,
+          "name": "E-Clipse",
+          "sort-name": "E-Clipse",
+          "disambiguation": "Michel Klaassen, & R. Verschut",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

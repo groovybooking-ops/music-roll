@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f65-7901-ae31-2d6e5c48d626",
+  "candidateId": "mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.445Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/b1e4db9f6de3eca834e3ea17864bab09aff62a82ddfec21b923c49b143923d93.json",
+    "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:2696ccc8fbf709d796434610744a9dc389d3595a17585d77f6d5758e64f78b98",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:3:2NdeV5rLm47xAvogXrYhJX",
+      "sourceUrl": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX",
+      "rawArtistName": "Ciara",
+      "normalizedArtistName": "ciara",
+      "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  }
+}

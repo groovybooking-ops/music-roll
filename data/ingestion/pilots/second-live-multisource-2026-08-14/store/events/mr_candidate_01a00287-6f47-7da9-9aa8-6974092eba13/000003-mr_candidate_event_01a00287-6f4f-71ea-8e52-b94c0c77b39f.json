@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f4f-71ea-8e52-b94c0c77b39f",
+  "candidateId": "mr_candidate_01a00287-6f47-7da9-9aa8-6974092eba13",
+  "eventType": "state_transition",
+  "previousState": "discovered",
+  "nextState": "identity_pending",
+  "previousRevision": 2,
+  "candidateRevision": 3,
+  "reasonCode": "identity_queued",
+  "actor": {
+    "type": "system",
+    "id": "duplicate_preflight_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.423Z",
+  "evidenceRefs": [],
+  "payload": {
+    "warnings": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "4E2rKHVDssGJm2SCDOMMJB",
+  "retrievedAt": "2026-08-14T21:45:22.513Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "4E2rKHVDssGJm2SCDOMMJB",
+      "wikidataQid": "Q106629186",
+      "name": "Doechii",
+      "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+      "discogsArtistId": "11109506"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q106629186"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "9f75277c-b283-4846-ac8c-f932255cd0ac"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "11109506"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Doechii"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

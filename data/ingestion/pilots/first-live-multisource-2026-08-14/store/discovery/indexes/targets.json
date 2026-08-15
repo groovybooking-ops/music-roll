@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-14T22:35:42.202Z",
+  "rebuildable": true,
+  "occurrenceTargets": {
+    "sha256:ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21": [
+      {
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532",
+        "associationId": "sha256:6589367f682475d0438d65e0e8451e1e2d7edf14533d316b8dcae50ecae466c9"
+      }
+    ],
+    "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2": [
+      {
+        "targetType": "candidate",
+        "targetId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+        "associationId": "sha256:17597d8c772cf1017dd1aa9165f60d626313a7940a998a5d10ff37c2e0cbdf8f"
+      }
+    ],
+    "sha256:d98a94f9fba58a6d5b1af01fdcd26bcd2da32e28f7abcbdcd9ba43dadac55440": [
+      {
+        "targetType": "live_artist",
+        "targetId": "mr_artist_000002",
+        "associationId": "sha256:8834bb544c07278cd29accac4d4d8910487ddb5f477dceafc19e70c303ce934a"
+      }
+    ],
+    "sha256:a3594bf970c0a219d77b31881e270a8fae19d411c78e66fe36995365502c67f1": [
+      {
+        "targetType": "live_artist",
+        "targetId": "mr_artist_000010",
+        "associationId": "sha256:5bf1bb874ce1043bd5c8fa7250d5b1b6a5c8e5159f99c2f6370619fb9f2b2b1e"
+      }
+    ]
+  },
+  "targets": {
+    "candidate:mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532": [
+      "sha256:ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21"
+    ],
+    "candidate:mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f": [
+      "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2"
+    ],
+    "live_artist:mr_artist_000002": [
+      "sha256:d98a94f9fba58a6d5b1af01fdcd26bcd2da32e28f7abcbdcd9ba43dadac55440"
+    ],
+    "live_artist:mr_artist_000010": [
+      "sha256:a3594bf970c0a219d77b31881e270a8fae19d411c78e66fe36995365502c67f1"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "e7c99fbc-bc40-48f7-abff-883390514c8b",
+  "retrievedAt": "2026-08-14T21:19:20.377Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "e7c99fbc-bc40-48f7-abff-883390514c8b",
+      "name": "Solange",
+      "sortName": "Solange",
+      "artistType": "Person",
+      "disambiguation": "Brazilian pop singer",
+      "country": "BR",
+      "area": {
+        "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+        "name": "Brazil",
+        "sortName": "Brazil",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Solange Ferreira",
+          "sortName": "Ferreira, Solange",
+          "type": "Artist name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000462738086"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/403382"
+        }
+      ]
+    },
+    "raw": {
+      "gender": "Female",
+      "sort-name": "Solange",
+      "country": "BR",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "aliases": [
+        {
+          "begin": null,
+          "locale": null,
+          "sort-name": "Ferreira, Solange",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "primary": null,
+          "end": null,
+          "ended": false,
+          "name": "Solange Ferreira",
+          "type": "Artist name"
+        }
+      ],
+      "type": "Person",
+      "relations": [
+        {
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "discogs",
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "url": {
+            "id": "57dae58e-11a7-42ee-8136-aab5fb54d549",
+            "resource": "https://www.discogs.com/artist/403382"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": ""
+        }
+      ],
+      "end-area": null,
+      "area": {
+        "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+        "type": null,
+        "iso-3166-1-codes": [
+          "BR"
+        ],
+        "name": "Brazil",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Brazil"
+      },
+      "isnis": [
+        "0000000462738086"
+      ],
+      "name": "Solange",
+      "disambiguation": "Brazilian pop singer",
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "id": "e7c99fbc-bc40-48f7-abff-883390514c8b",
+      "begin-area": null
+    }
+  }
+}

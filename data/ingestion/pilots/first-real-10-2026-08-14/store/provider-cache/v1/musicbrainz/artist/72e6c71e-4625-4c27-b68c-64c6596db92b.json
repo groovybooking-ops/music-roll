@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+  "retrievedAt": "2026-08-14T21:18:37.677Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+      "name": "Navy Blue",
+      "sortName": "Navy Blue",
+      "artistType": "Group",
+      "disambiguation": "Brazilian pop/punk band",
+      "country": "BR",
+      "area": {
+        "id": "33e0f86c-d709-448d-a484-d55778913af1",
+        "name": "São Paulo",
+        "sortName": "São Paulo",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/86114"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/4170652"
+        }
+      ]
+    },
+    "raw": {
+      "area": {
+        "disambiguation": "",
+        "sort-name": "São Paulo",
+        "type-id": null,
+        "id": "33e0f86c-d709-448d-a484-d55778913af1",
+        "name": "São Paulo",
+        "type": null
+      },
+      "isnis": [],
+      "name": "Navy Blue",
+      "aliases": [],
+      "type": "Group",
+      "relations": [
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "free streaming",
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "url": {
+            "id": "930d43ac-eed9-4d57-aedc-c4ecc66bf11a",
+            "resource": "https://www.deezer.com/artist/86114"
+          },
+          "attributes": [],
+          "source-credit": "",
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "type": "streaming",
+          "ended": false,
+          "target-type": "url",
+          "direction": "forward",
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "source-credit": "",
+          "attributes": [],
+          "url": {
+            "resource": "https://tidal.com/artist/4170652",
+            "id": "6298d21a-50d5-4fa5-9750-476103331497"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        }
+      ],
+      "end-area": null,
+      "country": "BR",
+      "gender-id": null,
+      "sort-name": "Navy Blue",
+      "gender": null,
+      "begin-area": null,
+      "id": "72e6c71e-4625-4c27-b68c-64c6596db92b",
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "disambiguation": "Brazilian pop/punk band"
+    }
+  }
+}

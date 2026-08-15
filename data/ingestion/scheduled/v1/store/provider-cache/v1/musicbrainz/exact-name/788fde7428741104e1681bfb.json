@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "788fde7428741104e1681bfb",
+  "retrievedAt": "2026-08-15T16:22:21.770Z",
+  "value": {
+    "requestedName": "Fiona Apple",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+        "name": "Fiona Apple",
+        "sortName": "Apple, Fiona",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "singer-songwriter and pianist",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-15T16:22:21.727Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Fiona Apple",
+          "sort-name": "Apple, Fiona",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+            "type": "District",
+            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+            "name": "Manhattan",
+            "sort-name": "Manhattan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "singer-songwriter and pianist",
+          "ipis": [
+            "00338861826",
+            "00338861924"
+          ],
+          "isnis": [
+            "0000000078390054"
+          ],
+          "life-span": {
+            "begin": "1977-09-13",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "McAfee-Maggart, Fiona Apple",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Fiona Apple McAfee-Maggart",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 4,
+              "name": "rock"
+            },
+            {
+              "count": 1,
+              "name": "jazz"
+            },
+            {
+              "count": 0,
+              "name": "american"
+            },
+            {
+              "count": 1,
+              "name": "singer-songwriter"
+            },
+            {
+              "count": 1,
+              "name": "female vocals"
+            },
+            {
+              "count": 2,
+              "name": "baroque pop"
+            },
+            {
+              "count": 1,
+              "name": "1990s"
+            },
+            {
+              "count": 1,
+              "name": "2000s"
+            },
+            {
+              "count": 1,
+              "name": "soft rock"
+            },
+            {
+              "count": 1,
+              "name": "experimental pop"
+            },
+            {
+              "count": 0,
+              "name": "piano pop rock"
+            },
+            {
+              "count": 3,
+              "name": "piano rock"
+            },
+            {
+              "count": 3,
+              "name": "alternative pop"
+            },
+            {
+              "count": 0,
+              "name": "rock and indie"
+            },
+            {
+              "count": 1,
+              "name": "singer/songwriter"
+            },
+            {
+              "count": 3,
+              "name": "art pop"
+            },
+            {
+              "count": 0,
+              "name": "long title"
+            },
+            {
+              "count": 0,
+              "name": "aln-sh"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

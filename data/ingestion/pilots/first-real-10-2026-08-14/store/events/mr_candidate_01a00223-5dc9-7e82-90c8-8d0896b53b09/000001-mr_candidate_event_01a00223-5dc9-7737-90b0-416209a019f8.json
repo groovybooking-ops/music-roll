@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dc9-7737-90b0-416209a019f8",
+  "candidateId": "mr_candidate_01a00223-5dc9-7e82-90c8-8d0896b53b09",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.337Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:bedfa1e6a039138e4fcdfaacd228e66c92cfd94a57109dc19e1ef0c982da0007",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-003",
+      "sourceUrl": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7",
+      "rawArtistName": "underscores",
+      "normalizedArtistName": "underscores",
+      "spotifyArtistId": "7HfUJxeVTgrvhk0eWHFzV7",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "1a610683-e359-4895-a4a7-e98cf314e502",
+  "retrievedAt": "2026-08-14T21:18:18.192Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+      "name": "Elmiene",
+      "sortName": "Elmiene",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "33587495-c775-4483-b819-931c4cf438cd",
+        "name": "Oxford",
+        "sortName": "Oxford",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0004208835"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/153953212"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://music.apple.com/gb/artist/1599562425"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1599562425"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/29667862"
+        }
+      ]
+    },
+    "raw": {
+      "life-span": {
+        "ended": false,
+        "begin": null,
+        "end": null
+      },
+      "relations": [
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "allmusic",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "609c26ff-9335-4968-aa04-375e1f0bff62",
+            "resource": "https://www.allmusic.com/artist/mn0004208835"
+          },
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+        },
+        {
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "free streaming",
+          "attribute-ids": {},
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+            "id": "c211159a-b233-44ec-a5d8-e1d34e1a3920"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "end": null,
+          "target-type": "url",
+          "direction": "forward"
+        },
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "free streaming",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "24ecf5a5-c5d4-4642-8395-a5038297df18",
+            "resource": "https://www.deezer.com/artist/153953212"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        },
+        {
+          "type": "purchase for download",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1599562425",
+            "id": "cd140af1-0e4f-4a76-b49c-5724843b7f8a"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "source-credit": "",
+          "begin": null,
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attributes": []
+        },
+        {
+          "attribute-ids": {},
+          "type": "streaming",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attributes": [],
+          "url": {
+            "id": "cd140af1-0e4f-4a76-b49c-5724843b7f8a",
+            "resource": "https://music.apple.com/gb/artist/1599562425"
+          },
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "source-credit": "",
+          "begin": null
+        },
+        {
+          "begin": null,
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "url": {
+            "resource": "https://tidal.com/artist/29667862",
+            "id": "82503a11-b87e-42ee-80dc-0302f7be07bd"
+          },
+          "attributes": [],
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "type": "streaming",
+          "attribute-ids": {}
+        }
+      ],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "end-area": null,
+      "id": "1a610683-e359-4895-a4a7-e98cf314e502",
+      "area": {
+        "type-id": null,
+        "name": "Oxford",
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "Oxford",
+        "id": "33587495-c775-4483-b819-931c4cf438cd"
+      },
+      "country": "GB",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "type": "Person",
+      "ipis": [],
+      "gender": "Male",
+      "disambiguation": "",
+      "sort-name": "Elmiene",
+      "begin-area": null,
+      "name": "Elmiene",
+      "isnis": [],
+      "aliases": []
+    }
+  }
+}

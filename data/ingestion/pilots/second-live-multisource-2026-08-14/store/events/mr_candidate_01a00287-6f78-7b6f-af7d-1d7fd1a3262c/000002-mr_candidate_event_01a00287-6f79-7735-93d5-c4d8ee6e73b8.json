@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f79-7735-93d5-c4d8ee6e73b8",
+  "candidateId": "mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.465Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a.json",
+    "discovery/associations/candidates/mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c/8aeb8dae469135cef783d9fb1b08ca78b434cc12b1fa61b7012361f8d8f42e55.json",
+    "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:e73d1fde4d4503c33bcfba30adc279a2101c2b9fa5ea4dcc48ae2a63eff0a0bb",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+      "sourceRecordId": "rZ7HnEZ1A4Z6ON/attraction/K8vZ917GyW0",
+      "sourceUrl": "https://www.ticketweb.com/event/rush-def-leppard-joan-jett-garden-amphitheatre-tickets/15007823",
+      "rawArtistName": "Hysteria",
+      "normalizedArtistName": "hysteria",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c/8aeb8dae469135cef783d9fb1b08ca78b434cc12b1fa61b7012361f8d8f42e55.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ917GyW0"
+    }
+  }
+}

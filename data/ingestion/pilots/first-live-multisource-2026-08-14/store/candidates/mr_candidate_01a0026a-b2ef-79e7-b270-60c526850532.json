@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532",
+  "revision": 3,
+  "state": "identity_pending",
+  "stateEnteredAt": "2026-08-14T22:35:42.195Z",
+  "createdAt": "2026-08-14T22:35:42.191Z",
+  "updatedAt": "2026-08-14T22:35:42.195Z",
+  "name": {
+    "raw": "Szady",
+    "normalized": "szady"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:0c6b38a7fef3a64bc5669c90102ae0ca930e0f191b0448a9ba0c4a44188133f7",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-sza:result:2:33M4iSlHYWg8S5p7zvDzoI",
+      "sourceUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+      "rawArtistName": "Szady",
+      "normalizedArtistName": "szady",
+      "spotifyArtistId": "33M4iSlHYWg8S5p7zvDzoI",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T22:34:32.351Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "33M4iSlHYWg8S5p7zvDzoI",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/33M4iSlHYWg8S5p7zvDzoI",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {},
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0026a-b2f3-7978-b0bc-4b317a4e0ccd",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:ef54e96d60271e7c2c2036edd8ce140e32fa8fe588394fb5a3a90f671a4b6b21",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0026a-b2ef-79e7-b270-60c526850532/6589367f682475d0438d65e0e8451e1e2d7edf14533d316b8dcae50ecae466c9.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:33M4iSlHYWg8S5p7zvDzoI"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+  "retrievedAt": "2026-08-14T21:47:05.059Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+      "name": "Kieran Hebden",
+      "sortName": "Hebden, Kieran",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "name": "Putney",
+        "sortName": "Putney",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1977-09",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Kieran Miles David Hebden",
+          "sortName": "Hebden, Kieran Miles David",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000360409302"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0000769541"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/60342"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/4HcUiDJk4PN2Ac2b1ZJT3E"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Kieran+Hebde"
+        },
+        {
+          "relationshipType": "official homepage",
+          "url": "http://www.kieranhebdenandstevereid.com/"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/kieran-hebden"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q959655"
+        }
+      ]
+    },
+    "raw": {
+      "isnis": [
+        "0000000360409302"
+      ],
+      "disambiguation": "",
+      "relations": [
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "allmusic",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.allmusic.com/artist/mn0000769541",
+            "id": "ce5a2c7f-d20e-4cec-8535-25061303ea11"
+          }
+        },
+        {
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "id": "4bd19ea1-1f68-4ea8-8a1e-4a06553d68f6",
+            "resource": "https://www.discogs.com/artist/60342"
+          },
+          "attribute-ids": {},
+          "type": "discogs"
+        },
+        {
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "type": "free streaming",
+          "url": {
+            "id": "f5d767d4-6c55-431f-a7c8-5cb237c78566",
+            "resource": "https://open.spotify.com/artist/4HcUiDJk4PN2Ac2b1ZJT3E"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false
+        },
+        {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "id": "c8536eb7-89f9-4cb2-b71a-ad847bd23686",
+            "resource": "https://www.last.fm/music/Kieran+Hebde"
+          },
+          "attribute-ids": {},
+          "type": "last.fm",
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "end": null
+        },
+        {
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+          "end": null,
+          "ended": true,
+          "begin": null,
+          "direction": "forward",
+          "url": {
+            "id": "fa340f7d-1b80-4e03-944e-1c37cafc4616",
+            "resource": "http://www.kieranhebdenandstevereid.com/"
+          },
+          "source-credit": "Kieran Hebden and Steve Reid",
+          "attribute-ids": {},
+          "type": "official homepage"
+        },
+        {
+          "type": "other databases",
+          "source-credit": "",
+          "url": {
+            "id": "4b32bdcc-4f3b-4296-84c7-d843b5727a8b",
+            "resource": "https://rateyourmusic.com/artist/kieran-hebden"
+          },
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "type": "wikidata",
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q959655",
+            "id": "438e2656-e452-40c2-bac6-7b885dc05b39"
+          },
+          "attribute-ids": {}
+        }
+      ],
+      "type": "Person",
+      "ipis": [
+        "00268697500"
+      ],
+      "sort-name": "Hebden, Kieran",
+      "id": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+      "name": "Kieran Hebden",
+      "end-area": null,
+      "gender": "Male",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "aliases": [
+        {
+          "ended": false,
+          "name": "Kieran Miles David Hebden",
+          "begin": null,
+          "sort-name": "Hebden, Kieran Miles David",
+          "primary": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "locale": null,
+          "type": "Legal name",
+          "end": null
+        }
+      ],
+      "area": {
+        "disambiguation": "",
+        "type-id": null,
+        "type": null,
+        "sort-name": "United Kingdom",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom"
+      },
+      "country": "GB",
+      "life-span": {
+        "ended": false,
+        "begin": "1977-09",
+        "end": null
+      },
+      "begin-area": {
+        "disambiguation": "",
+        "type": null,
+        "type-id": null,
+        "sort-name": "Putney",
+        "name": "Putney",
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "2ffc92fa-e51e-45ed-8a90-fa494aab50de",
+  "retrievedAt": "2026-08-14T21:45:49.100Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "2ffc92fa-e51e-45ed-8a90-fa494aab50de",
+      "name": "Rosalía",
+      "sortName": "Rosalía",
+      "artistType": "Person",
+      "disambiguation": "Not to be confused with ROSALÍA. Mexican actress, singer, songwriter and guitarist who came to fame in 2003 through La Academia, a musical reality show.",
+      "country": "MX",
+      "area": {
+        "id": "3c810219-baf2-4fff-b98c-46b425eea1f5",
+        "name": "Ciudad de México",
+        "sortName": "Ciudad de México",
+        "type": null
+      },
+      "beginArea": {
+        "id": "3c810219-baf2-4fff-b98c-46b425eea1f5",
+        "name": "Ciudad de México",
+        "sortName": "Ciudad de México",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1974-07-14",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "blog",
+          "url": "https://www.elsiglodetorreon.com.mx/noticia/2003/la-academia-hace-fuerte-a-rosalia.html?from=old"
+        }
+      ]
+    },
+    "raw": {
+      "aliases": [],
+      "type": "Person",
+      "relations": [
+        {
+          "url": {
+            "id": "6b25edbf-fc75-46df-8375-ba02ea86496e",
+            "resource": "https://www.elsiglodetorreon.com.mx/noticia/2003/la-academia-hace-fuerte-a-rosalia.html?from=old"
+          },
+          "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+          "target-credit": "",
+          "attribute-values": {},
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "begin": null,
+          "attribute-ids": {},
+          "type": "blog",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false
+        }
+      ],
+      "end-area": null,
+      "area": {
+        "type": null,
+        "iso-3166-2-codes": [
+          "MX-DIF"
+        ],
+        "name": "Ciudad de México",
+        "id": "3c810219-baf2-4fff-b98c-46b425eea1f5",
+        "type-id": null,
+        "sort-name": "Ciudad de México",
+        "disambiguation": ""
+      },
+      "name": "Rosalía",
+      "isnis": [],
+      "country": "MX",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "sort-name": "Rosalía",
+      "gender": "Female",
+      "begin-area": {
+        "id": "3c810219-baf2-4fff-b98c-46b425eea1f5",
+        "name": "Ciudad de México",
+        "type": null,
+        "iso-3166-2-codes": [
+          "MX-DIF"
+        ],
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Ciudad de México"
+      },
+      "id": "2ffc92fa-e51e-45ed-8a90-fa494aab50de",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1974-07-14"
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "disambiguation": "Not to be confused with ROSALÍA. Mexican actress, singer, songwriter and guitarist who came to fame in 2003 through La Academia, a musical reality show."
+    }
+  }
+}

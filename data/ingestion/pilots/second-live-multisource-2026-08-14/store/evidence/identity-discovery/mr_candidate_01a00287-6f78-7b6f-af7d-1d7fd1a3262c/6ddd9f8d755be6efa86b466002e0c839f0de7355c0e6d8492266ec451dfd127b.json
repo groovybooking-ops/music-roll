@@ -1,0 +1,79 @@
+{
+  "evidenceId": "sha256:6ddd9f8d755be6efa86b466002e0c839f0de7355c0e6d8492266ec451dfd127b",
+  "createdAt": "2026-08-14T23:38:49.626Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c",
+  "evidenceType": "exact_spotify_bridge_discovery",
+  "resolverVersion": "identity_discovery_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "candidateId": "mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c",
+      "candidateName": "Hysteria",
+      "reviewOnly": true,
+      "decision": "completed_without_safe_exact_bridge",
+      "resultingSpotifyArtistId": null,
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ917GyW0",
+          "legacyIds": [
+            "1485296"
+          ],
+          "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/hysteria-tickets/artist/1485296"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "stage3Run": false,
+        "migrationPerformed": false
+      }
+    },
+    "acquisition": {
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ917GyW0",
+          "legacyIds": [
+            "1485296"
+          ],
+          "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/hysteria-tickets/artist/1485296"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": []
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/exact-provider-url/7c7ee336a5c2fb72f07bc32ef2f9b0776134926c21d4e06fb5f7ae32bacda32d.json"
+  ],
+  "reviewOnly": true
+}

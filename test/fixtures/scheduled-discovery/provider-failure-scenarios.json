@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "networkAllowed": false,
+  "scenarios": [
+    "spotify_auth_ticketmaster_continues",
+    "ticketmaster_503_stage3_continues",
+    "musicbrainz_429_retry_after",
+    "discogs_network_failure",
+    "semantic_404_no_retry",
+    "retry_1_15_minutes",
+    "retry_2_2_hours",
+    "retry_3_24_hours",
+    "retry_budget_exhausted_review_hold",
+    "retry_72_hours_exhausted",
+    "breaker_opens",
+    "half_open_probe_closes",
+    "half_open_probe_reopens",
+    "candidate_skipped_open_lane",
+    "candidate_failure_isolated",
+    "prestart_outage_candidate_untouched",
+    "manifest_provider_failure_isolated"
+  ]
+}

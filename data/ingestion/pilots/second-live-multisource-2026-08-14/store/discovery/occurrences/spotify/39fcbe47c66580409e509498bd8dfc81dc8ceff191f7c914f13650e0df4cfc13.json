@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:39fcbe47c66580409e509498bd8dfc81dc8ceff191f7c914f13650e0df4cfc13",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second bounded live discovery pilot",
+  "sourceRecordId": "bounded-query-beyonce:result:4:7vbtWyaqcB8RlHqqIKlHCU",
+  "sourceUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+  "artist": {
+    "rawName": "Mc Beyonce",
+    "normalizedName": "mc beyonce"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "7vbtWyaqcB8RlHqqIKlHCU",
+    "url": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "7vbtWyaqcB8RlHqqIKlHCU",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Beyoncé",
+    "resultPosition": 4,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json",
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "reviewOnly": true
+}

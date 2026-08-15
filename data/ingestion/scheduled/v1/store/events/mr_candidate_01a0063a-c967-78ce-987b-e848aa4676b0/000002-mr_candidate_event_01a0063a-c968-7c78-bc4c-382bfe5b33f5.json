@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0063a-c968-7c78-bc4c-382bfe5b33f5",
+  "candidateId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:21:51.080Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/b8d237fa6957fd5584f0db8e97d3a06b0e2421b50361d0306e892799f7a5dd2b.json",
+    "discovery/associations/candidates/mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0/5b69f1b22423dcadb912602e3a1b61ea4d807bd135039d0996d1e5bd50d8006a.json",
+    "discovery/provider-listing-cache/ticketmaster/6369d2ff6ec661a927a97fefd787e413a0a8afb972ab34dc14c49f98608118e1.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:3eb0afd4ed5310e4da656b185d50cb7e30cdcd96625ff4de6e683c7a4d8dd338",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll first human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "rZ7HnEZ1Af-ErK/attraction/K8vZ917GmE7",
+      "sourceUrl": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867793",
+      "rawArtistName": "Charles Mingus Orchestra",
+      "normalizedArtistName": "charles mingus orchestra",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:b8d237fa6957fd5584f0db8e97d3a06b0e2421b50361d0306e892799f7a5dd2b",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0/5b69f1b22423dcadb912602e3a1b61ea4d807bd135039d0996d1e5bd50d8006a.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ917GmE7"
+    }
+  }
+}

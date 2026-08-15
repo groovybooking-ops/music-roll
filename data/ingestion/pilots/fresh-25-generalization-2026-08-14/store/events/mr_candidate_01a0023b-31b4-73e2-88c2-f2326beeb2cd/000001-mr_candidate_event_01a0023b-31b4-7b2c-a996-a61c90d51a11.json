@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31b4-7b2c-a996-a61c90d51a11",
+  "candidateId": "mr_candidate_01a0023b-31b4-73e2-88c2-f2326beeb2cd",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.916Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:9638ebea9da671e171faf0db6c1d18cb42727b6e7ade8a116d7b9623aa2b5b8a",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-005",
+      "sourceUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "rawArtistName": "Cleo Sol",
+      "normalizedArtistName": "cleo sol",
+      "spotifyArtistId": "3ETLPQkcEd7z4k3IbZmXMq",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

@@ -1,0 +1,1353 @@
+{
+  "evidenceId": "sha256:519ea0ab41e42ac5be5fc7e5069343be8e105d93e9cc54b0687cd92358e301dc",
+  "createdAt": "2026-08-14T21:44:07.319Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31ad-7277-8628-b6e5196596ae",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Jorja Smith",
+        "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1CoZyIx7UvdxT5c8UkMzHd",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1CoZyIx7UvdxT5c8UkMzHd",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29452199",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5314733",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5314733",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1CoZyIx7UvdxT5c8UkMzHd",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29452199",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5314733",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5314733"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "1CoZyIx7UvdxT5c8UkMzHd",
+          "observedValues": [
+            "1CoZyIx7UvdxT5c8UkMzHd"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1CoZyIx7UvdxT5c8UkMzHd",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1CoZyIx7UvdxT5c8UkMzHd",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1CoZyIx7UvdxT5c8UkMzHd",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q29452199",
+          "observedValues": [
+            "Q29452199"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q29452199",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q29452199",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "observedValues": [
+            "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "5314733",
+          "observedValues": [
+            "5314733"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5314733",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5314733",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5314733",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "5314733"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+            "name": "Jorja Smith",
+            "sortName": "Smith, Jorja",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "1CoZyIx7UvdxT5c8UkMzHd"
+            ],
+            "discogsArtistIds": [
+              "5314733"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "d62614aa-ef2c-44cd-8a7b-91292755a1d0": {
+          "artist": {
+            "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+            "name": "Jorja Smith",
+            "sortName": "Smith, Jorja",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "sortName": "London",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1997-06-11",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Jorja Alice Smith",
+                "sortName": "Smith, Jorja Alice",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000467096983"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003494220"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/5314733"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/9945222"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm9700609/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Jorja+Smith"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://jorjasmith.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2018018959"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb17810528g"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/jorja-smith"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/521765/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no2018018959"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/gb/artist/id1088331223"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/2722658"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/jorja-smith/540361"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/jorjasmith"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/jorjasmithmusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/jorjasmith_/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/8715239"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/jorjasmith"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1088331223"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/2722658"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/7644395"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/8104151965346100470002"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q29452199"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCSFBNlkwFf7ZQO6sTk9Q-lw"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "end": null,
+              "begin": "1997-06-11",
+              "ended": false
+            },
+            "begin-area": {
+              "type-id": null,
+              "type": null,
+              "disambiguation": "Greater London",
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "sort-name": "London"
+            },
+            "area": {
+              "type-id": null,
+              "type": null,
+              "disambiguation": "",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom"
+            },
+            "country": "GB",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Female",
+            "aliases": [
+              {
+                "end": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "type": "Legal name",
+                "locale": null,
+                "sort-name": "Smith, Jorja Alice",
+                "begin": null,
+                "ended": false,
+                "name": "Jorja Alice Smith"
+              }
+            ],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "end-area": null,
+            "id": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+            "name": "Jorja Smith",
+            "ipis": [],
+            "sort-name": "Smith, Jorja",
+            "type": "Person",
+            "disambiguation": "",
+            "isnis": [
+              "0000000467096983"
+            ],
+            "relations": [
+              {
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "allmusic",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0003494220",
+                  "id": "eb14a032-8211-4582-9ac7-8572d38e64a4"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "discogs",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.discogs.com/artist/5314733",
+                  "id": "59044ae3-ff69-49b2-b2ae-d00f8a9f9b4d"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "d0537f36-7d61-4ee2-b187-b92cdff4aad3",
+                  "resource": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "free streaming",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/9945222",
+                  "id": "fed40796-26d4-434d-a614-156199ec4f38"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm9700609/",
+                  "id": "b00a6ef1-59ad-4b06-9b01-ef13115398ee"
+                },
+                "type": "IMDb",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "last.fm",
+                "url": {
+                  "id": "67ca6ea2-cb2a-4ace-9044-ab0613d23a3d",
+                  "resource": "https://www.last.fm/music/Jorja+Smith"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f"
+              },
+              {
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "official homepage",
+                "url": {
+                  "id": "dbb1d1f4-cdbf-4538-ae2b-7577c66b79ba",
+                  "resource": "http://jorjasmith.com/"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/no2018018959",
+                  "id": "1dff6a9f-be23-421b-af0e-e0d6e3f94622"
+                },
+                "type": "other databases"
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "other databases",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb17810528g",
+                  "id": "54fea933-61b2-49e9-bcf0-92886e09a4b0"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/jorja-smith",
+                  "id": "a5c9d5b2-129a-487b-9b1d-a32a499f78c5"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/521765/",
+                  "id": "d3d1d91f-3b35-4bcf-a114-f0d7da8c1392"
+                },
+                "attribute-ids": {},
+                "type": "other databases"
+              },
+              {
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "4bc30309-ace7-4a3e-8f5c-19dab55a107c",
+                  "resource": "https://www.worldcat.org/identities/lccn-no2018018959"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://itunes.apple.com/gb/artist/id1088331223",
+                  "id": "5bf0c316-d545-4028-b560-d87500471fa8"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "purchase for download",
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/2722658",
+                  "id": "0c7e0592-105f-4cc0-bb53-7cebd393fff8"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "purchase for download",
+                "url": {
+                  "resource": "https://www.beatport.com/artist/jorja-smith/540361",
+                  "id": "b9e86c32-b029-4b1d-947d-5ff586725039"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type": "social network",
+                "url": {
+                  "id": "be6d1e2f-cf01-4aa3-9332-51a7b4251d72",
+                  "resource": "https://twitter.com/jorjasmith"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.facebook.com/jorjasmithmusic",
+                  "id": "2010d86b-ca8c-4614-990a-62f880b4654a"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network"
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.instagram.com/jorjasmith_/",
+                  "id": "fd983ec7-c30d-4f3f-8a93-23fb23707e77"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.songkick.com/artists/8715239",
+                  "id": "38e04e6f-4455-40d6-b6cb-3e7aa7932790"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "songkick",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "04e0e1e0-740b-4200-9ef8-a36e19cb812f",
+                  "resource": "https://soundcloud.com/jorjasmith"
+                },
+                "type": "soundcloud"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/1088331223",
+                  "id": "26b5f5b5-2ca7-4aab-8b18-d0e4a233d8a3"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/2722658",
+                  "id": "0c7e0592-105f-4cc0-bb53-7cebd393fff8"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://tidal.com/artist/7644395",
+                  "id": "e4f2003d-dc3c-4165-bf70-27d6a9035256"
+                },
+                "type": "streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "VIAF",
+                "url": {
+                  "resource": "http://viaf.org/viaf/8104151965346100470002",
+                  "id": "bf33c3c6-a643-479f-b8bf-330ffe3c3bb8"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "end": null
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "7b7903e7-2d1a-417e-996c-51a4ac2e5569",
+                  "resource": "https://www.wikidata.org/wiki/Q29452199"
+                },
+                "attribute-ids": {},
+                "type": "wikidata",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null
+              },
+              {
+                "type": "youtube",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCSFBNlkwFf7ZQO6sTk9Q-lw",
+                  "id": "57b65444-6f57-47d5-9f43-7308b5d08aa9"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              }
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "5314733": {
+          "artist": {
+            "discogsArtistId": "5314733",
+            "name": "Jorja Smith",
+            "realName": "Jorja Alice Smith",
+            "profile": "British singer, songwriter.\r\n\r\nBorn: 11 June 1997. \r\n\r\nEnglish singer from Walsall, West Midlands. She has independently released numerous singles and one extended play, \"Project 11\" (2016), and is most known for her guest appearances on the songs \"Jorja Interlude\" and \"Get It Together\" from Canadian rapper [a=Drake]'s album \"More Life\" (2017). \r\n\r\nHer album \"[m=1378563]\" (2018) was nominated fro the prestigious [url=https://www.discogs.com/lists/Mercury-Music-Prize-shortlist-2018-27th-year/433988]2018 Mercury Music Prize[/url]. \r\n",
+            "artistUrls": [
+              "http://jorjasmith.com/",
+              "https://www.facebook.com/jorjasmithmusic",
+              "https://twitter.com/JorjaSmith",
+              "https://www.instagram.com/jorjasmith_",
+              "https://soundcloud.com/jorjasmith"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "J. Smith",
+              "J.Smith",
+              "Jorja Alice Smith",
+              "Jorja Suff",
+              "S. Smith",
+              "ジョルジャ・スミス"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/5314733",
+            "discogsWebUrl": "https://www.discogs.com/artist/5314733-Jorja-Smith",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Jorja Smith",
+            "id": 5314733,
+            "resource_url": "https://api.discogs.com/artists/5314733",
+            "uri": "https://www.discogs.com/artist/5314733-Jorja-Smith",
+            "releases_url": "https://api.discogs.com/artists/5314733/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/8OQW-tEWTIaT9Bz7bcXWoZY7gVut5ATdLK6Mpv3zAOQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTE4/Ni02NTUwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/8OQW-tEWTIaT9Bz7bcXWoZY7gVut5ATdLK6Mpv3zAOQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTE4/Ni02NTUwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/fPkvWV9T5VHAOWY9cZqdzTCD3eKnG-iRBxHxhGZBziQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTE4/Ni02NTUwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/V0YjIXsblcBlDRg0eq3OwQm7OKyEJGfjhMOZ3VPpYuU/rs:fit/g:sm/q:90/h:784/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTEz/NC0xNjU2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/V0YjIXsblcBlDRg0eq3OwQm7OKyEJGfjhMOZ3VPpYuU/rs:fit/g:sm/q:90/h:784/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTEz/NC0xNjU2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/EqZezcSwM8kPsWoN5zKuLKhnYhw-uIrhTlBKxIBctSw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTYxOTE2OTEz/NC0xNjU2LmpwZWc.jpeg",
+                "width": 589,
+                "height": 784
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ZhJaHTEwRsq0dNN_vvWdkyY4jx4S93U5VHwtVfxGTk4/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU3MzY1MjAx/Ni01NTE4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/ZhJaHTEwRsq0dNN_vvWdkyY4jx4S93U5VHwtVfxGTk4/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU3MzY1MjAx/Ni01NTE4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/1jADnlCN_X3_Duc9yMbbLhNf54cYqxERvNwFzjKAxSQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU3MzY1MjAx/Ni01NTE4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2CflyyleiYghjQJVRIh_0acOYDUP1q5LxTzLuTw38TU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE3/My02MDk1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/2CflyyleiYghjQJVRIh_0acOYDUP1q5LxTzLuTw38TU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE3/My02MDk1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/hGEw2K8WVfPafpUggx8JSMuUpDDzsyXiUZE_KG-_IDg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE3/My02MDk1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_EIvc3688klXbWztP3VNb_CC6-hw4DKBXvuAmdoWu9k/rs:fit/g:sm/q:90/h:752/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE4/Ny02MTE3LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/_EIvc3688klXbWztP3VNb_CC6-hw4DKBXvuAmdoWu9k/rs:fit/g:sm/q:90/h:752/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE4/Ny02MTE3LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/-gTCQaPRB98yqQEWeCPDH5suPt4ObmOLwNDOz9po6Q8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTUyNzI5NzE4/Ny02MTE3LnBuZw.jpeg",
+                "width": 600,
+                "height": 752
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KY0JAHHqaZjf0vF87mRlbRRyRlQssWUu6CxaQWgJuYQ/rs:fit/g:sm/q:90/h:609/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ3ODUyNDYy/Mi01MjEwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/KY0JAHHqaZjf0vF87mRlbRRyRlQssWUu6CxaQWgJuYQ/rs:fit/g:sm/q:90/h:609/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ3ODUyNDYy/Mi01MjEwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/AwZZDF1z_Wrk_MDjvDIlbX2Nams4DIpa4p6fwomUpqw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ3ODUyNDYy/Mi01MjEwLmpwZWc.jpeg",
+                "width": 570,
+                "height": 609
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/U5Dl39IsoOxQum7QSxcQiNBhzbpk5_FjAD9qW54KYQA/rs:fit/g:sm/q:90/h:700/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/NC0xNTg0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/U5Dl39IsoOxQum7QSxcQiNBhzbpk5_FjAD9qW54KYQA/rs:fit/g:sm/q:90/h:700/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/NC0xNTg0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ip92KNQsPGXrr_4ypuGTl87Bq-Ay6DleZgh4JxXRYss/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/NC0xNTg0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 700
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/U1YHGTrFez_6mgEg4VJqtPoZelcuW1HnALJKXb6PYfM/rs:fit/g:sm/q:90/h:652/w:521/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/Mi03MzI5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/U1YHGTrFez_6mgEg4VJqtPoZelcuW1HnALJKXb6PYfM/rs:fit/g:sm/q:90/h:652/w:521/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/Mi03MzI5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/LD3cz6o34WUzA6ZW6sSzP9GxsnxpmaGSBtRndGRbDls/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/Mi03MzI5LmpwZWc.jpeg",
+                "width": 521,
+                "height": 652
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/asFIIZQj3-_LWkUhJ9vtlwxRtUwg4v6ozHSdxmdlUeM/rs:fit/g:sm/q:90/h:737/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My00Njk0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/asFIIZQj3-_LWkUhJ9vtlwxRtUwg4v6ozHSdxmdlUeM/rs:fit/g:sm/q:90/h:737/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My00Njk0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/poz14EIPPDlqmzzMvsQgiuDcQGkhj_LQ6sjlSXs1exs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My00Njk0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 737
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/0dVIddHUAAETiR4G_7Ux3nsB6PE7mC_iM0qdd10PN9c/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My04Mjc2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/0dVIddHUAAETiR4G_7Ux3nsB6PE7mC_iM0qdd10PN9c/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My04Mjc2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/2Ej46Rh_7y47LnAShgCyhMBvB2ctfcHt9nLmkIFEa0c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My04Mjc2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 401
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/35TlDvnO5Dz76cWq733JClgkfyLBoxwrtJlpNihbxPE/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My0yOTg4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/35TlDvnO5Dz76cWq733JClgkfyLBoxwrtJlpNihbxPE/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My0yOTg4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/agpHOpV2haIBkclxuOvAAF2jkSLlKnRPIEguNAtM37I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTQ5NzU3ODkz/My0yOTg4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WyTAePkA3WC7_gq033EqQdZSNdxxvcUgzntuMXJfoUY/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2MzAw/NS0zODU5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/WyTAePkA3WC7_gq033EqQdZSNdxxvcUgzntuMXJfoUY/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2MzAw/NS0zODU5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/lIhQDGM6AfsxPiI70zszYwAQ7Ei6Mfr_3s6LAvFORi4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2MzAw/NS0zODU5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-GC7RP6mZuA5otyOsP0ZoD0CbQoJ4PNvQB3YQSEsaa8/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2Mjk2/NS05MDU5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/-GC7RP6mZuA5otyOsP0ZoD0CbQoJ4PNvQB3YQSEsaa8/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2Mjk2/NS05MDU5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Yepxt1Hyy6zHX_8DFwrwx_T372au4N-D88NdiF9e1OE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTU0NDk2Mjk2/NS05MDU5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VvRe8yBK9gavqnAn8PSbTHDws6--iGCtOAix3ptA1SE/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzIy/Ni0xNzkwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/VvRe8yBK9gavqnAn8PSbTHDws6--iGCtOAix3ptA1SE/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzIy/Ni0xNzkwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/t5T7q_XfzLlbcwKHE_HjkARBXbSnurXUhBWpWMMpmlU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzIy/Ni0xNzkwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 603
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/FfIPsy0ysFu253DuZDCAD0opCJy8PZ4c41urAOe5og8/rs:fit/g:sm/q:90/h:880/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzMw/OS03ODU3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/FfIPsy0ysFu253DuZDCAD0opCJy8PZ4c41urAOe5og8/rs:fit/g:sm/q:90/h:880/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzMw/OS03ODU3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/SE-xl1i02SH0hnLGrAqP1eLEL86kshCtgp7lYzfQetc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMTQ3/MzMtMTY5NjgwNzMw/OS03ODU3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 880
+              }
+            ],
+            "realname": "Jorja Alice Smith",
+            "profile": "British singer, songwriter.\r\n\r\nBorn: 11 June 1997. \r\n\r\nEnglish singer from Walsall, West Midlands. She has independently released numerous singles and one extended play, \"Project 11\" (2016), and is most known for her guest appearances on the songs \"Jorja Interlude\" and \"Get It Together\" from Canadian rapper [a=Drake]'s album \"More Life\" (2017). \r\n\r\nHer album \"[m=1378563]\" (2018) was nominated fro the prestigious [url=https://www.discogs.com/lists/Mercury-Music-Prize-shortlist-2018-27th-year/433988]2018 Mercury Music Prize[/url]. \r\n",
+            "urls": [
+              "http://jorjasmith.com/",
+              "https://www.facebook.com/jorjasmithmusic",
+              "https://twitter.com/JorjaSmith",
+              "https://www.instagram.com/jorjasmith_",
+              "https://soundcloud.com/jorjasmith"
+            ],
+            "namevariations": [
+              "J. Smith",
+              "J.Smith",
+              "Jorja Alice Smith",
+              "Jorja Suff",
+              "S. Smith",
+              "ジョルジャ・スミス"
+            ],
+            "groups": [
+              {
+                "id": 5834581,
+                "name": "Artists For Grenfell",
+                "resource_url": "https://api.discogs.com/artists/5834581",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+        "wikidataQid": "Q29452199",
+        "name": "Jorja Smith",
+        "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+        "discogsArtistId": "5314733"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1CoZyIx7UvdxT5c8UkMzHd",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q29452199",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5314733",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "name": "Jorja Smith",
+          "sortName": "Smith, Jorja",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "name": "Jorja Smith",
+          "sortName": "Smith, Jorja",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "name": "London",
+            "sortName": "London",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1997-06-11",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Jorja Alice Smith",
+              "sortName": "Smith, Jorja Alice",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000467096983"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003494220"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5314733"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/9945222"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm9700609/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Jorja+Smith"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://jorjasmith.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2018018959"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb17810528g"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/jorja-smith"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/521765/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2018018959"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/gb/artist/id1088331223"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/2722658"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/jorja-smith/540361"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/jorjasmith"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/jorjasmithmusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/jorjasmith_/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/8715239"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/jorjasmith"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1088331223"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/2722658"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7644395"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/8104151965346100470002"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q29452199"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCSFBNlkwFf7ZQO6sTk9Q-lw"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/5314733.json",
+    "provider-cache/v1/musicbrainz/artist/d62614aa-ef2c-44cd-8a7b-91292755a1d0.json",
+    "provider-cache/v1/musicbrainz/exact-name/a24618d8d03a74e1ad229460.json",
+    "provider-cache/v1/wikidata/spotify-bridge/1CoZyIx7UvdxT5c8UkMzHd.json"
+  ]
+}

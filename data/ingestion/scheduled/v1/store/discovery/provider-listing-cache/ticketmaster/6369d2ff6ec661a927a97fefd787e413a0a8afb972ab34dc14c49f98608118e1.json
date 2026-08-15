@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "provider": "ticketmaster",
+  "configurationHash": "sha256:6369d2ff6ec661a927a97fefd787e413a0a8afb972ab34dc14c49f98608118e1",
+  "retrievedAt": "2026-08-15T16:21:51.020Z",
+  "requestUrl": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=REDACTED&classificationName=music&stateCode=NY&startDateTime=2026-08-16T00%3A00%3A00Z&endDateTime=2026-08-22T00%3A00%3A00Z&size=2&page=0&sort=date%2Casc",
+  "responseDigest": "sha256:9aa4e043bd853ff06d8977ac01f694bf6cd73703f86b00ac865d2a63629f5139",
+  "raw": {
+    "_embedded": {
+      "events": [
+        {
+          "name": "Charles Mingus Orchestra",
+          "type": "event",
+          "id": "rZ7HnEZ1Af-ErK",
+          "test": false,
+          "url": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867793",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://i.ticketweb.com/i/00/13/63/55/23_Edp.jpg?v=2",
+              "width": 640,
+              "height": 427,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": true
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_CUSTOM.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": true
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "2026-04-20T16:00:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-26T00:05:00Z"
+            }
+          },
+          "dates": {
+            "access": {
+              "startDateTime": "2026-08-15T21:30:00Z",
+              "startApproximate": false,
+              "endDateTime": "2026-08-16T00:15:00Z",
+              "endApproximate": false
+            },
+            "start": {
+              "localDate": "2026-08-15",
+              "localTime": "19:00:00",
+              "dateTime": "2026-08-15T23:00:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "end": {
+              "localDate": "2026-08-15",
+              "localTime": "20:15:00",
+              "dateTime": "2026-08-16T00:15:00Z",
+              "approximate": false,
+              "noSpecificTime": false
+            },
+            "timezone": "America/New_York",
+            "status": {
+              "code": "onsale"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAvE",
+                "name": "Jazz"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vkda",
+                "name": "Jazz"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            }
+          ],
+          "info": "Jeremy Pelt, trumpetConrad Herwig, tromboneBrandon Wright, alto saxWayne Escoffery, tenor saxStefano Doglioni, bass clarinetJohn Clark, french hornMichael Rabinowitz, bassoonBoris Kozlov, bassDavid Gilmore, guitarDonald Edwards, drumsThe Charles Mingus Orchestra began alternating performances with its older sibling, the Mingus Big Band, during a 14-year tenure at New Yorks Fez Under Time Cafe. In March and April of 2005, the Mingus Orchestra performed across the street from Fez for a series of extraordinary late-night performances at Joes Pub. More recently, Mingus Mondays celebration ran at Jazz Standard for nearly 12 years rotating the the Orchestra, the Dynasty, and the Big Band, becoming a local culture institution halted only by the COVID-19 worldwide pandemic. Now the Charles Mingus Orchestra marks its triumphant return to the live stage.Assembled in 1999 by Sue Mingus, the 10-piece Mingus Orchestra plays with the intensity of Mingus Big Band, with a focus on composition and exploration of Mingus more diverse works. Its distinctive sound and textures emerge from an expanded repertory and more exotic instrumentation including bassoon, bass clarinet, French horn, and guitar instruments not heard in the Big Band, and mostly non-traditional to jazz and modern improvisational music. The other six instruments are chaired by musicians that also perform in Mingus Big Band, and include drums, bass, trombone, trumpet, alto and tenor saxophone, with additional doublings on flute, soprano and clarinet.",
+          "pleaseNote": "Please be aware of the following age-related restrictions for this event: Ages 10+.",
+          "priceRanges": [
+            {
+              "type": "standard",
+              "currency": "USD",
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/rZ7HnEZ1Af-ErK?locale=en-us"
+            },
+            "attractions": [
+              {
+                "href": "/discovery/v2/attractions/K8vZ917GmE7?locale=en-us"
+              }
+            ],
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/rZ7HnEZ174KrF?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "Birdland Theater",
+                "type": "venue",
+                "id": "rZ7HnEZ174KrF",
+                "test": false,
+                "url": "https://www.ticketweb.com/venue/birdland-theater-new-york-ny/553788",
+                "locale": "en-us",
+                "postalCode": "10036",
+                "timezone": "America/New_York",
+                "city": {
+                  "name": "New York"
+                },
+                "state": {
+                  "name": "New York",
+                  "stateCode": "NY"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "315 West 44th Street"
+                },
+                "location": {
+                  "longitude": "-73.9896861",
+                  "latitude": "40.7590167"
+                },
+                "upcomingEvents": {
+                  "ticketweb": 267,
+                  "_total": 267,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/rZ7HnEZ174KrF?locale=en-us"
+                  }
+                }
+              }
+            ],
+            "attractions": [
+              {
+                "name": "Charles Mingus Orchestra",
+                "type": "attraction",
+                "id": "K8vZ917GmE7",
+                "test": false,
+                "url": "https://www.ticketmaster.com/charles-mingus-orchestra-tickets/artist/1478438",
+                "locale": "en-us",
+                "images": [
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RECOMENDATION_16_9.jpg",
+                    "width": 100,
+                    "height": 56,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                    "width": 2048,
+                    "height": 1152,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_3_2.jpg",
+                    "width": 640,
+                    "height": 427,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_ARTIST_PAGE_3_2.jpg",
+                    "width": 305,
+                    "height": 203,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_3_2.jpg",
+                    "width": 1024,
+                    "height": 683,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_16_9.jpg",
+                    "width": 640,
+                    "height": 360,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_EVENT_DETAIL_PAGE_16_9.jpg",
+                    "width": 205,
+                    "height": 115,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "4_3",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_CUSTOM.jpg",
+                    "width": 305,
+                    "height": 225,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_16_9.jpg",
+                    "width": 1024,
+                    "height": 576,
+                    "fallback": true
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+                    "width": 1136,
+                    "height": 639,
+                    "fallback": true
+                  }
+                ],
+                "classifications": [
+                  {
+                    "primary": true,
+                    "segment": {
+                      "id": "KZFzniwnSyZfZ7v7nJ",
+                      "name": "Music"
+                    },
+                    "genre": {
+                      "id": "KnvZfZ7vAvE",
+                      "name": "Jazz"
+                    },
+                    "subGenre": {
+                      "id": "KZazBEonSMnZfZ7vkda",
+                      "name": "Jazz"
+                    },
+                    "type": {
+                      "id": "KZAyXgnZfZ7v7nI",
+                      "name": "Undefined"
+                    },
+                    "subType": {
+                      "id": "KZFzBErXgnZfZ7v7lJ",
+                      "name": "Undefined"
+                    },
+                    "family": false
+                  }
+                ],
+                "upcomingEvents": {
+                  "ticketweb": 5,
+                  "_total": 5,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/attractions/K8vZ917GmE7?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "BrownstoneJAZZ FEST CONCERT SERIES",
+          "type": "event",
+          "id": "rZ7HnEZ1AfkK07",
+          "test": false,
+          "url": "https://www.ticketweb.com/event/brownstonejazz-fest-concert-series-brownstonejazz-tickets/14193904",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640,
+              "height": 427,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": true
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_CUSTOM.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": true
+            },
+            {
+              "url": "https://i.ticketweb.com/i/00/12/91/08/44_Edp.jpg?v=3",
+              "width": 477,
+              "height": 427,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": true
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "2026-06-12T20:30:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-15T23:00:00Z"
+            }
+          },
+          "dates": {
+            "access": {
+              "startDateTime": "2026-08-15T23:00:00Z",
+              "startApproximate": false,
+              "endDateTime": "2026-08-16T00:45:00Z",
+              "endApproximate": false
+            },
+            "start": {
+              "localDate": "2026-08-15",
+              "localTime": "19:30:00",
+              "dateTime": "2026-08-15T23:30:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "end": {
+              "localDate": "2026-08-15",
+              "localTime": "20:45:00",
+              "dateTime": "2026-08-16T00:45:00Z",
+              "approximate": false,
+              "noSpecificTime": false
+            },
+            "timezone": "America/New_York",
+            "status": {
+              "code": "onsale"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAvE",
+                "name": "Jazz"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vkA1",
+                "name": "Jazz Standards"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            }
+          ],
+          "info": "BrownstoneJAZZ FEST up close and personal. Intimate acoustic room live concerts , Experience the JazzFest in a restored 19th Century Victorian Brownstone located in Bedford Stuyvesants Central Brooklyn Landmarked Historical Community. Where ou will feel transported back to earlier time as you walk through the doors. BrownstoneJAZZ Ensambles present the best of yesteryears jazz soldiers and todays jazz frontier. Musicians, swinging with an authentic jazz style. Something for everyone to enjoy Bed Stuy, Bklyn and SugarHill, Harlem were both Jazz Hey Day Communities. When Ella Fitzgerald lyricized the song TAKE THE A TRAIN connecting NYCs two jazz hubs. Youre invited to the magic of music with Curator Debbie McClain and M.C., Bassist Eric Lemons hosting you as you uncover this old school jazz venue to enjoy a different jazz experience. Both Eric and Debbie have been involved in the world of music entertainment for years presenting major artist. Their list is long. They really know their way around the business.FOR A LIMITED TIME: Get your ticket for our private event early. Tables and seats have been limited NOTESDRESS TO IMPRESSNO Athletic Wear, Tank Tops, or T-shirts in THE ROOM (NO REFUNDS)EVENT JAZZ EVENTS ARRANGED @VenueNO PETS, SMOKING or VAPORS NO Shopping-bags or Backpacks in THE ROOM. (Limited space)BYOBB (bring your own brown bag)-NO FISH FRY OPTION-PLEASE PURCHASE ACTUAL TICKETS AS GIFTSWill Call: You must pick up the items yourself at the physical location (e.g., stadium box office, venue will-call window) by presenting a valid photo ID and the credit card used for purchase.WE ARE PRIVATE, AND RESERVE THE RIGHT TO BE SELECTIVE.PLEASE BE RESPECTFUL#jazz, #blues, #ticketweb, #ticketmaster, #music, #concerts, #datenight #events, #livemusic, #Brooklyn, #NYC, #Harlem #brownstonejazzWill Call: You must pick up the items yourself at the physical location (e.g., stadium box office, venue will-call window) by presenting a valid photo ID and the credit card used for purchase.",
+          "pleaseNote": "This event is 21 and over. Any ticket holder unable to present valid identification indicating that they are at least 21 years of age will not be admitted to this event, and will not be eligible for a refund.",
+          "priceRanges": [
+            {
+              "type": "standard",
+              "currency": "USD",
+              "min": 55.3,
+              "max": 55.3
+            }
+          ],
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/rZ7HnEZ1AfkK07?locale=en-us"
+            },
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/rZ7HnEZ1789Z4?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "BrownstoneJAZZ",
+                "type": "venue",
+                "id": "rZ7HnEZ1789Z4",
+                "test": false,
+                "url": "https://www.ticketweb.com/venue/brownstonejazz-brooklyn--ny/417015",
+                "locale": "en-us",
+                "postalCode": "11216",
+                "timezone": "America/New_York",
+                "city": {
+                  "name": "Brooklyn "
+                },
+                "state": {
+                  "name": "New York",
+                  "stateCode": "NY"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "107 Macon Street"
+                },
+                "location": {
+                  "longitude": "-73.947016",
+                  "latitude": "40.6815228"
+                },
+                "upcomingEvents": {
+                  "ticketweb": 86,
+                  "_total": 86,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/rZ7HnEZ1789Z4?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-16T00%3A00%3A00Z&classificationName=music&stateCode=NY&endDateTime=2026-08-22T00%3A00%3A00Z&page=0&size=2&sort=date,asc"
+      },
+      "self": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-16T00%3A00%3A00Z&size=2&classificationName=music&stateCode=NY&page=0&sort=date%2Casc&endDateTime=2026-08-22T00%3A00%3A00Z"
+      },
+      "next": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-16T00%3A00%3A00Z&classificationName=music&stateCode=NY&endDateTime=2026-08-22T00%3A00%3A00Z&page=1&size=2&sort=date,asc"
+      },
+      "last": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-16T00%3A00%3A00Z&classificationName=music&stateCode=NY&endDateTime=2026-08-22T00%3A00%3A00Z&page=89&size=2&sort=date,asc"
+      }
+    },
+    "page": {
+      "size": 2,
+      "totalElements": 179,
+      "totalPages": 90,
+      "number": 0
+    }
+  }
+}

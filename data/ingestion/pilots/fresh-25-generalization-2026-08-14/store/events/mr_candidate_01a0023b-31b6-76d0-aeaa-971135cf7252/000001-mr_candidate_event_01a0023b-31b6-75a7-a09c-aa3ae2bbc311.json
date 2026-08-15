@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31b6-75a7-a09c-aa3ae2bbc311",
+  "candidateId": "mr_candidate_01a0023b-31b6-76d0-aeaa-971135cf7252",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.918Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:1dfe8260819a1a3c5c209ca65f14446e1f6e75ed4ca2c02ddb902fd999905797",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-006",
+      "sourceUrl": "https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL",
+      "rawArtistName": "MF DOOM",
+      "normalizedArtistName": "mf doom",
+      "spotifyArtistId": "2pAWfrd7WFF3XhVt9GooDL",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

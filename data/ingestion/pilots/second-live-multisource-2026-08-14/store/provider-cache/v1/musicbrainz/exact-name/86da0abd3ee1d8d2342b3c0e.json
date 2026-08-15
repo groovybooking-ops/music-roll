@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "86da0abd3ee1d8d2342b3c0e",
+  "retrievedAt": "2026-08-14T23:34:30.858Z",
+  "value": {
+    "requestedName": "Ciara",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+        "name": "Ciara",
+        "sortName": "Ciara",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": "American singer",
+        "score": 100
+      },
+      {
+        "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+        "name": "Ciara",
+        "sortName": "Ciara",
+        "artistType": "Person",
+        "country": "FR",
+        "disambiguation": "French underground rapper near Swift Guad",
+        "score": 76
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T23:34:30.828Z",
+      "count": 65,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara",
+          "sort-name": "Ciara",
+          "gender": "female",
+          "area": {
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Atlanta",
+            "sort-name": "Atlanta",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "58d2816b-daf9-4fc5-962c-06967f14a5e5",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Austin",
+            "sort-name": "Austin",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "American singer",
+          "ipis": [
+            "00197599001",
+            "00447302373"
+          ],
+          "isnis": [
+            "0000000114687104"
+          ],
+          "life-span": {
+            "begin": "1985-10-25",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "シアラ",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "シアラ",
+              "locale": "ja",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Wilson, Ciara Princess",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Ciara Princess Wilson",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": "2016",
+              "end-date": null
+            },
+            {
+              "sort-name": "Ciarra",
+              "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+              "name": "Ciarra",
+              "locale": null,
+              "type": "Search hint",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Harris, Ciara Princess",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Ciara Princess Harris",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Harris, Ciara",
+              "name": "Ciara Harris",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 6,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 4,
+              "name": "dance"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "electropop"
+            },
+            {
+              "count": 1,
+              "name": "southern hip hop"
+            },
+            {
+              "count": 4,
+              "name": "dance-pop"
+            },
+            {
+              "count": 0,
+              "name": "pop rap"
+            },
+            {
+              "count": 1,
+              "name": "neo soul"
+            },
+            {
+              "count": 1,
+              "name": "god"
+            },
+            {
+              "count": 0,
+              "name": "pop and chart"
+            },
+            {
+              "count": 1,
+              "name": "hip hop soul"
+            },
+            {
+              "count": 1,
+              "name": "pop soul"
+            },
+            {
+              "count": 1,
+              "name": "sxsw"
+            },
+            {
+              "count": 1,
+              "name": "top 100"
+            },
+            {
+              "count": 7,
+              "name": "r&b"
+            },
+            {
+              "count": 5,
+              "name": "contemporary r&b"
+            },
+            {
+              "count": 0,
+              "name": "crunk&b"
+            },
+            {
+              "count": 1,
+              "name": "top 10"
+            },
+            {
+              "count": 1,
+              "name": "trap soul"
+            },
+            {
+              "count": 1,
+              "name": "austin city limits"
+            },
+            {
+              "count": 1,
+              "name": "best female artist"
+            },
+            {
+              "count": 1,
+              "name": "top 5"
+            },
+            {
+              "count": 1,
+              "name": "best female emcee"
+            },
+            {
+              "count": 1,
+              "name": "best female rapper"
+            },
+            {
+              "count": 1,
+              "name": "best female singer"
+            },
+            {
+              "count": 1,
+              "name": "top 50"
+            }
+          ]
+        },
+        {
+          "id": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 76,
+          "name": "Ciara",
+          "sort-name": "Ciara",
+          "country": "FR",
+          "area": {
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "France",
+            "sort-name": "France",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "French underground rapper near Swift Guad",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "635e5b32-b8b5-4088-8477-ad0d30644cff",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 75,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Janson",
+          "sort-name": "Janson, Ciara",
+          "gender": "female",
+          "area": {
+            "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "England",
+            "sort-name": "England",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "fe92d6d6-4f35-4a0e-a48a-b802ae9cdaf4",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Surrey",
+            "sort-name": "Surrey",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "English actress",
+          "life-span": {
+            "begin": "1987-04-27",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Ciara Janson",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "Ciara Janson",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Ciara Janson Zelmerlöw (née Janson)",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Ciara Janson Zelmerlöw (née Janson)",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ]
+        },
+        {
+          "id": "1fa01302-cc96-41e1-9c3a-e896be65c2cf",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 72,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara O'Neill",
+          "sort-name": "Ciara O'Neill",
+          "gender": "female",
+          "disambiguation": "Irish singer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "5f5eb314-68bb-4a89-8a92-869d2367d93a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 71,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Muscat",
+          "sort-name": "Muscat, Ciara",
+          "gender": "female",
+          "area": {
+            "id": "b4e9352c-8edf-4911-8fa3-e852afa30501",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Melbourne",
+            "sort-name": "Melbourne",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Keeks",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "KEEKS",
+              "locale": null,
+              "type": "Artist name",
+              "primary": null,
+              "begin-date": "2020",
+              "end-date": "2022"
+            }
+          ]
+        },
+        {
+          "id": "a283c27f-4635-4118-8de2-7eb10935fdd2",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 71,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara McAllister",
+          "sort-name": "McAllister, Ciara",
+          "gender": "female",
+          "area": {
+            "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "San Francisco",
+            "sort-name": "San Francisco",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Singer-Songwriter and Pianist from San Francisco, CA",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "0d7bf937-1c2b-44e6-8ad6-8a9990b002b8",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 71,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Grace",
+          "sort-name": "Grace, Ciara",
+          "gender": "female",
+          "isnis": [
+            "0000000465816115"
+          ],
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "888a0ca2-23df-4408-a403-1a12e2216b62",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 71,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Moser",
+          "sort-name": "Moser, Ciara",
+          "gender": "female",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "bafd5b00-480f-464b-b3bb-e85c7ad86086",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 71,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Vizzard",
+          "sort-name": "Ciara Vizzard",
+          "gender": "female",
+          "area": {
+            "id": "9f11c5cc-b4b5-4589-8476-bc863930caa7",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Reading",
+            "sort-name": "Reading",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Artist",
+          "life-span": {
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "80s"
+            },
+            {
+              "count": 1,
+              "name": "pop"
+            }
+          ]
+        },
+        {
+          "id": "a781417c-3545-4296-a87d-0f69d6e228d7",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Lawless",
+          "sort-name": "Lawless, Ciara",
+          "gender": "female",
+          "country": "IE",
+          "area": {
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Ireland",
+            "sort-name": "Ireland",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "2ea85a19-64f7-4855-972b-6afa28d4ae81",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "name": "Ciara Considine",
+          "sort-name": "Considine, Ciara",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "f8476dfd-c778-420d-81f8-10ed8511ef9b",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+          "name": "Marco Ciara",
+          "sort-name": "Ciara, Marco",
+          "gender": "male",
+          "country": "IT",
+          "area": {
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Italy",
+            "sort-name": "Italy",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "c7d69d2e-763e-42b9-8552-31faad5e4acd",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Lea",
+          "sort-name": "Ciara Lea",
+          "gender": "female",
+          "country": "AU",
+          "area": {
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Australia",
+            "sort-name": "Australia",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "5b3e9621-a54a-4839-aeaf-bdf831835083",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Lauve",
+          "sort-name": "Lauve, Ciara",
+          "gender": "female",
+          "country": "ES",
+          "area": {
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Spain",
+            "sort-name": "Spain",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "78bad4fb-b593-490d-900c-0b864f368a64",
+          "score": 70,
+          "name": "Ciara Bergin",
+          "sort-name": "Ciara Bergin",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "dae62fb2-6c43-4757-8435-32500c31b9c6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Venice",
+          "sort-name": "Venice, Ciara",
+          "gender": "female",
+          "country": "CA",
+          "area": {
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Canada",
+            "sort-name": "Canada",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 1,
+              "name": "ciara"
+            },
+            {
+              "count": 1,
+              "name": "venice"
+            },
+            {
+              "count": 1,
+              "name": "canada"
+            },
+            {
+              "count": 1,
+              "name": "pop"
+            }
+          ]
+        },
+        {
+          "id": "cd5aa535-0e40-4aef-9747-a3c22f3c0289",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Renée",
+          "sort-name": "Renée, Ciara",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "begin": "1990-10-19",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Harper, Ciara Renée",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Ciara Renée Harper",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ]
+        },
+        {
+          "id": "b65e679a-adeb-42fc-9929-dec2b33d469c",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Hendrick",
+          "sort-name": "Hendrick, Ciara",
+          "gender": "female",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "mezzo-soprano",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "e792c593-e963-4001-8508-001d460b02ed",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 70,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Sotto",
+          "sort-name": "Sotto, Ciara",
+          "gender": "female",
+          "country": "PH",
+          "area": {
+            "id": "786532a5-2e36-315a-bdf2-221dc1b64b72",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Philippines",
+            "sort-name": "Philippines",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "786532a5-2e36-315a-bdf2-221dc1b64b72",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Philippines",
+            "sort-name": "Philippines",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Filipino Artist",
+          "life-span": {
+            "begin": "1980-07-02",
+            "ended": null
+          }
+        },
+        {
+          "id": "e6d9375e-56ca-4840-b221-833ca97dcc90",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "name": "Ciara Kenny",
+          "sort-name": "Kenny, Ciara",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "7c248766-7ba7-4df5-b31c-16d791199666",
+          "score": 69,
+          "name": "Ciara Donnelly",
+          "sort-name": "Donnelly, Ciara",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "dc80e781-cf90-447e-b7fa-6b558fff0cd6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "elly ciara",
+          "sort-name": "elly ciara",
+          "gender": "female",
+          "country": "JP",
+          "area": {
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Japan",
+            "sort-name": "Japan",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "Japanese singer",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "9d9da23b-acac-45b0-a623-76e06af2c29a",
+          "score": 69,
+          "name": "Ciara Baby",
+          "sort-name": "Ciara Baby",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "8c5625ab-c986-4f89-803c-2c5d8e111281",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Thomson",
+          "sort-name": "Thomson, Ciara",
+          "gender": "female",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "32a140fe-5962-4275-a34e-d5d4ef6a1919",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 69,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ciara Sidine",
+          "sort-name": "Sidine, Ciara",
+          "gender": "female",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

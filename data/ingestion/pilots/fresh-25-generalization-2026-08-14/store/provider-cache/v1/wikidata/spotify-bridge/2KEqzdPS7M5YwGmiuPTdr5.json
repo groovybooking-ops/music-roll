@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2KEqzdPS7M5YwGmiuPTdr5",
+  "retrievedAt": "2026-08-14T21:45:41.544Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2KEqzdPS7M5YwGmiuPTdr5",
+      "wikidataQid": "Q28840001",
+      "name": "Rina Sawayama",
+      "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+      "discogsArtistId": "3371472"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q28840001"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "3371472"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Rina Sawayama"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

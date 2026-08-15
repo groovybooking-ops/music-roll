@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dcb-781e-aaf2-d3e51044989a",
+  "candidateId": "mr_candidate_01a00223-5dcb-7ac0-bb82-7f1ab7b55539",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.339Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:897d8145066af924b20797ac1341bd47f70b4546f0d91aa3fc1027c0fe710c96",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-004",
+      "sourceUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+      "rawArtistName": "Hotline TNT",
+      "normalizedArtistName": "hotline tnt",
+      "spotifyArtistId": "5DDuwU1X2Aqdp3CxfXstRe",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

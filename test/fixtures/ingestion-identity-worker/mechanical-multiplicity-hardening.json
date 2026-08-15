@@ -1,0 +1,54 @@
+{
+  "kelelaMissingLegalName": {
+    "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+    "wikidataQid": "Q6386400",
+    "musicBrainzArtistId": "6e5e9ef3-1e02-4f28-9f36-fb8b62f5e54f",
+    "discogsRecords": {
+      "2200067": { "artist": { "discogsArtistId": "2200067", "name": "Kelela Mizanekristos", "realName": null, "aliases": [{ "discogsArtistId": "2884794", "name": "Kelela" }] } },
+      "2884794": { "artist": { "discogsArtistId": "2884794", "name": "Kelela", "realName": "Kelela Mizanekristos", "aliases": [{ "discogsArtistId": "2200067", "name": "Kelela Mizanekristos" }] } }
+    },
+    "expectedClosed": false,
+    "expectedReason": "discogs_alternates_have_missing_legal_name"
+  },
+  "weekndCompleteLegalName": {
+    "spotifyArtistId": "1Xyo4u8uXC1ZmMpatF05PJ",
+    "wikidataQid": "Q2121062",
+    "musicBrainzArtistId": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+    "discogsRecords": {
+      "2171152": { "artist": { "discogsArtistId": "2171152", "name": "The Weeknd", "realName": "Abel Makkonen Tesfaye", "aliases": [{ "discogsArtistId": "2838279", "name": "Abel Tesfaye" }] } },
+      "2838279": { "artist": { "discogsArtistId": "2838279", "name": "Abel Tesfaye", "realName": "Abel Makkonen Tesfaye", "aliases": [{ "discogsArtistId": "2171152", "name": "The Weeknd" }] } }
+    },
+    "expectedClosed": true
+  },
+  "doechiiCompleteLegalName": {
+    "spotifyArtistId": "4E2rKHVDssGJm2SCDOMMJB",
+    "wikidataQid": "Q116185511",
+    "musicBrainzArtistId": "e2253f63-3996-4a71-9358-0586ec31b5c5",
+    "discogsRecords": {
+      "11109506": { "artist": { "discogsArtistId": "11109506", "name": "Doechii", "realName": "Jaylah Ji'mya Hickmon", "aliases": [{ "discogsArtistId": "12006994", "name": "Jaylah Hickmon" }] } },
+      "12006994": { "artist": { "discogsArtistId": "12006994", "name": "Jaylah Hickmon", "realName": "Jaylah Ji'mya Hickmon", "aliases": [{ "discogsArtistId": "11109506", "name": "Doechii" }] } }
+    },
+    "expectedClosed": true
+  },
+  "jamieXxCompleteLegalName": {
+    "spotifyArtistId": "7A0awCXkE1FtSU8B0qwOJQ",
+    "wikidataQid": "Q1685676",
+    "musicBrainzArtistId": "a1b25e4b-6a6e-4f08-a91f-5f350311ddad",
+    "discogsRecords": {
+      "1545576": { "artist": { "discogsArtistId": "1545576", "name": "Jamie Smith", "realName": "James Thomas Smith", "aliases": [{ "discogsArtistId": "2109856", "name": "Jamie XX" }] } },
+      "2109856": { "artist": { "discogsArtistId": "2109856", "name": "Jamie XX", "realName": "James Thomas Smith", "aliases": [{ "discogsArtistId": "1545576", "name": "Jamie Smith" }] } }
+    },
+    "expectedClosed": true
+  },
+  "aliasGraphWithoutLegalNameEvidence": {
+    "spotifyArtistId": "0000000000000000000025",
+    "wikidataQid": "Q99999995",
+    "musicBrainzArtistId": "99999995-9999-4999-8999-999999999995",
+    "discogsRecords": {
+      "950001": { "artist": { "discogsArtistId": "950001", "name": "Fixture Stage Name", "realName": null, "aliases": [{ "discogsArtistId": "950002", "name": "Fixture Alternate" }] } },
+      "950002": { "artist": { "discogsArtistId": "950002", "name": "Fixture Alternate", "realName": null, "aliases": [{ "discogsArtistId": "950001", "name": "Fixture Stage Name" }] } }
+    },
+    "expectedClosed": false,
+    "expectedReason": "discogs_alternates_have_missing_legal_name"
+  }
+}

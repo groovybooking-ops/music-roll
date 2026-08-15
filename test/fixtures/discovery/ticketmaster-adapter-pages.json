@@ -1,0 +1,148 @@
+{
+  "exactSeeds": {
+    "mode": "exact_attraction_seeds",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:exact-seeds:page-0",
+        "attractionEvidenceRefs": { "K8vZTicketOnly": "fixture:ticketmaster:attraction:K8vZTicketOnly" },
+        "raw": {
+          "items": [
+            {
+              "sourceRecordId": "ticketmaster-seed/legacy-1850001",
+              "legacyAttractionId": "1850001",
+              "lookupMethod": "exact_legacy_page_bridge",
+              "attractionEvidenceRef": "fixture:ticketmaster:attraction:K8vZTicketOnly",
+              "attraction": {
+                "id": "K8vZTicketOnly",
+                "name": "Fixture Attraction",
+                "url": "https://www.ticketmaster.com/fixture-attraction/artist/1850001",
+                "classifications": [
+                  { "primary": true, "segment": { "id": "music", "name": "Music" }, "genre": { "id": "rnb", "name": "R&B" } }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "providerRediscovery": {
+    "mode": "event_attractions",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:event:provider-rediscovery",
+        "raw": {
+          "_embedded": {
+            "events": [
+              {
+                "id": "event-provider-rediscovery",
+                "name": "Fixture Attraction Live",
+                "url": "https://www.ticketmaster.com/event-provider-rediscovery",
+                "dates": { "start": { "localDate": "2026-10-01", "localTime": "20:00:00", "dateTime": "2026-10-02T00:00:00Z" } },
+                "_embedded": {
+                  "attractions": [{ "id": "K8vZTicketOnly", "name": "Fixture Attraction", "url": "https://www.ticketmaster.com/fixture-attraction/artist/1850001" }],
+                  "venues": [{ "id": "venue-repeat", "name": "Repeat Arena", "city": { "name": "New York" }, "state": { "stateCode": "NY" }, "country": { "countryCode": "US" }, "location": { "latitude": "40.7505", "longitude": "-73.9934" } }]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "multipleAttractions": {
+    "mode": "event_attractions",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:event:multi-attraction",
+        "attractionEvidenceRefs": {
+          "K8vZMultiOne": "fixture:ticketmaster:attraction:multi-one",
+          "K8vZMultiTwo": "fixture:ticketmaster:attraction:multi-two"
+        },
+        "raw": {
+          "_embedded": {
+            "events": [
+              {
+                "id": "event-multiple-attractions",
+                "name": "Two Explicit Artists",
+                "url": "https://www.ticketmaster.com/event-multiple-attractions",
+                "dates": { "start": { "localDate": "2026-11-01", "localTime": "19:30:00", "dateTime": "2026-11-01T23:30:00Z" } },
+                "classifications": [{ "primary": true, "segment": { "id": "music", "name": "Music" }, "genre": { "id": "pop", "name": "Pop" } }],
+                "_embedded": {
+                  "attractions": [
+                    { "id": "K8vZMultiOne", "name": "Explicit Artist One", "url": "https://www.ticketmaster.com/explicit-one", "classifications": [{ "primary": true, "segment": { "id": "music", "name": "Music" } }] },
+                    { "id": "K8vZMultiTwo", "name": "Explicit Artist Two", "url": "https://www.ticketmaster.com/explicit-two" }
+                  ],
+                  "venues": [{ "id": "venue-multi", "name": "Fixture Hall", "city": { "name": "Brooklyn" }, "state": { "stateCode": "NY" }, "country": { "countryCode": "US" }, "location": { "latitude": "40.6782", "longitude": "-73.9442" } }]
+                }
+              },
+              {
+                "id": "event-title-only",
+                "name": "Title That Looks Like An Artist",
+                "url": "https://www.ticketmaster.com/event-title-only",
+                "dates": { "start": { "localDate": "2026-11-02" } },
+                "_embedded": { "venues": [{ "id": "venue-title-only", "name": "Title Hall" }] }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "explicitSpotifyBridge": {
+    "mode": "event_attractions",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:event:explicit-bridge",
+        "exactIdentityBridgesByAttractionId": {
+          "K8vZBridgeAlpha": [
+            { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "1111111111111111111111", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:ticketmaster:spotify-bridge:alpha" }
+          ]
+        },
+        "raw": {
+          "_embedded": {
+            "events": [
+              { "id": "event-bridge-alpha", "name": "Artist Alpha Live", "_embedded": { "attractions": [{ "id": "K8vZBridgeAlpha", "name": "Artist Alpha" }] } }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "sameNameNoBridge": {
+    "mode": "event_attractions",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:event:same-name-no-bridge",
+        "raw": {
+          "_embedded": {
+            "events": [
+              { "id": "event-same-name", "name": "Artist Alpha Live", "_embedded": { "attractions": [{ "id": "K8vZSameName", "name": "Artist Alpha" }] } }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "incompatibleBridges": {
+    "mode": "event_attractions",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:ticketmaster:event:incompatible-bridges",
+        "exactIdentityBridgesByAttractionId": {
+          "K8vZAmbiguous": [
+            { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "1111111111111111111111", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:ticketmaster:ambiguous:one" },
+            { "targetProvider": "spotify", "targetEntityType": "artist", "targetId": "2222222222222222222222", "relationshipType": "explicit_provider_relationship", "assertedByProvider": "ticketmaster", "evidenceRef": "fixture:ticketmaster:ambiguous:two" }
+          ]
+        },
+        "raw": {
+          "_embedded": {
+            "events": [
+              { "id": "event-ambiguous", "name": "Ambiguous Attraction", "_embedded": { "attractions": [{ "id": "K8vZAmbiguous", "name": "Ambiguous Attraction" }] } }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

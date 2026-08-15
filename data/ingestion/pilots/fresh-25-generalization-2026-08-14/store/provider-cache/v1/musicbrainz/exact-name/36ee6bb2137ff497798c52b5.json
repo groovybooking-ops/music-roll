@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "36ee6bb2137ff497798c52b5",
+  "retrievedAt": "2026-08-14T21:45:24.218Z",
+  "value": {
+    "requestedName": "Doechii",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+        "name": "Doechii",
+        "sortName": "Doechii",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "US rapper",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:45:24.193Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "9f75277c-b283-4846-ac8c-f932255cd0ac",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Doechii",
+          "sort-name": "Doechii",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "ff21865c-ce46-4417-967c-a3d2d02d29bf",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Tampa",
+            "sort-name": "Tampa",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US rapper",
+          "ipis": [
+            "00372986904",
+            "01122682875"
+          ],
+          "isnis": [
+            "0000000507050593"
+          ],
+          "life-span": {
+            "begin": "1998-08-14",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "도이치",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "도이치",
+              "locale": "ko",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Iamdoechii",
+              "name": "Iamdoechii",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Hickmon, Jaylah Ji'mya",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Jaylah Ji'mya Hickmon",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rnb"
+            },
+            {
+              "count": 3,
+              "name": "pop rap"
+            },
+            {
+              "count": 1,
+              "name": "2020s"
+            },
+            {
+              "count": 1,
+              "name": "gen z"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

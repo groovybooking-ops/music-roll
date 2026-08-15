@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31e6-7a19-8b52-fc684dd1ea11",
+  "candidateId": "mr_candidate_01a0023b-31e6-7435-9a1b-7c455fb0271b",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.966Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:8c2b1bc8c726e619ff71885992002beacd5f3092621387b55010316bbd1ed96c",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-021",
+      "sourceUrl": "https://open.spotify.com/artist/7A0awCXkE1FtSU8B0qwOJQ",
+      "rawArtistName": "Jamie xx",
+      "normalizedArtistName": "jamie xx",
+      "spotifyArtistId": "7A0awCXkE1FtSU8B0qwOJQ",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7A0awCXkE1FtSU8B0qwOJQ",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

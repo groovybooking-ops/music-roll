@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "schemaVersion": 1,
+    "coordinatorVersion": "scheduled_discovery_coordinator_v1",
+    "providers": {
+      "spotify": {
+        "adapterId": "spotify_live_bounded_discovery_v1",
+        "enabled": true,
+        "sourceSet": "fixture-spotify-rotation-a"
+      },
+      "ticketmaster": {
+        "adapterId": "ticketmaster_live_bounded_discovery_v1",
+        "enabled": true,
+        "marketSet": "fixture-ticketmaster-market-a"
+      }
+    },
+    "workers": {
+      "stage3": true,
+      "identityDiscovery": true
+    }
+  },
+  "budgets": {
+    "providers": {
+      "spotify": {
+        "maxRequests": 6,
+        "maxPages": 2,
+        "maxNormalizedOccurrences": 15,
+        "maxNewCandidates": 8
+      },
+      "ticketmaster": {
+        "maxRequests": 6,
+        "maxPages": 2,
+        "maxNormalizedOccurrences": 15,
+        "maxNewCandidates": 7
+      }
+    },
+    "workers": {
+      "stage3Candidates": 5,
+      "identityDiscoveryCandidates": 3
+    },
+    "queueHighWaterMarks": {
+      "identity_pending": 50,
+      "identity_discovery_pending": 25,
+      "retry_wait": 25,
+      "needs_review": 100
+    }
+  }
+}

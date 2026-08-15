@@ -1,0 +1,1590 @@
+{
+  "evidenceId": "sha256:30c5865ec7d0ad99568de5711733521f8ffe64a7935feb11cb1fdf8cda7735bf",
+  "createdAt": "2026-08-14T21:18:48.744Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dcc-78a1-b2df-0f090996243d",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Frankie Knuckles",
+        "spotifyArtistId": "63yl9nDNrHpiAYGlNJxxjc"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63yl9nDNrHpiAYGlNJxxjc",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63yl9nDNrHpiAYGlNJxxjc",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q205322",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2447",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "29075",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2447",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63yl9nDNrHpiAYGlNJxxjc",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q205322",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "29075",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "06SAdf9QB0xFf5BicN99SV",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q205322",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2447",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2447"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "29075",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "29075"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "63yl9nDNrHpiAYGlNJxxjc",
+            "06SAdf9QB0xFf5BicN99SV"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "63yl9nDNrHpiAYGlNJxxjc",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "63yl9nDNrHpiAYGlNJxxjc",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "63yl9nDNrHpiAYGlNJxxjc",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "06SAdf9QB0xFf5BicN99SV",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q205322",
+          "observedValues": [
+            "Q205322"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q205322",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q205322",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q205322",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+            "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "2447",
+            "29075"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2447",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "29075",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2447",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "29075",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2447",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2447"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "29075",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "29075"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "63yl9nDNrHpiAYGlNJxxjc",
+            "06SAdf9QB0xFf5BicN99SV"
+          ]
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+            "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "2447",
+            "29075"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": [
+              "unexplained_multiple_discogs_ids",
+              "unexplained_multiple_musicbrainz_ids"
+            ]
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+            "right": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1987,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 1987,
+                "latestYear": 1989
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false
+      },
+      "missingEvidence": [
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a": {
+          "artist": {
+            "musicBrainzArtistId": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+            "name": "Frankie Knuckles",
+            "sortName": "Knuckles, Frankie",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+              "name": "The Bronx",
+              "sortName": "The Bronx",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1955-01-18",
+              "end": "2014-03-31",
+              "ended": true
+            },
+            "aliases": [],
+            "isni": [
+              "0000000078399008"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000793821"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2447"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/63yl9nDNrHpiAYGlNJxxjc"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/531679"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Frankie_Knuckles_@_ADE_2012.jpg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm1181633/"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/legendaryfrankieknuckles"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/n92002910"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb13978481f"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/134951387"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/frankie_knuckles"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Frankie-Knuckles/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-n92-002910"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/artist/id4325666"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/frankie-knuckles/1625"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/FKAlways"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/555530"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/4325666"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/3546279"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/120113923"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q205322"
+              }
+            ]
+          },
+          "raw": {
+            "end-area": {
+              "sort-name": "Chicago",
+              "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+              "name": "Chicago",
+              "disambiguation": "",
+              "type-id": null,
+              "type": null
+            },
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "aliases": [],
+            "gender": "Male",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "country": "US",
+            "area": {
+              "sort-name": "United States",
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "disambiguation": "",
+              "type": null,
+              "type-id": null
+            },
+            "begin-area": {
+              "name": "The Bronx",
+              "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+              "sort-name": "The Bronx",
+              "type": null,
+              "type-id": null,
+              "disambiguation": ""
+            },
+            "life-span": {
+              "begin": "1955-01-18",
+              "end": "2014-03-31",
+              "ended": true
+            },
+            "relations": [
+              {
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "5cf8755d-f12c-4750-88e6-a0993c177339",
+                  "resource": "https://www.allmusic.com/artist/mn0000793821"
+                },
+                "type": "allmusic",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "type": "BBC Music page",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+                  "id": "2e21e406-694e-4a7b-8ae9-22d97e840a29"
+                },
+                "ended": true,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "end": "2020-11-19",
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "discogs",
+                "url": {
+                  "id": "d1903292-0690-4392-9589-337d0009bf32",
+                  "resource": "https://www.discogs.com/artist/2447"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "dc7c263b-e553-46ee-86c2-f69ac0d95e03",
+                  "resource": "https://open.spotify.com/artist/63yl9nDNrHpiAYGlNJxxjc"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/531679",
+                  "id": "c7a299c8-7db6-4e68-813c-ffe752f2b4cd"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming"
+              },
+              {
+                "type": "image",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Frankie_Knuckles_@_ADE_2012.jpg",
+                  "id": "fa8bc804-fcbc-4e42-a15e-67b100989119"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "type": "IMDb",
+                "source-credit": "",
+                "url": {
+                  "id": "18cec62e-59f6-42bc-bf30-19699827614d",
+                  "resource": "https://www.imdb.com/name/nm1181633/"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "myspace",
+                "source-credit": "",
+                "url": {
+                  "id": "97791d11-ea75-449d-b17e-62ef1a32969b",
+                  "resource": "https://myspace.com/legendaryfrankieknuckles"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "d9cbee75-5a06-41e6-9222-87f332b350a5",
+                  "resource": "http://id.loc.gov/authorities/names/n92002910"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "type": "other databases",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb13978481f",
+                  "id": "d83ea2de-ded0-4a95-817e-b151b7fddd84"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://d-nb.info/gnd/134951387",
+                  "id": "8a3a6555-5a7f-4f68-83d8-f910546a3c0f"
+                },
+                "type": "other databases",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "55bc255d-478e-4960-93be-fef1bed6aaa7",
+                  "resource": "https://rateyourmusic.com/artist/frankie_knuckles"
+                },
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.whosampled.com/Frankie-Knuckles/",
+                  "id": "d48fcb8f-5e31-448f-8051-1079394aa5a7"
+                },
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "79dc2f62-60d9-47d4-b219-e81c1208127c",
+                  "resource": "https://www.worldcat.org/identities/lccn-n92-002910"
+                },
+                "type": "other databases"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "131ea328-8622-4e10-8884-fb4f6b4d44fa",
+                  "resource": "https://itunes.apple.com/artist/id4325666"
+                },
+                "type": "purchase for download",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "url": {
+                  "resource": "https://www.beatport.com/artist/frankie-knuckles/1625",
+                  "id": "dfe43db7-3fe3-4b42-a99c-ba3aec725165"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "type": "social network",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://twitter.com/FKAlways",
+                  "id": "1483747f-5af7-4921-a785-4ea99cb79048"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "type": "songkick",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "259d13d8-96cd-4fa9-b13e-9ce62cc2e7f8",
+                  "resource": "https://www.songkick.com/artists/555530"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/4325666",
+                  "id": "618ae084-d46f-4f07-8aa3-08946d9c5841"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "a61805ee-7c12-4e21-af0c-12a7088f5708",
+                  "resource": "https://tidal.com/artist/3546279"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "VIAF",
+                "source-credit": "",
+                "url": {
+                  "id": "9ab6d128-e564-40c7-a7a6-3070037dc229",
+                  "resource": "http://viaf.org/viaf/120113923"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "wikidata",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q205322",
+                  "id": "b29d053e-38bc-4402-b1f4-b28e4164acf9"
+                }
+              }
+            ],
+            "isnis": [
+              "0000000078399008"
+            ],
+            "disambiguation": "",
+            "type": "Person",
+            "sort-name": "Knuckles, Frankie",
+            "ipis": [
+              "00128379062"
+            ],
+            "name": "Frankie Knuckles",
+            "id": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a"
+          }
+        },
+        "7751b2dd-1b49-428f-8a00-026c0d0e221b": {
+          "artist": {
+            "musicBrainzArtistId": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+            "name": "The Night Writers",
+            "sortName": "Night Writers, The",
+            "artistType": "Person",
+            "disambiguation": "aka Frankie Knuckles, house",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+              "name": "The Bronx",
+              "sortName": "The Bronx",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1955-01-18",
+              "end": "2014-03-31",
+              "ended": true
+            },
+            "aliases": [
+              {
+                "name": "Nightwriters",
+                "sortName": "Nightwriters",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "The Nightriders",
+                "sortName": "The Nightriders",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "The Nightwriters",
+                "sortName": "The Nightwriters",
+                "type": null,
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/29075"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/06SAdf9QB0xFf5BicN99SV"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/the_night_writers"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q205322"
+              }
+            ]
+          },
+          "raw": {
+            "end-area": {
+              "type": null,
+              "type-id": null,
+              "disambiguation": "",
+              "name": "Chicago",
+              "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+              "sort-name": "Chicago"
+            },
+            "aliases": [
+              {
+                "type": null,
+                "locale": null,
+                "type-id": null,
+                "primary": null,
+                "end": null,
+                "name": "Nightwriters",
+                "ended": false,
+                "sort-name": "Nightwriters",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "name": "The Nightriders",
+                "sort-name": "The Nightriders",
+                "begin": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "primary": null,
+                "type": "Search hint",
+                "locale": null,
+                "end": null
+              },
+              {
+                "name": "The Nightwriters",
+                "ended": false,
+                "begin": null,
+                "sort-name": "The Nightwriters",
+                "locale": null,
+                "type": null,
+                "primary": null,
+                "type-id": null,
+                "end": null
+              }
+            ],
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Male",
+            "country": "US",
+            "area": {
+              "type": null,
+              "type-id": null,
+              "disambiguation": "",
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "sort-name": "United States"
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "type": null,
+              "type-id": null,
+              "sort-name": "The Bronx",
+              "name": "The Bronx",
+              "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e"
+            },
+            "life-span": {
+              "ended": true,
+              "begin": "1955-01-18",
+              "end": "2014-03-31"
+            },
+            "relations": [
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "discogs",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/29075",
+                  "id": "758b3b24-00d5-45c2-b0d3-14b02fea6f47"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/06SAdf9QB0xFf5BicN99SV",
+                  "id": "be997c46-85db-4281-ac4f-eb8b13d24185"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/the_night_writers",
+                  "id": "7533e682-b6a0-4817-9f6a-b1afee4093cc"
+                },
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "wikidata",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q205322",
+                  "id": "b29d053e-38bc-4402-b1f4-b28e4164acf9"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null
+              }
+            ],
+            "isnis": [],
+            "disambiguation": "aka Frankie Knuckles, house",
+            "type": "Person",
+            "sort-name": "Night Writers, The",
+            "ipis": [],
+            "name": "The Night Writers",
+            "id": "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+          }
+        }
+      },
+      "discogsRecords": {
+        "2447": {
+          "artist": {
+            "discogsArtistId": "2447",
+            "name": "Frankie Knuckles",
+            "realName": "Francis Nicholls",
+            "profile": "American DJ, record producer and remixer, born 18 January 1955 in South Bronx, New York City, died 31 March 2014 in Chicago, Illinois, due to complications from diabetes.\r\n\r\nKnuckles was the DJ at the Warehouse nightclub in Chicago from 1977 to 1982. It is widely accepted that his style of DJing and his selection and the appeal of the Warehouse gave house music its name, although in the beginning, the word 'house' was used only in Chicago to denote something which was cool, hip, fresh or bad. Knuckles had been long time friends with [a=Larry Levan], they had had their musical upbringing together from going to clubs like Loft and the Gallery.\r\n\r\nDue to his importance in the development of house, Knuckles was often known as \"The Godfather of House Music\", and as such the city of Chicago named a stretch of street and a day after Knuckles in 2004. His accomplishments earned him a Grammy Award in 1997. As well, Knuckles was inducted into the Dance Music Hall of Fame for his achievements in 2005. He founded his own label [l=Noice! Music] in 2006.\r\n\r\nKnuckles' record collection was preserved, catalogued and made publicly accessible in 2015 by the Stony Island Arts Bank in Chicago following his death at the age of 59 the previous year.\r\n\r\nSee [l=FKF] for the Frankie Knuckles Foundation, a not-for-profit organization established in his memory.",
+            "artistUrls": [
+              "http://www.facebook.com/frankie.knuckles.7",
+              "http://soundcloud.com/fkalways",
+              "http://twitter.com/FKAlways",
+              "http://en.wikipedia.org/wiki/Frankie_Knuckles",
+              "http://www.youtube.com/fkdefinitely"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "\"Master Of House\" Frankie",
+              "\"The Godfather Of House\" DJ Frankie Knuckles",
+              "F Knuckles",
+              "F. Knockles",
+              "F. Knuckles",
+              "F.Knuckles",
+              "FK",
+              "Franckie Knuckles",
+              "Frank Knuckles",
+              "Franki Knuckles",
+              "Frankie",
+              "Frankie K",
+              "Frankie Knuckels",
+              "Frankie Knuckle",
+              "Frankie Knuckle's",
+              "Frankie Knuckless",
+              "Frankie Knucklles",
+              "Frankie Knucles",
+              "Frankie Knukles",
+              "Frankie Nuckles",
+              "Franky Knuckles",
+              "Frankye Knuckles",
+              "K. Knuckles",
+              "Knuckle's",
+              "Knuckles"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2447",
+            "discogsWebUrl": "https://www.discogs.com/artist/2447-Frankie-Knuckles",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Frankie Knuckles",
+            "id": 2447,
+            "resource_url": "https://api.discogs.com/artists/2447",
+            "uri": "https://www.discogs.com/artist/2447-Frankie-Knuckles",
+            "releases_url": "https://api.discogs.com/artists/2447/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/JO1lyVJTNWSQVWEbcPUxw6vF-4zi5xdrsYUDYl686mM/rs:fit/g:sm/q:90/h:728/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTkzNi0y/OTM5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/JO1lyVJTNWSQVWEbcPUxw6vF-4zi5xdrsYUDYl686mM/rs:fit/g:sm/q:90/h:728/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTkzNi0y/OTM5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/1y1vlfWUXJqx32VdgMjC7IR8_XpbatGO-5yLK-w02T0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTkzNi0y/OTM5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 728
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/hOQTUaF5MfC32JsGyWQPNRBoI04SjUfiUBoDeNHMvGw/rs:fit/g:sm/q:90/h:455/w:392/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTgxMy0z/NDMxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/hOQTUaF5MfC32JsGyWQPNRBoI04SjUfiUBoDeNHMvGw/rs:fit/g:sm/q:90/h:455/w:392/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTgxMy0z/NDMxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tDIgWyg4YcptFYasFix7O7HTVC5SXSoNfen6N_Bcwhc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTUxMTg5OTgxMy0z/NDMxLmpwZWc.jpeg",
+                "width": 392,
+                "height": 455
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/T17qSuhhifhh6cRdNn-l6TZR5hfey3odpsUVM56zngM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTQwNTUxMzM5My00/NDMyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/T17qSuhhifhh6cRdNn-l6TZR5hfey3odpsUVM56zngM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTQwNTUxMzM5My00/NDMyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/cKBzxO5PBA9YtWhQ_7ZJ267f7cHaHbB4oXS24g01Nac/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTQwNTUxMzM5My00/NDMyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 597
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/LuJrTPV0AJn5_KeYc28FIsj7tOl3sSdjc_RRFYlu54c/rs:fit/g:sm/q:90/h:600/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI2OC0y/Mzk0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/LuJrTPV0AJn5_KeYc28FIsj7tOl3sSdjc_RRFYlu54c/rs:fit/g:sm/q:90/h:600/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI2OC0y/Mzk0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/H2Zot1SJWYRS0sZPdrqAtqHwzoAXgiPtWKHFthPEa8s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI2OC0y/Mzk0LmpwZWc.jpeg",
+                "width": 498,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_WycbsvWuNxtcLgzSFWsvNHgq7XT7qRcQwTsxJl77JE/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI3Ni04/MDc4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/_WycbsvWuNxtcLgzSFWsvNHgq7XT7qRcQwTsxJl77JE/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI3Ni04/MDc4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/hsCPh63qXjvdEhW2o5bR19M_JSW97rJ-CbcmZx3x8NE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTM5NjQ0NjI3Ni04/MDc4LmpwZWc.jpeg",
+                "width": 450,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/lRXbEbqLoGhqAY6snaWBI5yvzDTsxFVldm-iVO_nDE4/rs:fit/g:sm/q:90/h:913/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTIwNDkwNDQxOC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/lRXbEbqLoGhqAY6snaWBI5yvzDTsxFVldm-iVO_nDE4/rs:fit/g:sm/q:90/h:913/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTIwNDkwNDQxOC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/0eQK5IFfodjH-7PYSAqUs9aghjF2fFQLp4iltGRCmQ0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTIwNDkwNDQxOC5q/cGVn.jpeg",
+                "width": 600,
+                "height": 913
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/dKVmceIVmVAUhBuTO34u88eqLoQpaTdW98ndaZXmPk8/rs:fit/g:sm/q:90/h:172/w:166/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTEwNDE3NDk1MC5q/cGc.jpeg",
+                "resource_url": "https://i.discogs.com/dKVmceIVmVAUhBuTO34u88eqLoQpaTdW98ndaZXmPk8/rs:fit/g:sm/q:90/h:172/w:166/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTEwNDE3NDk1MC5q/cGc.jpeg",
+                "uri150": "https://i.discogs.com/FC4DPOzhR1vXLiRA_vLB1tauZrQvdAY7hc2Qe1o6MzA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTEwNDE3NDk1MC5q/cGc.jpeg",
+                "width": 166,
+                "height": 172
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/EvEFlk-A8JcYtNo9Ajhr9x5zeFSoHl_Ma7CcJftJCm4/rs:fit/g:sm/q:90/h:640/w:426/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDEzNS5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/EvEFlk-A8JcYtNo9Ajhr9x5zeFSoHl_Ma7CcJftJCm4/rs:fit/g:sm/q:90/h:640/w:426/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDEzNS5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/0PQ2aYX_PmpzXQbXLroJG-FwdAdNOyXBWC1WiSaBFoY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDEzNS5q/cGVn.jpeg",
+                "width": 426,
+                "height": 640
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/44UeqQP9h6bXGJj5B5mn-v0gK6JRxood0aCbL60YR-s/rs:fit/g:sm/q:90/h:640/w:426/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDQyNi5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/44UeqQP9h6bXGJj5B5mn-v0gK6JRxood0aCbL60YR-s/rs:fit/g:sm/q:90/h:640/w:426/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDQyNi5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/vB8EjjS6U4StRsvvMmyFbosGxxYvxa2R-03niwZc5FM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MTE3MTE1NDQyNi5q/cGVn.jpeg",
+                "width": 426,
+                "height": 640
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/p63P7GY0i7pmjzCTzJp7YEHzupJHuV98TWAtYI-S-fU/rs:fit/g:sm/q:90/h:379/w:289/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MDAxLmpwZw.jpeg",
+                "resource_url": "https://i.discogs.com/p63P7GY0i7pmjzCTzJp7YEHzupJHuV98TWAtYI-S-fU/rs:fit/g:sm/q:90/h:379/w:289/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MDAxLmpwZw.jpeg",
+                "uri150": "https://i.discogs.com/WWjS2OCatczo2UtNy1IiywdZWdrHDOuG9UGgSDN8Yp4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0NDct/MDAxLmpwZw.jpeg",
+                "width": 289,
+                "height": 379
+              }
+            ],
+            "realname": "Francis Nicholls",
+            "profile": "American DJ, record producer and remixer, born 18 January 1955 in South Bronx, New York City, died 31 March 2014 in Chicago, Illinois, due to complications from diabetes.\r\n\r\nKnuckles was the DJ at the Warehouse nightclub in Chicago from 1977 to 1982. It is widely accepted that his style of DJing and his selection and the appeal of the Warehouse gave house music its name, although in the beginning, the word 'house' was used only in Chicago to denote something which was cool, hip, fresh or bad. Knuckles had been long time friends with [a=Larry Levan], they had had their musical upbringing together from going to clubs like Loft and the Gallery.\r\n\r\nDue to his importance in the development of house, Knuckles was often known as \"The Godfather of House Music\", and as such the city of Chicago named a stretch of street and a day after Knuckles in 2004. His accomplishments earned him a Grammy Award in 1997. As well, Knuckles was inducted into the Dance Music Hall of Fame for his achievements in 2005. He founded his own label [l=Noice! Music] in 2006.\r\n\r\nKnuckles' record collection was preserved, catalogued and made publicly accessible in 2015 by the Stony Island Arts Bank in Chicago following his death at the age of 59 the previous year.\r\n\r\nSee [l=FKF] for the Frankie Knuckles Foundation, a not-for-profit organization established in his memory.",
+            "urls": [
+              "http://www.facebook.com/frankie.knuckles.7",
+              "http://soundcloud.com/fkalways",
+              "http://twitter.com/FKAlways",
+              "http://en.wikipedia.org/wiki/Frankie_Knuckles",
+              "http://www.youtube.com/fkdefinitely"
+            ],
+            "namevariations": [
+              "\"Master Of House\" Frankie",
+              "\"The Godfather Of House\" DJ Frankie Knuckles",
+              "F Knuckles",
+              "F. Knockles",
+              "F. Knuckles",
+              "F.Knuckles",
+              "FK",
+              "Franckie Knuckles",
+              "Frank Knuckles",
+              "Franki Knuckles",
+              "Frankie",
+              "Frankie K",
+              "Frankie Knuckels",
+              "Frankie Knuckle",
+              "Frankie Knuckle's",
+              "Frankie Knuckless",
+              "Frankie Knucklles",
+              "Frankie Knucles",
+              "Frankie Knukles",
+              "Frankie Nuckles",
+              "Franky Knuckles",
+              "Frankye Knuckles",
+              "K. Knuckles",
+              "Knuckle's",
+              "Knuckles"
+            ],
+            "groups": [
+              {
+                "id": 1558482,
+                "name": "Director's Cut (3)",
+                "resource_url": "https://api.discogs.com/artists/1558482",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "29075": {
+          "artist": {
+            "discogsArtistId": "29075",
+            "name": "The Night Writers",
+            "realName": "Frankie Knuckles",
+            "profile": "Collaboration between Chicago house songwriters and producers [a=Riley Evans] (aka [a=Henry Watson]) and [a=Jere McAllister] (aka [a=Alan Walker]).\r\nWhile false names were used on the original 1987 release, they were correctly credited on subsequent reissues e.g. [r161367].\r\nEvans released two records as [a=The Knight Writers] in 1989 and 1990, before his death in 1991, while McAllister used the alias [a=Nitewriterz] in 1997.\r\n[l=Trax Records] released a new version of Let The Music (Use You) by McAllister and vocalist [a=Reggie Hall] on the B-side to [r=393262] in 2004.\r\nLet The Music (Use You) and its follow up, Over You, were famously produced and mixed by [a=Frankie Knuckles], hence why The Night Writers is often referred to as a Knuckles alias.\r\n[a=Ricky Dillard], the vocalist on the original version of Let The Music (Use You), released an album of the same name in 1989 ([m=7214]), with more tracks written by Evans and McAllister.",
+            "artistUrls": [],
+            "aliases": [],
+            "nameVariations": [
+              "Knight Riders",
+              "Night Writers",
+              "Nightwriters",
+              "The Nightriders",
+              "The Nightwriters"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/29075",
+            "discogsWebUrl": "https://www.discogs.com/artist/29075-The-Night-Writers",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "The Night Writers",
+            "id": 29075,
+            "resource_url": "https://api.discogs.com/artists/29075",
+            "uri": "https://www.discogs.com/artist/29075-The-Night-Writers",
+            "releases_url": "https://api.discogs.com/artists/29075/releases",
+            "realname": "Frankie Knuckles",
+            "profile": "Collaboration between Chicago house songwriters and producers [a=Riley Evans] (aka [a=Henry Watson]) and [a=Jere McAllister] (aka [a=Alan Walker]).\r\nWhile false names were used on the original 1987 release, they were correctly credited on subsequent reissues e.g. [r161367].\r\nEvans released two records as [a=The Knight Writers] in 1989 and 1990, before his death in 1991, while McAllister used the alias [a=Nitewriterz] in 1997.\r\n[l=Trax Records] released a new version of Let The Music (Use You) by McAllister and vocalist [a=Reggie Hall] on the B-side to [r=393262] in 2004.\r\nLet The Music (Use You) and its follow up, Over You, were famously produced and mixed by [a=Frankie Knuckles], hence why The Night Writers is often referred to as a Knuckles alias.\r\n[a=Ricky Dillard], the vocalist on the original version of Let The Music (Use You), released an album of the same name in 1989 ([m=7214]), with more tracks written by Evans and McAllister.",
+            "namevariations": [
+              "Knight Riders",
+              "Night Writers",
+              "Nightwriters",
+              "The Nightriders",
+              "The Nightwriters"
+            ],
+            "members": [
+              {
+                "id": 28314,
+                "name": "Jere McAllister",
+                "resource_url": "https://api.discogs.com/artists/28314",
+                "active": true
+              },
+              {
+                "id": 29089,
+                "name": "Riley Evans",
+                "resource_url": "https://api.discogs.com/artists/29089",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a": {
+          "releaseCount": 68,
+          "distinctiveTitles": [
+            "too many fish",
+            "carefree i am a star rocky s edit",
+            "frankie knuckles presents his greatest hits from trax records",
+            "i ll take you there",
+            "rain falls workout",
+            "the mixes frankie knuckles at the hacienda albert hall dec 31 2013",
+            "johnny come home frankie knuckles remix",
+            "dubj s d light a remixed reality",
+            "beyond the mix",
+            "ultimate production",
+            "it s hard sometime",
+            "four most cuts presents frankie knuckles vs mr fingers",
+            "the godfather of house music",
+            "love can change it walkin",
+            "united djs of the world",
+            "2015 04 04 bbc radio 1 essential mix",
+            "motivation too",
+            "tears",
+            "the whistle song",
+            "2001 07 01 bbc radio 1 essential mix",
+            "rain falls",
+            "a new reality",
+            "the whistle song cinthie remix",
+            "j jack to the lost chicago reels",
+            "move your body 90 remix",
+            "house masters frankie knuckles",
+            "you can t hide from yourself chip e s house remix",
+            "1999 09 05 bbc radio 1 essential mix back2basics",
+            "2007 03 23 bbc radio 1 essential mix radio one pool party wmc",
+            "welcome to the real world",
+            "bac n da day",
+            "defected presents frankie knuckles in the house",
+            "it s a cold world",
+            "baby wants to ride your love",
+            "workout",
+            "2000 09 17 bbc radio 1 essential mix pacha ibiza",
+            "boiler room frankie knuckles in new york apr 4 2013",
+            "gimme gimme disco shimmy",
+            "gimme gimme disco shimmy the whistle song revisited",
+            "ra 1000 frankie knuckles",
+            "your love you got the love remix",
+            "sessions 6",
+            "baby wants to ride acidulant tribute edit",
+            "passion and pain",
+            "live at ministry of sound 1991",
+            "only the strong survive",
+            "tales from beyond the tone arm",
+            "united djs of america volume 4 david morales frankie knuckles",
+            "the ones you love dj meme remix",
+            "keep on movin",
+            "xlr8r podcast 336 frankie knuckles",
+            "frankie knuckles presents music selected and edited by ron hardy",
+            "motivation",
+            "boiler room frankie knuckles in london sep 18 2013",
+            "choice a collection of classics",
+            "best of frankie knuckles",
+            "whadda u want from me",
+            "matter of time",
+            "the whistle song re directed",
+            "your love",
+            "the director s cut collection"
+          ],
+          "earliestYear": 1987,
+          "latestYear": 2026
+        },
+        "7751b2dd-1b49-428f-8a00-026c0d0e221b": {
+          "releaseCount": 2,
+          "distinctiveTitles": [
+            "over you",
+            "let the music use you"
+          ],
+          "earliestYear": 1987,
+          "latestYear": 1989
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "63yl9nDNrHpiAYGlNJxxjc",
+        "wikidataQid": "Q205322",
+        "name": "Frankie Knuckles",
+        "musicBrainzArtistId": null,
+        "discogsArtistId": null,
+        "musicBrainzArtistIds": [
+          "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+          "7751b2dd-1b49-428f-8a00-026c0d0e221b"
+        ],
+        "discogsArtistIds": [
+          "2447",
+          "29075"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "63yl9nDNrHpiAYGlNJxxjc",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q205322",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7751b2dd-1b49-428f-8a00-026c0d0e221b",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2447",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "29075",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/2447.json",
+    "provider-cache/v1/discogs/artist/29075.json",
+    "provider-cache/v1/musicbrainz/artist/7751b2dd-1b49-428f-8a00-026c0d0e221b.json",
+    "provider-cache/v1/musicbrainz/artist/b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a.json",
+    "provider-cache/v1/musicbrainz/release-groups/7751b2dd-1b49-428f-8a00-026c0d0e221b.json",
+    "provider-cache/v1/musicbrainz/release-groups/b7a98e65-7ce4-4fab-8cf3-6b3ccda6115a.json",
+    "provider-cache/v1/wikidata/spotify-bridge/63yl9nDNrHpiAYGlNJxxjc.json"
+  ]
+}

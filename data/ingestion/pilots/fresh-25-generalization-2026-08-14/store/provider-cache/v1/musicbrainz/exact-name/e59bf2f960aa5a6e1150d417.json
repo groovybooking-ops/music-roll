@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "e59bf2f960aa5a6e1150d417",
+  "retrievedAt": "2026-08-14T21:45:51.426Z",
+  "value": {
+    "requestedName": "Kelela",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+        "name": "Kelela",
+        "sortName": "Kelela",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": "US | R&B",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:45:51.400Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Kelela",
+          "sort-name": "Kelela",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Washington, D.C.",
+            "sort-name": "Washington, D.C.",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "US | R&B",
+          "ipis": [
+            "00632762448"
+          ],
+          "isnis": [
+            "0000000407756249"
+          ],
+          "life-span": {
+            "begin": "1983-06-06",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Ke󠀱le󠀱la",
+              "name": "Ke󠀱le󠀱la",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Kelela",
+              "name": "Kelela",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "ከለላ",
+              "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+              "name": "ከለላ",
+              "locale": "am",
+              "type": "Artist name",
+              "primary": true,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Mizanekristos, Kelela",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Kelela Mizanekristos",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "grime"
+            },
+            {
+              "count": 1,
+              "name": "r & b"
+            },
+            {
+              "count": 1,
+              "name": "alternative r&b"
+            },
+            {
+              "count": 2,
+              "name": "pbr&b"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

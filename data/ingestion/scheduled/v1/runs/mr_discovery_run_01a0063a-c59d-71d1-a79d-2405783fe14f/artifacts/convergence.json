@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+  "createdAt": "2026-08-15T16:21:51.083Z",
+  "queueBefore": {
+    "total": 0,
+    "byState": {}
+  },
+  "queueAfter": {
+    "total": 5,
+    "byState": {
+      "identity_discovery_pending": 1,
+      "identity_pending": 4
+    }
+  },
+  "queueGrowth": 5,
+  "createdByProvider": {
+    "spotify": 4,
+    "ticketmaster": 1
+  },
+  "results": [
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:7e0a2be62e858279c00247c7008b9fa7c1c941b9b31faa070a52613f1ada5b1a",
+      "artistName": "Björk",
+      "providerEntityId": "7w29UYBi0qsHi5RTcv3lmA",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:e7383ccadca5e1e601da8df4f97cb886dd99a246704213292a9cec62129c46fd",
+      "artistName": "The Sugarcubes",
+      "providerEntityId": "1G0Xwj8mza6b03iYkVdzDP",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e",
+      "artistName": "Fiona Apple",
+      "providerEntityId": "3g2kUQ6tHLLbmkV7T4GPtL",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:a9394371fd7a9dc4825c9e200231ce3d9c7dadba07291e4f0ea18b03b3f8840a",
+      "artistName": "Andreas Björkstrand",
+      "providerEntityId": "4C0SwV2WJqRW290Xz2HIfV",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:b8d237fa6957fd5584f0db8e97d3a06b0e2421b50361d0306e892799f7a5dd2b",
+      "artistName": "Charles Mingus Orchestra",
+      "providerEntityId": "K8vZ917GmE7",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    }
+  ],
+  "reviewOnly": true
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "second-live-multisource-2026-08-14",
+  "reviewOnly": true,
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "freshnessPolicyHours": 24,
+  "limits": {
+    "totalProviderRequests": 12,
+    "spotifyRequests": 6,
+    "ticketmasterRequests": 6,
+    "normalizedOccurrences": 30,
+    "newCandidates": 15,
+    "unresolvedQueueGrowth": 15
+  },
+  "spotify": {
+    "mode": "artist_search_results",
+    "query": "Beyoncé",
+    "queryRecordId": "bounded-query-beyonce",
+    "limit": 5,
+    "market": "US",
+    "sourceType": "public_music_database",
+    "sourceName": "Music Roll second bounded live discovery pilot"
+  },
+  "ticketmaster": {
+    "mode": "event_attractions",
+    "stateCode": "CA",
+    "startDateTime": "2026-08-15T00:00:00Z",
+    "endDateTime": "2026-08-22T00:00:00Z",
+    "size": 2,
+    "sourceType": "ticketmaster_event",
+    "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot"
+  }
+}

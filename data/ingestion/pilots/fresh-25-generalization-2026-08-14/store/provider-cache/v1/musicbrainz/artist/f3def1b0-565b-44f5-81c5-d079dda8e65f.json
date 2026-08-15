@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+  "retrievedAt": "2026-08-14T21:48:14.986Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+      "name": "user18081971",
+      "sortName": "user18081971",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sortName": "Limerick",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-08-18",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000475774289"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4399640"
+        }
+      ]
+    },
+    "raw": {
+      "end-area": null,
+      "aliases": [],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender": "Male",
+      "country": "GB",
+      "area": {
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "begin-area": {
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sort-name": "Limerick",
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "life-span": {
+        "end": null,
+        "begin": "1971-08-18",
+        "ended": false
+      },
+      "relations": [
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "discogs",
+          "source-credit": "",
+          "url": {
+            "id": "3353063d-89f8-44b7-b153-bf5c8f466384",
+            "resource": "https://www.discogs.com/artist/4399640"
+          },
+          "attribute-ids": {}
+        }
+      ],
+      "isnis": [
+        "0000000475774289"
+      ],
+      "disambiguation": "",
+      "type": "Person",
+      "sort-name": "user18081971",
+      "ipis": [],
+      "name": "user18081971",
+      "id": "f3def1b0-565b-44f5-81c5-d079dda8e65f"
+    }
+  }
+}

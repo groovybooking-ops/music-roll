@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31bb-7a62-9de1-0ad2ce31bb26",
+  "revision": 4,
+  "state": "failed_match",
+  "stateEnteredAt": "2026-08-14T21:45:14.831Z",
+  "createdAt": "2026-08-14T21:43:48.923Z",
+  "updatedAt": "2026-08-14T21:45:14.831Z",
+  "name": {
+    "raw": "JPEGMAFIA",
+    "normalized": "jpegmafia"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:794f72f9131c839650bb0fae410a50a2ac4c236178b8c7901d72fa434934a8dc",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-008",
+      "sourceUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+      "rawArtistName": "JPEGMAFIA",
+      "normalizedArtistName": "jpegmafia",
+      "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [
+      "Q50415953"
+    ],
+    "musicBrainzArtistIds": [
+      "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+      "4a08f237-59f6-476d-a98f-66b19a7470ed",
+      "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+    ],
+    "discogsArtistIds": [
+      "4501713",
+      "8781406"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31bb-7a62-9de1-0ad2ce31bb26/5916d9995b8181b9254d2d04039c5f957fb42f58c1107b11c9ca1cf38e092410.json",
+      "provider-cache/v1/wikidata/spotify-bridge/6yJ6QQ3Y5l0s0tn7b0arrO.json",
+      "provider-cache/v1/musicbrainz/artist/c42e60f4-4520-4954-b6e4-82bbdf532c11.json",
+      "provider-cache/v1/musicbrainz/artist/4a08f237-59f6-476d-a98f-66b19a7470ed.json",
+      "provider-cache/v1/musicbrainz/artist/680f0fa0-e465-44b0-be81-2fedb99e54a2.json",
+      "provider-cache/v1/discogs/artist/4501713.json",
+      "provider-cache/v1/discogs/artist/8781406.json",
+      "provider-cache/v1/musicbrainz/release-groups/c42e60f4-4520-4954-b6e4-82bbdf532c11.json",
+      "provider-cache/v1/musicbrainz/release-groups/4a08f237-59f6-476d-a98f-66b19a7470ed.json",
+      "provider-cache/v1/musicbrainz/release-groups/680f0fa0-e465-44b0-be81-2fedb99e54a2.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "spotifyArtistId",
+        "observedValues": [
+          "6yJ6QQ3Y5l0s0tn7b0arrO",
+          "551EawRj5350YQYs1MC2Ot"
+        ]
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "observedValues": [
+          "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+        ]
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "4501713",
+          "8781406"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "sameNameAmbiguity": "not_evaluated",
+      "competingEntities": []
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "compatible_alias_chronology:c42e60f4-4520-4954-b6e4-82bbdf532c11:4a08f237-59f6-476d-a98f-66b19a7470ed",
+            "compatible_alias_chronology:c42e60f4-4520-4954-b6e4-82bbdf532c11:680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "compatible_alias_chronology:4a08f237-59f6-476d-a98f-66b19a7470ed:680f0fa0-e465-44b0-be81-2fedb99e54a2",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": [
+            "incompatible_or_unlinked_official_urls"
+          ]
+        }
+      },
+      "fingerprintComparisons": [
+        {
+          "left": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "right": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "distinctiveReleaseOverlap": [],
+          "overlapCount": 0,
+          "chronology": {
+            "left": {
+              "earliestYear": 2011,
+              "latestYear": 2026
+            },
+            "right": {
+              "earliestYear": null,
+              "latestYear": null
+            }
+          }
+        },
+        {
+          "left": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "right": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+          "distinctiveReleaseOverlap": [],
+          "overlapCount": 0,
+          "chronology": {
+            "left": {
+              "earliestYear": 2011,
+              "latestYear": 2026
+            },
+            "right": {
+              "earliestYear": 2010,
+              "latestYear": 2026
+            }
+          }
+        },
+        {
+          "left": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+          "right": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+          "distinctiveReleaseOverlap": [],
+          "overlapCount": 0,
+          "chronology": {
+            "left": {
+              "earliestYear": null,
+              "latestYear": null
+            },
+            "right": {
+              "earliestYear": 2010,
+              "latestYear": 2026
+            }
+          }
+        }
+      ],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "unresolved_identifier_present",
+          "same_name_ambiguity_present_or_not_evaluated",
+          "musicbrainz_identifier_not_unique",
+          "unresolved_alternate_spotify_identifier"
+        ],
+        "explainedAlternates": [
+          {
+            "identifierType": "discogsArtistId",
+            "value": "4501713",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          },
+          {
+            "identifierType": "discogsArtistId",
+            "value": "8781406",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          }
+        ],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q50415953",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "4501713",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "4501713",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6yJ6QQ3Y5l0s0tn7b0arrO",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q50415953",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "c42e60f4-4520-4954-b6e4-82bbdf532c11"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "4a08f237-59f6-476d-a98f-66b19a7470ed",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q50415953",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "4a08f237-59f6-476d-a98f-66b19a7470ed"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "680f0fa0-e465-44b0-be81-2fedb99e54a2",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "8781406",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "551EawRj5350YQYs1MC2Ot",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q50415953",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "680f0fa0-e465-44b0-be81-2fedb99e54a2"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "4501713",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "4501713"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "8781406",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "8781406"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:45:14.830Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "failed_match",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023c-814f-7c81-a5d4-7cadb0381175"
+}

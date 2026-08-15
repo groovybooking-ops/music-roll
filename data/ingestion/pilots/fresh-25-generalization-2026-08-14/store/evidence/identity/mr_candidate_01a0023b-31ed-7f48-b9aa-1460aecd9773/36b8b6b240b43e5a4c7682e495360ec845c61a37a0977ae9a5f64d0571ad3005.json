@@ -1,0 +1,4625 @@
+{
+  "evidenceId": "sha256:36b8b6b240b43e5a4c7682e495360ec845c61a37a0977ae9a5f64d0571ad3005",
+  "createdAt": "2026-08-14T21:47:43.969Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31ed-7f48-b9aa-1460aecd9773",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Four Tet",
+        "spotifyArtistId": "7Eu1txygG6nJttLHbZdQOh"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7Eu1txygG6nJttLHbZdQOh",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7Eu1txygG6nJttLHbZdQOh",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q959655",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "3bcff06f-675a-451f-9075-99e8657047e8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "60342",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3543",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "319092",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2431474",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6400214",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "319092",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3IClDoHNFHx3lYOjGlDh2v",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "3bcff06f-675a-451f-9075-99e8657047e8",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3543",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7Eu1txygG6nJttLHbZdQOh",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q959655",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6400214",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1TIbqr0x8HoKzKBNtNN8wf",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "60342",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4HcUiDJk4PN2Ac2b1ZJT3E",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q959655",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4c1a7fe5-e619-40c4-bbee-371e6e027f07"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5ZzXaAuivVXuQaHCaRuxlD",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4c1a7fe5-e619-40c4-bbee-371e6e027f07"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2431474",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0KaEJ43f2yXojdnZkCsz2y",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7nwdEDnfgNpPhWQCXX3KSx",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3543",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3543"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "60342",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "60342"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "319092",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "319092"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2431474",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2431474"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6400214",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "6400214"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "7Eu1txygG6nJttLHbZdQOh",
+            "3IClDoHNFHx3lYOjGlDh2v",
+            "1TIbqr0x8HoKzKBNtNN8wf",
+            "4HcUiDJk4PN2Ac2b1ZJT3E",
+            "5ZzXaAuivVXuQaHCaRuxlD",
+            "0KaEJ43f2yXojdnZkCsz2y",
+            "7nwdEDnfgNpPhWQCXX3KSx"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7Eu1txygG6nJttLHbZdQOh",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7Eu1txygG6nJttLHbZdQOh",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3IClDoHNFHx3lYOjGlDh2v",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7Eu1txygG6nJttLHbZdQOh",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1TIbqr0x8HoKzKBNtNN8wf",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4HcUiDJk4PN2Ac2b1ZJT3E",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5ZzXaAuivVXuQaHCaRuxlD",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4c1a7fe5-e619-40c4-bbee-371e6e027f07"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0KaEJ43f2yXojdnZkCsz2y",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7nwdEDnfgNpPhWQCXX3KSx",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q959655",
+          "observedValues": [
+            "Q959655"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q959655",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q959655",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q959655",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "3bcff06f-675a-451f-9075-99e8657047e8",
+            "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "3bcff06f-675a-451f-9075-99e8657047e8",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "3bcff06f-675a-451f-9075-99e8657047e8",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4c1a7fe5-e619-40c4-bbee-371e6e027f07"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "60342",
+            "3543",
+            "319092",
+            "2431474",
+            "6400214"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "60342",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3543",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "319092",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2431474",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6400214",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "319092",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "fc1b46ef-2d86-4248-a2c9-18d64f27402a"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3543",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "3bcff06f-675a-451f-9075-99e8657047e8"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6400214",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "2d9745dd-5dc6-4145-9453-fec582cfa9b8"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "60342",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "cb661251-3bc2-4373-bd7c-4b1531275c4c"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2431474",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "abd074c2-5d2b-4486-8081-ef26fd412b0d"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3543",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "3543"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "60342",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "60342"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "319092",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "319092"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2431474",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2431474"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6400214",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "6400214"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "7Eu1txygG6nJttLHbZdQOh",
+            "3IClDoHNFHx3lYOjGlDh2v",
+            "1TIbqr0x8HoKzKBNtNN8wf",
+            "4HcUiDJk4PN2Ac2b1ZJT3E",
+            "5ZzXaAuivVXuQaHCaRuxlD",
+            "0KaEJ43f2yXojdnZkCsz2y",
+            "7nwdEDnfgNpPhWQCXX3KSx"
+          ]
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "3bcff06f-675a-451f-9075-99e8657047e8",
+            "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "60342",
+            "3543",
+            "319092",
+            "2431474",
+            "6400214"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:3bcff06f-675a-451f-9075-99e8657047e8",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:cb661251-3bc2-4373-bd7c-4b1531275c4c",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "compatible_alias_chronology:fc1b46ef-2d86-4248-a2c9-18d64f27402a:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "compatible_alias_chronology:3bcff06f-675a-451f-9075-99e8657047e8:2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+              "compatible_alias_chronology:3bcff06f-675a-451f-9075-99e8657047e8:cb661251-3bc2-4373-bd7c-4b1531275c4c",
+              "compatible_alias_chronology:3bcff06f-675a-451f-9075-99e8657047e8:4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "compatible_alias_chronology:3bcff06f-675a-451f-9075-99e8657047e8:abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "compatible_alias_chronology:3bcff06f-675a-451f-9075-99e8657047e8:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "compatible_alias_chronology:2d9745dd-5dc6-4145-9453-fec582cfa9b8:cb661251-3bc2-4373-bd7c-4b1531275c4c",
+              "compatible_alias_chronology:2d9745dd-5dc6-4145-9453-fec582cfa9b8:4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "compatible_alias_chronology:2d9745dd-5dc6-4145-9453-fec582cfa9b8:abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "compatible_alias_chronology:2d9745dd-5dc6-4145-9453-fec582cfa9b8:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "compatible_alias_chronology:cb661251-3bc2-4373-bd7c-4b1531275c4c:4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+              "compatible_alias_chronology:cb661251-3bc2-4373-bd7c-4b1531275c4c:abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "compatible_alias_chronology:cb661251-3bc2-4373-bd7c-4b1531275c4c:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "compatible_alias_chronology:4c1a7fe5-e619-40c4-bbee-371e6e027f07:abd074c2-5d2b-4486-8081-ef26fd412b0d",
+              "compatible_alias_chronology:4c1a7fe5-e619-40c4-bbee-371e6e027f07:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+              "compatible_alias_chronology:abd074c2-5d2b-4486-8081-ef26fd412b0d:509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+            ],
+            "unresolvedIdentifiers": [
+              "incompatible_or_unlinked_official_urls"
+            ]
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              }
+            }
+          },
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2011
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "right": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "right": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "distinctiveReleaseOverlap": [
+              "remixes"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "right": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              }
+            }
+          },
+          {
+            "left": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "right": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [
+              "remixes"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 1998,
+                "latestYear": 2026
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "right": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "right": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              }
+            }
+          },
+          {
+            "left": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "right": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2020,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "right": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              }
+            }
+          },
+          {
+            "left": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "right": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [
+              "remixes"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 2006,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "right": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              },
+              "right": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2013,
+                "latestYear": 2020
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          },
+          {
+            "left": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "right": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2012,
+                "latestYear": 2015
+              },
+              "right": {
+                "earliestYear": 2013,
+                "latestYear": 2026
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "unresolved_identifier_present",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "musicbrainz_identifier_not_unique",
+            "unresolved_alternate_spotify_identifier",
+            "discogs_alternates_lack_shared_legal_name"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "fc1b46ef-2d86-4248-a2c9-18d64f27402a": {
+          "artist": {
+            "musicBrainzArtistId": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "name": "4T Recordings",
+            "sortName": "4T Recordings",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/319092"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/3IClDoHNFHx3lYOjGlDh2v"
+              }
+            ]
+          },
+          "raw": {
+            "ipis": [],
+            "sort-name": "4T Recordings",
+            "disambiguation": "",
+            "name": "4T Recordings",
+            "aliases": [],
+            "country": "GB",
+            "relations": [
+              {
+                "type": "discogs",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.discogs.com/artist/319092",
+                  "id": "ce5862b0-ca52-4585-ba36-f848a7b5f7d8"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "type": "free streaming",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/3IClDoHNFHx3lYOjGlDh2v",
+                  "id": "d9813298-a0b4-4d06-a781-94dfe50d84d5"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-ids": {},
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "begin": null
+              }
+            ],
+            "type": "Person",
+            "life-span": {
+              "ended": false,
+              "begin": "1977-09",
+              "end": null
+            },
+            "area": {
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "sort-name": "United Kingdom",
+              "disambiguation": "",
+              "name": "United Kingdom",
+              "type": null,
+              "type-id": null
+            },
+            "begin-area": {
+              "type-id": null,
+              "type": null,
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "sort-name": "Putney",
+              "name": "Putney",
+              "disambiguation": ""
+            },
+            "end-area": null,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "id": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+            "gender": "Male",
+            "isnis": [],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          }
+        },
+        "3bcff06f-675a-451f-9075-99e8657047e8": {
+          "artist": {
+            "musicBrainzArtistId": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "name": "Four Tet",
+            "sortName": "Four Tet",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "4 Tet",
+                "sortName": "4 Tet",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "4Tet",
+                "sortName": "4Tet",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Four-Tet",
+                "sortName": "Four-Tet",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Fourtet",
+                "sortName": "Fourtet",
+                "type": null,
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000056512823"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000741236"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://fourtet.bandcamp.com/"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/3bcff06f-675a-451f-9075-99e8657047e8"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "http://www.arches.uga.edu/~orngman/khebden_discog/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/3543"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/7Eu1txygG6nJttLHbZdQOh"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/1744"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm2032476/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Four+Tet"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Four-tet"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/fourtetkieranhebden"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.fourtet.net/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb14042399r"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/135502462"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://ra.co/dj/fourtet"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/four-tet"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.muziekweb.nl/Link/M00000038394/POPULAR/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Four-Tet/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://bleep.com/artist/356"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://boomkat.com/artists/four-tet"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/gb/artist/id35888604"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/-/15489"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/four-tet/15489"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/four-tet/388363"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://bleep.com/artist/356"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://boomkat.com/artists/four-tet"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/52950"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/FourTet"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/FourTetKieran"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/fourtetkieran/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/306583"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/four-tet"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/35888604"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/3520717"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/four-tet/388363"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/276010199"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q959655"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC3sZYInu3YYkyIXBif83ZCg"
+              }
+            ]
+          },
+          "raw": {
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "id": "3bcff06f-675a-451f-9075-99e8657047e8",
+            "life-span": {
+              "end": null,
+              "begin": "1977-09",
+              "ended": false
+            },
+            "end-area": null,
+            "relations": [
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "8abf56f1-501d-418a-b0d4-977f612dde15",
+                  "resource": "https://www.allmusic.com/artist/mn0000741236"
+                },
+                "attribute-values": {},
+                "type": "allmusic",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "2dfc7a7b-deb3-4518-a68f-63d61446dded",
+                  "resource": "https://fourtet.bandcamp.com/"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type": "bandcamp",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "ec3a67bf-04b1-42f6-9bd9-c32e2c65d959",
+                  "resource": "https://www.bbc.co.uk/music/artists/3bcff06f-675a-451f-9075-99e8657047e8"
+                },
+                "target-credit": "",
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "source-credit": "",
+                "end": "2020-11-19",
+                "attributes": [],
+                "ended": true,
+                "attribute-values": {},
+                "type": "BBC Music page"
+              },
+              {
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "discography page",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "5f9795d2-7da6-4a4d-b0b6-43c6ea01821b",
+                  "resource": "http://www.arches.uga.edu/~orngman/khebden_discog/"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/3543",
+                  "id": "19012a5a-7454-4644-ae85-2e7b1bcae983"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "discogs",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/7Eu1txygG6nJttLHbZdQOh",
+                  "id": "ea283e9d-2ba0-4227-8ad7-223e7b357eb7"
+                },
+                "target-credit": ""
+              },
+              {
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/1744",
+                  "id": "c8cdded1-cee5-4245-a7d9-bb2b498c516b"
+                },
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "3075fb8d-0d06-41b2-b661-a20e66ed6ed6",
+                  "resource": "https://www.imdb.com/name/nm2032476/"
+                },
+                "attribute-values": {},
+                "type": "IMDb",
+                "end": null,
+                "source-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "type": "last.fm",
+                "source-credit": "",
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "9f2a9f29-dd1c-4537-9917-471165354a98",
+                  "resource": "https://www.last.fm/music/Four+Tet"
+                },
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://genius.com/artists/Four-tet",
+                  "id": "e84c4ee3-b29b-48eb-b3a4-ff161d4044b5"
+                },
+                "attribute-values": {},
+                "type": "lyrics",
+                "end": null,
+                "source-credit": "",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://myspace.com/fourtetkieranhebden",
+                  "id": "ff4da1b2-8b13-449b-bb02-6133cb270e3b"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "type": "myspace",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "id": "b665cf31-d09f-4ff1-ba69-ec1037a65d63",
+                  "resource": "http://www.fourtet.net/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "official homepage",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "6e49cbc1-48e1-49bc-bab7-4880262ce485",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb14042399r"
+                },
+                "attribute-values": {},
+                "type": "other databases",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "d9a55075-c366-416e-839e-8c177a51b33a",
+                  "resource": "https://d-nb.info/gnd/135502462"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://ra.co/dj/fourtet",
+                  "id": "533c7730-801b-4ac6-875d-a5d218fc46b2"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/four-tet",
+                  "id": "ddbb4ca6-163c-4820-8e11-819e4abbbc5e"
+                },
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.muziekweb.nl/Link/M00000038394/POPULAR/",
+                  "id": "eda08432-1e6b-4145-b8bc-a199be070757"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "type": "other databases",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "2e2aa393-b809-4697-b53d-2faa3f87927e",
+                  "resource": "https://www.whosampled.com/Four-Tet/"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "type": "purchase for download",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "f691820d-4acc-42e3-8b46-42fdb8c5428d",
+                  "resource": "https://bleep.com/artist/356"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://boomkat.com/artists/four-tet",
+                  "id": "f4f041f6-e5d0-49e3-a110-c3f029c094fd"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "ended": false,
+                "attributes": [],
+                "type": "purchase for download",
+                "attribute-values": {}
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "cf80a4be-4d32-434d-8794-243f55d4be36",
+                  "resource": "https://itunes.apple.com/gb/artist/id35888604"
+                },
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download"
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "e5483a31-967d-4fcf-aa97-d48132acc8a9",
+                  "resource": "https://www.beatport.com/artist/-/15489"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "purchase for download",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for download",
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "425ec92b-bbee-433b-8c21-e80b63d6478c",
+                  "resource": "https://www.beatport.com/artist/four-tet/15489"
+                }
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "type": "purchase for download",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "e0038056-0f1e-4637-8d83-548a48677470",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/four-tet/388363"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://bleep.com/artist/356",
+                  "id": "f691820d-4acc-42e3-8b46-42fdb8c5428d"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "purchase for mail-order",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for mail-order",
+                "end": null,
+                "source-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://boomkat.com/artists/four-tet",
+                  "id": "f4f041f6-e5d0-49e3-a110-c3f029c094fd"
+                }
+              },
+              {
+                "url": {
+                  "id": "a08c8734-fda2-4dd9-b3ac-98c7294976be",
+                  "resource": "https://secondhandsongs.com/artist/52950"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "end": null,
+                "type": "secondhandsongs",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "social network",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://twitter.com/FourTet",
+                  "id": "418f4a25-c36f-43b3-87d3-015ad6ed2992"
+                },
+                "target-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "5baf5af8-067f-4e1b-ad39-f89c2d048927",
+                  "resource": "https://www.facebook.com/FourTetKieran"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "type": "social network"
+              },
+              {
+                "type": "social network",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "url": {
+                  "id": "9c6d4d80-cfae-4283-bdcf-f2d243c31ca9",
+                  "resource": "https://www.instagram.com/fourtetkieran/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "type": "songkick",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "4dc68f08-9dda-449f-bd61-8736f045ed84",
+                  "resource": "https://www.songkick.com/artists/306583"
+                },
+                "direction": "forward"
+              },
+              {
+                "source-credit": "",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "type": "soundcloud",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "c852f863-1750-4473-8ab4-d06b452d9bec",
+                  "resource": "https://soundcloud.com/four-tet"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/35888604",
+                  "id": "36fa15d2-691b-4a8e-ac85-5a299c2186e4"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "attribute-values": {}
+              },
+              {
+                "attribute-values": {},
+                "type": "streaming",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://tidal.com/artist/3520717",
+                  "id": "5edb6341-c92c-44dd-90a8-4b6deb6e5fd6"
+                },
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "e0038056-0f1e-4637-8d83-548a48677470",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/four-tet/388363"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "streaming",
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "ended": false,
+                "attributes": [],
+                "type": "VIAF",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "d542fc12-6fcc-4000-9d43-113604574e20",
+                  "resource": "http://viaf.org/viaf/276010199"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "type": "wikidata",
+                "end": null,
+                "source-credit": "",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "438e2656-e452-40c2-bac6-7b885dc05b39",
+                  "resource": "https://www.wikidata.org/wiki/Q959655"
+                }
+              },
+              {
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "source-credit": "",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "type": "youtube",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UC3sZYInu3YYkyIXBif83ZCg",
+                  "id": "5de1a91e-76ab-46b9-b8c7-b1588a4cb814"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              }
+            ],
+            "begin-area": {
+              "name": "Putney",
+              "type": null,
+              "sort-name": "Putney",
+              "disambiguation": "",
+              "type-id": null,
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e"
+            },
+            "isnis": [
+              "0000000056512823"
+            ],
+            "sort-name": "Four Tet",
+            "name": "Four Tet",
+            "type": "Person",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "disambiguation": "",
+            "country": "GB",
+            "aliases": [
+              {
+                "locale": null,
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "type-id": null,
+                "primary": null,
+                "sort-name": "4 Tet",
+                "name": "4 Tet",
+                "type": null
+              },
+              {
+                "type-id": null,
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "4Tet",
+                "type": null,
+                "sort-name": "4Tet",
+                "primary": null
+              },
+              {
+                "primary": null,
+                "sort-name": "Four-Tet",
+                "name": "Four-Tet",
+                "type": null,
+                "ended": false,
+                "locale": null,
+                "begin": null,
+                "end": null,
+                "type-id": null
+              },
+              {
+                "locale": null,
+                "ended": false,
+                "end": null,
+                "type-id": null,
+                "begin": null,
+                "primary": null,
+                "name": "Fourtet",
+                "type": null,
+                "sort-name": "Fourtet"
+              }
+            ],
+            "gender": "Male",
+            "ipis": [],
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type-id": null,
+              "disambiguation": "",
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "type": null,
+              "sort-name": "United Kingdom"
+            }
+          }
+        },
+        "2d9745dd-5dc6-4145-9453-fec582cfa9b8": {
+          "artist": {
+            "musicBrainzArtistId": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "sortName": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "artistType": "Person",
+            "disambiguation": "Kieran Hebden",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://00000ooooo.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/6400214"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1TIbqr0x8HoKzKBNtNN8wf"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/50491132"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B)%E0%BE%80%E2%97%9E+%E0%BC%8E%E0%BA%B6+%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96+%EA%89%BA%E1%83%9A"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B_%E0%BE%80%E2%97%9E-%E0%BC%8E%E0%BA%B6-%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96-%EA%89%BA%E1%83%9A"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/gb/artist/id1433917214"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/us/artist/1433917214"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/3922686"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/-32935/3922686"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1433917214"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1433917214"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/3922686"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/10256676"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/-32935/3922686"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "begin": "1977-09",
+              "ended": false,
+              "end": null
+            },
+            "ipis": [],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": "Kieran Hebden",
+            "begin-area": {
+              "name": "Putney",
+              "type": null,
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "type-id": null,
+              "sort-name": "Putney",
+              "disambiguation": ""
+            },
+            "id": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+            "sort-name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "gender": "Male",
+            "relations": [
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "url": {
+                  "id": "ca62712f-55e9-4d94-8ef2-f996ef342fe9",
+                  "resource": "https://00000ooooo.bandcamp.com/"
+                },
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "bandcamp",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type": "discogs",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.discogs.com/artist/6400214",
+                  "id": "549702b1-208a-47d3-8ff1-1d06c2d35cf5"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "id": "e5b8c38e-11ed-4ceb-aaba-5d463439be48",
+                  "resource": "https://open.spotify.com/artist/1TIbqr0x8HoKzKBNtNN8wf"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "bbb7a9ac-3c8b-4a57-ba46-fa888383c070",
+                  "resource": "https://www.deezer.com/artist/50491132"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "free streaming",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "last.fm",
+                "url": {
+                  "resource": "https://www.last.fm/music/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B)%E0%BE%80%E2%97%9E+%E0%BC%8E%E0%BA%B6+%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96+%EA%89%BA%E1%83%9A",
+                  "id": "152e0177-97ca-4c27-8cf7-137e747bd31b"
+                },
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/%E2%A3%8E%E2%A1%87%EA%89%BA%E1%83%9A%E0%BC%BD%E0%AE%87%E2%80%A2%CC%9B_%E0%BE%80%E2%97%9E-%E0%BC%8E%E0%BA%B6-%E0%BC%BD%E0%A7%A3%E0%A7%A2%D8%9E%E0%A7%A2%D8%9E%D8%96-%EA%89%BA%E1%83%9A",
+                  "id": "0326da85-c2ad-4ae2-ad94-979ffe160d45"
+                }
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://itunes.apple.com/gb/artist/id1433917214",
+                  "id": "61e1a586-6b2d-4fbb-8b87-3d65b9aeae93"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/1433917214",
+                  "id": "95c264c0-95a7-415f-9adf-10ed1847b877"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "type": "purchase for download",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "948f0e00-0983-4a24-9194-ca68144a8e43",
+                  "resource": "https://open.qobuz.com/artist/3922686"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "url": {
+                  "id": "9fd499e9-98c2-48ec-a901-65942483012f",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/-32935/3922686"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "streaming",
+                "url": {
+                  "id": "208c2cd6-0722-4a3b-aba2-400a0526acad",
+                  "resource": "https://music.apple.com/gb/artist/1433917214"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "95c264c0-95a7-415f-9adf-10ed1847b877",
+                  "resource": "https://music.apple.com/us/artist/1433917214"
+                },
+                "type": "streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "948f0e00-0983-4a24-9194-ca68144a8e43",
+                  "resource": "https://open.qobuz.com/artist/3922686"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "06bc88a5-df56-4091-a462-6795f3788dbb",
+                  "resource": "https://tidal.com/artist/10256676"
+                },
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/-32935/3922686",
+                  "id": "9fd499e9-98c2-48ec-a901-65942483012f"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              }
+            ],
+            "type": "Person",
+            "aliases": [],
+            "end-area": null,
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": null,
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "disambiguation": "",
+              "type-id": null,
+              "sort-name": "United Kingdom"
+            },
+            "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "isnis": [],
+            "country": "GB",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9"
+          }
+        },
+        "cb661251-3bc2-4373-bd7c-4b1531275c4c": {
+          "artist": {
+            "musicBrainzArtistId": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "name": "Kieran Hebden",
+            "sortName": "Hebden, Kieran",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Kieran Miles David Hebden",
+                "sortName": "Hebden, Kieran Miles David",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000360409302"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000769541"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/60342"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/4HcUiDJk4PN2Ac2b1ZJT3E"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Kieran+Hebde"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.kieranhebdenandstevereid.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/kieran-hebden"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q959655"
+              }
+            ]
+          },
+          "raw": {
+            "isnis": [
+              "0000000360409302"
+            ],
+            "disambiguation": "",
+            "relations": [
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "allmusic",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000769541",
+                  "id": "ce5a2c7f-d20e-4cec-8535-25061303ea11"
+                }
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "4bd19ea1-1f68-4ea8-8a1e-4a06553d68f6",
+                  "resource": "https://www.discogs.com/artist/60342"
+                },
+                "attribute-ids": {},
+                "type": "discogs"
+              },
+              {
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "free streaming",
+                "url": {
+                  "id": "f5d767d4-6c55-431f-a7c8-5cb237c78566",
+                  "resource": "https://open.spotify.com/artist/4HcUiDJk4PN2Ac2b1ZJT3E"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "c8536eb7-89f9-4cb2-b71a-ad847bd23686",
+                  "resource": "https://www.last.fm/music/Kieran+Hebde"
+                },
+                "attribute-ids": {},
+                "type": "last.fm",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "ended": true,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "fa340f7d-1b80-4e03-944e-1c37cafc4616",
+                  "resource": "http://www.kieranhebdenandstevereid.com/"
+                },
+                "source-credit": "Kieran Hebden and Steve Reid",
+                "attribute-ids": {},
+                "type": "official homepage"
+              },
+              {
+                "type": "other databases",
+                "source-credit": "",
+                "url": {
+                  "id": "4b32bdcc-4f3b-4296-84c7-d843b5727a8b",
+                  "resource": "https://rateyourmusic.com/artist/kieran-hebden"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "wikidata",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q959655",
+                  "id": "438e2656-e452-40c2-bac6-7b885dc05b39"
+                },
+                "attribute-ids": {}
+              }
+            ],
+            "type": "Person",
+            "ipis": [
+              "00268697500"
+            ],
+            "sort-name": "Hebden, Kieran",
+            "id": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+            "name": "Kieran Hebden",
+            "end-area": null,
+            "gender": "Male",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "aliases": [
+              {
+                "ended": false,
+                "name": "Kieran Miles David Hebden",
+                "begin": null,
+                "sort-name": "Hebden, Kieran Miles David",
+                "primary": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "locale": null,
+                "type": "Legal name",
+                "end": null
+              }
+            ],
+            "area": {
+              "disambiguation": "",
+              "type-id": null,
+              "type": null,
+              "sort-name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom"
+            },
+            "country": "GB",
+            "life-span": {
+              "ended": false,
+              "begin": "1977-09",
+              "end": null
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "type": null,
+              "type-id": null,
+              "sort-name": "Putney",
+              "name": "Putney",
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e"
+            }
+          }
+        },
+        "4c1a7fe5-e619-40c4-bbee-371e6e027f07": {
+          "artist": {
+            "musicBrainzArtistId": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "name": "00110100 01010100",
+            "sortName": "00110100 01010100",
+            "artistType": "Person",
+            "disambiguation": "Kieran Hebden",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/5ZzXaAuivVXuQaHCaRuxlD"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/67877322"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/00110100-01010100"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://bleep.com/artist/156498"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/-/945199"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.traxsource.com/artist/591638"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1543973436"
+              }
+            ]
+          },
+          "raw": {
+            "relations": [
+              {
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "begin": null,
+                "ended": false,
+                "type": "free streaming",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/5ZzXaAuivVXuQaHCaRuxlD",
+                  "id": "c0821a96-876e-4378-90bd-e2376aaaca4f"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-ids": {},
+                "begin": null,
+                "ended": false,
+                "type": "free streaming",
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "655b560d-5c2b-4e4b-a35b-cdad8a6e1f38",
+                  "resource": "https://www.deezer.com/artist/67877322"
+                }
+              },
+              {
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "begin": null,
+                "type": "other databases",
+                "ended": false,
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/00110100-01010100",
+                  "id": "66c69149-69e6-4957-9d43-aede3197300e"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "11e5f0f0-cd1d-46a9-8e03-44b7d8feded5",
+                  "resource": "https://bleep.com/artist/156498"
+                },
+                "type": "purchase for download",
+                "ended": false
+              },
+              {
+                "type": "purchase for download",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.beatport.com/artist/-/945199",
+                  "id": "9dfedadd-c897-49f9-9ebe-52370d55647f"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "begin": null
+              },
+              {
+                "begin": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.traxsource.com/artist/591638",
+                  "id": "06cbf3e2-740a-4290-aeb1-5e4953dd7e2c"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "type": "purchase for download",
+                "ended": false
+              },
+              {
+                "url": {
+                  "id": "a0aa5857-d22a-4763-a551-2e792c786ce7",
+                  "resource": "https://music.apple.com/us/artist/1543973436"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "type": "streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url"
+              }
+            ],
+            "aliases": [],
+            "country": "GB",
+            "type": "Person",
+            "area": {
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "disambiguation": "",
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom",
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type": null,
+              "type-id": null
+            },
+            "life-span": {
+              "end": null,
+              "begin": "1977-09",
+              "ended": false
+            },
+            "ipis": [],
+            "sort-name": "00110100 01010100",
+            "name": "00110100 01010100",
+            "disambiguation": "Kieran Hebden",
+            "isnis": [],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "begin-area": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "sort-name": "Putney",
+              "name": "Putney",
+              "disambiguation": "",
+              "type-id": null,
+              "type": null
+            },
+            "end-area": null,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "id": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+            "gender": "Male"
+          }
+        },
+        "abd074c2-5d2b-4486-8081-ef26fd412b0d": {
+          "artist": {
+            "musicBrainzArtistId": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "name": "Percussions",
+            "sortName": "Percussions",
+            "artistType": "Person",
+            "disambiguation": "Kieran Hebden",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://percussions.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2431474"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/0KaEJ43f2yXojdnZkCsz2y"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Percussions"
+              }
+            ]
+          },
+          "raw": {
+            "ipis": [],
+            "sort-name": "Percussions",
+            "disambiguation": "Kieran Hebden",
+            "name": "Percussions",
+            "relations": [
+              {
+                "end": null,
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "begin": null,
+                "type": "bandcamp",
+                "ended": false,
+                "url": {
+                  "id": "9b14aa7b-ed3a-42ae-8883-fcd207d030f7",
+                  "resource": "https://percussions.bandcamp.com/"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "id": "bde7f7e6-c625-4d7f-809d-b29bca29aafb",
+                  "resource": "https://www.discogs.com/artist/2431474"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "type": "discogs",
+                "begin": null,
+                "attribute-ids": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/0KaEJ43f2yXojdnZkCsz2y",
+                  "id": "db9293ad-be6c-4b4e-8d69-be106a33dd34"
+                },
+                "type": "free streaming",
+                "ended": false,
+                "begin": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "url": {
+                  "resource": "https://www.last.fm/music/Percussions",
+                  "id": "eed79ff3-6c36-41db-80e1-f59d90c4bc0e"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "ended": false,
+                "type": "last.fm",
+                "begin": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "attribute-ids": {},
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url"
+              }
+            ],
+            "country": "GB",
+            "aliases": [],
+            "type": "Person",
+            "area": {
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "sort-name": "United Kingdom",
+              "disambiguation": "",
+              "name": "United Kingdom",
+              "type": null,
+              "type-id": null
+            },
+            "life-span": {
+              "end": null,
+              "begin": "1977-09",
+              "ended": false
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "name": "Putney",
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "sort-name": "Putney",
+              "type-id": null,
+              "type": null
+            },
+            "end-area": null,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "id": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+            "gender": "Male",
+            "isnis": [],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          }
+        },
+        "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c": {
+          "artist": {
+            "musicBrainzArtistId": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "name": "KH",
+            "sortName": "KH",
+            "artistType": "Person",
+            "disambiguation": "Kieran Hebden, AKA Four Tet",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "name": "Putney",
+              "sortName": "Putney",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977-09",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "KH (UK)",
+                "sortName": "KH (UK)",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/7nwdEDnfgNpPhWQCXX3KSx"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/5360998"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/-/753146"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/kh/617696"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://bleep.com/artist/29952"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1453437996"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/4192131"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/kh/617696"
+              }
+            ]
+          },
+          "raw": {
+            "name": "KH",
+            "type": "Person",
+            "isnis": [],
+            "sort-name": "KH",
+            "disambiguation": "Kieran Hebden, AKA Four Tet",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "relations": [
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/7nwdEDnfgNpPhWQCXX3KSx",
+                  "id": "7a2eb258-0b81-4b3e-8c9c-e67a6ea09605"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "attribute-values": {},
+                "type": "free streaming",
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "bfc811a6-e93a-41da-a911-cf97dfedcffe",
+                  "resource": "https://www.deezer.com/artist/5360998"
+                },
+                "direction": "forward"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.beatport.com/artist/-/753146",
+                  "id": "f7fd2cbc-51ec-4009-83ed-d86305e73102"
+                },
+                "target-credit": ""
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/kh/617696",
+                  "id": "4a9ed7b8-60ab-4b5c-9d55-4802a2196626"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "type": "purchase for download",
+                "attribute-values": {}
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "source-credit": "",
+                "end": null,
+                "type": "purchase for mail-order",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "2c694912-4eb8-4cd7-818e-3c9955b338bf",
+                  "resource": "https://bleep.com/artist/29952"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/1453437996",
+                  "id": "76a26cea-1f4c-4783-a9ba-a4386f31d6b4"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "bc0d93d4-b7d6-4625-82cf-68d0dd2bfaf9",
+                  "resource": "https://tidal.com/artist/4192131"
+                },
+                "attribute-values": {},
+                "type": "streaming",
+                "attributes": [],
+                "ended": false,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/kh/617696",
+                  "id": "4a9ed7b8-60ab-4b5c-9d55-4802a2196626"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "streaming",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              }
+            ],
+            "begin-area": {
+              "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+              "type-id": null,
+              "disambiguation": "",
+              "name": "Putney",
+              "type": null,
+              "sort-name": "Putney"
+            },
+            "id": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+            "life-span": {
+              "ended": false,
+              "end": null,
+              "begin": "1977-09"
+            },
+            "end-area": null,
+            "ipis": [],
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type-id": null,
+              "disambiguation": "",
+              "sort-name": "United Kingdom",
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "type": null
+            },
+            "gender": "Male",
+            "country": "GB",
+            "aliases": [
+              {
+                "begin": null,
+                "end": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "locale": null,
+                "ended": false,
+                "sort-name": "KH (UK)",
+                "name": "KH (UK)",
+                "type": "Search hint",
+                "primary": null
+              }
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "3543": {
+          "artist": {
+            "discogsArtistId": "3543",
+            "name": "Four Tet",
+            "realName": "Kieran Miles David Hebden",
+            "profile": "British post-rock/electronic musician, DJ, producer, and label boss. \r\n\r\nBorn: September 2, 1977 in Putney, London, England, UK. \r\n\r\nMain alias of [a=Kieran Hebden], who apart from being a recording artist, also runs his label [l=Text Records]. Starting out in post-rock band [a=Fridge] in 1994, he later moved into more electronic sounds under name Four Tet. Hebden is also known for his extensive work with jazz drummer [a=Steve Reid (2)], late in the drummer's life. ",
+            "artistUrls": [
+              "https://www.fourtet.net",
+              "https://fourtet.bandcamp.com",
+              "https://soundcloud.com/four-tet",
+              "https://www.youtube.com/channel/UC3sZYInu3YYkyIXBif83ZCg",
+              "https://www.facebook.com/FourTetKieran",
+              "https://myspace.com/fourtetkieranhebden",
+              "https://twitter.com/fourtet",
+              "https://www.instagram.com/fourtetkieran",
+              "https://en.wikipedia.org/wiki/Four_Tet"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "60342",
+                "name": "Kieran Hebden"
+              },
+              {
+                "discogsArtistId": "319092",
+                "name": "4T Recordings"
+              },
+              {
+                "discogsArtistId": "450198",
+                "name": "Joshua Falken"
+              },
+              {
+                "discogsArtistId": "2431474",
+                "name": "Percussions (2)"
+              },
+              {
+                "discogsArtistId": "6400214",
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ"
+              }
+            ],
+            "nameVariations": [
+              "4 Tet",
+              "Fortet",
+              "Four-Tet",
+              "Fourtet",
+              "Tets",
+              "The Four Tet"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/3543",
+            "discogsWebUrl": "https://www.discogs.com/artist/3543-Four-Tet",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Four Tet",
+            "id": 3543,
+            "resource_url": "https://api.discogs.com/artists/3543",
+            "uri": "https://www.discogs.com/artist/3543-Four-Tet",
+            "releases_url": "https://api.discogs.com/artists/3543/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/kogGV21ctw3bcycVO5xOIsoMDwZPCdYzXxKJp5yPzUQ/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Ni03/MDM4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/kogGV21ctw3bcycVO5xOIsoMDwZPCdYzXxKJp5yPzUQ/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Ni03/MDM4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/5b8iJ8GJJIoHBkfj6MUY57AzQJpjB9HST52FJAiL5pg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Ni03/MDM4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 726
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/JvG52tAibvEGACgEGCei41hjjCxyriKFdhJcWE4kEcc/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Mi03/MTU3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/JvG52tAibvEGACgEGCei41hjjCxyriKFdhJcWE4kEcc/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Mi03/MTU3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/_wqEsSuY51-ZJczuINT5qcdr0weK2spN3qdOHXRqkuI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTU5MTk0NDg3Mi03/MTU3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 736
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2SzIVQ2MQd7wbLOHRCEV4KRtG7zrUNBWtPmOJuP_SkI/rs:fit/g:sm/q:90/h:740/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC0z/NDk5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/2SzIVQ2MQd7wbLOHRCEV4KRtG7zrUNBWtPmOJuP_SkI/rs:fit/g:sm/q:90/h:740/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC0z/NDk5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/sYo0JYX2tZ9cNmQY0ujmnE_dQWDwGWPBOdLAyBkEKIg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC0z/NDk5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 740
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/xrABjGNirkiJ5lTkX321rujHHlzhLsplLL5PzJ8c5sk/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC01/ODA5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/xrABjGNirkiJ5lTkX321rujHHlzhLsplLL5PzJ8c5sk/rs:fit/g:sm/q:90/h:739/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC01/ODA5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/gzMdkHpnKB7GVavbW8Y45wH7N_OGWe7TWzp8QkXB4d0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTUyNzA3MDU3NC01/ODA5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 739
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/NM_8LtdTiEMqAfFUZvzjhyKQ4ytmXuDhvdT86mcMYvw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTI0OTYzMTgyNi5w/bmc.jpeg",
+                "resource_url": "https://i.discogs.com/NM_8LtdTiEMqAfFUZvzjhyKQ4ytmXuDhvdT86mcMYvw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTI0OTYzMTgyNi5w/bmc.jpeg",
+                "uri150": "https://i.discogs.com/HF8cO49GPZEaK4tThWGjPedvK7164tPVvBpRRUewRF4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTI0OTYzMTgyNi5w/bmc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_Ly_ghvLUTtiIW3an2IhjbhdGXvFjV9V98cyF8bYABg/rs:fit/g:sm/q:90/h:388/w:521/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTQ4OTQ0OTQ5My05/OTUwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/_Ly_ghvLUTtiIW3an2IhjbhdGXvFjV9V98cyF8bYABg/rs:fit/g:sm/q:90/h:388/w:521/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTQ4OTQ0OTQ5My05/OTUwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/bKGIxHq9ofCUw3zZJ6tUap1CPN3GnhyJEqr0f4e2VTA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTQ4OTQ0OTQ5My05/OTUwLmpwZWc.jpeg",
+                "width": 521,
+                "height": 388
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UKMgrFgZzE_A29oaZLN9GaqNT0-SVPNpw1S9_4VJx8Q/rs:fit/g:sm/q:90/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTMyNDE1NDY5MC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UKMgrFgZzE_A29oaZLN9GaqNT0-SVPNpw1S9_4VJx8Q/rs:fit/g:sm/q:90/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTMyNDE1NDY5MC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/6JBK4JquiirC3iDA_geE__ysLeVDGTwcwRW01kXFE24/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTMyNDE1NDY5MC5q/cGVn.jpeg",
+                "width": 500,
+                "height": 333
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XOIwikpL5LzZsLAiIKf6OF9W1lLOhSAxEhtVeCUD2cg/rs:fit/g:sm/q:90/h:475/w:476/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTM0NTM1NDYwOS04/MDUxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/XOIwikpL5LzZsLAiIKf6OF9W1lLOhSAxEhtVeCUD2cg/rs:fit/g:sm/q:90/h:475/w:476/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTM0NTM1NDYwOS04/MDUxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Mxv_7G4wdCajWCBQ8kRem8yUEv82fJsOcpnr7oJoL-A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTM0NTM1NDYwOS04/MDUxLmpwZWc.jpeg",
+                "width": 476,
+                "height": 475
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qKltTX5K92Sa1KFLQbyPTOGuarX_57KWV7QrzJ8u-FY/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTE0OTAyODA3NS5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/qKltTX5K92Sa1KFLQbyPTOGuarX_57KWV7QrzJ8u-FY/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTE0OTAyODA3NS5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/_30LuT_4CnqHwja8JKvKwq-sRi5X6Akft3uYdFvsY8A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM1NDMt/MTE0OTAyODA3NS5q/cGVn.jpeg",
+                "width": 360,
+                "height": 243
+              }
+            ],
+            "realname": "Kieran Miles David Hebden",
+            "profile": "British post-rock/electronic musician, DJ, producer, and label boss. \r\n\r\nBorn: September 2, 1977 in Putney, London, England, UK. \r\n\r\nMain alias of [a=Kieran Hebden], who apart from being a recording artist, also runs his label [l=Text Records]. Starting out in post-rock band [a=Fridge] in 1994, he later moved into more electronic sounds under name Four Tet. Hebden is also known for his extensive work with jazz drummer [a=Steve Reid (2)], late in the drummer's life. ",
+            "urls": [
+              "https://www.fourtet.net",
+              "https://fourtet.bandcamp.com",
+              "https://soundcloud.com/four-tet",
+              "https://www.youtube.com/channel/UC3sZYInu3YYkyIXBif83ZCg",
+              "https://www.facebook.com/FourTetKieran",
+              "https://myspace.com/fourtetkieranhebden",
+              "https://twitter.com/fourtet",
+              "https://www.instagram.com/fourtetkieran",
+              "https://en.wikipedia.org/wiki/Four_Tet"
+            ],
+            "namevariations": [
+              "4 Tet",
+              "Fortet",
+              "Four-Tet",
+              "Fourtet",
+              "Tets",
+              "The Four Tet"
+            ],
+            "aliases": [
+              {
+                "id": 60342,
+                "name": "Kieran Hebden",
+                "resource_url": "https://api.discogs.com/artists/60342"
+              },
+              {
+                "id": 319092,
+                "name": "4T Recordings",
+                "resource_url": "https://api.discogs.com/artists/319092"
+              },
+              {
+                "id": 450198,
+                "name": "Joshua Falken",
+                "resource_url": "https://api.discogs.com/artists/450198"
+              },
+              {
+                "id": 2431474,
+                "name": "Percussions (2)",
+                "resource_url": "https://api.discogs.com/artists/2431474"
+              },
+              {
+                "id": 6400214,
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+                "resource_url": "https://api.discogs.com/artists/6400214"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "60342": {
+          "artist": {
+            "discogsArtistId": "60342",
+            "name": "Kieran Hebden",
+            "realName": "Kieran Miles David Hebden",
+            "profile": "Born: September 2, 1977 Putney, London, England, UK\r\n\r\nHebden is most well known as his alias [a=Four Tet]. \r\n",
+            "artistUrls": [
+              "https://en.wikipedia.org/wiki/Four_Tet"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "3543",
+                "name": "Four Tet"
+              },
+              {
+                "discogsArtistId": "319092",
+                "name": "4T Recordings"
+              },
+              {
+                "discogsArtistId": "450198",
+                "name": "Joshua Falken"
+              },
+              {
+                "discogsArtistId": "2431474",
+                "name": "Percussions (2)"
+              },
+              {
+                "discogsArtistId": "6400214",
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ"
+              }
+            ],
+            "nameVariations": [
+              "Hebden",
+              "K Hebden",
+              "K. Hebden",
+              "K.Hebden",
+              "KH",
+              "Keiran Hebden",
+              "Keiron Hebden",
+              "Kieran",
+              "Kieran Hebdon",
+              "Kieran Hecden",
+              "Kieren Hebden"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/60342",
+            "discogsWebUrl": "https://www.discogs.com/artist/60342-Kieran-Hebden",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Kieran Hebden",
+            "id": 60342,
+            "resource_url": "https://api.discogs.com/artists/60342",
+            "uri": "https://www.discogs.com/artist/60342-Kieran-Hebden",
+            "releases_url": "https://api.discogs.com/artists/60342/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/fxvPwhOfWuvZQStSu0bwKDQn6Y7WK6BqYs1vzHqw4S4/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ4MjAt/NjkzMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/fxvPwhOfWuvZQStSu0bwKDQn6Y7WK6BqYs1vzHqw4S4/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ4MjAt/NjkzMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/63xdeEhK7eswDxpyckrQHwShm2lZQFCqb1CNDp4ucyE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ4MjAt/NjkzMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 726
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/WJyfXqcFfrkAVP4LmjEn-7p7dLi6AWxyjMG_xvatr4A/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ3OTgt/MTg5NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/WJyfXqcFfrkAVP4LmjEn-7p7dLi6AWxyjMG_xvatr4A/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ3OTgt/MTg5NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/t7ymWRuIW7OwqAoUCjaK0PlgqhoojjgvHjjoKBDinUg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1OTE5NDQ3OTgt/MTg5NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 736
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2sw1ehswAI8ZFG_1EkvuFKLc1O9vmYExaH6oR2WW2E0/rs:fit/g:sm/q:90/h:757/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1MjcwNzA2NzQt/NzcyNS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/2sw1ehswAI8ZFG_1EkvuFKLc1O9vmYExaH6oR2WW2E0/rs:fit/g:sm/q:90/h:757/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1MjcwNzA2NzQt/NzcyNS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/UMp4-ZeNesiEkhXzaGxS2Z-8eREgMH_6Z1-gNk-clE0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTE1MjcwNzA2NzQt/NzcyNS5qcGVn.jpeg",
+                "width": 600,
+                "height": 757
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KSi_FDj4QUm4vcEJHHu4hNSjabH1R9szP33jSVZG_cc/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5ODMu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/KSi_FDj4QUm4vcEJHHu4hNSjabH1R9szP33jSVZG_cc/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5ODMu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/IIcM-satO3GdVOj1sDgjE8P4-9KG0iqFou-EsgJwX9s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5ODMu/anBlZw.jpeg",
+                "width": 360,
+                "height": 243
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/kXXbC1sESgBKCf-q6eezwiV6Q8oZLzrxvQD_BXkwaBs/rs:fit/g:sm/q:90/h:293/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5OTYu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/kXXbC1sESgBKCf-q6eezwiV6Q8oZLzrxvQD_BXkwaBs/rs:fit/g:sm/q:90/h:293/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5OTYu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/cC2s_NrwiVGf2bU7eCGcYcvNKFBjmprUqXJZen0jox0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYwMzQy/LTExNDkwMjc5OTYu/anBlZw.jpeg",
+                "width": 440,
+                "height": 293
+              }
+            ],
+            "realname": "Kieran Miles David Hebden",
+            "profile": "Born: September 2, 1977 Putney, London, England, UK\r\n\r\nHebden is most well known as his alias [a=Four Tet]. \r\n",
+            "urls": [
+              "https://en.wikipedia.org/wiki/Four_Tet"
+            ],
+            "namevariations": [
+              "Hebden",
+              "K Hebden",
+              "K. Hebden",
+              "K.Hebden",
+              "KH",
+              "Keiran Hebden",
+              "Keiron Hebden",
+              "Kieran",
+              "Kieran Hebdon",
+              "Kieran Hecden",
+              "Kieren Hebden"
+            ],
+            "aliases": [
+              {
+                "id": 3543,
+                "name": "Four Tet",
+                "resource_url": "https://api.discogs.com/artists/3543"
+              },
+              {
+                "id": 319092,
+                "name": "4T Recordings",
+                "resource_url": "https://api.discogs.com/artists/319092"
+              },
+              {
+                "id": 450198,
+                "name": "Joshua Falken",
+                "resource_url": "https://api.discogs.com/artists/450198"
+              },
+              {
+                "id": 2431474,
+                "name": "Percussions (2)",
+                "resource_url": "https://api.discogs.com/artists/2431474"
+              },
+              {
+                "id": 6400214,
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+                "resource_url": "https://api.discogs.com/artists/6400214"
+              }
+            ],
+            "groups": [
+              {
+                "id": 30361,
+                "name": "Fridge",
+                "resource_url": "https://api.discogs.com/artists/30361",
+                "active": true
+              },
+              {
+                "id": 95404,
+                "name": "Dempsey",
+                "resource_url": "https://api.discogs.com/artists/95404",
+                "active": true
+              },
+              {
+                "id": 386384,
+                "name": "Steve Reid Ensemble",
+                "resource_url": "https://api.discogs.com/artists/386384",
+                "active": true
+              },
+              {
+                "id": 4085257,
+                "name": "Caribou Vibration Ensemble",
+                "resource_url": "https://api.discogs.com/artists/4085257",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "319092": {
+          "artist": {
+            "discogsArtistId": "319092",
+            "name": "4T Recordings",
+            "realName": "Kieran Hebden",
+            "profile": "Sometime between late 1996 and early 1997 Kieren Hebden from Fridge decided he wanted to begin experimenting with DJ Shadow style sample-scapes. The rest of the band weren't too keen on the idea so he decided to pursue it as a solo undertaking. This was Kieren's first offering from what would later become known as the hugely acclaimed Fourtet project.",
+            "artistUrls": [
+              "http://www.fourtet.net"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "3543",
+                "name": "Four Tet"
+              },
+              {
+                "discogsArtistId": "60342",
+                "name": "Kieran Hebden"
+              },
+              {
+                "discogsArtistId": "450198",
+                "name": "Joshua Falken"
+              },
+              {
+                "discogsArtistId": "2431474",
+                "name": "Percussions (2)"
+              },
+              {
+                "discogsArtistId": "6400214",
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/319092",
+            "discogsWebUrl": "https://www.discogs.com/artist/319092-4T-Recordings",
+            "dataQuality": "Correct"
+          },
+          "raw": {
+            "name": "4T Recordings",
+            "id": 319092,
+            "resource_url": "https://api.discogs.com/artists/319092",
+            "uri": "https://www.discogs.com/artist/319092-4T-Recordings",
+            "releases_url": "https://api.discogs.com/artists/319092/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/oLgy8Is8z1dhXAYBXeOgAfbSn7GW4D2ufeFaOnk59uc/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0ODQ3/LTEzMjQuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/oLgy8Is8z1dhXAYBXeOgAfbSn7GW4D2ufeFaOnk59uc/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0ODQ3/LTEzMjQuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/MiDgaEQzbqdBN4fhyuNkVdgaV_qZxObvB_tn2FlViUo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0ODQ3/LTEzMjQuanBlZw.jpeg",
+                "width": 600,
+                "height": 726
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/td2invXrvFRy9YZfgxg9FSi1r-rmRnb_8X0bKTjLPkg/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0Nzg3/LTYzNjkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/td2invXrvFRy9YZfgxg9FSi1r-rmRnb_8X0bKTjLPkg/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0Nzg3/LTYzNjkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/s5EvBrBRiBA3MYClk47H4lCOoOdWS6C85sCavy5cmAk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xNTkxOTQ0Nzg3/LTYzNjkuanBlZw.jpeg",
+                "width": 600,
+                "height": 736
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/NleDjsSKXX-g5KX6FxwnZbJ08_HFyoOVoGZqRaGA0Nw/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDI1/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/NleDjsSKXX-g5KX6FxwnZbJ08_HFyoOVoGZqRaGA0Nw/rs:fit/g:sm/q:90/h:243/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDI1/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Q8RsU_5YVtS5D_QcNLRvb8hyJxxAY96FOgimeMPddNc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDI1/LmpwZWc.jpeg",
+                "width": 360,
+                "height": 243
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/LobwZ5wdsyo7f3FSUnwFlqBS8Vl2XftB7CnFZx3unJg/rs:fit/g:sm/q:90/h:293/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDM3/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/LobwZ5wdsyo7f3FSUnwFlqBS8Vl2XftB7CnFZx3unJg/rs:fit/g:sm/q:90/h:293/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDM3/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/KyxWAdnW_c5fIdBCJ9_2T552LSOcijPZM36kkPrWHY4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMxOTA5/Mi0xMTQ5MDI4MDM3/LmpwZWc.jpeg",
+                "width": 440,
+                "height": 293
+              }
+            ],
+            "realname": "Kieran Hebden",
+            "profile": "Sometime between late 1996 and early 1997 Kieren Hebden from Fridge decided he wanted to begin experimenting with DJ Shadow style sample-scapes. The rest of the band weren't too keen on the idea so he decided to pursue it as a solo undertaking. This was Kieren's first offering from what would later become known as the hugely acclaimed Fourtet project.",
+            "urls": [
+              "http://www.fourtet.net"
+            ],
+            "aliases": [
+              {
+                "id": 3543,
+                "name": "Four Tet",
+                "resource_url": "https://api.discogs.com/artists/3543"
+              },
+              {
+                "id": 60342,
+                "name": "Kieran Hebden",
+                "resource_url": "https://api.discogs.com/artists/60342"
+              },
+              {
+                "id": 450198,
+                "name": "Joshua Falken",
+                "resource_url": "https://api.discogs.com/artists/450198"
+              },
+              {
+                "id": 2431474,
+                "name": "Percussions (2)",
+                "resource_url": "https://api.discogs.com/artists/2431474"
+              },
+              {
+                "id": 6400214,
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+                "resource_url": "https://api.discogs.com/artists/6400214"
+              }
+            ],
+            "data_quality": "Correct"
+          },
+          "authenticationUsed": false
+        },
+        "2431474": {
+          "artist": {
+            "discogsArtistId": "2431474",
+            "name": "Percussions (2)",
+            "realName": null,
+            "profile": null,
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "3543",
+                "name": "Four Tet"
+              },
+              {
+                "discogsArtistId": "60342",
+                "name": "Kieran Hebden"
+              },
+              {
+                "discogsArtistId": "319092",
+                "name": "4T Recordings"
+              },
+              {
+                "discogsArtistId": "450198",
+                "name": "Joshua Falken"
+              },
+              {
+                "discogsArtistId": "6400214",
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2431474",
+            "discogsWebUrl": "https://www.discogs.com/artist/2431474-Percussions-2",
+            "dataQuality": "Needs Major Changes"
+          },
+          "raw": {
+            "name": "Percussions (2)",
+            "id": 2431474,
+            "resource_url": "https://api.discogs.com/artists/2431474",
+            "uri": "https://www.discogs.com/artist/2431474-Percussions-2",
+            "releases_url": "https://api.discogs.com/artists/2431474/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/kXcbaFBCR8gpudQ9hfwUfXMQszSJlHczMKpSc9N6CdQ/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgx/My0zNDgxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/kXcbaFBCR8gpudQ9hfwUfXMQszSJlHczMKpSc9N6CdQ/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgx/My0zNDgxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/P_9EI6lBaKI4HHhZCNQyXs92kMO4NQOUQRd5W8msPfk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgx/My0zNDgxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 726
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/F9ago9y-DVM4IXCMT1juiyZnYTWQaVRqKZU3ckflzBM/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgw/Ny0xMjU3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/F9ago9y-DVM4IXCMT1juiyZnYTWQaVRqKZU3ckflzBM/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgw/Ny0xMjU3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Tv9tblkVeGeIALuimK8gby544qHPCmLWaI7LQt9hB_Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTU5MTk0NDgw/Ny0xMjU3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 736
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CH1vJxZJMKwtsVQtxLEv_LivEsH7gdcFA103bf32TVI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTQyMTI1MTU4/NS05OTQ1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/CH1vJxZJMKwtsVQtxLEv_LivEsH7gdcFA103bf32TVI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTQyMTI1MTU4/NS05OTQ1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/PArX6xcNIew0QUse4PWiouKlYR4zVKrjfIOGRuLbLHo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI0MzE0/NzQtMTQyMTI1MTU4/NS05OTQ1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              }
+            ],
+            "profile": "",
+            "aliases": [
+              {
+                "id": 3543,
+                "name": "Four Tet",
+                "resource_url": "https://api.discogs.com/artists/3543"
+              },
+              {
+                "id": 60342,
+                "name": "Kieran Hebden",
+                "resource_url": "https://api.discogs.com/artists/60342"
+              },
+              {
+                "id": 319092,
+                "name": "4T Recordings",
+                "resource_url": "https://api.discogs.com/artists/319092"
+              },
+              {
+                "id": 450198,
+                "name": "Joshua Falken",
+                "resource_url": "https://api.discogs.com/artists/450198"
+              },
+              {
+                "id": 6400214,
+                "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+                "resource_url": "https://api.discogs.com/artists/6400214"
+              }
+            ],
+            "data_quality": "Needs Major Changes"
+          },
+          "authenticationUsed": false
+        },
+        "6400214": {
+          "artist": {
+            "discogsArtistId": "6400214",
+            "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "realName": null,
+            "profile": "Project by Kieran Hebden. Several songs from this project appeared on his Four Tet album [r=16618479], or as loosies on Soundcloud under the Four Tet name. AKA \"wingdings\".",
+            "artistUrls": [
+              "https://00000ooooo.bandcamp.com/"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "3543",
+                "name": "Four Tet"
+              },
+              {
+                "discogsArtistId": "60342",
+                "name": "Kieran Hebden"
+              },
+              {
+                "discogsArtistId": "319092",
+                "name": "4T Recordings"
+              },
+              {
+                "discogsArtistId": "450198",
+                "name": "Joshua Falken"
+              },
+              {
+                "discogsArtistId": "2431474",
+                "name": "Percussions (2)"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/6400214",
+            "discogsWebUrl": "https://www.discogs.com/artist/6400214-ꉺლஇ-ꉺლ",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+            "id": 6400214,
+            "resource_url": "https://api.discogs.com/artists/6400214",
+            "uri": "https://www.discogs.com/artist/6400214-ꉺლஇ-ꉺლ",
+            "releases_url": "https://api.discogs.com/artists/6400214/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/O9FNhzhIx7LocNeTMU7VpjGCdeIXBMzs9lcUeId8j5Q/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDg1/Ny05OTU4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/O9FNhzhIx7LocNeTMU7VpjGCdeIXBMzs9lcUeId8j5Q/rs:fit/g:sm/q:90/h:726/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDg1/Ny05OTU4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/7TXGzYFcKz6MD8TvJD4jNaJhbiaD0f_Hte1wYTaBggk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDg1/Ny05OTU4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 726
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/6ozcIsGoyKT6yM--9zCWF1dPDB-rv3OZFaLHKwRbrEY/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDc4/MS0yOTI4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/6ozcIsGoyKT6yM--9zCWF1dPDB-rv3OZFaLHKwRbrEY/rs:fit/g:sm/q:90/h:736/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDc4/MS0yOTI4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/oQEqGGMRoDTrGnU1TbhAIhZglMaqJOqnq75YvezyiQk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY0MDAy/MTQtMTU5MTk0NDc4/MS0yOTI4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 736
+              }
+            ],
+            "profile": "Project by Kieran Hebden. Several songs from this project appeared on his Four Tet album [r=16618479], or as loosies on Soundcloud under the Four Tet name. AKA \"wingdings\".",
+            "urls": [
+              "https://00000ooooo.bandcamp.com/"
+            ],
+            "aliases": [
+              {
+                "id": 3543,
+                "name": "Four Tet",
+                "resource_url": "https://api.discogs.com/artists/3543"
+              },
+              {
+                "id": 60342,
+                "name": "Kieran Hebden",
+                "resource_url": "https://api.discogs.com/artists/60342"
+              },
+              {
+                "id": 319092,
+                "name": "4T Recordings",
+                "resource_url": "https://api.discogs.com/artists/319092"
+              },
+              {
+                "id": 450198,
+                "name": "Joshua Falken",
+                "resource_url": "https://api.discogs.com/artists/450198"
+              },
+              {
+                "id": 2431474,
+                "name": "Percussions (2)",
+                "resource_url": "https://api.discogs.com/artists/2431474"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "fc1b46ef-2d86-4248-a2c9-18d64f27402a": {
+          "releaseCount": 2,
+          "distinctiveTitles": [
+            "double density",
+            "a moment of clarity"
+          ],
+          "earliestYear": 1997,
+          "latestYear": 2011
+        },
+        "3bcff06f-675a-451f-9075-99e8657047e8": {
+          "releaseCount": 140,
+          "distinctiveTitles": [
+            "4t recordings",
+            "nothing to see don t let me go",
+            "div orce series 1",
+            "castles made of sand",
+            "locked pyramid",
+            "sun drums and soil",
+            "nova moth",
+            "new energy",
+            "ringer",
+            "pause rounds",
+            "morning evening",
+            "paws",
+            "dj kicks four tet",
+            "live at alexandra palace london 24th may 2023",
+            "angel echoes",
+            "baby",
+            "live at funkhaus berlin 10th may 2018",
+            "the warehouse project four tet in manchester oct 19 2024",
+            "planet",
+            "three drums",
+            "ego mirror",
+            "scientists",
+            "pink",
+            "she moves she",
+            "into dust still falling",
+            "dialogue",
+            "i m on fire",
+            "my angel rocks back and forth",
+            "dreamer",
+            "randoms",
+            "2006 01 20 spanish club melbourne australia",
+            "three",
+            "there is love in you",
+            "everything ecstatic",
+            "nova",
+            "love cry",
+            "beautiful rewind",
+            "remixes",
+            "evening side oneohtrix point never edit",
+            "live at lpr new york 17th february 2010",
+            "live from toronto canada nov 14 2025",
+            "mothers dark",
+            "sixteen oceans",
+            "live at the echoplex in los angeles",
+            "kool fm",
+            "thirtysixtwentyfive",
+            "baby again",
+            "fabriclive 59 four tet",
+            "four tet v pole ep",
+            "mango feedback",
+            "live in the boiler room",
+            "2024 11 02 drumsheds london uk",
+            "no more mosquitoes",
+            "pockets",
+            "live in copenhagen 30th march 2004",
+            "tracki vebeenplayingonradio stuffseemsnicething2dropbecausesmashingitoninternetshouts2b ufo a naples",
+            "a joy",
+            "sw9 9sl",
+            "latenighttales four tet",
+            "baby love cry",
+            "glasshead calamine",
+            "128 harps",
+            "live in tokyo 1st december 2013",
+            "live at boiler room london 13th february 2016",
+            "pause",
+            "misnomer",
+            "talk to me",
+            "jupiters ocoras",
+            "parallel",
+            "in my dreams",
+            "live at hultsfred festival 18th june 2004",
+            "calm down",
+            "flip side disparate",
+            "sing",
+            "loved",
+            "rivers become oceans",
+            "smile around the face",
+            "human voice",
+            "two thousand and seventeen",
+            "back2thestart",
+            "killer nasty",
+            "there is love in you remixes",
+            "live at alexandra palace london 8th and 9th may 2019",
+            "rounds",
+            "daydream repeat",
+            "everything ecstatic part 2",
+            "anna painting",
+            "beautiful rewind remixes",
+            "tomorrowland 2024 solomun b2b four tet at crystal garden weekend 1",
+            "moth wolf cub",
+            "her revolution his rope",
+            "lion peace for earth",
+            "crawl end crawl",
+            "sw9 9sl planet",
+            "as serious as your life",
+            "teenage birdsong",
+            "butterflies",
+            "pinnacles ye ye",
+            "roseland metropolis",
+            "pink remixes",
+            "2024 10 18 awakenings upclose gashouder amsterdam netherlands",
+            "2013 11 01 solid steel radio show",
+            "live from lost village 2025 four tet",
+            "dj mix",
+            "ra 102 four tet",
+            "seesaw club version",
+            "unreleased track",
+            "2003 05 27 toronto on canada",
+            "lightning in a bottle 2025 four tet",
+            "2002 01 07 solid steel radio show",
+            "2013 12 20 solid steel radio show",
+            "2010 01 23 bbc radio 1 essential mix",
+            "love cry joy orbison remix hyph mngo andreas saag s house perspective",
+            "2001 12 05 kcrw morning becomes eclectic",
+            "2018 03 17 bbc radio 1 essential mix",
+            "motion sickness remixes part ii",
+            "2015 03 28 bbc radio 1 essential mix",
+            "live from lost village 2021 four tet",
+            "2025 12 01 the lot radio",
+            "much love to the plastic people",
+            "2001 05 28 solid steel radio show",
+            "2016 06 25 bbc radio 1 essential mix glastonbury",
+            "2025 07 05 bbc radio 1 essential mix glastonbury",
+            "2023 12 01 thelotradio",
+            "jupiters lion",
+            "glassbeadgames 8 hours at fabric dub",
+            "2019 07 03 solid steel radio show",
+            "2015 01 02 closing party plastic people shoreditch london uk",
+            "conference of the birds",
+            "2024 12 01 thelotradio",
+            "2012 08 17 solid steel radio show",
+            "illegal",
+            "2015 05 01 solid steel radio show",
+            "2008 02 29 solid steel radio show",
+            "1234567890qwertyuiopasdfghjklzxcvbnm",
+            "twitter 100k",
+            "fact mix 182 four tet",
+            "2011 09 02 solid steel radio show",
+            "2025 06 13 sonar 2025 fira de barcelona gran via l hospitalet de llobregat catalonia es"
+          ],
+          "earliestYear": 1998,
+          "latestYear": 2026
+        },
+        "2d9745dd-5dc6-4145-9453-fec582cfa9b8": {
+          "releaseCount": 5,
+          "distinctiveTitles": [
+            "vo vo",
+            "o vo",
+            "ooo o 0",
+            "untitled",
+            "ooo ooo"
+          ],
+          "earliestYear": 2020,
+          "latestYear": 2025
+        },
+        "cb661251-3bc2-4373-bd7c-4b1531275c4c": {
+          "releaseCount": 13,
+          "distinctiveTitles": [
+            "41 longfield street late 80s",
+            "remixes",
+            "nyc",
+            "live at the south bank",
+            "strings of life",
+            "the sun never sets",
+            "the exchange session vol 2",
+            "if i had a boat",
+            "darkness darkness",
+            "the sun never sets holden remix",
+            "tongues",
+            "people be happy rhythm dance audion s highlight mix",
+            "the exchange session vol 1"
+          ],
+          "earliestYear": 2006,
+          "latestYear": 2025
+        },
+        "4c1a7fe5-e619-40c4-bbee-371e6e027f07": {
+          "releaseCount": 2,
+          "distinctiveTitles": [
+            "0181",
+            "871"
+          ],
+          "earliestYear": 2013,
+          "latestYear": 2020
+        },
+        "abd074c2-5d2b-4486-8081-ef26fd412b0d": {
+          "releaseCount": 5,
+          "distinctiveTitles": [
+            "ascii bot blatant water cannon",
+            "digital arpeggios",
+            "bird songs",
+            "khlhi sext",
+            "2011 until 2014"
+          ],
+          "earliestYear": 2012,
+          "latestYear": 2015
+        },
+        "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c": {
+          "releaseCount": 13,
+          "distinctiveTitles": [
+            "lmb kh version",
+            "question",
+            "looking at your pager solomun remix",
+            "feelings",
+            "remixes",
+            "only human",
+            "looking at your pager clipz remix",
+            "2022 07 09 bbc radio 1 essential mix",
+            "only human mph remix",
+            "my money s gone",
+            "looking at your pager",
+            "the track i ve been playing that people keep asking about and that joy used in his ra mix and daphni played on boiler room",
+            "looking at your pager chris lake remix"
+          ],
+          "earliestYear": 2013,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "7Eu1txygG6nJttLHbZdQOh",
+        "wikidataQid": "Q959655",
+        "name": "Four Tet",
+        "musicBrainzArtistId": null,
+        "discogsArtistId": null,
+        "musicBrainzArtistIds": [
+          "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+          "3bcff06f-675a-451f-9075-99e8657047e8",
+          "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+          "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+          "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+          "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+          "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c"
+        ],
+        "discogsArtistIds": [
+          "60342",
+          "3543",
+          "319092",
+          "2431474",
+          "6400214"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7Eu1txygG6nJttLHbZdQOh",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q959655",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "fc1b46ef-2d86-4248-a2c9-18d64f27402a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "3bcff06f-675a-451f-9075-99e8657047e8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2d9745dd-5dc6-4145-9453-fec582cfa9b8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "cb661251-3bc2-4373-bd7c-4b1531275c4c",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4c1a7fe5-e619-40c4-bbee-371e6e027f07",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "abd074c2-5d2b-4486-8081-ef26fd412b0d",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "60342",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3543",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "319092",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2431474",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6400214",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/2431474.json",
+    "provider-cache/v1/discogs/artist/319092.json",
+    "provider-cache/v1/discogs/artist/3543.json",
+    "provider-cache/v1/discogs/artist/60342.json",
+    "provider-cache/v1/discogs/artist/6400214.json",
+    "provider-cache/v1/musicbrainz/artist/2d9745dd-5dc6-4145-9453-fec582cfa9b8.json",
+    "provider-cache/v1/musicbrainz/artist/3bcff06f-675a-451f-9075-99e8657047e8.json",
+    "provider-cache/v1/musicbrainz/artist/4c1a7fe5-e619-40c4-bbee-371e6e027f07.json",
+    "provider-cache/v1/musicbrainz/artist/509aadf8-42ca-4ec0-99bd-3a89c6d18c2c.json",
+    "provider-cache/v1/musicbrainz/artist/abd074c2-5d2b-4486-8081-ef26fd412b0d.json",
+    "provider-cache/v1/musicbrainz/artist/cb661251-3bc2-4373-bd7c-4b1531275c4c.json",
+    "provider-cache/v1/musicbrainz/artist/fc1b46ef-2d86-4248-a2c9-18d64f27402a.json",
+    "provider-cache/v1/musicbrainz/release-groups/2d9745dd-5dc6-4145-9453-fec582cfa9b8.json",
+    "provider-cache/v1/musicbrainz/release-groups/3bcff06f-675a-451f-9075-99e8657047e8.json",
+    "provider-cache/v1/musicbrainz/release-groups/4c1a7fe5-e619-40c4-bbee-371e6e027f07.json",
+    "provider-cache/v1/musicbrainz/release-groups/509aadf8-42ca-4ec0-99bd-3a89c6d18c2c.json",
+    "provider-cache/v1/musicbrainz/release-groups/abd074c2-5d2b-4486-8081-ef26fd412b0d.json",
+    "provider-cache/v1/musicbrainz/release-groups/cb661251-3bc2-4373-bd7c-4b1531275c4c.json",
+    "provider-cache/v1/musicbrainz/release-groups/fc1b46ef-2d86-4248-a2c9-18d64f27402a.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7Eu1txygG6nJttLHbZdQOh.json"
+  ]
+}

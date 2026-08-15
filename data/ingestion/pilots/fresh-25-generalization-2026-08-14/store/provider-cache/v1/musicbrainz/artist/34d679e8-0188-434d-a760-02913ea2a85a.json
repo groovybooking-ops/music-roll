@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "34d679e8-0188-434d-a760-02913ea2a85a",
+  "retrievedAt": "2026-08-14T21:48:02.912Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "34d679e8-0188-434d-a760-02913ea2a85a",
+      "name": "Blue Calx",
+      "sortName": "Blue Calx",
+      "artistType": "Person",
+      "disambiguation": "Richard David James",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sortName": "Limerick",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-08-18",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000406500508"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/42476"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/blue_calx"
+        }
+      ]
+    },
+    "raw": {
+      "country": "GB",
+      "aliases": [],
+      "ipis": [],
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom"
+      },
+      "gender": "Male",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "relations": [
+        {
+          "url": {
+            "resource": "https://www.discogs.com/artist/42476",
+            "id": "8e9ea5f6-5d21-4402-b3d0-73e1d3468576"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "target-credit": "",
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "type": "discogs",
+          "attribute-values": {}
+        },
+        {
+          "source-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "ended": false,
+          "attributes": [],
+          "type": "other databases",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/blue_calx",
+            "id": "35221a53-cdc4-4acc-8f65-905a633b2e2d"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "target-credit": ""
+        }
+      ],
+      "begin-area": {
+        "type-id": null,
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "sort-name": "Limerick",
+        "name": "Limerick",
+        "type": null,
+        "disambiguation": ""
+      },
+      "id": "34d679e8-0188-434d-a760-02913ea2a85a",
+      "life-span": {
+        "end": null,
+        "begin": "1971-08-18",
+        "ended": false
+      },
+      "end-area": null,
+      "name": "Blue Calx",
+      "type": "Person",
+      "isnis": [
+        "0000000406500508"
+      ],
+      "sort-name": "Blue Calx",
+      "disambiguation": "Richard David James",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9"
+    }
+  }
+}

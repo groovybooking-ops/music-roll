@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0063a-c959-79ef-abdf-8506b5b1ca99",
+  "candidateId": "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:21:51.065Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e.json",
+    "discovery/associations/candidates/mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e/e84eaa59dd0edb630faa92e6a847dbb50af62fae35c4d09ec99137b122f72f0e.json",
+    "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:348ae42112cb8ad24c634fbd9bb0ac6b1605450103e64402e918f16c464e243a",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:2:3g2kUQ6tHLLbmkV7T4GPtL",
+      "sourceUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+      "rawArtistName": "Fiona Apple",
+      "normalizedArtistName": "fiona apple",
+      "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e/e84eaa59dd0edb630faa92e6a847dbb50af62fae35c4d09ec99137b122f72f0e.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:3g2kUQ6tHLLbmkV7T4GPtL"
+    }
+  }
+}

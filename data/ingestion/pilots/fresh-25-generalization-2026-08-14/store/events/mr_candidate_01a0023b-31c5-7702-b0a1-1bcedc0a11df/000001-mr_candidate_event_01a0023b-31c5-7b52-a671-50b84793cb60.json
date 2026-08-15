@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31c5-7b52-a671-50b84793cb60",
+  "candidateId": "mr_candidate_01a0023b-31c5-7702-b0a1-1bcedc0a11df",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.933Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:17d6116e0491efb0b137ce6be3c1a41c04fc02c09dabb6a4a57fe2d173f84357",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-012",
+      "sourceUrl": "https://open.spotify.com/artist/4Ge8xMJNwt6EEXOzVXju9a",
+      "rawArtistName": "Caroline Polachek",
+      "normalizedArtistName": "caroline polachek",
+      "spotifyArtistId": "4Ge8xMJNwt6EEXOzVXju9a",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/4Ge8xMJNwt6EEXOzVXju9a",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

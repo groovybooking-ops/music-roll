@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31f4-77bf-91b0-344bfa407ffc",
+  "candidateId": "mr_candidate_01a0023b-31f4-783b-8d17-6e4e6ebf170f",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.980Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:77ef1b22124cbd60570a6547b612b5fba13ad9098f487f23300fc7a913a80e7e",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-025",
+      "sourceUrl": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG",
+      "rawArtistName": "Aphex Twin",
+      "normalizedArtistName": "aphex twin",
+      "spotifyArtistId": "6kBDZFXuLrZgHnvmPu9NsG",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6kBDZFXuLrZgHnvmPu9NsG",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

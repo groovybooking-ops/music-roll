@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2",
+  "provider": "ticketmaster",
+  "sourceType": "ticketmaster_event",
+  "sourceName": "Music Roll first bounded NY Ticketmaster discovery pilot",
+  "sourceRecordId": "rZ7HnEZ1Af-EqS/attraction/K8vZ917GmE7",
+  "sourceUrl": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867773",
+  "artist": {
+    "rawName": "Charles Mingus Orchestra",
+    "normalizedName": "charles mingus orchestra"
+  },
+  "providerEntity": {
+    "provider": "ticketmaster",
+    "type": "attraction",
+    "id": "K8vZ917GmE7",
+    "url": "https://www.ticketmaster.com/charles-mingus-orchestra-tickets/artist/1478438",
+    "legacyIds": [
+      "1478438"
+    ]
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "event_attractions",
+    "eventId": "rZ7HnEZ1Af-EqS",
+    "eventName": "Charles Mingus Orchestra",
+    "eventDateTime": {
+      "localDate": "2026-08-14",
+      "localTime": "19:00:00",
+      "utcDateTime": "2026-08-14T23:00:00Z"
+    },
+    "eventClassifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvE",
+          "name": "Jazz"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vkda",
+          "name": "Jazz"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      }
+    ],
+    "eventPosition": 0,
+    "attractionPosition": 0,
+    "venue": {
+      "id": "rZ7HnEZ174KrF",
+      "name": "Birdland Theater",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "latitude": 40.7590167,
+      "longitude": -73.9896861
+    },
+    "eventEvidenceRef": "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json",
+    "discoveryAttractionId": "K8vZ917GmE7",
+    "legacyAttractionIds": [
+      "1478438"
+    ],
+    "attractionUrl": "https://www.ticketmaster.com/charles-mingus-orchestra-tickets/artist/1478438",
+    "classifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvE",
+          "name": "Jazz"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vkda",
+          "name": "Jazz"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7nI",
+          "name": "Undefined"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7v7lJ",
+          "name": "Undefined"
+        }
+      }
+    ],
+    "evidenceRefs": {
+      "rawPage": "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json",
+      "attraction": null,
+      "event": "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json"
+    },
+    "note": "Ticketmaster classifications are source evidence only and do not set Music Roll genre or stage."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json",
+  "discoveredAt": "2026-08-14T22:34:32.351Z",
+  "reviewOnly": true
+}

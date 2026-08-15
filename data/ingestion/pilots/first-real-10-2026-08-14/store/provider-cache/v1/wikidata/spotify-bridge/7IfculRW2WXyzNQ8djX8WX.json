@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7IfculRW2WXyzNQ8djX8WX",
+  "retrievedAt": "2026-08-14T21:19:40.606Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7IfculRW2WXyzNQ8djX8WX",
+      "wikidataQid": "Q223875",
+      "name": "Erykah Badu",
+      "musicBrainzArtistId": "321531fc-db73-4ffa-a959-61a61a2908c1",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "10995",
+        "654334"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q223875"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "321531fc-db73-4ffa-a959-61a61a2908c1"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "10995"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Erykah Badu"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q223875"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "321531fc-db73-4ffa-a959-61a61a2908c1"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "654334"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Erykah Badu"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

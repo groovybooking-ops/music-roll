@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0026a-b2f6-75da-a75a-07254d4e69fc",
+  "candidateId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T22:35:42.198Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2.json",
+    "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:9210220d2e8992fba2fa8c8ed82e98e90f516203dc95e54cf710cf15ceeac999",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll first bounded NY Ticketmaster discovery pilot",
+      "sourceRecordId": "rZ7HnEZ1Af-EqS/attraction/K8vZ917GmE7",
+      "sourceUrl": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867773",
+      "rawArtistName": "Charles Mingus Orchestra",
+      "normalizedArtistName": "charles mingus orchestra",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T22:34:32.351Z"
+    }
+  }
+}

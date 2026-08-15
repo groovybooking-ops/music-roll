@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31ad-7277-8628-b6e5196596ae",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:44:07.324Z",
+  "createdAt": "2026-08-14T21:43:48.909Z",
+  "updatedAt": "2026-08-14T21:44:07.324Z",
+  "name": {
+    "raw": "Jorja Smith",
+    "normalized": "jorja smith"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:44cfe4d395dcc52a35218f51ca848ba43b3fe4460522b52f5160ca88b377718f",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-001",
+      "sourceUrl": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "rawArtistName": "Jorja Smith",
+      "normalizedArtistName": "jorja smith",
+      "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "1CoZyIx7UvdxT5c8UkMzHd",
+    "wikidataQids": [
+      "Q29452199"
+    ],
+    "musicBrainzArtistIds": [
+      "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+    ],
+    "discogsArtistIds": [
+      "5314733"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31ad-7277-8628-b6e5196596ae/519ea0ab41e42ac5be5fc7e5069343be8e105d93e9cc54b0687cd92358e301dc.json",
+      "provider-cache/v1/wikidata/spotify-bridge/1CoZyIx7UvdxT5c8UkMzHd.json",
+      "provider-cache/v1/musicbrainz/artist/d62614aa-ef2c-44cd-8a7b-91292755a1d0.json",
+      "provider-cache/v1/discogs/artist/5314733.json",
+      "provider-cache/v1/musicbrainz/exact-name/a24618d8d03a74e1ad229460.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+          "name": "Jorja Smith",
+          "sortName": "Smith, Jorja",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "1CoZyIx7UvdxT5c8UkMzHd"
+          ],
+          "discogsArtistIds": [
+            "5314733"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1CoZyIx7UvdxT5c8UkMzHd",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1CoZyIx7UvdxT5c8UkMzHd",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q29452199",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5314733",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "d62614aa-ef2c-44cd-8a7b-91292755a1d0",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5314733",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1CoZyIx7UvdxT5c8UkMzHd",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q29452199",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "d62614aa-ef2c-44cd-8a7b-91292755a1d0"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5314733",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "5314733"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:44:07.321Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023b-799c-734c-a1ae-d3977338e1ae"
+}

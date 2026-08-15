@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "351bee54-3ee7-449d-b68e-c94da6798b97",
+  "retrievedAt": "2026-08-14T21:46:12.904Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "351bee54-3ee7-449d-b68e-c94da6798b97",
+      "name": "Turnstile",
+      "sortName": "Turnstile",
+      "artistType": "Group",
+      "disambiguation": "Spanish punk-rock band",
+      "country": "ES",
+      "area": {
+        "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+        "name": "Spain",
+        "sortName": "Spain",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000471183430"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/2696986"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/turnstile_f1"
+        }
+      ]
+    },
+    "raw": {
+      "type": "Group",
+      "disambiguation": "Spanish punk-rock band",
+      "isnis": [
+        "0000000471183430"
+      ],
+      "relations": [
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.discogs.com/artist/2696986",
+            "id": "d23d15cc-d9a7-4714-a182-1743a2c2a397"
+          },
+          "attribute-ids": {},
+          "type": "discogs"
+        },
+        {
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://rateyourmusic.com/artist/turnstile_f1",
+            "id": "71bca94a-17a2-43b0-9795-620341b437f3"
+          },
+          "type": "other databases",
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null
+        }
+      ],
+      "id": "351bee54-3ee7-449d-b68e-c94da6798b97",
+      "name": "Turnstile",
+      "ipis": [],
+      "sort-name": "Turnstile",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender": null,
+      "aliases": [],
+      "gender-id": null,
+      "end-area": null,
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "begin-area": null,
+      "area": {
+        "type": null,
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Spain",
+        "iso-3166-1-codes": [
+          "ES"
+        ],
+        "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+        "sort-name": "Spain"
+      },
+      "country": "ES"
+    }
+  }
+}

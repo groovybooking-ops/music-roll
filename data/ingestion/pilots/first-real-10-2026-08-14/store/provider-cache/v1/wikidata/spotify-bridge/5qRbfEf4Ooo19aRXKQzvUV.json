@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5qRbfEf4Ooo19aRXKQzvUV",
+  "retrievedAt": "2026-08-14T21:18:19.433Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5qRbfEf4Ooo19aRXKQzvUV",
+      "wikidataQid": "Q64875639",
+      "name": "Sage Elsesser",
+      "musicBrainzArtistId": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+      "discogsArtistId": null
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q64875639"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "304c731f-ea4f-407c-b4fc-65131b1b2b37"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Sage Elsesser"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

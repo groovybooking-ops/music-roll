@@ -1,0 +1,1333 @@
+{
+  "evidenceId": "sha256:1e2ba1e0b9114e065459c08742dcbfe4726d6fb88bfb87d4a6b88c489e96b524",
+  "createdAt": "2026-08-14T21:46:22.847Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31de-7c6b-b27f-f03c0070941c",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Big Thief",
+        "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28228836",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5009441",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5009441",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28228836",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5009441",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5009441"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "5QdyldG4Fl4TPiOIeMNpBZ",
+          "observedValues": [
+            "5QdyldG4Fl4TPiOIeMNpBZ"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q28228836",
+          "observedValues": [
+            "Q28228836"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28228836",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28228836",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "observedValues": [
+            "9f81247f-7f57-42f3-a8ba-75bef554e591"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "5009441",
+          "observedValues": [
+            "5009441"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5009441",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5009441",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "5009441",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "5009441"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+            "name": "Big Thief",
+            "sortName": "Big Thief",
+            "artistType": "Group",
+            "country": "US",
+            "disambiguation": "US indie folk band",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "5QdyldG4Fl4TPiOIeMNpBZ"
+            ],
+            "discogsArtistIds": [
+              "5009441"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "9f81247f-7f57-42f3-a8ba-75bef554e591": {
+          "artist": {
+            "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+            "name": "Big Thief",
+            "sortName": "Big Thief",
+            "artistType": "Group",
+            "disambiguation": "US indie folk band",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+              "name": "Brooklyn",
+              "sortName": "Brooklyn",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "2015",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [
+              "0000000470109298"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003449693"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://bigthief.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/11827202"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/5009441"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/9829340"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Big+Thief"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Big-thief"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://bigthief.net/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2017090984"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/1110220588"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/big-thief"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/big-thief"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no2017090984/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id1083255351"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/3574755"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/big-thief/863351"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/bigthiefmusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/bigthiefmusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/bigthiefmusic/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/8434308"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/big-thief"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1083255351"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/3574755"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/7851094"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/45147095009925080500"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/53150030677410961832"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q28228836"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCvN64FqCG5hi2cTsOLH2lqQ"
+              }
+            ]
+          },
+          "raw": {
+            "disambiguation": "US indie folk band",
+            "life-span": {
+              "begin": "2015",
+              "ended": false,
+              "end": null
+            },
+            "ipis": [],
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "id": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+            "begin-area": {
+              "sort-name": "Brooklyn",
+              "type-id": null,
+              "disambiguation": "",
+              "type": null,
+              "name": "Brooklyn",
+              "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c"
+            },
+            "gender": null,
+            "sort-name": "Big Thief",
+            "country": "US",
+            "gender-id": null,
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "type": null,
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "disambiguation": "",
+              "sort-name": "United States",
+              "type-id": null
+            },
+            "name": "Big Thief",
+            "isnis": [
+              "0000000470109298"
+            ],
+            "type": "Group",
+            "relations": [
+              {
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0003449693",
+                  "id": "7a8939d2-495f-42a4-abbc-1c517bf0523f"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "allmusic"
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "bandcamp",
+                "url": {
+                  "id": "146e4b2e-ecf2-416f-a247-e3ea6dd2b0ab",
+                  "resource": "https://bigthief.bandcamp.com/"
+                },
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/11827202",
+                  "id": "70712670-d682-488d-b30d-f026943f47e8"
+                },
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "bandsintown",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "discogs",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "id": "47f512f7-4a6f-46dd-8137-1fc2c71704ec",
+                  "resource": "https://www.discogs.com/artist/5009441"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+                  "id": "c2fa351d-7495-4199-9852-490ea4bfecf4"
+                },
+                "type": "free streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "id": "ad7e9d7f-9922-45c6-b814-2ef657d7d184",
+                  "resource": "https://www.deezer.com/artist/9829340"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "id": "d8dd3906-35d7-49ce-b81c-6b43d9e515bb",
+                  "resource": "https://www.last.fm/music/Big+Thief"
+                },
+                "type": "last.fm",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "id": "5b048893-d841-4571-8011-a9f98b2eba1a",
+                  "resource": "https://genius.com/artists/Big-thief"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "lyrics",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type": "official homepage",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "id": "974acc0a-b5d5-463c-b7c5-8925c52acb7d",
+                  "resource": "https://bigthief.net/"
+                }
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/no2017090984",
+                  "id": "7004418a-0d70-45de-b659-632d32077e1b"
+                }
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "7651ea07-560b-4767-a7e1-402bdd8210c5",
+                  "resource": "https://d-nb.info/gnd/1110220588"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://imvdb.com/n/big-thief",
+                  "id": "191f33b0-bae7-4311-9842-e65872608367"
+                },
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "url": {
+                  "id": "dde57c2a-1551-4d24-9d33-c3fc11d9c621",
+                  "resource": "https://rateyourmusic.com/artist/big-thief"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-no2017090984/",
+                  "id": "73e6a6ff-64ba-4e53-965f-4aad080b3c03"
+                }
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id1083255351",
+                  "id": "4b839e5d-92b6-4c31-8e80-82b6ccd049c4"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "38332c39-9688-4ebf-9218-8f544559f429",
+                  "resource": "https://open.qobuz.com/artist/3574755"
+                },
+                "type": "purchase for download",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "1da9be8c-9234-40ed-963e-5666cd933353",
+                  "resource": "https://www.beatport.com/artist/big-thief/863351"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "purchase for download",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "id": "9a26cf27-fc68-4a3b-a48d-368c2275165f",
+                  "resource": "https://twitter.com/bigthiefmusic"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "social network",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "9c3839b9-b9e4-4443-8108-ae76626b7870",
+                  "resource": "https://www.facebook.com/bigthiefmusic"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "social network",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.instagram.com/bigthiefmusic/",
+                  "id": "6394800c-6585-4b89-be27-01f019697c5a"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "songkick",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "url": {
+                  "id": "0742e273-357d-4141-82bd-172f6d8ebfc2",
+                  "resource": "https://www.songkick.com/artists/8434308"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "url": {
+                  "id": "1955746b-6eb9-4b85-a67d-27455ec7b7b9",
+                  "resource": "https://soundcloud.com/big-thief"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "soundcloud",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "26b35fd6-0e2d-41d4-b957-db44403fbc91",
+                  "resource": "https://music.apple.com/us/artist/1083255351"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "38332c39-9688-4ebf-9218-8f544559f429",
+                  "resource": "https://open.qobuz.com/artist/3574755"
+                }
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://tidal.com/artist/7851094",
+                  "id": "926dfe53-7ca6-47ab-b515-fa8e61fb1487"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "resource": "http://viaf.org/viaf/45147095009925080500",
+                  "id": "67a63c83-f7de-4ff7-a066-5d364df551bf"
+                },
+                "type": "VIAF",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "resource": "http://viaf.org/viaf/53150030677410961832",
+                  "id": "bd3fa1bb-7a39-4d95-b81a-56129e057ba5"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "VIAF",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false
+              },
+              {
+                "type": "wikidata",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q28228836",
+                  "id": "0a300677-6526-4774-9db3-df85b6bb0a51"
+                },
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCvN64FqCG5hi2cTsOLH2lqQ",
+                  "id": "50a14427-665f-4e10-80d6-a309acdd1617"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "youtube",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              }
+            ],
+            "aliases": [],
+            "end-area": null
+          }
+        }
+      },
+      "discogsRecords": {
+        "5009441": {
+          "artist": {
+            "discogsArtistId": "5009441",
+            "name": "Big Thief",
+            "realName": null,
+            "profile": "Indie folk/rock band from Brooklyn, New York, USA.",
+            "artistUrls": [
+              "https://bigthief.bandcamp.com/",
+              "https://www.facebook.com/bigthiefmusic",
+              "http://www.bigthief.net/",
+              "https://www.instagram.com/bigthiefmusic/",
+              "https://en.wikipedia.org/wiki/Big_Thief",
+              "https://soundcloud.com/big-thief"
+            ],
+            "aliases": [],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/5009441",
+            "discogsWebUrl": "https://www.discogs.com/artist/5009441-Big-Thief",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Big Thief",
+            "id": 5009441,
+            "resource_url": "https://api.discogs.com/artists/5009441",
+            "uri": "https://www.discogs.com/artist/5009441-Big-Thief",
+            "releases_url": "https://api.discogs.com/artists/5009441/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/uldSI_8y9-EVTFKjv3E29Jn3gnu25YGfGavFABX3w9g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTc2Njg2NDgx/NC00MTgzLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/uldSI_8y9-EVTFKjv3E29Jn3gnu25YGfGavFABX3w9g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTc2Njg2NDgx/NC00MTgzLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/gfcgAIbWR-TFtD9xQw_4zBm7XsULViiNKj30o6xnKcA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTc2Njg2NDgx/NC00MTgzLnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/xpCvoFb1PYcWadcIPrY9neU-P4zOurAf7jMpGg3zl3w/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYzMTAxNzQ5/Mi03NDQxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/xpCvoFb1PYcWadcIPrY9neU-P4zOurAf7jMpGg3zl3w/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYzMTAxNzQ5/Mi03NDQxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ONZwUdZfFwvwbTfNcl7OzGLhTF-mntWKPta8Dcxmpz0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYzMTAxNzQ5/Mi03NDQxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 381
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/s1nOb5X7LTm5lvc4G1aDIwZtliuf4E1U7d5RjDK1UnU/rs:fit/g:sm/q:90/h:543/w:546/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg1/Mi02MDMxLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/s1nOb5X7LTm5lvc4G1aDIwZtliuf4E1U7d5RjDK1UnU/rs:fit/g:sm/q:90/h:543/w:546/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg1/Mi02MDMxLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/mpAYPnC7wYTIij1kRSxM0jYf9ivRD0y6qs9YfX_HGS4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg1/Mi02MDMxLnBuZw.jpeg",
+                "width": 546,
+                "height": 543
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HGQi4-Y4XJNAjHs-5cgy8c5kDTp3XsqufskVEN5wZJQ/rs:fit/g:sm/q:90/h:406/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg0/Ni0xNDc3LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/HGQi4-Y4XJNAjHs-5cgy8c5kDTp3XsqufskVEN5wZJQ/rs:fit/g:sm/q:90/h:406/w:530/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg0/Ni0xNDc3LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/v0nL8J0l3xKoF8ok0xIOzcI_zusw2aw_t7H_Ijkecsk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTYwNTc2NTg0/Ni0xNDc3LnBuZw.jpeg",
+                "width": 530,
+                "height": 406
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/YWbQUYMVaK94P2GbDOk-3ELNznp6_LoqWwuetjLRJCA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTQ2MTMwNjA1/My02NjA3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/YWbQUYMVaK94P2GbDOk-3ELNznp6_LoqWwuetjLRJCA/rs:fit/g:sm/q:90/h:397/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTQ2MTMwNjA1/My02NjA3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/LprWlz6ESquAS1Wj6FeXdH0K42M91Ls3KMItKMrWOgk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUwMDk0/NDEtMTQ2MTMwNjA1/My02NjA3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 397
+              }
+            ],
+            "profile": "Indie folk/rock band from Brooklyn, New York, USA.",
+            "urls": [
+              "https://bigthief.bandcamp.com/",
+              "https://www.facebook.com/bigthiefmusic",
+              "http://www.bigthief.net/",
+              "https://www.instagram.com/bigthiefmusic/",
+              "https://en.wikipedia.org/wiki/Big_Thief",
+              "https://soundcloud.com/big-thief"
+            ],
+            "members": [
+              {
+                "id": 3215473,
+                "name": "Jason Burger",
+                "resource_url": "https://api.discogs.com/artists/3215473",
+                "active": false
+              },
+              {
+                "id": 4389708,
+                "name": "AdriAnne Lenker",
+                "resource_url": "https://api.discogs.com/artists/4389708",
+                "active": true
+              },
+              {
+                "id": 4620347,
+                "name": "James Krivchenia",
+                "resource_url": "https://api.discogs.com/artists/4620347",
+                "active": true
+              },
+              {
+                "id": 5076304,
+                "name": "Buck Meek",
+                "resource_url": "https://api.discogs.com/artists/5076304",
+                "active": true
+              },
+              {
+                "id": 5082777,
+                "name": "Max Oleartchik",
+                "resource_url": "https://api.discogs.com/artists/5082777",
+                "active": false
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+        "wikidataQid": "Q28228836",
+        "name": "Big Thief",
+        "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+        "discogsArtistId": "5009441"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28228836",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5009441",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "name": "Big Thief",
+          "sortName": "Big Thief",
+          "artistType": "Group",
+          "country": "US",
+          "disambiguation": "US indie folk band",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "name": "Big Thief",
+          "sortName": "Big Thief",
+          "artistType": "Group",
+          "disambiguation": "US indie folk band",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+            "name": "Brooklyn",
+            "sortName": "Brooklyn",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2015",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [
+            "0000000470109298"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003449693"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://bigthief.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/11827202"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/5009441"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/9829340"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Big+Thief"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Big-thief"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://bigthief.net/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2017090984"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1110220588"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/big-thief"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/big-thief"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2017090984/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id1083255351"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/3574755"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/big-thief/863351"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/bigthiefmusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/bigthiefmusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/bigthiefmusic/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/8434308"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/big-thief"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1083255351"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/3574755"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/7851094"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/45147095009925080500"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/53150030677410961832"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q28228836"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCvN64FqCG5hi2cTsOLH2lqQ"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/5009441.json",
+    "provider-cache/v1/musicbrainz/artist/9f81247f-7f57-42f3-a8ba-75bef554e591.json",
+    "provider-cache/v1/musicbrainz/exact-name/4f79bd8be358d4eae17e8c2f.json",
+    "provider-cache/v1/wikidata/spotify-bridge/5QdyldG4Fl4TPiOIeMNpBZ.json"
+  ]
+}

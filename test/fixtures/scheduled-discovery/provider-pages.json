@@ -1,0 +1,30 @@
+{
+  "spotify": [
+    {
+      "rawEvidenceRef": "fixtures/provider-pages/spotify/page-0.json",
+      "nextCursor": "spotify-cursor-1",
+      "items": [
+        { "occurrenceId": "spotify-occurrence-001", "createsCandidate": true, "targetState": "identity_pending" },
+        { "occurrenceId": "spotify-occurrence-002", "createsCandidate": false, "targetState": null },
+        { "occurrenceId": "spotify-occurrence-003", "createsCandidate": true, "targetState": "identity_pending" }
+      ]
+    },
+    {
+      "rawEvidenceRef": "fixtures/provider-pages/spotify/page-1.json",
+      "nextCursor": null,
+      "items": [
+        { "occurrenceId": "spotify-occurrence-004", "createsCandidate": true, "targetState": "identity_pending" }
+      ]
+    }
+  ],
+  "ticketmaster": [
+    {
+      "rawEvidenceRef": "fixtures/provider-pages/ticketmaster/page-0.json",
+      "nextCursor": "ticketmaster-cursor-1",
+      "items": [
+        { "occurrenceId": "ticketmaster-occurrence-001", "createsCandidate": true, "targetState": "identity_discovery_pending" },
+        { "occurrenceId": "ticketmaster-occurrence-002", "createsCandidate": true, "targetState": "identity_discovery_pending" }
+      ]
+    }
+  ]
+}

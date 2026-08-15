@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7A0awCXkE1FtSU8B0qwOJQ",
+  "retrievedAt": "2026-08-14T21:46:27.886Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7A0awCXkE1FtSU8B0qwOJQ",
+      "wikidataQid": "Q263726",
+      "name": "Jamie xx",
+      "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "2109856",
+        "1545576"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q263726"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2109856"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Jamie xx"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q263726"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1545576"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Jamie xx"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1261 @@
+{
+  "evidenceId": "sha256:30cf0b1cdb312503c1145be5d0c1d8b5141d4954e57afc7df3a2c1db86b2b12f",
+  "createdAt": "2026-08-14T21:47:47.137Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31f1-7731-b7cc-ed3763ce45f2",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "BICEP",
+        "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "73A3bLnfnz5BoQjb4gNCga",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "73A3bLnfnz5BoQjb4gNCga",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28855240",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1540289",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1540289",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "73A3bLnfnz5BoQjb4gNCga",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28855240",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1540289",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1540289"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "73A3bLnfnz5BoQjb4gNCga",
+          "observedValues": [
+            "73A3bLnfnz5BoQjb4gNCga"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "73A3bLnfnz5BoQjb4gNCga",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "73A3bLnfnz5BoQjb4gNCga",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "73A3bLnfnz5BoQjb4gNCga",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q28855240",
+          "observedValues": [
+            "Q28855240"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28855240",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28855240",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "observedValues": [
+            "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "1540289",
+          "observedValues": [
+            "1540289"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1540289",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1540289",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1540289",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "1540289"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+            "name": "Bicep",
+            "sortName": "Bicep",
+            "artistType": "Group",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "73A3bLnfnz5BoQjb4gNCga"
+            ],
+            "discogsArtistIds": [
+              "1540289"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "10e8f0df-90f9-4957-aedd-c4e0d187e3a8": {
+          "artist": {
+            "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+            "name": "Bicep",
+            "sortName": "Bicep",
+            "artistType": "Group",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "057ce294-2684-46fd-aee1-4d8c6b4bf4ef",
+              "name": "Belfast",
+              "sortName": "Belfast",
+              "type": null
+            },
+            "beginArea": {
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "sortName": "London",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "2009",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [
+              "0000000469561295"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002596465"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://bicep.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/1540289"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/369056"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Bicep"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Bicep"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/feelmybicep"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.bicepmusic.com/"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.feelmybicep.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/bicep"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/bicep/167525"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/bicep/691751"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/feelmybicep"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/feelmybicep"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/feelmybicep/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.tiktok.com/@bicepmusic"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/4010656"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/feelmybicep"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/406148755"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/mx/artist/406148755"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/691751"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/3714859"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/bicep/691751"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/1910159234155603370914"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q28855240"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCreSupkPVEJoDjoIV-9GG5w"
+              }
+            ]
+          },
+          "raw": {
+            "end-area": null,
+            "gender-id": null,
+            "aliases": [],
+            "gender": null,
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "country": "GB",
+            "area": {
+              "disambiguation": "",
+              "iso-3166-2-codes": [
+                "GB-BFS"
+              ],
+              "type-id": null,
+              "type": null,
+              "sort-name": "Belfast",
+              "id": "057ce294-2684-46fd-aee1-4d8c6b4bf4ef",
+              "name": "Belfast"
+            },
+            "begin-area": {
+              "sort-name": "London",
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "disambiguation": "Greater London",
+              "type-id": null,
+              "type": null
+            },
+            "life-span": {
+              "ended": false,
+              "begin": "2009",
+              "end": null
+            },
+            "relations": [
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0002596465",
+                  "id": "94190109-50d2-4806-8f39-8cabf15776a9"
+                },
+                "type": "allmusic",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://bicep.bandcamp.com/",
+                  "id": "65d58d4c-560a-496a-b0c2-0e054290e486"
+                },
+                "type": "bandcamp"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "discogs",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/1540289",
+                  "id": "27e59035-70db-43f6-b5f1-1a43321fc55c"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+                  "id": "a5f2a2fe-58f5-4d15-ac7b-e07bf17e1069"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "c9364e31-c822-4f5c-b527-c707db315b1f",
+                  "resource": "https://www.deezer.com/artist/369056"
+                },
+                "attribute-ids": {},
+                "type": "free streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "last.fm",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.last.fm/music/Bicep",
+                  "id": "cdd3d6a5-c5f8-4ce9-acba-a0e99294e11e"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://genius.com/artists/Bicep",
+                  "id": "9715131d-4726-4c79-9119-632e02331349"
+                },
+                "type": "lyrics",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "myspace",
+                "url": {
+                  "id": "f215256d-b950-4110-b399-5fa60f14b115",
+                  "resource": "https://myspace.com/feelmybicep"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "18064295-a9ff-44aa-a916-cd5832be2cbb",
+                  "resource": "https://www.bicepmusic.com/"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "official homepage",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "official homepage",
+                "source-credit": "",
+                "url": {
+                  "id": "f9e38ebc-efd4-4672-8513-30368c7a0a48",
+                  "resource": "http://www.feelmybicep.com/"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "f447ec58-df02-4256-aaab-217896b46568",
+                  "resource": "https://imvdb.com/n/bicep"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "55c4197b-4a6e-471e-abb6-0cfdc9603388",
+                  "resource": "https://www.beatport.com/artist/bicep/167525"
+                },
+                "type": "purchase for download",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/bicep/691751",
+                  "id": "57cf6fb3-3040-4a7b-a564-57b3a1097ea2"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "social network",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "c0d6f0ec-9c05-4989-87a7-792a7d3170d9",
+                  "resource": "https://twitter.com/feelmybicep"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+              },
+              {
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "social network",
+                "source-credit": "",
+                "url": {
+                  "id": "4449cd6d-11a7-4a96-8550-d634d6c39045",
+                  "resource": "https://www.facebook.com/feelmybicep"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "social network",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "9b33ff62-7acf-4b80-bd41-31ceca6c4cbf",
+                  "resource": "https://www.instagram.com/feelmybicep/"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "social network",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "471142aa-d2d0-4ef1-a765-2b2770d9ab07",
+                  "resource": "https://www.tiktok.com/@bicepmusic"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null
+              },
+              {
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "songkick",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "35908a14-a9c7-4b35-a5e3-f612aab0fd3c",
+                  "resource": "https://www.songkick.com/artists/4010656"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "https://soundcloud.com/feelmybicep",
+                  "id": "b365d89e-6550-4e90-b065-ae403556354f"
+                },
+                "attribute-ids": {},
+                "type": "soundcloud",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "06c1f847-12df-41bb-bcfe-9fd5841a899e",
+                  "resource": "https://music.apple.com/gb/artist/406148755"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "streaming",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/mx/artist/406148755",
+                  "id": "3b1f2ae9-9a47-47e7-bcfd-ba3ab282a1b6"
+                },
+                "attribute-ids": {},
+                "type": "streaming",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "a43255c2-7faa-47c8-b592-1e1b535ae1a4",
+                  "resource": "https://open.qobuz.com/artist/691751"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "source-credit": "",
+                "url": {
+                  "id": "44dec67c-e71e-4476-bbb1-5ca1873fae09",
+                  "resource": "https://tidal.com/artist/3714859"
+                },
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/bicep/691751",
+                  "id": "57cf6fb3-3040-4a7b-a564-57b3a1097ea2"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "986e30fa-3750-4ad1-ac4c-bae7c352b1e8",
+                  "resource": "http://viaf.org/viaf/1910159234155603370914"
+                },
+                "type": "VIAF",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460"
+              },
+              {
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q28855240",
+                  "id": "102f855f-ca02-496d-8f86-3d34c39ac515"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "wikidata",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "youtube",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCreSupkPVEJoDjoIV-9GG5w",
+                  "id": "0b2888fe-d8fa-468a-94ee-0c27703cfec2"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null
+              }
+            ],
+            "isnis": [
+              "0000000469561295"
+            ],
+            "disambiguation": "",
+            "type": "Group",
+            "sort-name": "Bicep",
+            "ipis": [],
+            "name": "Bicep",
+            "id": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+          }
+        }
+      },
+      "discogsRecords": {
+        "1540289": {
+          "artist": {
+            "discogsArtistId": "1540289",
+            "name": "Bicep",
+            "realName": null,
+            "profile": "DJ and production duo from Belfast, Northern Ireland.\r\nTogether with [a=Hammer] (aka [a=Rory Hamilton]), they run the music repository [l=Feel My Bicep].",
+            "artistUrls": [
+              "https://www.bicepmusic.com/",
+              "http://www.feelmybicep.com/",
+              "http://www.facebook.com/feelmybicep",
+              "http://www.instagram.com/feelmybicep/",
+              "http://twitter.com/feelmybicep",
+              "http://myspace.com/feelmybicep",
+              "http://feelmybicep.bandcamp.com/",
+              "http://www.last.fm/music/Bicep",
+              "http://soundcloud.com/feelmybicep",
+              "http://www.youtube.com/feelmybicep",
+              "https://discord.gg/bicep"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "14802599",
+                "name": "DOVE (32)"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/1540289",
+            "discogsWebUrl": "https://www.discogs.com/artist/1540289-Bicep",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Bicep",
+            "id": 1540289,
+            "resource_url": "https://api.discogs.com/artists/1540289",
+            "uri": "https://www.discogs.com/artist/1540289-Bicep",
+            "releases_url": "https://api.discogs.com/artists/1540289/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/kZgNbMiqbqkwnP3qzAbr8_8tIDlcbFvJcrXp9m9l0vM/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTYwMjAxNTc4/NC05ODMxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/kZgNbMiqbqkwnP3qzAbr8_8tIDlcbFvJcrXp9m9l0vM/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTYwMjAxNTc4/NC05ODMxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/0DYvB3ZMQK-qhFzPrtoVyj7UrTp_p5huzwWqDad4Lbo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTYwMjAxNTc4/NC05ODMxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/F1xQ8xyFhZK6kAUyhTYedFbCvPO6as2JSqDF1woPdLw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTU4NzczOTg1/NS0yMzQ3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/F1xQ8xyFhZK6kAUyhTYedFbCvPO6as2JSqDF1woPdLw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTU4NzczOTg1/NS0yMzQ3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/itMdaXQzrkh9h5Ud6Fin2vorFYFjWihkSq4A4gRL3KY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDAy/ODktMTU4NzczOTg1/NS0yMzQ3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              }
+            ],
+            "profile": "DJ and production duo from Belfast, Northern Ireland.\r\nTogether with [a=Hammer] (aka [a=Rory Hamilton]), they run the music repository [l=Feel My Bicep].",
+            "urls": [
+              "https://www.bicepmusic.com/",
+              "http://www.feelmybicep.com/",
+              "http://www.facebook.com/feelmybicep",
+              "http://www.instagram.com/feelmybicep/",
+              "http://twitter.com/feelmybicep",
+              "http://myspace.com/feelmybicep",
+              "http://feelmybicep.bandcamp.com/",
+              "http://www.last.fm/music/Bicep",
+              "http://soundcloud.com/feelmybicep",
+              "http://www.youtube.com/feelmybicep",
+              "https://discord.gg/bicep"
+            ],
+            "aliases": [
+              {
+                "id": 14802599,
+                "name": "DOVE (32)",
+                "resource_url": "https://api.discogs.com/artists/14802599"
+              }
+            ],
+            "members": [
+              {
+                "id": 1716173,
+                "name": "Andrew Ferguson (3)",
+                "resource_url": "https://api.discogs.com/artists/1716173",
+                "active": true
+              },
+              {
+                "id": 1716174,
+                "name": "Matthew McBriar",
+                "resource_url": "https://api.discogs.com/artists/1716174",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+        "wikidataQid": "Q28855240",
+        "name": "Bicep",
+        "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+        "discogsArtistId": "1540289"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "73A3bLnfnz5BoQjb4gNCga",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28855240",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1540289",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "name": "Bicep",
+          "sortName": "Bicep",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+          "name": "Bicep",
+          "sortName": "Bicep",
+          "artistType": "Group",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "057ce294-2684-46fd-aee1-4d8c6b4bf4ef",
+            "name": "Belfast",
+            "sortName": "Belfast",
+            "type": null
+          },
+          "beginArea": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "name": "London",
+            "sortName": "London",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "2009",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [
+            "0000000469561295"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0002596465"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://bicep.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1540289"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/369056"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Bicep"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Bicep"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/feelmybicep"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.bicepmusic.com/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.feelmybicep.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/bicep"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/bicep/167525"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/bicep/691751"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/feelmybicep"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/feelmybicep"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/feelmybicep/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@bicepmusic"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/4010656"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/feelmybicep"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/406148755"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/mx/artist/406148755"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/691751"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/3714859"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/bicep/691751"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/1910159234155603370914"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q28855240"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCreSupkPVEJoDjoIV-9GG5w"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/1540289.json",
+    "provider-cache/v1/musicbrainz/artist/10e8f0df-90f9-4957-aedd-c4e0d187e3a8.json",
+    "provider-cache/v1/musicbrainz/exact-name/216ee3f9676007ad16dac8d0.json",
+    "provider-cache/v1/wikidata/spotify-bridge/73A3bLnfnz5BoQjb4gNCga.json"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00223-5dc7-7664-a070-39f35e1902c1",
+  "candidateId": "mr_candidate_01a00223-5dc7-7962-854d-ae56d5e57afa",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:17:47.335Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/first-real-10-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:14beba55c82ecc1e8b9a6b7cb4e1607dec48e4285ff6a96fb42d5114cd8b2264",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-002",
+      "sourceUrl": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV",
+      "rawArtistName": "Navy Blue",
+      "normalizedArtistName": "navy blue",
+      "spotifyArtistId": "5qRbfEf4Ooo19aRXKQzvUV",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5qRbfEf4Ooo19aRXKQzvUV",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  }
+}

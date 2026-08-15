@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0026a-b2f7-727e-a1de-d3f95fb788f7",
+  "candidateId": "mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T22:35:42.199Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2.json",
+    "discovery/associations/candidates/mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f/17597d8c772cf1017dd1aa9165f60d626313a7940a998a5d10ff37c2e0cbdf8f.json",
+    "discovery/provider-listing-cache/ticketmaster/60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:9210220d2e8992fba2fa8c8ed82e98e90f516203dc95e54cf710cf15ceeac999",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll first bounded NY Ticketmaster discovery pilot",
+      "sourceRecordId": "rZ7HnEZ1Af-EqS/attraction/K8vZ917GmE7",
+      "sourceUrl": "https://www.ticketweb.com/event/charles-mingus-orchestra-birdland-theater-tickets/14867773",
+      "rawArtistName": "Charles Mingus Orchestra",
+      "normalizedArtistName": "charles mingus orchestra",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T22:34:32.351Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:b4a34f9f08487ca157190ecf65ad9b4741f179041376edd99bfb746da247c3e2",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0026a-b2f6-7dcc-bf2d-8f69f3007f5f/17597d8c772cf1017dd1aa9165f60d626313a7940a998a5d10ff37c2e0cbdf8f.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ917GmE7"
+    }
+  }
+}

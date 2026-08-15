@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2NdeV5rLm47xAvogXrYhJX",
+  "retrievedAt": "2026-08-14T23:34:29.212Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+      "wikidataQid": "Q203223",
+      "name": "Q203223",
+      "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "232451",
+        "2466394"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q203223"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "232451"
+            },
+            "itemLabel": {
+              "type": "literal",
+              "value": "Q203223"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q203223"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "03172286-f7ed-4864-a4db-459cd5ca9790"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2466394"
+            },
+            "itemLabel": {
+              "type": "literal",
+              "value": "Q203223"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

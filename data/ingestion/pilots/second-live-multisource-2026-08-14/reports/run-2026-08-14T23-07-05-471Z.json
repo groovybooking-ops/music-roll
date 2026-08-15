@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "second-live-multisource-2026-08-14",
+  "reviewOnly": true,
+  "completedAt": "2026-08-14T23:07:05.471Z",
+  "limits": {
+    "totalProviderRequests": 12,
+    "spotifyRequests": 6,
+    "ticketmasterRequests": 6,
+    "normalizedOccurrences": 30,
+    "newCandidates": 15,
+    "unresolvedQueueGrowth": 15
+  },
+  "providerMetrics": {
+    "requests": {
+      "total": 3,
+      "spotify": 2,
+      "ticketmaster": 1
+    },
+    "cacheHits": {
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "pages": {
+      "spotify": 1,
+      "ticketmaster": 1
+    },
+    "retries": {
+      "total": 0,
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "errors": []
+  },
+  "occurrenceMetrics": {
+    "totalNormalized": 7,
+    "spotify": 5,
+    "ticketmaster": 2,
+    "before": 0,
+    "after": 7,
+    "created": 7
+  },
+  "queueImpact": {
+    "before": 0,
+    "after": 6,
+    "growth": 6,
+    "countsByState": {
+      "identity_discovery_pending": 2,
+      "identity_pending": 4
+    },
+    "idempotentOccurrences": 0,
+    "candidateAttachments": 0,
+    "existingLiveAssociations": 1,
+    "newSpotifyCandidates": 4,
+    "newTicketmasterOnlyCandidates": 2,
+    "convergenceReviewCandidates": 0,
+    "crossSourceConvergences": [],
+    "duplicateCandidatesPrevented": 1,
+    "nameCollisionWarnings": []
+  },
+  "associations": {
+    "before": 0,
+    "after": 7,
+    "created": 7
+  },
+  "checkpoints": {
+    "spotify": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4",
+      "providerPage": 1,
+      "itemOffset": 0,
+      "exhausted": true
+    },
+    "ticketmaster": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377",
+      "providerPage": 1,
+      "itemOffset": 0,
+      "exhausted": true
+    }
+  },
+  "occurrenceResults": [
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:6564d95ddfbff031e53e9c039fdb850730e1663a4956195159eb19bdf312f235",
+      "artistName": "Beyoncé",
+      "providerEntityId": "6vWDO969PvNqNYHIOW5v0m",
+      "action": "associate_existing_live_artist",
+      "targetType": "live_artist",
+      "targetId": "mr_artist_000011",
+      "lifecycleState": null,
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:7ea3d49fd9cb42c9dda106fe07c4ffee527d84001bb14d67e3c3215819f5b22e",
+      "artistName": "Rihanna",
+      "providerEntityId": "5pKCCKE2ajJHZ9KAiaK11H",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f47-7da9-9aa8-6974092eba13",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:378fc97be1419686c6b8f3939e8ad420056cacf406c53fb0e5d17bb481109b33",
+      "artistName": "Destiny's Child",
+      "providerEntityId": "1Y8cdNmUJH7yBTd9yOvr5i",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f5e-7052-a220-533f01b3439f",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:b1e4db9f6de3eca834e3ea17864bab09aff62a82ddfec21b923c49b143923d93",
+      "artistName": "Ciara",
+      "providerEntityId": "2NdeV5rLm47xAvogXrYhJX",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:39fcbe47c66580409e509498bd8dfc81dc8ceff191f7c914f13650e0df4cfc13",
+      "artistName": "Mc Beyonce",
+      "providerEntityId": "7vbtWyaqcB8RlHqqIKlHCU",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be",
+      "artistName": "Whethan",
+      "providerEntityId": "K8vZ9174C6f",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:adce415134d267f4881fd417e7a69277cf0ec59d9b93876f821ea4fa524de33a",
+      "artistName": "Hysteria",
+      "providerEntityId": "K8vZ917GyW0",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00287-6f78-7b6f-af7d-1d7fd1a3262c",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true
+    }
+  ],
+  "providerErrors": [],
+  "replayVerification": {
+    "checked": 6,
+    "exact": 6
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "after": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "unchanged": true
+  },
+  "safety": {
+    "identityWorkerRun": false,
+    "candidatesApproved": false,
+    "candidatesMigrated": false,
+    "liveDirectoryModified": false,
+    "permanentRegistryModified": false
+  }
+}

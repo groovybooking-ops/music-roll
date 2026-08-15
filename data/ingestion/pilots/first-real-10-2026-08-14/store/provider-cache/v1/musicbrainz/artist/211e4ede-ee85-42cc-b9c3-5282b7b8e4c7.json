@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "211e4ede-ee85-42cc-b9c3-5282b7b8e4c7",
+  "retrievedAt": "2026-08-14T21:18:57.254Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "211e4ede-ee85-42cc-b9c3-5282b7b8e4c7",
+      "name": "Young Nigga",
+      "sortName": "Young Nigga",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "172d7632-c707-4319-9861-929564e77601",
+        "name": "Hawthorne",
+        "sortName": "Hawthorne",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1991-03-06",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "fanpage",
+          "url": "https://odd-future.fandom.com/wiki/Young_Nigga"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Young-nigga"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/young-nigga"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q167635"
+        }
+      ]
+    },
+    "raw": {
+      "id": "211e4ede-ee85-42cc-b9c3-5282b7b8e4c7",
+      "begin-area": {
+        "id": "172d7632-c707-4319-9861-929564e77601",
+        "name": "Hawthorne",
+        "type": null,
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Hawthorne"
+      },
+      "disambiguation": "",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1991-03-06"
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "country": "US",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "area": {
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "name": "United States",
+        "type": null
+      },
+      "name": "Young Nigga",
+      "isnis": [],
+      "type": "Person",
+      "relations": [
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "fanpage",
+          "url": {
+            "id": "eb452f56-ac2d-44b8-b154-468d378fc6e0",
+            "resource": "https://odd-future.fandom.com/wiki/Young_Nigga"
+          },
+          "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+          "source-credit": "",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {}
+        },
+        {
+          "attributes": [],
+          "source-credit": "",
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "id": "239e37e7-9674-414a-95ec-689e2e62ce9f",
+            "resource": "https://genius.com/artists/Young-nigga"
+          },
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+          "target-type": "url",
+          "direction": "forward",
+          "ended": false,
+          "type": "lyrics",
+          "begin": null,
+          "attribute-ids": {},
+          "end": null
+        },
+        {
+          "attribute-ids": {},
+          "begin": null,
+          "end": null,
+          "ended": false,
+          "target-type": "url",
+          "direction": "forward",
+          "type": "other databases",
+          "url": {
+            "id": "62104cd7-17bc-4f1f-84e2-226beeaf4bb3",
+            "resource": "https://rateyourmusic.com/artist/young-nigga"
+          },
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        },
+        {
+          "end": null,
+          "attribute-ids": {},
+          "begin": null,
+          "type": "wikidata",
+          "direction": "forward",
+          "target-type": "url",
+          "ended": false,
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q167635",
+            "id": "a5ab6dbc-65fd-4bc6-b58a-75ce831fdd81"
+          },
+          "attribute-values": {},
+          "target-credit": "",
+          "source-credit": "",
+          "attributes": []
+        }
+      ],
+      "aliases": [],
+      "end-area": null,
+      "gender": "Male",
+      "sort-name": "Young Nigga"
+    }
+  }
+}

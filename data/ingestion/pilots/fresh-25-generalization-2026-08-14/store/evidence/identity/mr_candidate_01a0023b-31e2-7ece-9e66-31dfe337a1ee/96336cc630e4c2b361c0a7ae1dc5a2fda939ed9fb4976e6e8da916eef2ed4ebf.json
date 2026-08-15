@@ -1,0 +1,2445 @@
+{
+  "evidenceId": "sha256:96336cc630e4c2b361c0a7ae1dc5a2fda939ed9fb4976e6e8da916eef2ed4ebf",
+  "createdAt": "2026-08-14T21:46:27.621Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "The Cure",
+        "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q484427",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q484427",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "28972"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "7bu3H8JO7d0UbMoVzbo70s",
+          "observedValues": [
+            "7bu3H8JO7d0UbMoVzbo70s"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7bu3H8JO7d0UbMoVzbo70s",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7bu3H8JO7d0UbMoVzbo70s",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7bu3H8JO7d0UbMoVzbo70s",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q484427",
+          "observedValues": [
+            "Q484427"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q484427",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q484427",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "observedValues": [
+            "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "28972",
+          "observedValues": [
+            "28972"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28972",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28972",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28972",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "28972"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+            "name": "The Cure",
+            "sortName": "Cure, The",
+            "artistType": "Group",
+            "country": "GB",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "7bu3H8JO7d0UbMoVzbo70s"
+            ],
+            "discogsArtistIds": [
+              "28972"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "69ee3720-a7cb-4402-b48d-a02c366f2bcf": {
+          "artist": {
+            "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+            "name": "The Cure",
+            "sortName": "Cure, The",
+            "artistType": "Group",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "3e4cea6a-f4b9-49e0-aadb-db3568db5ecf",
+              "name": "Crawley",
+              "sortName": "Crawley",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1977",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Cure",
+                "sortName": "Cure",
+                "type": null,
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "000000009132190X",
+              "0000000123366775"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000137390"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/384"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "https://peel.fandom.com/wiki/Cure"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "https://www.cureation.org/"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "https://www.cure-concerts.de/"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "http://www.thecurerecords.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/28972"
+              },
+              {
+                "relationshipType": "fanpage",
+                "url": "https://curefans.com/"
+              },
+              {
+                "relationshipType": "fanpage",
+                "url": "https://www.cureation.org/"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://music.yandex.com/artist/8143"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/264286251"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/381"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:The_Cure_Live_in_Singapore_2-_1st_August_2007.jpg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm1872712/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/The+Cure"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/The-cure"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://muzikum.eu/en/the-cure/lyrics"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/thecure"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.thecure.com/"
+              },
+              {
+                "relationshipType": "online community",
+                "url": "https://thecure.livejournal.com/"
+              },
+              {
+                "relationshipType": "online community",
+                "url": "https://www.cureation.org/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://jaxsta.com/profile/1c47472e-802f-4c0c-87e6-25285ad80186"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/n91079841"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb139028015"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/5173121-6"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://id.oclc.org/worldcat/entity/E39QQPVp7K3wFHv96Hg3P477B6"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/the-cure"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://musicmoz.org/Bands_and_Artists/C/Cure,_The/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/the-cure"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.idref.fr/029057957"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/the-cure/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.muziekweb.nl/Link/M00000051369/POPULAR/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.spirit-of-rock.com/en/band/The_Cure"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/The-Cure/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://www.maniadb.com/artist/119532"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/artist/id566519"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://mora.jp/artist/1810/all"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/566519"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/40524"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://uk.7digital.com/artist/the-cure"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/the-cure/40524"
+              },
+              {
+                "relationshipType": "purevolume",
+                "url": "http://www.purevolume.com/thecure"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/54"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/the-cure-6bd6b266.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://bsky.app/profile/thecure.com"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/thecure"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/thecure"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/thecure/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.threads.com/@thecure"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/474439"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/thecureofficial"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/566519"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/566519"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/40524"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/18695"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/the-cure/40524"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/127979048"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/133646138"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q484427"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC9YTouco1dW1KIZL-P3znoA"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCL_zMdXdM51oSi5XpxTvRtQ"
+              },
+              {
+                "relationshipType": "youtube music",
+                "url": "https://music.youtube.com/channel/UCKuG9-MGolUuWbEcoz5qijw"
+              }
+            ]
+          },
+          "raw": {
+            "gender": null,
+            "sort-name": "Cure, The",
+            "gender-id": null,
+            "country": "GB",
+            "name": "The Cure",
+            "isnis": [
+              "000000009132190X",
+              "0000000123366775"
+            ],
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "type": null,
+              "disambiguation": "",
+              "sort-name": "United Kingdom",
+              "type-id": null
+            },
+            "end-area": null,
+            "relations": [
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000137390",
+                  "id": "fa144778-8c97-4a39-b180-4f467498c9a6"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "allmusic",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "5304261b-d9a5-4e72-b46d-379efc84a413",
+                  "resource": "https://www.bandsintown.com/a/384"
+                },
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "bandsintown",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": "2020-11-19",
+                "target-type": "url",
+                "ended": true,
+                "direction": "forward",
+                "type": "BBC Music page",
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+                  "id": "e243facc-a839-4664-bd3c-dcc7c28a2f3a"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "url": {
+                  "id": "670cca4c-240e-4f72-9740-e224267182bf",
+                  "resource": "https://peel.fandom.com/wiki/Cure"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "discography page",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "discography page",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.cureation.org/",
+                  "id": "77d815f6-71d9-4be2-aaad-cfb7e0d9163c"
+                },
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "url": {
+                  "id": "264c93be-68e1-4bc6-9d9d-f40e581294f8",
+                  "resource": "https://www.cure-concerts.de/"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "discography page",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "http://www.thecurerecords.com/",
+                  "id": "6de55d5d-f5f6-4442-b87e-c6ebe535e4ae"
+                },
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "type": "discography page",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "discogs",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/28972",
+                  "id": "76042d10-e866-43b4-a14a-cbf7618082a4"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "url": {
+                  "resource": "https://curefans.com/",
+                  "id": "140e783b-9b85-412d-a215-e3f37181cfad"
+                },
+                "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "fanpage",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "fanpage",
+                "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                "url": {
+                  "id": "77d815f6-71d9-4be2-aaad-cfb7e0d9163c",
+                  "resource": "https://www.cureation.org/"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "6a91bb23-fd01-44d7-b6ca-7fa949b47819",
+                  "resource": "https://music.yandex.com/artist/8143"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+                  "id": "e1861b71-ac9e-4eb6-8a86-720ec70856c9"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/264286251",
+                  "id": "bc1e85fd-df4a-4efa-9b79-06a5ac4b9d43"
+                },
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "url": {
+                  "id": "0d79dded-de41-471a-8754-8551a26586fc",
+                  "resource": "https://www.deezer.com/artist/381"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "free streaming"
+              },
+              {
+                "url": {
+                  "id": "6ec48b53-0340-4fbd-8930-8fbd9d71a176",
+                  "resource": "https://commons.wikimedia.org/wiki/File:The_Cure_Live_in_Singapore_2-_1st_August_2007.jpg"
+                },
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "image"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "IMDb",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm1872712/",
+                  "id": "6100ee44-8751-49f9-a321-500d73e305b8"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "id": "2b6805ce-50b4-4dce-a38c-933e0e32fc36",
+                  "resource": "https://www.last.fm/music/The+Cure"
+                },
+                "type": "last.fm",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://genius.com/artists/The-cure",
+                  "id": "6714bcaf-0e1a-4d12-9140-52d95394dc5f"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "lyrics",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "lyrics",
+                "url": {
+                  "id": "1c4a9a91-d494-4093-afea-9a1e5783ff70",
+                  "resource": "https://muzikum.eu/en/the-cure/lyrics"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "url": {
+                  "id": "a6fbc61a-d6c6-443e-9019-13a00569750e",
+                  "resource": "https://myspace.com/thecure"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "myspace",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.thecure.com/",
+                  "id": "d849292f-0a60-4852-a8e8-e53775fea5b7"
+                },
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "official homepage",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "35b3a50f-bf0e-4309-a3b4-58eeed8cee6a",
+                "url": {
+                  "id": "3a1a4f26-2559-4097-a677-dd4563be0771",
+                  "resource": "https://thecure.livejournal.com/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "online community",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "online community",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type-id": "35b3a50f-bf0e-4309-a3b4-58eeed8cee6a",
+                "url": {
+                  "id": "77d815f6-71d9-4be2-aaad-cfb7e0d9163c",
+                  "resource": "https://www.cureation.org/"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://jaxsta.com/profile/1c47472e-802f-4c0c-87e6-25285ad80186",
+                  "id": "19c74ae5-abf0-4323-8e2d-5c82590d760a"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "end": "2025-12-17",
+                "target-type": "url",
+                "ended": true,
+                "direction": "forward",
+                "type": "other databases"
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/n91079841",
+                  "id": "e7a5d462-73ca-4a63-83f8-d3fc6fac1228"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb139028015",
+                  "id": "48ad3224-2eff-435e-8577-aea1bd43779d"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://d-nb.info/gnd/5173121-6",
+                  "id": "20a36e79-45ef-49b9-9950-64506a42bd0d"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://id.oclc.org/worldcat/entity/E39QQPVp7K3wFHv96Hg3P477B6",
+                  "id": "88c7e6a2-93fa-4987-b732-a59c6b1127c0"
+                }
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases",
+                "url": {
+                  "id": "c6560712-3bb7-4cde-8e82-cc9b9a241bd8",
+                  "resource": "https://imvdb.com/n/the-cure"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "de832bd1-08e3-475b-a4e6-6b532adb27db",
+                  "resource": "https://musicmoz.org/Bands_and_Artists/C/Cure,_The/"
+                }
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "8fffb4e1-79ec-4de1-8558-efa035009ac2",
+                  "resource": "https://rateyourmusic.com/artist/the-cure"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "type": "other databases",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.idref.fr/029057957",
+                  "id": "e0f976f7-64bd-49da-a644-9862b68c2091"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/the-cure/",
+                  "id": "608fc7a3-f544-44da-9860-7872fc098969"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://www.muziekweb.nl/Link/M00000051369/POPULAR/",
+                  "id": "d5662867-3641-4868-963c-d5eeb1d207ff"
+                },
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "f79820b2-cc12-4be8-8e11-ee0167fdae2f",
+                  "resource": "https://www.spirit-of-rock.com/en/band/The_Cure"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.whosampled.com/The-Cure/",
+                  "id": "2a517726-b608-44ca-9fae-badeb355b90e"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "d54983e1-c53b-44aa-bd0f-c63a7973d9d6",
+                  "resource": "http://www.maniadb.com/artist/119532"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "type": "purchase for download",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://itunes.apple.com/artist/id566519",
+                  "id": "32ac5908-91c1-478e-96cc-3e514c2dc2f7"
+                }
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "de44b467-598b-459f-a770-6421c530ce0b",
+                  "resource": "https://mora.jp/artist/1810/all"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/566519",
+                  "id": "47858026-7660-4fe9-a2b5-3199aef299e9"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "732fef74-1bd8-4afd-a8a4-bc1fa6166f54",
+                  "resource": "https://open.qobuz.com/artist/40524"
+                }
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "purchase for download",
+                "url": {
+                  "id": "87bef44d-9a11-4f49-8af6-4678124f9eaf",
+                  "resource": "https://uk.7digital.com/artist/the-cure"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/the-cure/40524",
+                  "id": "7cab1ddb-52b6-46ad-8ba5-f54e6f09c968"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+                "url": {
+                  "resource": "http://www.purevolume.com/thecure",
+                  "id": "ba5793a5-7ab5-43c6-810c-4e55ba978465"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": "2018-06-30",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "purevolume",
+                "target-type": "url",
+                "ended": true,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "secondhandsongs",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "id": "89d521bd-8d67-47b6-b5e6-39a32639c599",
+                  "resource": "https://secondhandsongs.com/artist/54"
+                },
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3"
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "d6159d90-b6d1-47ff-afd1-3286fd9a0b0c",
+                  "resource": "https://www.setlist.fm/setlists/the-cure-6bd6b266.html"
+                },
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "type": "setlistfm",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "social network",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "19792fb0-e075-489a-9805-0ab7272fd8c1",
+                  "resource": "https://bsky.app/profile/thecure.com"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "id": "bd502f96-e82e-44d6-b6a2-fde7f1cf95b5",
+                  "resource": "https://twitter.com/thecure"
+                }
+              },
+              {
+                "url": {
+                  "id": "0f1a5da8-9b59-473c-b1e4-03f72986de7c",
+                  "resource": "https://www.facebook.com/thecure"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "social network",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "id": "049740a4-2339-4201-9da5-95e646ff70bf",
+                  "resource": "https://www.instagram.com/thecure/"
+                },
+                "type": "social network",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "url": {
+                  "resource": "https://www.threads.com/@thecure",
+                  "id": "0b94d80f-3afd-4d4a-a200-c85c368e7063"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "social network"
+              },
+              {
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/474439",
+                  "id": "fe8445e2-cafc-46bb-b270-ce55b82273e1"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "songkick"
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "soundcloud",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "c712293b-6e37-490f-9b46-a488d71b6068",
+                  "resource": "https://soundcloud.com/thecureofficial"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "streaming",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "47858026-7660-4fe9-a2b5-3199aef299e9",
+                  "resource": "https://music.apple.com/gb/artist/566519"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/566519",
+                  "id": "6753037b-94f4-472d-a230-e15e2ab98b2f"
+                }
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/40524",
+                  "id": "732fef74-1bd8-4afd-a8a4-bc1fa6166f54"
+                },
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://tidal.com/artist/18695",
+                  "id": "e6a1142d-687e-4e48-8d89-830ec3e78d7e"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "7cab1ddb-52b6-46ad-8ba5-f54e6f09c968",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/the-cure/40524"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "type": "VIAF",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "id": "c14451bb-f6d2-4cd7-be85-9fffeabeddc2",
+                  "resource": "http://viaf.org/viaf/127979048"
+                }
+              },
+              {
+                "url": {
+                  "resource": "http://viaf.org/viaf/133646138",
+                  "id": "c53a4889-4d76-4fb6-a77a-1857a6f59c58"
+                },
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "VIAF"
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "wikidata",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "url": {
+                  "id": "fa324b2a-3724-47d8-b5df-ec6a02199d81",
+                  "resource": "https://www.wikidata.org/wiki/Q484427"
+                }
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "youtube",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "url": {
+                  "id": "507ed360-b6c6-4f10-820d-3862beb9370c",
+                  "resource": "https://www.youtube.com/channel/UC9YTouco1dW1KIZL-P3znoA"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "TheCureVEVO"
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "youtube",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCL_zMdXdM51oSi5XpxTvRtQ",
+                  "id": "cac299a2-7281-4856-83ed-9bb1e3ad4188"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "source-credit": "The Cure",
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "type": "youtube music",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+                "url": {
+                  "resource": "https://music.youtube.com/channel/UCKuG9-MGolUuWbEcoz5qijw",
+                  "id": "582d0e6b-6f34-4aee-b5bc-112dcd49f563"
+                }
+              }
+            ],
+            "type": "Group",
+            "aliases": [
+              {
+                "locale": null,
+                "sort-name": "Cure",
+                "type-id": null,
+                "end": null,
+                "primary": null,
+                "begin": null,
+                "name": "Cure",
+                "type": null,
+                "ended": false
+              }
+            ],
+            "disambiguation": "",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "ipis": [],
+            "life-span": {
+              "begin": "1977",
+              "ended": false,
+              "end": null
+            },
+            "id": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+            "begin-area": {
+              "type-id": null,
+              "sort-name": "Crawley",
+              "disambiguation": "",
+              "name": "Crawley",
+              "type": null,
+              "id": "3e4cea6a-f4b9-49e0-aadb-db3568db5ecf"
+            }
+          }
+        }
+      },
+      "discogsRecords": {
+        "28972": {
+          "artist": {
+            "discogsArtistId": "28972",
+            "name": "The Cure",
+            "realName": null,
+            "profile": "English new wave / post-punk / pop rock band founded in 1976 in Crawley, West Sussex. The band was initially called Malice in 1976, Easy Cure in 1977, and finally The Cure in 1978. The band has seen many line-up changes but Robert Smith has been the frontman / songwriter / vocalist / guitarist throughout their existence. Inducted into the Rock And Roll Hall Of Fame in 2019.\r\n\r\nLine-ups:\r\nRobert Smith, vocals (1976-present)\r\nMichael Dempsey, bass (1976-1979)\r\nLol Tolhurst, drums/keyboards (1976-1989)\r\nSimon Gallup, bass (1979-1982, 1984-present)\r\nMatthieu Hartley, keyboards (1979-1980)\r\nPhil Thornalley, bass (1983-1984)\r\nAndy Anderson, drums (1983-1984)\r\nPorl Thompson, saxophone/guitar/keyboards (1983, 1985-1993, 2005-2011)\r\nBoris Williams, drums (1984-1994)\r\nRoger O'Donnell, keyboards (1987-1990, 1995-2005, 2011-present)\r\nPerry Bamonte, guitar/keyboards (1990-2005, 2022-2025)\r\nJason Cooper, drums (1995-present)\r\nReeves Gabrels, guitar (2012-present)",
+            "artistUrls": [
+              "https://www.thecure.com/",
+              "https://www.facebook.com/thecure",
+              "https://www.instagram.com/thecure/",
+              "https://soundcloud.com/thecureofficial/tracks",
+              "https://x.com/thecure",
+              "https://en.wikipedia.org/wiki/The_Cure",
+              "https://www.imdb.com/name/nm1872712/",
+              "https://www.youtube.com/user/TheCureVEVO"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "11500094",
+                "name": "The Easy Cure"
+              }
+            ],
+            "nameVariations": [
+              "Cure",
+              "The Crue",
+              "ザ・キュアー",
+              "怪人合唱團"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/28972",
+            "discogsWebUrl": "https://www.discogs.com/artist/28972-The-Cure",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "The Cure",
+            "id": 28972,
+            "resource_url": "https://api.discogs.com/artists/28972",
+            "uri": "https://www.discogs.com/artist/28972-The-Cure",
+            "releases_url": "https://api.discogs.com/artists/28972/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/vligzaaIMwdlI2uozS55aga2MTNF7g49Mgr7_MyVPLQ/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTU5NTIt/MzM5Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/vligzaaIMwdlI2uozS55aga2MTNF7g49Mgr7_MyVPLQ/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTU5NTIt/MzM5Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/CUloplzjrl_juasi-LbKZoceTEegogQUy-tbJ4oTEnE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTU5NTIt/MzM5Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Q449Vxnb1uhod253GIitkCI8RBDLK6rG_0uC0eiJfrg/rs:fit/g:sm/q:90/h:465/w:465/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/Nzg3OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Q449Vxnb1uhod253GIitkCI8RBDLK6rG_0uC0eiJfrg/rs:fit/g:sm/q:90/h:465/w:465/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/Nzg3OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/O1FZPFQCQNnparRO_KS5g0UsNaFB3dcDg2B5sRxrUgc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/Nzg3OC5qcGVn.jpeg",
+                "width": 465,
+                "height": 465
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UO-sVYc5qN0SB01Wz9_qk_vS3N7Qb7geMUWCdEHRDC8/rs:fit/g:sm/q:90/h:495/w:495/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/MTQ3My5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UO-sVYc5qN0SB01Wz9_qk_vS3N7Qb7geMUWCdEHRDC8/rs:fit/g:sm/q:90/h:495/w:495/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/MTQ3My5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/sk_GvFoyA4XH9wj5rLfmQyxaGHjgNQ3nUg2Bdmkj0to/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/MTQ3My5qcGVn.jpeg",
+                "width": 495,
+                "height": 495
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/F954mKya5Be3qF8O-NrpyITGjn1WSRdjm2Kr1xT-Mdk/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/NjIxNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/F954mKya5Be3qF8O-NrpyITGjn1WSRdjm2Kr1xT-Mdk/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/NjIxNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/6pOeo-p1l5gMoGuXSAbTcIw6u2eQceStH1n4Ft6wq8c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NTY2NjM2NDIt/NjIxNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 583
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-r7DlyZdLIEzUpLl0b46vK8VvOGwt87A0wFxSwJsk8c/rs:fit/g:sm/q:90/h:509/w:516/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0ODAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/-r7DlyZdLIEzUpLl0b46vK8VvOGwt87A0wFxSwJsk8c/rs:fit/g:sm/q:90/h:509/w:516/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0ODAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/u0cAfJns6FBfRH2CJWG8lKPhDs2E1WaszS6JWGTvPoU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0ODAu/anBlZw.jpeg",
+                "width": 516,
+                "height": 509
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gyJg9kp_GzPwKmtqjKhsTHoBZXA5RwfLgvYt6sXh7rI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1ODY2NDYxNzct/MzgwMC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/gyJg9kp_GzPwKmtqjKhsTHoBZXA5RwfLgvYt6sXh7rI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1ODY2NDYxNzct/MzgwMC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/yXpnISV4SMKz_RDTH3BgIvRUX69u2XCmADvOb5vzXp4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1ODY2NDYxNzct/MzgwMC5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/0k1tKrv5vm4PObOe4BcwxF6_Bs4rb0SeMRNIHjtF20w/rs:fit/g:sm/q:90/h:383/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MzQu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/0k1tKrv5vm4PObOe4BcwxF6_Bs4rb0SeMRNIHjtF20w/rs:fit/g:sm/q:90/h:383/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MzQu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/zHz_sbByVzPyahB8G9f_tGV3WutxN4D21TnuJp4ksCY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MzQu/anBlZw.jpeg",
+                "width": 567,
+                "height": 383
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/6iDfiQmQl3_Kj3LixXUbVMoU1Y9Oif-j8xaYY8BdR2A/rs:fit/g:sm/q:90/h:459/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MjEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/6iDfiQmQl3_Kj3LixXUbVMoU1Y9Oif-j8xaYY8BdR2A/rs:fit/g:sm/q:90/h:459/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MjEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/e56PIzwGB6t04mnzxBUC8DzSGokAIuDPfxNXr7Y6bAc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg1MjEu/anBlZw.jpeg",
+                "width": 567,
+                "height": 459
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/R9lV7YBrXyzDG7wMD8epNvyhvduDEeZDxn-t6wmb_9E/rs:fit/g:sm/q:90/h:527/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0Mzcu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/R9lV7YBrXyzDG7wMD8epNvyhvduDEeZDxn-t6wmb_9E/rs:fit/g:sm/q:90/h:527/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0Mzcu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/tc_RVqtm3lY4FpAcHwNWW9jzjcuaHGuAqVmb2rnmawk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTg0Mzcu/anBlZw.jpeg",
+                "width": 567,
+                "height": 527
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/N5-fojFFoiw33soIC3OArxFyVtHLRLLrsZUACO5mtEE/rs:fit/g:sm/q:90/h:557/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTgwNTEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/N5-fojFFoiw33soIC3OArxFyVtHLRLLrsZUACO5mtEE/rs:fit/g:sm/q:90/h:557/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTgwNTEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/z6AxCpxtu66D4TFzk3LQClFpIZ4QefNpTGtZ5ZQiJVw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEzMTgxNTgwNTEu/anBlZw.jpeg",
+                "width": 567,
+                "height": 557
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/7B9uQJy48atTS7LcKFf_lbJus0yau-4otiLwqxdC5Qo/rs:fit/g:sm/q:90/h:230/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEwNzM1NDEwOTUu/anBn.jpeg",
+                "resource_url": "https://i.discogs.com/7B9uQJy48atTS7LcKFf_lbJus0yau-4otiLwqxdC5Qo/rs:fit/g:sm/q:90/h:230/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEwNzM1NDEwOTUu/anBn.jpeg",
+                "uri150": "https://i.discogs.com/5enyBiFq3lTxqew9IN8SmX8ed9pvS-fM-cl_Ietcd7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTEwNzM1NDEwOTUu/anBn.jpeg",
+                "width": 370,
+                "height": 230
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XL87O1wSgLH1sbh--_sAQkeBN5hMaQU3_xNPXt6wNAA/rs:fit/g:sm/q:90/h:448/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2Mjc2NzI0OTIt/MTc0Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/XL87O1wSgLH1sbh--_sAQkeBN5hMaQU3_xNPXt6wNAA/rs:fit/g:sm/q:90/h:448/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2Mjc2NzI0OTIt/MTc0Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/JgZ8cd9xf5HZmXNn41m23radVOVyEp1VHgRIWz9mUsE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2Mjc2NzI0OTIt/MTc0Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 448
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QnYI7hp2_vv8tslUoVY4O3jTODPAyEwcEgCGg_ubHqA/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2ODQxNjYzMjUt/MzExNi5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/QnYI7hp2_vv8tslUoVY4O3jTODPAyEwcEgCGg_ubHqA/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2ODQxNjYzMjUt/MzExNi5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/uOaX4b6BfDLtuK-oMUL4D7Xnhhj3BtUDhmfsXPVL3EY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE2ODQxNjYzMjUt/MzExNi5wbmc.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vbhFj7t02M3ogWBKYn_3GbYsNmLLs7krGXUvrsYgcQU/rs:fit/g:sm/q:90/h:122/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1MTYzNDI0ODIt/NTEzMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/vbhFj7t02M3ogWBKYn_3GbYsNmLLs7krGXUvrsYgcQU/rs:fit/g:sm/q:90/h:122/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1MTYzNDI0ODIt/NTEzMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/NwXIPZoPxiCo-qacHqKN4fhLDmgOWb5E_GnpbM-G8cI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE1MTYzNDI0ODIt/NTEzMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 122
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Z8wWWL34ZkezcNI9Dkd2FPbgBI4o9JE3dNIXEvKt9uM/rs:fit/g:sm/q:90/h:251/w:201/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTYt/MjM0OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Z8wWWL34ZkezcNI9Dkd2FPbgBI4o9JE3dNIXEvKt9uM/rs:fit/g:sm/q:90/h:251/w:201/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTYt/MjM0OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/IH8T_0043SBN-yHcI4VgeyhZ9Z9atWjS2qPi1lzxv7s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTYt/MjM0OC5qcGVn.jpeg",
+                "width": 201,
+                "height": 251
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Fpd_NDHyKvj39b2rboY_gcxBB8m9AHC-TSig84l9QDE/rs:fit/g:sm/q:90/h:169/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTkt/MzU5MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Fpd_NDHyKvj39b2rboY_gcxBB8m9AHC-TSig84l9QDE/rs:fit/g:sm/q:90/h:169/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTkt/MzU5MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/2Py0HlmZTir58CpDnSJfU3soMwZrtTogYo1TVF8jjbM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3MzA5OTYwNTkt/MzU5MS5qcGVn.jpeg",
+                "width": 298,
+                "height": 169
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UHarr9jD0gnFTOpfXsWOjmSLmzupHhsuQb0GOkjb6EI/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NzAxNDg1Nzgt/ODMyNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UHarr9jD0gnFTOpfXsWOjmSLmzupHhsuQb0GOkjb6EI/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NzAxNDg1Nzgt/ODMyNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/a6RVCSpFxZVdzsQh2dJFWbfwk3L9MNIBFIcuidm0Vzc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4OTcy/LTE3NzAxNDg1Nzgt/ODMyNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              }
+            ],
+            "profile": "English new wave / post-punk / pop rock band founded in 1976 in Crawley, West Sussex. The band was initially called Malice in 1976, Easy Cure in 1977, and finally The Cure in 1978. The band has seen many line-up changes but Robert Smith has been the frontman / songwriter / vocalist / guitarist throughout their existence. Inducted into the Rock And Roll Hall Of Fame in 2019.\r\n\r\nLine-ups:\r\nRobert Smith, vocals (1976-present)\r\nMichael Dempsey, bass (1976-1979)\r\nLol Tolhurst, drums/keyboards (1976-1989)\r\nSimon Gallup, bass (1979-1982, 1984-present)\r\nMatthieu Hartley, keyboards (1979-1980)\r\nPhil Thornalley, bass (1983-1984)\r\nAndy Anderson, drums (1983-1984)\r\nPorl Thompson, saxophone/guitar/keyboards (1983, 1985-1993, 2005-2011)\r\nBoris Williams, drums (1984-1994)\r\nRoger O'Donnell, keyboards (1987-1990, 1995-2005, 2011-present)\r\nPerry Bamonte, guitar/keyboards (1990-2005, 2022-2025)\r\nJason Cooper, drums (1995-present)\r\nReeves Gabrels, guitar (2012-present)",
+            "urls": [
+              "https://www.thecure.com/",
+              "https://www.facebook.com/thecure",
+              "https://www.instagram.com/thecure/",
+              "https://soundcloud.com/thecureofficial/tracks",
+              "https://x.com/thecure",
+              "https://en.wikipedia.org/wiki/The_Cure",
+              "https://www.imdb.com/name/nm1872712/",
+              "https://www.youtube.com/user/TheCureVEVO"
+            ],
+            "namevariations": [
+              "Cure",
+              "The Crue",
+              "ザ・キュアー",
+              "怪人合唱團"
+            ],
+            "aliases": [
+              {
+                "id": 11500094,
+                "name": "The Easy Cure",
+                "resource_url": "https://api.discogs.com/artists/11500094"
+              }
+            ],
+            "members": [
+              {
+                "id": 73783,
+                "name": "Robert Smith",
+                "resource_url": "https://api.discogs.com/artists/73783",
+                "active": true
+              },
+              {
+                "id": 87229,
+                "name": "Phil Thornalley",
+                "resource_url": "https://api.discogs.com/artists/87229",
+                "active": true
+              },
+              {
+                "id": 143172,
+                "name": "Reeves Gabrels",
+                "resource_url": "https://api.discogs.com/artists/143172",
+                "active": true
+              },
+              {
+                "id": 246984,
+                "name": "Roger O'Donnell",
+                "resource_url": "https://api.discogs.com/artists/246984",
+                "active": true
+              },
+              {
+                "id": 284809,
+                "name": "Michael Dempsey",
+                "resource_url": "https://api.discogs.com/artists/284809",
+                "active": false
+              },
+              {
+                "id": 285585,
+                "name": "Porl Thompson",
+                "resource_url": "https://api.discogs.com/artists/285585",
+                "active": false
+              },
+              {
+                "id": 309134,
+                "name": "Laurence Tolhurst",
+                "resource_url": "https://api.discogs.com/artists/309134",
+                "active": false
+              },
+              {
+                "id": 333680,
+                "name": "Andy Anderson",
+                "resource_url": "https://api.discogs.com/artists/333680",
+                "active": false
+              },
+              {
+                "id": 412942,
+                "name": "Simon Gallup",
+                "resource_url": "https://api.discogs.com/artists/412942",
+                "active": true
+              },
+              {
+                "id": 412943,
+                "name": "Boris Williams",
+                "resource_url": "https://api.discogs.com/artists/412943",
+                "active": false
+              },
+              {
+                "id": 423495,
+                "name": "Perry Bamonte",
+                "resource_url": "https://api.discogs.com/artists/423495",
+                "active": false
+              },
+              {
+                "id": 432252,
+                "name": "Jason Cooper",
+                "resource_url": "https://api.discogs.com/artists/432252",
+                "active": true
+              },
+              {
+                "id": 555414,
+                "name": "Matthieu Hartley",
+                "resource_url": "https://api.discogs.com/artists/555414",
+                "active": false
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+        "wikidataQid": "Q484427",
+        "name": "The Cure",
+        "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "discogsArtistId": "28972"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7bu3H8JO7d0UbMoVzbo70s",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q484427",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28972",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "name": "The Cure",
+          "sortName": "Cure, The",
+          "artistType": "Group",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "name": "The Cure",
+          "sortName": "Cure, The",
+          "artistType": "Group",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "3e4cea6a-f4b9-49e0-aadb-db3568db5ecf",
+            "name": "Crawley",
+            "sortName": "Crawley",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1977",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Cure",
+              "sortName": "Cure",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "000000009132190X",
+            "0000000123366775"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000137390"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/384"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://peel.fandom.com/wiki/Cure"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://www.cureation.org/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://www.cure-concerts.de/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://www.thecurerecords.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/28972"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://curefans.com/"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "https://www.cureation.org/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://music.yandex.com/artist/8143"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/264286251"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/381"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:The_Cure_Live_in_Singapore_2-_1st_August_2007.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm1872712/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/The+Cure"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/The-cure"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://muzikum.eu/en/the-cure/lyrics"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/thecure"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.thecure.com/"
+            },
+            {
+              "relationshipType": "online community",
+              "url": "https://thecure.livejournal.com/"
+            },
+            {
+              "relationshipType": "online community",
+              "url": "https://www.cureation.org/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://jaxsta.com/profile/1c47472e-802f-4c0c-87e6-25285ad80186"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n91079841"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb139028015"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/5173121-6"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39QQPVp7K3wFHv96Hg3P477B6"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/the-cure"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://musicmoz.org/Bands_and_Artists/C/Cure,_The/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/the-cure"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.idref.fr/029057957"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/the-cure/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.muziekweb.nl/Link/M00000051369/POPULAR/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.spirit-of-rock.com/en/band/The_Cure"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/The-Cure/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.maniadb.com/artist/119532"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/artist/id566519"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/1810/all"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/566519"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/40524"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://uk.7digital.com/artist/the-cure"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-cure/40524"
+            },
+            {
+              "relationshipType": "purevolume",
+              "url": "http://www.purevolume.com/thecure"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/54"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/the-cure-6bd6b266.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://bsky.app/profile/thecure.com"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/thecure"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/thecure"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/thecure/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.threads.com/@thecure"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/474439"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/thecureofficial"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/566519"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/566519"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/40524"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/18695"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-cure/40524"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/127979048"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/133646138"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q484427"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC9YTouco1dW1KIZL-P3znoA"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCL_zMdXdM51oSi5XpxTvRtQ"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCKuG9-MGolUuWbEcoz5qijw"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/28972.json",
+    "provider-cache/v1/musicbrainz/artist/69ee3720-a7cb-4402-b48d-a02c366f2bcf.json",
+    "provider-cache/v1/musicbrainz/exact-name/1b9d92292d0df003e83b4e43.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7bu3H8JO7d0UbMoVzbo70s.json"
+  ]
+}

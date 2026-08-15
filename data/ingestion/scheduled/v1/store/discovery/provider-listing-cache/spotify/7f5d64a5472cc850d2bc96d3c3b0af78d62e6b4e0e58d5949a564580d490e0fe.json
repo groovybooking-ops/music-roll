@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "configurationHash": "sha256:7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe",
+  "retrievedAt": "2026-08-15T16:21:50.717Z",
+  "requestUrl": "https://api.spotify.com/v1/search?q=Bj%C3%B6rk&type=artist&limit=4&market=US",
+  "responseDigest": "sha256:c679d470b4958112ea56b19838ccc0fc9d7e21740824fe9747918b3802d2e414",
+  "raw": {
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?offset=0&limit=4&query=Bj%C3%B6rk&type=artist&market=US&locale=*",
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?offset=4&limit=4&query=Bj%C3%B6rk&type=artist&market=US&locale=*",
+      "offset": 0,
+      "previous": null,
+      "total": 7,
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA"
+          },
+          "href": "https://api.spotify.com/v1/artists/7w29UYBi0qsHi5RTcv3lmA",
+          "id": "7w29UYBi0qsHi5RTcv3lmA",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb8885fa2ceadc7658d65e1121",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051748885fa2ceadc7658d65e1121",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1788885fa2ceadc7658d65e1121",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Björk",
+          "type": "artist",
+          "uri": "spotify:artist:7w29UYBi0qsHi5RTcv3lmA"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP"
+          },
+          "href": "https://api.spotify.com/v1/artists/1G0Xwj8mza6b03iYkVdzDP",
+          "id": "1G0Xwj8mza6b03iYkVdzDP",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/a73646308028d5b5cd81d7eb28554a12686fc481",
+              "height": 731,
+              "width": 1000
+            },
+            {
+              "url": "https://i.scdn.co/image/f8591dcfa7867c7c3d039f086684e2b439ceb1dd",
+              "height": 468,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/f8f9a7f16db4dc228f2677b164a33c609c1f19b7",
+              "height": 146,
+              "width": 200
+            },
+            {
+              "url": "https://i.scdn.co/image/67e98e56d3137575fb81155883ec98437ff952f9",
+              "height": 47,
+              "width": 64
+            }
+          ],
+          "name": "The Sugarcubes",
+          "type": "artist",
+          "uri": "spotify:artist:1G0Xwj8mza6b03iYkVdzDP"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL"
+          },
+          "href": "https://api.spotify.com/v1/artists/3g2kUQ6tHLLbmkV7T4GPtL",
+          "id": "3g2kUQ6tHLLbmkV7T4GPtL",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebf178cbda9bd9a389581ff021",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f178cbda9bd9a389581ff021",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178f178cbda9bd9a389581ff021",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Fiona Apple",
+          "type": "artist",
+          "uri": "spotify:artist:3g2kUQ6tHLLbmkV7T4GPtL"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV"
+          },
+          "href": "https://api.spotify.com/v1/artists/4C0SwV2WJqRW290Xz2HIfV",
+          "id": "4C0SwV2WJqRW290Xz2HIfV",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b273e2b4ce9715ea416acb5cc56a",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02e2b4ce9715ea416acb5cc56a",
+              "height": 300,
+              "width": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00004851e2b4ce9715ea416acb5cc56a",
+              "height": 64,
+              "width": 64
+            }
+          ],
+          "name": "Andreas Björkstrand",
+          "type": "artist",
+          "uri": "spotify:artist:4C0SwV2WJqRW290Xz2HIfV"
+        }
+      ]
+    },
+    "query": "Björk",
+    "queryRecordId": "scheduled-bounded-query-bjork-v1"
+  }
+}

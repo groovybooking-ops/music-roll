@@ -1,0 +1,1597 @@
+{
+  "evidenceId": "sha256:db76e4892e3a7d237c8c84d3d8d5eec58ac01c71687255bf33c31b57973c11d7",
+  "createdAt": "2026-08-15T16:22:19.565Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "The Sugarcubes",
+        "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1G0Xwj8mza6b03iYkVdzDP",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1G0Xwj8mza6b03iYkVdzDP",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q876705",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9452",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9452",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1G0Xwj8mza6b03iYkVdzDP",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6pPeAu0W9isg12fUOCCvPQ",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q876705",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9452",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "9452"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "1G0Xwj8mza6b03iYkVdzDP",
+            "6pPeAu0W9isg12fUOCCvPQ"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1G0Xwj8mza6b03iYkVdzDP",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1G0Xwj8mza6b03iYkVdzDP",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1G0Xwj8mza6b03iYkVdzDP",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6pPeAu0W9isg12fUOCCvPQ",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q876705",
+          "observedValues": [
+            "Q876705"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q876705",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q876705",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "observedValues": [
+            "95303251-46d5-4239-89c8-eaf0b0947a11"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "9452",
+          "observedValues": [
+            "9452"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "9452",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "9452",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "95303251-46d5-4239-89c8-eaf0b0947a11"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "9452",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "9452"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "1G0Xwj8mza6b03iYkVdzDP",
+            "6pPeAu0W9isg12fUOCCvPQ"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+            "name": "The Sugarcubes",
+            "sortName": "Sugarcubes, The",
+            "artistType": "Group",
+            "country": "IS",
+            "disambiguation": "Icelandic alternative/post-punk rock band",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "1G0Xwj8mza6b03iYkVdzDP",
+              "6pPeAu0W9isg12fUOCCvPQ"
+            ],
+            "discogsArtistIds": [
+              "9452"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor",
+            "unresolved_alternate_spotify_identifier"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "95303251-46d5-4239-89c8-eaf0b0947a11": {
+          "artist": {
+            "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+            "name": "The Sugarcubes",
+            "sortName": "Sugarcubes, The",
+            "artistType": "Group",
+            "disambiguation": "Icelandic alternative/post-punk rock band",
+            "country": "IS",
+            "area": {
+              "id": "48802a32-075a-3805-a183-277c66047693",
+              "name": "Iceland",
+              "sortName": "Iceland",
+              "type": null
+            },
+            "beginArea": {
+              "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2",
+              "name": "Reykjavík",
+              "sortName": "Reykjavík",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1986",
+              "end": "1992",
+              "ended": true
+            },
+            "aliases": [
+              {
+                "name": "Bjork & Sugarcubes",
+                "sortName": "Bjork & Sugarcubes",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Sugarcubes",
+                "sortName": "Sugarcubes",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Sykurmolarnir",
+                "sortName": "Sykurmolarnir",
+                "type": "Artist name",
+                "locale": "is",
+                "primary": true
+              },
+              {
+                "name": "The Sugar Cubes",
+                "sortName": "The Sugar Cubes",
+                "type": null,
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "000000011781886X"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000919525"
+              },
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003428058"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://thesugarcubes.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "http://unit.bjork.com/77island/sugarcubes/index.htm"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/9452"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/6pPeAu0W9isg12fUOCCvPQ"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/3107"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/7037043"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/The+Sugarcubes"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-6172/the-sugarcubes/lyrics.html"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/n91114021"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://musicmoz.org/Bands_and_Artists/S/Sugarcubes,_The/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb139336484"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/6065412-0"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/the_sugarcubes"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/sykurmolarnir/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/the-sugarcubes/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-n91114021"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/1052629152"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/727711"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/1241"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/485067"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1052629152"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/727711"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/3519103"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/158414139"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q876705"
+              }
+            ]
+          },
+          "raw": {
+            "gender-id": null,
+            "country": "IS",
+            "end-area": {
+              "id": "48802a32-075a-3805-a183-277c66047693",
+              "type": null,
+              "iso-3166-1-codes": [
+                "IS"
+              ],
+              "name": "Iceland",
+              "disambiguation": "",
+              "sort-name": "Iceland",
+              "type-id": null
+            },
+            "type": "Group",
+            "relations": [
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "allmusic",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000919525",
+                  "id": "9fa8e3c3-7679-46fd-a2de-6f8a6cc0985d"
+                }
+              },
+              {
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0003428058",
+                  "id": "525b8029-f2ab-4437-a33b-eeada0b34bb9"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "allmusic",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "bandcamp",
+                "url": {
+                  "resource": "https://thesugarcubes.bandcamp.com/",
+                  "id": "0aeabf0b-5103-4ee4-80d4-65745fc262e4"
+                },
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "url": {
+                  "resource": "http://unit.bjork.com/77island/sugarcubes/index.htm",
+                  "id": "5256caac-2927-4088-849e-f0de7eba4158"
+                },
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "discography page"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/9452",
+                  "id": "a85b52ad-86fb-4992-a3a7-1fb9648d2d2e"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "discogs",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "free streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "b5924510-4668-4efa-b139-e6e7ea90cdee",
+                  "resource": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP"
+                }
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/6pPeAu0W9isg12fUOCCvPQ",
+                  "id": "b85ecee7-e0a5-4ca4-a260-0a3e608725dd"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "free streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.deezer.com/artist/3107",
+                  "id": "8d402a54-f6b2-4823-889c-ff2a8c50da21"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "463b6270-b892-45b4-86f4-f0aa2db32648",
+                  "resource": "https://www.deezer.com/artist/7037043"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "id": "4c5bf677-6205-42d4-ab64-cde31fd6fb62",
+                  "resource": "https://www.last.fm/music/The+Sugarcubes"
+                },
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "last.fm",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "bd04c153-d022-453c-8da4-f9c1b802ec78",
+                  "resource": "http://muzikum.eu/en/122-6172/the-sugarcubes/lyrics.html"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "lyrics",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "43b11115-a920-4c0c-937d-bf8cf7faad36",
+                  "resource": "http://id.loc.gov/authorities/names/n91114021"
+                },
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "924f49da-6d88-45f2-86f3-d2fbd98c7ac0",
+                  "resource": "http://musicmoz.org/Bands_and_Artists/S/Sugarcubes,_The/"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb139336484",
+                  "id": "d31d1f78-db6e-4224-9d44-93fb8d7c6025"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "ebb912ba-8d19-4537-b709-70726e930f1e",
+                  "resource": "https://d-nb.info/gnd/6065412-0"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "b968dd90-050d-40d8-8afc-7294cb151250",
+                  "resource": "https://rateyourmusic.com/artist/the_sugarcubes"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/sykurmolarnir/",
+                  "id": "34f2c971-6780-4989-8eae-24812a79f785"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases"
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/the-sugarcubes/",
+                  "id": "a104f266-2469-4703-88d7-703a3db33dc5"
+                },
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-n91114021",
+                  "id": "2ed2a11e-c022-4030-9944-2386a49c6f2c"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "633ed0fc-a697-458c-af4a-db4a2158ed75",
+                  "resource": "https://music.apple.com/gb/artist/1052629152"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/727711",
+                  "id": "277a0412-b4bb-4f77-b4e2-b79c2f1554cd"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "purchase for download"
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "purchase for download",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "04af3d67-4b77-447c-af01-4a0921efaf50",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+                }
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "secondhandsongs",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/1241",
+                  "id": "c3b78208-bd97-4437-805f-f1039f5db8bd"
+                },
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "url": {
+                  "resource": "https://www.songkick.com/artists/485067",
+                  "id": "9ab7d801-057c-4a7b-bf11-6dadb042c8f3"
+                },
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "songkick"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/1052629152",
+                  "id": "633ed0fc-a697-458c-af4a-db4a2158ed75"
+                },
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "277a0412-b4bb-4f77-b4e2-b79c2f1554cd",
+                  "resource": "https://music.apple.com/gb/artist/727711"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "d13eec5b-4390-4ecb-bf87-df60b30c38f3",
+                  "resource": "https://tidal.com/artist/3519103"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "type": "streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "streaming",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "04af3d67-4b77-447c-af01-4a0921efaf50",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+                }
+              },
+              {
+                "type": "VIAF",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "http://viaf.org/viaf/158414139",
+                  "id": "da13563a-358e-4366-bf7d-82abee2c5cec"
+                },
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460"
+              },
+              {
+                "type": "wikidata",
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "id": "ee0c04c8-ff48-4f46-a293-9955d1e5cc9c",
+                  "resource": "https://www.wikidata.org/wiki/Q876705"
+                },
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698"
+              }
+            ],
+            "aliases": [
+              {
+                "name": "Bjork & Sugarcubes",
+                "type": "Search hint",
+                "ended": false,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "sort-name": "Bjork & Sugarcubes",
+                "locale": null,
+                "primary": null,
+                "end": null,
+                "begin": null
+              },
+              {
+                "sort-name": "Sugarcubes",
+                "locale": null,
+                "type-id": null,
+                "end": null,
+                "primary": null,
+                "begin": null,
+                "name": "Sugarcubes",
+                "type": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "primary": true,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "locale": "is",
+                "sort-name": "Sykurmolarnir",
+                "begin": null,
+                "type": "Artist name",
+                "name": "Sykurmolarnir",
+                "ended": false
+              },
+              {
+                "primary": null,
+                "end": null,
+                "type-id": null,
+                "sort-name": "The Sugar Cubes",
+                "locale": null,
+                "begin": null,
+                "type": null,
+                "name": "The Sugar Cubes",
+                "ended": false
+              }
+            ],
+            "name": "The Sugarcubes",
+            "isnis": [
+              "000000011781886X"
+            ],
+            "area": {
+              "disambiguation": "",
+              "type-id": null,
+              "sort-name": "Iceland",
+              "id": "48802a32-075a-3805-a183-277c66047693",
+              "type": null,
+              "iso-3166-1-codes": [
+                "IS"
+              ],
+              "name": "Iceland"
+            },
+            "gender": null,
+            "sort-name": "Sugarcubes, The",
+            "id": "95303251-46d5-4239-89c8-eaf0b0947a11",
+            "begin-area": {
+              "type-id": null,
+              "sort-name": "Reykjavík",
+              "disambiguation": "",
+              "iso-3166-2-codes": [
+                "IS-0"
+              ],
+              "type": null,
+              "name": "Reykjavík",
+              "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2"
+            },
+            "disambiguation": "Icelandic alternative/post-punk rock band",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "ipis": [],
+            "life-span": {
+              "begin": "1986",
+              "ended": true,
+              "end": "1992"
+            }
+          }
+        }
+      },
+      "discogsRecords": {
+        "9452": {
+          "artist": {
+            "discogsArtistId": "9452",
+            "name": "The Sugarcubes",
+            "realName": null,
+            "profile": "The Sugarcubes were the biggest group ever to emerge from Iceland, which helps explain their off-kilter sense of melody. Their 1988 debut [i]Life's Too Good[/i] attracted terrific reviews and became a college radio hit, but they never were able to recapture that sense of excitement.\r\n\r\nAccording to group legend, the Sugarcubes formed on June 8, 1986, the day that vocalist [a1373] gave birth to her son. Prior to that day, the members of the group had been in a variety of Icelandic bands. Björk had the longest career out of any of the members. By 1984, Björk, Einar Örn Benediktsson and Siggi Baldursson had joined forces, forming [a=KUKL] with keyboardist Einar Melax. KUKL — which means witchcraft in Icelandic — was a noisy, artsy, post-punk band that released two albums on the independent British record label Crass. In 1986, KUKL evolved into the Sugarcubes, adding Björk's then-husband Thor Eldon on guitar and Bragi Ólafsson on bass. \r\n\r\nIn late 1987, the band signed to One Little Indian in the U.K., Elektra Records in the U.S. The Sugarcubes released their debut album [i]Life's Too Good[/i] in 1988 to critical acclaim in both the U.K. and the U.S. [i]Birthday[/i], the first single from the album, became an indie hit in Britain and a college radio hit in America. In particular, Björk received a heap of praise, which began tensions between her and Einar Örn. \r\n\r\n[i]Here Today, Tomorrow, Next Week![/i], the Sugarcubes' second album, was released in 1989. The album featured a greater vocal contribution by Einar, which was criticized in many of the record's reviews, which were noticably weaker than those for [i]Life's Too Good[/i]. After the release of [i]Here Today, Tomorrow, Next Week![/i], the band embarked on a lengthy international tour.  At the conclusion of the tour in late 1990, the band members pursued their own individual interests. \r\n\r\n[i]Stick Around for Joy[/i], the band's third album, was released in 1992. Before the record appeared, a collection of remixes called [i]It's It[/i] was released in Europe. [i]Stick Around for Joy[/i] received better reviews than [i]Life's Too Good[/i], but the album failed to yield a hit single.  Following its release, the Sugarcubes disbanded.  In 1993, Björk launched a critically acclaimed and commercially successful solo career that was based in dance music.",
+            "artistUrls": [
+              "https://www.last.fm/music/The+Sugarcubes",
+              "https://thesugarcubes.bandcamp.com/",
+              "https://soundcloud.com/thesugarcubesofficial",
+              "https://en.wikipedia.org/wiki/The_Sugarcubes",
+              "https://www.allmusic.com/artist/the-sugarcubes-mn0000919525"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "Sugar Cubes",
+              "Sugarcubes",
+              "Sugercubes",
+              "Sykormolarnir",
+              "Sykurmolar",
+              "Sykurmolarnir",
+              "The Sucarcubes",
+              "The Sugar Cubes",
+              "シュガーキューブス"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/9452",
+            "discogsWebUrl": "https://www.discogs.com/artist/9452-The-Sugarcubes",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "The Sugarcubes",
+            "id": 9452,
+            "resource_url": "https://api.discogs.com/artists/9452",
+            "uri": "https://www.discogs.com/artist/9452-The-Sugarcubes",
+            "releases_url": "https://api.discogs.com/artists/9452/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/QNKCDXswrPdeLCL-yOSz0SxzkI1JW460v7Uvu7ttnZc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjEwNC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/QNKCDXswrPdeLCL-yOSz0SxzkI1JW460v7Uvu7ttnZc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjEwNC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/rGISJ1DRu0WmzXitrkkQetnKI5i8aLhJYoxPoTx1diY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjEwNC5q/cGVn.jpeg",
+                "width": 600,
+                "height": 594
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/IhodOwm8xwoxbUDUN36nVpWMPrpr2xaYFVzFcHuz-A8/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIzNjczMzI2NC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/IhodOwm8xwoxbUDUN36nVpWMPrpr2xaYFVzFcHuz-A8/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIzNjczMzI2NC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/7bP2knnHTF0QBugjerd2evw5jABePn8ZtYPtFQkwbYw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIzNjczMzI2NC5q/cGVn.jpeg",
+                "width": 596,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/PEc3oeKzRTwJyG-GFlIenFrGzvqOzbZ8yuVqy3ZZ3ek/rs:fit/g:sm/q:90/h:465/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDQ1Ni5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/PEc3oeKzRTwJyG-GFlIenFrGzvqOzbZ8yuVqy3ZZ3ek/rs:fit/g:sm/q:90/h:465/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDQ1Ni5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/ebTP4SybzfK_55fO3E9OTIz2hSkm4FxEhkRapvsintg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDQ1Ni5q/cGVn.jpeg",
+                "width": 600,
+                "height": 465
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Qgin6j7tTdiJ-VN22Y89_lf-x3KCAGZ6SHvxQwEdryo/rs:fit/g:sm/q:90/h:724/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDI5MS5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Qgin6j7tTdiJ-VN22Y89_lf-x3KCAGZ6SHvxQwEdryo/rs:fit/g:sm/q:90/h:724/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDI5MS5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/0J2ixTaoFl7nRYz0PgepNbw74fRfL8WvnK6ykcCrchE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDI5MS5q/cGVn.jpeg",
+                "width": 500,
+                "height": 724
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/zE5cyO1FMlrBLscc77IO-dUZulO6xJvx4MIKJtdjtGM/rs:fit/g:sm/q:90/h:736/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDEzMS5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/zE5cyO1FMlrBLscc77IO-dUZulO6xJvx4MIKJtdjtGM/rs:fit/g:sm/q:90/h:736/w:493/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDEzMS5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/mEqgaoej6u_a8ypgizol8pHGBdfoyxGMBYBPw8xHZRw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDEzMS5q/cGVn.jpeg",
+                "width": 493,
+                "height": 736
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/sS5ke81S2t0a57WG5AgXpDGEwvGeYUlQMgk73yv0TJ4/rs:fit/g:sm/q:90/h:329/w:425/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDE4OC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/sS5ke81S2t0a57WG5AgXpDGEwvGeYUlQMgk73yv0TJ4/rs:fit/g:sm/q:90/h:329/w:425/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDE4OC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/zSxTZEnmG20BUxoyWWVGibG1pE8Ij2eR1R6LeVKc9U0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTIyMzI0MDE4OC5q/cGVn.jpeg",
+                "width": 425,
+                "height": 329
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ZtRcXEHIPC5q9nQRpnH1ujxwu-fyC5qwP1qdC3K8UHg/rs:fit/g:sm/q:90/h:379/w:418/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIxMy5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/ZtRcXEHIPC5q9nQRpnH1ujxwu-fyC5qwP1qdC3K8UHg/rs:fit/g:sm/q:90/h:379/w:418/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIxMy5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/4k2iThPU5X1ftjoyFtWDAOWcWt6XGghS0LUnfkXOnsA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIxMy5q/cGVn.jpeg",
+                "width": 418,
+                "height": 379
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/R1ykaXiueYcDi6ryPNMDJfecGqtor8rG8zvWaB0uCc8/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIyNC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/R1ykaXiueYcDi6ryPNMDJfecGqtor8rG8zvWaB0uCc8/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIyNC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/Q6M4RWnzSM1mW3efGVigyNdSqZ3r3VkHemKQWPJ2xDY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjIyNC5q/cGVn.jpeg",
+                "width": 597,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/azFgHeNjv97kRKbH4ahMNNqirN9ozOOYT0C35D-XQ3U/rs:fit/g:sm/q:90/h:293/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjI3NS5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/azFgHeNjv97kRKbH4ahMNNqirN9ozOOYT0C35D-XQ3U/rs:fit/g:sm/q:90/h:293/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjI3NS5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/828YVz8JDXp4KUFwTS0lmTNvH5r1aZIDXJeWqbvRMK4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE0Nzg5MjI3NS5q/cGVn.jpeg",
+                "width": 600,
+                "height": 293
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/U45fntdbqtox074By7fC1oNUVpSdBOlk67cGtXP-b50/rs:fit/g:sm/q:90/h:380/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE1MDQ4MTgxMC5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/U45fntdbqtox074By7fC1oNUVpSdBOlk67cGtXP-b50/rs:fit/g:sm/q:90/h:380/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE1MDQ4MTgxMC5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/Y7TFQKQemm50wuH-F-iV4nNVUqqoo7OibTq-UQQnnlk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE1MDQ4MTgxMC5q/cGVn.jpeg",
+                "width": 600,
+                "height": 380
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/DHdKS5fGO3rgc7jP4abpNnH5D0WWe5_y1ZNz7P4BvJE/rs:fit/g:sm/q:90/h:366/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE3NTcxODEwNi5q/cGVn.jpeg",
+                "resource_url": "https://i.discogs.com/DHdKS5fGO3rgc7jP4abpNnH5D0WWe5_y1ZNz7P4BvJE/rs:fit/g:sm/q:90/h:366/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE3NTcxODEwNi5q/cGVn.jpeg",
+                "uri150": "https://i.discogs.com/Rm2tOwGLazWt8fpa6HPbBm3SM_MmQ4Mf8RbrHm0yhqw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTE3NTcxODEwNi5q/cGVn.jpeg",
+                "width": 600,
+                "height": 366
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/p5a-aP7Y79csW6aSW2SEifnTW5vVb4F5RkXbbiueVrM/rs:fit/g:sm/q:90/h:364/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTMzNjcyMDE0MS01/MjQ4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/p5a-aP7Y79csW6aSW2SEifnTW5vVb4F5RkXbbiueVrM/rs:fit/g:sm/q:90/h:364/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTMzNjcyMDE0MS01/MjQ4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/kpOBt3bm-RJlibliLasDe5hdr0SoYqY_wz5g61ntov8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTMzNjcyMDE0MS01/MjQ4LmpwZWc.jpeg",
+                "width": 500,
+                "height": 364
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HMKSfALVpqhc_t5GNzWynFJE6R4mWJT_eEbiQnPWaTw/rs:fit/g:sm/q:90/h:747/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTY5ODYxMzA2Ny03/OTYzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/HMKSfALVpqhc_t5GNzWynFJE6R4mWJT_eEbiQnPWaTw/rs:fit/g:sm/q:90/h:747/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTY5ODYxMzA2Ny03/OTYzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ZlpDKeLWCkT7Svqu54Srb0Sd4Zwu-Cu4a9mW2KlDpBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk0NTIt/MTY5ODYxMzA2Ny03/OTYzLmpwZWc.jpeg",
+                "width": 600,
+                "height": 747
+              }
+            ],
+            "profile": "The Sugarcubes were the biggest group ever to emerge from Iceland, which helps explain their off-kilter sense of melody. Their 1988 debut [i]Life's Too Good[/i] attracted terrific reviews and became a college radio hit, but they never were able to recapture that sense of excitement.\r\n\r\nAccording to group legend, the Sugarcubes formed on June 8, 1986, the day that vocalist [a1373] gave birth to her son. Prior to that day, the members of the group had been in a variety of Icelandic bands. Björk had the longest career out of any of the members. By 1984, Björk, Einar Örn Benediktsson and Siggi Baldursson had joined forces, forming [a=KUKL] with keyboardist Einar Melax. KUKL — which means witchcraft in Icelandic — was a noisy, artsy, post-punk band that released two albums on the independent British record label Crass. In 1986, KUKL evolved into the Sugarcubes, adding Björk's then-husband Thor Eldon on guitar and Bragi Ólafsson on bass. \r\n\r\nIn late 1987, the band signed to One Little Indian in the U.K., Elektra Records in the U.S. The Sugarcubes released their debut album [i]Life's Too Good[/i] in 1988 to critical acclaim in both the U.K. and the U.S. [i]Birthday[/i], the first single from the album, became an indie hit in Britain and a college radio hit in America. In particular, Björk received a heap of praise, which began tensions between her and Einar Örn. \r\n\r\n[i]Here Today, Tomorrow, Next Week![/i], the Sugarcubes' second album, was released in 1989. The album featured a greater vocal contribution by Einar, which was criticized in many of the record's reviews, which were noticably weaker than those for [i]Life's Too Good[/i]. After the release of [i]Here Today, Tomorrow, Next Week![/i], the band embarked on a lengthy international tour.  At the conclusion of the tour in late 1990, the band members pursued their own individual interests. \r\n\r\n[i]Stick Around for Joy[/i], the band's third album, was released in 1992. Before the record appeared, a collection of remixes called [i]It's It[/i] was released in Europe. [i]Stick Around for Joy[/i] received better reviews than [i]Life's Too Good[/i], but the album failed to yield a hit single.  Following its release, the Sugarcubes disbanded.  In 1993, Björk launched a critically acclaimed and commercially successful solo career that was based in dance music.",
+            "urls": [
+              "https://www.last.fm/music/The+Sugarcubes",
+              "https://thesugarcubes.bandcamp.com/",
+              "https://soundcloud.com/thesugarcubesofficial",
+              "https://en.wikipedia.org/wiki/The_Sugarcubes",
+              "https://www.allmusic.com/artist/the-sugarcubes-mn0000919525"
+            ],
+            "namevariations": [
+              "Sugar Cubes",
+              "Sugarcubes",
+              "Sugercubes",
+              "Sykormolarnir",
+              "Sykurmolar",
+              "Sykurmolarnir",
+              "The Sucarcubes",
+              "The Sugar Cubes",
+              "シュガーキューブス"
+            ],
+            "members": [
+              {
+                "id": 133611,
+                "name": "Siggi Baldursson",
+                "resource_url": "https://api.discogs.com/artists/133611",
+                "active": true
+              },
+              {
+                "id": 267827,
+                "name": "Einar Örn",
+                "resource_url": "https://api.discogs.com/artists/267827",
+                "active": true
+              },
+              {
+                "id": 517951,
+                "name": "Björk Guðmundsdóttir",
+                "resource_url": "https://api.discogs.com/artists/517951",
+                "active": true
+              },
+              {
+                "id": 587342,
+                "name": "Þór Eldon",
+                "resource_url": "https://api.discogs.com/artists/587342",
+                "active": true
+              },
+              {
+                "id": 587343,
+                "name": "Margrét Örnólfsdóttir",
+                "resource_url": "https://api.discogs.com/artists/587343",
+                "active": true
+              },
+              {
+                "id": 587345,
+                "name": "Bragi Ólafsson",
+                "resource_url": "https://api.discogs.com/artists/587345",
+                "active": true
+              },
+              {
+                "id": 621374,
+                "name": "Friðrik Erlingsson",
+                "resource_url": "https://api.discogs.com/artists/621374",
+                "active": false
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "1G0Xwj8mza6b03iYkVdzDP",
+        "wikidataQid": "Q876705",
+        "name": "The Sugarcubes",
+        "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+        "discogsArtistId": "9452"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1G0Xwj8mza6b03iYkVdzDP",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q876705",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "9452",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "name": "The Sugarcubes",
+          "sortName": "Sugarcubes, The",
+          "artistType": "Group",
+          "country": "IS",
+          "disambiguation": "Icelandic alternative/post-punk rock band",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "95303251-46d5-4239-89c8-eaf0b0947a11",
+          "name": "The Sugarcubes",
+          "sortName": "Sugarcubes, The",
+          "artistType": "Group",
+          "disambiguation": "Icelandic alternative/post-punk rock band",
+          "country": "IS",
+          "area": {
+            "id": "48802a32-075a-3805-a183-277c66047693",
+            "name": "Iceland",
+            "sortName": "Iceland",
+            "type": null
+          },
+          "beginArea": {
+            "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2",
+            "name": "Reykjavík",
+            "sortName": "Reykjavík",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1986",
+            "end": "1992",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "Bjork & Sugarcubes",
+              "sortName": "Bjork & Sugarcubes",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Sugarcubes",
+              "sortName": "Sugarcubes",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Sykurmolarnir",
+              "sortName": "Sykurmolarnir",
+              "type": "Artist name",
+              "locale": "is",
+              "primary": true
+            },
+            {
+              "name": "The Sugar Cubes",
+              "sortName": "The Sugar Cubes",
+              "type": null,
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "000000011781886X"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000919525"
+            },
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003428058"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://thesugarcubes.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "http://unit.bjork.com/77island/sugarcubes/index.htm"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/9452"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1G0Xwj8mza6b03iYkVdzDP"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/6pPeAu0W9isg12fUOCCvPQ"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/3107"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/7037043"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/The+Sugarcubes"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-6172/the-sugarcubes/lyrics.html"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n91114021"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/S/Sugarcubes,_The/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb139336484"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/6065412-0"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/the_sugarcubes"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/sykurmolarnir/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/the-sugarcubes/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-n91114021"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/1052629152"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/727711"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/1241"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/485067"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1052629152"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/727711"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/3519103"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/the-sugarcubes/1070624"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/158414139"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q876705"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/9452.json",
+    "provider-cache/v1/musicbrainz/artist/95303251-46d5-4239-89c8-eaf0b0947a11.json",
+    "provider-cache/v1/musicbrainz/exact-name/8635e7251df2b0f4c394ce54.json",
+    "provider-cache/v1/wikidata/spotify-bridge/1G0Xwj8mza6b03iYkVdzDP.json"
+  ]
+}

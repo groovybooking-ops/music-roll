@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be",
+  "provider": "ticketmaster",
+  "sourceType": "ticketmaster_event",
+  "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+  "sourceRecordId": "Z7r9jZ1A7Pe_8/attraction/K8vZ9174C6f",
+  "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe_8",
+  "artist": {
+    "rawName": "Whethan",
+    "normalizedName": "whethan"
+  },
+  "providerEntity": {
+    "provider": "ticketmaster",
+    "type": "attraction",
+    "id": "K8vZ9174C6f",
+    "url": "https://www.ticketmaster.com/whethan-tickets/artist/2278363",
+    "legacyIds": [
+      "2278363"
+    ]
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "event_attractions",
+    "eventId": "Z7r9jZ1A7Pe_8",
+    "eventName": "Whethan (21+)",
+    "eventDateTime": {
+      "localDate": "2026-08-14",
+      "localTime": "17:00:00",
+      "utcDateTime": "2026-08-15T00:00:00Z"
+    },
+    "eventClassifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvl",
+          "name": "Other"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vk1I",
+          "name": "Other"
+        },
+        "type": null,
+        "subType": null
+      }
+    ],
+    "eventPosition": 0,
+    "attractionPosition": 0,
+    "venue": {
+      "id": "Z7r9jZak3P",
+      "name": "Fit Social",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "US",
+      "latitude": 32.798401,
+      "longitude": -117.236298
+    },
+    "eventEvidenceRef": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+    "discoveryAttractionId": "K8vZ9174C6f",
+    "legacyAttractionIds": [
+      "2278363"
+    ],
+    "attractionUrl": "https://www.ticketmaster.com/whethan-tickets/artist/2278363",
+    "classifications": [
+      {
+        "primary": true,
+        "segment": {
+          "id": "KZFzniwnSyZfZ7v7nJ",
+          "name": "Music"
+        },
+        "genre": {
+          "id": "KnvZfZ7vAvF",
+          "name": "Dance/Electronic"
+        },
+        "subGenre": {
+          "id": "KZazBEonSMnZfZ7vA1E",
+          "name": "Dance/Electronic"
+        },
+        "type": {
+          "id": "KZAyXgnZfZ7v7la",
+          "name": "Individual"
+        },
+        "subType": {
+          "id": "KZFzBErXgnZfZ7vAd7",
+          "name": "Musician"
+        }
+      }
+    ],
+    "evidenceRefs": {
+      "rawPage": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+      "attraction": null,
+      "event": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json"
+    },
+    "note": "Ticketmaster classifications are source evidence only and do not set Music Roll genre or stage."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json",
+  "discoveredAt": "2026-08-14T23:07:04.625Z",
+  "reviewOnly": true
+}

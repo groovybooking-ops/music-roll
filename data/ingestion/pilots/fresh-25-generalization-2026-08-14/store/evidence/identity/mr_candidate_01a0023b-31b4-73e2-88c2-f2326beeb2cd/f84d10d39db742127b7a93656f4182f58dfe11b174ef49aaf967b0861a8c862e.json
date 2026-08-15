@@ -1,0 +1,1269 @@
+{
+  "evidenceId": "sha256:f84d10d39db742127b7a93656f4182f58dfe11b174ef49aaf967b0861a8c862e",
+  "createdAt": "2026-08-14T21:44:25.325Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31b4-73e2-88c2-f2326beeb2cd",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Cleo Sol",
+        "spotifyArtistId": "3ETLPQkcEd7z4k3IbZmXMq"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "unique_exact_url_relationship",
+        "selectedMbid": "37e87694-b263-4ff4-839f-463f78cfef54",
+        "candidates": [
+          {
+            "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "name": "Cleo Sol",
+            "sortName": "Sol, Cleo",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ]
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3ETLPQkcEd7z4k3IbZmXMq",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1511198",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7018496",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "3ETLPQkcEd7z4k3IbZmXMq",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q109781335",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1511198",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1511198"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "7018496",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "7018496"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "3ETLPQkcEd7z4k3IbZmXMq",
+          "observedValues": [
+            "3ETLPQkcEd7z4k3IbZmXMq"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3ETLPQkcEd7z4k3IbZmXMq",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "3ETLPQkcEd7z4k3IbZmXMq",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q109781335",
+          "observedValues": [
+            "Q109781335"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q109781335",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "observedValues": [
+            "37e87694-b263-4ff4-839f-463f78cfef54"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "37e87694-b263-4ff4-839f-463f78cfef54",
+              "source": "musicbrainz",
+              "path": "url.exact_spotify_artist_relationship",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "1511198",
+            "7018496"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1511198",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "7018496",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "37e87694-b263-4ff4-839f-463f78cfef54"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1511198",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "1511198"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "7018496",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "7018496"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "1511198",
+            "7018496"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "name": "Cleo Sol",
+            "sortName": "Sol, Cleo",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "3ETLPQkcEd7z4k3IbZmXMq"
+            ],
+            "discogsArtistIds": [
+              "1511198",
+              "7018496"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "provider_error_present"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1511198",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "7018496",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": false,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "3ETLPQkcEd7z4k3IbZmXMq",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 3ETLPQkcEd7z4k3IbZmXMq."
+        }
+      ],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "3ETLPQkcEd7z4k3IbZmXMq",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 3ETLPQkcEd7z4k3IbZmXMq."
+        }
+      ],
+      "musicBrainzRecords": {
+        "37e87694-b263-4ff4-839f-463f78cfef54": {
+          "artist": {
+            "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "name": "Cleo Sol",
+            "sortName": "Sol, Cleo",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "sortName": "London",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1991-03-24",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Cleopatra Nikolic",
+                "sortName": "Nikolic, Cleopatra",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Cleopatra Zvezdana Nikolic",
+                "sortName": "Nikolic, Cleopatra Zvezdana",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000407734736"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002448381"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://cleosol.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/608546"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/1511198"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/7018496"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/1428258"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Cleo+Sol"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Cleo-sol"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://cleo-sol.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/cleo-sol"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/cleosol"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/CleoSol"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/gyallikeclee/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/2262208"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/cleosol"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/459710289"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/4374542"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q109781335"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/user/cleosolmusic"
+              }
+            ]
+          },
+          "raw": {
+            "aliases": [
+              {
+                "type": null,
+                "primary": null,
+                "type-id": null,
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "Cleopatra Nikolic",
+                "end": null,
+                "sort-name": "Nikolic, Cleopatra"
+              },
+              {
+                "begin": null,
+                "ended": false,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "type": "Legal name",
+                "sort-name": "Nikolic, Cleopatra Zvezdana",
+                "end": null,
+                "name": "Cleopatra Zvezdana Nikolic",
+                "locale": null
+              }
+            ],
+            "isnis": [
+              "0000000407734736"
+            ],
+            "name": "Cleo Sol",
+            "sort-name": "Sol, Cleo",
+            "begin-area": {
+              "type": null,
+              "disambiguation": "Greater London",
+              "type-id": null,
+              "name": "London",
+              "sort-name": "London",
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f"
+            },
+            "disambiguation": "",
+            "type": "Person",
+            "gender": "Female",
+            "ipis": [
+              "00660949024",
+              "00660949122"
+            ],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "country": "GB",
+            "area": {
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "sort-name": "United Kingdom",
+              "type-id": null,
+              "disambiguation": "",
+              "type": null
+            },
+            "id": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "end-area": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "relations": [
+              {
+                "attribute-ids": {},
+                "type": "allmusic",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "url": {
+                  "id": "703d176b-b891-4dad-a18c-506c9e9ea6a8",
+                  "resource": "https://www.allmusic.com/artist/mn0002448381"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "type": "bandcamp",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://cleosol.bandcamp.com/",
+                  "id": "18fb32b3-9886-45f8-9a58-910e5e015c1a"
+                },
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "bandsintown",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "72229328-b749-4f79-98bd-63a4db73c4b1",
+                  "resource": "https://www.bandsintown.com/a/608546"
+                },
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "url": {
+                  "id": "a91fb365-6699-4315-b1c8-6bbc933b71dd",
+                  "resource": "https://www.discogs.com/artist/1511198"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "type": "discogs",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {}
+              },
+              {
+                "begin": null,
+                "source-credit": "Cleopatra Nikolic",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "id": "ea9b1ef9-e751-4dd2-8bc3-d5e57e6d6168",
+                  "resource": "https://www.discogs.com/artist/7018496"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "discogs",
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "free streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+                  "id": "9123a60f-32e6-4ac7-8190-6cee6d269d9f"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "type": "free streaming",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.deezer.com/artist/1428258",
+                  "id": "3602cf5b-6436-4f81-9118-b7d2025717f5"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "type": "last.fm",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "resource": "https://www.last.fm/music/Cleo+Sol",
+                  "id": "78683212-fa8d-4260-b20b-1d1304a6bde3"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "lyrics",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "4c84e033-1b21-449f-9667-fa66ef5a30e5",
+                  "resource": "https://genius.com/artists/Cleo-sol"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "id": "15edd2db-5a51-4951-95b5-169fd3a1440f",
+                  "resource": "https://cleo-sol.com/"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "official homepage",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {}
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/cleo-sol",
+                  "id": "c3e7ab52-2543-4bc6-ad88-e4eb5b6d3de1"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "other databases",
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "social network",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "id": "56e65ac0-6cbf-4500-8057-e097d1895869",
+                  "resource": "https://twitter.com/cleosol"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://www.facebook.com/CleoSol",
+                  "id": "8fa85d5d-ffb1-4390-bc04-281806c5b69a"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {}
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.instagram.com/gyallikeclee/",
+                  "id": "a23fac8d-2b12-4a44-bf0f-390e439e4a79"
+                },
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "social network"
+              },
+              {
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "songkick",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/2262208",
+                  "id": "3773d970-4125-4251-8f27-a82772564bd2"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "soundcloud",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "274ebdb1-f16a-4863-9af2-2d7a55189014",
+                  "resource": "https://soundcloud.com/cleosol"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "a173c957-2e4a-4bfc-aa14-39788e30ab60",
+                  "resource": "https://music.apple.com/gb/artist/459710289"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "begin": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://tidal.com/artist/4374542",
+                  "id": "c14e4f82-4064-4268-927e-28eda9e06b94"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "streaming",
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q109781335",
+                  "id": "0b4e210e-b40d-4fe5-a9e7-5ff29150ce2a"
+                },
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "wikidata"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "url": {
+                  "resource": "https://www.youtube.com/user/cleosolmusic",
+                  "id": "f54dd36b-2f19-47e8-9692-ff01c5d5882a"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "youtube",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              }
+            ],
+            "life-span": {
+              "end": null,
+              "ended": false,
+              "begin": "1991-03-24"
+            }
+          }
+        }
+      },
+      "discogsRecords": {
+        "1511198": {
+          "artist": {
+            "discogsArtistId": "1511198",
+            "name": "Cleo Sol",
+            "realName": "Cleopatra Nikolic",
+            "profile": "West London R&B/soul singer of Serbian, Spanish and Jamaican origin, born to musical parents who met in a Jazz band. \r\n",
+            "artistUrls": [
+              "https://cleo-sol.com/",
+              "https://www.facebook.com/CleoSol/",
+              "https://www.instagram.com/gyallikeclee/",
+              "https://www.youtube.com/channel/UCWidoOTxhIgG8zNW1iID_nQ",
+              "https://twitter.com/cleosol",
+              "https://en.wikipedia.org/wiki/Cleo_Sol"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "7018496",
+                "name": "Cleopatra Nikolic"
+              },
+              {
+                "discogsArtistId": "13292151",
+                "name": "Clea (8)"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/1511198",
+            "discogsWebUrl": "https://www.discogs.com/artist/1511198-Cleo-Sol",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Cleo Sol",
+            "id": 1511198,
+            "resource_url": "https://api.discogs.com/artists/1511198",
+            "uri": "https://www.discogs.com/artist/1511198-Cleo-Sol",
+            "releases_url": "https://api.discogs.com/artists/1511198/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/xQVEAScnfuOf1wUBd1y6nnhrgjzzk2zLcj8MU3lRZnU/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC04Nzg0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/xQVEAScnfuOf1wUBd1y6nnhrgjzzk2zLcj8MU3lRZnU/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC04Nzg0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/vl4GwxdAf9koeJOk_u2dlnFllV71SEPPHwg4o_tARzo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC04Nzg0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/BSU5sSPpE1NdyUVShHNys50TaKhk0Mq93eNjK3bwK68/rs:fit/g:sm/q:90/h:901/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xNTY4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/BSU5sSPpE1NdyUVShHNys50TaKhk0Mq93eNjK3bwK68/rs:fit/g:sm/q:90/h:901/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xNTY4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/J7sLlsZllbgkuD8C9eV2Akb_6gP83U0RG9AFL9UzD8I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xNTY4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 901
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/w2KOK46YoC8pfGsRWzRsDzOfpnL35peY2G4uzafh-08/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xMDU3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/w2KOK46YoC8pfGsRWzRsDzOfpnL35peY2G4uzafh-08/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xMDU3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/6OT5URSw1WQDazwhJK_Ddv39wV-KCMvrDxZohh3VK8s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1MTEx/OTgtMTU1MTg5NDYz/MC0xMDU3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              }
+            ],
+            "realname": "Cleopatra Nikolic",
+            "profile": "West London R&B/soul singer of Serbian, Spanish and Jamaican origin, born to musical parents who met in a Jazz band. \r\n",
+            "urls": [
+              "https://cleo-sol.com/",
+              "https://www.facebook.com/CleoSol/",
+              "https://www.instagram.com/gyallikeclee/",
+              "https://www.youtube.com/channel/UCWidoOTxhIgG8zNW1iID_nQ",
+              "https://twitter.com/cleosol",
+              "https://en.wikipedia.org/wiki/Cleo_Sol"
+            ],
+            "aliases": [
+              {
+                "id": 7018496,
+                "name": "Cleopatra Nikolic",
+                "resource_url": "https://api.discogs.com/artists/7018496"
+              },
+              {
+                "id": 13292151,
+                "name": "Clea (8)",
+                "resource_url": "https://api.discogs.com/artists/13292151"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "7018496": {
+          "artist": {
+            "discogsArtistId": "7018496",
+            "name": "Cleopatra Nikolic",
+            "realName": null,
+            "profile": null,
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "1511198",
+                "name": "Cleo Sol"
+              },
+              {
+                "discogsArtistId": "13292151",
+                "name": "Clea (8)"
+              }
+            ],
+            "nameVariations": [
+              "C.Nikolik",
+              "Cleo Nikolic",
+              "Cleo Nikolic`"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/7018496",
+            "discogsWebUrl": "https://www.discogs.com/artist/7018496-Cleopatra-Nikolic",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Cleopatra Nikolic",
+            "id": 7018496,
+            "resource_url": "https://api.discogs.com/artists/7018496",
+            "uri": "https://www.discogs.com/artist/7018496-Cleopatra-Nikolic",
+            "releases_url": "https://api.discogs.com/artists/7018496/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/HBdxonixr7iz4MOsDaWJrQNacpFZOgofxHpp4xOKcGM/rs:fit/g:sm/q:90/h:600/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcwMTg0/OTYtMTcxMjcwNzE2/MS0zODI0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/HBdxonixr7iz4MOsDaWJrQNacpFZOgofxHpp4xOKcGM/rs:fit/g:sm/q:90/h:600/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcwMTg0/OTYtMTcxMjcwNzE2/MS0zODI0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/w6_ZfBhTo5rHDIuDcEC5-btMpTlFlUr6SIepHT-CxPA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTcwMTg0/OTYtMTcxMjcwNzE2/MS0zODI0LmpwZWc.jpeg",
+                "width": 480,
+                "height": 600
+              }
+            ],
+            "profile": "",
+            "namevariations": [
+              "C.Nikolik",
+              "Cleo Nikolic",
+              "Cleo Nikolic`"
+            ],
+            "aliases": [
+              {
+                "id": 1511198,
+                "name": "Cleo Sol",
+                "resource_url": "https://api.discogs.com/artists/1511198"
+              },
+              {
+                "id": 13292151,
+                "name": "Clea (8)",
+                "resource_url": "https://api.discogs.com/artists/13292151"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "37e87694-b263-4ff4-839f-463f78cfef54": {
+          "releaseCount": 15,
+          "distinctiveTitles": [
+            "why don t you m pathy rework",
+            "nothing is impossible with you",
+            "sweet blue",
+            "winter songs",
+            "fear when you fly",
+            "heaven",
+            "butterfly",
+            "mother",
+            "gold",
+            "why don t you",
+            "one",
+            "rose in the dark",
+            "shine",
+            "cleo s house v2",
+            "woman"
+          ],
+          "earliestYear": 2017,
+          "latestYear": 2026
+        }
+      },
+      "wikidataClaims": [],
+      "exactSpotifyUrlLookup": {
+        "spotifyArtistUrl": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+        "exactUrlFound": true,
+        "candidates": [
+          {
+            "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+            "name": "Cleo Sol",
+            "sortName": "Sol, Cleo",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ],
+        "raw": {
+          "id": "9123a60f-32e6-4ac7-8190-6cee6d269d9f",
+          "resource": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq",
+          "relations": [
+            {
+              "direction": "backward",
+              "begin": null,
+              "ended": false,
+              "type": "free streaming",
+              "source-credit": "",
+              "attribute-ids": {},
+              "attribute-values": {},
+              "target-credit": "",
+              "artist": {
+                "name": "Cleo Sol",
+                "id": "37e87694-b263-4ff4-839f-463f78cfef54",
+                "sort-name": "Sol, Cleo",
+                "country": "GB",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": ""
+              },
+              "attributes": [],
+              "target-type": "artist",
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+            }
+          ]
+        }
+      },
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "name": "Cleo Sol",
+          "sortName": "Sol, Cleo",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "name": "Cleo Sol",
+          "sortName": "Sol, Cleo",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "name": "London",
+            "sortName": "London",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1991-03-24",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Cleopatra Nikolic",
+              "sortName": "Nikolic, Cleopatra",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Cleopatra Zvezdana Nikolic",
+              "sortName": "Nikolic, Cleopatra Zvezdana",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000407734736"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0002448381"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://cleosol.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/608546"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1511198"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/7018496"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/1428258"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Cleo+Sol"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Cleo-sol"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://cleo-sol.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/cleo-sol"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/cleosol"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/CleoSol"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/gyallikeclee/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/2262208"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/cleosol"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/459710289"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/4374542"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q109781335"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/user/cleosolmusic"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/1511198.json",
+    "provider-cache/v1/discogs/artist/7018496.json",
+    "provider-cache/v1/musicbrainz/artist/37e87694-b263-4ff4-839f-463f78cfef54.json",
+    "provider-cache/v1/musicbrainz/exact-name/2b20894d3cfcdbc8b57606be.json",
+    "provider-cache/v1/musicbrainz/release-groups/37e87694-b263-4ff4-839f-463f78cfef54.json",
+    "provider-cache/v1/musicbrainz/spotify-url/3ETLPQkcEd7z4k3IbZmXMq.json",
+    "provider-cache/v1/wikidata/spotify-bridge/3ETLPQkcEd7z4k3IbZmXMq.json"
+  ]
+}

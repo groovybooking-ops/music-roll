@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "3g2kUQ6tHLLbmkV7T4GPtL",
+  "retrievedAt": "2026-08-15T16:22:19.631Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+      "wikidataQid": "Q228968",
+      "name": "Fiona Apple",
+      "musicBrainzArtistId": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+      "discogsArtistId": "255740"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q228968"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "a9ee533f-8871-4f62-a6bb-91eb264abc90"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "255740"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fiona Apple"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

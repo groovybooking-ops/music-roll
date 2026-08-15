@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dce-7d52-b470-542554fdc081",
+  "revision": 4,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T21:18:54.955Z",
+  "createdAt": "2026-08-14T21:17:47.342Z",
+  "updatedAt": "2026-08-14T21:18:54.955Z",
+  "name": {
+    "raw": "Charli xcx",
+    "normalized": "charli xcx"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:5aaa56ff4352cb7b736f79c659d956afac5d557f34284b314ebbab37ea76df45",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-006",
+      "sourceUrl": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5",
+      "rawArtistName": "Charli xcx",
+      "normalizedArtistName": "charli xcx",
+      "spotifyArtistId": "25uiPmTg16RbhZWAqwLBy5",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "25uiPmTg16RbhZWAqwLBy5",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "provider_profile_multiplicity",
+    "selectedSpotifyArtistId": "25uiPmTg16RbhZWAqwLBy5",
+    "wikidataQids": [
+      "Q5084390"
+    ],
+    "musicBrainzArtistIds": [
+      "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+    ],
+    "discogsArtistIds": [
+      "1345479",
+      "3002587"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00223-5dce-7d52-b470-542554fdc081/df6be7f1edd0730b95a4ac1f16c95195945fa6af6e003a328e094306544fdf3f.json",
+      "provider-cache/v1/wikidata/spotify-bridge/25uiPmTg16RbhZWAqwLBy5.json",
+      "provider-cache/v1/musicbrainz/artist/260b6184-8828-48eb-945c-bc4cb6fc34ca.json",
+      "provider-cache/v1/discogs/artist/1345479.json",
+      "provider-cache/v1/discogs/artist/3002587.json",
+      "provider-cache/v1/musicbrainz/exact-name/35a9eb2b725d84cea64e1d19.json",
+      "provider-cache/v1/musicbrainz/release-groups/260b6184-8828-48eb-945c-bc4cb6fc34ca.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "spotifyArtistId",
+        "observedValues": [
+          "25uiPmTg16RbhZWAqwLBy5",
+          "0HNqrcl3vgc1U7U1SNtsvB"
+        ]
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "1345479",
+          "3002587"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+          "name": "Charli xcx",
+          "sortName": "Charli xcx",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "0HNqrcl3vgc1U7U1SNtsvB",
+            "25uiPmTg16RbhZWAqwLBy5"
+          ],
+          "discogsArtistIds": [
+            "1345479",
+            "3002587"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": true,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "25uiPmTg16RbhZWAqwLBy5",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "25uiPmTg16RbhZWAqwLBy5",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q5084390",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1345479",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "260b6184-8828-48eb-945c-bc4cb6fc34ca",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1345479",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "3002587",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "0HNqrcl3vgc1U7U1SNtsvB",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "25uiPmTg16RbhZWAqwLBy5",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q5084390",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "1345479",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "1345479"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "3002587",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "3002587"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:18:54.954Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00224-65eb-74b2-abc4-c571373b1aa7"
+}

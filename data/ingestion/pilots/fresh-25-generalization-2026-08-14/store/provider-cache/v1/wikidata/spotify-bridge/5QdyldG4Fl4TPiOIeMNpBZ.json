@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5QdyldG4Fl4TPiOIeMNpBZ",
+  "retrievedAt": "2026-08-14T21:46:20.503Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+      "wikidataQid": "Q28228836",
+      "name": "Big Thief",
+      "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+      "discogsArtistId": "5009441"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q28228836"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "5009441"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Big Thief"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

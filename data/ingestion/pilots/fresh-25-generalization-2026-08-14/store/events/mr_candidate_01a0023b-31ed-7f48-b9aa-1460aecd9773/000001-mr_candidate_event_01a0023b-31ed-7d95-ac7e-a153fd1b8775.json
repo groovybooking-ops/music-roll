@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31ed-7d95-ac7e-a153fd1b8775",
+  "candidateId": "mr_candidate_01a0023b-31ed-7f48-b9aa-1460aecd9773",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.973Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:0b9c82696f97be3642cfc22a3b447131f392e63b7ca165b97cd38bb13026f133",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-023",
+      "sourceUrl": "https://open.spotify.com/artist/7Eu1txygG6nJttLHbZdQOh",
+      "rawArtistName": "Four Tet",
+      "normalizedArtistName": "four tet",
+      "spotifyArtistId": "7Eu1txygG6nJttLHbZdQOh",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7Eu1txygG6nJttLHbZdQOh",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

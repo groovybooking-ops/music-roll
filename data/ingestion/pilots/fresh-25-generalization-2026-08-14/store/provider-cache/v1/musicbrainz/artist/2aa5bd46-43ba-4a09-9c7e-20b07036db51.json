@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+  "retrievedAt": "2026-08-14T21:44:29.603Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+      "name": "Viktor Vaughn",
+      "sortName": "Vaughn, Viktor",
+      "artistType": "Person",
+      "disambiguation": null,
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "name": "London",
+        "sortName": "London",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-07-13",
+        "end": "2020-10-31",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "name": "Victor Vaughn",
+          "sortName": "Victor Vaughn",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Viktor Vaugh",
+          "sortName": "Vaugh, Viktor",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Viktor Vaughan",
+          "sortName": "Viktor Vaughan",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000120245601"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/143795"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/3322"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/Viktor+Vaughn"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Viktor-vaughn"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "http://id.loc.gov/authorities/names/no2007144261"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/viktor_vaughn"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://www.worldcat.org/identities/lccn-no2007144261"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/us/artist/28024521"
+        },
+        {
+          "relationshipType": "VIAF",
+          "url": "http://viaf.org/viaf/268279333"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q304675"
+        }
+      ]
+    },
+    "raw": {
+      "sort-name": "Vaughn, Viktor",
+      "isnis": [
+        "0000000120245601"
+      ],
+      "type": "Person",
+      "name": "Viktor Vaughn",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "disambiguation": "",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "end-area": null,
+      "life-span": {
+        "ended": true,
+        "begin": "1971-07-13",
+        "end": "2020-10-31"
+      },
+      "id": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+      "begin-area": {
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "type-id": null,
+        "disambiguation": "Greater London",
+        "name": "London",
+        "type": null,
+        "sort-name": "London"
+      },
+      "relations": [
+        {
+          "type": "discogs",
+          "attribute-values": {},
+          "end": null,
+          "source-credit": "",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "ended": false,
+          "attributes": [],
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.discogs.com/artist/143795",
+            "id": "ea6419df-0edb-491b-9189-64848514183d"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url"
+        },
+        {
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "source-credit": "",
+          "end": null,
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "free streaming",
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "id": "0069ef00-27fc-49e9-ba31-2b66f4487b38",
+            "resource": "https://www.deezer.com/artist/3322"
+          },
+          "target-credit": ""
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.last.fm/music/Viktor+Vaughn",
+            "id": "89c09b95-eae7-4c5d-a900-a06e120f4526"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "last.fm",
+          "attribute-values": {},
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "source-credit": "",
+          "end": null,
+          "ended": false,
+          "attributes": []
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://genius.com/artists/Viktor-vaughn",
+            "id": "323209e0-ad0f-41eb-bc0b-70a3aaff2355"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "type": "lyrics",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "end": null,
+          "source-credit": "",
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "other databases",
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "resource": "http://id.loc.gov/authorities/names/no2007144261",
+            "id": "dc3a18a0-9c20-4c5d-85c7-27c9f55c8b61"
+          },
+          "target-credit": ""
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "id": "c59d4772-b95b-419d-9c4b-c51dc11d3388",
+            "resource": "https://rateyourmusic.com/artist/viktor_vaughn"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "other databases",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+        },
+        {
+          "target-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "url": {
+            "resource": "https://www.worldcat.org/identities/lccn-no2007144261",
+            "id": "60009388-34e3-4233-bafb-b8eebc964e40"
+          },
+          "direction": "forward",
+          "attribute-values": {},
+          "type": "other databases",
+          "source-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "attributes": [],
+          "ended": false
+        },
+        {
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "id": "ac7995f8-8feb-45ed-9068-2b43a5a5eb84",
+            "resource": "https://music.apple.com/us/artist/28024521"
+          },
+          "target-credit": "",
+          "source-credit": "",
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "end": null,
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "streaming"
+        },
+        {
+          "target-credit": "",
+          "url": {
+            "resource": "http://viaf.org/viaf/268279333",
+            "id": "5b0a0495-8110-457c-965f-a2a5ec22f552"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "type": "VIAF",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+          "ended": false,
+          "attributes": []
+        },
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.wikidata.org/wiki/Q304675",
+            "id": "8d0c19d4-8496-429e-bb30-00883bf907a8"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "type": "wikidata",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "ended": false,
+          "attributes": []
+        }
+      ],
+      "gender": "Male",
+      "area": {
+        "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "name": "United States",
+        "type": null,
+        "sort-name": "United States",
+        "disambiguation": ""
+      },
+      "ipis": [],
+      "country": "US",
+      "aliases": [
+        {
+          "primary": null,
+          "name": "Victor Vaughn",
+          "type": null,
+          "sort-name": "Victor Vaughn",
+          "locale": null,
+          "ended": false,
+          "end": null,
+          "type-id": null,
+          "begin": null
+        },
+        {
+          "begin": null,
+          "end": null,
+          "type-id": null,
+          "ended": false,
+          "locale": null,
+          "sort-name": "Vaugh, Viktor",
+          "type": null,
+          "name": "Viktor Vaugh",
+          "primary": null
+        },
+        {
+          "begin": null,
+          "type-id": null,
+          "end": null,
+          "locale": null,
+          "ended": false,
+          "sort-name": "Viktor Vaughan",
+          "type": null,
+          "name": "Viktor Vaughan",
+          "primary": null
+        }
+      ]
+    }
+  }
+}

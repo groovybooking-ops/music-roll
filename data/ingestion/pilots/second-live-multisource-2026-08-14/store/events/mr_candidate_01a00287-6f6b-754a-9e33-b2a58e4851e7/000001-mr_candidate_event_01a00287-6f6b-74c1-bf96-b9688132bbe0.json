@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f6b-74c1-bf96-b9688132bbe0",
+  "candidateId": "mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.451Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/39fcbe47c66580409e509498bd8dfc81dc8ceff191f7c914f13650e0df4cfc13.json",
+    "discovery/provider-listing-cache/spotify/3a371f5e2c679f8469a5a698ea4c000093b832c3da9c4801f149dffe9366b8c4.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:0cd23e64af7ce5d42b0aeb8453aa9159e2ff1e5f26a739942e3d738b0a6423e7",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:4:7vbtWyaqcB8RlHqqIKlHCU",
+      "sourceUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+      "rawArtistName": "Mc Beyonce",
+      "normalizedArtistName": "mc beyonce",
+      "spotifyArtistId": "7vbtWyaqcB8RlHqqIKlHCU",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  }
+}

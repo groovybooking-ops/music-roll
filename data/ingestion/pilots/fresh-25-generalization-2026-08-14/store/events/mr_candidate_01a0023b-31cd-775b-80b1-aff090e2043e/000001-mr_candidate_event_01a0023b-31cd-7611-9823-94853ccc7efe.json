@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31cd-7611-9823-94853ccc7efe",
+  "candidateId": "mr_candidate_01a0023b-31cd-775b-80b1-aff090e2043e",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.941Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:918cd1b497fc11ee66a21ec133f5dd818fed3c7739aaefc702304cd6e4607fda",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-015",
+      "sourceUrl": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60",
+      "rawArtistName": "Kelela",
+      "normalizedArtistName": "kelela",
+      "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

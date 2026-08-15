@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dcb-7ac0-bb82-7f1ab7b55539",
+  "revision": 4,
+  "state": "failed_match",
+  "stateEnteredAt": "2026-08-14T21:18:43.031Z",
+  "createdAt": "2026-08-14T21:17:47.339Z",
+  "updatedAt": "2026-08-14T21:18:43.031Z",
+  "name": {
+    "raw": "Hotline TNT",
+    "normalized": "hotline tnt"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:897d8145066af924b20797ac1341bd47f70b4546f0d91aa3fc1027c0fe710c96",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-004",
+      "sourceUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+      "rawArtistName": "Hotline TNT",
+      "normalizedArtistName": "hotline tnt",
+      "spotifyArtistId": "5DDuwU1X2Aqdp3CxfXstRe",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "5DDuwU1X2Aqdp3CxfXstRe",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/5DDuwU1X2Aqdp3CxfXstRe",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00223-5dcb-7ac0-bb82-7f1ab7b55539/c832ae0288a4f1acae653a0bf00f59997dafc78450bfbd2eef5a1ec22e3a03b4.json",
+      "provider-cache/v1/wikidata/spotify-bridge/5DDuwU1X2Aqdp3CxfXstRe.json",
+      "provider-cache/v1/musicbrainz/spotify-url/5DDuwU1X2Aqdp3CxfXstRe.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "sameNameAmbiguity": "not_evaluated",
+      "competingEntities": []
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5DDuwU1X2Aqdp3CxfXstRe",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      }
+    ],
+    "providerErrors": [
+      {
+        "provider": "wikidata",
+        "operation": "spotify_bridge",
+        "identifier": "5DDuwU1X2Aqdp3CxfXstRe",
+        "statusCode": 404,
+        "message": "Wikidata has no artist bridge for Spotify ID 5DDuwU1X2Aqdp3CxfXstRe."
+      }
+    ],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:18:43.030Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "failed_match",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00224-3757-7770-aca0-15030f1f817a"
+}

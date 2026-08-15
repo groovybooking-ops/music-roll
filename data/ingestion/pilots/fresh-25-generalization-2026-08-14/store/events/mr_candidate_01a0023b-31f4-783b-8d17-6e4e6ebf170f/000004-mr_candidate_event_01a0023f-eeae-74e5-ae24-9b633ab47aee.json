@@ -1,0 +1,3131 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023f-eeae-74e5-ae24-9b633ab47aee",
+  "candidateId": "mr_candidate_01a0023b-31f4-783b-8d17-6e4e6ebf170f",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "needs_review",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "identity_provider_multiplicity_requires_review",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:48:59.438Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0023b-31f4-783b-8d17-6e4e6ebf170f/03e27cb1b3adc7fdf91a767088101b011e7d7d57014bd41a80b6060ddf1f7fb0.json",
+    "provider-cache/v1/wikidata/spotify-bridge/6kBDZFXuLrZgHnvmPu9NsG.json",
+    "provider-cache/v1/musicbrainz/artist/e7d734a2-3909-4e1c-97a0-87ef04acd4c2.json",
+    "provider-cache/v1/musicbrainz/artist/bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d.json",
+    "provider-cache/v1/musicbrainz/artist/4776e9f6-f1f9-48d2-b703-abfc6925aba7.json",
+    "provider-cache/v1/musicbrainz/artist/f22942a1-6f70-4f48-866e-238cb2308fbd.json",
+    "provider-cache/v1/musicbrainz/artist/79a09151-f6cc-48f9-9907-3fdd0b68373f.json",
+    "provider-cache/v1/musicbrainz/artist/34d679e8-0188-434d-a760-02913ea2a85a.json",
+    "provider-cache/v1/musicbrainz/artist/aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1.json",
+    "provider-cache/v1/musicbrainz/artist/57de292f-448e-42b5-8ff6-7ee016b2a2d4.json",
+    "provider-cache/v1/musicbrainz/artist/dae36a1f-d7d3-4c9a-a3aa-11da58b92958.json",
+    "provider-cache/v1/musicbrainz/artist/1b24b161-b825-422e-951d-e8698bd9515a.json",
+    "provider-cache/v1/musicbrainz/artist/87225a21-c925-41cd-852f-be4b052d0824.json",
+    "provider-cache/v1/musicbrainz/artist/2d1beb0f-edf7-4dea-9a8b-2c88f2551053.json",
+    "provider-cache/v1/musicbrainz/artist/34ae4718-4ef9-487f-b389-ed6f1dae5d02.json",
+    "provider-cache/v1/musicbrainz/artist/62273c68-e370-4e5f-bf36-fd994963b6af.json",
+    "provider-cache/v1/musicbrainz/artist/e39c9fa6-774a-4d09-bc05-3d712daf02da.json",
+    "provider-cache/v1/musicbrainz/artist/f3def1b0-565b-44f5-81c5-d079dda8e65f.json",
+    "provider-cache/v1/discogs/artist/45.json",
+    "provider-cache/v1/discogs/artist/46.json",
+    "provider-cache/v1/discogs/artist/48.json",
+    "provider-cache/v1/discogs/artist/820.json",
+    "provider-cache/v1/discogs/artist/37272.json",
+    "provider-cache/v1/discogs/artist/599.json",
+    "provider-cache/v1/discogs/artist/2931.json",
+    "provider-cache/v1/discogs/artist/42476.json",
+    "provider-cache/v1/discogs/artist/435132.json",
+    "provider-cache/v1/discogs/artist/286337.json",
+    "provider-cache/v1/discogs/artist/32985.json",
+    "provider-cache/v1/discogs/artist/803581.json",
+    "provider-cache/v1/discogs/artist/4101534.json",
+    "provider-cache/v1/discogs/artist/829972.json",
+    "provider-cache/v1/discogs/artist/4229683.json",
+    "provider-cache/v1/discogs/artist/4399640.json",
+    "provider-cache/v1/discogs/artist/3671244.json",
+    "provider-cache/v1/musicbrainz/release-groups/e7d734a2-3909-4e1c-97a0-87ef04acd4c2.json",
+    "provider-cache/v1/musicbrainz/release-groups/bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d.json",
+    "provider-cache/v1/musicbrainz/release-groups/4776e9f6-f1f9-48d2-b703-abfc6925aba7.json",
+    "provider-cache/v1/musicbrainz/release-groups/f22942a1-6f70-4f48-866e-238cb2308fbd.json",
+    "provider-cache/v1/musicbrainz/release-groups/79a09151-f6cc-48f9-9907-3fdd0b68373f.json",
+    "provider-cache/v1/musicbrainz/release-groups/34d679e8-0188-434d-a760-02913ea2a85a.json",
+    "provider-cache/v1/musicbrainz/release-groups/aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1.json",
+    "provider-cache/v1/musicbrainz/release-groups/57de292f-448e-42b5-8ff6-7ee016b2a2d4.json",
+    "provider-cache/v1/musicbrainz/release-groups/dae36a1f-d7d3-4c9a-a3aa-11da58b92958.json",
+    "provider-cache/v1/musicbrainz/release-groups/1b24b161-b825-422e-951d-e8698bd9515a.json",
+    "provider-cache/v1/musicbrainz/release-groups/87225a21-c925-41cd-852f-be4b052d0824.json",
+    "provider-cache/v1/musicbrainz/release-groups/2d1beb0f-edf7-4dea-9a8b-2c88f2551053.json",
+    "provider-cache/v1/musicbrainz/release-groups/34ae4718-4ef9-487f-b389-ed6f1dae5d02.json",
+    "provider-cache/v1/musicbrainz/release-groups/62273c68-e370-4e5f-bf36-fd994963b6af.json",
+    "provider-cache/v1/musicbrainz/release-groups/e39c9fa6-774a-4d09-bc05-3d712daf02da.json",
+    "provider-cache/v1/musicbrainz/release-groups/f3def1b0-565b-44f5-81c5-d079dda8e65f.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "provider_profile_multiplicity",
+      "selectedSpotifyArtistId": "6kBDZFXuLrZgHnvmPu9NsG",
+      "wikidataQids": [
+        "Q223161"
+      ],
+      "musicBrainzArtistIds": [
+        "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+        "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+        "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+        "f22942a1-6f70-4f48-866e-238cb2308fbd",
+        "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+        "34d679e8-0188-434d-a760-02913ea2a85a",
+        "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+        "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+        "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+        "1b24b161-b825-422e-951d-e8698bd9515a",
+        "87225a21-c925-41cd-852f-be4b052d0824",
+        "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+        "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+        "62273c68-e370-4e5f-bf36-fd994963b6af",
+        "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+        "f3def1b0-565b-44f5-81c5-d079dda8e65f"
+      ],
+      "discogsArtistIds": [
+        "45",
+        "46",
+        "48",
+        "820",
+        "37272",
+        "599",
+        "2931",
+        "42476",
+        "435132",
+        "286337",
+        "32985",
+        "803581",
+        "4101534",
+        "829972",
+        "4229683",
+        "4399640",
+        "3671244"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0023b-31f4-783b-8d17-6e4e6ebf170f/03e27cb1b3adc7fdf91a767088101b011e7d7d57014bd41a80b6060ddf1f7fb0.json",
+        "provider-cache/v1/wikidata/spotify-bridge/6kBDZFXuLrZgHnvmPu9NsG.json",
+        "provider-cache/v1/musicbrainz/artist/e7d734a2-3909-4e1c-97a0-87ef04acd4c2.json",
+        "provider-cache/v1/musicbrainz/artist/bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d.json",
+        "provider-cache/v1/musicbrainz/artist/4776e9f6-f1f9-48d2-b703-abfc6925aba7.json",
+        "provider-cache/v1/musicbrainz/artist/f22942a1-6f70-4f48-866e-238cb2308fbd.json",
+        "provider-cache/v1/musicbrainz/artist/79a09151-f6cc-48f9-9907-3fdd0b68373f.json",
+        "provider-cache/v1/musicbrainz/artist/34d679e8-0188-434d-a760-02913ea2a85a.json",
+        "provider-cache/v1/musicbrainz/artist/aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1.json",
+        "provider-cache/v1/musicbrainz/artist/57de292f-448e-42b5-8ff6-7ee016b2a2d4.json",
+        "provider-cache/v1/musicbrainz/artist/dae36a1f-d7d3-4c9a-a3aa-11da58b92958.json",
+        "provider-cache/v1/musicbrainz/artist/1b24b161-b825-422e-951d-e8698bd9515a.json",
+        "provider-cache/v1/musicbrainz/artist/87225a21-c925-41cd-852f-be4b052d0824.json",
+        "provider-cache/v1/musicbrainz/artist/2d1beb0f-edf7-4dea-9a8b-2c88f2551053.json",
+        "provider-cache/v1/musicbrainz/artist/34ae4718-4ef9-487f-b389-ed6f1dae5d02.json",
+        "provider-cache/v1/musicbrainz/artist/62273c68-e370-4e5f-bf36-fd994963b6af.json",
+        "provider-cache/v1/musicbrainz/artist/e39c9fa6-774a-4d09-bc05-3d712daf02da.json",
+        "provider-cache/v1/musicbrainz/artist/f3def1b0-565b-44f5-81c5-d079dda8e65f.json",
+        "provider-cache/v1/discogs/artist/45.json",
+        "provider-cache/v1/discogs/artist/46.json",
+        "provider-cache/v1/discogs/artist/48.json",
+        "provider-cache/v1/discogs/artist/820.json",
+        "provider-cache/v1/discogs/artist/37272.json",
+        "provider-cache/v1/discogs/artist/599.json",
+        "provider-cache/v1/discogs/artist/2931.json",
+        "provider-cache/v1/discogs/artist/42476.json",
+        "provider-cache/v1/discogs/artist/435132.json",
+        "provider-cache/v1/discogs/artist/286337.json",
+        "provider-cache/v1/discogs/artist/32985.json",
+        "provider-cache/v1/discogs/artist/803581.json",
+        "provider-cache/v1/discogs/artist/4101534.json",
+        "provider-cache/v1/discogs/artist/829972.json",
+        "provider-cache/v1/discogs/artist/4229683.json",
+        "provider-cache/v1/discogs/artist/4399640.json",
+        "provider-cache/v1/discogs/artist/3671244.json",
+        "provider-cache/v1/musicbrainz/release-groups/e7d734a2-3909-4e1c-97a0-87ef04acd4c2.json",
+        "provider-cache/v1/musicbrainz/release-groups/bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d.json",
+        "provider-cache/v1/musicbrainz/release-groups/4776e9f6-f1f9-48d2-b703-abfc6925aba7.json",
+        "provider-cache/v1/musicbrainz/release-groups/f22942a1-6f70-4f48-866e-238cb2308fbd.json",
+        "provider-cache/v1/musicbrainz/release-groups/79a09151-f6cc-48f9-9907-3fdd0b68373f.json",
+        "provider-cache/v1/musicbrainz/release-groups/34d679e8-0188-434d-a760-02913ea2a85a.json",
+        "provider-cache/v1/musicbrainz/release-groups/aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1.json",
+        "provider-cache/v1/musicbrainz/release-groups/57de292f-448e-42b5-8ff6-7ee016b2a2d4.json",
+        "provider-cache/v1/musicbrainz/release-groups/dae36a1f-d7d3-4c9a-a3aa-11da58b92958.json",
+        "provider-cache/v1/musicbrainz/release-groups/1b24b161-b825-422e-951d-e8698bd9515a.json",
+        "provider-cache/v1/musicbrainz/release-groups/87225a21-c925-41cd-852f-be4b052d0824.json",
+        "provider-cache/v1/musicbrainz/release-groups/2d1beb0f-edf7-4dea-9a8b-2c88f2551053.json",
+        "provider-cache/v1/musicbrainz/release-groups/34ae4718-4ef9-487f-b389-ed6f1dae5d02.json",
+        "provider-cache/v1/musicbrainz/release-groups/62273c68-e370-4e5f-bf36-fd994963b6af.json",
+        "provider-cache/v1/musicbrainz/release-groups/e39c9fa6-774a-4d09-bc05-3d712daf02da.json",
+        "provider-cache/v1/musicbrainz/release-groups/f3def1b0-565b-44f5-81c5-d079dda8e65f.json"
+      ],
+      "conflicts": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "6kBDZFXuLrZgHnvmPu9NsG",
+            "1A6LF8jYHkaRro5x8JRT2w",
+            "6ULjGlnhcCwHIJigN47K5U",
+            "7nnrIQYcmvdaa1zgNrVwDY"
+          ]
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "34d679e8-0188-434d-a760-02913ea2a85a",
+            "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "1b24b161-b825-422e-951d-e8698bd9515a",
+            "87225a21-c925-41cd-852f-be4b052d0824",
+            "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "f3def1b0-565b-44f5-81c5-d079dda8e65f"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "45",
+            "46",
+            "48",
+            "820",
+            "37272",
+            "599",
+            "2931",
+            "42476",
+            "435132",
+            "286337",
+            "32985",
+            "803581",
+            "4101534",
+            "829972",
+            "4229683",
+            "4399640",
+            "3671244"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:f22942a1-6f70-4f48-866e-238cb2308fbd",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:79a09151-f6cc-48f9-9907-3fdd0b68373f",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:34d679e8-0188-434d-a760-02913ea2a85a",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:e7d734a2-3909-4e1c-97a0-87ef04acd4c2:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:f22942a1-6f70-4f48-866e-238cb2308fbd",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:79a09151-f6cc-48f9-9907-3fdd0b68373f",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:34d679e8-0188-434d-a760-02913ea2a85a",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:f22942a1-6f70-4f48-866e-238cb2308fbd",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:79a09151-f6cc-48f9-9907-3fdd0b68373f",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:34d679e8-0188-434d-a760-02913ea2a85a",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:4776e9f6-f1f9-48d2-b703-abfc6925aba7:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:79a09151-f6cc-48f9-9907-3fdd0b68373f",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:34d679e8-0188-434d-a760-02913ea2a85a",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:f22942a1-6f70-4f48-866e-238cb2308fbd:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:34d679e8-0188-434d-a760-02913ea2a85a",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:79a09151-f6cc-48f9-9907-3fdd0b68373f:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:34d679e8-0188-434d-a760-02913ea2a85a:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:57de292f-448e-42b5-8ff6-7ee016b2a2d4:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:1b24b161-b825-422e-951d-e8698bd9515a",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:dae36a1f-d7d3-4c9a-a3aa-11da58b92958:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:87225a21-c925-41cd-852f-be4b052d0824",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:1b24b161-b825-422e-951d-e8698bd9515a:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:87225a21-c925-41cd-852f-be4b052d0824:2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+              "compatible_alias_chronology:87225a21-c925-41cd-852f-be4b052d0824:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:87225a21-c925-41cd-852f-be4b052d0824:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:87225a21-c925-41cd-852f-be4b052d0824:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:87225a21-c925-41cd-852f-be4b052d0824:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:2d1beb0f-edf7-4dea-9a8b-2c88f2551053:34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+              "compatible_alias_chronology:2d1beb0f-edf7-4dea-9a8b-2c88f2551053:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:2d1beb0f-edf7-4dea-9a8b-2c88f2551053:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:2d1beb0f-edf7-4dea-9a8b-2c88f2551053:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:34ae4718-4ef9-487f-b389-ed6f1dae5d02:62273c68-e370-4e5f-bf36-fd994963b6af",
+              "compatible_alias_chronology:34ae4718-4ef9-487f-b389-ed6f1dae5d02:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:34ae4718-4ef9-487f-b389-ed6f1dae5d02:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:62273c68-e370-4e5f-bf36-fd994963b6af:e39c9fa6-774a-4d09-bc05-3d712daf02da",
+              "compatible_alias_chronology:62273c68-e370-4e5f-bf36-fd994963b6af:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "compatible_alias_chronology:e39c9fa6-774a-4d09-bc05-3d712daf02da:f3def1b0-565b-44f5-81c5-d079dda8e65f",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1998
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "distinctiveReleaseOverlap": [
+              "synaptic masturbation"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2024
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1996,
+                "latestYear": 1996
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "34d679e8-0188-434d-a760-02913ea2a85a",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 2001
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 1993
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1992,
+                "latestYear": 1992
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "87225a21-c925-41cd-852f-be4b052d0824",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "1b24b161-b825-422e-951d-e8698bd9515a",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "87225a21-c925-41cd-852f-be4b052d0824",
+            "right": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              },
+              "right": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              }
+            }
+          },
+          {
+            "left": "87225a21-c925-41cd-852f-be4b052d0824",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "87225a21-c925-41cd-852f-be4b052d0824",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "87225a21-c925-41cd-852f-be4b052d0824",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "87225a21-c925-41cd-852f-be4b052d0824",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1991,
+                "latestYear": 2021
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "right": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1994,
+                "latestYear": 2007
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "right": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "right": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "62273c68-e370-4e5f-bf36-fd994963b6af",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          },
+          {
+            "left": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+            "right": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2015,
+                "latestYear": 2015
+              },
+              "right": {
+                "earliestYear": 2015,
+                "latestYear": 2025
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "same_name_ambiguity_present_or_not_evaluated",
+            "musicbrainz_identifier_not_unique",
+            "unresolved_alternate_spotify_identifier"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "45",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "46",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "48",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "820",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "37272",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "599",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2931",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "42476",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "435132",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "286337",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "32985",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "803581",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4101534",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "829972",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4229683",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4399640",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3671244",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6kBDZFXuLrZgHnvmPu9NsG",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6kBDZFXuLrZgHnvmPu9NsG",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q223161",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "34d679e8-0188-434d-a760-02913ea2a85a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "1b24b161-b825-422e-951d-e8698bd9515a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "87225a21-c925-41cd-852f-be4b052d0824",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "62273c68-e370-4e5f-bf36-fd994963b6af",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "45",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "46",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "48",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "820",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "37272",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "599",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2931",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "42476",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "435132",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "286337",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "32985",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "803581",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4101534",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "829972",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4229683",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4399640",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3671244",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3671244",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "e7d734a2-3909-4e1c-97a0-87ef04acd4c2"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "48",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc1fd2f7-1ecf-46d1-9ca6-47b7d7880c4d"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4776e9f6-f1f9-48d2-b703-abfc6925aba7",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4776e9f6-f1f9-48d2-b703-abfc6925aba7"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "820",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4776e9f6-f1f9-48d2-b703-abfc6925aba7"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f22942a1-6f70-4f48-866e-238cb2308fbd",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "45",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6kBDZFXuLrZgHnvmPu9NsG",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q223161",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f22942a1-6f70-4f48-866e-238cb2308fbd"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "435132",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "803581",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "829972",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q223161",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "34d679e8-0188-434d-a760-02913ea2a85a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "34d679e8-0188-434d-a760-02913ea2a85a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "42476",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "34d679e8-0188-434d-a760-02913ea2a85a"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2931",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1A6LF8jYHkaRro5x8JRT2w",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "aaa78ce4-e4fe-43b6-abe1-733dc83f8eb1"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "57de292f-448e-42b5-8ff6-7ee016b2a2d4",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "57de292f-448e-42b5-8ff6-7ee016b2a2d4"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "32985",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "57de292f-448e-42b5-8ff6-7ee016b2a2d4"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "599",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q223161",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "dae36a1f-d7d3-4c9a-a3aa-11da58b92958"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "1b24b161-b825-422e-951d-e8698bd9515a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "1b24b161-b825-422e-951d-e8698bd9515a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "37272",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "1b24b161-b825-422e-951d-e8698bd9515a"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "87225a21-c925-41cd-852f-be4b052d0824",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87225a21-c925-41cd-852f-be4b052d0824"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "45",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87225a21-c925-41cd-852f-be4b052d0824"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6ULjGlnhcCwHIJigN47K5U",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87225a21-c925-41cd-852f-be4b052d0824"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q223161",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "87225a21-c925-41cd-852f-be4b052d0824"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "46",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7nnrIQYcmvdaa1zgNrVwDY",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2d1beb0f-edf7-4dea-9a8b-2c88f2551053"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "34ae4718-4ef9-487f-b389-ed6f1dae5d02",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "34ae4718-4ef9-487f-b389-ed6f1dae5d02"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4101534",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "34ae4718-4ef9-487f-b389-ed6f1dae5d02"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "62273c68-e370-4e5f-bf36-fd994963b6af",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "62273c68-e370-4e5f-bf36-fd994963b6af"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "286337",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "62273c68-e370-4e5f-bf36-fd994963b6af"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "e39c9fa6-774a-4d09-bc05-3d712daf02da",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "e39c9fa6-774a-4d09-bc05-3d712daf02da"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4229683",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "e39c9fa6-774a-4d09-bc05-3d712daf02da"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "f3def1b0-565b-44f5-81c5-d079dda8e65f",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f3def1b0-565b-44f5-81c5-d079dda8e65f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4399640",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "f3def1b0-565b-44f5-81c5-d079dda8e65f"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "45",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "45"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "46",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "46"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "48",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "48"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "599",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "599"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "820",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "820"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2931",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2931"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "32985",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "32985"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "37272",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "37272"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "42476",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "42476"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "286337",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "286337"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "435132",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "435132"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "803581",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "803581"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "829972",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "829972"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3671244",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3671244"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4101534",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4101534"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4229683",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4229683"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4399640",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4399640"
+        }
+      ],
+      "providerErrors": [],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:48:59.436Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "needs_review"
+    }
+  }
+}

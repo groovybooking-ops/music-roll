@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023d-0733-7a04-998d-6e8a9d6b4314",
+  "candidateId": "mr_candidate_01a0023b-31ca-7462-8cc2-ef403f659614",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "needs_review",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "identity_same_name_ambiguity_requires_review",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:45:49.107Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0023b-31ca-7462-8cc2-ef403f659614/3f587677b876e1f823531048976c8bf954122bc74a05c728b1ea134c2d7422f8.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7ltDVBr6mKbRvohxheJ9h1.json",
+    "provider-cache/v1/musicbrainz/artist/25f3abd9-63b5-471a-bd25-feb9672dfa11.json",
+    "provider-cache/v1/discogs/artist/5648334.json",
+    "provider-cache/v1/musicbrainz/exact-name/7bea87f449d883a3ca34b1c6.json",
+    "provider-cache/v1/musicbrainz/artist/ac0ee862-a6ca-4d39-a7a4-d8460534ba30.json",
+    "provider-cache/v1/musicbrainz/artist/2ffc92fa-e51e-45ed-8a90-fa494aab50de.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "coherent_identity_with_same_name_ambiguity",
+      "selectedSpotifyArtistId": "7ltDVBr6mKbRvohxheJ9h1",
+      "wikidataQids": [
+        "Q28843759"
+      ],
+      "musicBrainzArtistIds": [
+        "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+      ],
+      "discogsArtistIds": [
+        "5648334"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0023b-31ca-7462-8cc2-ef403f659614/3f587677b876e1f823531048976c8bf954122bc74a05c728b1ea134c2d7422f8.json",
+        "provider-cache/v1/wikidata/spotify-bridge/7ltDVBr6mKbRvohxheJ9h1.json",
+        "provider-cache/v1/musicbrainz/artist/25f3abd9-63b5-471a-bd25-feb9672dfa11.json",
+        "provider-cache/v1/discogs/artist/5648334.json",
+        "provider-cache/v1/musicbrainz/exact-name/7bea87f449d883a3ca34b1c6.json",
+        "provider-cache/v1/musicbrainz/artist/ac0ee862-a6ca-4d39-a7a4-d8460534ba30.json",
+        "provider-cache/v1/musicbrainz/artist/2ffc92fa-e51e-45ed-8a90-fa494aab50de.json"
+      ],
+      "conflicts": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 3,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "multiple_exact_display_name_entities",
+        "competingEntityCount": 2,
+        "competingEntities": [
+          {
+            "musicBrainzArtistId": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+            "name": "Rosalía",
+            "sortName": "Rosalía",
+            "artistType": "Person",
+            "country": "ES",
+            "disambiguation": "60s pop singer",
+            "score": 84,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "2143771"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "2ffc92fa-e51e-45ed-8a90-fa494aab50de",
+            "name": "Rosalía",
+            "sortName": "Rosalía",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Not to be confused with ROSALÍA. Mexican actress, singer, songwriter and guitarist who came to fame in 2003 through La Academia, a musical reality show.",
+            "score": 83,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "25f3abd9-63b5-471a-bd25-feb9672dfa11",
+            "name": "ROSALÍA",
+            "sortName": "ROSALÍA",
+            "artistType": "Person",
+            "country": "ES",
+            "disambiguation": "Spanish singer",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "7ltDVBr6mKbRvohxheJ9h1"
+            ],
+            "discogsArtistIds": [
+              "5648334"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "ac0ee862-a6ca-4d39-a7a4-d8460534ba30",
+            "name": "Rosalía",
+            "sortName": "Rosalía",
+            "artistType": "Person",
+            "country": "ES",
+            "disambiguation": "60s pop singer",
+            "score": 84,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "2143771"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "2ffc92fa-e51e-45ed-8a90-fa494aab50de",
+            "name": "Rosalía",
+            "sortName": "Rosalía",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Not to be confused with ROSALÍA. Mexican actress, singer, songwriter and guitarist who came to fame in 2003 through La Academia, a musical reality show.",
+            "score": 83,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor",
+            "same_name_ambiguity_present_or_not_evaluated"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7ltDVBr6mKbRvohxheJ9h1",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7ltDVBr6mKbRvohxheJ9h1",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28843759",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "25f3abd9-63b5-471a-bd25-feb9672dfa11",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5648334",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "25f3abd9-63b5-471a-bd25-feb9672dfa11",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5648334",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7ltDVBr6mKbRvohxheJ9h1",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28843759",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "5648334",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "5648334"
+        }
+      ],
+      "providerErrors": [],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:45:49.105Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "needs_review"
+    }
+  }
+}

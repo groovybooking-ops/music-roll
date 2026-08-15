@@ -1,0 +1,171 @@
+{
+  "evidenceId": "sha256:29eb862193cdde9b163db94cd731a3827d7c1e43f4f7d75bef2ad3e7a15a5b15",
+  "createdAt": "2026-08-14T23:34:40.826Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f6b-754a-9e33-b2a58e4851e7",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Mc Beyonce",
+        "spotifyArtistId": "7vbtWyaqcB8RlHqqIKlHCU"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "exact_url_not_found",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7vbtWyaqcB8RlHqqIKlHCU",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "7vbtWyaqcB8RlHqqIKlHCU",
+          "observedValues": [
+            "7vbtWyaqcB8RlHqqIKlHCU"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7vbtWyaqcB8RlHqqIKlHCU",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "provider_error_present",
+            "stored_spotify_not_confirmed_by_musicbrainz",
+            "no_positive_catalog_anchor",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "wikidata_identifier_not_unique",
+            "musicbrainz_identifier_not_unique"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": true,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": false,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [
+        "wikidata_qid",
+        "musicbrainz_artist_id",
+        "discogs_artist_id",
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "7vbtWyaqcB8RlHqqIKlHCU",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 7vbtWyaqcB8RlHqqIKlHCU."
+        }
+      ],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "7vbtWyaqcB8RlHqqIKlHCU",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 7vbtWyaqcB8RlHqqIKlHCU."
+        }
+      ],
+      "musicBrainzRecords": {},
+      "discogsRecords": {},
+      "musicBrainzFingerprints": {},
+      "wikidataClaims": [],
+      "exactSpotifyUrlLookup": {
+        "spotifyArtistUrl": "https://open.spotify.com/artist/7vbtWyaqcB8RlHqqIKlHCU",
+        "exactUrlFound": false,
+        "candidates": [],
+        "raw": null
+      }
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/spotify-url/7vbtWyaqcB8RlHqqIKlHCU.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7vbtWyaqcB8RlHqqIKlHCU.json"
+  ]
+}

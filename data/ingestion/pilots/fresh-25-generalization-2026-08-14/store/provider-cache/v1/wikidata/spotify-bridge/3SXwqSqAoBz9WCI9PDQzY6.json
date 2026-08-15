@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "3SXwqSqAoBz9WCI9PDQzY6",
+  "retrievedAt": "2026-08-14T21:45:57.152Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "3SXwqSqAoBz9WCI9PDQzY6",
+      "wikidataQid": "Q65056403",
+      "name": "Fontaines D.C.",
+      "musicBrainzArtistId": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+      "discogsArtistId": "6322880"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q65056403"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "6322880"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Fontaines D.C."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

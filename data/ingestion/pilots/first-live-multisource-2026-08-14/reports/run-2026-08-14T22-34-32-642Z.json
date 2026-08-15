@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "first-live-multisource-2026-08-14",
+  "reviewOnly": true,
+  "completedAt": "2026-08-14T22:34:32.642Z",
+  "limits": {
+    "totalProviderRequests": 8,
+    "spotifyRequests": 4,
+    "ticketmasterRequests": 4,
+    "normalizedOccurrences": 20,
+    "newCandidates": 10,
+    "unresolvedQueueGrowth": 10
+  },
+  "providerMetrics": {
+    "requests": {
+      "total": 3,
+      "spotify": 1,
+      "ticketmaster": 2
+    },
+    "cacheHits": {
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "pages": {
+      "spotify": 0,
+      "ticketmaster": 0
+    },
+    "retries": {
+      "total": 1,
+      "spotify": 0,
+      "ticketmaster": 1
+    },
+    "errors": [
+      {
+        "provider": "spotify",
+        "status": null,
+        "message": "fetch failed"
+      },
+      {
+        "provider": "ticketmaster",
+        "status": null,
+        "message": "fetch failed"
+      },
+      {
+        "provider": "spotify",
+        "message": "fetch failed",
+        "statusCode": null
+      },
+      {
+        "provider": "ticketmaster",
+        "message": "fetch failed",
+        "statusCode": null
+      }
+    ]
+  },
+  "occurrenceMetrics": {
+    "totalNormalized": 0,
+    "spotify": 0,
+    "ticketmaster": 0,
+    "before": 0,
+    "after": 0,
+    "created": 0
+  },
+  "queueImpact": {
+    "before": 0,
+    "after": 0,
+    "growth": 0,
+    "countsByState": {},
+    "idempotentOccurrences": 0,
+    "candidateAttachments": 0,
+    "existingLiveAssociations": 0,
+    "newSpotifyCandidates": 0,
+    "newTicketmasterOnlyCandidates": 0,
+    "convergenceReviewCandidates": 0,
+    "crossSourceConvergences": [],
+    "duplicateCandidatesPrevented": 0,
+    "nameCollisionWarnings": []
+  },
+  "associations": {
+    "before": 0,
+    "after": 0,
+    "created": 0
+  },
+  "checkpoints": {
+    "spotify": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:c612d981e6b316fe91cd1c460a21a72292e238fcff48ffab19293d6d1ab8dd52",
+      "providerPage": 0,
+      "itemOffset": 0,
+      "exhausted": false
+    },
+    "ticketmaster": {
+      "schemaVersion": 1,
+      "configurationHash": "sha256:60005f554362619077ed6932ebfac96a13bea42c64535a11c34401a80a6168e6",
+      "providerPage": 0,
+      "itemOffset": 0,
+      "exhausted": false
+    }
+  },
+  "occurrenceResults": [],
+  "providerErrors": [
+    {
+      "provider": "spotify",
+      "message": "fetch failed",
+      "statusCode": null
+    },
+    {
+      "provider": "ticketmaster",
+      "message": "fetch failed",
+      "statusCode": null
+    }
+  ],
+  "replayVerification": {
+    "checked": 0,
+    "exact": 0
+  },
+  "protectedFiles": {
+    "before": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "after": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    },
+    "unchanged": true
+  },
+  "safety": {
+    "identityWorkerRun": false,
+    "candidatesApproved": false,
+    "candidatesMigrated": false,
+    "liveDirectoryModified": false,
+    "permanentRegistryModified": false
+  }
+}

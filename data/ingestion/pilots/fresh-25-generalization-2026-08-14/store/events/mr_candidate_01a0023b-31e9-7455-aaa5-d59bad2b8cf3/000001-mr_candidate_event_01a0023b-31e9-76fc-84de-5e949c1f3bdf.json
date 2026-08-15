@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31e9-76fc-84de-5e949c1f3bdf",
+  "candidateId": "mr_candidate_01a0023b-31e9-7455-aaa5-d59bad2b8cf3",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.969Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:1ef1cf67716faa3a4fd306db798125da1267cbbffcb494d7a9950d24fea5dd5a",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-022",
+      "sourceUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+      "rawArtistName": "Overmono",
+      "normalizedArtistName": "overmono",
+      "spotifyArtistId": "01PnN11ovfen6xUOHfNpn3",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

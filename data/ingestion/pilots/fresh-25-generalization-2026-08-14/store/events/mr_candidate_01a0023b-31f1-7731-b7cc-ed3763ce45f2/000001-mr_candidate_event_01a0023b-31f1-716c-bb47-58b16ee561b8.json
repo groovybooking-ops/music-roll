@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31f1-716c-bb47-58b16ee561b8",
+  "candidateId": "mr_candidate_01a0023b-31f1-7731-b7cc-ed3763ce45f2",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.977Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:cf18540a26a308f029879f07a486d1a2dc73d75352f101859983845547343931",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-024",
+      "sourceUrl": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+      "rawArtistName": "BICEP",
+      "normalizedArtistName": "bicep",
+      "spotifyArtistId": "73A3bLnfnz5BoQjb4gNCga",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

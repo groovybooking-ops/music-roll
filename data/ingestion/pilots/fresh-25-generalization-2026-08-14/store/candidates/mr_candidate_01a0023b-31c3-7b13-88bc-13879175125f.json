@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31c3-7b13-88bc-13879175125f",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:45:34.067Z",
+  "createdAt": "2026-08-14T21:43:48.931Z",
+  "updatedAt": "2026-08-14T21:45:34.067Z",
+  "name": {
+    "raw": "Chappell Roan",
+    "normalized": "chappell roan"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:288178d38a9c7cc0172d62ef87a6fd7db520ef36d8cc2c71352a879b099a4ffe",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-011",
+      "sourceUrl": "https://open.spotify.com/artist/7GlBOeep6PqTfFi59PTUUN",
+      "rawArtistName": "Chappell Roan",
+      "normalizedArtistName": "chappell roan",
+      "spotifyArtistId": "7GlBOeep6PqTfFi59PTUUN",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7GlBOeep6PqTfFi59PTUUN",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "7GlBOeep6PqTfFi59PTUUN",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7GlBOeep6PqTfFi59PTUUN",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "7GlBOeep6PqTfFi59PTUUN",
+    "wikidataQids": [
+      "Q110281146"
+    ],
+    "musicBrainzArtistIds": [
+      "56a55378-f155-48de-80a5-d80104221267"
+    ],
+    "discogsArtistIds": [
+      "6360106"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31c3-7b13-88bc-13879175125f/dd268abe844ca29f920a433e204fbb08d693b373064a74a726ce923197cd1dcc.json",
+      "provider-cache/v1/wikidata/spotify-bridge/7GlBOeep6PqTfFi59PTUUN.json",
+      "provider-cache/v1/musicbrainz/artist/56a55378-f155-48de-80a5-d80104221267.json",
+      "provider-cache/v1/discogs/artist/6360106.json",
+      "provider-cache/v1/musicbrainz/exact-name/b97065c35069cd8b5a5eb813.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "56a55378-f155-48de-80a5-d80104221267",
+          "name": "Chappell Roan",
+          "sortName": "Roan, Chappell",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "7GlBOeep6PqTfFi59PTUUN"
+          ],
+          "discogsArtistIds": [
+            "6360106"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7GlBOeep6PqTfFi59PTUUN",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7GlBOeep6PqTfFi59PTUUN",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q110281146",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "56a55378-f155-48de-80a5-d80104221267",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6360106",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "56a55378-f155-48de-80a5-d80104221267",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "56a55378-f155-48de-80a5-d80104221267"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6360106",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "56a55378-f155-48de-80a5-d80104221267"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7GlBOeep6PqTfFi59PTUUN",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "56a55378-f155-48de-80a5-d80104221267"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q110281146",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "56a55378-f155-48de-80a5-d80104221267"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "6360106",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "6360106"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:45:34.064Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023c-cc73-7424-a55e-2fc53894aa78"
+}

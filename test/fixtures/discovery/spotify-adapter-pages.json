@@ -1,0 +1,61 @@
+{
+  "exactSeeds": {
+    "mode": "exact_artist_seeds",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:spotify:exact-seeds:page-0",
+        "raw": {
+          "items": [
+            {
+              "sourceRecordId": "approved-seed/artist-alpha",
+              "artist": { "id": "1111111111111111111111", "name": "Artist Alpha" }
+            },
+            {
+              "sourceRecordId": "approved-seed/sza",
+              "artist": { "id": "7tYKF4w9nC0nq9CsPZTHyP", "name": "SZA" }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "searchResults": {
+    "mode": "artist_search_results",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:spotify:search:page-0",
+        "raw": {
+          "query": "fixture discovery query",
+          "queryRecordId": "query-fixture-001",
+          "artists": {
+            "offset": 0,
+            "items": [
+              { "id": "3333333333333333333333", "name": "Query Result One" },
+              { "id": "4444444444444444444444", "name": "Query Result Two" }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "albumArtists": {
+    "mode": "album_artist_relationships",
+    "pages": [
+      {
+        "rawEvidenceRef": "fixture:spotify:album-artists:page-0",
+        "raw": {
+          "items": [
+            {
+              "id": "album-fixture-001",
+              "name": "Fixture Collaborative Album",
+              "artists": [
+                { "id": "5555555555555555555555", "name": "Album Artist One" },
+                { "id": "6666666666666666666666", "name": "Album Artist Two" }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

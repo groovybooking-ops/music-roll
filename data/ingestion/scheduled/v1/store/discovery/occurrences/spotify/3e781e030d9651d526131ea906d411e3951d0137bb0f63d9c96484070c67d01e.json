@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:3e781e030d9651d526131ea906d411e3951d0137bb0f63d9c96484070c67d01e",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll first human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:2:3g2kUQ6tHLLbmkV7T4GPtL",
+  "sourceUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+  "artist": {
+    "rawName": "Fiona Apple",
+    "normalizedName": "fiona apple"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "3g2kUQ6tHLLbmkV7T4GPtL",
+    "url": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "3g2kUQ6tHLLbmkV7T4GPtL",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/3g2kUQ6tHLLbmkV7T4GPtL",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Björk",
+    "resultPosition": 2,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json",
+  "discoveredAt": "2026-08-15T16:21:50.109Z",
+  "reviewOnly": true
+}

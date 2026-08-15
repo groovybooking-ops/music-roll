@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31e9-7455-aaa5-d59bad2b8cf3",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:46:40.644Z",
+  "createdAt": "2026-08-14T21:43:48.969Z",
+  "updatedAt": "2026-08-14T21:46:40.644Z",
+  "name": {
+    "raw": "Overmono",
+    "normalized": "overmono"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:1ef1cf67716faa3a4fd306db798125da1267cbbffcb494d7a9950d24fea5dd5a",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-022",
+      "sourceUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+      "rawArtistName": "Overmono",
+      "normalizedArtistName": "overmono",
+      "spotifyArtistId": "01PnN11ovfen6xUOHfNpn3",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "01PnN11ovfen6xUOHfNpn3",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "01PnN11ovfen6xUOHfNpn3",
+    "wikidataQids": [
+      "Q116982440"
+    ],
+    "musicBrainzArtistIds": [
+      "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+    ],
+    "discogsArtistIds": [
+      "5179029"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31e9-7455-aaa5-d59bad2b8cf3/0cb2a3ab6032adaea1fd6b6d919297cef78897168a35abc1fdf4bdc83e5d26e8.json",
+      "provider-cache/v1/wikidata/spotify-bridge/01PnN11ovfen6xUOHfNpn3.json",
+      "provider-cache/v1/musicbrainz/spotify-url/01PnN11ovfen6xUOHfNpn3.json",
+      "provider-cache/v1/musicbrainz/artist/b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa.json",
+      "provider-cache/v1/discogs/artist/5179029.json",
+      "provider-cache/v1/musicbrainz/exact-name/646d0ccf04cc38d283f60b21.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+          "name": "Overmono",
+          "sortName": "Overmono",
+          "artistType": "Group",
+          "country": null,
+          "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "01PnN11ovfen6xUOHfNpn3"
+          ],
+          "discogsArtistIds": [
+            "5179029"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "provider_error_present",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "01PnN11ovfen6xUOHfNpn3",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5179029",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "01PnN11ovfen6xUOHfNpn3",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q116982440",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5179029",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "5179029"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+        "source": "musicbrainz",
+        "path": "url.exact_spotify_artist_relationship",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa"
+      }
+    ],
+    "providerErrors": [
+      {
+        "provider": "wikidata",
+        "operation": "spotify_bridge",
+        "identifier": "01PnN11ovfen6xUOHfNpn3",
+        "statusCode": 404,
+        "message": "Wikidata has no artist bridge for Spotify ID 01PnN11ovfen6xUOHfNpn3."
+      }
+    ],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:46:40.642Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-d084-70b8-a311-f453ad8a911e"
+}

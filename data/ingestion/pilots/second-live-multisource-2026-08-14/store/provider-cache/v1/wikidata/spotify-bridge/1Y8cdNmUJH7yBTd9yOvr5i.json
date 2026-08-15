@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1Y8cdNmUJH7yBTd9yOvr5i",
+  "retrievedAt": "2026-08-14T23:34:19.629Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1Y8cdNmUJH7yBTd9yOvr5i",
+      "wikidataQid": "Q153056",
+      "name": "Destiny's Child",
+      "musicBrainzArtistId": "a796b92e-c137-4895-9c89-10f900617a4f",
+      "discogsArtistId": "22008"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q153056"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "a796b92e-c137-4895-9c89-10f900617a4f"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "22008"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Destiny's Child"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

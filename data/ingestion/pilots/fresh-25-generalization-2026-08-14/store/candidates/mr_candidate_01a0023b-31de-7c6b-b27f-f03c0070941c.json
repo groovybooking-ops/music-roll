@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31de-7c6b-b27f-f03c0070941c",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:46:22.850Z",
+  "createdAt": "2026-08-14T21:43:48.958Z",
+  "updatedAt": "2026-08-14T21:46:22.850Z",
+  "name": {
+    "raw": "Big Thief",
+    "normalized": "big thief"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:da10ae3b9f8122d700ee33c8d1410f25ce31bdb0b832bdc4c13e76273e1608ef",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-019",
+      "sourceUrl": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+      "rawArtistName": "Big Thief",
+      "normalizedArtistName": "big thief",
+      "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "5QdyldG4Fl4TPiOIeMNpBZ",
+    "wikidataQids": [
+      "Q28228836"
+    ],
+    "musicBrainzArtistIds": [
+      "9f81247f-7f57-42f3-a8ba-75bef554e591"
+    ],
+    "discogsArtistIds": [
+      "5009441"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31de-7c6b-b27f-f03c0070941c/1e2ba1e0b9114e065459c08742dcbfe4726d6fb88bfb87d4a6b88c489e96b524.json",
+      "provider-cache/v1/wikidata/spotify-bridge/5QdyldG4Fl4TPiOIeMNpBZ.json",
+      "provider-cache/v1/musicbrainz/artist/9f81247f-7f57-42f3-a8ba-75bef554e591.json",
+      "provider-cache/v1/discogs/artist/5009441.json",
+      "provider-cache/v1/musicbrainz/exact-name/4f79bd8be358d4eae17e8c2f.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+          "name": "Big Thief",
+          "sortName": "Big Thief",
+          "artistType": "Group",
+          "country": "US",
+          "disambiguation": "US indie folk band",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "5QdyldG4Fl4TPiOIeMNpBZ"
+          ],
+          "discogsArtistIds": [
+            "5009441"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q28228836",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5009441",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "9f81247f-7f57-42f3-a8ba-75bef554e591",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5009441",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5QdyldG4Fl4TPiOIeMNpBZ",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q28228836",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "9f81247f-7f57-42f3-a8ba-75bef554e591"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "5009441",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "5009441"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:46:22.848Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-8b02-7b9c-9935-e8069e34a0e7"
+}

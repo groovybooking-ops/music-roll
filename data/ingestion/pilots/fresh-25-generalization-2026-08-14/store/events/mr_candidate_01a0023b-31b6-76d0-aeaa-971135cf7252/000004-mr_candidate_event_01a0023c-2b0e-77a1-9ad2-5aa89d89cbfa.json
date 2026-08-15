@@ -1,0 +1,1018 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023c-2b0e-77a1-9ad2-5aa89d89cbfa",
+  "candidateId": "mr_candidate_01a0023b-31b6-76d0-aeaa-971135cf7252",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "failed_match",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "no_safe_exact_identity_resolved",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-14T21:44:52.750Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0023b-31b6-76d0-aeaa-971135cf7252/b911dc3a210ab23ce8543e2fa0b4848bc82d08604184f3cbbd8e3113e69a91b1.json",
+    "provider-cache/v1/wikidata/spotify-bridge/2pAWfrd7WFF3XhVt9GooDL.json",
+    "provider-cache/v1/musicbrainz/artist/188711ed-c99b-439c-844a-ca831f63a727.json",
+    "provider-cache/v1/musicbrainz/artist/21cb44eb-3f6b-4f55-9a0d-c36a517f8d36.json",
+    "provider-cache/v1/musicbrainz/artist/2a827687-f114-46fe-9e5d-74acb7d33995.json",
+    "provider-cache/v1/musicbrainz/artist/2aa5bd46-43ba-4a09-9c7e-20b07036db51.json",
+    "provider-cache/v1/musicbrainz/artist/343ce4fa-54b3-47b8-bd27-b379cf50f7ff.json",
+    "provider-cache/v1/musicbrainz/artist/ec7d20eb-769d-4e50-be80-175e370155cf.json",
+    "provider-cache/v1/discogs/artist/25058.json",
+    "provider-cache/v1/discogs/artist/207226.json",
+    "provider-cache/v1/discogs/artist/143795.json",
+    "provider-cache/v1/discogs/artist/1500203.json",
+    "provider-cache/v1/discogs/artist/701676.json",
+    "provider-cache/v1/discogs/artist/188739.json",
+    "provider-cache/v1/discogs/artist/528596.json",
+    "provider-cache/v1/discogs/artist/113391.json",
+    "provider-cache/v1/musicbrainz/release-groups/188711ed-c99b-439c-844a-ca831f63a727.json",
+    "provider-cache/v1/musicbrainz/release-groups/21cb44eb-3f6b-4f55-9a0d-c36a517f8d36.json",
+    "provider-cache/v1/musicbrainz/release-groups/2a827687-f114-46fe-9e5d-74acb7d33995.json",
+    "provider-cache/v1/musicbrainz/release-groups/2aa5bd46-43ba-4a09-9c7e-20b07036db51.json",
+    "provider-cache/v1/musicbrainz/release-groups/343ce4fa-54b3-47b8-bd27-b379cf50f7ff.json",
+    "provider-cache/v1/musicbrainz/release-groups/52ebcc60-2bd9-47c6-8150-fe668ace76e1.json",
+    "provider-cache/v1/musicbrainz/release-groups/ec7d20eb-769d-4e50-be80-175e370155cf.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "unresolved_identity",
+      "selectedSpotifyArtistId": null,
+      "wikidataQids": [
+        "Q304675"
+      ],
+      "musicBrainzArtistIds": [
+        "188711ed-c99b-439c-844a-ca831f63a727",
+        "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+        "2a827687-f114-46fe-9e5d-74acb7d33995",
+        "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+        "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+        "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+        "ec7d20eb-769d-4e50-be80-175e370155cf"
+      ],
+      "discogsArtistIds": [
+        "25058",
+        "207226",
+        "143795",
+        "1500203",
+        "701676",
+        "188739",
+        "528596",
+        "113391"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0023b-31b6-76d0-aeaa-971135cf7252/b911dc3a210ab23ce8543e2fa0b4848bc82d08604184f3cbbd8e3113e69a91b1.json",
+        "provider-cache/v1/wikidata/spotify-bridge/2pAWfrd7WFF3XhVt9GooDL.json",
+        "provider-cache/v1/musicbrainz/artist/188711ed-c99b-439c-844a-ca831f63a727.json",
+        "provider-cache/v1/musicbrainz/artist/21cb44eb-3f6b-4f55-9a0d-c36a517f8d36.json",
+        "provider-cache/v1/musicbrainz/artist/2a827687-f114-46fe-9e5d-74acb7d33995.json",
+        "provider-cache/v1/musicbrainz/artist/2aa5bd46-43ba-4a09-9c7e-20b07036db51.json",
+        "provider-cache/v1/musicbrainz/artist/343ce4fa-54b3-47b8-bd27-b379cf50f7ff.json",
+        "provider-cache/v1/musicbrainz/artist/ec7d20eb-769d-4e50-be80-175e370155cf.json",
+        "provider-cache/v1/discogs/artist/25058.json",
+        "provider-cache/v1/discogs/artist/207226.json",
+        "provider-cache/v1/discogs/artist/143795.json",
+        "provider-cache/v1/discogs/artist/1500203.json",
+        "provider-cache/v1/discogs/artist/701676.json",
+        "provider-cache/v1/discogs/artist/188739.json",
+        "provider-cache/v1/discogs/artist/528596.json",
+        "provider-cache/v1/discogs/artist/113391.json",
+        "provider-cache/v1/musicbrainz/release-groups/188711ed-c99b-439c-844a-ca831f63a727.json",
+        "provider-cache/v1/musicbrainz/release-groups/21cb44eb-3f6b-4f55-9a0d-c36a517f8d36.json",
+        "provider-cache/v1/musicbrainz/release-groups/2a827687-f114-46fe-9e5d-74acb7d33995.json",
+        "provider-cache/v1/musicbrainz/release-groups/2aa5bd46-43ba-4a09-9c7e-20b07036db51.json",
+        "provider-cache/v1/musicbrainz/release-groups/343ce4fa-54b3-47b8-bd27-b379cf50f7ff.json",
+        "provider-cache/v1/musicbrainz/release-groups/52ebcc60-2bd9-47c6-8150-fe668ace76e1.json",
+        "provider-cache/v1/musicbrainz/release-groups/ec7d20eb-769d-4e50-be80-175e370155cf.json"
+      ],
+      "conflicts": [
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "188711ed-c99b-439c-844a-ca831f63a727",
+            "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "ec7d20eb-769d-4e50-be80-175e370155cf"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "25058",
+            "207226",
+            "143795",
+            "1500203",
+            "701676",
+            "188739",
+            "528596",
+            "113391"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "compatible_alias_chronology:188711ed-c99b-439c-844a-ca831f63a727:21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+              "compatible_alias_chronology:188711ed-c99b-439c-844a-ca831f63a727:2a827687-f114-46fe-9e5d-74acb7d33995",
+              "compatible_alias_chronology:188711ed-c99b-439c-844a-ca831f63a727:2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+              "compatible_alias_chronology:188711ed-c99b-439c-844a-ca831f63a727:343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+              "compatible_alias_chronology:188711ed-c99b-439c-844a-ca831f63a727:ec7d20eb-769d-4e50-be80-175e370155cf",
+              "compatible_alias_chronology:21cb44eb-3f6b-4f55-9a0d-c36a517f8d36:2a827687-f114-46fe-9e5d-74acb7d33995",
+              "compatible_alias_chronology:21cb44eb-3f6b-4f55-9a0d-c36a517f8d36:2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+              "compatible_alias_chronology:21cb44eb-3f6b-4f55-9a0d-c36a517f8d36:343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+              "compatible_alias_chronology:21cb44eb-3f6b-4f55-9a0d-c36a517f8d36:ec7d20eb-769d-4e50-be80-175e370155cf",
+              "compatible_alias_chronology:2a827687-f114-46fe-9e5d-74acb7d33995:2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+              "compatible_alias_chronology:2a827687-f114-46fe-9e5d-74acb7d33995:343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+              "compatible_alias_chronology:2a827687-f114-46fe-9e5d-74acb7d33995:ec7d20eb-769d-4e50-be80-175e370155cf",
+              "compatible_alias_chronology:2aa5bd46-43ba-4a09-9c7e-20b07036db51:343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+              "compatible_alias_chronology:2aa5bd46-43ba-4a09-9c7e-20b07036db51:ec7d20eb-769d-4e50-be80-175e370155cf",
+              "compatible_alias_chronology:343ce4fa-54b3-47b8-bd27-b379cf50f7ff:ec7d20eb-769d-4e50-be80-175e370155cf",
+              "musicbrainz_catalog_overlap:188711ed-c99b-439c-844a-ca831f63a727:52ebcc60-2bd9-47c6-8150-fe668ace76e1:101",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": [
+              "musicbrainz:52ebcc60-2bd9-47c6-8150-fe668ace76e1"
+            ]
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              }
+            }
+          },
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "distinctiveReleaseOverlap": [
+              "rae dawn change the beat"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              }
+            }
+          },
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              }
+            }
+          },
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "distinctiveReleaseOverlap": [
+              "gazzillion ear thom yorke man on fire remix",
+              "the prof meets the supervillian 0",
+              "the lost relics of dumile vol vi",
+              "vomit monster rally remix",
+              "unicron",
+              "let s go space boogie black noi e remix",
+              "westside doom",
+              "ghostwhirl",
+              "grand theft auto chinatown wars",
+              "special herbs and spices volume 1",
+              "man s worst enemy",
+              "supervillain unmasked",
+              "mm leftovers",
+              "since last week 1",
+              "gazzillion ear",
+              "vomit",
+              "part one",
+              "special blends",
+              "dime box",
+              "rae dawn change the beat",
+              "the doomilation bootleg volume 2",
+              "the lost relics of dumile vol v",
+              "coco mango flofilz remix",
+              "greenbacks go with the flow",
+              "3 dollars",
+              "coco mango sliced",
+              "metaphorical villainy",
+              "the missing notebook rhymes",
+              "special blends volumes 1 2",
+              "masquatch",
+              "metal chambers",
+              "muggs x doom",
+              "the lost relics of dumile vol iv",
+              "super hero l orange remix",
+              "mf",
+              "distant star",
+              "2006 01 30 the fox theatre boulder co usa",
+              "the prof meets the super villain",
+              "an introduction the best of doom",
+              "since last week 2",
+              "unexpected guests",
+              "doom",
+              "biochemical equation preservation",
+              "operation doomsday",
+              "ghostface meets mf operation ironman",
+              "the lost relics of dumile vol vii",
+              "i hear voices",
+              "gooey gum drops",
+              "cookie chips",
+              "melody remix",
+              "the lost relics of dumile vol i",
+              "iron rose skylab 3 remix",
+              "coco mango diced",
+              "the chocolate conquistadors from grand theft auto online the cayo perico heist",
+              "live from planet x",
+              "hoe cakes potholders",
+              "banana peel",
+              "ninjarous",
+              "ka bang",
+              "mm more food",
+              "super hero",
+              "czarface meets metal face",
+              "the acapella archive",
+              "dead bent doomsday",
+              "supervillains",
+              "doomsayer young guru remix",
+              "dropout boogie",
+              "doom rmxs",
+              "swift and craftable",
+              "enter the 36 chambers of doom",
+              "best of mf",
+              "tick tick",
+              "biochemical equation",
+              "air abstract orchestra remix",
+              "born like this",
+              "super what",
+              "the lost relics of dumile vol ii",
+              "my favorite ladies all outta ale",
+              "dead bent gas drawls hey",
+              "true lightyears",
+              "verbal anime it ain t nuttin",
+              "social distortion",
+              "avalanche",
+              "expektoration live",
+              "twisted metal part 1",
+              "the lost relics of dumile vol iii",
+              "mm food",
+              "yee haw",
+              "hip hop doomination remixes",
+              "since last week 3",
+              "drop the bomb",
+              "metalface petersen the remix ep",
+              "doomstarks",
+              "1 22 04",
+              "mutilate anger management what the hell are you",
+              "sniperlite",
+              "2004 06 13 9 30 club washington d c usa",
+              "the m i c red gold",
+              "doomilation",
+              "the lost relics of dumile vol viii",
+              "the lost relics of dumile vol ix"
+            ],
+            "overlapCount": 101,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              }
+            }
+          },
+          {
+            "left": "188711ed-c99b-439c-844a-ca831f63a727",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "right": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              }
+            }
+          },
+          {
+            "left": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "right": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              }
+            }
+          },
+          {
+            "left": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "right": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              }
+            }
+          },
+          {
+            "left": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "right": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              }
+            }
+          },
+          {
+            "left": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": null,
+                "latestYear": null
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "right": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              }
+            }
+          },
+          {
+            "left": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "right": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              }
+            }
+          },
+          {
+            "left": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "right": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              },
+              "right": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              }
+            }
+          },
+          {
+            "left": "2a827687-f114-46fe-9e5d-74acb7d33995",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2002,
+                "latestYear": 2006
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "right": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              },
+              "right": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              }
+            }
+          },
+          {
+            "left": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "right": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "distinctiveReleaseOverlap": [
+              "rae dawn change the beat"
+            ],
+            "overlapCount": 1,
+            "chronology": {
+              "left": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              },
+              "right": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              }
+            }
+          },
+          {
+            "left": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2003,
+                "latestYear": 2013
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "right": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              },
+              "right": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              }
+            }
+          },
+          {
+            "left": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2003,
+                "latestYear": 2016
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          },
+          {
+            "left": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+            "right": "ec7d20eb-769d-4e50-be80-175e370155cf",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 1997,
+                "latestYear": 2023
+              },
+              "right": {
+                "earliestYear": null,
+                "latestYear": null
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "unresolved_identifier_present",
+            "provider_error_present",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "musicbrainz_identifier_not_unique",
+            "missing_musicbrainz_record:52ebcc60-2bd9-47c6-8150-fe668ace76e1"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "25058",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "207226",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "143795",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1500203",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "701676",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "188739",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "528596",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "113391",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2pAWfrd7WFF3XhVt9GooDL",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2pAWfrd7WFF3XhVt9GooDL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q304675",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "188711ed-c99b-439c-844a-ca831f63a727",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2a827687-f114-46fe-9e5d-74acb7d33995",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "ec7d20eb-769d-4e50-be80-175e370155cf",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "25058",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "207226",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "143795",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1500203",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "701676",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "188739",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "188711ed-c99b-439c-844a-ca831f63a727",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "25058",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "528596",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2pAWfrd7WFF3XhVt9GooDL",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q304675",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1500203",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "701676",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q304675",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "21cb44eb-3f6b-4f55-9a0d-c36a517f8d36"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2a827687-f114-46fe-9e5d-74acb7d33995",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2a827687-f114-46fe-9e5d-74acb7d33995"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "188739",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2a827687-f114-46fe-9e5d-74acb7d33995"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "2aa5bd46-43ba-4a09-9c7e-20b07036db51",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2aa5bd46-43ba-4a09-9c7e-20b07036db51"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "143795",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2aa5bd46-43ba-4a09-9c7e-20b07036db51"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q304675",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "2aa5bd46-43ba-4a09-9c7e-20b07036db51"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "113391",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q304675",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "343ce4fa-54b3-47b8-bd27-b379cf50f7ff"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "ec7d20eb-769d-4e50-be80-175e370155cf",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ec7d20eb-769d-4e50-be80-175e370155cf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "207226",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "ec7d20eb-769d-4e50-be80-175e370155cf"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "25058",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "25058"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "113391",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "113391"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "143795",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "143795"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "188739",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "188739"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "207226",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "207226"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "528596",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "528596"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "701676",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "701676"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1500203",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1500203"
+        }
+      ],
+      "providerErrors": [
+        {
+          "provider": "musicbrainz",
+          "operation": "artist",
+          "identifier": "52ebcc60-2bd9-47c6-8150-fe668ace76e1",
+          "statusCode": null,
+          "message": "MusicBrainz returned an unexpected artist MBID."
+        }
+      ],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-14T21:44:52.748Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "failed_match"
+    }
+  }
+}

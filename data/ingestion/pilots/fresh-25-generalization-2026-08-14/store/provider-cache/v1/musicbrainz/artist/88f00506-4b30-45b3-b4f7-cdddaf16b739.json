@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+  "retrievedAt": "2026-08-14T21:45:35.539Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+      "name": "CEP",
+      "sortName": "CEP",
+      "artistType": "Person",
+      "disambiguation": "Caroline Polachek",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sortName": "United States",
+        "type": null
+      },
+      "beginArea": {
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "name": "Manhattan",
+        "sortName": "Manhattan",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1985-06-20",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "bandcamp",
+          "url": "https://cepdrawingthetarget.bandcamp.com/"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/6504459"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/2aooHIljVYIZhEFFNmIaEz"
+        },
+        {
+          "relationshipType": "last.fm",
+          "url": "https://www.last.fm/music/CEP"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id332951658"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17086369"
+        }
+      ]
+    },
+    "raw": {
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "relations": [
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "bandcamp",
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://cepdrawingthetarget.bandcamp.com/",
+            "id": "77c7f837-44b3-46ed-adc8-75eba33d527a"
+          },
+          "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88"
+        },
+        {
+          "type": "discogs",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "attribute-ids": {},
+          "url": {
+            "resource": "https://www.discogs.com/artist/6504459",
+            "id": "bc7d6e03-d71c-4fbc-b260-a4273bcfd38d"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "source-credit": "",
+          "begin": null,
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "attributes": []
+        },
+        {
+          "attribute-ids": {},
+          "type": "free streaming",
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "attributes": [],
+          "url": {
+            "id": "26b33266-b6bb-4aac-9ecc-8a0108c73dd6",
+            "resource": "https://open.spotify.com/artist/2aooHIljVYIZhEFFNmIaEz"
+          },
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "source-credit": "",
+          "begin": null
+        },
+        {
+          "direction": "forward",
+          "target-type": "url",
+          "end": null,
+          "attributes": [],
+          "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+          "url": {
+            "id": "1ca4b006-d826-41bd-8982-d09bd627eaf2",
+            "resource": "https://www.last.fm/music/CEP"
+          },
+          "begin": null,
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "last.fm",
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {}
+        },
+        {
+          "attributes": [],
+          "target-type": "url",
+          "end": null,
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "resource": "https://itunes.apple.com/us/artist/id332951658",
+            "id": "e175e1c7-3e9b-4867-a732-e40ae0f941c0"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "purchase for download"
+        },
+        {
+          "attribute-ids": {},
+          "type": "wikidata",
+          "target-credit": "",
+          "ended": false,
+          "attribute-values": {},
+          "direction": "forward",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "url": {
+            "id": "419e2c92-7339-4bbb-b3ad-41428e2b5d5e",
+            "resource": "https://www.wikidata.org/wiki/Q17086369"
+          },
+          "begin": null,
+          "source-credit": ""
+        }
+      ],
+      "life-span": {
+        "end": null,
+        "begin": "1985-06-20",
+        "ended": false
+      },
+      "area": {
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "type-id": null,
+        "disambiguation": "",
+        "type": null
+      },
+      "id": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+      "end-area": null,
+      "ipis": [],
+      "type": "Person",
+      "gender": "Female",
+      "disambiguation": "Caroline Polachek",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "country": "US",
+      "isnis": [],
+      "aliases": [],
+      "name": "CEP",
+      "sort-name": "CEP",
+      "begin-area": {
+        "name": "Manhattan",
+        "type-id": null,
+        "type": null,
+        "disambiguation": "",
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "sort-name": "Manhattan"
+      }
+    }
+  }
+}

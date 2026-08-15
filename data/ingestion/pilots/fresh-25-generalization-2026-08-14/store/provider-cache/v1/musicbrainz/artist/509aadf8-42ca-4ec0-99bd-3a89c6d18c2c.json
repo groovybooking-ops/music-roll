@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+  "retrievedAt": "2026-08-14T21:47:23.346Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+      "name": "KH",
+      "sortName": "KH",
+      "artistType": "Person",
+      "disambiguation": "Kieran Hebden, AKA Four Tet",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "name": "Putney",
+        "sortName": "Putney",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1977-09",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "KH (UK)",
+          "sortName": "KH (UK)",
+          "type": "Search hint",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/7nwdEDnfgNpPhWQCXX3KSx"
+        },
+        {
+          "relationshipType": "free streaming",
+          "url": "https://www.deezer.com/artist/5360998"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.beatport.com/artist/-/753146"
+        },
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://www.qobuz.com/us-en/interpreter/kh/617696"
+        },
+        {
+          "relationshipType": "purchase for mail-order",
+          "url": "https://bleep.com/artist/29952"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://music.apple.com/gb/artist/1453437996"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://tidal.com/artist/4192131"
+        },
+        {
+          "relationshipType": "streaming",
+          "url": "https://www.qobuz.com/us-en/interpreter/kh/617696"
+        }
+      ]
+    },
+    "raw": {
+      "name": "KH",
+      "type": "Person",
+      "isnis": [],
+      "sort-name": "KH",
+      "disambiguation": "Kieran Hebden, AKA Four Tet",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "relations": [
+        {
+          "target-credit": "",
+          "direction": "forward",
+          "url": {
+            "resource": "https://open.spotify.com/artist/7nwdEDnfgNpPhWQCXX3KSx",
+            "id": "7a2eb258-0b81-4b3e-8c9c-e67a6ea09605"
+          },
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "type": "free streaming",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "ended": false,
+          "attributes": []
+        },
+        {
+          "attribute-values": {},
+          "type": "free streaming",
+          "source-credit": "",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "ended": false,
+          "target-credit": "",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "id": "bfc811a6-e93a-41da-a911-cf97dfedcffe",
+            "resource": "https://www.deezer.com/artist/5360998"
+          },
+          "direction": "forward"
+        },
+        {
+          "end": null,
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "attributes": [],
+          "ended": false,
+          "attribute-values": {},
+          "type": "purchase for download",
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.beatport.com/artist/-/753146",
+            "id": "f7fd2cbc-51ec-4009-83ed-d86305e73102"
+          },
+          "target-credit": ""
+        },
+        {
+          "direction": "forward",
+          "url": {
+            "resource": "https://www.qobuz.com/us-en/interpreter/kh/617696",
+            "id": "4a9ed7b8-60ab-4b5c-9d55-4802a2196626"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": "",
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "end": null,
+          "type": "purchase for download",
+          "attribute-values": {}
+        },
+        {
+          "ended": false,
+          "attributes": [],
+          "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+          "source-credit": "",
+          "end": null,
+          "type": "purchase for mail-order",
+          "attribute-values": {},
+          "direction": "forward",
+          "url": {
+            "id": "2c694912-4eb8-4cd7-818e-3c9955b338bf",
+            "resource": "https://bleep.com/artist/29952"
+          },
+          "begin": null,
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": ""
+        },
+        {
+          "target-credit": "",
+          "url": {
+            "resource": "https://music.apple.com/gb/artist/1453437996",
+            "id": "76a26cea-1f4c-4783-a9ba-a4386f31d6b4"
+          },
+          "direction": "forward",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "type": "streaming",
+          "attribute-values": {},
+          "ended": false,
+          "attributes": [],
+          "source-credit": "",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        },
+        {
+          "target-credit": "",
+          "begin": null,
+          "target-type": "url",
+          "attribute-ids": {},
+          "direction": "forward",
+          "url": {
+            "id": "bc0d93d4-b7d6-4625-82cf-68d0dd2bfaf9",
+            "resource": "https://tidal.com/artist/4192131"
+          },
+          "attribute-values": {},
+          "type": "streaming",
+          "attributes": [],
+          "ended": false,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+          "source-credit": "",
+          "end": null
+        },
+        {
+          "target-credit": "",
+          "target-type": "url",
+          "attribute-ids": {},
+          "begin": null,
+          "url": {
+            "resource": "https://www.qobuz.com/us-en/interpreter/kh/617696",
+            "id": "4a9ed7b8-60ab-4b5c-9d55-4802a2196626"
+          },
+          "direction": "forward",
+          "attribute-values": {},
+          "type": "streaming",
+          "attributes": [],
+          "ended": false,
+          "source-credit": "",
+          "end": null,
+          "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        }
+      ],
+      "begin-area": {
+        "id": "79e9cadb-c71e-40fc-bf78-950ef290517e",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Putney",
+        "type": null,
+        "sort-name": "Putney"
+      },
+      "id": "509aadf8-42ca-4ec0-99bd-3a89c6d18c2c",
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1977-09"
+      },
+      "end-area": null,
+      "ipis": [],
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "United Kingdom",
+        "name": "United Kingdom",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "type": null
+      },
+      "gender": "Male",
+      "country": "GB",
+      "aliases": [
+        {
+          "begin": null,
+          "end": null,
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "locale": null,
+          "ended": false,
+          "sort-name": "KH (UK)",
+          "name": "KH (UK)",
+          "type": "Search hint",
+          "primary": null
+        }
+      ]
+    }
+  }
+}

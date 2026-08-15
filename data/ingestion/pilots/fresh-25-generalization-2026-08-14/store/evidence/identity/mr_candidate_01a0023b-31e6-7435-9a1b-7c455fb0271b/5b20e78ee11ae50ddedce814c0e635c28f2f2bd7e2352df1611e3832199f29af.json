@@ -1,0 +1,1947 @@
+{
+  "evidenceId": "sha256:5b20e78ee11ae50ddedce814c0e635c28f2f2bd7e2352df1611e3832199f29af",
+  "createdAt": "2026-08-14T21:46:38.189Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31e6-7435-9a1b-7c455fb0271b",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Jamie xx",
+        "spotifyArtistId": "7A0awCXkE1FtSU8B0qwOJQ"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7A0awCXkE1FtSU8B0qwOJQ",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7A0awCXkE1FtSU8B0qwOJQ",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q263726",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2109856",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1545576",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1545576",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2109856",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7A0awCXkE1FtSU8B0qwOJQ",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q263726",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1545576",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1545576"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2109856",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "2109856"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "7A0awCXkE1FtSU8B0qwOJQ",
+          "observedValues": [
+            "7A0awCXkE1FtSU8B0qwOJQ"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7A0awCXkE1FtSU8B0qwOJQ",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7A0awCXkE1FtSU8B0qwOJQ",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "7A0awCXkE1FtSU8B0qwOJQ",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q263726",
+          "observedValues": [
+            "Q263726"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q263726",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q263726",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "observedValues": [
+            "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "2109856",
+            "1545576"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2109856",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1545576",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1545576",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2109856",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d1515727-4a93-4c0d-88cb-d7a9fce01879"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1545576",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "1545576"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2109856",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "2109856"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "2109856",
+            "1545576"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+            "name": "Jamie xx",
+            "sortName": "xx, Jamie",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "English DJ, record producer, and remixer",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "7A0awCXkE1FtSU8B0qwOJQ"
+            ],
+            "discogsArtistIds": [
+              "1545576",
+              "2109856"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": true,
+          "reasons": [],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "2109856",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1545576",
+              "explanation": "mutual_alias_and_shared_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "d1515727-4a93-4c0d-88cb-d7a9fce01879": {
+          "artist": {
+            "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+            "name": "Jamie xx",
+            "sortName": "xx, Jamie",
+            "artistType": "Person",
+            "disambiguation": "English DJ, record producer, and remixer",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "name": "London",
+              "sortName": "London",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1988-10-28",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "James Smith",
+                "sortName": "Smith, James",
+                "type": "Artist name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "James Thomas Smith",
+                "sortName": "Smith, James Thomas",
+                "type": "Legal name",
+                "locale": "en",
+                "primary": false
+              },
+              {
+                "name": "Jamie Smith",
+                "sortName": "Smith, Jamie",
+                "type": "Artist name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000118014919"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0001046882"
+              },
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0001610488"
+              },
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002602648"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://jamiexx.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/1545576"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/2109856"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/7A0awCXkE1FtSU8B0qwOJQ"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/808980"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm5240515/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Jamie+xx"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Jamie-xx"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/jamiexxlondon"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.jamiexx.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2011042582"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb169517373"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/1072511614"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/jamie-xx"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://ra.co/dj/jamiexx"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/jamie-xx"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/jamie-xx/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Jamie-xx/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no2011042582/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id405563985"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/us/artist/405563985"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/jamie-xx/128792"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/46786"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/jamie-xx-7bd20ec4.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/jamie___xx"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/jamiexxofficial"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/jamie___xx/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.tiktok.com/@not_jamie_xx"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/2785766"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/jamie-xx-official"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/405563985"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/405563985"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/4000027"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/168946243"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q263726"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCbcUt4SAP587pHR4v9O60aA"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCGoi4-jLQRUmaeROrlODm-g"
+              }
+            ]
+          },
+          "raw": {
+            "area": {
+              "disambiguation": "",
+              "sort-name": "United Kingdom",
+              "name": "United Kingdom",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "type": null,
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "type-id": null
+            },
+            "ipis": [
+              "00598347296"
+            ],
+            "gender": "Male",
+            "aliases": [
+              {
+                "end": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "begin": null,
+                "ended": false,
+                "locale": null,
+                "name": "James Smith",
+                "type": "Artist name",
+                "sort-name": "Smith, James",
+                "primary": null
+              },
+              {
+                "name": "James Thomas Smith",
+                "type": "Legal name",
+                "sort-name": "Smith, James Thomas",
+                "primary": false,
+                "end": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "begin": null,
+                "ended": false,
+                "locale": "en"
+              },
+              {
+                "begin": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "end": null,
+                "locale": null,
+                "ended": false,
+                "sort-name": "Smith, Jamie",
+                "type": "Artist name",
+                "name": "Jamie Smith",
+                "primary": null
+              }
+            ],
+            "country": "GB",
+            "disambiguation": "English DJ, record producer, and remixer",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "type": "Person",
+            "name": "Jamie xx",
+            "sort-name": "xx, Jamie",
+            "isnis": [
+              "0000000118014919"
+            ],
+            "begin-area": {
+              "type-id": null,
+              "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+              "type": null,
+              "name": "London",
+              "sort-name": "London",
+              "disambiguation": "Greater London"
+            },
+            "relations": [
+              {
+                "end": null,
+                "source-credit": "Jamie Smith",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "allmusic",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0001046882",
+                  "id": "6a066159-5277-43f9-8005-c700bf42d3e8"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "type": "allmusic",
+                "end": null,
+                "source-credit": "Jamie Smith",
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "f04e39ac-384e-41a9-a7c8-b885a94a2dab",
+                  "resource": "https://www.allmusic.com/artist/mn0001610488"
+                }
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "9f988d99-c2a9-4093-971c-98566d9acfc0",
+                  "resource": "https://www.allmusic.com/artist/mn0002602648"
+                },
+                "attribute-values": {},
+                "type": "allmusic",
+                "source-credit": "",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "4a9d5c76-da31-4787-9305-71bb01b1529c",
+                  "resource": "https://jamiexx.bandcamp.com/"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "attribute-values": {},
+                "type": "bandcamp"
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "id": "1a199975-d71d-4085-967a-adb6c6a225e8",
+                  "resource": "https://www.discogs.com/artist/1545576"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "discogs",
+                "attribute-values": {},
+                "source-credit": "Jamie Smith",
+                "end": null,
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "667604d9-9fd4-4ab2-8639-5e0706fb8735",
+                  "resource": "https://www.discogs.com/artist/2109856"
+                },
+                "attribute-values": {},
+                "type": "discogs",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://open.spotify.com/artist/7A0awCXkE1FtSU8B0qwOJQ",
+                  "id": "87a0114e-6893-4202-ac68-c15ac99f6270"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "free streaming",
+                "source-credit": "",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "type": "free streaming",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "4c4c95f2-2c37-4703-94ac-be05b7b4ad19",
+                  "resource": "https://www.deezer.com/artist/808980"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url"
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "7bdc8238-ed84-4a3f-8e4e-c916e0de13b6",
+                  "resource": "https://www.imdb.com/name/nm5240515/"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "IMDb",
+                "end": null,
+                "source-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.last.fm/music/Jamie+xx",
+                  "id": "8364efe0-e621-4240-9b87-21b8823e1eb5"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "last.fm",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f"
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "7031d74e-6efa-4729-ab7f-8b053d8714ec",
+                  "resource": "https://genius.com/artists/Jamie-xx"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "type": "lyrics",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "myspace",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "b804351b-d513-46af-970a-18424d956296",
+                  "resource": "https://myspace.com/jamiexxlondon"
+                },
+                "target-credit": ""
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.jamiexx.com/",
+                  "id": "2c308b33-7fda-4b10-8c40-30e1fbb66929"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "type": "official homepage",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/no2011042582",
+                  "id": "5e66b0d5-58fd-4119-a6f6-ea52cdba5325"
+                },
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "93772c42-f4f6-49a8-bedf-74348d9ffc49",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb169517373"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://d-nb.info/gnd/1072511614",
+                  "id": "52d33d56-ab8a-4e63-90e8-e43f1385303f"
+                },
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://imvdb.com/n/jamie-xx",
+                  "id": "d35bb61c-f283-49ef-aa72-2030fcac1a04"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "attribute-values": {}
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "attribute-values": {},
+                "type": "other databases",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://ra.co/dj/jamiexx",
+                  "id": "42fe8ff0-1ab7-494d-ab63-27d0292f341f"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/jamie-xx",
+                  "id": "ce77f05e-ee49-4550-9e25-417dbe4a5bf5"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/jamie-xx/",
+                  "id": "a442c0af-acd3-496b-8da9-e236a58047be"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "type": "other databases",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.whosampled.com/Jamie-xx/",
+                  "id": "953e9c95-e114-45c0-814d-6962cb1d2ffa"
+                },
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "attribute-values": {},
+                "url": {
+                  "id": "65436771-8fc4-4786-b1a9-a1dc9165c26c",
+                  "resource": "https://www.worldcat.org/identities/lccn-no2011042582/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id405563985",
+                  "id": "5dc70eec-7420-4bac-a24a-a1d42a7a97eb"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "4573e603-fad0-4054-98f3-d05359dba7cb",
+                  "resource": "https://music.apple.com/us/artist/405563985"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "id": "a367f888-65a0-48ef-be41-837ad819bf13",
+                  "resource": "https://www.beatport.com/artist/jamie-xx/128792"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "purchase for download",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for download",
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "17ea8dad-1e98-4a8d-8e9d-ca93c8964592",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822"
+                },
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/46786",
+                  "id": "e4145ad5-21ee-4afd-922c-37ab73b9c968"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "end": null,
+                "source-credit": "Jamie Smith",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "secondhandsongs"
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.setlist.fm/setlists/jamie-xx-7bd20ec4.html",
+                  "id": "bb33b999-1f73-4f0c-8683-da5741d45ed7"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "setlistfm",
+                "end": null,
+                "source-credit": "",
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "type": "social network",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "f15b09d0-bc8b-4ea5-b70b-d0e7f35f8e24",
+                  "resource": "https://twitter.com/jamie___xx"
+                }
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "type": "social network",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.facebook.com/jamiexxofficial",
+                  "id": "b0086d6e-3ff1-405b-909d-24bda4a8a8eb"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "type": "social network",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "6ba2cd37-d422-43ec-b6d2-d3256cebbbd2",
+                  "resource": "https://www.instagram.com/jamie___xx/"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "47299d78-d38d-4325-9209-fc103404cb8b",
+                  "resource": "https://www.tiktok.com/@not_jamie_xx"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "attribute-values": {},
+                "type": "social network"
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "1f317505-57f7-4e0f-95eb-7084debd8f0f",
+                  "resource": "https://www.songkick.com/artists/2785766"
+                },
+                "attribute-values": {},
+                "type": "songkick",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58"
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attribute-values": {},
+                "type": "soundcloud",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://soundcloud.com/jamie-xx-official",
+                  "id": "a3b12bae-ef4e-4d68-b068-511c076a597d"
+                },
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/405563985",
+                  "id": "0908d318-89be-47d4-a976-8179e1d38ba2"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "type": "streaming",
+                "attribute-values": {},
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/405563985",
+                  "id": "4573e603-fad0-4054-98f3-d05359dba7cb"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://tidal.com/artist/4000027",
+                  "id": "0084b6b6-4a33-4d22-a581-9de1a9c7cdc8"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "type": "streaming"
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822",
+                  "id": "17ea8dad-1e98-4a8d-8e9d-ca93c8964592"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "f56cbab8-adf6-4b2b-8cdc-4cfaf70e7014",
+                  "resource": "http://viaf.org/viaf/168946243"
+                },
+                "attribute-values": {},
+                "type": "VIAF",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attribute-values": {},
+                "type": "wikidata",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q263726",
+                  "id": "ff4e9b6a-d115-4409-87a0-0a9fd4f5e5b3"
+                },
+                "target-credit": ""
+              },
+              {
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "youtube",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCbcUt4SAP587pHR4v9O60aA",
+                  "id": "449d90ab-c363-4449-a414-2273dfaf300f"
+                },
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCGoi4-jLQRUmaeROrlODm-g",
+                  "id": "7beba22d-51d6-4382-bc21-fe8e34efac73"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "youtube"
+              }
+            ],
+            "life-span": {
+              "ended": false,
+              "end": null,
+              "begin": "1988-10-28"
+            },
+            "end-area": null,
+            "id": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          }
+        }
+      },
+      "discogsRecords": {
+        "1545576": {
+          "artist": {
+            "discogsArtistId": "1545576",
+            "name": "Jamie Smith (4)",
+            "realName": "James Thomas Smith",
+            "profile": null,
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "2109856",
+                "name": "Jamie XX"
+              }
+            ],
+            "nameVariations": [
+              "J. Smih",
+              "J. Smith",
+              "James Smith",
+              "James Thomas Smith",
+              "Jamie \"XX\" Smith",
+              "Smith"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/1545576",
+            "discogsWebUrl": "https://www.discogs.com/artist/1545576-Jamie-Smith-4",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Jamie Smith (4)",
+            "id": 1545576,
+            "resource_url": "https://api.discogs.com/artists/1545576",
+            "uri": "https://www.discogs.com/artist/1545576-Jamie-Smith-4",
+            "releases_url": "https://api.discogs.com/artists/1545576/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/zSD2m1PuG3bJL8jtifnTNP-i1y0aIqEVRPgXZvIGzBU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDU1/NzYtMTQ5NTYzOTEx/NC0xNDQzLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/zSD2m1PuG3bJL8jtifnTNP-i1y0aIqEVRPgXZvIGzBU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDU1/NzYtMTQ5NTYzOTEx/NC0xNDQzLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/jWkpUkFARG9dQOcfeo01BMafHibAKTxvvMPhODMJqSc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE1NDU1/NzYtMTQ5NTYzOTEx/NC0xNDQzLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              }
+            ],
+            "realname": "James Thomas Smith",
+            "profile": "",
+            "namevariations": [
+              "J. Smih",
+              "J. Smith",
+              "James Smith",
+              "James Thomas Smith",
+              "Jamie \"XX\" Smith",
+              "Smith"
+            ],
+            "aliases": [
+              {
+                "id": 2109856,
+                "name": "Jamie XX",
+                "resource_url": "https://api.discogs.com/artists/2109856"
+              }
+            ],
+            "groups": [
+              {
+                "id": 1416238,
+                "name": "The XX",
+                "resource_url": "https://api.discogs.com/artists/1416238",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "2109856": {
+          "artist": {
+            "discogsArtistId": "2109856",
+            "name": "Jamie XX",
+            "realName": "James Thomas Smith",
+            "profile": "English producer and remix artist. Member of [a1416238].",
+            "artistUrls": [
+              "http://www.jamiexx.com",
+              "https://jamiexx.bandcamp.com",
+              "http://www.xlrecordings.com/jamiexx",
+              "http://www.facebook.com/jamiexxofficial",
+              "http://instagram.com/jamie___xx",
+              "http://myspace.com/jamiexxlondon",
+              "http://soundcloud.com/jamie-xx-official",
+              "http://www.tiktok.com/@not_jamie_xx",
+              "http://www.whosampled.com/Jamie-xx",
+              "http://en.wikipedia.org/wiki/Jamie_xx",
+              "http://www.youtube.com/user/GilScottJamiexxVEVO"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "1545576",
+                "name": "Jamie Smith (4)"
+              }
+            ],
+            "nameVariations": [
+              "James Smith",
+              "杰米"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/2109856",
+            "discogsWebUrl": "https://www.discogs.com/artist/2109856-Jamie-XX",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Jamie XX",
+            "id": 2109856,
+            "resource_url": "https://api.discogs.com/artists/2109856",
+            "uri": "https://www.discogs.com/artist/2109856-Jamie-XX",
+            "releases_url": "https://api.discogs.com/artists/2109856/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/Iak3Yk3d0AHB5I9RzWvomEfsktvsGc2WMDBUfnvV6ls/rs:fit/g:sm/q:90/h:454/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcxNzU2OTM1/OC03OTYyLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/Iak3Yk3d0AHB5I9RzWvomEfsktvsGc2WMDBUfnvV6ls/rs:fit/g:sm/q:90/h:454/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcxNzU2OTM1/OC03OTYyLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/yQkCiLcdj-F-7joVhhxT1cUBLaw55i3JXVk5XHgpxNk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcxNzU2OTM1/OC03OTYyLnBuZw.jpeg",
+                "width": 600,
+                "height": 454
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VHue5DvEFkTX1E2E6AA03JeKcoDh_8Qa6m0hrJINmgY/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcyMjM5MDU5/Mi0yODEwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/VHue5DvEFkTX1E2E6AA03JeKcoDh_8Qa6m0hrJINmgY/rs:fit/g:sm/q:90/h:761/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcyMjM5MDU5/Mi0yODEwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/QkvmSUl4fUFK95NQPreeXyNNWLy1SvMbteqAT8u6gRw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTcyMjM5MDU5/Mi0yODEwLnBuZw.jpeg",
+                "width": 600,
+                "height": 761
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ZMINOx2_DjszAtFHLnwgXovJ-gJaNXEGG7PpKip-Fag/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTQ5NTY0Mzg1/My00NzEyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/ZMINOx2_DjszAtFHLnwgXovJ-gJaNXEGG7PpKip-Fag/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTQ5NTY0Mzg1/My00NzEyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/ryuhyUrKqvImjFXLPyPdLZrlotAzTct00WVBOox6_pc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxMDk4/NTYtMTQ5NTY0Mzg1/My00NzEyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              }
+            ],
+            "realname": "James Thomas Smith",
+            "profile": "English producer and remix artist. Member of [a1416238].",
+            "urls": [
+              "http://www.jamiexx.com",
+              "https://jamiexx.bandcamp.com",
+              "http://www.xlrecordings.com/jamiexx",
+              "http://www.facebook.com/jamiexxofficial",
+              "http://instagram.com/jamie___xx",
+              "http://myspace.com/jamiexxlondon",
+              "http://soundcloud.com/jamie-xx-official",
+              "http://www.tiktok.com/@not_jamie_xx",
+              "http://www.whosampled.com/Jamie-xx",
+              "http://en.wikipedia.org/wiki/Jamie_xx",
+              "http://www.youtube.com/user/GilScottJamiexxVEVO"
+            ],
+            "namevariations": [
+              "James Smith",
+              "杰米"
+            ],
+            "aliases": [
+              {
+                "id": 1545576,
+                "name": "Jamie Smith (4)",
+                "resource_url": "https://api.discogs.com/artists/1545576"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "d1515727-4a93-4c0d-88cb-d7a9fce01879": {
+          "releaseCount": 55,
+          "distinctiveTitles": [
+            "boiler room jamie xx b2b caribou in london oct 11 2011",
+            "in colour preview",
+            "all you children",
+            "in waves",
+            "sunset",
+            "home",
+            "smoke mall grab remix",
+            "jamie xx 55 min boiler room london dj set",
+            "2025 03 21 adidas arena paris arte concert",
+            "jamie xx at the floor in london may 25 2024",
+            "jamie xx mix for colette 10",
+            "2020 04 25 bbc radio 1 essential mix",
+            "seesaw club version",
+            "let s do it again",
+            "every single weekend",
+            "fact mix 282 jamie xx",
+            "in waves radio presents the floor with jamie xx ep 8",
+            "loud places remixes",
+            "waited all night solomun remixes",
+            "loud places",
+            "ny is killing me",
+            "2015 06 26 glastonbury festival of contemporary performing arts uk",
+            "we re new here",
+            "i ll take care of u",
+            "baddy on the floor",
+            "in waves radio presents the floor with jamie xx ep 5",
+            "2011 08 27 bbc radio 1 essential mix",
+            "2015 03 28 bbc radio 1 essential mix",
+            "girl sleep sound",
+            "boiler room jamie xx in reykjavik jun 14 2017",
+            "dream night",
+            "gosh",
+            "waited all night",
+            "in waves radio presents the floor with jamie xx ep 2",
+            "in colour",
+            "in waves radio presents the floor with jamie xx ep 4",
+            "boiler room jamie xx in london jun 23 2014",
+            "life",
+            "in waves radio presents the floor with jamie xx b2b caribou ep 1",
+            "far nearer x lost in space",
+            "treat each other right",
+            "it s so good",
+            "2025 01 09 thelotradio",
+            "loud places john talabot remixes",
+            "kill dem",
+            "dafodil",
+            "in waves radio presents the floor with jamie xx ep 3",
+            "smoke",
+            "fact mix 239 jamie xx oneman",
+            "i know there s gonna be good times remixes",
+            "los angeles 18 04 24",
+            "waited all night nia archives remix",
+            "all under one roof raving",
+            "far nearer beat for",
+            "idontknow"
+          ],
+          "earliestYear": 2010,
+          "latestYear": 2026
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "7A0awCXkE1FtSU8B0qwOJQ",
+        "wikidataQid": "Q263726",
+        "name": "Jamie xx",
+        "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+        "discogsArtistId": null,
+        "discogsArtistIds": [
+          "2109856",
+          "1545576"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "7A0awCXkE1FtSU8B0qwOJQ",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q263726",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "2109856",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1545576",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "name": "Jamie xx",
+          "sortName": "xx, Jamie",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": "English DJ, record producer, and remixer",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "d1515727-4a93-4c0d-88cb-d7a9fce01879",
+          "name": "Jamie xx",
+          "sortName": "xx, Jamie",
+          "artistType": "Person",
+          "disambiguation": "English DJ, record producer, and remixer",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "name": "London",
+            "sortName": "London",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1988-10-28",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "James Smith",
+              "sortName": "Smith, James",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "James Thomas Smith",
+              "sortName": "Smith, James Thomas",
+              "type": "Legal name",
+              "locale": "en",
+              "primary": false
+            },
+            {
+              "name": "Jamie Smith",
+              "sortName": "Smith, Jamie",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000118014919"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0001046882"
+            },
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0001610488"
+            },
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0002602648"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://jamiexx.bandcamp.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/1545576"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/2109856"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/7A0awCXkE1FtSU8B0qwOJQ"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/808980"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm5240515/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Jamie+xx"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Jamie-xx"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/jamiexxlondon"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.jamiexx.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no2011042582"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb169517373"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/1072511614"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/jamie-xx"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ra.co/dj/jamiexx"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/jamie-xx"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/jamie-xx/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Jamie-xx/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no2011042582/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id405563985"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/405563985"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/jamie-xx/128792"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/46786"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/jamie-xx-7bd20ec4.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/jamie___xx"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/jamiexxofficial"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/jamie___xx/"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.tiktok.com/@not_jamie_xx"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/2785766"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/jamie-xx-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/405563985"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/405563985"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/4000027"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/us-en/interpreter/jamie-xx/1707822"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/168946243"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q263726"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCbcUt4SAP587pHR4v9O60aA"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCGoi4-jLQRUmaeROrlODm-g"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/1545576.json",
+    "provider-cache/v1/discogs/artist/2109856.json",
+    "provider-cache/v1/musicbrainz/artist/d1515727-4a93-4c0d-88cb-d7a9fce01879.json",
+    "provider-cache/v1/musicbrainz/exact-name/4928259fc13cbdbf42aca6d7.json",
+    "provider-cache/v1/musicbrainz/release-groups/d1515727-4a93-4c0d-88cb-d7a9fce01879.json",
+    "provider-cache/v1/wikidata/spotify-bridge/7A0awCXkE1FtSU8B0qwOJQ.json"
+  ]
+}

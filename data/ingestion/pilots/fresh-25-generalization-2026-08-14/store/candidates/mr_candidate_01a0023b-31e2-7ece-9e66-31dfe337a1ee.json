@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:46:27.624Z",
+  "createdAt": "2026-08-14T21:43:48.962Z",
+  "updatedAt": "2026-08-14T21:46:27.624Z",
+  "name": {
+    "raw": "The Cure",
+    "normalized": "the cure"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:99eae09bcbbcd439d8c1079e6adcf44afbb4ec76f41e872a01194fcde2eb8f82",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-020",
+      "sourceUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "rawArtistName": "The Cure",
+      "normalizedArtistName": "the cure",
+      "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+    "wikidataQids": [
+      "Q484427"
+    ],
+    "musicBrainzArtistIds": [
+      "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+    ],
+    "discogsArtistIds": [
+      "28972"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31e2-7ece-9e66-31dfe337a1ee/96336cc630e4c2b361c0a7ae1dc5a2fda939ed9fb4976e6e8da916eef2ed4ebf.json",
+      "provider-cache/v1/wikidata/spotify-bridge/7bu3H8JO7d0UbMoVzbo70s.json",
+      "provider-cache/v1/musicbrainz/artist/69ee3720-a7cb-4402-b48d-a02c366f2bcf.json",
+      "provider-cache/v1/discogs/artist/28972.json",
+      "provider-cache/v1/musicbrainz/exact-name/1b9d92292d0df003e83b4e43.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+          "name": "The Cure",
+          "sortName": "Cure, The",
+          "artistType": "Group",
+          "country": "GB",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "7bu3H8JO7d0UbMoVzbo70s"
+          ],
+          "discogsArtistIds": [
+            "28972"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7bu3H8JO7d0UbMoVzbo70s",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7bu3H8JO7d0UbMoVzbo70s",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q484427",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28972",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28972",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7bu3H8JO7d0UbMoVzbo70s",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q484427",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28972",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "28972"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:46:27.623Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-9da8-7796-b885-9439c46d8d86"
+}

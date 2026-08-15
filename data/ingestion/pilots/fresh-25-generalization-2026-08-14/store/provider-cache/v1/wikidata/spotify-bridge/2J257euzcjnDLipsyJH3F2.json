@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "2J257euzcjnDLipsyJH3F2",
+  "retrievedAt": "2026-08-14T21:45:15.095Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "2J257euzcjnDLipsyJH3F2",
+      "wikidataQid": "Q744772",
+      "name": "Clipse",
+      "musicBrainzArtistId": "e6424fa5-08d3-41c6-96f3-8549f733708c",
+      "discogsArtistId": "99679"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q744772"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "e6424fa5-08d3-41c6-96f3-8549f733708c"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "99679"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Clipse"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

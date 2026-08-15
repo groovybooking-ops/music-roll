@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "01PnN11ovfen6xUOHfNpn3",
+  "retrievedAt": "2026-08-14T21:46:38.430Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+        "name": "Overmono",
+        "sortName": "Overmono",
+        "artistType": "Group",
+        "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "relations": [
+        {
+          "attribute-ids": {},
+          "source-credit": "",
+          "type": "free streaming",
+          "begin": null,
+          "direction": "backward",
+          "ended": false,
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "attributes": [],
+          "artist": {
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+            "name": "Overmono",
+            "id": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+            "sort-name": "Overmono",
+            "country": "GB"
+          },
+          "target-credit": "",
+          "attribute-values": {},
+          "target-type": "artist"
+        }
+      ],
+      "resource": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3",
+      "id": "549fb6f6-cb9a-416c-9461-7a4ebdfea250"
+    }
+  }
+}

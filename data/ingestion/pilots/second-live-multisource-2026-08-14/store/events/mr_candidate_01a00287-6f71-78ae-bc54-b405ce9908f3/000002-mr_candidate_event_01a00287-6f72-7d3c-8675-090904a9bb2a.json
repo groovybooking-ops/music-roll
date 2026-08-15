@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00287-6f72-7d3c-8675-090904a9bb2a",
+  "candidateId": "mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-14T23:07:05.458Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be.json",
+    "discovery/associations/candidates/mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3/7b70fd6c354c1130443a9d11b59443e9baf67b62487c55e7479a6abd15bd6a7f.json",
+    "discovery/provider-listing-cache/ticketmaster/96a468313a8aa627c8ae2566ddf6566b4ce0462fa3c206d2a23184fac0163377.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:e61c74ed6ad21598aff30c15ea1865dc0f7eec9bb7024d6f7f5986ca1ac21573",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second bounded CA Ticketmaster discovery pilot",
+      "sourceRecordId": "Z7r9jZ1A7Pe_8/attraction/K8vZ9174C6f",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pe_8",
+      "rawArtistName": "Whethan",
+      "normalizedArtistName": "whethan",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:1cfa1e46e7eff88e8dc4e694503d67ea0b11a24f13eda7531480354a200b73be",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f71-78ae-bc54-b405ce9908f3/7b70fd6c354c1130443a9d11b59443e9baf67b62487c55e7479a6abd15bd6a7f.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ9174C6f"
+    }
+  }
+}

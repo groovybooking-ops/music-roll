@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "coordinatorVersion": "scheduled_live_coordinator_v1",
+  "reviewOnly": true,
+  "spotify": {
+    "mode": "artist_search_results",
+    "query": "Björk",
+    "queryRecordId": "scheduled-bounded-query-bjork-v1",
+    "limit": 4,
+    "market": "US",
+    "sourceType": "public_music_database",
+    "sourceName": "Music Roll first human-triggered scheduled discovery run"
+  },
+  "ticketmaster": {
+    "mode": "event_attractions",
+    "stateCode": "NY",
+    "startDateTime": "2026-08-16T00:00:00Z",
+    "endDateTime": "2026-08-22T00:00:00Z",
+    "size": 2,
+    "sourceType": "ticketmaster_event",
+    "sourceName": "Music Roll first human-triggered scheduled Ticketmaster discovery run"
+  },
+  "budgets": {
+    "providers": {
+      "spotify": { "maxRequests": 4, "maxPages": 1, "maxNormalizedOccurrences": 8, "maxNewCandidates": 4 },
+      "ticketmaster": { "maxRequests": 4, "maxPages": 1, "maxNormalizedOccurrences": 8, "maxNewCandidates": 4 }
+    },
+    "workers": { "stage3Candidates": 3, "identityDiscoveryCandidates": 2 },
+    "queueHighWaterMarks": { "identity_pending": 50, "identity_discovery_pending": 25, "retry_wait": 25, "needs_review": 100 }
+  },
+  "maximumTotalNewCandidates": 6,
+  "listingFreshnessHours": { "spotify": 72, "ticketmaster": 24 }
+}

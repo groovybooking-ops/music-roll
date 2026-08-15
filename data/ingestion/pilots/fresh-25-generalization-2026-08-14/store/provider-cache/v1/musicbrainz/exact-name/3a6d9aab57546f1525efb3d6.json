@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "3a6d9aab57546f1525efb3d6",
+  "retrievedAt": "2026-08-14T21:46:04.154Z",
+  "value": {
+    "requestedName": "Fontaines D.C.",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+        "name": "Fontaines D.C.",
+        "sortName": "Fontaines D.C.",
+        "artistType": "Group",
+        "country": "IE",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:46:04.077Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 100,
+          "name": "Fontaines D.C.",
+          "sort-name": "Fontaines D.C.",
+          "country": "IE",
+          "area": {
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "Ireland",
+            "sort-name": "Ireland",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "462e7952-4fa9-43cd-bc24-2c5c9cd5dd47",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Dublin",
+            "sort-name": "Dublin",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "000000047120211X"
+          ],
+          "life-span": {
+            "begin": "2014",
+            "ended": null
+          },
+          "tags": [
+            {
+              "count": 2,
+              "name": "rock"
+            },
+            {
+              "count": 5,
+              "name": "post-punk"
+            },
+            {
+              "count": 2,
+              "name": "indie rock"
+            },
+            {
+              "count": 0,
+              "name": "indie"
+            },
+            {
+              "count": 0,
+              "name": "alternative"
+            },
+            {
+              "count": 0,
+              "name": "post-punk revival"
+            },
+            {
+              "count": 1,
+              "name": "gothic rock"
+            },
+            {
+              "count": -1,
+              "name": "english"
+            },
+            {
+              "count": 2,
+              "name": "dublin"
+            },
+            {
+              "count": 0,
+              "name": "irland"
+            },
+            {
+              "count": -1,
+              "name": "englisch"
+            },
+            {
+              "count": 1,
+              "name": "windmill scene"
+            },
+            {
+              "count": 1,
+              "name": "post-punk 2k"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

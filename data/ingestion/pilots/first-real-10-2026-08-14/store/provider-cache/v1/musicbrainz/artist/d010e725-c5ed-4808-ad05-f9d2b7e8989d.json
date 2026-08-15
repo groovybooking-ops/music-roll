@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "d010e725-c5ed-4808-ad05-f9d2b7e8989d",
+  "retrievedAt": "2026-08-14T21:19:37.247Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "d010e725-c5ed-4808-ad05-f9d2b7e8989d",
+      "name": "Solange",
+      "sortName": "Solange",
+      "artistType": "Person",
+      "disambiguation": "Vocals on \"Minimal Deep\" single of 2010",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/4115738"
+        }
+      ]
+    },
+    "raw": {
+      "id": "d010e725-c5ed-4808-ad05-f9d2b7e8989d",
+      "end-area": null,
+      "area": null,
+      "relations": [
+        {
+          "attribute-ids": {},
+          "target-credit": "",
+          "attribute-values": {},
+          "ended": false,
+          "type": "discogs",
+          "attributes": [],
+          "end": null,
+          "target-type": "url",
+          "direction": "forward",
+          "source-credit": "",
+          "begin": null,
+          "url": {
+            "id": "1633e119-0ae5-46b5-b341-10d987f80a8a",
+            "resource": "https://www.discogs.com/artist/4115738"
+          },
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+        }
+      ],
+      "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "begin-area": null,
+      "sort-name": "Solange",
+      "name": "Solange",
+      "isnis": [],
+      "aliases": [],
+      "country": null,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "disambiguation": "Vocals on \"Minimal Deep\" single of 2010",
+      "type": "Person",
+      "gender": "Female",
+      "ipis": []
+    }
+  }
+}

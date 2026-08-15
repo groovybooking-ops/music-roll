@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31c8-7f62-a8c7-e4b7b482722d",
+  "candidateId": "mr_candidate_01a0023b-31c8-7957-8ccd-b58d5af5c0a2",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.936Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:44b51e742ea8d713cb6459d7f25bef376f2ba96648dbc9aff6310cfc61d4aba3",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-013",
+      "sourceUrl": "https://open.spotify.com/artist/2KEqzdPS7M5YwGmiuPTdr5",
+      "rawArtistName": "Rina Sawayama",
+      "normalizedArtistName": "rina sawayama",
+      "spotifyArtistId": "2KEqzdPS7M5YwGmiuPTdr5",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2KEqzdPS7M5YwGmiuPTdr5",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

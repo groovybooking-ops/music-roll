@@ -1,0 +1,27 @@
+{
+  "scenarios": [
+    { "id": "existing_explicit_local_bridge", "kind": "unique_local", "expected": "unique_exact_bridge" },
+    { "id": "unique_wikidata_ticketmaster_bridge", "kind": "unique_wikidata", "expected": "unique_exact_bridge" },
+    { "id": "unique_musicbrainz_url_bridge", "kind": "unique_musicbrainz", "expected": "unique_exact_bridge" },
+    { "id": "wikidata_to_mbid_musicbrainz_spotify", "kind": "unique_cross_provider", "expected": "unique_exact_bridge" },
+    { "id": "multiple_exact_paths_agree", "kind": "agreeing_paths", "expected": "unique_exact_bridge" },
+    { "id": "multiple_qids", "kind": "multiple_qids", "expected": "needs_review" },
+    { "id": "multiple_mbids", "kind": "multiple_mbids", "expected": "needs_review" },
+    { "id": "multiple_spotify_urls", "kind": "multiple_spotify", "expected": "needs_review" },
+    { "id": "wikidata_musicbrainz_disagree", "kind": "independent_disagreement", "expected": "conflicting_identity" },
+    { "id": "person_group_project_contradiction", "kind": "semantic_contradiction", "expected": "conflicting_identity" },
+    { "id": "charles_mingus_orchestra_not_charles_mingus", "kind": "name_only", "expected": "needs_review" },
+    { "id": "completed_without_bridge", "kind": "no_bridge", "expected": "needs_review" },
+    { "id": "temporary_retry_after", "kind": "temporary_failure", "expected": "retry_wait" },
+    { "id": "cache_only_miss", "kind": "cache_miss", "expected": "skipped_cache_miss" },
+    { "id": "expired_lease_recovery", "kind": "expired_lease", "expected": "identity_discovery_pending" },
+    { "id": "stale_revision_rejected", "kind": "stale_revision", "expected": "rejected" },
+    { "id": "idempotent_identifier_reattachment", "kind": "idempotent_attachment", "expected": "idempotent" },
+    { "id": "identifier_overwrite_rejected", "kind": "overwrite_rejection", "expected": "rejected" },
+    { "id": "bridge_to_existing_live_spotify", "kind": "existing_live", "expected": "duplicate" },
+    { "id": "bridge_to_existing_queued_spotify", "kind": "existing_queued", "expected": "duplicate" },
+    { "id": "human_approved_identifier_attachment", "kind": "human_attachment", "expected": "attached" },
+    { "id": "identifier_event_replay", "kind": "replay", "expected": "exact" },
+    { "id": "stage3_skips_discovery_states", "kind": "stage3_skip", "expected": "skipped" }
+  ]
+}

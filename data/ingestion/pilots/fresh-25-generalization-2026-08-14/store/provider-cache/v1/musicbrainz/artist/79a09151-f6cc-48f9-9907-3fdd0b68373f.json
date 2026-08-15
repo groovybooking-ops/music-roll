@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+  "retrievedAt": "2026-08-14T21:48:01.812Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+      "name": "Richard D. James",
+      "sortName": "James, Richard D.",
+      "artistType": "Person",
+      "disambiguation": "British electronic musician",
+      "country": "GB",
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "sortName": "United Kingdom",
+        "type": null
+      },
+      "beginArea": {
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "name": "Limerick",
+        "sortName": "Limerick",
+        "type": null
+      },
+      "lifeSpan": {
+        "begin": "1971-08-18",
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Brian Tregaskin",
+          "sortName": "Tregaskin, Brian",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Karen Tregaskin",
+          "sortName": "Tregaskin, Karen",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "PRichard.D.Jams",
+          "sortName": "PRichard.D.Jams",
+          "type": null,
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Richard D James",
+          "sortName": "Richard D James",
+          "type": "Search hint",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Richard D. James",
+          "sortName": "Richard D. James",
+          "type": "Search hint",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Richard David James",
+          "sortName": "James, Richard David",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        },
+        {
+          "name": "Rutchkfard Games",
+          "sortName": "Rutchkfard Games",
+          "type": null,
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [
+        "0000000114494679",
+        "0000000427554708"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "allmusic",
+          "url": "https://www.allmusic.com/artist/mn0000355416"
+        },
+        {
+          "relationshipType": "BBC Music page",
+          "url": "https://www.bbc.co.uk/music/artists/79a09151-f6cc-48f9-9907-3fdd0b68373f"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/435132"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/803581"
+        },
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/829972"
+        },
+        {
+          "relationshipType": "IMDb",
+          "url": "https://www.imdb.com/name/nm0416869/"
+        },
+        {
+          "relationshipType": "lyrics",
+          "url": "https://genius.com/artists/Richard-d-james"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://rateyourmusic.com/artist/richard_d__james"
+        },
+        {
+          "relationshipType": "other databases",
+          "url": "https://www.whosampled.com/Richard-D.-James/"
+        },
+        {
+          "relationshipType": "VIAF",
+          "url": "http://viaf.org/viaf/79834028"
+        },
+        {
+          "relationshipType": "VIAF",
+          "url": "http://viaf.org/viaf/85309356"
+        },
+        {
+          "relationshipType": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q223161"
+        }
+      ]
+    },
+    "raw": {
+      "id": "79a09151-f6cc-48f9-9907-3fdd0b68373f",
+      "name": "Richard D. James",
+      "ipis": [
+        "00160357978",
+        "00176937227",
+        "00176951139",
+        "00263386061"
+      ],
+      "sort-name": "James, Richard D.",
+      "type": "Person",
+      "disambiguation": "British electronic musician",
+      "isnis": [
+        "0000000114494679",
+        "0000000427554708"
+      ],
+      "relations": [
+        {
+          "type": "allmusic",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "6f675004-f09a-4b9d-9954-8042328d7a75",
+            "resource": "https://www.allmusic.com/artist/mn0000355416"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": []
+        },
+        {
+          "type": "BBC Music page",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.bbc.co.uk/music/artists/79a09151-f6cc-48f9-9907-3fdd0b68373f",
+            "id": "4e360556-5f4d-411d-954e-2501b7d2e337"
+          },
+          "ended": true,
+          "direction": "forward",
+          "begin": null,
+          "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+          "end": "2020-11-19",
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": []
+        },
+        {
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "discogs",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.discogs.com/artist/435132",
+            "id": "651c15f3-ba7d-4d8e-8031-6445c07e4fdd"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "type": "discogs",
+          "url": {
+            "resource": "https://www.discogs.com/artist/803581",
+            "id": "8f0d1922-5dff-47f6-b517-e428d6dfa466"
+          },
+          "source-credit": "Brian Tregaskin",
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false,
+          "end": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url"
+        },
+        {
+          "end": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "target-type": "url",
+          "type": "discogs",
+          "url": {
+            "id": "342f00d4-bc75-4c34-8fc5-a13e0a8846cb",
+            "resource": "https://www.discogs.com/artist/829972"
+          },
+          "source-credit": "Karen Tregaskin",
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false
+        },
+        {
+          "ended": false,
+          "direction": "forward",
+          "begin": null,
+          "type": "IMDb",
+          "url": {
+            "resource": "https://www.imdb.com/name/nm0416869/",
+            "id": "56af37c0-0039-46da-8fe3-9a23ad82ff6a"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "target-type": "url",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+          "end": null
+        },
+        {
+          "begin": null,
+          "direction": "forward",
+          "ended": false,
+          "source-credit": "",
+          "url": {
+            "resource": "https://genius.com/artists/Richard-d-james",
+            "id": "b9411618-e534-4741-9d79-e0865a12b5f7"
+          },
+          "attribute-ids": {},
+          "type": "lyrics",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "target-type": "url",
+          "end": null,
+          "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+        },
+        {
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "other databases",
+          "url": {
+            "id": "c77bed0c-a033-4b33-a082-a85cb5d342c5",
+            "resource": "https://rateyourmusic.com/artist/richard_d__james"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "target-type": "url",
+          "attribute-values": {},
+          "attributes": [],
+          "target-credit": "",
+          "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+          "end": null,
+          "ended": false,
+          "begin": null,
+          "direction": "forward",
+          "source-credit": "",
+          "attribute-ids": {},
+          "url": {
+            "id": "372b5ca1-a4d5-4c78-b528-caea480fe8b0",
+            "resource": "https://www.whosampled.com/Richard-D.-James/"
+          },
+          "type": "other databases"
+        },
+        {
+          "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+          "end": null,
+          "target-type": "url",
+          "attributes": [],
+          "target-credit": "",
+          "attribute-values": {},
+          "url": {
+            "resource": "http://viaf.org/viaf/79834028",
+            "id": "628f7eab-03c7-482d-9f96-12212d7cbbbe"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "type": "VIAF",
+          "ended": false,
+          "begin": null,
+          "direction": "forward"
+        },
+        {
+          "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "target-credit": "",
+          "attributes": [],
+          "type": "VIAF",
+          "attribute-ids": {},
+          "source-credit": "",
+          "url": {
+            "resource": "http://viaf.org/viaf/85309356",
+            "id": "d222f8e2-3c71-46bf-b425-b98985f0ffb3"
+          },
+          "ended": false,
+          "direction": "forward",
+          "begin": null
+        },
+        {
+          "end": null,
+          "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "url",
+          "type": "wikidata",
+          "url": {
+            "id": "515f1247-eafd-4260-bf17-9449d33bc7c4",
+            "resource": "https://www.wikidata.org/wiki/Q223161"
+          },
+          "source-credit": "",
+          "attribute-ids": {},
+          "direction": "forward",
+          "begin": null,
+          "ended": false
+        }
+      ],
+      "life-span": {
+        "ended": false,
+        "begin": "1971-08-18",
+        "end": null
+      },
+      "begin-area": {
+        "sort-name": "Limerick",
+        "name": "Limerick",
+        "id": "1063266a-afe6-4fb3-ab51-0d290a79f979",
+        "disambiguation": "",
+        "type": null,
+        "type-id": null
+      },
+      "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "iso-3166-1-codes": [
+          "GB"
+        ],
+        "name": "United Kingdom",
+        "sort-name": "United Kingdom",
+        "type-id": null,
+        "type": null,
+        "disambiguation": ""
+      },
+      "country": "GB",
+      "gender": "Male",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "aliases": [
+        {
+          "sort-name": "Tregaskin, Brian",
+          "begin": null,
+          "ended": false,
+          "name": "Brian Tregaskin",
+          "end": null,
+          "type-id": null,
+          "primary": null,
+          "type": null,
+          "locale": null
+        },
+        {
+          "begin": null,
+          "sort-name": "Tregaskin, Karen",
+          "name": "Karen Tregaskin",
+          "ended": false,
+          "end": null,
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "type-id": null
+        },
+        {
+          "type": null,
+          "locale": null,
+          "type-id": null,
+          "primary": null,
+          "end": null,
+          "name": "PRichard.D.Jams",
+          "ended": false,
+          "sort-name": "PRichard.D.Jams",
+          "begin": null
+        },
+        {
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "end": null,
+          "name": "Richard D James",
+          "ended": false,
+          "begin": null,
+          "sort-name": "Richard D James"
+        },
+        {
+          "name": "Richard D. James",
+          "ended": false,
+          "begin": null,
+          "sort-name": "Richard D. James",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "end": null
+        },
+        {
+          "ended": false,
+          "name": "Richard David James",
+          "begin": null,
+          "sort-name": "James, Richard David",
+          "primary": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "locale": null,
+          "type": "Legal name",
+          "end": null
+        },
+        {
+          "name": "Rutchkfard Games",
+          "ended": false,
+          "begin": null,
+          "sort-name": "Rutchkfard Games",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "type-id": null,
+          "end": null
+        }
+      ],
+      "end-area": null
+    }
+  }
+}

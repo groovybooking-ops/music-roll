@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+  "retrievedAt": "2026-08-14T21:19:19.199Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+      "name": "Solange",
+      "sortName": "Solange",
+      "artistType": "Group",
+      "disambiguation": "trance duo \"Messages\"",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [
+        "0000000471367387"
+      ],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/6115"
+        }
+      ]
+    },
+    "raw": {
+      "area": null,
+      "begin-area": null,
+      "id": "ff7103c5-da9e-434d-b8aa-037424ba45ad",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "disambiguation": "trance duo \"Messages\"",
+      "gender-id": null,
+      "aliases": [],
+      "gender": null,
+      "name": "Solange",
+      "country": null,
+      "relations": [
+        {
+          "direction": "forward",
+          "source-credit": "",
+          "url": {
+            "resource": "https://www.discogs.com/artist/6115",
+            "id": "f6011390-cc2e-4ece-b135-72ccc9e679a1"
+          },
+          "begin": null,
+          "attribute-values": {},
+          "ended": false,
+          "target-credit": "",
+          "attribute-ids": {},
+          "end": null,
+          "attributes": [],
+          "target-type": "url",
+          "type": "discogs",
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+        }
+      ],
+      "end-area": null,
+      "isnis": [
+        "0000000471367387"
+      ],
+      "sort-name": "Solange",
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "ipis": []
+    }
+  }
+}

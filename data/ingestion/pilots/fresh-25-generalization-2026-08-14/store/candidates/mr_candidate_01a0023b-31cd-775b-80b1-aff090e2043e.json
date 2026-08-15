@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31cd-775b-80b1-aff090e2043e",
+  "revision": 4,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-14T21:45:52.580Z",
+  "createdAt": "2026-08-14T21:43:48.941Z",
+  "updatedAt": "2026-08-14T21:45:52.580Z",
+  "name": {
+    "raw": "Kelela",
+    "normalized": "kelela"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:918cd1b497fc11ee66a21ec133f5dd818fed3c7739aaefc702304cd6e4607fda",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-015",
+      "sourceUrl": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60",
+      "rawArtistName": "Kelela",
+      "normalizedArtistName": "kelela",
+      "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "provider_profile_multiplicity",
+    "selectedSpotifyArtistId": "1U0sIzpRtDkvu1hXXzxh60",
+    "wikidataQids": [
+      "Q17306137"
+    ],
+    "musicBrainzArtistIds": [
+      "045494aa-e913-4e62-bf4e-dcc276e0075a"
+    ],
+    "discogsArtistIds": [
+      "2200067",
+      "2884794"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a0023b-31cd-775b-80b1-aff090e2043e/65e61cb22980fe715b519b0d2fa81012eaff0825ca47fafa4e654b61ecf66fd8.json",
+      "provider-cache/v1/wikidata/spotify-bridge/1U0sIzpRtDkvu1hXXzxh60.json",
+      "provider-cache/v1/musicbrainz/artist/045494aa-e913-4e62-bf4e-dcc276e0075a.json",
+      "provider-cache/v1/discogs/artist/2200067.json",
+      "provider-cache/v1/discogs/artist/2884794.json",
+      "provider-cache/v1/musicbrainz/exact-name/e59bf2f960aa5a6e1150d417.json",
+      "provider-cache/v1/musicbrainz/release-groups/045494aa-e913-4e62-bf4e-dcc276e0075a.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "2200067",
+          "2884794"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+          "name": "Kelela",
+          "sortName": "Kelela",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US | R&B",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "1U0sIzpRtDkvu1hXXzxh60"
+          ],
+          "discogsArtistIds": [
+            "2200067",
+            "2884794"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": true,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": true,
+        "reasons": [],
+        "explainedAlternates": [
+          {
+            "identifierType": "discogsArtistId",
+            "value": "2200067",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          },
+          {
+            "identifierType": "discogsArtistId",
+            "value": "2884794",
+            "explanation": "mutual_alias_and_shared_legal_name"
+          }
+        ],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1U0sIzpRtDkvu1hXXzxh60",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1U0sIzpRtDkvu1hXXzxh60",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q17306137",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2200067",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2884794",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "045494aa-e913-4e62-bf4e-dcc276e0075a",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2200067",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2884794",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "1U0sIzpRtDkvu1hXXzxh60",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q17306137",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "045494aa-e913-4e62-bf4e-dcc276e0075a"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2200067",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "2200067"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2884794",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "2884794"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:45:52.579Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0023d-14c4-7afd-a725-1a05acdf2bca"
+}

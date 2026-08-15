@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "63XBtGSEZINSyXylZxEUbv",
+  "retrievedAt": "2026-08-14T21:44:07.417Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "63XBtGSEZINSyXylZxEUbv",
+      "wikidataQid": "Q19864989",
+      "name": "Victoria Monét",
+      "musicBrainzArtistId": "28d83274-26ab-4a6a-b9ff-340f4784e7dd",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "1971095",
+        "2834992"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q19864989"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "1971095"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Victoria Monét"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q19864989"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "28d83274-26ab-4a6a-b9ff-340f4784e7dd"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "2834992"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Victoria Monét"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

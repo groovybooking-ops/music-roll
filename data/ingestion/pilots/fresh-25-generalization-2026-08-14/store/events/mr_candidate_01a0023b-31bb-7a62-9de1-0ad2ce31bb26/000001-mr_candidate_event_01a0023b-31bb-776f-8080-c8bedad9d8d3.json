@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a0023b-31bb-776f-8080-c8bedad9d8d3",
+  "candidateId": "mr_candidate_01a0023b-31bb-7a62-9de1-0ad2ce31bb26",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_intake_created",
+  "actor": {
+    "type": "command",
+    "id": "manual_discovery_intake"
+  },
+  "occurredAt": "2026-08-14T21:43:48.923Z",
+  "evidenceRefs": [
+    "input:/Users/groovymac/music-roll/data/ingestion/pilots/fresh-25-generalization-2026-08-14/intake-manifest.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:794f72f9131c839650bb0fae410a50a2ac4c236178b8c7901d72fa434934a8dc",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll fresh-25 resolver generalization pilot",
+      "sourceRecordId": "fresh-25-008",
+      "sourceUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+      "rawArtistName": "JPEGMAFIA",
+      "normalizedArtistName": "jpegmafia",
+      "spotifyArtistId": "6yJ6QQ3Y5l0s0tn7b0arrO",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:42:06.000Z"
+    }
+  }
+}

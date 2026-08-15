@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T23:34:33.088Z",
+  "createdAt": "2026-08-14T23:07:05.445Z",
+  "updatedAt": "2026-08-14T23:34:33.088Z",
+  "name": {
+    "raw": "Ciara",
+    "normalized": "ciara"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:2696ccc8fbf709d796434610744a9dc389d3595a17585d77f6d5758e64f78b98",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second bounded live discovery pilot",
+      "sourceRecordId": "bounded-query-beyonce:result:3:2NdeV5rLm47xAvogXrYhJX",
+      "sourceUrl": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX",
+      "rawArtistName": "Ciara",
+      "normalizedArtistName": "ciara",
+      "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T23:07:04.625Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2NdeV5rLm47xAvogXrYhJX",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "provider_profile_multiplicity",
+    "selectedSpotifyArtistId": "2NdeV5rLm47xAvogXrYhJX",
+    "wikidataQids": [
+      "Q203223"
+    ],
+    "musicBrainzArtistIds": [
+      "03172286-f7ed-4864-a4db-459cd5ca9790"
+    ],
+    "discogsArtistIds": [
+      "232451",
+      "2466394"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05/43ed898622549a8cd8bd7ad8cbc18cad088beb3c13e8555ab490d9d650b1fad4.json",
+      "provider-cache/v1/wikidata/spotify-bridge/2NdeV5rLm47xAvogXrYhJX.json",
+      "provider-cache/v1/musicbrainz/artist/03172286-f7ed-4864-a4db-459cd5ca9790.json",
+      "provider-cache/v1/discogs/artist/232451.json",
+      "provider-cache/v1/discogs/artist/2466394.json",
+      "provider-cache/v1/musicbrainz/exact-name/86da0abd3ee1d8d2342b3c0e.json",
+      "provider-cache/v1/musicbrainz/artist/a7628cc4-9aa5-4f2d-b7f6-19d8782ca410.json",
+      "provider-cache/v1/musicbrainz/release-groups/03172286-f7ed-4864-a4db-459cd5ca9790.json"
+    ],
+    "conflicts": [
+      {
+        "identifierType": "spotifyArtistId",
+        "observedValues": [
+          "2NdeV5rLm47xAvogXrYhJX",
+          "3emAumJ1orTyui3rSycQfs"
+        ]
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "observedValues": [
+          "232451",
+          "2466394"
+        ]
+      }
+    ],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 2,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "multiple_exact_display_name_entities",
+      "competingEntityCount": 1,
+      "competingEntities": [
+        {
+          "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "country": "FR",
+          "disambiguation": "French underground rapper near Swift Guad",
+          "score": 76,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        }
+      ],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "03172286-f7ed-4864-a4db-459cd5ca9790",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "American singer",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "2NdeV5rLm47xAvogXrYhJX",
+            "3emAumJ1orTyui3rSycQfs"
+          ],
+          "discogsArtistIds": [
+            "232451",
+            "2466394"
+          ]
+        },
+        {
+          "musicBrainzArtistId": "a7628cc4-9aa5-4f2d-b7f6-19d8782ca410",
+          "name": "Ciara",
+          "sortName": "Ciara",
+          "artistType": "Person",
+          "country": "FR",
+          "disambiguation": "French underground rapper near Swift Guad",
+          "score": 76,
+          "selectedExactEntity": false,
+          "spotifyArtistIds": [],
+          "discogsArtistIds": []
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "provider_profile_multiplicity",
+        "mechanicallyResolvable": true,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [
+            "mutually_linked_discogs_alias_profiles",
+            "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+            "shared_discogs_real_name"
+          ],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": true,
+      "qualifiesAsProviderMultiplicity": true,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "same_name_ambiguity_present_or_not_evaluated",
+          "unresolved_alternate_spotify_identifier"
+        ],
+        "explainedAlternates": [
+          {
+            "identifierType": "discogsArtistId",
+            "value": "232451",
+            "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+          },
+          {
+            "identifierType": "discogsArtistId",
+            "value": "2466394",
+            "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+          }
+        ],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2NdeV5rLm47xAvogXrYhJX",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2NdeV5rLm47xAvogXrYhJX",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q203223",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "232451",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2466394",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "03172286-f7ed-4864-a4db-459cd5ca9790",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "232451",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2466394",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2NdeV5rLm47xAvogXrYhJX",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "3emAumJ1orTyui3rSycQfs",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q203223",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "03172286-f7ed-4864-a4db-459cd5ca9790"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "232451",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "232451"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "2466394",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "2466394"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T23:34:33.087Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a002a0-9380-7584-912f-240d5a57fb0b",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:b1e4db9f6de3eca834e3ea17864bab09aff62a82ddfec21b923c49b143923d93",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00287-6f65-774b-b7a2-6605935e0c05/f639dcfa4c39e01fce1d0ec1926d9650188aa1e5777432f98baaf0c338ba2b62.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:2NdeV5rLm47xAvogXrYhJX"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+  "revision": 3,
+  "state": "identity_pending",
+  "stateEnteredAt": "2026-08-15T16:21:51.075Z",
+  "createdAt": "2026-08-15T16:21:51.073Z",
+  "updatedAt": "2026-08-15T16:21:51.075Z",
+  "name": {
+    "raw": "Andreas Björkstrand",
+    "normalized": "andreas björkstrand"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:034dcc4184005f76645433f419211dafe818d42acfcda59911359f884d613078",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll first human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-bjork-v1:result:3:4C0SwV2WJqRW290Xz2HIfV",
+      "sourceUrl": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV",
+      "rawArtistName": "Andreas Björkstrand",
+      "normalizedArtistName": "andreas björkstrand",
+      "spotifyArtistId": "4C0SwV2WJqRW290Xz2HIfV",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:21:50.109Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "4C0SwV2WJqRW290Xz2HIfV",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/4C0SwV2WJqRW290Xz2HIfV",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {},
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a0063a-c963-7957-94ab-c9ac3ff0ce66",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:a9394371fd7a9dc4825c9e200231ce3d9c7dadba07291e4f0ea18b03b3f8840a",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c961-798b-841a-2955fba05777/58e2fa57b4f83194039a38b2ac23e9c64c4075f6b77e9e5479aa40fb7614e0ed.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:4C0SwV2WJqRW290Xz2HIfV"
+    }
+  ]
+}

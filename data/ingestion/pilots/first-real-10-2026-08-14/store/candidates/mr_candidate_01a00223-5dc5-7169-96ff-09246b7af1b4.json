@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00223-5dc5-7169-96ff-09246b7af1b4",
+  "revision": 4,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-14T21:18:19.276Z",
+  "createdAt": "2026-08-14T21:17:47.333Z",
+  "updatedAt": "2026-08-14T21:18:19.276Z",
+  "name": {
+    "raw": "Elmiene",
+    "normalized": "elmiene"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:71cd306757a56cc971afa05c4ae2ba6c81d0dfe628da52400fa4b0158f89a5dc",
+      "sourceType": "manual_curated_list",
+      "sourceName": "Music Roll first real ingestion pilot",
+      "sourceRecordId": "first-real-10-001",
+      "sourceUrl": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+      "rawArtistName": "Elmiene",
+      "normalizedArtistName": "elmiene",
+      "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-14T21:16:05.000Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "2CLclpIC43fLzsYq6LQvlL",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/2CLclpIC43fLzsYq6LQvlL",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "insufficient_corroboration",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [
+      "Q123698376"
+    ],
+    "musicBrainzArtistIds": [
+      "1a610683-e359-4895-a4a7-e98cf314e502"
+    ],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00223-5dc5-7169-96ff-09246b7af1b4/14fb8ed8ae90868fc39e94f252917c287cd7d4f5367f6cbf86af809bb59fb466.json",
+      "provider-cache/v1/wikidata/spotify-bridge/2CLclpIC43fLzsYq6LQvlL.json",
+      "provider-cache/v1/musicbrainz/spotify-url/2CLclpIC43fLzsYq6LQvlL.json",
+      "provider-cache/v1/musicbrainz/artist/1a610683-e359-4895-a4a7-e98cf314e502.json",
+      "provider-cache/v1/musicbrainz/exact-name/f5661ecb7b26218d5fb0f0a9.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "1a610683-e359-4895-a4a7-e98cf314e502",
+          "name": "Elmiene",
+          "sortName": "Elmiene",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "2CLclpIC43fLzsYq6LQvlL"
+          ],
+          "discogsArtistIds": []
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2CLclpIC43fLzsYq6LQvlL",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2CLclpIC43fLzsYq6LQvlL",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q123698376",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "2CLclpIC43fLzsYq6LQvlL",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "1a610683-e359-4895-a4a7-e98cf314e502",
+        "source": "musicbrainz",
+        "path": "url.exact_spotify_artist_relationship",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "1a610683-e359-4895-a4a7-e98cf314e502"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-14T21:18:19.275Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "needs_review",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00223-da8c-739f-98be-9713782673a9"
+}

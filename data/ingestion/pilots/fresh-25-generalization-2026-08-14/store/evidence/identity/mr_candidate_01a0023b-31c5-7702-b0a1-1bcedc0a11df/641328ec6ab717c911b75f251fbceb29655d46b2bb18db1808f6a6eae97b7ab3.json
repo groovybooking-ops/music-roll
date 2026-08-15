@@ -1,0 +1,3150 @@
+{
+  "evidenceId": "sha256:641328ec6ab717c911b75f251fbceb29655d46b2bb18db1808f6a6eae97b7ab3",
+  "createdAt": "2026-08-14T21:45:41.436Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31c5-7702-b0a1-1bcedc0a11df",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Caroline Polachek",
+        "spotifyArtistId": "4Ge8xMJNwt6EEXOzVXju9a"
+      },
+      "outcome": "unresolved_identity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4Ge8xMJNwt6EEXOzVXju9a",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4Ge8xMJNwt6EEXOzVXju9a",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17086369",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1269616",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6504459",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3734963",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1269616",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4Ge8xMJNwt6EEXOzVXju9a",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17086369",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6504459",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2aooHIljVYIZhEFFNmIaEz",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17086369",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3734963",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4rznUCgRWVTHQX9tUyQ4BV",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17086369",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1269616",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "1269616"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3734963",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3734963"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6504459",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "6504459"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "4Ge8xMJNwt6EEXOzVXju9a",
+            "2aooHIljVYIZhEFFNmIaEz",
+            "4rznUCgRWVTHQX9tUyQ4BV"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4Ge8xMJNwt6EEXOzVXju9a",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4Ge8xMJNwt6EEXOzVXju9a",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4Ge8xMJNwt6EEXOzVXju9a",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2aooHIljVYIZhEFFNmIaEz",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "4rznUCgRWVTHQX9tUyQ4BV",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q17086369",
+          "observedValues": [
+            "Q17086369"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17086369",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17086369",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17086369",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q17086369",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "1269616",
+            "6504459",
+            "3734963"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1269616",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6504459",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3734963",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1269616",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6504459",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "88f00506-4b30-45b3-b4f7-cdddaf16b739"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3734963",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "1269616",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "1269616"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3734963",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "3734963"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "6504459",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "6504459"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "spotifyArtistId",
+          "observedValues": [
+            "4Ge8xMJNwt6EEXOzVXju9a",
+            "2aooHIljVYIZhEFFNmIaEz",
+            "4rznUCgRWVTHQX9tUyQ4BV"
+          ]
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "observedValues": [
+            "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+          ]
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "1269616",
+            "6504459",
+            "3734963"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "compatible_alias_chronology:d8f43dc5-4613-48ac-8c23-a62b82f8c67a:88f00506-4b30-45b3-b4f7-cdddaf16b739",
+              "compatible_alias_chronology:d8f43dc5-4613-48ac-8c23-a62b82f8c67a:a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+              "compatible_alias_chronology:88f00506-4b30-45b3-b4f7-cdddaf16b739:a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+            ],
+            "unresolvedIdentifiers": [
+              "incompatible_or_unlinked_official_urls"
+            ]
+          }
+        },
+        "fingerprintComparisons": [
+          {
+            "left": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "right": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2008,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2017,
+                "latestYear": 2017
+              }
+            }
+          },
+          {
+            "left": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "right": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2008,
+                "latestYear": 2025
+              },
+              "right": {
+                "earliestYear": 2014,
+                "latestYear": 2015
+              }
+            }
+          },
+          {
+            "left": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "right": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+            "distinctiveReleaseOverlap": [],
+            "overlapCount": 0,
+            "chronology": {
+              "left": {
+                "earliestYear": 2017,
+                "latestYear": 2017
+              },
+              "right": {
+                "earliestYear": 2014,
+                "latestYear": 2015
+              }
+            }
+          }
+        ],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "unresolved_identifier_present",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "musicbrainz_identifier_not_unique",
+            "unresolved_alternate_spotify_identifier",
+            "discogs_alternates_lack_shared_legal_name"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [
+        "musicbrainz_same_name_audit"
+      ],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "d8f43dc5-4613-48ac-8c23-a62b82f8c67a": {
+          "artist": {
+            "musicBrainzArtistId": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "name": "Caroline Polachek",
+            "sortName": "Polachek, Caroline",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan",
+              "sortName": "Manhattan",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1985-06-20",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Caroline Elizabeth Polachek",
+                "sortName": "Polachek, Caroline Elizabeth",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "000000040758749X"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0002595433"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://carolinepolachek.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/434274"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/1269616"
+              },
+              {
+                "relationshipType": "fanpage",
+                "url": "https://fuckyeahcarolinepolachek.tumblr.com/"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/4Ge8xMJNwt6EEXOzVXju9a"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/4631793"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_at_The_Warfield_2023.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_Bristol.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_03.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_05.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_09.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_10.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_18.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_28.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_29.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_34.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_37.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_40.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_44.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12_7_2021_(51738655843)_(cropped).jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_51.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_52.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_53.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_90.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_92.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_-_2022_-_52025090263.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_of_Chairlift,_2016.jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_of_Chairlift,_Central_Park_SummerStage,_August_2010_(4874190199)_(cropped).jpg"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Ramona_Lisa.jpg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm3647932/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Caroline+Polachek"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Caroline-polachek"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.carolinepolachek.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2020036638"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/1075388740"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/caroline-polachek"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/caroline-polachek"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Caroline-Polachek/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no2020036638/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://www.maniadb.com/artist/428750"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id385592090"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/us-en/interpreter/caroline-polachek/619329"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/172291"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/carolineplz"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/CarolinePolachekMusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/carolineplz/"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.threads.com/@carolineplz"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.tiktok.com/@carolineplz"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/8051528"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/carolinepolachekmusic"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/385592090"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/7342247"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/us-en/interpreter/caroline-polachek/619329"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/317064296"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q17086369"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCrQ-0cexx-2QvmQL3jc-4iA"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC_YiGpMGuBb1PbjqPQMf9MQ"
+              }
+            ]
+          },
+          "raw": {
+            "sort-name": "Polachek, Caroline",
+            "ipis": [
+              "00556562526"
+            ],
+            "name": "Caroline Polachek",
+            "id": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+            "relations": [
+              {
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "allmusic",
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0002595433",
+                  "id": "22dc5784-7cb0-4f2e-aac4-376fe3134e88"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "f7d46433-d7dc-45a7-a82e-259be662438b",
+                  "resource": "https://carolinepolachek.bandcamp.com/"
+                },
+                "type": "bandcamp",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "bandsintown",
+                "source-credit": "",
+                "url": {
+                  "id": "c893820b-0bf3-4f95-baba-76dcc1bf150d",
+                  "resource": "https://www.bandsintown.com/a/434274"
+                },
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+              },
+              {
+                "type": "discogs",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "5cc50b76-a16e-4526-8af4-75ba9d5f26d4",
+                  "resource": "https://www.discogs.com/artist/1269616"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "d38007e6-8168-4f35-a962-74a12a6a07cc",
+                  "resource": "https://fuckyeahcarolinepolachek.tumblr.com/"
+                },
+                "type": "fanpage"
+              },
+              {
+                "type": "free streaming",
+                "url": {
+                  "id": "c30d640c-e493-4e50-bc52-ed2adab537ca",
+                  "resource": "https://open.spotify.com/artist/4Ge8xMJNwt6EEXOzVXju9a"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.deezer.com/artist/4631793",
+                  "id": "0f662aca-bc64-44d6-b281-886fd21aa312"
+                },
+                "type": "free streaming"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "42cbf604-400d-4fdd-b6f7-9d1965b32db7",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_at_The_Warfield_2023.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "4ed43561-82f4-4dac-a9f2-83c0423808d1",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_Bristol.jpg"
+                },
+                "type": "image",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c"
+              },
+              {
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "image",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_03.jpg",
+                  "id": "1ae50042-3b59-4e5b-abdc-8b1e839e6356"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "image",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "0fd634de-3e9a-4a18-a23e-64a68afc60d8",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_05.jpg"
+                }
+              },
+              {
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "image",
+                "url": {
+                  "id": "174f62ed-5302-4666-89aa-3ddb6c443b80",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_09.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "image",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_10.jpg",
+                  "id": "91160f86-9cff-46a0-b506-63f62f73affe"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_18.jpg",
+                  "id": "e3085688-11e5-42f1-80b3-b528f628a5bb"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "dcf22f92-6c06-48fe-bc0c-1dd901d324f1",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_28.jpg"
+                },
+                "type": "image",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "url": {
+                  "id": "07de0414-da5c-40ce-88a9-c2c6c3175f09",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_29.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type": "image",
+                "url": {
+                  "id": "7bf14426-7780-412d-88be-41ad921dabb4",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_34.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "1f09312f-027d-4561-8d51-c1ea772fe805",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_37.jpg"
+                },
+                "type": "image",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "6230e62f-7938-479d-b5a2-aa5743c274bd",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_40.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null
+              },
+              {
+                "type": "image",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_44.jpg",
+                  "id": "08f1c4a3-596a-484e-8f14-68b181b192c3"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "image",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12_7_2021_(51738655843)_(cropped).jpg",
+                  "id": "f07adef4-4e23-4f16-94f4-0057a446e485"
+                }
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_51.jpg",
+                  "id": "e32d78df-5803-4cb2-aaaa-8a8fb253bfd8"
+                },
+                "attribute-ids": {},
+                "type": "image",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "image",
+                "source-credit": "",
+                "url": {
+                  "id": "e887cddf-cfe0-4dd6-b954-ffec73c30ca9",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_52.jpg"
+                },
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "68126d21-a76b-4153-8d43-f2279fe26d73",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_53.jpg"
+                },
+                "type": "image"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "image",
+                "source-credit": "",
+                "url": {
+                  "id": "9813e1b0-f132-47a5-8cf9-1b316d8fc405",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_90.jpg"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_12-7-2021_92.jpg",
+                  "id": "6184a449-5c1c-48e8-96ff-205a4a087616"
+                },
+                "attribute-ids": {},
+                "type": "image",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "image",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "0620484d-351c-4f74-966f-1f631dbb0b4a",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_-_First_Avenue_-_2022_-_52025090263.jpg"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null
+              },
+              {
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "966dce83-ec6c-4dc0-8e64-6ef41307f184",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_of_Chairlift,_2016.jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "55395399-b6ea-461a-8263-eb59ce5792da",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Caroline_Polachek_of_Chairlift,_Central_Park_SummerStage,_August_2010_(4874190199)_(cropped).jpg"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image"
+              },
+              {
+                "type": "image",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://commons.wikimedia.org/wiki/File:Ramona_Lisa.jpg",
+                  "id": "9445274f-f495-4b34-9f0a-67fa283a802e"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "612e661e-258b-4dd4-8a8b-7bbf1836dfb8",
+                  "resource": "https://www.imdb.com/name/nm3647932/"
+                },
+                "type": "IMDb",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "last.fm",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.last.fm/music/Caroline+Polachek",
+                  "id": "a72dfe78-c7a1-47d3-8b8d-793f4dcba757"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "d5460333-71e0-4872-a3cc-a773f640ec0c",
+                  "resource": "https://genius.com/artists/Caroline-polachek"
+                },
+                "type": "lyrics",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "official homepage",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://www.carolinepolachek.com/",
+                  "id": "ceb800ef-fb41-4105-96bc-3f93eb807a6c"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "ee80e081-808b-4d05-af4b-5a758db0454c",
+                  "resource": "http://id.loc.gov/authorities/names/no2020036638"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases"
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://d-nb.info/gnd/1075388740",
+                  "id": "8caae085-c68f-49fc-8518-199ff17c9b44"
+                },
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://imvdb.com/n/caroline-polachek",
+                  "id": "10d34222-f19d-4db1-bd8f-a4151821e369"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "4dd71d5a-75ef-4d67-9981-f6107f8a0a57",
+                  "resource": "https://rateyourmusic.com/artist/caroline-polachek"
+                },
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.whosampled.com/Caroline-Polachek/",
+                  "id": "8032754e-2a45-4481-8997-b07b7a34ce9b"
+                },
+                "type": "other databases",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-no2020036638/",
+                  "id": "47913138-ca89-427d-b27c-76889969a0da"
+                },
+                "type": "other databases",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "http://www.maniadb.com/artist/428750",
+                  "id": "79799d72-9180-4d9c-92b4-6c87bdaf7742"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "purchase for download",
+                "source-credit": "",
+                "url": {
+                  "id": "221d7d09-0083-47b7-ad15-38417378b24a",
+                  "resource": "https://itunes.apple.com/us/artist/id385592090"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.qobuz.com/us-en/interpreter/caroline-polachek/619329",
+                  "id": "4370453f-af2a-46a9-b30f-7ebecd8ef03b"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "secondhandsongs",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/172291",
+                  "id": "077c7ee5-39bd-438f-b50e-e3ee613f1b08"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "type": "social network",
+                "url": {
+                  "id": "e3de4a45-3cef-4aab-aa17-dccebd61e82e",
+                  "resource": "https://twitter.com/carolineplz"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "social network",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "9f4894f9-26ee-420c-af03-e689c5c3c98f",
+                  "resource": "https://www.facebook.com/CarolinePolachekMusic"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "81c84f8e-3c0a-4395-9a46-b30734a35b69",
+                  "resource": "https://www.instagram.com/carolineplz/"
+                },
+                "attribute-ids": {},
+                "type": "social network"
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.threads.com/@carolineplz",
+                  "id": "0e20ff93-ad4e-423f-a5d7-162e5c456c13"
+                },
+                "type": "social network",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type": "social network",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "c950911e-4973-4e41-ad31-4885952200d3",
+                  "resource": "https://www.tiktok.com/@carolineplz"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "songkick",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.songkick.com/artists/8051528",
+                  "id": "9eef0fd3-72a0-4787-bf43-885107c5eb17"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "cce07fe8-4021-4f93-868d-2ce8ba970c07",
+                  "resource": "https://soundcloud.com/carolinepolachekmusic"
+                },
+                "attribute-ids": {},
+                "type": "soundcloud",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/385592090",
+                  "id": "9fda3297-74e5-45fc-a19d-1dadc0d1319b"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "url": {
+                  "id": "2991b5a9-fce8-4ef6-b418-da944da5ca10",
+                  "resource": "https://tidal.com/artist/7342247"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "4370453f-af2a-46a9-b30f-7ebecd8ef03b",
+                  "resource": "https://www.qobuz.com/us-en/interpreter/caroline-polachek/619329"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "streaming"
+              },
+              {
+                "url": {
+                  "resource": "http://viaf.org/viaf/317064296",
+                  "id": "5e73f129-0cff-4f6c-8063-77e09312b8cc"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "VIAF",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "wikidata",
+                "url": {
+                  "id": "419e2c92-7339-4bbb-b3ad-41428e2b5d5e",
+                  "resource": "https://www.wikidata.org/wiki/Q17086369"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "id": "af0557f2-deaa-4711-ba5e-8cfc5e14ef80",
+                  "resource": "https://www.youtube.com/channel/UCrQ-0cexx-2QvmQL3jc-4iA"
+                },
+                "attribute-ids": {},
+                "type": "youtube",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UC_YiGpMGuBb1PbjqPQMf9MQ",
+                  "id": "47022a4d-0002-4ac8-8ea7-5711e30ba698"
+                },
+                "attribute-ids": {},
+                "type": "youtube"
+              }
+            ],
+            "isnis": [
+              "000000040758749X"
+            ],
+            "disambiguation": "",
+            "type": "Person",
+            "country": "US",
+            "area": {
+              "sort-name": "United States",
+              "name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "disambiguation": "",
+              "type": null,
+              "type-id": null
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "type-id": null,
+              "type": null,
+              "sort-name": "Manhattan",
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan"
+            },
+            "life-span": {
+              "begin": "1985-06-20",
+              "end": null,
+              "ended": false
+            },
+            "end-area": null,
+            "aliases": [
+              {
+                "name": "Caroline Elizabeth Polachek",
+                "ended": false,
+                "sort-name": "Polachek, Caroline Elizabeth",
+                "begin": null,
+                "type": "Legal name",
+                "locale": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "end": null
+              }
+            ],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Female"
+          }
+        },
+        "88f00506-4b30-45b3-b4f7-cdddaf16b739": {
+          "artist": {
+            "musicBrainzArtistId": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "name": "CEP",
+            "sortName": "CEP",
+            "artistType": "Person",
+            "disambiguation": "Caroline Polachek",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan",
+              "sortName": "Manhattan",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1985-06-20",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://cepdrawingthetarget.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/6504459"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/2aooHIljVYIZhEFFNmIaEz"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/CEP"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id332951658"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q17086369"
+              }
+            ]
+          },
+          "raw": {
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "relations": [
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "bandcamp",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://cepdrawingthetarget.bandcamp.com/",
+                  "id": "77c7f837-44b3-46ed-adc8-75eba33d527a"
+                },
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88"
+              },
+              {
+                "type": "discogs",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.discogs.com/artist/6504459",
+                  "id": "bc7d6e03-d71c-4fbc-b260-a4273bcfd38d"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "26b33266-b6bb-4aac-9ecc-8a0108c73dd6",
+                  "resource": "https://open.spotify.com/artist/2aooHIljVYIZhEFFNmIaEz"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "id": "1ca4b006-d826-41bd-8982-d09bd627eaf2",
+                  "resource": "https://www.last.fm/music/CEP"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "last.fm",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {}
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id332951658",
+                  "id": "e175e1c7-3e9b-4867-a732-e40ae0f941c0"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "purchase for download"
+              },
+              {
+                "attribute-ids": {},
+                "type": "wikidata",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "url": {
+                  "id": "419e2c92-7339-4bbb-b3ad-41428e2b5d5e",
+                  "resource": "https://www.wikidata.org/wiki/Q17086369"
+                },
+                "begin": null,
+                "source-credit": ""
+              }
+            ],
+            "life-span": {
+              "end": null,
+              "begin": "1985-06-20",
+              "ended": false
+            },
+            "area": {
+              "sort-name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "type-id": null,
+              "disambiguation": "",
+              "type": null
+            },
+            "id": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+            "end-area": null,
+            "ipis": [],
+            "type": "Person",
+            "gender": "Female",
+            "disambiguation": "Caroline Polachek",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "country": "US",
+            "isnis": [],
+            "aliases": [],
+            "name": "CEP",
+            "sort-name": "CEP",
+            "begin-area": {
+              "name": "Manhattan",
+              "type-id": null,
+              "type": null,
+              "disambiguation": "",
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "sort-name": "Manhattan"
+            }
+          }
+        },
+        "a32d76a0-a8d4-48fc-9525-b5b4e45036ac": {
+          "artist": {
+            "musicBrainzArtistId": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+            "name": "Ramona Lisa",
+            "sortName": "Ramona Lisa",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan",
+              "sortName": "Manhattan",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1985-06-20",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003225438"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://ramonalisa.bandcamp.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/3734963"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/4rznUCgRWVTHQX9tUyQ4BV"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Ramona+Lisa"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Ramona-lisa"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.theramonalisa.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no2021049984"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/ramona-lisa"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id829728022"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/theeramonalisa"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/theeramonalisa/"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/ramonalisa"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/317064300"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q17086369"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/user/theeramonalisa"
+              }
+            ]
+          },
+          "raw": {
+            "id": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+            "name": "Ramona Lisa",
+            "ipis": [],
+            "sort-name": "Ramona Lisa",
+            "type": "Person",
+            "disambiguation": "",
+            "isnis": [],
+            "relations": [
+              {
+                "type": "allmusic",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "cb41dc52-9b39-43b1-905c-6ad7df29df11",
+                  "resource": "https://www.allmusic.com/artist/mn0003225438"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type": "bandcamp",
+                "source-credit": "",
+                "url": {
+                  "id": "9a506629-5348-456d-b3c8-d4f8369617c8",
+                  "resource": "https://ramonalisa.bandcamp.com/"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "discogs",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "881f610f-b29a-4e42-83a6-7de181f3c663",
+                  "resource": "https://www.discogs.com/artist/3734963"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "url": {
+                  "resource": "https://open.spotify.com/artist/4rznUCgRWVTHQX9tUyQ4BV",
+                  "id": "02c48ac1-eaeb-4b9a-a8c4-172de6574376"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "01a75a20-8220-4824-a7fd-d11b60070ebf",
+                  "resource": "https://www.last.fm/music/Ramona+Lisa"
+                },
+                "attribute-ids": {},
+                "type": "last.fm",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "end": null
+              },
+              {
+                "url": {
+                  "resource": "https://genius.com/artists/Ramona-lisa",
+                  "id": "9fe1f493-fdb9-4356-b8c6-aee21cda6f8a"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "lyrics",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type": "official homepage",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://www.theramonalisa.com/",
+                  "id": "aa47e778-3d85-4593-90e7-fc77da1ae519"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "454603da-5139-4b53-940a-9d1331ef598f",
+                  "resource": "http://id.loc.gov/authorities/names/no2021049984"
+                },
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://imvdb.com/n/ramona-lisa",
+                  "id": "9a565862-1072-4659-af06-a5400dbfe7d1"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id829728022",
+                  "id": "3410c58f-299f-4e5e-860e-24dadd292ede"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "type": "social network",
+                "url": {
+                  "resource": "https://www.facebook.com/theeramonalisa",
+                  "id": "8e4a8a8d-eca7-4a2c-87b4-1b6c132c23c5"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "social network",
+                "url": {
+                  "resource": "https://www.instagram.com/theeramonalisa/",
+                  "id": "ad9ef0e4-59a4-44ef-9171-7b75171f422c"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "51a71f05-ec73-489e-a114-f241e6aad5e4",
+                  "resource": "https://soundcloud.com/ramonalisa"
+                },
+                "type": "soundcloud",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "http://viaf.org/viaf/317064300",
+                  "id": "0d1ddcd7-df89-4ead-9dae-a8ffeb3bd7e4"
+                },
+                "attribute-ids": {},
+                "type": "VIAF",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "url": {
+                  "id": "419e2c92-7339-4bbb-b3ad-41428e2b5d5e",
+                  "resource": "https://www.wikidata.org/wiki/Q17086369"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "wikidata",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "youtube",
+                "url": {
+                  "id": "66baf582-4096-4091-86d7-9877f0fb360b",
+                  "resource": "https://www.youtube.com/user/theeramonalisa"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              }
+            ],
+            "life-span": {
+              "ended": false,
+              "end": null,
+              "begin": "1985-06-20"
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "type-id": null,
+              "type": null,
+              "sort-name": "Manhattan",
+              "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+              "name": "Manhattan"
+            },
+            "area": {
+              "sort-name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "name": "United States",
+              "disambiguation": "",
+              "type-id": null,
+              "type": null
+            },
+            "country": "US",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Female",
+            "aliases": [],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "end-area": null
+          }
+        }
+      },
+      "discogsRecords": {
+        "1269616": {
+          "artist": {
+            "discogsArtistId": "1269616",
+            "name": "Caroline Polachek",
+            "realName": "Caroline Elizabeth Polachek",
+            "profile": "Caroline Elizabeth Polachek (born June 20, 1985) simply known as Caroline Polachek is an American singer, producer, and songwriter.\r\nRaised in Connecticut, Polachek co-founded the indie pop band [a=Chairlift] while studying at the University of Colorado. ",
+            "artistUrls": [
+              "http://www.carolinepolachek.com",
+              "http://carolinepolachek.bandcamp.com",
+              "http://www.facebook.com/CarolinePolachekMusic",
+              "http://www.instagram.com/carolineplz",
+              "http://www.twitter.com/carolineplz",
+              "http://en.wikipedia.org/wiki/Caroline_Polachek",
+              "http://www.youtube.com/CarolinePolachek"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "3734963",
+                "name": "Ramona Lisa"
+              },
+              {
+                "discogsArtistId": "6504459",
+                "name": "CEP (2)"
+              }
+            ],
+            "nameVariations": [
+              "Caroline Elizabeth Polachek",
+              "Caroline Polacheck"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/1269616",
+            "discogsWebUrl": "https://www.discogs.com/artist/1269616-Caroline-Polachek",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Caroline Polachek",
+            "id": 1269616,
+            "resource_url": "https://api.discogs.com/artists/1269616",
+            "uri": "https://www.discogs.com/artist/1269616-Caroline-Polachek",
+            "releases_url": "https://api.discogs.com/artists/1269616/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/41sxIsy6-gzNjrx5wRxM5SCYoHBIui7-pHo06Khx4J4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTc3Njg1NTIw/Ni05MjIxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/41sxIsy6-gzNjrx5wRxM5SCYoHBIui7-pHo06Khx4J4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTc3Njg1NTIw/Ni05MjIxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/5m2DLCmakRY9gZBuWoUAiosA0AUJsd5YLpu74y7QxKs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTc3Njg1NTIw/Ni05MjIxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vixcIExdE6IRFxG0LxEqLPidJS2DfuOAAlAsgqFqQkk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0xNDc2LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/vixcIExdE6IRFxG0LxEqLPidJS2DfuOAAlAsgqFqQkk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0xNDc2LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/3VTlQXCxek-cBWYE3iROmHb7U1Vy6i-vvdTqpvWqFOE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0xNDc2LnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CUdRVGHSJqgDxKBOg4i7C6JjQCkx_vs9EUZi5aUN1ss/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTU4MDI3NzIz/OS00NDIwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/CUdRVGHSJqgDxKBOg4i7C6JjQCkx_vs9EUZi5aUN1ss/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTU4MDI3NzIz/OS00NDIwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/bSd-pc9RwbotPFjp4_PR6f_x6_dFmdRD6vA7jekhoy0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTU4MDI3NzIz/OS00NDIwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/lT2rT9yetBqi9tz1xH_DcLk9bWwTn80xZ2tZOjMYiaM/rs:fit/g:sm/q:90/h:806/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTE1/NC00OTAwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/lT2rT9yetBqi9tz1xH_DcLk9bWwTn80xZ2tZOjMYiaM/rs:fit/g:sm/q:90/h:806/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTE1/NC00OTAwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/TwzQcbhhci51gITnSpfPR3tBQL75jDwf-HYGorYbD9A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTE1/NC00OTAwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 806
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/NP70cWeI2A6O_wGObYRC4dVXKZTurIdxT4A6WLUHjUs/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODgx/MC0yMjk0LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/NP70cWeI2A6O_wGObYRC4dVXKZTurIdxT4A6WLUHjUs/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODgx/MC0yMjk0LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/jjR9qu5se--H-pIYK5_Tmktqh78qjcC_A5oit2wB0pE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODgx/MC0yMjk0LmpwZWc.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/K906Oyjo6bvAWz223vWaHM_asZ9OuKkBj24AaxAkig4/rs:fit/g:sm/q:90/h:812/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODg1/OC00MDc1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/K906Oyjo6bvAWz223vWaHM_asZ9OuKkBj24AaxAkig4/rs:fit/g:sm/q:90/h:812/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODg1/OC00MDc1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/e2wvp_PdKTuF7RCY65xigRXwmirupYEpdr0PqYzqsCU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODg1/OC00MDc1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 812
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/crtgjR9_WcN_YXr1Jz3p3SfKQaOMys3uzyrCi2ioL0E/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTIy/MC04NzIwLnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/crtgjR9_WcN_YXr1Jz3p3SfKQaOMys3uzyrCi2ioL0E/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTIy/MC04NzIwLnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/K7WraoHiYJ-IGX1FcfbiO7t_VekxnSBminwCuRqpBJU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4OTIy/MC04NzIwLnBuZw.jpeg",
+                "width": 600,
+                "height": 595
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/iEPhLJVBdgHML-5i0qg2AxcQx_ywhNd8UYqEYJEw_8c/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODkx/MC05NzMxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/iEPhLJVBdgHML-5i0qg2AxcQx_ywhNd8UYqEYJEw_8c/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODkx/MC05NzMxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/fq0PC5aeLVNxAG9Ubjd6h9vuEzD8cH8Pj_r--7EdECw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODkx/MC05NzMxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 784
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5ODpuaEFQ9W-XfcdXSqBA2uhyzoMg4ucFWg_viflX7A/rs:fit/g:sm/q:90/h:413/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk2/Ny0zNTQ5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/5ODpuaEFQ9W-XfcdXSqBA2uhyzoMg4ucFWg_viflX7A/rs:fit/g:sm/q:90/h:413/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk2/Ny0zNTQ5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/pi7hhpQFG3lGf6THixYwbgIYsP2DffDAtGm502CAgQI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk2/Ny0zNTQ5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 413
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/OMx72BxOD8pKOaGb96J112p4Sen896zey5FziwkL5mY/rs:fit/g:sm/q:90/h:731/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk5/NC0xODM1LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/OMx72BxOD8pKOaGb96J112p4Sen896zey5FziwkL5mY/rs:fit/g:sm/q:90/h:731/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk5/NC0xODM1LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/ba4Yi24N_11583Yna8H4v5Ur_dyckXkd24uPtERC8n8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTY1NTU4ODk5/NC0xODM1LnBuZw.jpeg",
+                "width": 600,
+                "height": 731
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3L15v4mfuN55MI6unsOiKXEbWL8mTgUnUnMRMA6SZMI/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05ODY2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/3L15v4mfuN55MI6unsOiKXEbWL8mTgUnUnMRMA6SZMI/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05ODY2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/jUwZTMy3WgVS-VQlD4MsLF9UvPntan7LXAAeYEyrr_s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05ODY2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 381
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CE2hLWtMzsdE_ilJtOk2vrtCmTPQi6P0dTcH3ssqfGk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0zNzYxLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/CE2hLWtMzsdE_ilJtOk2vrtCmTPQi6P0dTcH3ssqfGk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0zNzYxLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/8Vv8oZR2WuSAXL-aihTOxRDRiadbJJDD5Va9BSKGjVs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ny0zNzYxLmpwZWc.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/z9HHCeUlhgU8wEp2Xam-VSr53HKRUDEMzw2XTkNkI-I/rs:fit/g:sm/q:90/h:775/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05MDQyLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/z9HHCeUlhgU8wEp2Xam-VSr53HKRUDEMzw2XTkNkI-I/rs:fit/g:sm/q:90/h:775/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05MDQyLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/BdV-R4vw7xNBQoiwgj_pcvLXExVvNinXTYzBiWp2zOQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni05MDQyLmpwZWc.jpeg",
+                "width": 600,
+                "height": 775
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/dH2gD7aTi9S4AVn8UYDBjyFUdOJdEcUxD-HTNzSw69c/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni02MTY2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/dH2gD7aTi9S4AVn8UYDBjyFUdOJdEcUxD-HTNzSw69c/rs:fit/g:sm/q:90/h:381/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni02MTY2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/SlzvhvtCX4r9TPggFy__MRpuoDk4wc16BHtJSq7_BLA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwNTI1NzM1/Ni02MTY2LmpwZWc.jpeg",
+                "width": 600,
+                "height": 381
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Dd-JBCGTe-LSvc_Kea4a9Ex59v60L-tG6y2hLs18WRY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05NDI5LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/Dd-JBCGTe-LSvc_Kea4a9Ex59v60L-tG6y2hLs18WRY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05NDI5LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/ozHfBEOjMVbD-Iw4QxEhruCyCEYer7T4jgWliqlVvPI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05NDI5LnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Iq0bk_F1eCOqFva3WESiLZONv8lDNYpRUaKLTUy3xwI/rs:fit/g:sm/q:90/h:535/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0yMDk4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Iq0bk_F1eCOqFva3WESiLZONv8lDNYpRUaKLTUy3xwI/rs:fit/g:sm/q:90/h:535/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0yMDk4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Gksd7WG__vU8HGiXZBDuV8LgPAeu0h8m1WJCqzjsvi0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0yMDk4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 535
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Hb-jXsmRYiV-pYqdRKPaIVJVjdFfvJaHqm53yTN1ozE/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My02OTM1LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Hb-jXsmRYiV-pYqdRKPaIVJVjdFfvJaHqm53yTN1ozE/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My02OTM1LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/0OpEwCj1Jk41EMf6rckLiPg3s7T9meKONhqayuHiKa0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My02OTM1LmpwZWc.jpeg",
+                "width": 600,
+                "height": 524
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SOnYI0rtmqZfuWNoHIHNVLTOsIDXvUbvwSjrqSjZ334/rs:fit/g:sm/q:90/h:743/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/NC04MDE4LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/SOnYI0rtmqZfuWNoHIHNVLTOsIDXvUbvwSjrqSjZ334/rs:fit/g:sm/q:90/h:743/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/NC04MDE4LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Tdt6nA4ILKvvIsFuRJ9S01NqkNly02pEGh46pfmWobg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/NC04MDE4LmpwZWc.jpeg",
+                "width": 600,
+                "height": 743
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/7_mfc9LUrEJfnLiXPxsvUgLsAMpU5KYthj3xZGegYQE/rs:fit/g:sm/q:90/h:821/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0xMDgwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/7_mfc9LUrEJfnLiXPxsvUgLsAMpU5KYthj3xZGegYQE/rs:fit/g:sm/q:90/h:821/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0xMDgwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Qgl0-xzf7ZDleg2OIJhGWhHP42b9YjEaFKwu56CAMGM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0xMDgwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 821
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/jic27MNeBDIwLc4OfCgf9zEmx6TaBhwQzv2_trFVjLo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0zNDk5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/jic27MNeBDIwLc4OfCgf9zEmx6TaBhwQzv2_trFVjLo/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0zNDk5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/0VUq237ju4BQopWqvVYCAHD3XypzeFjVxis4RlBivpw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My0zNDk5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3fU0e_xrk8WKiBfvN9XZQuLT6VfrhUcRs_JNG0TFo28/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05OTAwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/3fU0e_xrk8WKiBfvN9XZQuLT6VfrhUcRs_JNG0TFo28/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05OTAwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/7RVScogWUHcOmAnK4JBvbA50UdwEDgEp2BoGAGZivmI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjk2/MTYtMTcwOTcyMTU0/My05OTAwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 600
+              }
+            ],
+            "realname": "Caroline Elizabeth Polachek",
+            "profile": "Caroline Elizabeth Polachek (born June 20, 1985) simply known as Caroline Polachek is an American singer, producer, and songwriter.\r\nRaised in Connecticut, Polachek co-founded the indie pop band [a=Chairlift] while studying at the University of Colorado. ",
+            "urls": [
+              "http://www.carolinepolachek.com",
+              "http://carolinepolachek.bandcamp.com",
+              "http://www.facebook.com/CarolinePolachekMusic",
+              "http://www.instagram.com/carolineplz",
+              "",
+              "http://www.twitter.com/carolineplz",
+              "http://en.wikipedia.org/wiki/Caroline_Polachek",
+              "http://www.youtube.com/CarolinePolachek"
+            ],
+            "namevariations": [
+              "Caroline Elizabeth Polachek",
+              "Caroline Polacheck"
+            ],
+            "aliases": [
+              {
+                "id": 3734963,
+                "name": "Ramona Lisa",
+                "resource_url": "https://api.discogs.com/artists/3734963"
+              },
+              {
+                "id": 6504459,
+                "name": "CEP (2)",
+                "resource_url": "https://api.discogs.com/artists/6504459"
+              }
+            ],
+            "groups": [
+              {
+                "id": 1250675,
+                "name": "Chairlift",
+                "resource_url": "https://api.discogs.com/artists/1250675",
+                "active": true
+              },
+              {
+                "id": 8756110,
+                "name": "DJ Ocean",
+                "resource_url": "https://api.discogs.com/artists/8756110",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "3734963": {
+          "artist": {
+            "discogsArtistId": "3734963",
+            "name": "Ramona Lisa",
+            "realName": null,
+            "profile": null,
+            "artistUrls": [
+              "http://www.theramonalisa.com",
+              "https://www.facebook.com/theeramonalisa",
+              "https://ramonalisa.bandcamp.com/"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "1269616",
+                "name": "Caroline Polachek"
+              },
+              {
+                "discogsArtistId": "6504459",
+                "name": "CEP (2)"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/3734963",
+            "discogsWebUrl": "https://www.discogs.com/artist/3734963-Ramona-Lisa",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Ramona Lisa",
+            "id": 3734963,
+            "resource_url": "https://api.discogs.com/artists/3734963",
+            "uri": "https://www.discogs.com/artist/3734963-Ramona-Lisa",
+            "releases_url": "https://api.discogs.com/artists/3734963/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/nBqwP_fonT9yNDb4YMniNilEMMKRlF1ZM5utCdrDF9s/rs:fit/g:sm/q:90/h:276/w:460/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI3/My05MTI2LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/nBqwP_fonT9yNDb4YMniNilEMMKRlF1ZM5utCdrDF9s/rs:fit/g:sm/q:90/h:276/w:460/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI3/My05MTI2LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/LWk_Fc5yopViq8OEYdGVQkUMbrzUcJzknDjXmO0WJ7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI3/My05MTI2LmpwZWc.jpeg",
+                "width": 460,
+                "height": 276
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2--sEyD2nwmeV7985AZneplRaFGzG8fejOzDaQIoyWI/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI4/NS0yNDk3LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/2--sEyD2nwmeV7985AZneplRaFGzG8fejOzDaQIoyWI/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI4/NS0yNDk3LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/1oK_s6DnM6eNAtTJbTwSUceIlr5ckrb3bQV_UsNnWfE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDI4/NS0yNDk3LmpwZWc.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/bWfxprcn4W7LuIwhSm3SPhMkunBhF4XOjvvC1F6fUnk/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDMw/NC0yMTI5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/bWfxprcn4W7LuIwhSm3SPhMkunBhF4XOjvvC1F6fUnk/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDMw/NC0yMTI5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/Qi33lyUXd7NqdNTG0jN7B4_H61wdB1hkmmzZ7PVIA4A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM3MzQ5/NjMtMTQwMDQ0MDMw/NC0yMTI5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 400
+              }
+            ],
+            "profile": "",
+            "urls": [
+              "http://www.theramonalisa.com",
+              "https://www.facebook.com/theeramonalisa",
+              "https://ramonalisa.bandcamp.com/"
+            ],
+            "aliases": [
+              {
+                "id": 1269616,
+                "name": "Caroline Polachek",
+                "resource_url": "https://api.discogs.com/artists/1269616"
+              },
+              {
+                "id": 6504459,
+                "name": "CEP (2)",
+                "resource_url": "https://api.discogs.com/artists/6504459"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "6504459": {
+          "artist": {
+            "discogsArtistId": "6504459",
+            "name": "CEP (2)",
+            "realName": "Caroline Polachek",
+            "profile": null,
+            "artistUrls": [],
+            "aliases": [
+              {
+                "discogsArtistId": "1269616",
+                "name": "Caroline Polachek"
+              },
+              {
+                "discogsArtistId": "3734963",
+                "name": "Ramona Lisa"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/6504459",
+            "discogsWebUrl": "https://www.discogs.com/artist/6504459-CEP-2",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "CEP (2)",
+            "id": 6504459,
+            "resource_url": "https://api.discogs.com/artists/6504459",
+            "uri": "https://www.discogs.com/artist/6504459-CEP-2",
+            "releases_url": "https://api.discogs.com/artists/6504459/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/ERJHaBD3CFaiymxeqxXW3TU-dQ4sj7BgmuaNTS3qucc/rs:fit/g:sm/q:90/h:403/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDQ0/NTktMTU5NDkyMzIy/MC02NzIwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/ERJHaBD3CFaiymxeqxXW3TU-dQ4sj7BgmuaNTS3qucc/rs:fit/g:sm/q:90/h:403/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDQ0/NTktMTU5NDkyMzIy/MC02NzIwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/jOk_9sYp_zrLSoxIGwOm27ghzyw4lkaTJaj_fXbpmko/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY1MDQ0/NTktMTU5NDkyMzIy/MC02NzIwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 403
+              }
+            ],
+            "realname": "Caroline Polachek",
+            "profile": "",
+            "aliases": [
+              {
+                "id": 1269616,
+                "name": "Caroline Polachek",
+                "resource_url": "https://api.discogs.com/artists/1269616"
+              },
+              {
+                "id": 3734963,
+                "name": "Ramona Lisa",
+                "resource_url": "https://api.discogs.com/artists/3734963"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "d8f43dc5-4613-48ac-8c23-a62b82f8c67a": {
+          "releaseCount": 54,
+          "distinctiveTitles": [
+            "spalarkle alys",
+            "dang",
+            "ocean of tears umru remix",
+            "so hot you re hurting my feelings",
+            "the field",
+            "welcome to my island",
+            "big bills",
+            "desire i want to turn into you",
+            "gloss coma 001",
+            "bunny is a rider remix",
+            "parachute",
+            "last days non voglio mai vedere il sole tramontare",
+            "la vita nuova",
+            "everything is romantic",
+            "ashes of love",
+            "live on kexp 2023 07 25 caroline polachek",
+            "welcome to my island pva remix",
+            "breathless",
+            "hit me where it hurts toro y moi remix",
+            "the boy who i ll see again",
+            "blood and butter",
+            "early hours",
+            "butterfly net",
+            "azimuth edit",
+            "tell me i never knew that",
+            "some small hope",
+            "welcome to my island remixes",
+            "pang",
+            "azimuth",
+            "hit me where it hurts x",
+            "tiny desk concerts 2023 10 10 caroline polacheck",
+            "billions",
+            "door",
+            "dang kinoteki kelbin bootleg",
+            "hey big eyes george clanton remix",
+            "ocean of tears",
+            "the gate extended mix",
+            "new shapes",
+            "welcome to my island george daniel charli xcx remix",
+            "bunny is a rider",
+            "so hot you re hurting my feelings a g cook remix",
+            "in the crew of tea time",
+            "starburned and unkissed",
+            "on the beach",
+            "look at me now",
+            "bang bang",
+            "la vita nuova remixes",
+            "sirens",
+            "standing at the gate remix collection",
+            "marzipan",
+            "live on kexp 2020 06 23 caroline polachek",
+            "sunset",
+            "mind loaded",
+            "door oklou remix"
+          ],
+          "earliestYear": 2008,
+          "latestYear": 2025
+        },
+        "88f00506-4b30-45b3-b4f7-cdddaf16b739": {
+          "releaseCount": 1,
+          "distinctiveTitles": [
+            "drawing the target around the arrow"
+          ],
+          "earliestYear": 2017,
+          "latestYear": 2017
+        },
+        "a32d76a0-a8d4-48fc-9525-b5b4e45036ac": {
+          "releaseCount": 3,
+          "distinctiveTitles": [
+            "piano versions",
+            "dominic",
+            "arcadia"
+          ],
+          "earliestYear": 2014,
+          "latestYear": 2015
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "4Ge8xMJNwt6EEXOzVXju9a",
+        "wikidataQid": "Q17086369",
+        "name": "Caroline Polachek",
+        "musicBrainzArtistId": null,
+        "discogsArtistId": null,
+        "musicBrainzArtistIds": [
+          "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+          "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+          "a32d76a0-a8d4-48fc-9525-b5b4e45036ac"
+        ],
+        "discogsArtistIds": [
+          "1269616",
+          "6504459",
+          "3734963"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4Ge8xMJNwt6EEXOzVXju9a",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q17086369",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "d8f43dc5-4613-48ac-8c23-a62b82f8c67a",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "88f00506-4b30-45b3-b4f7-cdddaf16b739",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "a32d76a0-a8d4-48fc-9525-b5b4e45036ac",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "1269616",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "6504459",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3734963",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/1269616.json",
+    "provider-cache/v1/discogs/artist/3734963.json",
+    "provider-cache/v1/discogs/artist/6504459.json",
+    "provider-cache/v1/musicbrainz/artist/88f00506-4b30-45b3-b4f7-cdddaf16b739.json",
+    "provider-cache/v1/musicbrainz/artist/a32d76a0-a8d4-48fc-9525-b5b4e45036ac.json",
+    "provider-cache/v1/musicbrainz/artist/d8f43dc5-4613-48ac-8c23-a62b82f8c67a.json",
+    "provider-cache/v1/musicbrainz/release-groups/88f00506-4b30-45b3-b4f7-cdddaf16b739.json",
+    "provider-cache/v1/musicbrainz/release-groups/a32d76a0-a8d4-48fc-9525-b5b4e45036ac.json",
+    "provider-cache/v1/musicbrainz/release-groups/d8f43dc5-4613-48ac-8c23-a62b82f8c67a.json",
+    "provider-cache/v1/wikidata/spotify-bridge/4Ge8xMJNwt6EEXOzVXju9a.json"
+  ]
+}

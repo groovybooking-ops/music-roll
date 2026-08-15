@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "e85e7c806fb7808275a7c629",
+  "retrievedAt": "2026-08-14T21:44:14.183Z",
+  "value": {
+    "requestedName": "Ravyn Lenae",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+        "name": "Ravyn Lenae",
+        "sortName": "Lenae, Ravyn",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:44:14.155Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "94c64122-dbd4-4927-b2fa-f204b0b4b0c2",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Ravyn Lenae",
+          "sort-name": "Lenae, Ravyn",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Chicago",
+            "sort-name": "Chicago",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "isnis": [
+            "0000000466007416"
+          ],
+          "life-span": {
+            "begin": "1999-01-22",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Washington, Ravyn Lenae",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Ravyn Lenae Washington",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 2,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "singer-songwriter"
+            },
+            {
+              "count": 2,
+              "name": "neo soul"
+            },
+            {
+              "count": 2,
+              "name": "r&b"
+            },
+            {
+              "count": 2,
+              "name": "contemporary r&b"
+            },
+            {
+              "count": 2,
+              "name": "alternative r&b"
+            },
+            {
+              "count": 1,
+              "name": "2020s"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

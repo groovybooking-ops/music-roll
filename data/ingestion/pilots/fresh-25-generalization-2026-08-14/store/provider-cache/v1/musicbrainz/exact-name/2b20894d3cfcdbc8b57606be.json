@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "2b20894d3cfcdbc8b57606be",
+  "retrievedAt": "2026-08-14T21:44:23.824Z",
+  "value": {
+    "requestedName": "Cleo Sol",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "37e87694-b263-4ff4-839f-463f78cfef54",
+        "name": "Cleo Sol",
+        "sortName": "Sol, Cleo",
+        "artistType": "Person",
+        "country": "GB",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-14T21:44:23.792Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "37e87694-b263-4ff4-839f-463f78cfef54",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Cleo Sol",
+          "sort-name": "Sol, Cleo",
+          "gender": "female",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "00660949024",
+            "00660949122"
+          ],
+          "isnis": [
+            "0000000407734736"
+          ],
+          "life-span": {
+            "begin": "1991-03-24",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Nikolic, Cleopatra",
+              "name": "Cleopatra Nikolic",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Nikolic, Cleopatra Zvezdana",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Cleopatra Zvezdana Nikolic",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "neo-soul"
+            },
+            {
+              "count": 1,
+              "name": "acoustic"
+            },
+            {
+              "count": 1,
+              "name": "soul"
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "count": 1,
+              "name": "r&b/soul"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

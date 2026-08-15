@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "936a1d22-e8c4-4940-876e-09b47190d571",
+  "retrievedAt": "2026-08-14T21:46:12.757Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "936a1d22-e8c4-4940-876e-09b47190d571",
+      "name": "TURNSTiLE",
+      "sortName": "TURNSTiLE",
+      "artistType": "Group",
+      "disambiguation": "US modern rock band",
+      "country": "US",
+      "area": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "name": "Los Angeles",
+        "sortName": "Los Angeles",
+        "type": null
+      },
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": "2000",
+        "end": null,
+        "ended": true
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "free streaming",
+          "url": "https://open.spotify.com/artist/53CqZPLKFa4OsovaNByApg"
+        }
+      ]
+    },
+    "raw": {
+      "type": "Group",
+      "relations": [
+        {
+          "type": "free streaming",
+          "ended": false,
+          "url": {
+            "id": "ff0ccc7b-61c9-4229-9f08-211c00dc62e6",
+            "resource": "https://open.spotify.com/artist/53CqZPLKFa4OsovaNByApg"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "source-credit": "",
+          "attribute-ids": {},
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+          "end": null,
+          "target-type": "url",
+          "attribute-values": {},
+          "direction": "forward",
+          "begin": null
+        }
+      ],
+      "aliases": [],
+      "country": "US",
+      "area": {
+        "sort-name": "Los Angeles",
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "name": "Los Angeles",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null
+      },
+      "life-span": {
+        "begin": "2000",
+        "end": null,
+        "ended": true
+      },
+      "ipis": [],
+      "name": "TURNSTiLE",
+      "disambiguation": "US modern rock band",
+      "sort-name": "TURNSTiLE",
+      "isnis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "gender-id": null,
+      "begin-area": null,
+      "end-area": null,
+      "gender": null,
+      "id": "936a1d22-e8c4-4940-876e-09b47190d571"
+    }
+  }
+}

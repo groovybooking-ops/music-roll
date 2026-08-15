@@ -1,0 +1,1549 @@
+{
+  "evidenceId": "sha256:c61c955a0d001e7afaa451bc975f770cbde8992c7d6e482c89b985c52a04ee9e",
+  "createdAt": "2026-08-14T21:45:43.442Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a0023b-31c8-7957-8ccd-b58d5af5c0a2",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Rina Sawayama",
+        "spotifyArtistId": "2KEqzdPS7M5YwGmiuPTdr5"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2KEqzdPS7M5YwGmiuPTdr5",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2KEqzdPS7M5YwGmiuPTdr5",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28840001",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3371472",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3371472",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2KEqzdPS7M5YwGmiuPTdr5",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28840001",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3371472",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3371472"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "2KEqzdPS7M5YwGmiuPTdr5",
+          "observedValues": [
+            "2KEqzdPS7M5YwGmiuPTdr5"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2KEqzdPS7M5YwGmiuPTdr5",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2KEqzdPS7M5YwGmiuPTdr5",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "2KEqzdPS7M5YwGmiuPTdr5",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q28840001",
+          "observedValues": [
+            "Q28840001"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28840001",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q28840001",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "observedValues": [
+            "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "3371472",
+          "observedValues": [
+            "3371472"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3371472",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3371472",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "52494f9b-789d-4467-bcaf-9915e70cc8f6"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3371472",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "3371472"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+            "name": "Rina Sawayama",
+            "sortName": "Sawayama, Rina",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "2KEqzdPS7M5YwGmiuPTdr5"
+            ],
+            "discogsArtistIds": [
+              "3371472"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "52494f9b-789d-4467-bcaf-9915e70cc8f6": {
+          "artist": {
+            "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+            "name": "Rina Sawayama",
+            "sortName": "Sawayama, Rina",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+              "name": "England",
+              "sortName": "England",
+              "type": null
+            },
+            "beginArea": {
+              "id": "aa0ff6be-73ce-4f96-91f3-dfb9fcba2f70",
+              "name": "Niigata",
+              "sortName": "Niigata",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1990-08-16",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "リナ・サワヤマ",
+                "sortName": "澤山 リナ",
+                "type": "Artist name",
+                "locale": "ja",
+                "primary": false
+              },
+              {
+                "name": "澤山 リナ",
+                "sortName": "澤山 リナ",
+                "type": "Legal name",
+                "locale": "ja",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000465609271"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0003639509"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://rinasawayama.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/6429394"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/3371472"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/2KEqzdPS7M5YwGmiuPTdr5"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/4680004"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:Rina_Sawayama_04_30_2018_-47_(43206474541)_(cropped).jpg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm4680793/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Rina+Sawayama"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Rina-sawayama"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.rina.online/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/rina-sawayama"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/rina-sawayama"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.themoviedb.org/person/2337629"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://play.google.com/store/music/artist?id=Amrhbqvdy6s6xqluhpq743atzhq"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/gb/artist/id638343826"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/638343826"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://open.qobuz.com/artist/2038380"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.junodownload.com/artists/Rina+Sawayama/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=1910706"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.7digital.com/artist/rina-sawayama"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://store.dirtyhit.co.uk/artist.html?a=rina_sawayama"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/rinasawayama"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/rinasawayamamusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/rinasonline/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/9164924"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/rinasawayama"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/638343826"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/mx/artist/638343826"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/2038380"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/4905050"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=1910706"
+              },
+              {
+                "relationshipType": "ticketing",
+                "url": "https://www.livenation.co.uk/artist-1159943"
+              },
+              {
+                "relationshipType": "ticketing",
+                "url": "https://www.ticketmaster.co.uk/artist/5240730"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q28840001"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCkqmTuhxME9RpAZY9f3hhsA"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/user/rinasawayama"
+              }
+            ]
+          },
+          "raw": {
+            "type": "Person",
+            "name": "Rina Sawayama",
+            "sort-name": "Sawayama, Rina",
+            "isnis": [
+              "0000000465609271"
+            ],
+            "disambiguation": "",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "begin-area": {
+              "sort-name": "Niigata",
+              "type": null,
+              "name": "Niigata",
+              "disambiguation": "",
+              "type-id": null,
+              "id": "aa0ff6be-73ce-4f96-91f3-dfb9fcba2f70"
+            },
+            "relations": [
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "49163c09-a59f-47bb-9b1f-cb2aca26ede2",
+                  "resource": "https://www.allmusic.com/artist/mn0003639509"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "allmusic",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+              },
+              {
+                "type": "bandcamp",
+                "attribute-values": {},
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "source-credit": "",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "f3984baf-7c69-40f5-88e4-10de79a3ba02",
+                  "resource": "https://rinasawayama.bandcamp.com/"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "type": "bandsintown",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "target-credit": "",
+                "url": {
+                  "id": "ba695b08-12fb-41d6-9989-a2352d32d2b3",
+                  "resource": "https://www.bandsintown.com/a/6429394"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "resource": "https://www.discogs.com/artist/3371472",
+                  "id": "ff667abd-b43f-4421-8dde-b87b1f54d770"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "attribute-values": {},
+                "type": "discogs"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "free streaming",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "5f4e96d5-8161-4c98-8367-5962457b4e12",
+                  "resource": "https://open.spotify.com/artist/2KEqzdPS7M5YwGmiuPTdr5"
+                },
+                "direction": "forward",
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "type": "free streaming",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "id": "15f2f99f-4332-4221-96f4-8ba28e6d0a39",
+                  "resource": "https://www.deezer.com/artist/4680004"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "119b1bb0-5969-4abd-b92d-5a18585c02bf",
+                  "resource": "https://commons.wikimedia.org/wiki/File:Rina_Sawayama_04_30_2018_-47_(43206474541)_(cropped).jpg"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "source-credit": "",
+                "end": null,
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "image"
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm4680793/",
+                  "id": "05b0f5fa-069a-4af4-8b10-6edc35707878"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "target-credit": "",
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "source-credit": "",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "type": "IMDb",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "e8a02355-eef8-4443-9550-f4e06434a1db",
+                  "resource": "https://www.last.fm/music/Rina+Sawayama"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "last.fm",
+                "attributes": [],
+                "ended": false,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "source-credit": "",
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://genius.com/artists/Rina-sawayama",
+                  "id": "ab091809-a1b9-4456-8cc4-9f9982620d22"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "lyrics",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "ended": false,
+                "attributes": []
+              },
+              {
+                "url": {
+                  "id": "dbc4f5e0-900d-4e22-892b-5689a64c3cf9",
+                  "resource": "https://www.rina.online/"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "type": "official homepage",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "id": "b79472d0-8c3c-4a6a-bad3-fb1958fd0e30",
+                  "resource": "https://imvdb.com/n/rina-sawayama"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "other databases",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "target-credit": "",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "url": {
+                  "id": "a5d4abbb-8e8b-4889-8fa7-92d61096fd21",
+                  "resource": "https://rateyourmusic.com/artist/rina-sawayama"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "other databases",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "type": "other databases",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "68455c31-3c79-4d11-a1d1-c85de1cbf087",
+                  "resource": "https://www.themoviedb.org/person/2337629"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url"
+              },
+              {
+                "type": "purchase for download",
+                "attribute-values": {},
+                "end": "2020-10-12",
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "ended": true,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://play.google.com/store/music/artist?id=Amrhbqvdy6s6xqluhpq743atzhq",
+                  "id": "707acd1d-8b19-40a4-b301-aed621b64029"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://itunes.apple.com/gb/artist/id638343826",
+                  "id": "ae09add5-037e-4220-9615-8055b2f2aca5"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "type": "purchase for download"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "id": "e1db2d0b-7ada-4b03-b23e-6b69f1904aa3",
+                  "resource": "https://music.apple.com/gb/artist/638343826"
+                },
+                "target-credit": ""
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.qobuz.com/artist/2038380",
+                  "id": "8019882b-3d79-4fce-aa47-ecfbf26b3ea2"
+                },
+                "attribute-values": {},
+                "type": "purchase for download",
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "target-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.junodownload.com/artists/Rina+Sawayama/",
+                  "id": "b4990538-3647-437d-97c5-a16a34daf740"
+                },
+                "direction": "forward",
+                "attribute-values": {},
+                "type": "purchase for download",
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attributes": [],
+                "ended": false
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "type": "purchase for download",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=1910706",
+                  "id": "6cc03f15-5a54-43a4-9271-94895bc55016"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "attribute-values": {},
+                "type": "purchase for download",
+                "attributes": [],
+                "ended": true,
+                "source-credit": "",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "target-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.7digital.com/artist/rina-sawayama",
+                  "id": "68b9264a-b08d-4606-b84f-9a9ac4441301"
+                }
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "d00db305-9bdf-4b66-bd89-3fa5621f0e7d",
+                  "resource": "https://store.dirtyhit.co.uk/artist.html?a=rina_sawayama"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "attribute-values": {},
+                "type": "purchase for mail-order"
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://twitter.com/rinasawayama",
+                  "id": "7d9093e8-6687-424b-a759-dfc1dc024c00"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "social network",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null
+              },
+              {
+                "attribute-values": {},
+                "type": "social network",
+                "attributes": [],
+                "ended": false,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "source-credit": "",
+                "end": null,
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.facebook.com/rinasawayamamusic",
+                  "id": "20457ce6-5093-4977-87d2-48c6503c538c"
+                }
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "source-credit": "",
+                "end": null,
+                "type": "social network",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.instagram.com/rinasonline/",
+                  "id": "4ced8083-6a57-41ad-bafb-3c8b37a59de0"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "type": "songkick",
+                "attribute-values": {},
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/9164924",
+                  "id": "53190a6b-6672-4685-bed1-18d5cfad38d7"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "url": {
+                  "resource": "https://soundcloud.com/rinasawayama",
+                  "id": "49f7aaa6-7ae6-4e56-b12a-ecc60926368e"
+                },
+                "direction": "forward",
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "attribute-values": {},
+                "type": "soundcloud"
+              },
+              {
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "ended": false,
+                "attributes": [],
+                "type": "streaming",
+                "attribute-values": {},
+                "url": {
+                  "id": "e1db2d0b-7ada-4b03-b23e-6b69f1904aa3",
+                  "resource": "https://music.apple.com/gb/artist/638343826"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://music.apple.com/mx/artist/638343826",
+                  "id": "d34de925-69b7-47ee-a544-835cd8bddbbe"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "type": "streaming",
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "end": null,
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "8019882b-3d79-4fce-aa47-ecfbf26b3ea2",
+                  "resource": "https://open.qobuz.com/artist/2038380"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "ended": false,
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "type": "streaming",
+                "attribute-values": {},
+                "url": {
+                  "id": "0f1bbbe7-b709-418b-9ef1-a03f304073e3",
+                  "resource": "https://tidal.com/artist/4905050"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": ""
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "6cc03f15-5a54-43a4-9271-94895bc55016",
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=1910706"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "ended": false,
+                "end": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "type": "streaming"
+              },
+              {
+                "type": "ticketing",
+                "attribute-values": {},
+                "source-credit": "",
+                "end": null,
+                "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+                "ended": false,
+                "attributes": [],
+                "target-credit": "",
+                "direction": "forward",
+                "url": {
+                  "id": "6ad5f995-3c8a-4aca-9b53-c5c2dc64bce6",
+                  "resource": "https://www.livenation.co.uk/artist-1159943"
+                },
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {}
+              },
+              {
+                "url": {
+                  "id": "c6d4e434-6a3f-464b-85f8-05a603ea13d3",
+                  "resource": "https://www.ticketmaster.co.uk/artist/5240730"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "target-credit": "",
+                "ended": false,
+                "attributes": [],
+                "end": null,
+                "source-credit": "",
+                "type-id": "34beaf28-cbdd-4bf7-bc41-e7de18135245",
+                "type": "ticketing",
+                "attribute-values": {}
+              },
+              {
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q28840001",
+                  "id": "dfe69ae6-dc39-476e-9498-f5bbb3dff3f6"
+                },
+                "begin": null,
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "source-credit": "",
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "ended": false,
+                "attributes": [],
+                "type": "wikidata",
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "attribute-ids": {},
+                "direction": "forward",
+                "url": {
+                  "id": "de368e4e-b936-4ce1-8b76-b62f74336901",
+                  "resource": "https://www.youtube.com/channel/UCkqmTuhxME9RpAZY9f3hhsA"
+                },
+                "attribute-values": {},
+                "type": "youtube",
+                "attributes": [],
+                "ended": false,
+                "source-credit": "",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null
+              },
+              {
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/user/rinasawayama",
+                  "id": "0b31f031-39e7-4a5e-a9c8-42cdb6033477"
+                },
+                "direction": "forward",
+                "attribute-ids": {},
+                "target-type": "url",
+                "begin": null,
+                "type": "youtube",
+                "attribute-values": {},
+                "source-credit": "",
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "ended": false,
+                "attributes": []
+              }
+            ],
+            "life-span": {
+              "begin": "1990-08-16",
+              "end": null,
+              "ended": false
+            },
+            "end-area": null,
+            "id": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+            "area": {
+              "disambiguation": "",
+              "iso-3166-2-codes": [
+                "GB-ENG"
+              ],
+              "name": "England",
+              "type": null,
+              "sort-name": "England",
+              "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+              "type-id": null
+            },
+            "ipis": [
+              "00724106869"
+            ],
+            "gender": "Female",
+            "country": "GB",
+            "aliases": [
+              {
+                "name": "リナ・サワヤマ",
+                "type": "Artist name",
+                "sort-name": "澤山 リナ",
+                "primary": false,
+                "end": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "begin": null,
+                "ended": false,
+                "locale": "ja"
+              },
+              {
+                "locale": "ja",
+                "ended": false,
+                "begin": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null,
+                "primary": true,
+                "sort-name": "澤山 リナ",
+                "name": "澤山 リナ",
+                "type": "Legal name"
+              }
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "3371472": {
+          "artist": {
+            "discogsArtistId": "3371472",
+            "name": "Rina Sawayama",
+            "realName": null,
+            "profile": "Rina Sawayama (Japanese: リナ サワヤマ; born 16 August 1990) is a Japanese-born British singer, songwriter and model.\r\nBorn in Niigata, Japan, she was raised from a young age in London, where she currently resides.",
+            "artistUrls": [
+              "https://www.rina.online/",
+              "https://rinasawayama.bandcamp.com/",
+              "https://www.facebook.com/rinasawayamamusic/",
+              "https://www.instagram.com/rinasonline/",
+              "https://www.last.fm/music/Rina+Sawayama",
+              "https://www.songkick.com/artists/9164924-rina-sawayama",
+              "https://soundcloud.com/rinasawayama",
+              "https://twitter.com/rinasawayama",
+              "https://twitter.com/rinasawayama_jp",
+              "https://en.wikipedia.org/wiki/Rina_Sawayama",
+              "https://www.youtube.com/user/rinasawayama",
+              "https://www.youtube.com/channel/UCkqmTuhxME9RpAZY9f3hhsA"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "Rina Siwayama"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/3371472",
+            "discogsWebUrl": "https://www.discogs.com/artist/3371472-Rina-Sawayama",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Rina Sawayama",
+            "id": 3371472,
+            "resource_url": "https://api.discogs.com/artists/3371472",
+            "uri": "https://www.discogs.com/artist/3371472-Rina-Sawayama",
+            "releases_url": "https://api.discogs.com/artists/3371472/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/lx9fbl8ktDckSfNyu3uJSZiaSjHjH_Z1xkBAA61WsZM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMzNzE0/NzItMTc3NTMyNjQw/My0xMTY1LnBuZw.jpeg",
+                "resource_url": "https://i.discogs.com/lx9fbl8ktDckSfNyu3uJSZiaSjHjH_Z1xkBAA61WsZM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMzNzE0/NzItMTc3NTMyNjQw/My0xMTY1LnBuZw.jpeg",
+                "uri150": "https://i.discogs.com/7IJlxLk_PXqI8EEPAitnK-xVNvJaB_mW9eifbZIzbHM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTMzNzE0/NzItMTc3NTMyNjQw/My0xMTY1LnBuZw.jpeg",
+                "width": 600,
+                "height": 600
+              }
+            ],
+            "profile": "Rina Sawayama (Japanese: リナ サワヤマ; born 16 August 1990) is a Japanese-born British singer, songwriter and model.\r\nBorn in Niigata, Japan, she was raised from a young age in London, where she currently resides.",
+            "urls": [
+              "https://www.rina.online/",
+              "https://rinasawayama.bandcamp.com/",
+              "https://www.facebook.com/rinasawayamamusic/",
+              "https://www.instagram.com/rinasonline/",
+              "https://www.last.fm/music/Rina+Sawayama",
+              "https://www.songkick.com/artists/9164924-rina-sawayama",
+              "https://soundcloud.com/rinasawayama",
+              "https://twitter.com/rinasawayama",
+              "https://twitter.com/rinasawayama_jp",
+              "https://en.wikipedia.org/wiki/Rina_Sawayama",
+              "https://www.youtube.com/user/rinasawayama",
+              "https://www.youtube.com/channel/UCkqmTuhxME9RpAZY9f3hhsA"
+            ],
+            "namevariations": [
+              "Rina Siwayama"
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "2KEqzdPS7M5YwGmiuPTdr5",
+        "wikidataQid": "Q28840001",
+        "name": "Rina Sawayama",
+        "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+        "discogsArtistId": "3371472"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "2KEqzdPS7M5YwGmiuPTdr5",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q28840001",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3371472",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "name": "Rina Sawayama",
+          "sortName": "Sawayama, Rina",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "52494f9b-789d-4467-bcaf-9915e70cc8f6",
+          "name": "Rina Sawayama",
+          "sortName": "Sawayama, Rina",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+            "name": "England",
+            "sortName": "England",
+            "type": null
+          },
+          "beginArea": {
+            "id": "aa0ff6be-73ce-4f96-91f3-dfb9fcba2f70",
+            "name": "Niigata",
+            "sortName": "Niigata",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1990-08-16",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "リナ・サワヤマ",
+              "sortName": "澤山 リナ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": false
+            },
+            {
+              "name": "澤山 リナ",
+              "sortName": "澤山 リナ",
+              "type": "Legal name",
+              "locale": "ja",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000465609271"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0003639509"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://rinasawayama.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/6429394"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/3371472"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/2KEqzdPS7M5YwGmiuPTdr5"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/4680004"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:Rina_Sawayama_04_30_2018_-47_(43206474541)_(cropped).jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm4680793/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Rina+Sawayama"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Rina-sawayama"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.rina.online/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/rina-sawayama"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/rina-sawayama"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/2337629"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Amrhbqvdy6s6xqluhpq743atzhq"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/gb/artist/id638343826"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/638343826"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://open.qobuz.com/artist/2038380"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Rina+Sawayama/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=1910706"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.7digital.com/artist/rina-sawayama"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://store.dirtyhit.co.uk/artist.html?a=rina_sawayama"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/rinasawayama"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/rinasawayamamusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/rinasonline/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/9164924"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/rinasawayama"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/638343826"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/mx/artist/638343826"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/2038380"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/4905050"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=1910706"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.livenation.co.uk/artist-1159943"
+            },
+            {
+              "relationshipType": "ticketing",
+              "url": "https://www.ticketmaster.co.uk/artist/5240730"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q28840001"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCkqmTuhxME9RpAZY9f3hhsA"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/user/rinasawayama"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/3371472.json",
+    "provider-cache/v1/musicbrainz/artist/52494f9b-789d-4467-bcaf-9915e70cc8f6.json",
+    "provider-cache/v1/musicbrainz/exact-name/cbba7bd88c553fed9490662a.json",
+    "provider-cache/v1/wikidata/spotify-bridge/2KEqzdPS7M5YwGmiuPTdr5.json"
+  ]
+}
