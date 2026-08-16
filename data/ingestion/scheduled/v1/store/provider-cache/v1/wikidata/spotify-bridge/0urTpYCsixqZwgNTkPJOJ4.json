@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "0urTpYCsixqZwgNTkPJOJ4",
+  "retrievedAt": "2026-08-15T16:33:40.216Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+      "wikidataQid": "Q11617",
+      "name": "Aaliyah",
+      "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+      "discogsArtistId": null,
+      "discogsArtistIds": [
+        "13733",
+        "4994648"
+      ]
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11617"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "13733"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Aaliyah"
+            }
+          },
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11617"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "4994648"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Aaliyah"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

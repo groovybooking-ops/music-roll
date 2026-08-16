@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-69a9-7f73-a06a-a08b8441d233",
+  "candidateId": "mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:27.465Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32.json",
+    "discovery/associations/candidates/mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb/55ff5a4d35e95eaea68504ff5ed9bde3db65a6a7ce16e95d5ab3f792d29ca916.json",
+    "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:ca852324e4c1e373c9171c5de12333d9df1efeb849224e27701892256829ac92",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:1:7maQENQfaF8xDdEJp4i545",
+      "sourceUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+      "rawArtistName": "Aliyah's Interlude",
+      "normalizedArtistName": "aliyah's interlude",
+      "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb/55ff5a4d35e95eaea68504ff5ed9bde3db65a6a7ce16e95d5ab3f792d29ca916.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:7maQENQfaF8xDdEJp4i545"
+    }
+  }
+}

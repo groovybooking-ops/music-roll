@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00652-9ae0-718b-88bb-3245b9b78dcf",
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "eventType": "run_created",
+  "previousRevision": 0,
+  "runRevision": 1,
+  "phase": "created",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:47:52.032Z",
+  "actor": {
+    "type": "command",
+    "id": "human_triggered_scheduled_coordinator_v1"
+  },
+  "payload": {
+    "networkAllowed": true,
+    "stableConfigurationHash": "sha256:1328c88c27647f0622ebf87e20d2b57c7ff0d539fb608487ba0058e127c8e173",
+    "configuration": {
+      "schemaVersion": 1,
+      "coordinatorVersion": "scheduled_live_coordinator_v1",
+      "reviewOnly": true,
+      "spotify": {
+        "mode": "artist_search_results",
+        "query": "Kate Bush",
+        "queryRecordId": "scheduled-bounded-query-kate-bush-v1",
+        "limit": 4,
+        "market": "US",
+        "sourceType": "public_music_database",
+        "sourceName": "Music Roll third human-triggered scheduled discovery run"
+      },
+      "ticketmaster": {
+        "mode": "event_attractions",
+        "stateCode": "IL",
+        "startDateTime": "2026-08-30T00:00:00Z",
+        "endDateTime": "2026-09-05T00:00:00Z",
+        "size": 2,
+        "sourceType": "ticketmaster_event",
+        "sourceName": "Music Roll third human-triggered scheduled Ticketmaster discovery run"
+      },
+      "budgets": {
+        "providers": {
+          "spotify": {
+            "maxRequests": 4,
+            "maxPages": 1,
+            "maxNormalizedOccurrences": 8,
+            "maxNewCandidates": 4
+          },
+          "ticketmaster": {
+            "maxRequests": 4,
+            "maxPages": 1,
+            "maxNormalizedOccurrences": 8,
+            "maxNewCandidates": 4
+          }
+        },
+        "workers": {
+          "stage3Candidates": 5,
+          "identityDiscoveryCandidates": 3
+        },
+        "queueHighWaterMarks": {
+          "identity_pending": 50,
+          "identity_discovery_pending": 25,
+          "retry_wait": 25,
+          "needs_review": 100
+        }
+      },
+      "maximumTotalNewCandidates": 6,
+      "listingFreshnessHours": {
+        "spotify": 72,
+        "ticketmaster": 24
+      }
+    },
+    "budgets": {
+      "providers": {
+        "spotify": {
+          "maxRequests": 4,
+          "maxPages": 1,
+          "maxNormalizedOccurrences": 8,
+          "maxNewCandidates": 4
+        },
+        "ticketmaster": {
+          "maxRequests": 4,
+          "maxPages": 1,
+          "maxNormalizedOccurrences": 8,
+          "maxNewCandidates": 4
+        }
+      },
+      "workers": {
+        "stage3Candidates": 5,
+        "identityDiscoveryCandidates": 3
+      },
+      "queueHighWaterMarks": {
+        "identity_pending": 50,
+        "identity_discovery_pending": 25,
+        "retry_wait": 25,
+        "needs_review": 100
+      }
+    },
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 0,
+          "pages": 0,
+          "normalizedOccurrences": 0,
+          "newCandidates": 0
+        },
+        "ticketmaster": {
+          "requests": 0,
+          "pages": 0,
+          "normalizedOccurrences": 0,
+          "newCandidates": 0
+        }
+      },
+      "workers": {
+        "stage3Candidates": 0,
+        "identityDiscoveryCandidates": 0
+      }
+    },
+    "protectedChecksums": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    }
+  }
+}

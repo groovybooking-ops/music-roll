@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "7maQENQfaF8xDdEJp4i545",
+  "retrievedAt": "2026-08-15T16:33:55.090Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+      "wikidataQid": "Q123230271",
+      "name": "Aliyah's Interlude",
+      "musicBrainzArtistId": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+      "discogsArtistId": null
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q123230271"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "e3f4f0e0-125b-4d47-84ea-821e60901512"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Aliyah's Interlude"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

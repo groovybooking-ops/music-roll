@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-15T16:48:05.397Z",
+  "createdAt": "2026-08-15T16:47:52.932Z",
+  "updatedAt": "2026-08-15T16:48:05.397Z",
+  "name": {
+    "raw": "Ray LaMontagne",
+    "normalized": "ray lamontagne"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:94ac72c6b2143bc0f143f691581ab2a3355b297a487488501ac13b6cc25ee0aa",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll third human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A74fPg/attraction/K8vZ9175ndV",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A74fPg",
+      "rawArtistName": "Ray LaMontagne",
+      "normalizedArtistName": "ray lamontagne",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identityDiscovery": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00652-cf15-74cb-bf34-240e50769b49",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:cd25824c0e08cfb7cbe1fe817f78918293675bd8cc8edabaa8365805771d1995",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3/d01f29d24707ad0d8e691cfdc6dc04d2bfa31a90ec1426a55c5920ef9351bd57.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ9175ndV"
+    }
+  ],
+  "identityDiscovery": {
+    "outcome": "completed_without_safe_exact_bridge",
+    "resultingSpotifyArtistId": null,
+    "evidenceRefs": [
+      "evidence/identity-discovery/mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3/6c0ffe2f501cd82f4da7a027cb653140ae17185a1879cd8a2acdaea7a062c37e.json",
+      "provider-cache/v1/musicbrainz/exact-provider-url/b61b391a5b445a69ab31d0c9df46939257b19759a1c0965549061254f26a1800.json"
+    ],
+    "providerErrors": [],
+    "provenanceClaims": [],
+    "resolvedAt": "2026-08-15T16:48:05.396Z",
+    "resolverVersion": "identity_discovery_resolver_v1",
+    "reviewOnly": true
+  }
+}

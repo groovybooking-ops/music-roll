@@ -1,0 +1,1790 @@
+{
+  "evidenceId": "sha256:c8326a771892224dd05bae364339b3c0a8fae13953882bbecedd3efe0fcc6dc9",
+  "createdAt": "2026-08-15T16:48:01.941Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Pat Benatar",
+        "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "43mhFhQ4JAknA7Ik1bOZuV",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "43mhFhQ4JAknA7Ik1bOZuV",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q235252",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "160130",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "160130",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "43mhFhQ4JAknA7Ik1bOZuV",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q235252",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "160130",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "160130"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "43mhFhQ4JAknA7Ik1bOZuV",
+          "observedValues": [
+            "43mhFhQ4JAknA7Ik1bOZuV"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "43mhFhQ4JAknA7Ik1bOZuV",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "43mhFhQ4JAknA7Ik1bOZuV",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "43mhFhQ4JAknA7Ik1bOZuV",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q235252",
+          "observedValues": [
+            "Q235252"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q235252",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q235252",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "observedValues": [
+            "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "160130",
+          "observedValues": [
+            "160130"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "160130",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "160130",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "160130",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "160130"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+            "name": "Pat Benatar",
+            "sortName": "Benatar, Pat",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "43mhFhQ4JAknA7Ik1bOZuV"
+            ],
+            "discogsArtistIds": [
+              "160130"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "6bc658ea-005f-486b-8f94-33a2e40f7a72": {
+          "artist": {
+            "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+            "name": "Pat Benatar",
+            "sortName": "Benatar, Pat",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "89a8e310-5eb9-42e2-b8fe-16b6e11d48ba",
+              "name": "Greenpoint",
+              "sortName": "Greenpoint",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1953-01-10",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Benatar, Pat",
+                "sortName": "Benatar, Pat",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Pat Benetar",
+                "sortName": "Pat Benetar",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Pat Bernatar",
+                "sortName": "Pat Bernatar",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Patricia Mae Andrzejewski",
+                "sortName": "Andrzejewski, Patricia Mae",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Patricia Mae Benatar",
+                "sortName": "Benatar, Patricia Mae",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Patricia Mae Giraldo",
+                "sortName": "Giraldo, Patricia Mae",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "000000007823430X"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000158309"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/29196"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/6bc658ea-005f-486b-8f94-33a2e40f7a72"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/160130"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/2159"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:PAT_BENATAR_2007-09-07.jpg"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm0070232/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Pat+Benatar"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Pat-benatar"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.benatargiraldo.com/"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.benatarfanclub.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/n84088341"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb138913315"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/118850512"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/pat-benatar"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://musicmoz.org/Bands_and_Artists/B/Benatar,_Pat/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://snaccooperative.org/ark:/99166/w6jm3775"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/pat_benatar"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.45cat.com/artist/pat-benatar"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/pat-benatar/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Pat-Benatar/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-n84088341"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://play.google.com/store/music/artist?id=Ac2waigu6t72pzttzsgdyfuy2ym"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/us/artist/540530"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.7digital.com/artist/pat-benatar"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://www.amazon.com/-/e/B000AP9MEA"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/2888"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/pat-benatar-4bd6bb82.html"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/274825"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/pat-benatar-official"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/540530"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/540530"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/11342"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/14957523"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q235252"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/user/PatBenatarLibrary2"
+              }
+            ]
+          },
+          "raw": {
+            "life-span": {
+              "begin": "1953-01-10",
+              "ended": false,
+              "end": null
+            },
+            "ipis": [
+              "00122545896"
+            ],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": "",
+            "begin-area": {
+              "disambiguation": "",
+              "type-id": null,
+              "sort-name": "Greenpoint",
+              "id": "89a8e310-5eb9-42e2-b8fe-16b6e11d48ba",
+              "name": "Greenpoint",
+              "type": null
+            },
+            "id": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+            "sort-name": "Benatar, Pat",
+            "gender": "Female",
+            "area": {
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "type": null,
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "sort-name": "United States",
+              "type-id": null,
+              "disambiguation": ""
+            },
+            "isnis": [
+              "000000007823430X"
+            ],
+            "name": "Pat Benatar",
+            "relations": [
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.allmusic.com/artist/mn0000158309",
+                  "id": "958389da-aa81-46d3-841d-617fa835a50f"
+                },
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "type": "allmusic",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "type": "bandsintown",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/29196",
+                  "id": "350a6043-49ab-482d-b389-8b72ece4669d"
+                },
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2"
+              },
+              {
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/6bc658ea-005f-486b-8f94-33a2e40f7a72",
+                  "id": "b305a227-1abb-41bc-8665-30463022d8ab"
+                },
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "end": "2020-11-19",
+                "attribute-ids": {},
+                "begin": null,
+                "type": "BBC Music page",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": true
+              },
+              {
+                "type": "discogs",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.discogs.com/artist/160130",
+                  "id": "7345e25f-f7a8-4943-8df1-36edbeaf2ca9"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+              },
+              {
+                "type": "free streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+                  "id": "ed87ccf5-b6f0-4a31-8a81-d260d7458218"
+                }
+              },
+              {
+                "type": "free streaming",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "5cd3aa18-8ec9-45e7-b8a6-4444ea3f6879",
+                  "resource": "https://www.deezer.com/artist/2159"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "image",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "url": {
+                  "id": "02118150-a3b7-48cb-b39d-6d0bf1a8d9a9",
+                  "resource": "https://commons.wikimedia.org/wiki/File:PAT_BENATAR_2007-09-07.jpg"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "IMDb",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "url": {
+                  "id": "4d7b0319-e8c5-4fb0-9c12-588bedac7bca",
+                  "resource": "https://www.imdb.com/name/nm0070232/"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "last.fm",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "url": {
+                  "resource": "https://www.last.fm/music/Pat+Benatar",
+                  "id": "6e847ad8-a2d1-44d3-995b-81d2ff3396be"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "lyrics",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "url": {
+                  "resource": "https://genius.com/artists/Pat-benatar",
+                  "id": "bce36eb0-6383-4816-9772-797175deb014"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "official homepage",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "resource": "https://www.benatargiraldo.com/",
+                  "id": "ed7e54d8-acb3-4f40-9819-2407676f724f"
+                },
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "id": "ee1a7248-e866-41df-a60e-c38a9da95d93",
+                  "resource": "http://www.benatarfanclub.com/"
+                },
+                "type": "official homepage",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "65756f2e-a00f-45a6-b04c-997791e3dbf5",
+                  "resource": "http://id.loc.gov/authorities/names/n84088341"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb138913315",
+                  "id": "eb54b343-92f3-4bc2-9346-498a93f52c55"
+                },
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "b9145d0d-cb8c-444b-9b9d-28b4c95e3762",
+                  "resource": "https://d-nb.info/gnd/118850512"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false
+              },
+              {
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://imvdb.com/n/pat-benatar",
+                  "id": "935e4d19-6029-4865-9208-0b4f33693839"
+                },
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": []
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://musicmoz.org/Bands_and_Artists/B/Benatar,_Pat/",
+                  "id": "4dc816dc-6fd4-463b-95d9-2999e738a5a0"
+                },
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "other databases",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "deb3d6e9-4f2f-442a-b730-1343cd24d23e",
+                  "resource": "http://snaccooperative.org/ark:/99166/w6jm3775"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/pat_benatar",
+                  "id": "c82f7027-8110-4b56-a0bc-d07d1e4a9c00"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://www.45cat.com/artist/pat-benatar",
+                  "id": "cb82eae0-3371-4fab-9225-64ec460b430c"
+                }
+              },
+              {
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/pat-benatar/",
+                  "id": "9b916108-b7aa-46b8-b45f-712991c3db96"
+                },
+                "ended": false,
+                "target-type": "url",
+                "direction": "forward",
+                "type": "other databases",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type": "other databases",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "30a43f95-605b-4e91-8a1a-c58c2a502970",
+                  "resource": "https://www.whosampled.com/Pat-Benatar/"
+                }
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "937a835e-a58e-4843-b0db-c18bb353e8b2",
+                  "resource": "https://www.worldcat.org/identities/lccn-n84088341"
+                },
+                "type": "other databases",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": true,
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "end": "2020-10-12",
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "ff1a28dc-1c14-4f52-8365-6f6a378ad334",
+                  "resource": "https://play.google.com/store/music/artist?id=Ac2waigu6t72pzttzsgdyfuy2ym"
+                },
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "purchase for download",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "ab10cae6-fb12-4720-bfa9-0446c54189f6",
+                  "resource": "https://music.apple.com/us/artist/540530"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "ed534b93-1811-4e1d-b5ed-b6af89e65a08",
+                  "resource": "https://www.7digital.com/artist/pat-benatar"
+                },
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "purchase for download",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "url": {
+                  "id": "1f0ecd15-f443-4974-b4f4-5c0cd6aeea98",
+                  "resource": "https://www.amazon.com/-/e/B000AP9MEA"
+                },
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "type": "purchase for mail-order",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "secondhandsongs",
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/2888",
+                  "id": "76495d95-b634-47e4-8e0f-674c095bdd51"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "type": "setlistfm",
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {},
+                "url": {
+                  "id": "09f8a621-317e-4c7a-87fa-958d7823a7f7",
+                  "resource": "https://www.setlist.fm/setlists/pat-benatar-4bd6bb82.html"
+                },
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "url": {
+                  "id": "fc569161-eb3e-4a04-bef1-10540089d5bf",
+                  "resource": "https://www.songkick.com/artists/274825"
+                },
+                "type": "songkick",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {}
+              },
+              {
+                "type": "soundcloud",
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "source-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://soundcloud.com/pat-benatar-official",
+                  "id": "588ee47f-fa9c-4572-a156-8ca250179d1b"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/540530",
+                  "id": "d8c296f0-604c-4f5b-92c3-f34354d2876d"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/540530",
+                  "id": "ab10cae6-fb12-4720-bfa9-0446c54189f6"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attribute-values": {},
+                "attributes": [],
+                "source-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "begin": null,
+                "type": "streaming",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "id": "a5195900-0642-4bb1-b543-8d15fdb68642",
+                  "resource": "https://tidal.com/artist/11342"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "begin": null,
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "streaming"
+              },
+              {
+                "attribute-ids": {},
+                "begin": null,
+                "end": null,
+                "direction": "forward",
+                "target-type": "url",
+                "ended": false,
+                "type": "VIAF",
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "url": {
+                  "resource": "http://viaf.org/viaf/14957523",
+                  "id": "27f55a2e-f9bc-4bf4-8c3d-6f363510adde"
+                },
+                "attributes": [],
+                "source-credit": "",
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-credit": "",
+                "url": {
+                  "id": "441bde2e-b063-49bb-8958-c7457ba7b72f",
+                  "resource": "https://www.wikidata.org/wiki/Q235252"
+                },
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "target-type": "url",
+                "ended": false,
+                "direction": "forward",
+                "type": "wikidata",
+                "attribute-ids": {},
+                "begin": null,
+                "end": null
+              },
+              {
+                "type": "youtube",
+                "target-type": "url",
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "begin": null,
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/user/PatBenatarLibrary2",
+                  "id": "97be9273-19dc-438a-9ab0-03069e60cf70"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0"
+              }
+            ],
+            "type": "Person",
+            "aliases": [
+              {
+                "sort-name": "Benatar, Pat",
+                "locale": null,
+                "type-id": null,
+                "end": null,
+                "primary": null,
+                "begin": null,
+                "name": "Benatar, Pat",
+                "type": null,
+                "ended": false
+              },
+              {
+                "begin": null,
+                "end": null,
+                "primary": null,
+                "locale": null,
+                "sort-name": "Pat Benetar",
+                "type-id": null,
+                "ended": false,
+                "type": null,
+                "name": "Pat Benetar"
+              },
+              {
+                "ended": false,
+                "name": "Pat Bernatar",
+                "type": null,
+                "begin": null,
+                "type-id": null,
+                "sort-name": "Pat Bernatar",
+                "locale": null,
+                "primary": null,
+                "end": null
+              },
+              {
+                "name": "Patricia Mae Andrzejewski",
+                "type": "Legal name",
+                "ended": true,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "sort-name": "Andrzejewski, Patricia Mae",
+                "locale": null,
+                "end": "1972-07",
+                "primary": null,
+                "begin": null
+              },
+              {
+                "ended": true,
+                "type": "Legal name",
+                "name": "Patricia Mae Benatar",
+                "begin": "1972-07",
+                "end": "1982-02-20",
+                "primary": null,
+                "locale": null,
+                "sort-name": "Benatar, Patricia Mae",
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf"
+              },
+              {
+                "sort-name": "Giraldo, Patricia Mae",
+                "locale": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "end": null,
+                "begin": "1982-02-20",
+                "name": "Patricia Mae Giraldo",
+                "type": "Legal name",
+                "ended": false
+              }
+            ],
+            "end-area": null,
+            "country": "US",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2"
+          }
+        }
+      },
+      "discogsRecords": {
+        "160130": {
+          "artist": {
+            "discogsArtistId": "160130",
+            "name": "Pat Benatar",
+            "realName": "Patricia Mae Giraldo (born Andrzejewski)",
+            "profile": "American singer born January 10, 1953, in Greenpoint, Brooklyn. Four-time Grammy Award winner. Married to songwriter [a=Neil Giraldo] since 1982, they have two daughters. Her artist's name \"Benatar\" comes from her first marriage to Dennis Benatar.",
+            "artistUrls": [
+              "https://www.benatargiraldo.com/",
+              "https://www.facebook.com/benatargiraldo/",
+              "https://myspace.com/officialpatbenatar",
+              "https://en.wikipedia.org/wiki/Pat_Benatar",
+              "https://www.imdb.com/name/nm0070232/",
+              "https://www.youtube.com/c/BenatarGiraldo",
+              "https://twitter.com/benatargiraldo",
+              "https://www.instagram.com/benatargiraldo"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "847460",
+                "name": "Pat Giraldo"
+              }
+            ],
+            "nameVariations": [
+              "Barnatra",
+              "Benatar",
+              "Benetar",
+              "Bernatar",
+              "Bernator",
+              "P Benatar",
+              "P. Benatar",
+              "P. Benator",
+              "P.Benatar",
+              "Pat",
+              "Pat Banatar",
+              "Pat Benatar Archives",
+              "Pat Benater",
+              "Pat Benatur",
+              "Pat Benetar",
+              "Pat Bennetar",
+              "Patricia Benatar",
+              "パット・べネター",
+              "パット・ベネター",
+              "팻 베네타",
+              "퍁베니터"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/160130",
+            "discogsWebUrl": "https://www.discogs.com/artist/160130-Pat-Benatar",
+            "dataQuality": "Correct"
+          },
+          "raw": {
+            "name": "Pat Benatar",
+            "id": 160130,
+            "resource_url": "https://api.discogs.com/artists/160130",
+            "uri": "https://www.discogs.com/artist/160130-Pat-Benatar",
+            "releases_url": "https://api.discogs.com/artists/160130/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/AQ0-NGAZfQc6gSS1azGbulq4lsXeVznKLjTGOt1HQpA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM2MjUuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/AQ0-NGAZfQc6gSS1azGbulq4lsXeVznKLjTGOt1HQpA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM2MjUuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/Pq1YYb4ejTTnfkHlyzzlawez7eg9_UFSh_a8R1PBwJo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM2MjUuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MDXMmvYQ4ttIBLqd_vOj8lIGeAjGW1XlPNjU3gqAcJA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTczMjcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/MDXMmvYQ4ttIBLqd_vOj8lIGeAjGW1XlPNjU3gqAcJA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTczMjcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/pA5CnHHCdUNftQ6L0XpxeWTNgMGbxZ3X18am1aeJCTI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTczMjcuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/FRMJWYpV1v5VZOyzIuIPY3DBFljhO5iWp3FtDdt-q1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM5MjYuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/FRMJWYpV1v5VZOyzIuIPY3DBFljhO5iWp3FtDdt-q1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM5MjYuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/ncc2cReJUlKiS2pnpKIALENfmaIMS5iBQF8wvycQW14/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTM5MjYuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/tb5Inz2WhOD-scspKSWCa8xQYrtod5jxBX_d1bLD8AA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTkxMDcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/tb5Inz2WhOD-scspKSWCa8xQYrtod5jxBX_d1bLD8AA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTkxMDcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/TSkD2bd_p5jTqvu7j-faUMIbOEoztDS-Fnlh-Mr2cJg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNzg2MjA3NzE4/LTkxMDcuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qXkw_GGKXWFbJ9aLVfVWu_uve7XWhIbrjOdlM23CH9Y/rs:fit/g:sm/q:90/h:836/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjk0NDkwMjgw/LTU0NjEuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/qXkw_GGKXWFbJ9aLVfVWu_uve7XWhIbrjOdlM23CH9Y/rs:fit/g:sm/q:90/h:836/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjk0NDkwMjgw/LTU0NjEuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/lHNksKHuPcsBRMIUnun6HXZsZeclnwfVNzb_DxgLTJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjk0NDkwMjgw/LTU0NjEuanBlZw.jpeg",
+                "width": 600,
+                "height": 836
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/n0YqwShd9dHs0UGN0c5Q5D-qusotMDIG0nReOHQykHk/rs:fit/g:sm/q:90/h:624/w:422/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0MzY4/LTk4NDIuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/n0YqwShd9dHs0UGN0c5Q5D-qusotMDIG0nReOHQykHk/rs:fit/g:sm/q:90/h:624/w:422/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0MzY4/LTk4NDIuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/vf4t_mVnXi5_nx3NDK-SmqfBbnV1rvIA213KzfjOxsw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0MzY4/LTk4NDIuanBlZw.jpeg",
+                "width": 422,
+                "height": 624
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/OmM7lZdCRTAwFVdA26oJxbZKAGM2dWG9hv06piE3vqM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjA4MjE3NTU1/LTYyNjAuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/OmM7lZdCRTAwFVdA26oJxbZKAGM2dWG9hv06piE3vqM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjA4MjE3NTU1/LTYyNjAuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/2xr1UCC_RDD3n1LlbLu5FtvfDKuwLoaSQCh6pwWcuDo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjA4MjE3NTU1/LTYyNjAuanBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HNZy1pqjOyosd8dsx4gzp4CZibI53N_8BzTCreIGK68/rs:fit/g:sm/q:90/h:912/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0NjEz/LTMzOTcuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/HNZy1pqjOyosd8dsx4gzp4CZibI53N_8BzTCreIGK68/rs:fit/g:sm/q:90/h:912/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0NjEz/LTMzOTcuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/orKIEJA27OzgZTFvWACsDSibMwuD00SWRlpLa5TaGFE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNjIxODA0NjEz/LTMzOTcuanBlZw.jpeg",
+                "width": 600,
+                "height": 912
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/efyFaZQ1oW5SiouwL1EyPnLbd2DV5tE-8QexX8nNybo/rs:fit/g:sm/q:90/h:508/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDAwMjM3/LTQxODgucG5n.jpeg",
+                "resource_url": "https://i.discogs.com/efyFaZQ1oW5SiouwL1EyPnLbd2DV5tE-8QexX8nNybo/rs:fit/g:sm/q:90/h:508/w:382/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDAwMjM3/LTQxODgucG5n.jpeg",
+                "uri150": "https://i.discogs.com/JHlJwaz2droQ0KjoI-nAZtpIL0h9W1WaMgp6I_CeGxo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDAwMjM3/LTQxODgucG5n.jpeg",
+                "width": 382,
+                "height": 508
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/LtDgn27XvpRaVNEeqwKXDpK4ZAcywl2j5hD9oP4Ww_Q/rs:fit/g:sm/q:90/h:331/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDc3NTk2/LTQyMzIucG5n.jpeg",
+                "resource_url": "https://i.discogs.com/LtDgn27XvpRaVNEeqwKXDpK4ZAcywl2j5hD9oP4Ww_Q/rs:fit/g:sm/q:90/h:331/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDc3NTk2/LTQyMzIucG5n.jpeg",
+                "uri150": "https://i.discogs.com/OajvKq2LVnfqDui1Gzsu6LS9xxsRnlOr5Cyszc7ZDH8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xNDM4NDc3NTk2/LTQyMzIucG5n.jpeg",
+                "width": 280,
+                "height": 331
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SSxwd2OUmNvwtB_l-iGibsCq-2WzZoXMz2QNMMiExms/rs:fit/g:sm/q:90/h:600/w:482/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMzUxNjE3MDgw/LTkzNjEuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/SSxwd2OUmNvwtB_l-iGibsCq-2WzZoXMz2QNMMiExms/rs:fit/g:sm/q:90/h:600/w:482/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMzUxNjE3MDgw/LTkzNjEuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/FiG3HbHP8M6LlFhfOhMGRACSD2yyTA75nm2qWs6HRwo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMzUxNjE3MDgw/LTkzNjEuanBlZw.jpeg",
+                "width": 482,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SSMIhqm7gUA8PBfQ9S7XeiMVJJqyVaXEYgM8h9jGma8/rs:fit/g:sm/q:90/h:600/w:430/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMTU0MjgyMjI1/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/SSMIhqm7gUA8PBfQ9S7XeiMVJJqyVaXEYgM8h9jGma8/rs:fit/g:sm/q:90/h:600/w:430/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMTU0MjgyMjI1/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/-D3s5Ajv0fYfBYJXMPc3N6DoHFIJlmahW0bg8pW2bFo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMTU0MjgyMjI1/LmpwZWc.jpeg",
+                "width": 430,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/6n0es5IbjhZ27rNr_9cwjQRwQPiZ2h4pvjHQAFAEKUA/rs:fit/g:sm/q:90/h:352/w:323/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMjgyODkwMTc5/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/6n0es5IbjhZ27rNr_9cwjQRwQPiZ2h4pvjHQAFAEKUA/rs:fit/g:sm/q:90/h:352/w:323/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMjgyODkwMTc5/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/tztkLowPMOu5Kh6rijc9WmSwcWaPxTUZRzhYR36gh6E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2MDEz/MC0xMjgyODkwMTc5/LmpwZWc.jpeg",
+                "width": 323,
+                "height": 352
+              }
+            ],
+            "realname": "Patricia Mae Giraldo (born Andrzejewski)",
+            "profile": "American singer born January 10, 1953, in Greenpoint, Brooklyn. Four-time Grammy Award winner. Married to songwriter [a=Neil Giraldo] since 1982, they have two daughters. Her artist's name \"Benatar\" comes from her first marriage to Dennis Benatar.",
+            "urls": [
+              "https://www.benatargiraldo.com/",
+              "https://www.facebook.com/benatargiraldo/",
+              "https://myspace.com/officialpatbenatar",
+              "https://en.wikipedia.org/wiki/Pat_Benatar",
+              "https://www.imdb.com/name/nm0070232/",
+              "https://www.youtube.com/c/BenatarGiraldo",
+              "https://twitter.com/benatargiraldo",
+              "https://www.instagram.com/benatargiraldo"
+            ],
+            "namevariations": [
+              "Barnatra",
+              "Benatar",
+              "Benetar",
+              "Bernatar",
+              "Bernator",
+              "P Benatar",
+              "P. Benatar",
+              "P. Benator",
+              "P.Benatar",
+              "Pat",
+              "Pat Banatar",
+              "Pat Benatar Archives",
+              "Pat Benater",
+              "Pat Benatur",
+              "Pat Benetar",
+              "Pat Bennetar",
+              "Patricia Benatar",
+              "パット・べネター",
+              "パット・ベネター",
+              "팻 베네타",
+              "퍁베니터"
+            ],
+            "aliases": [
+              {
+                "id": 847460,
+                "name": "Pat Giraldo",
+                "resource_url": "https://api.discogs.com/artists/847460"
+              }
+            ],
+            "data_quality": "Correct"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+        "wikidataQid": "Q235252",
+        "name": "Pat Benatar",
+        "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "discogsArtistId": "160130"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "43mhFhQ4JAknA7Ik1bOZuV",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q235252",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "160130",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "name": "Pat Benatar",
+          "sortName": "Benatar, Pat",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "name": "Pat Benatar",
+          "sortName": "Benatar, Pat",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "89a8e310-5eb9-42e2-b8fe-16b6e11d48ba",
+            "name": "Greenpoint",
+            "sortName": "Greenpoint",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1953-01-10",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Benatar, Pat",
+              "sortName": "Benatar, Pat",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Pat Benetar",
+              "sortName": "Pat Benetar",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Pat Bernatar",
+              "sortName": "Pat Bernatar",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Patricia Mae Andrzejewski",
+              "sortName": "Andrzejewski, Patricia Mae",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Patricia Mae Benatar",
+              "sortName": "Benatar, Patricia Mae",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Patricia Mae Giraldo",
+              "sortName": "Giraldo, Patricia Mae",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "000000007823430X"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000158309"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/29196"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/160130"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/2159"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:PAT_BENATAR_2007-09-07.jpg"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0070232/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Pat+Benatar"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Pat-benatar"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.benatargiraldo.com/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.benatarfanclub.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n84088341"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb138913315"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/118850512"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/pat-benatar"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://musicmoz.org/Bands_and_Artists/B/Benatar,_Pat/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://snaccooperative.org/ark:/99166/w6jm3775"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/pat_benatar"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/artist/pat-benatar"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/pat-benatar/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Pat-Benatar/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-n84088341"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Ac2waigu6t72pzttzsgdyfuy2ym"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/540530"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.7digital.com/artist/pat-benatar"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.amazon.com/-/e/B000AP9MEA"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/2888"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/pat-benatar-4bd6bb82.html"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/274825"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/pat-benatar-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/540530"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/540530"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/11342"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/14957523"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q235252"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/user/PatBenatarLibrary2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/160130.json",
+    "provider-cache/v1/musicbrainz/artist/6bc658ea-005f-486b-8f94-33a2e40f7a72.json",
+    "provider-cache/v1/musicbrainz/exact-name/78e868af187d98569a5716e6.json",
+    "provider-cache/v1/wikidata/spotify-bridge/43mhFhQ4JAknA7Ik1bOZuV.json"
+  ]
+}

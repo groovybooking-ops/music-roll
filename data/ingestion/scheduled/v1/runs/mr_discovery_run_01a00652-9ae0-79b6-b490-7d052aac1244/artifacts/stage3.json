@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "snapshotRef": "runs/mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244/artifacts/stage3-eligible-snapshot.json",
+  "completedAt": "2026-08-15T16:48:04.142Z",
+  "selected": 3,
+  "metrics": {
+    "cacheHits": 0,
+    "liveRequests": 17,
+    "retries": 2,
+    "immutableEvidenceReuses": 0,
+    "immutableEvidenceWrites": 3,
+    "byProvider": {
+      "wikidata": {
+        "cacheHits": 0,
+        "liveRequests": 3
+      },
+      "musicbrainz": {
+        "cacheHits": 0,
+        "liveRequests": 10
+      },
+      "discogs": {
+        "cacheHits": 0,
+        "liveRequests": 4
+      }
+    }
+  },
+  "results": [
+    {
+      "schemaVersion": 1,
+      "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "candidateId": "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+      "completedAt": "2026-08-15T16:47:52.948Z",
+      "workerResult": {
+        "selected": 1,
+        "processed": 1,
+        "retryWait": 0,
+        "staleRevisions": 0,
+        "workerErrors": 0,
+        "results": [
+          {
+            "candidateId": "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+            "status": "processed",
+            "outcome": "provider_profile_multiplicity",
+            "state": "needs_review",
+            "evidenceRef": "evidence/identity/mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d/63b4568f2fd9f95f3e6d73fddb5d415ae0356c41e36e165eb46b435167e94ea1.json"
+          }
+        ]
+      },
+      "reviewOnly": true
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+      "completedAt": "2026-08-15T16:47:59.804Z",
+      "workerResult": {
+        "selected": 1,
+        "processed": 1,
+        "retryWait": 0,
+        "staleRevisions": 0,
+        "workerErrors": 0,
+        "results": [
+          {
+            "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+            "status": "processed",
+            "outcome": "coherent_identity_evidence",
+            "state": "identity_coherent",
+            "evidenceRef": "evidence/identity/mr_candidate_01a00652-9e47-799e-9521-277a1341b016/c8326a771892224dd05bae364339b3c0a8fae13953882bbecedd3efe0fcc6dc9.json"
+          }
+        ]
+      },
+      "reviewOnly": true
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+      "completedAt": "2026-08-15T16:48:01.952Z",
+      "workerResult": {
+        "selected": 1,
+        "processed": 1,
+        "retryWait": 0,
+        "staleRevisions": 0,
+        "workerErrors": 0,
+        "results": [
+          {
+            "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+            "status": "processed",
+            "outcome": "coherent_identity_evidence",
+            "state": "identity_coherent",
+            "evidenceRef": "evidence/identity/mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6/ef757ffadf68e3868bef6cb433e1778f9c56ff4271f67b472992518673d4f7a6.json"
+          }
+        ]
+      },
+      "reviewOnly": true
+    }
+  ],
+  "reviewOnly": true
+}

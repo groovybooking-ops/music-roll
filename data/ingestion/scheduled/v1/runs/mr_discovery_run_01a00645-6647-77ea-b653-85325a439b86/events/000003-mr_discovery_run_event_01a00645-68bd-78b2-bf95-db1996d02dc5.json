@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00645-68bd-78b2-bf95-db1996d02dc5",
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "eventType": "phase_completed",
+  "previousRevision": 2,
+  "runRevision": 3,
+  "phase": "spotify_discovery_complete_or_skipped",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:33:27.229Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_discovery_coordinator"
+  },
+  "payload": {
+    "checkpointRefs": [
+      "checkpoints/spotify/spotify_live_bounded_discovery_v1/v1/43a3d48d6dbd34aff6f19f87616c7328f818b6c4898e726ff036418d85848951/history/000002.json",
+      "runs/mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86/artifacts/spotify-discovery.json"
+    ],
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 2,
+          "pages": 1,
+          "normalizedOccurrences": 4,
+          "newCandidates": 0
+        },
+        "ticketmaster": {
+          "requests": 0,
+          "pages": 0,
+          "normalizedOccurrences": 0,
+          "newCandidates": 0
+        }
+      },
+      "workers": {
+        "stage3Candidates": 0,
+        "identityDiscoveryCandidates": 0
+      }
+    }
+  }
+}

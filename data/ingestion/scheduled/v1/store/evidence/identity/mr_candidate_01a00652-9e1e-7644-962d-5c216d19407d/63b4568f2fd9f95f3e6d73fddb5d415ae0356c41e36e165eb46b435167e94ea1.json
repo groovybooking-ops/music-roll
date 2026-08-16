@@ -1,0 +1,3551 @@
+{
+  "evidenceId": "sha256:63b4568f2fd9f95f3e6d73fddb5d415ae0356c41e36e165eb46b435167e94ea1",
+  "createdAt": "2026-08-15T16:47:59.788Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Kate Bush",
+        "spotifyArtistId": "1aSxMhuvixZ8h9dK9jIDwL"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1aSxMhuvixZ8h9dK9jIDwL",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1aSxMhuvixZ8h9dK9jIDwL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q636",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "85929",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3629532",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "85929",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1aSxMhuvixZ8h9dK9jIDwL",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q636",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "85929",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "85929"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "3629532",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "3629532"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "1aSxMhuvixZ8h9dK9jIDwL",
+          "observedValues": [
+            "1aSxMhuvixZ8h9dK9jIDwL"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1aSxMhuvixZ8h9dK9jIDwL",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1aSxMhuvixZ8h9dK9jIDwL",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "1aSxMhuvixZ8h9dK9jIDwL",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q636",
+          "observedValues": [
+            "Q636"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q636",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q636",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "observedValues": [
+            "4b585938-f271-45e2-b19a-91c634b5e396"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4b585938-f271-45e2-b19a-91c634b5e396",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "4b585938-f271-45e2-b19a-91c634b5e396",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "85929",
+            "3629532"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "85929",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3629532",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "85929",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "4b585938-f271-45e2-b19a-91c634b5e396"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "85929",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "85929"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "3629532",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "3629532"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "85929",
+            "3629532"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+            "name": "Kate Bush",
+            "sortName": "Bush, Kate",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "1aSxMhuvixZ8h9dK9jIDwL"
+            ],
+            "discogsArtistIds": [
+              "3629532",
+              "85929"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "discogs_alternates_have_missing_legal_name",
+            "discogs_alternates_lack_corroborated_legal_name_relationship"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "4b585938-f271-45e2-b19a-91c634b5e396": {
+          "artist": {
+            "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+            "name": "Kate Bush",
+            "sortName": "Bush, Kate",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": "GB",
+            "area": {
+              "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+              "name": "England",
+              "sortName": "England",
+              "type": null
+            },
+            "beginArea": {
+              "id": "f5fa3a2b-f793-4fab-8bb6-fe824c941b53",
+              "name": "Welling",
+              "sortName": "Welling",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1958-07-30",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Catherine Bush",
+                "sortName": "Bush, Catherine",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Kate Bush",
+                "sortName": "Bush, Kate",
+                "type": "Artist name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "ケイト・ブッシュ",
+                "sortName": "ケイト・ブッシュ",
+                "type": "Artist name",
+                "locale": "ja",
+                "primary": true
+              }
+            ],
+            "isni": [
+              "0000000114808340"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000855423"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://katebush.bandcamp.com/"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/11492"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/4b585938-f271-45e2-b19a-91c634b5e396"
+              },
+              {
+                "relationshipType": "BookBrainz",
+                "url": "https://bookbrainz.org/author/98dbd853-43c3-4ac5-a6e5-c54e9fc1e008"
+              },
+              {
+                "relationshipType": "discography page",
+                "url": "https://www.katebushencyclopedia.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/3629532"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/85929"
+              },
+              {
+                "relationshipType": "fanpage",
+                "url": "http://gaffa.org/"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/1049"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:KateBushComicRelief.png"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm0124165/"
+              },
+              {
+                "relationshipType": "interview",
+                "url": "http://www.muzines.co.uk/articles/kate-bush/4391"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Kate+Bush"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-3462/kate-bush/lyrics.html"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Kate-bush"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://petitlyrics.com/lyrics/artist/5087"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://utaten.com/artist/4072"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://www.joysound.com/web/search/artist/3364"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/1katebush"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "https://www.katebush.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/n91108828"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://musicmoz.org/Bands_and_Artists/B/Bush,_Kate/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://mvdbase.com/person.php?&id=A1706"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb13892009d"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/118517988"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/kate-bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://snaccooperative.org/ark:/99166/w6224zdm"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/kate-bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.45cat.com/artist/kate-bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.45cat.com/cdalbum/artist/kate-bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.45cat.com/vinyl/artist/kate-bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.mobygames.com/person/336214"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.musik-sammler.de/artist/3733/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.progarchives.com/artist.asp?id=2107"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.spirit-of-rock.com/en/band/Kate_Bush"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.themoviedb.org/person/567196"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Kate-Bush/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-n91108828/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://play.google.com/store/music/artist?id=Auezxz2xdzimbsu4rix7qt36mz4"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://boomkat.com/artists/kate-bush"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/gb/artist/id487277"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://mora.jp/artist/261995/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/gb/artist/487277"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.bugs.co.kr/artist/36027"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://ototoy.jp/_/default/a/251589"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://uk.7digital.com/artist/kate-bush"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://vibe.naver.com/artist/3804"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.junodownload.com/artists/Kate+Bush/releases/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=29374"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://boomkat.com/artists/kate-bush"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://tower.jp/artist/181677"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://www.cdjapan.co.jp/person/700312524"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://www.hmv.co.jp/artist/detail/000000000001604"
+              },
+              {
+                "relationshipType": "purchase for mail-order",
+                "url": "https://www.yesasia.com/0-aid2052274-0-bpt.47-en/list.html"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/2215"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/wd-23d6a4bf.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://open.spotify.com/user/kate_bush_"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/KateBushMusic"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/10393480679"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/katebushmusic/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/429022"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/kate-bush-official"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://gb.napster.com/artist/kate-bush"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.amazon.co.uk/artists/B001EE18FM"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/487277"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.bugs.co.kr/artist/36027"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.line.me/webapp/artist/mi00000000008f85e7"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.line.me/webapp/artist/mi000000001cd6bac2"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://open.qobuz.com/artist/35162"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/8957"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://vibe.naver.com/artist/3804"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.kkbox.com/jp/artist/On5WzY4Ue0DkOA8ikg"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.melon.com/artist/detail.htm?artistId=29374"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://web.napster.com/artist/art.2069"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/120739740"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q636"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UC31hY7kg7CUOBpdyn9d_gYA"
+              },
+              {
+                "relationshipType": "youtube music",
+                "url": "https://music.youtube.com/channel/UCvwgfsD0OaWx0HJRExrE6uQ"
+              }
+            ]
+          },
+          "raw": {
+            "aliases": [
+              {
+                "end": null,
+                "type": "Legal name",
+                "locale": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "sort-name": "Bush, Catherine",
+                "begin": null,
+                "name": "Catherine Bush",
+                "ended": false
+              },
+              {
+                "end": null,
+                "locale": null,
+                "type": "Artist name",
+                "primary": null,
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "begin": null,
+                "sort-name": "Bush, Kate",
+                "name": "Kate Bush",
+                "ended": false
+              },
+              {
+                "type": "Artist name",
+                "locale": "ja",
+                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                "primary": true,
+                "end": null,
+                "name": "ケイト・ブッシュ",
+                "ended": false,
+                "sort-name": "ケイト・ブッシュ",
+                "begin": null
+              }
+            ],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Female",
+            "end-area": null,
+            "begin-area": {
+              "type": null,
+              "type-id": null,
+              "disambiguation": "",
+              "name": "Welling",
+              "id": "f5fa3a2b-f793-4fab-8bb6-fe824c941b53",
+              "sort-name": "Welling"
+            },
+            "life-span": {
+              "ended": false,
+              "begin": "1958-07-30",
+              "end": null
+            },
+            "country": "GB",
+            "area": {
+              "type": null,
+              "type-id": null,
+              "iso-3166-2-codes": [
+                "GB-ENG"
+              ],
+              "disambiguation": "",
+              "name": "England",
+              "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+              "sort-name": "England"
+            },
+            "type": "Person",
+            "relations": [
+              {
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "url": {
+                  "id": "eaaf9d3e-e446-4f3d-a774-ad0e24336b08",
+                  "resource": "https://www.allmusic.com/artist/mn0000855423"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "allmusic",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "type": "bandcamp",
+                "url": {
+                  "id": "af2ccfe5-0378-460b-b6d5-7bd5a9cf1dd0",
+                  "resource": "https://katebush.bandcamp.com/"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "bandsintown",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "d211962a-f6bd-4342-83b8-304318342a54",
+                  "resource": "https://www.bandsintown.com/a/11492"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "end": null
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": "2020-11-19",
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "begin": null,
+                "direction": "forward",
+                "ended": true,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.bbc.co.uk/music/artists/4b585938-f271-45e2-b19a-91c634b5e396",
+                  "id": "af5f4db8-8be8-45d0-aafe-d0bd2dd10c77"
+                },
+                "type": "BBC Music page"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f82f9342-a08d-46b7-ab7a-d8b6330c805d",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "BookBrainz",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "092bfb91-68bf-411a-934f-5d9e757450e2",
+                  "resource": "https://bookbrainz.org/author/98dbd853-43c3-4ac5-a6e5-c54e9fc1e008"
+                }
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.katebushencyclopedia.com/",
+                  "id": "afda80b4-66e2-480b-87e6-e083729c1c2f"
+                },
+                "attribute-ids": {},
+                "type": "discography page"
+              },
+              {
+                "end": null,
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "url": {
+                  "id": "26739929-e5c2-416f-9015-224cee6bceed",
+                  "resource": "https://www.discogs.com/artist/3629532"
+                },
+                "source-credit": "Girl from the Ivy",
+                "attribute-ids": {},
+                "type": "discogs",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "d9192168-bb73-45e0-be3d-60eb0bb8fcf7",
+                  "resource": "https://www.discogs.com/artist/85929"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "discogs"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "fanpage",
+                "source-credit": "",
+                "url": {
+                  "resource": "http://gaffa.org/",
+                  "id": "7a2a43ff-31f5-45df-8684-86f50042746c"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "url": {
+                  "id": "5c927576-14e3-436e-8d3d-d55785e6fc0b",
+                  "resource": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "a3cb93bc-2e2a-4e12-9568-c68918ed40c5",
+                  "resource": "https://www.deezer.com/artist/1049"
+                },
+                "attribute-ids": {},
+                "type": "free streaming",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+              },
+              {
+                "type": "image",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "0be564e8-826d-4785-9b89-22a8644882e0",
+                  "resource": "https://commons.wikimedia.org/wiki/File:KateBushComicRelief.png"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "type": "IMDb",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm0124165/",
+                  "id": "2f08335b-d131-4f60-b14c-97606f0275d2"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "http://www.muzines.co.uk/articles/kate-bush/4391",
+                  "id": "c211101c-8935-4861-a38c-4890b8404e4d"
+                },
+                "attribute-ids": {},
+                "type": "interview",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "1f171391-1f98-4f45-b191-038ec3b12395",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "f2a5febe-9d33-4b5a-9656-ba21da35fea1",
+                  "resource": "https://www.last.fm/music/Kate+Bush"
+                },
+                "type": "last.fm",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "lyrics",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://muzikum.eu/en/122-3462/kate-bush/lyrics.html",
+                  "id": "e9b2767f-ee9e-4872-aacb-443227215fbc"
+                }
+              },
+              {
+                "type": "lyrics",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "e14f5152-362f-4ade-9bdd-b16ce22185d7",
+                  "resource": "https://genius.com/artists/Kate-bush"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "3da3a73a-f4cd-4784-b952-9dc807202eef",
+                  "resource": "https://petitlyrics.com/lyrics/artist/5087"
+                },
+                "type": "lyrics",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+              },
+              {
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "c804e979-e22b-49c5-9c7d-e38daccbf081",
+                  "resource": "https://utaten.com/artist/4072"
+                },
+                "type": "lyrics",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "9561f113-7b11-4aa0-a744-093aeb31e297",
+                  "resource": "https://www.joysound.com/web/search/artist/3364"
+                },
+                "type": "lyrics",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+              },
+              {
+                "end": null,
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://myspace.com/1katebush",
+                  "id": "6e617765-ef4f-46f7-92fe-b8e2e710564e"
+                },
+                "type": "myspace",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "official homepage",
+                "url": {
+                  "id": "c93352f7-d833-4733-89ac-c9601291339a",
+                  "resource": "https://www.katebush.com/"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "fda1cc36-840c-44e3-9cf6-1af25337ca1f",
+                  "resource": "http://id.loc.gov/authorities/names/n91108828"
+                },
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "other databases",
+                "source-credit": "",
+                "url": {
+                  "resource": "http://musicmoz.org/Bands_and_Artists/B/Bush,_Kate/",
+                  "id": "182deda8-67ad-4f26-9ea8-f861c4bc952c"
+                },
+                "attribute-ids": {}
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "76a1e70a-ac3d-425d-b444-7d9b99feab8e",
+                  "resource": "http://mvdbase.com/person.php?&id=A1706"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb13892009d",
+                  "id": "5dc4727b-6081-4ab1-803e-d2dc6a3ce0d0"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://d-nb.info/gnd/118517988",
+                  "id": "475eda54-d960-495c-aba4-564ac2058e4e"
+                }
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "id": "72737566-6206-41da-b1f7-a55af4de3ea5",
+                  "resource": "https://imvdb.com/n/kate-bush"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "75680225-66d4-4e3d-8877-5986be4d1dc7",
+                  "resource": "http://snaccooperative.org/ark:/99166/w6224zdm"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "122152dd-0eaa-474d-aa42-9f0d963f7508",
+                  "resource": "https://rateyourmusic.com/artist/kate-bush"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "other databases",
+                "url": {
+                  "resource": "https://www.45cat.com/artist/kate-bush",
+                  "id": "39dfd36c-d843-4e64-aa92-9b50dfe647d5"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.45cat.com/cdalbum/artist/kate-bush",
+                  "id": "ac561591-3594-4565-92b5-79e468b17c3a"
+                },
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "8c151152-f802-43fe-85d3-9b2f68739817",
+                  "resource": "https://www.45cat.com/vinyl/artist/kate-bush"
+                },
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "url": {
+                  "id": "8de05482-4450-46ab-8394-2adb0bc05b35",
+                  "resource": "https://www.mobygames.com/person/336214"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.musik-sammler.de/artist/3733/",
+                  "id": "68032555-607b-4f25-ba8f-d939c32cf262"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "other databases",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "534e8c7d-12ec-4085-8cf6-be6254e186c8",
+                  "resource": "https://www.progarchives.com/artist.asp?id=2107"
+                }
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.spirit-of-rock.com/en/band/Kate_Bush",
+                  "id": "5d465e74-65a8-444b-b822-0378fe5956c4"
+                },
+                "type": "other databases"
+              },
+              {
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "id": "f3a077f9-6b90-44fb-839d-95372ab59b15",
+                  "resource": "https://www.themoviedb.org/person/567196"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.whosampled.com/Kate-Bush/",
+                  "id": "9227423c-9db7-40f0-9f40-0369ebae9950"
+                },
+                "attribute-ids": {},
+                "type": "other databases",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": ""
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-n91108828/",
+                  "id": "34319a48-63f9-4a02-873d-3a524c7518e3"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "other databases",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null
+              },
+              {
+                "type": "purchase for download",
+                "url": {
+                  "resource": "https://play.google.com/store/music/artist?id=Auezxz2xdzimbsu4rix7qt36mz4",
+                  "id": "2254a113-e5d0-4f5e-a5a9-b2ccc6e68636"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": true,
+                "end": "2020-10-12",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "resource": "https://boomkat.com/artists/kate-bush",
+                  "id": "ad701914-3a4f-4c1a-9ee4-aa01ad21f320"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for download"
+              },
+              {
+                "type": "purchase for download",
+                "url": {
+                  "id": "d1329861-3246-4f7e-8fc4-e19386490010",
+                  "resource": "https://itunes.apple.com/gb/artist/id487277"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://mora.jp/artist/261995/",
+                  "id": "e970c875-cc64-4931-9a8d-f46fd8e46cb4"
+                },
+                "type": "purchase for download",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/487277",
+                  "id": "b3e9a67f-4f51-404c-bf60-b9412f464ee4"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.bugs.co.kr/artist/36027",
+                  "id": "979531c9-a143-4982-b3b2-b8f8ab33bb26"
+                },
+                "type": "purchase for download",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "type": "purchase for download",
+                "source-credit": "",
+                "url": {
+                  "id": "bb1656a7-a954-43f3-88e2-cc6e7c5f17a1",
+                  "resource": "https://ototoy.jp/_/default/a/251589"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://uk.7digital.com/artist/kate-bush",
+                  "id": "16e6411a-6180-4b63-a1ba-be9bd31c52b2"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "type": "purchase for download",
+                "url": {
+                  "resource": "https://vibe.naver.com/artist/3804",
+                  "id": "dbbfd5e6-9569-4da1-b56d-e7b45cdbbd20"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "purchase for download",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550",
+                  "id": "f307bf97-a48a-4f6f-9ed5-0d7f53fa9c56"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "id": "42670514-082b-4416-9f24-fd92657d2d2d",
+                  "resource": "https://www.junodownload.com/artists/Kate+Bush/releases/"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "purchase for download",
+                "source-credit": "",
+                "url": {
+                  "id": "9ebeb686-5f6d-4138-8be3-eb23ca0e7cfa",
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=29374"
+                },
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162",
+                  "id": "0f13f47f-635c-4c00-8f9e-47a6ec64533b"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download"
+              },
+              {
+                "type": "purchase for mail-order",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://boomkat.com/artists/kate-bush",
+                  "id": "ad701914-3a4f-4c1a-9ee4-aa01ad21f320"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "a7d3ef1a-3679-42cd-a7e0-eb1e9a109a28",
+                  "resource": "https://tower.jp/artist/181677"
+                },
+                "type": "purchase for mail-order",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "501f8b0d-b386-4b86-a8f0-f0534f0f36be",
+                  "resource": "https://www.cdjapan.co.jp/person/700312524"
+                },
+                "type": "purchase for mail-order"
+              },
+              {
+                "end": null,
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "url": {
+                  "id": "f6c2476e-0ed5-4cba-87d5-6b90d419cd20",
+                  "resource": "https://www.hmv.co.jp/artist/detail/000000000001604"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "purchase for mail-order",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "purchase for mail-order",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "839b753a-b974-4655-a956-4249e75ccbf3",
+                  "resource": "https://www.yesasia.com/0-aid2052274-0-bpt.47-en/list.html"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "secondhandsongs",
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/2215",
+                  "id": "c805178f-5065-4deb-bef9-ffabf67179c4"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "type": "setlistfm",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.setlist.fm/setlists/wd-23d6a4bf.html",
+                  "id": "799259e8-00b6-455a-b544-596b53cb0845"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "social network",
+                "url": {
+                  "resource": "https://open.spotify.com/user/kate_bush_",
+                  "id": "3524547c-e7dd-4ccd-8109-0592954ca643"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "social network",
+                "url": {
+                  "resource": "https://twitter.com/KateBushMusic",
+                  "id": "844627c5-71e6-4d94-8e25-4a937e50d218"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type": "social network",
+                "source-credit": "katebush",
+                "attribute-ids": {},
+                "url": {
+                  "id": "6510edc3-e2e2-45f0-8a3d-7a872d41fec0",
+                  "resource": "https://www.facebook.com/10393480679"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "social network",
+                "source-credit": "",
+                "url": {
+                  "id": "fcc89ce0-5a57-4eeb-a9c6-861f7fdc3f21",
+                  "resource": "https://www.instagram.com/katebushmusic/"
+                },
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null
+              },
+              {
+                "end": null,
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "songkick",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.songkick.com/artists/429022",
+                  "id": "9fcc5c25-e7ab-4650-b552-9b93c00222cb"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "soundcloud",
+                "url": {
+                  "resource": "https://soundcloud.com/kate-bush-official",
+                  "id": "be8d81d0-f132-419d-afc6-0e6972898507"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://gb.napster.com/artist/kate-bush",
+                  "id": "6ed0a19e-4e9f-4533-9f9e-965f103bd594"
+                },
+                "type": "streaming",
+                "ended": true,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": "2022-06-08",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "url": {
+                  "resource": "https://music.amazon.co.uk/artists/B001EE18FM",
+                  "id": "c4465668-0375-4a6b-84ac-a2c53d1329ce"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null
+              },
+              {
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/487277",
+                  "id": "b3e9a67f-4f51-404c-bf60-b9412f464ee4"
+                },
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "type": "streaming",
+                "url": {
+                  "resource": "https://music.bugs.co.kr/artist/36027",
+                  "id": "979531c9-a143-4982-b3b2-b8f8ab33bb26"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "18b8c6f2-9d64-4e82-9645-1d79b3324e5c",
+                  "resource": "https://music.line.me/webapp/artist/mi00000000008f85e7"
+                },
+                "type": "streaming",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "f70b072f-4042-47c9-badc-80d40f252c55",
+                  "resource": "https://music.line.me/webapp/artist/mi000000001cd6bac2"
+                },
+                "attribute-ids": {},
+                "type": "streaming"
+              },
+              {
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "14cd759b-bb93-4938-826a-84e533bd6f8f",
+                  "resource": "https://open.qobuz.com/artist/35162"
+                },
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "0180e213-6fbf-4ec3-9718-f96a2d57bfe2",
+                  "resource": "https://tidal.com/artist/8957"
+                },
+                "type": "streaming",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "streaming",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://vibe.naver.com/artist/3804",
+                  "id": "dbbfd5e6-9569-4da1-b56d-e7b45cdbbd20"
+                }
+              },
+              {
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "f307bf97-a48a-4f6f-9ed5-0d7f53fa9c56",
+                  "resource": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "type": "streaming",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.kkbox.com/jp/artist/On5WzY4Ue0DkOA8ikg",
+                  "id": "609337ad-77ed-4913-bcd1-8c653f5c8c88"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.melon.com/artist/detail.htm?artistId=29374",
+                  "id": "9ebeb686-5f6d-4138-8be3-eb23ca0e7cfa"
+                },
+                "type": "streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "0f13f47f-635c-4c00-8f9e-47a6ec64533b",
+                  "resource": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162"
+                },
+                "attribute-ids": {},
+                "type": "streaming"
+              },
+              {
+                "type": "streaming",
+                "url": {
+                  "id": "f31b6e95-e296-427b-ade0-c91ca40bc384",
+                  "resource": "https://web.napster.com/artist/art.2069"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": true,
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://viaf.org/viaf/120739740",
+                  "id": "2bb73233-11fa-4723-a05c-fadacf2d0c30"
+                },
+                "type": "VIAF",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "ccbc267c-dc7e-4865-abac-8359bd1574e6",
+                  "resource": "https://www.wikidata.org/wiki/Q636"
+                },
+                "type": "wikidata"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UC31hY7kg7CUOBpdyn9d_gYA",
+                  "id": "1cdb248f-88a5-420a-85a3-de9f3c92b9ee"
+                },
+                "type": "youtube",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://music.youtube.com/channel/UCvwgfsD0OaWx0HJRExrE6uQ",
+                  "id": "7bc4340a-677c-4b99-bf23-6d9408cfada6"
+                },
+                "type": "youtube music",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4"
+              }
+            ],
+            "disambiguation": "",
+            "isnis": [
+              "0000000114808340"
+            ],
+            "name": "Kate Bush",
+            "id": "4b585938-f271-45e2-b19a-91c634b5e396",
+            "sort-name": "Bush, Kate",
+            "ipis": [
+              "00046612098",
+              "00046612196"
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "85929": {
+          "artist": {
+            "discogsArtistId": "85929",
+            "name": "Kate Bush",
+            "realName": "Catherine Bush",
+            "profile": "British singer/songwriter, born July 30th, 1958 in Bexleyheath, London, UK. Bush was signed to EMI at age 16 after [a=David Gilmour] heard her work and helped her produce a demo tape.\n\nIn 1978 (at age 19), her debut single \"Wuthering Heights\" reached #1 in four countries. She has maintained a large cult following ever since. Bush's most prolific creative period was between 1978 to 1993, with a release of new material and new albums every few years. After the 1993 release of \"The Red Shoes,\" she began an extended break from public view,  and devoted time to her family.\n\n\"Aerial,\" Bush's first album in 12 years, was released in November 2005, preceded by single \"King Of The Mountain\". In 2011, two Kate Bush albums were released: \"Director's Cut,\" a reworking of several songs from \"The Sensual World\" and \"The Red Shoes,\" and \"50 Words for Snow,\" an album of new music.\n\nIn 2014, Bush performed in a series of live concerts in London, her first concerts in decades. All performances of the show, called \"Before The Dawn,\" sold out in minutes.\n\nShe was appointed Commander of the Most Excellent Order of the British Empire (CBE) in the 2013 New Year Honours for services to music.\n\nSister of [a=Paddy Bush] and [a=John Carder Bush].",
+            "artistUrls": [
+              "https://www.katebush.com/",
+              "https://www.katebushnews.com/",
+              "https://www.katebushencyclopedia.com/",
+              "https://www.facebook.com/katebush",
+              "http://www.progarchives.com/artist.asp?id=2107",
+              "https://theworldofkatebush.blogspot.com/",
+              "https://twitter.com/katebushmusic",
+              "https://en.wikipedia.org/wiki/Kate_Bush",
+              "https://www.imdb.com/name/nm0124165/",
+              "https://www.youtube.com/user/KateBushMusic",
+              "https://www.youtube.com/c/katebushthecollection",
+              "https://www.instagram.com/katebush_thecollection/",
+              "https://www.allmusic.com/artist/kate-bush-mn0000855423"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "3629532",
+                "name": "Girl From The Ivy"
+              }
+            ],
+            "nameVariations": [
+              "(Kate Bush)",
+              "Bush",
+              "C. Bush",
+              "Catherine Bush",
+              "K Bush",
+              "K. Bush",
+              "K.B.",
+              "K.Bush",
+              "KB",
+              "Kate",
+              "Katherine Bush",
+              "Кейт Буш",
+              "קייט בוש",
+              "קיית בוש",
+              "ケイト・ブッシュ",
+              "凱特∙布什",
+              "凱特布希"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/85929",
+            "discogsWebUrl": "https://www.discogs.com/artist/85929-Kate-Bush",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Kate Bush",
+            "id": 85929,
+            "resource_url": "https://api.discogs.com/artists/85929",
+            "uri": "https://www.discogs.com/artist/85929-Kate-Bush",
+            "releases_url": "https://api.discogs.com/artists/85929/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/N6twXC1rZXcHG06zMemLLJ_xUr2eMSw_s4zMgCjCaFw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4ODAt/Mzg3My5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/N6twXC1rZXcHG06zMemLLJ_xUr2eMSw_s4zMgCjCaFw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4ODAt/Mzg3My5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/50WK7I3OFBUKkrNMjxM6QsVwKFmpEEznKRJ1kBsOK8c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4ODAt/Mzg3My5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/iY4TL7Bjl42Sv2f4w_PJsi85nSa7pxz7BML3IVUmRz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxOTEt/NDU5Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/iY4TL7Bjl42Sv2f4w_PJsi85nSa7pxz7BML3IVUmRz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxOTEt/NDU5Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/v415oBiYs6mPhqQXHqmuKEEP2_ZJCzMUqMu0-HRRbGM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxOTEt/NDU5Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VfYGt0zVgeWBzHLh0q5hgh37x5xypx8w_ewh1wTVIa0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNjkt/MjE0Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/VfYGt0zVgeWBzHLh0q5hgh37x5xypx8w_ewh1wTVIa0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNjkt/MjE0Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/bQ-hc4cMkx11yLOrZlBwF45CxvpFy-FErfxpDXI1oYk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNjkt/MjE0Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/zJDiF7actcnvKnTl07qL0ht5KfW5wx_0BSgLN4M3Hu4/rs:fit/g:sm/q:90/h:466/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIwMjkt/MjE2OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/zJDiF7actcnvKnTl07qL0ht5KfW5wx_0BSgLN4M3Hu4/rs:fit/g:sm/q:90/h:466/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIwMjkt/MjE2OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/y5figzxy67hjwH637Cb7nORodtkx4LVR9ZhqwvdAAv0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIwMjkt/MjE2OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 466
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/7XzY9iA0dJiXlrbeg-hJfPk0B1Wo4-qEsmZh_oivRuQ/rs:fit/g:sm/q:90/h:416/w:406/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MjIxNDMwMDgt/MTE1OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/7XzY9iA0dJiXlrbeg-hJfPk0B1Wo4-qEsmZh_oivRuQ/rs:fit/g:sm/q:90/h:416/w:406/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MjIxNDMwMDgt/MTE1OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/4BZrSCOKoE8DR-o242w_O-pUSADdmutqncq3BKLb04o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MjIxNDMwMDgt/MTE1OC5qcGVn.jpeg",
+                "width": 406,
+                "height": 416
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rHZolTjwbzkI7kl5BQWrtNd629UuoiB6zwtUStE3Pm4/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2Mzg1Njk4MTgt/NDQ4NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/rHZolTjwbzkI7kl5BQWrtNd629UuoiB6zwtUStE3Pm4/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2Mzg1Njk4MTgt/NDQ4NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/yJksb3p-Tdw5QUdrR_hFr2HbRaD5vBvNe4EdfGi--1c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2Mzg1Njk4MTgt/NDQ4NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 471
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vhvLIFtwcJKlLe_UVLp0HVphQy-pYOpTwPbXdDVVYYs/rs:fit/g:sm/q:90/h:766/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjAxMzIt/MzMwNi5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/vhvLIFtwcJKlLe_UVLp0HVphQy-pYOpTwPbXdDVVYYs/rs:fit/g:sm/q:90/h:766/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjAxMzIt/MzMwNi5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/H2oNPEKsoVVlNFDm_Yb7oP4wnkbuKERbCffM1f_WLz0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjAxMzIt/MzMwNi5wbmc.jpeg",
+                "width": 600,
+                "height": 766
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/xZq4fLgfk6OIs8Y1VzT2faAjAXvlmYLQDK0U7dOF3uo/rs:fit/g:sm/q:90/h:548/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTQ2NzE1MzIt/OTEwMS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/xZq4fLgfk6OIs8Y1VzT2faAjAXvlmYLQDK0U7dOF3uo/rs:fit/g:sm/q:90/h:548/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTQ2NzE1MzIt/OTEwMS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/SAsu-GmjZEQXAx169xP8gYOb6WyiC4ezECR39p6-_R8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTQ2NzE1MzIt/OTEwMS5qcGVn.jpeg",
+                "width": 550,
+                "height": 548
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Y9nBAXRiJ5YfQzDbdqilcKFaoJz9JTOONLzgRc3vDuk/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIzMjMt/MTkzMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Y9nBAXRiJ5YfQzDbdqilcKFaoJz9JTOONLzgRc3vDuk/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIzMjMt/MTkzMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/g5rxbHHr8tggI9eJwsy5ao7C27ojf4HhN2e0B93-XEY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIzMjMt/MTkzMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 610
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/aC8nbEfurijYYpL9edscXdVlzk9ENnU0ASxHEpjrjYw/rs:fit/g:sm/q:90/h:600/w:390/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcwNTIu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/aC8nbEfurijYYpL9edscXdVlzk9ENnU0ASxHEpjrjYw/rs:fit/g:sm/q:90/h:600/w:390/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcwNTIu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/hibAWQN6Vo0ZR0bYuwxGqVzfKfyRTLaFbCFBOK_g1VU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcwNTIu/anBlZw.jpeg",
+                "width": 390,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/g7eO6S3EmPIktIDBAMQjKYuLRz8HqahiZ3QHjkaZSRU/rs:fit/g:sm/q:90/h:320/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExMjU3NjUzNzUu/Z2lm.jpeg",
+                "resource_url": "https://i.discogs.com/g7eO6S3EmPIktIDBAMQjKYuLRz8HqahiZ3QHjkaZSRU/rs:fit/g:sm/q:90/h:320/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExMjU3NjUzNzUu/Z2lm.jpeg",
+                "uri150": "https://i.discogs.com/b_LFub9-24NnUclgMnZBiSb2lHa1Uk9P9nQn1g_wIdc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExMjU3NjUzNzUu/Z2lm.jpeg",
+                "width": 320,
+                "height": 320
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/oLFMu3LGg3t2D1vObQK9NG01ndCPgnvcQlv8tOyfM70/rs:fit/g:sm/q:90/h:252/w:252/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/ODkzNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/oLFMu3LGg3t2D1vObQK9NG01ndCPgnvcQlv8tOyfM70/rs:fit/g:sm/q:90/h:252/w:252/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/ODkzNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/VuKkxxyaUoETnMPah_pz19NsngtTd6H8IdLLZpfJW4o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/ODkzNC5qcGVn.jpeg",
+                "width": 252,
+                "height": 252
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/v8WahBGhAF5_DxOuY0KVz0hLtQ01UYAvwRVFBeRnDfw/rs:fit/g:sm/q:90/h:640/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjMyNTUt/MjAzMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/v8WahBGhAF5_DxOuY0KVz0hLtQ01UYAvwRVFBeRnDfw/rs:fit/g:sm/q:90/h:640/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjMyNTUt/MjAzMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/poHS5jzj-qifUpQMWOwVDojHSvYbTKhQWjmsZ5aEVfU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2MTg3MjMyNTUt/MjAzMi5qcGVn.jpeg",
+                "width": 440,
+                "height": 640
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-4gKp548CpgkvT8NZ6V_lZ_yVeoAdTDmpxZs-XFMGwQ/rs:fit/g:sm/q:90/h:467/w:574/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTMxOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/-4gKp548CpgkvT8NZ6V_lZ_yVeoAdTDmpxZs-XFMGwQ/rs:fit/g:sm/q:90/h:467/w:574/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTMxOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/V_VQn4ANOF53kJQcjOYatcwzj_yimIEUxqgnpAA1KtM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTMxOS5qcGVn.jpeg",
+                "width": 574,
+                "height": 467
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/G-XNRc9FOD1MLY7xq5_2r-_4c8QQqkYOzhtykxtOxlY/rs:fit/g:sm/q:90/h:393/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODE1MzM1NDgu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/G-XNRc9FOD1MLY7xq5_2r-_4c8QQqkYOzhtykxtOxlY/rs:fit/g:sm/q:90/h:393/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODE1MzM1NDgu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/fkgo4qqwaBvm3rCw_IfJT1M_pBYC8CqbOVviQTNtPek/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODE1MzM1NDgu/anBlZw.jpeg",
+                "width": 600,
+                "height": 393
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/MTRyoOLfsYYDcKRdNonKYHaysY08qgR3WkrVoUn08Vo/rs:fit/g:sm/q:90/h:676/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIyMDEt/ODg0OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/MTRyoOLfsYYDcKRdNonKYHaysY08qgR3WkrVoUn08Vo/rs:fit/g:sm/q:90/h:676/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIyMDEt/ODg0OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/3UOCrptz1xbDLmSsq4RnGFzL0IFisNEITJEIV_ws8Q8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDIyMDEt/ODg0OC5qcGVn.jpeg",
+                "width": 540,
+                "height": 676
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/JAyau1qqNUmtj-T2cSjrlmUzkeoAWJ46HUFgy1zn8Wc/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4ODMt/ODQ3Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/JAyau1qqNUmtj-T2cSjrlmUzkeoAWJ46HUFgy1zn8Wc/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4ODMt/ODQ3Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/9rZFatse0P_O04RNyichzix05nhKQ3yV0v2lON53kSc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4ODMt/ODQ3Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2OZ5E2-9oiX2z_XDKaUnbCqllLxmWDH75wX9xTY3LeE/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI0MDct/ODcxMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/2OZ5E2-9oiX2z_XDKaUnbCqllLxmWDH75wX9xTY3LeE/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI0MDct/ODcxMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/v4mMcLMt64FdqUKI0Fv8PHxUzqLAO9m3DTjpZVzEA-M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI0MDct/ODcxMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 593
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HB6-zBQ_jWnT6WAPDWqMIqNwmjJZs0-j7HThFLR8-Dw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk4NzAt/MTc0NS5naWY.jpeg",
+                "resource_url": "https://i.discogs.com/HB6-zBQ_jWnT6WAPDWqMIqNwmjJZs0-j7HThFLR8-Dw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk4NzAt/MTc0NS5naWY.jpeg",
+                "uri150": "https://i.discogs.com/hG28A9vnQm2ipGmEIokaeLaMUm8oa9ls5IoTZtiWVvA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk4NzAt/MTc0NS5naWY.jpeg",
+                "width": 600,
+                "height": 590
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/0Fc2IOJFVBwmJEs48frCGjjDtMxBq441M3VjBuKaMT4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExNjc0Mzc0NDAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/0Fc2IOJFVBwmJEs48frCGjjDtMxBq441M3VjBuKaMT4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExNjc0Mzc0NDAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/wc6v3bKIHWeJXEBVuzciIjBkcd4RoamdzzANu8uIs24/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTExNjc0Mzc0NDAu/anBlZw.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SKQXsAOq1Po2dbo03bWil97ebXl_3lty0Gk_Hm02WJg/rs:fit/g:sm/q:90/h:688/w:554/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk0MDct/NjgyOC5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/SKQXsAOq1Po2dbo03bWil97ebXl_3lty0Gk_Hm02WJg/rs:fit/g:sm/q:90/h:688/w:554/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk0MDct/NjgyOC5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/MG37Ec_LRkDw8owtFzQaGkFLsf79sC3CwLwCwXP5g7o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk0MDct/NjgyOC5wbmc.jpeg",
+                "width": 554,
+                "height": 688
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XNnIpa8rUgyg3AtWQUlmJkwhsPJqONO6bpQIJlv-_Dc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMTQu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/XNnIpa8rUgyg3AtWQUlmJkwhsPJqONO6bpQIJlv-_Dc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMTQu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/AS4jCWqtdAHUSUMT_xmiglKbI-Z9wmeErmUCxgUpDWY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMTQu/anBlZw.jpeg",
+                "width": 596,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/J1dCpoJfBZoPs7K8RU0ydiQHfqFwSykmKqQODl56gsw/rs:fit/g:sm/q:90/h:483/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk1NTct/MjI0OS5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/J1dCpoJfBZoPs7K8RU0ydiQHfqFwSykmKqQODl56gsw/rs:fit/g:sm/q:90/h:483/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk1NTct/MjI0OS5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/Wa5RiBiy2tIcvCvyn9F_hq72dK-MAlfc_hmF1ajSmY0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NDgzMzk1NTct/MjI0OS5wbmc.jpeg",
+                "width": 600,
+                "height": 483
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vMWLwGDmRbDwJ_FZ7WqoyeuakLo9HbK1tZ9uoANv6U0/rs:fit/g:sm/q:90/h:376/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTEzMDg2NDQt/MzM0OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/vMWLwGDmRbDwJ_FZ7WqoyeuakLo9HbK1tZ9uoANv6U0/rs:fit/g:sm/q:90/h:376/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTEzMDg2NDQt/MzM0OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/SPCW_HgXBCXg1afXH5-2zsoL8l-hj1VZXC_pVM4ixUg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTEzMDg2NDQt/MzM0OC5qcGVn.jpeg",
+                "width": 500,
+                "height": 376
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/nb03SRHlq5nd3HsUlsR6V_cKvm4-3t62JonHGYPNXhg/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE1MTQ0NTI3OTkt/OTAyOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/nb03SRHlq5nd3HsUlsR6V_cKvm4-3t62JonHGYPNXhg/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE1MTQ0NTI3OTkt/OTAyOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/fIohv9uz--KNGD0T78ttvU8T9cOcvXE1HEQcKogsGnc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE1MTQ0NTI3OTkt/OTAyOS5qcGVn.jpeg",
+                "width": 600,
+                "height": 784
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rnJnMzdrzqOsXcXLCFqSsqULEO6kIfqQ-rHO7F67l9U/rs:fit/g:sm/q:90/h:600/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIyOTku/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/rnJnMzdrzqOsXcXLCFqSsqULEO6kIfqQ-rHO7F67l9U/rs:fit/g:sm/q:90/h:600/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIyOTku/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/f7pT0fj5HAbHLhbNmsvIcI_miydB60mWfHRQ5iUu2D8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIyOTku/anBlZw.jpeg",
+                "width": 500,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/v8hr4Mce7INisUg09d1SPJP2ak6AaBqzFUp3-EYuE_E/rs:fit/g:sm/q:90/h:450/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1Nzku/cG5n.jpeg",
+                "resource_url": "https://i.discogs.com/v8hr4Mce7INisUg09d1SPJP2ak6AaBqzFUp3-EYuE_E/rs:fit/g:sm/q:90/h:450/w:360/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1Nzku/cG5n.jpeg",
+                "uri150": "https://i.discogs.com/whGB8nvUEzjdKtbHc_Ge35Tzser5m3W-CIebKjyp_Nw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1Nzku/cG5n.jpeg",
+                "width": 360,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/N-7tZo5ORNrErCy8I0xeIvcyuZg7mA2wAsgo_suhjOs/rs:fit/g:sm/q:90/h:400/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcyMDEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/N-7tZo5ORNrErCy8I0xeIvcyuZg7mA2wAsgo_suhjOs/rs:fit/g:sm/q:90/h:400/w:320/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcyMDEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/n_AW9P2_RGzvd-9aOZLeUV_qmgJxZA_Wwt3TBuWwlXA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyMDU2OTcyMDEu/anBlZw.jpeg",
+                "width": 320,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/jvRfF3ifGXhM5u4T84X5XPnr0PZbuf47AXDUPwRa2mY/rs:fit/g:sm/q:90/h:440/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMDcu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/jvRfF3ifGXhM5u4T84X5XPnr0PZbuf47AXDUPwRa2mY/rs:fit/g:sm/q:90/h:440/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMDcu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/llasApLmWaeGj2NbJSBcPZZFpOr7y4hcALwdU6oqTew/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzMDYwNTIzMDcu/anBlZw.jpeg",
+                "width": 600,
+                "height": 440
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ekmVqf4EYhFW0qFzSAzWv3K6jSEnQfUm_D_oJ7DzLSA/rs:fit/g:sm/q:90/h:468/w:467/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1MzkyOTEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/ekmVqf4EYhFW0qFzSAzWv3K6jSEnQfUm_D_oJ7DzLSA/rs:fit/g:sm/q:90/h:468/w:467/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1MzkyOTEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/jC_J5toqdaDU_rL5eCMXzfnqKH3l5xhYxyLDmk-34V0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1MzkyOTEu/anBlZw.jpeg",
+                "width": 467,
+                "height": 468
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/TQN-oQtnlT-QR_PTFSmd0eWMUtvDtNZ5pK_CPzk3QGo/rs:fit/g:sm/q:90/h:639/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1MDUu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/TQN-oQtnlT-QR_PTFSmd0eWMUtvDtNZ5pK_CPzk3QGo/rs:fit/g:sm/q:90/h:639/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1MDUu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/Cnj07ngNGCPDcVsWeC4bbAxrOjF_alkCT15WBtOWL2U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEyODc1Mzk1MDUu/anBlZw.jpeg",
+                "width": 500,
+                "height": 639
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/j2tTl6fWnOJQQGOP5VxeUUUaI1UHmXzGULpSqMVlpiA/rs:fit/g:sm/q:90/h:550/w:537/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk5NDMt/Njc1NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/j2tTl6fWnOJQQGOP5VxeUUUaI1UHmXzGULpSqMVlpiA/rs:fit/g:sm/q:90/h:550/w:537/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk5NDMt/Njc1NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/vFs4kvlpmDuYoz4nbN5AGYn2YjiUWGnlscDrFXpqzUs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3Mzk5NDMt/Njc1NC5qcGVn.jpeg",
+                "width": 537,
+                "height": 550
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/sGouPJ6J_IQeB9kF59kPi5O-864otzEnpt-ht6cMZJI/rs:fit/g:sm/q:90/h:720/w:486/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDct/Mjg4Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/sGouPJ6J_IQeB9kF59kPi5O-864otzEnpt-ht6cMZJI/rs:fit/g:sm/q:90/h:720/w:486/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDct/Mjg4Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/tBkZ_ELhd5yGCkgb1gbZChOgwYna7VpHXvnshTlSwu8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDct/Mjg4Ni5qcGVn.jpeg",
+                "width": 486,
+                "height": 720
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ELEYDv2LfGxguhynOr4MBVwiDrfoPgieQm_hpTwug6M/rs:fit/g:sm/q:90/h:768/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTQ2NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/ELEYDv2LfGxguhynOr4MBVwiDrfoPgieQm_hpTwug6M/rs:fit/g:sm/q:90/h:768/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTQ2NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/kX2SKxB0c8CyEXE8-jHlAVHx-CsxIDZWSNLHge5JxRU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MDkt/MTQ2NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 768
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/nz3Jghub42fS5uoIyWJnjF7GL8585TdQdilRx19Zc04/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/NDc3NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/nz3Jghub42fS5uoIyWJnjF7GL8585TdQdilRx19Zc04/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/NDc3NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/lX3bJnMZPlnwZzev0faYCXY5Ibz6kR01spCmGVUh-QM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE0NTIzNTQ0MTAt/NDc3NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3DBynRDskrvgq8WlszerVInjCKie0ZaYSkG1C_vB5YY/rs:fit/g:sm/q:90/h:469/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4MTEt/NzQ2NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/3DBynRDskrvgq8WlszerVInjCKie0ZaYSkG1C_vB5YY/rs:fit/g:sm/q:90/h:469/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4MTEt/NzQ2NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/lJEbs4yF5tc_1t-JXorygNlYXtz23jPfjtkr7j1ZfnE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTEzODI3NDI4MTEt/NzQ2NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 469
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ifAQXX0oGMvBjV2S6hslIgYrG2fg7Eh-aaLoRoXilKo/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNzYt/ODQzNi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/ifAQXX0oGMvBjV2S6hslIgYrG2fg7Eh-aaLoRoXilKo/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNzYt/ODQzNi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/LpqVVrEKTCSLMEUfPNXGg-Hj5MqsBU3Cy7FWs8l4b1w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE2NDE0ODcxNzYt/ODQzNi5qcGVn.jpeg",
+                "width": 600,
+                "height": 599
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Td7gwXmMqAeDWpOgAxYmQuWOq3n0GoAzN385viWAvYs/rs:fit/g:sm/q:90/h:735/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NTY3MjQxNzMt/NTkzMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Td7gwXmMqAeDWpOgAxYmQuWOq3n0GoAzN385viWAvYs/rs:fit/g:sm/q:90/h:735/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NTY3MjQxNzMt/NTkzMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/bzSql6fLWLeAzfIyC5KvHl3wVACHoZcxqB0S9wnAwcI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NTY3MjQxNzMt/NTkzMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 735
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ciF6Nww30TRtQZ8f36GZQZx1zXm5rDsx53hhaafhhtU/rs:fit/g:sm/q:90/h:675/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY1OTIt/OTY4My5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/ciF6Nww30TRtQZ8f36GZQZx1zXm5rDsx53hhaafhhtU/rs:fit/g:sm/q:90/h:675/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY1OTIt/OTY4My5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/JgBRdsybvfl0WlWK8R37jHq9W2ZuLYF_5rvGJGNvUuw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY1OTIt/OTY4My5qcGVn.jpeg",
+                "width": 600,
+                "height": 675
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/yskbbpY4g16faiNcx8DElDEPOgd8qWB2gc19TQLltig/rs:fit/g:sm/q:90/h:422/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MjIt/MTg4Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/yskbbpY4g16faiNcx8DElDEPOgd8qWB2gc19TQLltig/rs:fit/g:sm/q:90/h:422/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MjIt/MTg4Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/-NU-FzJATGSQojzkZy5z0m0DgsPggV4mHUcPcOkxpK8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MjIt/MTg4Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 422
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/n4OTn8RaE_lHaiOpmNdnpOhzCrg_WjVpMRlyq-UCdIo/rs:fit/g:sm/q:90/h:383/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MzYt/NTUwNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/n4OTn8RaE_lHaiOpmNdnpOhzCrg_WjVpMRlyq-UCdIo/rs:fit/g:sm/q:90/h:383/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MzYt/NTUwNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/pS9g2BT-ssApec3WeTdSq5ra7B-FES_IWC73xu_6_20/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY2MzYt/NTUwNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 383
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/nPtTSQ9NkO7YfTBJtEj3X5WcLXL6XkFNJLPBJQd3gck/rs:fit/g:sm/q:90/h:404/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3NTAt/MjQxNy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/nPtTSQ9NkO7YfTBJtEj3X5WcLXL6XkFNJLPBJQd3gck/rs:fit/g:sm/q:90/h:404/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3NTAt/MjQxNy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/2ZTnFpM7gNpue-2QhcWEw5eW-xmH2hz8apHENl9mKAI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3NTAt/MjQxNy5qcGVn.jpeg",
+                "width": 600,
+                "height": 404
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/78nQJjWBrBK-hI4yPyBXHpsXP48CX9rD351WQLKFeMU/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3OTQt/OTEyMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/78nQJjWBrBK-hI4yPyBXHpsXP48CX9rD351WQLKFeMU/rs:fit/g:sm/q:90/h:603/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3OTQt/OTEyMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/XDL1Mhh4evQHi-T-oSJbMJkRu0Cu_Ad-P_XDDs0SvX0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY3OTQt/OTEyMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 603
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/smwfNiZFVM6XbzUI801o38UNG7gz6lOOeer2lEPlFYM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4NTYt/MzMyMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/smwfNiZFVM6XbzUI801o38UNG7gz6lOOeer2lEPlFYM/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4NTYt/MzMyMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/1DlecgjBYY47bHFlS80qE3ASduy7KquXe653KSwvFiw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4NTYt/MzMyMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/5mEHp_vlDr5KeTh7EuIM2ww8CChRYNIdRprAB71I1xI/rs:fit/g:sm/q:90/h:755/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4ODUt/NDgzMS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/5mEHp_vlDr5KeTh7EuIM2ww8CChRYNIdRprAB71I1xI/rs:fit/g:sm/q:90/h:755/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4ODUt/NDgzMS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/2g7BoMulUU_EmpgnnZeY-p9ggzclO72sn1uKj5-wvBQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY4ODUt/NDgzMS5qcGVn.jpeg",
+                "width": 600,
+                "height": 755
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/o1gshXh5WXmAGxtom1JOB1xpfs1RYN_FHsf8DU1ORYA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MTAt/Mjc4MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/o1gshXh5WXmAGxtom1JOB1xpfs1RYN_FHsf8DU1ORYA/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MTAt/Mjc4MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/zlmXgJ4kqXAjXimlHJgwynHP_Zk4siBoaVmMSrSSx24/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MTAt/Mjc4MS5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Dwkzt07etGXiIgFSDjM22oCy14k6hcxCzue40rFJ8Qw/rs:fit/g:sm/q:90/h:719/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MzAt/ODU5Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Dwkzt07etGXiIgFSDjM22oCy14k6hcxCzue40rFJ8Qw/rs:fit/g:sm/q:90/h:719/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MzAt/ODU5Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/vLBqulaxEa9TbJOXwkp8DbBOfc4flRLSjGATC3--KEA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTY5MzAt/ODU5Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 719
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/itOooo3kngCu8o75C0efVPsaFPRCLrLEsr6FybNdd8Q/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMDIt/MTExNy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/itOooo3kngCu8o75C0efVPsaFPRCLrLEsr6FybNdd8Q/rs:fit/g:sm/q:90/h:410/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMDIt/MTExNy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/7taIRpeNOR5D8nHBUEw34WLJAduG3e7WjsKwkktOjYw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMDIt/MTExNy5qcGVn.jpeg",
+                "width": 600,
+                "height": 410
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/ZvJsOYYRunXcs9CNhpoxOTVG6IaD_rbE-8_ejRVowWc/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMTUt/ODI1NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/ZvJsOYYRunXcs9CNhpoxOTVG6IaD_rbE-8_ejRVowWc/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMTUt/ODI1NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/LDfVFNrodl3K7ohB82Uuvohpt2yPx1vEUlfbX9Srxlo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMTUt/ODI1NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/7AuVRYQLZXC-S-YBvUsf-QuPC4IkKTcT3t_Y_8clDeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMjUt/NDE3OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/7AuVRYQLZXC-S-YBvUsf-QuPC4IkKTcT3t_Y_8clDeY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMjUt/NDE3OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/QJBVud1JlINaeuFCRZOYwPJvulx8-z7PHTKZ51E290M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwMjUt/NDE3OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gOxwgYVoHR40gGhKsb3xsmsx2Uzgx-01HJ-mbG3Dyx8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwNTYt/OTgwMS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/gOxwgYVoHR40gGhKsb3xsmsx2Uzgx-01HJ-mbG3Dyx8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwNTYt/OTgwMS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/NoSQ90_5qYdeXwThwdHVHDBnTndI_yS7wwuDDJ5n0Mk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwNTYt/OTgwMS5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/w9dQK_F_GM0ZDC9f5fQpqPpzpb1V8pSsYqOhrkHqQaI/rs:fit/g:sm/q:90/h:567/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODAt/ODQ5MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/w9dQK_F_GM0ZDC9f5fQpqPpzpb1V8pSsYqOhrkHqQaI/rs:fit/g:sm/q:90/h:567/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODAt/ODQ5MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/IHUpVOA0LMsuYYH6HAuZIQHRn-EVU84oFrUjo7FEa6w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODAt/ODQ5MC5qcGVn.jpeg",
+                "width": 600,
+                "height": 567
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/68l2rj0hmQjsZjm6ma41Lw_FjvvrixF3fR21O2Xj3_g/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODct/NjA5Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/68l2rj0hmQjsZjm6ma41Lw_FjvvrixF3fR21O2Xj3_g/rs:fit/g:sm/q:90/h:800/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODct/NjA5Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/sDJMUscsXCn2fcoB2Xdp_Z8xKq7J19iWaZ8NL7Ti1VU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcwODct/NjA5Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 800
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/1EcKmq9u_5kkgutf_IYLWkWadR2FqHPMSB8tpHHF4bc/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcxMDkt/NzAxMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/1EcKmq9u_5kkgutf_IYLWkWadR2FqHPMSB8tpHHF4bc/rs:fit/g:sm/q:90/h:792/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcxMDkt/NzAxMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/CJGKw3aQIkS4s2HZXX3E2VKBVPAmfo2JvF8rqfsVIv8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3NjI4NTcxMDkt/NzAxMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 792
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/HNqppRUxelst0H1MOJGs48htf1NvhHMfg8A1I3EYQwU/rs:fit/g:sm/q:90/h:653/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4Nzkt/MTAyOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/HNqppRUxelst0H1MOJGs48htf1NvhHMfg8A1I3EYQwU/rs:fit/g:sm/q:90/h:653/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4Nzkt/MTAyOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/LiJEe4MFeoVQv9ItrjlqpsQzA5NAv81o0vnTXz6B3BA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1OTI5/LTE3Njc0MDQ4Nzkt/MTAyOS5qcGVn.jpeg",
+                "width": 600,
+                "height": 653
+              }
+            ],
+            "realname": "Catherine Bush",
+            "profile": "British singer/songwriter, born July 30th, 1958 in Bexleyheath, London, UK. Bush was signed to EMI at age 16 after [a=David Gilmour] heard her work and helped her produce a demo tape.\n\nIn 1978 (at age 19), her debut single \"Wuthering Heights\" reached #1 in four countries. She has maintained a large cult following ever since. Bush's most prolific creative period was between 1978 to 1993, with a release of new material and new albums every few years. After the 1993 release of \"The Red Shoes,\" she began an extended break from public view,  and devoted time to her family.\n\n\"Aerial,\" Bush's first album in 12 years, was released in November 2005, preceded by single \"King Of The Mountain\". In 2011, two Kate Bush albums were released: \"Director's Cut,\" a reworking of several songs from \"The Sensual World\" and \"The Red Shoes,\" and \"50 Words for Snow,\" an album of new music.\n\nIn 2014, Bush performed in a series of live concerts in London, her first concerts in decades. All performances of the show, called \"Before The Dawn,\" sold out in minutes.\n\nShe was appointed Commander of the Most Excellent Order of the British Empire (CBE) in the 2013 New Year Honours for services to music.\n\nSister of [a=Paddy Bush] and [a=John Carder Bush].",
+            "urls": [
+              "https://www.katebush.com/",
+              "https://www.katebushnews.com/",
+              "https://www.katebushencyclopedia.com/",
+              "https://www.facebook.com/katebush",
+              "http://www.progarchives.com/artist.asp?id=2107",
+              "https://theworldofkatebush.blogspot.com/",
+              "https://twitter.com/katebushmusic",
+              "https://en.wikipedia.org/wiki/Kate_Bush",
+              "https://www.imdb.com/name/nm0124165/",
+              "https://www.youtube.com/user/KateBushMusic",
+              "https://www.youtube.com/c/katebushthecollection",
+              "https://www.instagram.com/katebush_thecollection/",
+              "https://www.allmusic.com/artist/kate-bush-mn0000855423"
+            ],
+            "namevariations": [
+              "(Kate Bush)",
+              "Bush",
+              "C. Bush",
+              "Catherine Bush",
+              "K Bush",
+              "K. Bush",
+              "K.B.",
+              "K.Bush",
+              "KB",
+              "Kate",
+              "Katherine Bush",
+              "Кейт Буш",
+              "קייט בוש",
+              "קיית בוש",
+              "ケイト・ブッシュ",
+              "凱特∙布什",
+              "凱特布希"
+            ],
+            "aliases": [
+              {
+                "id": 3629532,
+                "name": "Girl From The Ivy",
+                "resource_url": "https://api.discogs.com/artists/3629532"
+              }
+            ],
+            "groups": [
+              {
+                "id": 406643,
+                "name": "Spirit Of The Forest",
+                "resource_url": "https://api.discogs.com/artists/406643",
+                "active": true
+              },
+              {
+                "id": 420265,
+                "name": "Ferry Aid",
+                "resource_url": "https://api.discogs.com/artists/420265",
+                "active": true
+              },
+              {
+                "id": 3263822,
+                "name": "Kate Bush And Friends",
+                "resource_url": "https://api.discogs.com/artists/3263822",
+                "active": true
+              },
+              {
+                "id": 4253308,
+                "name": "KT Bush Band",
+                "resource_url": "https://api.discogs.com/artists/4253308",
+                "active": true
+              },
+              {
+                "id": 5673206,
+                "name": "The KT Fellowship",
+                "resource_url": "https://api.discogs.com/artists/5673206",
+                "active": true
+              },
+              {
+                "id": 15784026,
+                "name": "1000 UK Artists",
+                "resource_url": "https://api.discogs.com/artists/15784026",
+                "active": true
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "3629532": {
+          "artist": {
+            "discogsArtistId": "3629532",
+            "name": "Girl From The Ivy",
+            "realName": null,
+            "profile": null,
+            "artistUrls": [
+              "https://www.katebush.com/",
+              "https://www.katebushnews.com/",
+              "https://www.facebook.com/katebush",
+              "http://www.progarchives.com/artist.asp?id=2107",
+              "https://theworldofkatebush.blogspot.com/",
+              "https://twitter.com/katebushmusic",
+              "https://en.wikipedia.org/wiki/Kate_Bush",
+              "https://www.youtube.com/user/KateBushMusic"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "85929",
+                "name": "Kate Bush"
+              }
+            ],
+            "nameVariations": [],
+            "discogsResourceUrl": "https://api.discogs.com/artists/3629532",
+            "discogsWebUrl": "https://www.discogs.com/artist/3629532-Girl-From-The-Ivy",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Girl From The Ivy",
+            "id": 3629532,
+            "resource_url": "https://api.discogs.com/artists/3629532",
+            "uri": "https://www.discogs.com/artist/3629532-Girl-From-The-Ivy",
+            "releases_url": "https://api.discogs.com/artists/3629532/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/dV2FlndX7JD3NuNxxzG_i93uWX8HURBZ7f0eu6jaK0s/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTUxNDQ1Mjgz/OS02NTEwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/dV2FlndX7JD3NuNxxzG_i93uWX8HURBZ7f0eu6jaK0s/rs:fit/g:sm/q:90/h:784/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTUxNDQ1Mjgz/OS02NTEwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/VH834uOEuxL5x1J5l9-4B-eT_jVDBR8xYVINmcA1L2w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTUxNDQ1Mjgz/OS02NTEwLmpwZWc.jpeg",
+                "width": 600,
+                "height": 784
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/R69SgAG84qyWaMjekJ-kb126MpJ9MNuteJiQNQmDwEo/rs:fit/g:sm/q:90/h:720/w:457/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTQ1MTMwODY4/OS0xOTgwLmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/R69SgAG84qyWaMjekJ-kb126MpJ9MNuteJiQNQmDwEo/rs:fit/g:sm/q:90/h:720/w:457/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTQ1MTMwODY4/OS0xOTgwLmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/2Gxzhk-98gzBMYUtjLYf9Cl4Uoe9ghulUWa12-lQT6s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM2Mjk1/MzItMTQ1MTMwODY4/OS0xOTgwLmpwZWc.jpeg",
+                "width": 457,
+                "height": 720
+              }
+            ],
+            "profile": "",
+            "urls": [
+              "https://www.katebush.com/",
+              "https://www.katebushnews.com/",
+              "https://www.facebook.com/katebush",
+              "http://www.progarchives.com/artist.asp?id=2107",
+              "https://theworldofkatebush.blogspot.com/",
+              "https://twitter.com/katebushmusic",
+              "https://en.wikipedia.org/wiki/Kate_Bush",
+              "https://www.youtube.com/user/KateBushMusic"
+            ],
+            "aliases": [
+              {
+                "id": 85929,
+                "name": "Kate Bush",
+                "resource_url": "https://api.discogs.com/artists/85929"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "4b585938-f271-45e2-b19a-91c634b5e396": {
+          "releaseCount": 117,
+          "distinctiveTitles": [
+            "the single file 1978 1983",
+            "hounds of love",
+            "alone at my piano",
+            "babooshka",
+            "cloudbusting",
+            "december will be magic again",
+            "4 sucessos",
+            "the kick inside lionheart",
+            "cloudbusting meteorological mix",
+            "breathing",
+            "rubberband girl",
+            "this woman s work anthology 1978 1990",
+            "before the dawn",
+            "part ii",
+            "the kick inside lionheart never for ever",
+            "demos the phoenix recordings studio sessions",
+            "aspects of the sensual world",
+            "the dreaming",
+            "50 words for snow",
+            "hounds of love lionheart the kick inside",
+            "cathy s album too home demo recordings",
+            "the early years",
+            "this woman s work extended i",
+            "army dreamers",
+            "moments of pleasure the best works 1978 1993",
+            "the whole story",
+            "running up that hill a deal with god 2012 remix",
+            "under the ivy",
+            "in conversation 1983",
+            "kate bush",
+            "on stage",
+            "an interview with kate bush",
+            "act one king of the mountain live",
+            "the kick inside never for ever",
+            "night of the swallow",
+            "aerial",
+            "and so is love",
+            "this woman s work iii",
+            "wild man",
+            "my lagan love",
+            "lake tahoe",
+            "deeper understanding",
+            "in vinyl ii",
+            "lionheart the dreaming",
+            "the sensual world",
+            "rocket man candle in the wind",
+            "ne t enfuis pas",
+            "butterfly kisses",
+            "experiment iv",
+            "there goes a tenner",
+            "live at hammersmith odeon",
+            "the interview tapes",
+            "running up that hill",
+            "this woman s work",
+            "love and anger",
+            "lionheart",
+            "gold ballads",
+            "eat the music",
+            "the other sides",
+            "shrubberies",
+            "home for christmas",
+            "never for ever",
+            "act two and dream of sheep live",
+            "strange phenomena",
+            "the red shoes",
+            "the hair of the hound",
+            "suspended in gaffa",
+            "fruit",
+            "best of the other sides",
+            "wuthering heights",
+            "wow",
+            "sat in your lap",
+            "the big sky",
+            "part i",
+            "sampler",
+            "in vinyl i",
+            "snowflake",
+            "the man with the child in his eyes",
+            "don t give up",
+            "the kick inside",
+            "alchemy",
+            "in vinyl iii",
+            "the man i love",
+            "selection from the other sides",
+            "hammer horror",
+            "back sides",
+            "director s cut",
+            "king of the mountain",
+            "moments of pleasure",
+            "king of the mountain grand canyon remixes",
+            "blow away",
+            "monday night at the london palladium",
+            "apollo theater manchester 1979 complete version",
+            "running up that hill louis la roche special 2022 remix",
+            "interview picture disc",
+            "lyra",
+            "kate bush the classic interviews",
+            "lovin livin and givin wuthering heights",
+            "early demos 1973 1980 additional rare tracks",
+            "what katie did for amnesty international the palladium 28 3 87",
+            "on the box",
+            "hounds of love a classic album under review",
+            "moving",
+            "this woman s work extended ii",
+            "hammer horror una serata in rima",
+            "cathy s home demos",
+            "1979 television special",
+            "limited interview picture disc"
+          ],
+          "earliestYear": 1978,
+          "latestYear": 2025
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "1aSxMhuvixZ8h9dK9jIDwL",
+        "wikidataQid": "Q636",
+        "name": "Kate Bush",
+        "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+        "discogsArtistId": "85929"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "1aSxMhuvixZ8h9dK9jIDwL",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q636",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "85929",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "name": "Kate Bush",
+          "sortName": "Bush, Kate",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+          "name": "Kate Bush",
+          "sortName": "Bush, Kate",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": "GB",
+          "area": {
+            "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+            "name": "England",
+            "sortName": "England",
+            "type": null
+          },
+          "beginArea": {
+            "id": "f5fa3a2b-f793-4fab-8bb6-fe824c941b53",
+            "name": "Welling",
+            "sortName": "Welling",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1958-07-30",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Catherine Bush",
+              "sortName": "Bush, Catherine",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Kate Bush",
+              "sortName": "Bush, Kate",
+              "type": "Artist name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "ケイト・ブッシュ",
+              "sortName": "ケイト・ブッシュ",
+              "type": "Artist name",
+              "locale": "ja",
+              "primary": true
+            }
+          ],
+          "isni": [
+            "0000000114808340"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000855423"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://katebush.bandcamp.com/"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/11492"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/4b585938-f271-45e2-b19a-91c634b5e396"
+            },
+            {
+              "relationshipType": "BookBrainz",
+              "url": "https://bookbrainz.org/author/98dbd853-43c3-4ac5-a6e5-c54e9fc1e008"
+            },
+            {
+              "relationshipType": "discography page",
+              "url": "https://www.katebushencyclopedia.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/3629532"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/85929"
+            },
+            {
+              "relationshipType": "fanpage",
+              "url": "http://gaffa.org/"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/1049"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:KateBushComicRelief.png"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0124165/"
+            },
+            {
+              "relationshipType": "interview",
+              "url": "http://www.muzines.co.uk/articles/kate-bush/4391"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Kate+Bush"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-3462/kate-bush/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Kate-bush"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://petitlyrics.com/lyrics/artist/5087"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://utaten.com/artist/4072"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://www.joysound.com/web/search/artist/3364"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/1katebush"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "https://www.katebush.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/n91108828"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/B/Bush,_Kate/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://mvdbase.com/person.php?&id=A1706"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb13892009d"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/118517988"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/kate-bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://snaccooperative.org/ark:/99166/w6224zdm"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/kate-bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/artist/kate-bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/cdalbum/artist/kate-bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.45cat.com/vinyl/artist/kate-bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.mobygames.com/person/336214"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.musik-sammler.de/artist/3733/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.progarchives.com/artist.asp?id=2107"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.spirit-of-rock.com/en/band/Kate_Bush"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.themoviedb.org/person/567196"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Kate-Bush/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-n91108828/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Auezxz2xdzimbsu4rix7qt36mz4"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://boomkat.com/artists/kate-bush"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/gb/artist/id487277"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://mora.jp/artist/261995/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/gb/artist/487277"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.bugs.co.kr/artist/36027"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://ototoy.jp/_/default/a/251589"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://uk.7digital.com/artist/kate-bush"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://vibe.naver.com/artist/3804"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.junodownload.com/artists/Kate+Bush/releases/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=29374"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://boomkat.com/artists/kate-bush"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://tower.jp/artist/181677"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.cdjapan.co.jp/person/700312524"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.hmv.co.jp/artist/detail/000000000001604"
+            },
+            {
+              "relationshipType": "purchase for mail-order",
+              "url": "https://www.yesasia.com/0-aid2052274-0-bpt.47-en/list.html"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/2215"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/wd-23d6a4bf.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://open.spotify.com/user/kate_bush_"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/KateBushMusic"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/10393480679"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/katebushmusic/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/429022"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/kate-bush-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://gb.napster.com/artist/kate-bush"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.amazon.co.uk/artists/B001EE18FM"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/487277"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.bugs.co.kr/artist/36027"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.line.me/webapp/artist/mi00000000008f85e7"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.line.me/webapp/artist/mi000000001cd6bac2"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://open.qobuz.com/artist/35162"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/8957"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://vibe.naver.com/artist/3804"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=14936550"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.kkbox.com/jp/artist/On5WzY4Ue0DkOA8ikg"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.melon.com/artist/detail.htm?artistId=29374"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://www.qobuz.com/gb-en/interpreter/kate-bush/35162"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://web.napster.com/artist/art.2069"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/120739740"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q636"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UC31hY7kg7CUOBpdyn9d_gYA"
+            },
+            {
+              "relationshipType": "youtube music",
+              "url": "https://music.youtube.com/channel/UCvwgfsD0OaWx0HJRExrE6uQ"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/3629532.json",
+    "provider-cache/v1/discogs/artist/85929.json",
+    "provider-cache/v1/musicbrainz/artist/4b585938-f271-45e2-b19a-91c634b5e396.json",
+    "provider-cache/v1/musicbrainz/exact-name/95065139c54704e49d5fbd30.json",
+    "provider-cache/v1/musicbrainz/release-groups/4b585938-f271-45e2-b19a-91c634b5e396.json",
+    "provider-cache/v1/wikidata/spotify-bridge/1aSxMhuvixZ8h9dK9jIDwL.json"
+  ]
+}

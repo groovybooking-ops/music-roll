@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "0e5b1375191ac74734297bfa",
+  "retrievedAt": "2026-08-15T16:33:57.445Z",
+  "value": {
+    "requestedName": "Aliyah’s Interlude",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+        "name": "Aliyah’s Interlude",
+        "sortName": "Aliyah’s Interlude",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-15T16:33:57.340Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Aliyah’s Interlude",
+          "sort-name": "Aliyah’s Interlude",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Atlanta",
+            "sort-name": "Atlanta",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "01219452266"
+          ],
+          "isnis": [
+            "0000000521599814"
+          ],
+          "life-span": {
+            "begin": "2003-05-10",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Interlude, Aliyah",
+              "name": "Aliyah's Interlude",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Bah, Aliyah",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Aliyah Bah",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

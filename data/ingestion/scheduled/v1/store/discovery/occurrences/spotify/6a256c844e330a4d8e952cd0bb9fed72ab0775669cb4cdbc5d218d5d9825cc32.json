@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:1:7maQENQfaF8xDdEJp4i545",
+  "sourceUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+  "artist": {
+    "rawName": "Aliyah's Interlude",
+    "normalizedName": "aliyah's interlude"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "7maQENQfaF8xDdEJp4i545",
+    "url": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Aaliyah",
+    "resultPosition": 1,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+  "discoveredAt": "2026-08-15T16:33:26.599Z",
+  "reviewOnly": true
+}

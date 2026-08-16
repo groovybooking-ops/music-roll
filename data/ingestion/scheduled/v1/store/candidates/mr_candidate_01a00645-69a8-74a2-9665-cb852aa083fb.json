@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb",
+  "revision": 5,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-15T16:33:57.449Z",
+  "createdAt": "2026-08-15T16:33:27.464Z",
+  "updatedAt": "2026-08-15T16:33:57.449Z",
+  "name": {
+    "raw": "Aliyah's Interlude",
+    "normalized": "aliyah's interlude"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:ca852324e4c1e373c9171c5de12333d9df1efeb849224e27701892256829ac92",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:1:7maQENQfaF8xDdEJp4i545",
+      "sourceUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+      "rawArtistName": "Aliyah's Interlude",
+      "normalizedArtistName": "aliyah's interlude",
+      "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+    "wikidataQids": [
+      "Q123230271"
+    ],
+    "musicBrainzArtistIds": [
+      "e3f4f0e0-125b-4d47-84ea-821e60901512"
+    ],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb/bf96e73715dd3d9e27ed832d9b8b5ed85597066b98120fabc925ea7ecdfe4b89.json",
+      "provider-cache/v1/wikidata/spotify-bridge/7maQENQfaF8xDdEJp4i545.json",
+      "provider-cache/v1/musicbrainz/artist/e3f4f0e0-125b-4d47-84ea-821e60901512.json",
+      "provider-cache/v1/musicbrainz/exact-name/0e5b1375191ac74734297bfa.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+          "name": "Aliyah’s Interlude",
+          "sortName": "Aliyah’s Interlude",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "7maQENQfaF8xDdEJp4i545"
+          ],
+          "discogsArtistIds": []
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7maQENQfaF8xDdEJp4i545",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7maQENQfaF8xDdEJp4i545",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q123230271",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "e3f4f0e0-125b-4d47-84ea-821e60901512",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "e3f4f0e0-125b-4d47-84ea-821e60901512"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "7maQENQfaF8xDdEJp4i545",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "e3f4f0e0-125b-4d47-84ea-821e60901512"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q123230271",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "e3f4f0e0-125b-4d47-84ea-821e60901512"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:33:57.448Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00645-dec9-7737-96a4-79b2fb5ce7e9",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb/55ff5a4d35e95eaea68504ff5ed9bde3db65a6a7ce16e95d5ab3f792d29ca916.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:7maQENQfaF8xDdEJp4i545"
+    }
+  ]
+}

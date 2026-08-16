@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00652-9e64-71e7-aea6-e5f43865b0ee",
+  "candidateId": "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:47:52.932Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/cd25824c0e08cfb7cbe1fe817f78918293675bd8cc8edabaa8365805771d1995.json",
+    "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:94ac72c6b2143bc0f143f691581ab2a3355b297a487488501ac13b6cc25ee0aa",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll third human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A74fPg/attraction/K8vZ9175ndV",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A74fPg",
+      "rawArtistName": "Ray LaMontagne",
+      "normalizedArtistName": "ray lamontagne",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+  "completedAt": "2026-08-15T16:34:33.447Z",
+  "workerResult": {
+    "selected": 1,
+    "processed": 1,
+    "skippedCacheMiss": 0,
+    "retryWait": 0,
+    "staleRevisions": 0,
+    "workerErrors": 0,
+    "results": [
+      {
+        "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+        "status": "processed",
+        "decision": "completed_without_safe_exact_bridge",
+        "spotifyArtistId": null,
+        "state": "needs_review",
+        "evidenceRef": "evidence/identity-discovery/mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f/831ee1228a7f3dae3849520f3cfab13ed44adca0ca64739e60a1e48ced9d20bb.json"
+      }
+    ]
+  },
+  "reviewOnly": true
+}

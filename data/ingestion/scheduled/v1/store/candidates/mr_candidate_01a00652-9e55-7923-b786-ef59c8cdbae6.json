@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+  "revision": 5,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-15T16:48:04.127Z",
+  "createdAt": "2026-08-15T16:47:52.917Z",
+  "updatedAt": "2026-08-15T16:48:04.127Z",
+  "name": {
+    "raw": "Kate Nash",
+    "normalized": "kate nash"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:6d21402371b2246116de8e64ef9b926030d5286c72bcefe3e71fc2cdbc5f0bdc",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:3:5vBKu1igxFo6g1sHADkIdg",
+      "sourceUrl": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+      "rawArtistName": "Kate Nash",
+      "normalizedArtistName": "kate nash",
+      "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+    "wikidataQids": [
+      "Q237548"
+    ],
+    "musicBrainzArtistIds": [
+      "49018fd2-95ef-4f7e-92bb-813159909314"
+    ],
+    "discogsArtistIds": [
+      "798521"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6/ef757ffadf68e3868bef6cb433e1778f9c56ff4271f67b472992518673d4f7a6.json",
+      "provider-cache/v1/wikidata/spotify-bridge/5vBKu1igxFo6g1sHADkIdg.json",
+      "provider-cache/v1/musicbrainz/artist/49018fd2-95ef-4f7e-92bb-813159909314.json",
+      "provider-cache/v1/discogs/artist/798521.json",
+      "provider-cache/v1/musicbrainz/exact-name/7e14e56a017bacc03a745aa3.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "name": "Kate Nash",
+          "sortName": "Nash, Kate",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": "GB | alt-pop",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "5vBKu1igxFo6g1sHADkIdg"
+          ],
+          "discogsArtistIds": [
+            "798521"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5vBKu1igxFo6g1sHADkIdg",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5vBKu1igxFo6g1sHADkIdg",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q237548",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "798521",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "798521",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "5vBKu1igxFo6g1sHADkIdg",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q237548",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "798521",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "798521"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:48:04.125Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00652-ca1f-71d9-a7b5-afdfdb53e611",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:794b356c69c919baa9ba85f608c62980949a952336f8f57e9d44d2950a624897",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6/6ffba48848e44633a8ad2bb8bcf076c3021243827c1c5faedcd563a8fbb89322.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:5vBKu1igxFo6g1sHADkIdg"
+    }
+  ]
+}

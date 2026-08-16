@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00652-9e55-7e99-b1c7-0544a27214cf",
+  "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:47:52.917Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/794b356c69c919baa9ba85f608c62980949a952336f8f57e9d44d2950a624897.json",
+    "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:6d21402371b2246116de8e64ef9b926030d5286c72bcefe3e71fc2cdbc5f0bdc",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:3:5vBKu1igxFo6g1sHADkIdg",
+      "sourceUrl": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+      "rawArtistName": "Kate Nash",
+      "normalizedArtistName": "kate nash",
+      "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    }
+  }
+}

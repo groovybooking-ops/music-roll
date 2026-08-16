@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-6994-731a-996d-0b9f49170d91",
+  "candidateId": "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:27.444Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/e004acea7c4329018611274fcfc5601b52831b4d948b3d1119672fd7ff0841a2.json",
+    "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:1fc78c667edd960e0455d469a6bbe9e90a02ad7bdd41634445c9a5ecb62037b0",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:0:0urTpYCsixqZwgNTkPJOJ4",
+      "sourceUrl": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+      "rawArtistName": "Aaliyah",
+      "normalizedArtistName": "aaliyah",
+      "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  }
+}

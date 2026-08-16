@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "1aSxMhuvixZ8h9dK9jIDwL",
+  "retrievedAt": "2026-08-15T16:47:53.127Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "1aSxMhuvixZ8h9dK9jIDwL",
+      "wikidataQid": "Q636",
+      "name": "Kate Bush",
+      "musicBrainzArtistId": "4b585938-f271-45e2-b19a-91c634b5e396",
+      "discogsArtistId": "85929"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q636"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "4b585938-f271-45e2-b19a-91c634b5e396"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "85929"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kate Bush"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

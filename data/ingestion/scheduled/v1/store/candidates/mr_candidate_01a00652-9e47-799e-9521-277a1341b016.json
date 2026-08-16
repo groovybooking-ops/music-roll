@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+  "revision": 5,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-15T16:48:01.944Z",
+  "createdAt": "2026-08-15T16:47:52.903Z",
+  "updatedAt": "2026-08-15T16:48:01.944Z",
+  "name": {
+    "raw": "Pat Benatar",
+    "normalized": "pat benatar"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:52c37422946185f23ad25fc3a2cad2968e17708292efd009cfd680570236bc52",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:2:43mhFhQ4JAknA7Ik1bOZuV",
+      "sourceUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+      "rawArtistName": "Pat Benatar",
+      "normalizedArtistName": "pat benatar",
+      "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+    "wikidataQids": [
+      "Q235252"
+    ],
+    "musicBrainzArtistIds": [
+      "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+    ],
+    "discogsArtistIds": [
+      "160130"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00652-9e47-799e-9521-277a1341b016/c8326a771892224dd05bae364339b3c0a8fae13953882bbecedd3efe0fcc6dc9.json",
+      "provider-cache/v1/wikidata/spotify-bridge/43mhFhQ4JAknA7Ik1bOZuV.json",
+      "provider-cache/v1/musicbrainz/artist/6bc658ea-005f-486b-8f94-33a2e40f7a72.json",
+      "provider-cache/v1/discogs/artist/160130.json",
+      "provider-cache/v1/musicbrainz/exact-name/78e868af187d98569a5716e6.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "name": "Pat Benatar",
+          "sortName": "Benatar, Pat",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": null,
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "43mhFhQ4JAknA7Ik1bOZuV"
+          ],
+          "discogsArtistIds": [
+            "160130"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "43mhFhQ4JAknA7Ik1bOZuV",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "43mhFhQ4JAknA7Ik1bOZuV",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q235252",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160130",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160130",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "43mhFhQ4JAknA7Ik1bOZuV",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q235252",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "160130",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "160130"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:48:01.943Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00652-c198-7bd8-905d-ed0cf16e72e2",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:3321379bc2fd717506db723d6ead2dc1a56237d7bff41e85f9e5cfbe7f44f134",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00652-9e47-799e-9521-277a1341b016/5dad1e6980d736e1d92810eba79467d251caaf16a337f23004d7addc84b984b0.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:43mhFhQ4JAknA7Ik1bOZuV"
+    }
+  ]
+}

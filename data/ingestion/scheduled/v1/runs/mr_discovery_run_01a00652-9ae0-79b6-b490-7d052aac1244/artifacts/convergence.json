@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "createdAt": "2026-08-15T16:47:52.943Z",
+  "queueBefore": {
+    "total": 10,
+    "byState": {
+      "failed_match": 2,
+      "identity_coherent": 3,
+      "needs_review": 5
+    }
+  },
+  "queueAfter": {
+    "total": 14,
+    "byState": {
+      "failed_match": 2,
+      "identity_coherent": 3,
+      "identity_discovery_pending": 1,
+      "identity_pending": 3,
+      "needs_review": 5
+    }
+  },
+  "queueGrowth": 4,
+  "createdByProvider": {
+    "spotify": 3,
+    "ticketmaster": 1
+  },
+  "results": [
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:4a513a498e1d57ec025aee79dfc946494331e033a5b9ddbd17a229ee41aee00a",
+      "artistName": "Kate Bush",
+      "providerEntityId": "1aSxMhuvixZ8h9dK9jIDwL",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:fe985def59f9a06ebf2ff2c5b8a3ad55b1a9857168c8d0645babbcdb8a94657e",
+      "artistName": "Björk",
+      "providerEntityId": "7w29UYBi0qsHi5RTcv3lmA",
+      "action": "attach_existing_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+      "lifecycleState": "needs_review",
+      "occurrenceCreated": true,
+      "createdCandidate": false
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:3321379bc2fd717506db723d6ead2dc1a56237d7bff41e85f9e5cfbe7f44f134",
+      "artistName": "Pat Benatar",
+      "providerEntityId": "43mhFhQ4JAknA7Ik1bOZuV",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:794b356c69c919baa9ba85f608c62980949a952336f8f57e9d44d2950a624897",
+      "artistName": "Kate Nash",
+      "providerEntityId": "5vBKu1igxFo6g1sHADkIdg",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:cd25824c0e08cfb7cbe1fe817f78918293675bd8cc8edabaa8365805771d1995",
+      "artistName": "Ray LaMontagne",
+      "providerEntityId": "K8vZ9175ndV",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    }
+  ],
+  "reviewOnly": true
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "43mhFhQ4JAknA7Ik1bOZuV",
+  "retrievedAt": "2026-08-15T16:48:00.004Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+      "wikidataQid": "Q235252",
+      "name": "Pat Benatar",
+      "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+      "discogsArtistId": "160130"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q235252"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "6bc658ea-005f-486b-8f94-33a2e40f7a72"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "160130"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Pat Benatar"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

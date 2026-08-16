@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:3321379bc2fd717506db723d6ead2dc1a56237d7bff41e85f9e5cfbe7f44f134",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll third human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:2:43mhFhQ4JAknA7Ik1bOZuV",
+  "sourceUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+  "artist": {
+    "rawName": "Pat Benatar",
+    "normalizedName": "pat benatar"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "43mhFhQ4JAknA7Ik1bOZuV",
+    "url": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Kate Bush",
+    "resultPosition": 2,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json",
+  "discoveredAt": "2026-08-15T16:47:52.032Z",
+  "reviewOnly": true
+}

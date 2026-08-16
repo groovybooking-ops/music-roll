@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00646-6b4b-71c4-bb88-30bd72cc6600",
+  "candidateId": "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "needs_review",
+  "previousRevision": 4,
+  "candidateRevision": 5,
+  "reasonCode": "identity_corroboration_insufficient",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-15T16:34:33.419Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3/7c49a0f1fcbad19b8d3b74a1f47830cb9c38641ca1be898b6ef54d1847ff7353.json",
+    "provider-cache/v1/wikidata/spotify-bridge/0MZqxeVtllPhDp3d4nuUVI.json",
+    "provider-cache/v1/musicbrainz/spotify-url/0MZqxeVtllPhDp3d4nuUVI.json",
+    "provider-cache/v1/musicbrainz/artist/866d1f47-445b-4d8a-94f5-84bd62217ef6.json",
+    "provider-cache/v1/musicbrainz/exact-name/1990deefcd73d516a4e89d56.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "insufficient_corroboration",
+      "selectedSpotifyArtistId": null,
+      "wikidataQids": [],
+      "musicBrainzArtistIds": [
+        "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+      ],
+      "discogsArtistIds": [],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3/7c49a0f1fcbad19b8d3b74a1f47830cb9c38641ca1be898b6ef54d1847ff7353.json",
+        "provider-cache/v1/wikidata/spotify-bridge/0MZqxeVtllPhDp3d4nuUVI.json",
+        "provider-cache/v1/musicbrainz/spotify-url/0MZqxeVtllPhDp3d4nuUVI.json",
+        "provider-cache/v1/musicbrainz/artist/866d1f47-445b-4d8a-94f5-84bd62217ef6.json",
+        "provider-cache/v1/musicbrainz/exact-name/1990deefcd73d516a4e89d56.json"
+      ],
+      "conflicts": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "sortName": "Rose, Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "0MZqxeVtllPhDp3d4nuUVI"
+            ],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "provider_error_present",
+            "no_positive_catalog_anchor",
+            "wikidata_identifier_not_unique"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0MZqxeVtllPhDp3d4nuUVI",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0MZqxeVtllPhDp3d4nuUVI",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        }
+      ],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "0MZqxeVtllPhDp3d4nuUVI",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 0MZqxeVtllPhDp3d4nuUVI."
+        }
+      ],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-15T16:34:33.417Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "needs_review"
+    }
+  }
+}

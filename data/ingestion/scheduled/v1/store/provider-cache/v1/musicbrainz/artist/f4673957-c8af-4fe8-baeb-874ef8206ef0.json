@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+  "retrievedAt": "2026-08-15T16:33:46.580Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+      "name": "Aaliyah",
+      "sortName": "Aaliyah",
+      "artistType": "Person",
+      "disambiguation": "Daughter of Bushido",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [
+        {
+          "name": "Aaliyah Ferchichi",
+          "sortName": "Ferchichi, Aaliyah",
+          "type": "Legal name",
+          "locale": null,
+          "primary": false
+        }
+      ],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "discogs",
+          "url": "https://www.discogs.com/artist/10471348"
+        }
+      ]
+    },
+    "raw": {
+      "id": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "end-area": null,
+      "relations": [
+        {
+          "target-credit": "",
+          "url": {
+            "resource": "https://www.discogs.com/artist/10471348",
+            "id": "4eecdcdd-2e07-458b-9f73-2fa1aee6b019"
+          },
+          "direction": "forward",
+          "attribute-ids": {},
+          "target-type": "url",
+          "begin": null,
+          "type": "discogs",
+          "attribute-values": {},
+          "source-credit": "",
+          "end": null,
+          "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+          "ended": false,
+          "attributes": []
+        }
+      ],
+      "begin-area": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "disambiguation": "Daughter of Bushido",
+      "isnis": [],
+      "sort-name": "Aaliyah",
+      "name": "Aaliyah",
+      "type": "Person",
+      "aliases": [
+        {
+          "end": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "begin": null,
+          "ended": false,
+          "locale": null,
+          "name": "Aaliyah Ferchichi",
+          "type": "Legal name",
+          "sort-name": "Ferchichi, Aaliyah",
+          "primary": null
+        }
+      ],
+      "country": null,
+      "gender": "Female",
+      "ipis": [],
+      "area": null
+    }
+  }
+}

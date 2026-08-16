@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:4a513a498e1d57ec025aee79dfc946494331e033a5b9ddbd17a229ee41aee00a",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll third human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:0:1aSxMhuvixZ8h9dK9jIDwL",
+  "sourceUrl": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL",
+  "artist": {
+    "rawName": "Kate Bush",
+    "normalizedName": "kate bush"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "1aSxMhuvixZ8h9dK9jIDwL",
+    "url": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "1aSxMhuvixZ8h9dK9jIDwL",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Kate Bush",
+    "resultPosition": 0,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json",
+  "discoveredAt": "2026-08-15T16:47:52.032Z",
+  "reviewOnly": true
+}

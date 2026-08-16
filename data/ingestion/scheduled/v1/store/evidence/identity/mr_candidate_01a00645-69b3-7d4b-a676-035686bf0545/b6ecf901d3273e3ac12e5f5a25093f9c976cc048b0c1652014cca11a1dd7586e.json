@@ -1,0 +1,1473 @@
+{
+  "evidenceId": "sha256:b6ecf901d3273e3ac12e5f5a25093f9c976cc048b0c1652014cca11a1dd7586e",
+  "createdAt": "2026-08-15T16:34:12.050Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Mýa",
+        "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6lHL3ubAMgSasKjNqKb8HF",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6lHL3ubAMgSasKjNqKb8HF",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q233736",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28738",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28738",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6lHL3ubAMgSasKjNqKb8HF",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q233736",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28738",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "28738"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "6lHL3ubAMgSasKjNqKb8HF",
+          "observedValues": [
+            "6lHL3ubAMgSasKjNqKb8HF"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6lHL3ubAMgSasKjNqKb8HF",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6lHL3ubAMgSasKjNqKb8HF",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "6lHL3ubAMgSasKjNqKb8HF",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q233736",
+          "observedValues": [
+            "Q233736"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q233736",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q233736",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "observedValues": [
+            "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "28738",
+          "observedValues": [
+            "28738"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28738",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28738",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "28738",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "28738"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+            "name": "Mýa",
+            "sortName": "Mýa",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "US | R&B",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "6lHL3ubAMgSasKjNqKb8HF"
+            ],
+            "discogsArtistIds": [
+              "28738"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "7c5e39c3-7645-4e37-968d-a4e45cd38c5d": {
+          "artist": {
+            "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+            "name": "Mýa",
+            "sortName": "Mýa",
+            "artistType": "Person",
+            "disambiguation": "US | R&B",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+              "name": "Washington, D.C.",
+              "sortName": "Washington, D.C.",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1979-10-10",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Mya",
+                "sortName": "Mya",
+                "type": null,
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Mýa Marie Harrison",
+                "sortName": "Harrison, Mýa Marie",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000118775304",
+              "0000000372305973"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000621112"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/28738"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/546"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm0616550/"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-3822/m%C3%83%C2%BDa/lyrics.html"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/therealmya"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.myamya.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no98127186"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb14025130j"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/135086337"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://ibdb.com/person.php?id=477420"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://id.oclc.org/worldcat/entity/E39PBJt8gY6HdPr77mrWTwgdwC"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/mya"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.worldcat.org/identities/lccn-no98127186"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/missmya"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/259115"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/108751"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/30171"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/32004549"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/69128744"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q233736"
+              }
+            ]
+          },
+          "raw": {
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "isnis": [
+              "0000000118775304",
+              "0000000372305973"
+            ],
+            "id": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+            "gender": "Female",
+            "begin-area": {
+              "iso-3166-2-codes": [
+                "US-DC"
+              ],
+              "sort-name": "Washington, D.C.",
+              "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+              "name": "Washington, D.C.",
+              "disambiguation": "",
+              "type": null,
+              "type-id": null
+            },
+            "end-area": null,
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "life-span": {
+              "begin": "1979-10-10",
+              "end": null,
+              "ended": false
+            },
+            "area": {
+              "sort-name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "disambiguation": "",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "type-id": null,
+              "type": null
+            },
+            "aliases": [
+              {
+                "end": null,
+                "type-id": null,
+                "primary": null,
+                "type": null,
+                "ended": false,
+                "name": "Mya",
+                "locale": null,
+                "sort-name": "Mya",
+                "begin": null
+              },
+              {
+                "begin": null,
+                "sort-name": "Harrison, Mýa Marie",
+                "locale": null,
+                "name": "Mýa Marie Harrison",
+                "ended": false,
+                "type": "Legal name",
+                "primary": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "end": null
+              }
+            ],
+            "country": "US",
+            "relations": [
+              {
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "attribute-ids": {},
+                "begin": null,
+                "ended": false,
+                "type": "allmusic",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "3a999ead-87df-458e-9e19-78add2eefa1c",
+                  "resource": "https://www.allmusic.com/artist/mn0000621112"
+                }
+              },
+              {
+                "url": {
+                  "resource": "https://www.discogs.com/artist/28738",
+                  "id": "aa5a2433-b285-4bd3-a01d-0b29825e418e"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "type": "discogs",
+                "ended": false,
+                "begin": null,
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward"
+              },
+              {
+                "ended": false,
+                "type": "free streaming",
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "url": {
+                  "resource": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+                  "id": "3ec6b73a-bded-4c37-a655-98081af68207"
+                },
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-ids": {},
+                "begin": null
+              },
+              {
+                "ended": false,
+                "type": "free streaming",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/546",
+                  "id": "2e443f32-1e83-423e-b54f-fba304fcba5d"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "begin": null,
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "attribute-ids": {},
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "url": {
+                  "id": "69cf2b8e-1d92-476e-ab08-cb4104832f18",
+                  "resource": "https://www.imdb.com/name/nm0616550/"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "type": "IMDb"
+              },
+              {
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attribute-ids": {},
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "begin": null,
+                "ended": false,
+                "type": "lyrics",
+                "url": {
+                  "resource": "http://muzikum.eu/en/122-3822/m%C3%83%C2%BDa/lyrics.html",
+                  "id": "fd8262f2-241d-435e-aa34-7df8dc1b5e2a"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": []
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "attribute-ids": {},
+                "end": null,
+                "begin": null,
+                "type": "myspace",
+                "ended": false,
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "6a97fbb7-72d3-4dbc-a0ff-ff47e38a075e",
+                  "resource": "https://myspace.com/therealmya"
+                }
+              },
+              {
+                "url": {
+                  "resource": "http://www.myamya.com/",
+                  "id": "a1348d91-7574-40d7-9116-003b92a17b64"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "ended": false,
+                "type": "official homepage",
+                "begin": null,
+                "attribute-ids": {},
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url"
+              },
+              {
+                "begin": null,
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "url": {
+                  "resource": "http://id.loc.gov/authorities/names/no98127186",
+                  "id": "2c2c81c2-d64c-4bcc-82f8-ca83c9619ad4"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "type": "other databases",
+                "ended": false
+              },
+              {
+                "begin": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-ids": {},
+                "end": null,
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "2e6bf194-8bcf-434a-9aec-58ab438b8d22",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb14025130j"
+                },
+                "type": "other databases",
+                "ended": false
+              },
+              {
+                "ended": false,
+                "type": "other databases",
+                "url": {
+                  "id": "edae9121-97ac-481d-9885-54c355d2250e",
+                  "resource": "https://d-nb.info/gnd/135086337"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "begin": null
+              },
+              {
+                "type": "other databases",
+                "ended": false,
+                "url": {
+                  "resource": "https://ibdb.com/person.php?id=477420",
+                  "id": "5d6505fa-936a-4075-8ee3-fae95f7e63ce"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "begin": null
+              },
+              {
+                "type": "other databases",
+                "ended": false,
+                "url": {
+                  "id": "c51a848e-cc29-422c-839d-ce4681ff7ab0",
+                  "resource": "https://id.oclc.org/worldcat/entity/E39PBJt8gY6HdPr77mrWTwgdwC"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-ids": {},
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "begin": null
+              },
+              {
+                "begin": null,
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "url": {
+                  "id": "126ffc83-c5b2-4842-8787-8f08ba683506",
+                  "resource": "https://rateyourmusic.com/artist/mya"
+                },
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "type": "other databases",
+                "ended": false
+              },
+              {
+                "begin": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "attribute-ids": {},
+                "end": null,
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "url": {
+                  "resource": "https://www.worldcat.org/identities/lccn-no98127186",
+                  "id": "e4204bff-178e-4e9a-8d59-4ce0460b98ce"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "ended": false,
+                "type": "other databases"
+              },
+              {
+                "begin": null,
+                "attribute-ids": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://twitter.com/missmya",
+                  "id": "5d4910ae-00cf-4060-b88f-e012c54aec9c"
+                },
+                "attributes": [],
+                "target-credit": "",
+                "source-credit": "",
+                "type": "social network",
+                "ended": false
+              },
+              {
+                "type": "songkick",
+                "ended": false,
+                "url": {
+                  "resource": "https://www.songkick.com/artists/259115",
+                  "id": "b3fdc463-1272-4492-a02f-e375a19106ff"
+                },
+                "source-credit": "",
+                "target-credit": "",
+                "attributes": [],
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "target-type": "url",
+                "direction": "forward",
+                "attribute-values": {},
+                "begin": null
+              },
+              {
+                "begin": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-ids": {},
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/108751",
+                  "id": "19a36ed8-a1c8-488c-9071-f2816c821e4e"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "type": "streaming",
+                "ended": false
+              },
+              {
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://tidal.com/artist/30171",
+                  "id": "b59cc5df-0bd4-42b3-b600-9e339650dd56"
+                }
+              },
+              {
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attribute-ids": {},
+                "end": null,
+                "begin": null,
+                "ended": false,
+                "type": "streaming",
+                "target-credit": "",
+                "attributes": [],
+                "source-credit": "",
+                "url": {
+                  "id": "a5ddd3bf-9025-419b-93e1-bff229288c25",
+                  "resource": "https://tidal.com/artist/32004549"
+                }
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "direction": "forward",
+                "end": null,
+                "attribute-ids": {},
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "begin": null,
+                "type": "VIAF",
+                "ended": false,
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "http://viaf.org/viaf/69128744",
+                  "id": "1f8dd1b6-570c-4001-a343-b11a2e92cbe5"
+                }
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "attribute-ids": {},
+                "source-credit": "",
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.wikidata.org/wiki/Q233736",
+                  "id": "bd496c33-9b1f-48db-ab36-d2a0a0e3384a"
+                },
+                "ended": false,
+                "type": "wikidata"
+              }
+            ],
+            "type": "Person",
+            "sort-name": "Mýa",
+            "disambiguation": "US | R&B",
+            "name": "Mýa",
+            "ipis": [
+              "00196259430"
+            ]
+          }
+        }
+      },
+      "discogsRecords": {
+        "28738": {
+          "artist": {
+            "discogsArtistId": "28738",
+            "name": "Mya",
+            "realName": "Mýa Marie Harrison",
+            "profile": "Mya (born October 10, 1979, Washington, D.C., USA) is an American Grammy award winning singer, actress and dancer. She is named after acclaimed poet [a312669]. Her father Sherman is an African American while her mother Theresa is Italian. Mya had been interested in singing and dancing as a child and began taking jazz, ballet and tap dancing classes from a very early age. During her teenage, her primary interest was in dancing, and she joined a dance troupe called T.W.A. (Tappers With Attitude) in 1992 at the age of 13. She studied under [a350807] of Dance Theater of Harlem who also chose her for a solo dance performance at the Kennedy Center.\r\n\r\nMya recalls facing peer pressure due to her mixed ethnicity but she rose above it and focused on her career in dance and later music. She became a dancer for Black Entertainment Television’s music videos from 1996 to 1998 and also became a teacher of children’s jazz and hip-hop dance classes in Camp Springs. Around this time, she also began to develop her musical abilities and her father helped her to record a demo, which he took to producers and record companies. He finally landed her a deal with [l2311] and spent two years recording her debut album, also titled “Mya”. The album featured collaborations with big industry names such as [a26918], [a26713], [a50703], [a157579] and [a37907] and was a huge hit with tracks like “It’s All About Me”, “Movin’ On”, and “My First Night with You”. It was eventually certified platinum and peaked at No. 29 on the Billboard 200.\r\n\r\nHer second album, titled “Fear of Flying”, was released in April 2000. It was also successful, and featured the hit song “Case of the Ex”. This won Mya a Soul Train Music Award nomination for R&B/Soul Album – Female and a UK MOBO nomination for Best Album, selling over 1 million copies in the U.S. and certified platinum by the RIAA. In 2001, she sang two of her biggest hits, both on the soundtracks of successful films. The first was for Walt Disney’s “Atlantis: The Lost Empire” and the next was for [a289151]’s musical film “Moulin Rouge!” in which she collaborated with [a77855], [a114823], and [a36988] on the remake of the song “Lady Marmalade”. This song reached No. 1 on the Billboard Hot 100 chart for 5 weeks and the four artists performed at the 2001 MTV Movie Awards. They performed again at the 44th Grammy Awards and won a Grammy Award for Best Pop Collaboration with Vocals.\r\n\r\nMya has acted in the Oscar winning musical film Chicago in the song “Cell Block Tango” as well as other films including “In Too Deep”, “Dirty Dancing: Havana Nights”, “Cursed” and “The Penthouse”. She also released two albums exclusively in Japan, titled “Beauty & the Streets” and “K.I.S.S. (Keep It Sexy & Simple)” although she released versions of the albums in the U.S. later. In 2009, Mya participated in season 9 of the reality TV show “Dancing with the Stars” as a dance contestant. She was one of the most popular contestants and finished as a runner up.\r\n\r\nMya is an active philanthropist and is the spokesperson for Secret to Self Esteem. She also founded TMATF, that is, The Mya Arts & Tech Foundation, which is a nonprofit that provides youth from disadvantaged backgrounds with opportunity for a better arts and technology education. She also supports LGBT causes, AIDS and earthquake victims.\r\n\r\n\r\n",
+            "artistUrls": [
+              "http://www.myamya.com",
+              "http://www.facebook.com/MyaPlanet9",
+              "http://plus.google.com/108345328673019005730",
+              "http://instagram.com/kissmya",
+              "http://www.myspace.com/therealmya",
+              "http://twitter.com/MISSMYA",
+              "http://www.youtube.com/user/MyaVEVO",
+              "https://en.wikipedia.org/wiki/M%C3%BDa"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "1169817",
+                "name": "Mya Harrison"
+              },
+              {
+                "discogsArtistId": "2652267",
+                "name": "Smoove Jones"
+              }
+            ],
+            "nameVariations": [
+              "MYA",
+              "Maya",
+              "Mia",
+              "Mija",
+              "Miya",
+              "Mya,",
+              "Myra",
+              "Mýa",
+              "Mȳa",
+              "Mỳa",
+              "Mỹa",
+              "美雅"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/28738",
+            "discogsWebUrl": "https://www.discogs.com/artist/28738-Mya",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Mya",
+            "id": 28738,
+            "resource_url": "https://api.discogs.com/artists/28738",
+            "uri": "https://www.discogs.com/artist/28738-Mya",
+            "releases_url": "https://api.discogs.com/artists/28738/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/4dTr4JJur0bC--mMt35kElXoKqKLRAJYAzy6aZH-pEU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE3MjgxMDI5ODQt/MjgwMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/4dTr4JJur0bC--mMt35kElXoKqKLRAJYAzy6aZH-pEU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE3MjgxMDI5ODQt/MjgwMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/aPQ_oLUMm6pXji9tmFn4J8Y-bWZKGsELYaEoOjRLzwg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE3MjgxMDI5ODQt/MjgwMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_1fuTCN7hmVNbqP6sEOJjA8RYnHdF8U7TlDGoMygpF0/rs:fit/g:sm/q:90/h:693/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE1MTgxMTY1NzYt/ODE1NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/_1fuTCN7hmVNbqP6sEOJjA8RYnHdF8U7TlDGoMygpF0/rs:fit/g:sm/q:90/h:693/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE1MTgxMTY1NzYt/ODE1NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/Dh4cAzNT_-q4j1yCMLLF3Pejjy8zzBwK6PQsatAhJMQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE1MTgxMTY1NzYt/ODE1NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 693
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SJ_nAwqxf9qZnY-ct72mjXEsYrU5Qye3rOa30qyagj8/rs:fit/g:sm/q:90/h:624/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0ODEzMDIwNjct/Nzg4MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/SJ_nAwqxf9qZnY-ct72mjXEsYrU5Qye3rOa30qyagj8/rs:fit/g:sm/q:90/h:624/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0ODEzMDIwNjct/Nzg4MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/yxHFO7ZY5UzWrKqor4Q41rjlN-a_YcRwbWoPMQWSdSE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0ODEzMDIwNjct/Nzg4MS5qcGVn.jpeg",
+                "width": 600,
+                "height": 624
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/X1wGHItJF6NQU8QPMy-0Fbq0irl7wxYqZxCI4MuVDaw/rs:fit/g:sm/q:90/h:790/w:533/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAxNjEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/X1wGHItJF6NQU8QPMy-0Fbq0irl7wxYqZxCI4MuVDaw/rs:fit/g:sm/q:90/h:790/w:533/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAxNjEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/nTxB2ooeP0KB-6CWEt7fcrg0ztYFyIQrhPO_8ysJWu0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAxNjEu/anBlZw.jpeg",
+                "width": 533,
+                "height": 790
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/cmsq6t8-K63Rr_FHYCbz6ApE26_C540VpviSziiakGM/rs:fit/g:sm/q:90/h:864/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzOTQzODY4NTkt/ODg0Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/cmsq6t8-K63Rr_FHYCbz6ApE26_C540VpviSziiakGM/rs:fit/g:sm/q:90/h:864/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzOTQzODY4NTkt/ODg0Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/hO65qhvtYMJNTxgnhopb7tQ9Gt5cvC6ExUhliiUKxpw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzOTQzODY4NTkt/ODg0Ni5qcGVn.jpeg",
+                "width": 576,
+                "height": 864
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2FmAhDW1F1hlMUsAr30umJWropcC7PaAkcxsQVTfQNw/rs:fit/g:sm/q:90/h:700/w:489/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzMjYzMTc1NzYu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/2FmAhDW1F1hlMUsAr30umJWropcC7PaAkcxsQVTfQNw/rs:fit/g:sm/q:90/h:700/w:489/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzMjYzMTc1NzYu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/15AK5ehknATOe2XjB6BegI2INEw06mM-KvYkUP3-f1o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEzMjYzMTc1NzYu/anBlZw.jpeg",
+                "width": 489,
+                "height": 700
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_DeTPicGqf1DhL6k6Dp9ujwS05K0aoF7ynY54ozbmAY/rs:fit/g:sm/q:90/h:330/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAyNjMu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/_DeTPicGqf1DhL6k6Dp9ujwS05K0aoF7ynY54ozbmAY/rs:fit/g:sm/q:90/h:330/w:220/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAyNjMu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/u9Oc9J-5WHsLVRnJVQIictIS9NZpjY8UyHyeuW9h998/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzAyNjMu/anBlZw.jpeg",
+                "width": 220,
+                "height": 330
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/7LYEaJAdYUrY3J9lJE6h8R1uBGQ_H6J4G_yBopGwKxI/rs:fit/g:sm/q:90/h:283/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5Nzgu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/7LYEaJAdYUrY3J9lJE6h8R1uBGQ_H6J4G_yBopGwKxI/rs:fit/g:sm/q:90/h:283/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5Nzgu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/GfQhzStQFZFjsbEavnjZGc7ADEST6EMyp-rhMze00uA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5Nzgu/anBlZw.jpeg",
+                "width": 500,
+                "height": 283
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/mP_if35p5r7_nED4O4InuRkvkYwE0bKQ15GwRn_s33E/rs:fit/g:sm/q:90/h:536/w:432/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA1MzQu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/mP_if35p5r7_nED4O4InuRkvkYwE0bKQ15GwRn_s33E/rs:fit/g:sm/q:90/h:536/w:432/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA1MzQu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/_DAmLlHDMVb05o7602Penm3JnYhzJoL8pZLVf5ghgOk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA1MzQu/anBlZw.jpeg",
+                "width": 432,
+                "height": 536
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QBwor1DS-1I5HtdhP4dQR6Zg64kAciTKXGtFGNxEHps/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExODgyMzc0Nzgu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/QBwor1DS-1I5HtdhP4dQR6Zg64kAciTKXGtFGNxEHps/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExODgyMzc0Nzgu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/dcJZ_FaWJWMNmmsvrLSruHk8NFLvPcWcpNfKRO2skZg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExODgyMzc0Nzgu/anBlZw.jpeg",
+                "width": 450,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/I1TqG74fOeO5e_-keC7VGA71u4fXidsjZsS0jF3Ico0/rs:fit/g:sm/q:90/h:768/w:503/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExNDg5MzM0MjAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/I1TqG74fOeO5e_-keC7VGA71u4fXidsjZsS0jF3Ico0/rs:fit/g:sm/q:90/h:768/w:503/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExNDg5MzM0MjAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/ZveCkFDnzFR788ixcdPc9w0J872JL9hE9dWlEoCJkPM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTExNDg5MzM0MjAu/anBlZw.jpeg",
+                "width": 503,
+                "height": 768
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KJw9zCkpsIMjLhZ0bahW1t8gLR40QchbKj8KGHS6710/rs:fit/g:sm/q:90/h:423/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk4MTAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/KJw9zCkpsIMjLhZ0bahW1t8gLR40QchbKj8KGHS6710/rs:fit/g:sm/q:90/h:423/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk4MTAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/Gqrgk_svr5HU6OCMuN_vY0lLQhwF0Y8N9vyc_6fiw3w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk4MTAu/anBlZw.jpeg",
+                "width": 563,
+                "height": 423
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/URCb8o7W3D1JSVxcvrOsBLKFQaKzRdnXVSmNsPrcbTE/rs:fit/g:sm/q:90/h:520/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5MTAu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/URCb8o7W3D1JSVxcvrOsBLKFQaKzRdnXVSmNsPrcbTE/rs:fit/g:sm/q:90/h:520/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5MTAu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/kq4lKH3ZcstWmr6b1tel8yQVvWT0LB7Q9IYNjzKoBrc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2Mjk5MTAu/anBlZw.jpeg",
+                "width": 600,
+                "height": 520
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/pv7mkVFp4GI0mMEhXBXu8BM1tHmPYjDQFmuAXt458kk/rs:fit/g:sm/q:90/h:812/w:504/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA0MjEu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/pv7mkVFp4GI0mMEhXBXu8BM1tHmPYjDQFmuAXt458kk/rs:fit/g:sm/q:90/h:812/w:504/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA0MjEu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/jiqmR4U_s4ILI7uhIBAm8N4pe2s1hAXWhjQIy8VvA2I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTEyMjc2MzA0MjEu/anBlZw.jpeg",
+                "width": 504,
+                "height": 812
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/SS2U3cVaIHyzqsyrwRzeSdr1gUA0S81QuNXa2FxOxYg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/NDQ1Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/SS2U3cVaIHyzqsyrwRzeSdr1gUA0S81QuNXa2FxOxYg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/NDQ1Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/g7RF-lmm8EjbPV1-AsQfcMeqwAl3Q-KuitlXDeJqenE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/NDQ1Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/TjPVABcpEBk7RCguHE3MPjT8AdLKFjyGynbuBLX7yJE/rs:fit/g:sm/q:90/h:685/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/Mjg4Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/TjPVABcpEBk7RCguHE3MPjT8AdLKFjyGynbuBLX7yJE/rs:fit/g:sm/q:90/h:685/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/Mjg4Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/dv6xkVZMmwXU2vcmS2Yddx3q8zeA6tfwsy0yQhMgVO8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/Mjg4Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 685
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/k7WnVDzWMXlrAia8CSpJAQjd_4wI_Q8oBAR1wIhBi9c/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/MjA1OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/k7WnVDzWMXlrAia8CSpJAQjd_4wI_Q8oBAR1wIhBi9c/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/MjA1OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/MNzkz9A1fU8mrc2hzZhf43gaZi9fNoNXr7QAwGI1Krg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzUt/MjA1OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 749
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/_XMBl5ghDAwpqBnmOtvisOL3TrxELZoCfjE3YeUS1kM/rs:fit/g:sm/q:90/h:809/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzQt/OTk1OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/_XMBl5ghDAwpqBnmOtvisOL3TrxELZoCfjE3YeUS1kM/rs:fit/g:sm/q:90/h:809/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzQt/OTk1OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/hZL0ibcqQ40AAR50v4_Q43E9OgLhOH9hcV9n3sy6Wnw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY4NzQt/OTk1OC5qcGVn.jpeg",
+                "width": 597,
+                "height": 809
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/sSr5B5culq1EmC1FmmgWcpk-UGtw6K9u5ZKGtgV_8to/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5NTct/NTA5Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/sSr5B5culq1EmC1FmmgWcpk-UGtw6K9u5ZKGtgV_8to/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5NTct/NTA5Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/tAbQ0SPuhBBiwKHoiTKZfc9RU_fEQlsEyoak-A6z6GA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5NTct/NTA5Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-Jl0LG8IJx0weYDKPUj-sIeXkhm0vI3MJx7JPTUIx2Q/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/NDU5Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/-Jl0LG8IJx0weYDKPUj-sIeXkhm0vI3MJx7JPTUIx2Q/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/NDU5Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/AhYYrg8CAeiFMm1KMget50A1BrfUH5jybtSo5HMgEE4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/NDU5Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 749
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/VohKLDtBt9HQTzYFzvNOLsE2ahM9wndCRELjGjH7hMg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5OTkt/NjM1MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/VohKLDtBt9HQTzYFzvNOLsE2ahM9wndCRELjGjH7hMg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5OTkt/NjM1MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/w0Hyd3-XkrAdvfQiZ2uyBVl9K9sURZyQHIO6xuzZ06I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTY5OTkt/NjM1MC5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/8Wb65kOJAgAT82kESKgKpDDqAwxqNoH8G7GM2cyY9LI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/MjE2Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/8Wb65kOJAgAT82kESKgKpDDqAwxqNoH8G7GM2cyY9LI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/MjE2Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/G0fsfV3mhhrWbdu5nSxv_0Wqy2GU_Wj2j_uff_uQ8fQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMDAt/MjE2Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/g9jBmqQbmMdD6YQ_zjh5rM-Bd8CGvyXmWbUZtQoPKSQ/rs:fit/g:sm/q:90/h:815/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMzYt/NTQyMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/g9jBmqQbmMdD6YQ_zjh5rM-Bd8CGvyXmWbUZtQoPKSQ/rs:fit/g:sm/q:90/h:815/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMzYt/NTQyMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/V2O9hl12iHBQW2PcS0uxyuKZ9-5a9lsXZUos2pa-6dk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwMzYt/NTQyMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 815
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/3Vg1Y7w7Y1spKrfeCF5cXVjJd8SiR5p9a9BS9q-GE1I/rs:fit/g:sm/q:90/h:414/w:414/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTEt/OTQ1MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/3Vg1Y7w7Y1spKrfeCF5cXVjJd8SiR5p9a9BS9q-GE1I/rs:fit/g:sm/q:90/h:414/w:414/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTEt/OTQ1MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/YgqWJLzLVmVc-pSd27mZdMaQ_0I71i68XHzGFIvHHgE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTEt/OTQ1MS5qcGVn.jpeg",
+                "width": 414,
+                "height": 414
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/a9ZqfGsz48Nfk7Favn7rd5H0aFkdiuR_8h7hN7XD01E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTIt/OTYwMC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/a9ZqfGsz48Nfk7Favn7rd5H0aFkdiuR_8h7hN7XD01E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTIt/OTYwMC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/AWJI-4XfU_8Du244nnpnYJOPth5sqUJ5tbrjmWK01bI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcwOTIt/OTYwMC5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QGrQxhl60rfGklHpbv7HnFiDu1ADM2p_v7FacGWdQ14/rs:fit/g:sm/q:90/h:360/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcxNjEt/ODY5MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/QGrQxhl60rfGklHpbv7HnFiDu1ADM2p_v7FacGWdQ14/rs:fit/g:sm/q:90/h:360/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcxNjEt/ODY5MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/XQ-TDdo1F-RZaArc6tgXKFwmYNYuo5faQsM9dtvBlK8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTcxNjEt/ODY5MC5qcGVn.jpeg",
+                "width": 594,
+                "height": 360
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/kivfz5r6Gi4f-bW4jjaOSTSp_E6kWLS-YgS6vE2yEp4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMDYt/NzQwMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/kivfz5r6Gi4f-bW4jjaOSTSp_E6kWLS-YgS6vE2yEp4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMDYt/NzQwMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/HfcchpGuhtho4PcsgmO9zq37IjJKr0ERF8teVTs6xSA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMDYt/NzQwMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/PWLE9ii58BWdMPxmNMrXRjEw4wlZ47lrxcm1Z4X-NaM/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMzgt/MTE2Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/PWLE9ii58BWdMPxmNMrXRjEw4wlZ47lrxcm1Z4X-NaM/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMzgt/MTE2Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/Y8yEAhNH9n9oq7XV689_MtvKzePnUboFuq0900VDkTM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgxMzgt/MTE2Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/OmXg9z4a7Jt4Zhhg4dxXCuD0Wylq3pbfeXjl11sgY4g/rs:fit/g:sm/q:90/h:939/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/Mjk5OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/OmXg9z4a7Jt4Zhhg4dxXCuD0Wylq3pbfeXjl11sgY4g/rs:fit/g:sm/q:90/h:939/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/Mjk5OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/tGkFuHUcTPxJZi_8lwnyl7VW0l5y67IGFMheGbXDz0U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/Mjk5OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 939
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/8wavxA-rpmIpqIV5M4_Fnu8LmFN1AF3ZLTVbSABEKxA/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/MTc1Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/8wavxA-rpmIpqIV5M4_Fnu8LmFN1AF3ZLTVbSABEKxA/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/MTc1Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/C-Lui10DXsgBMwBCtD-jfkJAWXZ7j_9sRoovniLJSEA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgyMjQt/MTc1Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Uo3mDBu1ZyYTrI3D8o_ZC9MA-T8cx9x__zcf860ctho/rs:fit/g:sm/q:90/h:403/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/NDA2MC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Uo3mDBu1ZyYTrI3D8o_ZC9MA-T8cx9x__zcf860ctho/rs:fit/g:sm/q:90/h:403/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/NDA2MC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/JiFIbnFMzTDOazoBhLWwS9HEPzX8twLHRmF3cuY_RJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/NDA2MC5qcGVn.jpeg",
+                "width": 400,
+                "height": 403
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/uPr92nYshfoVNNKZOf-Hy2WDeILBzHlSZX7VjeJcXXE/rs:fit/g:sm/q:90/h:987/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDct/ODQ4Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/uPr92nYshfoVNNKZOf-Hy2WDeILBzHlSZX7VjeJcXXE/rs:fit/g:sm/q:90/h:987/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDct/ODQ4Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/ZEF3TaLvJCQwhXnNf1BeZsNQPdNS9UCVJw_zOM2naMU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDct/ODQ4Ni5qcGVn.jpeg",
+                "width": 600,
+                "height": 987
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/FB9UwlN5AVjpm4ZSFXQJGPLcp_ygEF3PVbqBfRBQE2U/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/MzA2Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/FB9UwlN5AVjpm4ZSFXQJGPLcp_ygEF3PVbqBfRBQE2U/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/MzA2Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/1cnX0R9xVI-8uf3LFsBMy-0KFcQLnPvv3yO5uTC7xRM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/MzA2Mi5qcGVn.jpeg",
+                "width": 480,
+                "height": 480
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rY5TapnB2u6uqr8NAReh0VgFqQm9wy5Ke6ubxalSCFA/rs:fit/g:sm/q:90/h:679/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDgt/NzAzNi5wbmc.jpeg",
+                "resource_url": "https://i.discogs.com/rY5TapnB2u6uqr8NAReh0VgFqQm9wy5Ke6ubxalSCFA/rs:fit/g:sm/q:90/h:679/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDgt/NzAzNi5wbmc.jpeg",
+                "uri150": "https://i.discogs.com/GN6CJgBth-2HkH5TfE_jllCaPCcTrmCO-CR6atpePD0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDgt/NzAzNi5wbmc.jpeg",
+                "width": 480,
+                "height": 679
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gLl87-dXdNah13bN1pwoYOO0e2QFkW1yUCNIh2vp-3w/rs:fit/g:sm/q:90/h:333/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/ODIzNi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/gLl87-dXdNah13bN1pwoYOO0e2QFkW1yUCNIh2vp-3w/rs:fit/g:sm/q:90/h:333/w:445/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/ODIzNi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/b-w_kkAsJ2nUz0BgMBbwS8GEiYyqcotvAuEFc5g1qd4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4NzM4/LTE0OTU5MTgzMDYt/ODIzNi5qcGVn.jpeg",
+                "width": 445,
+                "height": 333
+              }
+            ],
+            "realname": "Mýa Marie Harrison",
+            "profile": "Mya (born October 10, 1979, Washington, D.C., USA) is an American Grammy award winning singer, actress and dancer. She is named after acclaimed poet [a312669]. Her father Sherman is an African American while her mother Theresa is Italian. Mya had been interested in singing and dancing as a child and began taking jazz, ballet and tap dancing classes from a very early age. During her teenage, her primary interest was in dancing, and she joined a dance troupe called T.W.A. (Tappers With Attitude) in 1992 at the age of 13. She studied under [a350807] of Dance Theater of Harlem who also chose her for a solo dance performance at the Kennedy Center.\r\n\r\nMya recalls facing peer pressure due to her mixed ethnicity but she rose above it and focused on her career in dance and later music. She became a dancer for Black Entertainment Television’s music videos from 1996 to 1998 and also became a teacher of children’s jazz and hip-hop dance classes in Camp Springs. Around this time, she also began to develop her musical abilities and her father helped her to record a demo, which he took to producers and record companies. He finally landed her a deal with [l2311] and spent two years recording her debut album, also titled “Mya”. The album featured collaborations with big industry names such as [a26918], [a26713], [a50703], [a157579] and [a37907] and was a huge hit with tracks like “It’s All About Me”, “Movin’ On”, and “My First Night with You”. It was eventually certified platinum and peaked at No. 29 on the Billboard 200.\r\n\r\nHer second album, titled “Fear of Flying”, was released in April 2000. It was also successful, and featured the hit song “Case of the Ex”. This won Mya a Soul Train Music Award nomination for R&B/Soul Album – Female and a UK MOBO nomination for Best Album, selling over 1 million copies in the U.S. and certified platinum by the RIAA. In 2001, she sang two of her biggest hits, both on the soundtracks of successful films. The first was for Walt Disney’s “Atlantis: The Lost Empire” and the next was for [a289151]’s musical film “Moulin Rouge!” in which she collaborated with [a77855], [a114823], and [a36988] on the remake of the song “Lady Marmalade”. This song reached No. 1 on the Billboard Hot 100 chart for 5 weeks and the four artists performed at the 2001 MTV Movie Awards. They performed again at the 44th Grammy Awards and won a Grammy Award for Best Pop Collaboration with Vocals.\r\n\r\nMya has acted in the Oscar winning musical film Chicago in the song “Cell Block Tango” as well as other films including “In Too Deep”, “Dirty Dancing: Havana Nights”, “Cursed” and “The Penthouse”. She also released two albums exclusively in Japan, titled “Beauty & the Streets” and “K.I.S.S. (Keep It Sexy & Simple)” although she released versions of the albums in the U.S. later. In 2009, Mya participated in season 9 of the reality TV show “Dancing with the Stars” as a dance contestant. She was one of the most popular contestants and finished as a runner up.\r\n\r\nMya is an active philanthropist and is the spokesperson for Secret to Self Esteem. She also founded TMATF, that is, The Mya Arts & Tech Foundation, which is a nonprofit that provides youth from disadvantaged backgrounds with opportunity for a better arts and technology education. She also supports LGBT causes, AIDS and earthquake victims.\r\n\r\n\r\n",
+            "urls": [
+              "http://www.myamya.com",
+              "http://www.facebook.com/MyaPlanet9",
+              "http://plus.google.com/108345328673019005730",
+              "http://instagram.com/kissmya",
+              "http://www.myspace.com/therealmya",
+              "http://twitter.com/MISSMYA",
+              "http://www.youtube.com/user/MyaVEVO",
+              "https://en.wikipedia.org/wiki/M%C3%BDa"
+            ],
+            "namevariations": [
+              "MYA",
+              "Maya",
+              "Mia",
+              "Mija",
+              "Miya",
+              "Mya,",
+              "Myra",
+              "Mýa",
+              "Mȳa",
+              "Mỳa",
+              "Mỹa",
+              "美雅"
+            ],
+            "aliases": [
+              {
+                "id": 1169817,
+                "name": "Mya Harrison",
+                "resource_url": "https://api.discogs.com/artists/1169817"
+              },
+              {
+                "id": 2652267,
+                "name": "Smoove Jones",
+                "resource_url": "https://api.discogs.com/artists/2652267"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+        "wikidataQid": "Q233736",
+        "name": "Mýa",
+        "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+        "discogsArtistId": "28738"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "6lHL3ubAMgSasKjNqKb8HF",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q233736",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "28738",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "name": "Mýa",
+          "sortName": "Mýa",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US | R&B",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "name": "Mýa",
+          "sortName": "Mýa",
+          "artistType": "Person",
+          "disambiguation": "US | R&B",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "af59135f-38b5-4ea4-b4e2-dd28c5f0bad7",
+            "name": "Washington, D.C.",
+            "sortName": "Washington, D.C.",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1979-10-10",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Mya",
+              "sortName": "Mya",
+              "type": null,
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Mýa Marie Harrison",
+              "sortName": "Harrison, Mýa Marie",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000118775304",
+            "0000000372305973"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000621112"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/28738"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/546"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0616550/"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-3822/m%C3%83%C2%BDa/lyrics.html"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/therealmya"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.myamya.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no98127186"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb14025130j"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/135086337"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://ibdb.com/person.php?id=477420"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://id.oclc.org/worldcat/entity/E39PBJt8gY6HdPr77mrWTwgdwC"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/mya"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.worldcat.org/identities/lccn-no98127186"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/missmya"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/259115"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/108751"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/30171"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/32004549"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/69128744"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q233736"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/28738.json",
+    "provider-cache/v1/musicbrainz/artist/7c5e39c3-7645-4e37-968d-a4e45cd38c5d.json",
+    "provider-cache/v1/musicbrainz/exact-name/1473968dc2695553b51dee9b.json",
+    "provider-cache/v1/wikidata/spotify-bridge/6lHL3ubAMgSasKjNqKb8HF.json"
+  ]
+}

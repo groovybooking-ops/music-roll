@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "provider": "spotify",
+  "adapterId": "spotify_live_bounded_discovery_v1",
+  "adapterVersion": "v1",
+  "configuration": {
+    "mode": "artist_search_results",
+    "query": "Aaliyah",
+    "queryRecordId": "scheduled-bounded-query-aaliyah-v1",
+    "limit": 4,
+    "market": "US",
+    "sourceType": "public_music_database",
+    "sourceName": "Music Roll second human-triggered scheduled discovery run",
+    "discoveredAt": "2026-08-15T16:33:26.599Z"
+  },
+  "configurationHash": "sha256:641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950",
+  "acquiredAt": "2026-08-15T16:33:27.220Z",
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+  "occurrences": [
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:e004acea7c4329018611274fcfc5601b52831b4d948b3d1119672fd7ff0841a2",
+      "provider": "spotify",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:0:0urTpYCsixqZwgNTkPJOJ4",
+      "sourceUrl": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+      "artist": {
+        "rawName": "Aaliyah",
+        "normalizedName": "aaliyah"
+      },
+      "providerEntity": {
+        "provider": "spotify",
+        "type": "artist",
+        "id": "0urTpYCsixqZwgNTkPJOJ4",
+        "url": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+        "legacyIds": []
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+        "spotifyArtistUrl": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "artist_search_results",
+        "query": "Aaliyah",
+        "resultPosition": 0,
+        "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+      "discoveredAt": "2026-08-15T16:33:26.599Z",
+      "reviewOnly": true
+    },
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32",
+      "provider": "spotify",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:1:7maQENQfaF8xDdEJp4i545",
+      "sourceUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+      "artist": {
+        "rawName": "Aliyah's Interlude",
+        "normalizedName": "aliyah's interlude"
+      },
+      "providerEntity": {
+        "provider": "spotify",
+        "type": "artist",
+        "id": "7maQENQfaF8xDdEJp4i545",
+        "url": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+        "legacyIds": []
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+        "spotifyArtistUrl": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545",
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "artist_search_results",
+        "query": "Aaliyah",
+        "resultPosition": 1,
+        "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+      "discoveredAt": "2026-08-15T16:33:26.599Z",
+      "reviewOnly": true
+    },
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:cc8d5fac8c4eda2d7dac0124ff1b22df5004413fa0edbcc07fa10578e728dbed",
+      "provider": "spotify",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:2:6lHL3ubAMgSasKjNqKb8HF",
+      "sourceUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+      "artist": {
+        "rawName": "Mýa",
+        "normalizedName": "mýa"
+      },
+      "providerEntity": {
+        "provider": "spotify",
+        "type": "artist",
+        "id": "6lHL3ubAMgSasKjNqKb8HF",
+        "url": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+        "legacyIds": []
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+        "spotifyArtistUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "artist_search_results",
+        "query": "Aaliyah",
+        "resultPosition": 2,
+        "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+      "discoveredAt": "2026-08-15T16:33:26.599Z",
+      "reviewOnly": true
+    },
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:8b5fd78a1c148dc719dbcda8db78f5c658729bbc55db7fb8d2e9d4c03a25cee4",
+      "provider": "spotify",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:3:0MZqxeVtllPhDp3d4nuUVI",
+      "sourceUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+      "artist": {
+        "rawName": "Aaliyah Rose",
+        "normalizedName": "aaliyah rose"
+      },
+      "providerEntity": {
+        "provider": "spotify",
+        "type": "artist",
+        "id": "0MZqxeVtllPhDp3d4nuUVI",
+        "url": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+        "legacyIds": []
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": "0MZqxeVtllPhDp3d4nuUVI",
+        "spotifyArtistUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "artist_search_results",
+        "query": "Aaliyah",
+        "resultPosition": 3,
+        "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+      "discoveredAt": "2026-08-15T16:33:26.599Z",
+      "reviewOnly": true
+    }
+  ],
+  "metrics": {
+    "requestsAttempted": 2,
+    "successfulRequests": 2,
+    "cacheHits": 0,
+    "errors": 0,
+    "retries": 0,
+    "retryAfterWaits": 0,
+    "permanentAbsences": 0,
+    "authenticationFailures": 0,
+    "transientFailures": 0,
+    "candidatesSkippedLaneOpen": 0
+  },
+  "circuitBreaker": {
+    "schemaVersion": 1,
+    "provider": "spotify",
+    "state": "closed",
+    "revision": 0,
+    "openedAt": null,
+    "failureCount": 0,
+    "lastFailureType": null,
+    "nextProbeAt": null,
+    "reason": null,
+    "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+    "createdAt": "2026-08-15T16:33:27.219Z",
+    "updatedAt": "2026-08-15T16:33:27.219Z"
+  },
+  "error": null,
+  "reviewOnly": true
+}

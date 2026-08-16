@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545",
+  "revision": 5,
+  "state": "identity_coherent",
+  "stateEnteredAt": "2026-08-15T16:34:12.052Z",
+  "createdAt": "2026-08-15T16:33:27.475Z",
+  "updatedAt": "2026-08-15T16:34:12.052Z",
+  "name": {
+    "raw": "Mýa",
+    "normalized": "mýa"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:e9bfb8f00947e44f7b5c9119791d07c45bb7b0ea183d39aef913a502a4ff575d",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:2:6lHL3ubAMgSasKjNqKb8HF",
+      "sourceUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+      "rawArtistName": "Mýa",
+      "normalizedArtistName": "mýa",
+      "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "coherent_identity_evidence",
+    "selectedSpotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+    "wikidataQids": [
+      "Q233736"
+    ],
+    "musicBrainzArtistIds": [
+      "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+    ],
+    "discogsArtistIds": [
+      "28738"
+    ],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [
+      "evidence/identity/mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545/b6ecf901d3273e3ac12e5f5a25093f9c976cc048b0c1652014cca11a1dd7586e.json",
+      "provider-cache/v1/wikidata/spotify-bridge/6lHL3ubAMgSasKjNqKb8HF.json",
+      "provider-cache/v1/musicbrainz/artist/7c5e39c3-7645-4e37-968d-a4e45cd38c5d.json",
+      "provider-cache/v1/discogs/artist/28738.json",
+      "provider-cache/v1/musicbrainz/exact-name/1473968dc2695553b51dee9b.json"
+    ],
+    "conflicts": [],
+    "sameNameAmbiguity": {
+      "exactDisplayNameEntityCount": 1,
+      "selectedEntityPresent": true,
+      "sameNameAmbiguity": "none_observed",
+      "competingEntityCount": 0,
+      "competingEntities": [],
+      "allExactNameEntities": [
+        {
+          "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+          "name": "Mýa",
+          "sortName": "Mýa",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "US | R&B",
+          "score": 100,
+          "selectedExactEntity": true,
+          "spotifyArtistIds": [
+            "6lHL3ubAMgSasKjNqKb8HF"
+          ],
+          "discogsArtistIds": [
+            "28738"
+          ]
+        }
+      ],
+      "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+    },
+    "providerMultiplicity": {
+      "interpretation": {
+        "conflictType": "unresolved_multiplicity",
+        "mechanicallyResolvable": false,
+        "signals": {
+          "semanticContradictions": [],
+          "redirectedIdentifiers": [],
+          "deprecatedIdentifiers": [],
+          "providerMultiplicityEvidence": [],
+          "unresolvedIdentifiers": []
+        }
+      },
+      "fingerprintComparisons": [],
+      "hasPositiveCatalogAnchor": false,
+      "qualifiesAsProviderMultiplicity": false,
+      "automaticVerificationAllowed": false,
+      "migrationApprovalGranted": false,
+      "mechanicalClosure": {
+        "mechanicallyClosed": false,
+        "reasons": [
+          "not_provider_profile_multiplicity",
+          "no_positive_catalog_anchor"
+        ],
+        "explainedAlternates": [],
+        "automaticApprovalAllowed": false,
+        "migrationApprovalGranted": false
+      }
+    },
+    "provenanceClaims": [
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6lHL3ubAMgSasKjNqKb8HF",
+        "source": "music_roll_input",
+        "path": "stored_spotify_candidate",
+        "independentOrigin": "music_roll"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6lHL3ubAMgSasKjNqKb8HF",
+        "source": "wikidata",
+        "path": "P1902",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q233736",
+        "source": "wikidata",
+        "path": "entity",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+        "source": "wikidata",
+        "path": "P434",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28738",
+        "source": "wikidata",
+        "path": "P1953",
+        "independentOrigin": "wikidata"
+      },
+      {
+        "identifierType": "musicBrainzArtistId",
+        "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+        "source": "musicbrainz",
+        "path": "artist.id",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28738",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:discogs",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+      },
+      {
+        "identifierType": "spotifyArtistId",
+        "value": "6lHL3ubAMgSasKjNqKb8HF",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:free streaming",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+      },
+      {
+        "identifierType": "wikidataQid",
+        "value": "Q233736",
+        "source": "musicbrainz",
+        "path": "artist.url-rels:wikidata",
+        "independentOrigin": "musicbrainz",
+        "assertedByIdentifier": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+      },
+      {
+        "identifierType": "discogsArtistId",
+        "value": "28738",
+        "source": "discogs",
+        "path": "artist.id",
+        "independentOrigin": "discogs",
+        "assertedByIdentifier": "28738"
+      }
+    ],
+    "providerErrors": [],
+    "resolverVersion": "queue_identity_resolver_v1",
+    "resolvedAt": "2026-08-15T16:34:12.051Z"
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "complete",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identity": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00646-17d4-7e92-867a-2d6da1e39ac0",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:cc8d5fac8c4eda2d7dac0124ff1b22df5004413fa0edbcc07fa10578e728dbed",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545/5aa4eda24c3471fd108d87a32992676e9e94b2170241cd7cf1fb61702d35eb43.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:6lHL3ubAMgSasKjNqKb8HF"
+    }
+  ]
+}

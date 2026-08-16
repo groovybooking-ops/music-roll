@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "reviewOnly": true,
+  "repositoryRoot": "/Users/groovymac/music-roll",
+  "scheduledRoot": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1",
+  "environmentFile": "/Users/groovymac/music-roll/.env",
+  "generatedPlistDirectory": "/Users/groovymac/music-roll/config/launchd/generated",
+  "launchAgentsDirectory": "/Users/groovymac/Library/LaunchAgents",
+  "logDirectory": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1/scheduler/logs",
+  "controlDirectory": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1/scheduler/control",
+  "invocationDirectory": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1/scheduler/invocations",
+  "lockFile": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1/scheduler/control/unattended-ingestion.lock",
+  "pauseFile": "/Users/groovymac/music-roll/data/ingestion/scheduled/v1/scheduler/control/PAUSED.json",
+  "logging": {
+    "maximumBytes": 1048576,
+    "retainedFiles": 5
+  },
+  "schedules": {
+    "ticketmaster_discovery": { "hour": 2, "minute": 10 },
+    "spotify_discovery": { "weekdays": [2, 5], "hour": 3, "minute": 5 },
+    "daily_processing": { "hour": 4, "minute": 15 },
+    "weekly_review": { "weekday": 1, "hour": 8, "minute": 30 }
+  },
+  "spotifyDiscovery": {
+    "queries": ["Romy", "Noname", "Turnstile", "Jessie Ware", "Sampha", "Beach House", "Floating Points", "Mitski"],
+    "rotationEpochDate": "2026-08-17",
+    "rotationDays": 3,
+    "limit": 4,
+    "market": "US",
+    "listingFreshnessHours": 72
+  },
+  "ticketmasterDiscovery": {
+    "stateCode": "NJ",
+    "startOffsetDays": 1,
+    "endOffsetDays": 7,
+    "size": 2,
+    "listingFreshnessHours": 12
+  },
+  "budgets": {
+    "spotifyMaxRequests": 4,
+    "ticketmasterMaxRequests": 4,
+    "spotifyMaxNewCandidates": 4,
+    "ticketmasterMaxNewCandidates": 4,
+    "stage3MaxCandidates": 5,
+    "identityDiscoveryMaxCandidates": 3,
+    "maximumTotalNewCandidates": 6,
+    "queueHighWaterMarks": {
+      "identity_pending": 50,
+      "identity_discovery_pending": 25,
+      "retry_wait": 25,
+      "needs_review": 100
+    }
+  },
+  "labels": {
+    "spotify_discovery": "com.musicroll.ingestion.spotify-discovery",
+    "ticketmaster_discovery": "com.musicroll.ingestion.ticketmaster-discovery",
+    "daily_processing": "com.musicroll.ingestion.daily-processing",
+    "weekly_review": "com.musicroll.ingestion.weekly-review"
+  }
+}

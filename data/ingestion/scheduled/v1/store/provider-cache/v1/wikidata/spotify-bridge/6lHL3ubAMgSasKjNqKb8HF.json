@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "6lHL3ubAMgSasKjNqKb8HF",
+  "retrievedAt": "2026-08-15T16:33:57.775Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+      "wikidataQid": "Q233736",
+      "name": "Mýa",
+      "musicBrainzArtistId": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d",
+      "discogsArtistId": "28738"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q233736"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "7c5e39c3-7645-4e37-968d-a4e45cd38c5d"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "28738"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Mýa"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

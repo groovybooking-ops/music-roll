@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00652-9e48-7ae5-970e-4467a6d71995",
+  "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+  "eventType": "discovery_attached",
+  "previousState": "discovered",
+  "nextState": "discovered",
+  "previousRevision": 1,
+  "candidateRevision": 2,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:47:52.904Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/3321379bc2fd717506db723d6ead2dc1a56237d7bff41e85f9e5cfbe7f44f134.json",
+    "discovery/associations/candidates/mr_candidate_01a00652-9e47-799e-9521-277a1341b016/5dad1e6980d736e1d92810eba79467d251caaf16a337f23004d7addc84b984b0.json",
+    "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:52c37422946185f23ad25fc3a2cad2968e17708292efd009cfd680570236bc52",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:2:43mhFhQ4JAknA7Ik1bOZuV",
+      "sourceUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+      "rawArtistName": "Pat Benatar",
+      "normalizedArtistName": "pat benatar",
+      "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:3321379bc2fd717506db723d6ead2dc1a56237d7bff41e85f9e5cfbe7f44f134",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00652-9e47-799e-9521-277a1341b016/5dad1e6980d736e1d92810eba79467d251caaf16a337f23004d7addc84b984b0.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:43mhFhQ4JAknA7Ik1bOZuV"
+    }
+  }
+}

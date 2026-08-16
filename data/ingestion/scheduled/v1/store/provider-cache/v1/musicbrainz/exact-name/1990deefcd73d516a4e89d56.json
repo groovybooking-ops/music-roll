@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "1990deefcd73d516a4e89d56",
+  "retrievedAt": "2026-08-15T16:34:33.413Z",
+  "value": {
+    "requestedName": "Aaliyah Rose",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+        "name": "Aaliyah Rose",
+        "sortName": "Rose, Aaliyah",
+        "artistType": "Person",
+        "country": null,
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-15T16:34:33.371Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Aaliyah Rose",
+          "sort-name": "Rose, Aaliyah",
+          "gender": "female",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

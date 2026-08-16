@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "configurationHash": "sha256:641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950",
+  "retrievedAt": "2026-08-15T16:33:27.216Z",
+  "requestUrl": "https://api.spotify.com/v1/search?q=Aaliyah&type=artist&limit=4&market=US",
+  "responseDigest": "sha256:4b716b2bdbefb04ec4b01d2ffe628408bb25d99dd41696c93bc8d17c5fbb91a2",
+  "raw": {
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?offset=0&limit=4&query=Aaliyah&type=artist&market=US&locale=*",
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?offset=4&limit=4&query=Aaliyah&type=artist&market=US&locale=*",
+      "offset": 0,
+      "previous": null,
+      "total": 9,
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4"
+          },
+          "href": "https://api.spotify.com/v1/artists/0urTpYCsixqZwgNTkPJOJ4",
+          "id": "0urTpYCsixqZwgNTkPJOJ4",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebd2493cea701d45401cc79ffd",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d2493cea701d45401cc79ffd",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178d2493cea701d45401cc79ffd",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Aaliyah",
+          "type": "artist",
+          "uri": "spotify:artist:0urTpYCsixqZwgNTkPJOJ4"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7maQENQfaF8xDdEJp4i545"
+          },
+          "href": "https://api.spotify.com/v1/artists/7maQENQfaF8xDdEJp4i545",
+          "id": "7maQENQfaF8xDdEJp4i545",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb157986fd4296fe0a0016fcd8",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174157986fd4296fe0a0016fcd8",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178157986fd4296fe0a0016fcd8",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Aliyah's Interlude",
+          "type": "artist",
+          "uri": "spotify:artist:7maQENQfaF8xDdEJp4i545"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF"
+          },
+          "href": "https://api.spotify.com/v1/artists/6lHL3ubAMgSasKjNqKb8HF",
+          "id": "6lHL3ubAMgSasKjNqKb8HF",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebb76b65927ef053f506399b17",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b76b65927ef053f506399b17",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178b76b65927ef053f506399b17",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Mýa",
+          "type": "artist",
+          "uri": "spotify:artist:6lHL3ubAMgSasKjNqKb8HF"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI"
+          },
+          "href": "https://api.spotify.com/v1/artists/0MZqxeVtllPhDp3d4nuUVI",
+          "id": "0MZqxeVtllPhDp3d4nuUVI",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d0000b273f160d7b722a3041abf25e72c",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02f160d7b722a3041abf25e72c",
+              "height": 300,
+              "width": 300
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616d00004851f160d7b722a3041abf25e72c",
+              "height": 64,
+              "width": 64
+            }
+          ],
+          "name": "Aaliyah Rose",
+          "type": "artist",
+          "uri": "spotify:artist:0MZqxeVtllPhDp3d4nuUVI"
+        }
+      ]
+    },
+    "query": "Aaliyah",
+    "queryRecordId": "scheduled-bounded-query-aaliyah-v1"
+  }
+}

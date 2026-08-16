@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00646-6b6f-7c8c-ba0c-193087742d66",
+  "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+  "eventType": "state_transition",
+  "previousState": "identity_discovery_pending",
+  "nextState": "identity_discovering",
+  "previousRevision": 3,
+  "candidateRevision": 4,
+  "reasonCode": "identity_discovery_lease_acquired",
+  "actor": {
+    "type": "worker",
+    "id": "identity_discovery_worker_v1"
+  },
+  "occurredAt": "2026-08-15T16:34:33.455Z",
+  "evidenceRefs": [],
+  "payload": {
+    "processing": {
+      "attemptsByStep": {
+        "identityDiscovery": 1
+      },
+      "lease": {
+        "leaseId": "mr_candidate_event_01a00646-6b6f-7426-9b16-54a657aed83b",
+        "workerId": "identity_discovery_worker_v1",
+        "acquiredAt": "2026-08-15T16:34:33.455Z",
+        "expiresAt": "2026-08-15T16:39:33.455Z",
+        "startingRevision": 3
+      },
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    }
+  }
+}

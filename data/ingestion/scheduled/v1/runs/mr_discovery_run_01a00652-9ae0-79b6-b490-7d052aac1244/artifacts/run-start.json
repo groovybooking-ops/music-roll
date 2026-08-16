@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "createdAt": "2026-08-15T16:47:52.032Z",
+  "queue": {
+    "total": 10,
+    "byState": {
+      "failed_match": 2,
+      "identity_coherent": 3,
+      "needs_review": 5
+    }
+  },
+  "candidateRevisions": {
+    "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4": 5,
+    "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016": 5,
+    "mr_candidate_01a0063a-c959-726e-8ff1-b422a2a5b78e": 5,
+    "mr_candidate_01a0063a-c961-798b-841a-2955fba05777": 5,
+    "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0": 5,
+    "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61": 5,
+    "mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb": 5,
+    "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545": 5,
+    "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3": 5,
+    "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f": 5
+  },
+  "protectedChecksums": {
+    "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+    "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+  }
+}

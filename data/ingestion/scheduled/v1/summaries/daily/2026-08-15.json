@@ -8,12 +8,14 @@
   },
   "generatedAt": "2026-08-16T00:00:00.000Z",
   "runIds": [
-    "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f"
+    "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
+    "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+    "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244"
   ],
   "providers": {
     "spotify": {
-      "requests": 2,
-      "successfulRequests": 2,
+      "requests": 6,
+      "successfulRequests": 6,
       "cacheHits": 0,
       "retries": 0,
       "errors": 0,
@@ -32,15 +34,15 @@
         "lastFailureType": null,
         "nextProbeAt": null,
         "reason": null,
-        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
-        "createdAt": "2026-08-15T16:21:50.720Z",
-        "updatedAt": "2026-08-15T16:21:50.722Z"
+        "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+        "createdAt": "2026-08-15T16:47:52.630Z",
+        "updatedAt": "2026-08-15T16:47:52.634Z"
       },
       "stopReasons": []
     },
     "ticketmaster": {
-      "requests": 1,
-      "successfulRequests": 1,
+      "requests": 3,
+      "successfulRequests": 3,
       "cacheHits": 0,
       "retries": 0,
       "errors": 0,
@@ -59,15 +61,15 @@
         "lastFailureType": null,
         "nextProbeAt": null,
         "reason": null,
-        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
-        "createdAt": "2026-08-15T16:21:51.023Z",
-        "updatedAt": "2026-08-15T16:21:51.026Z"
+        "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+        "createdAt": "2026-08-15T16:47:52.825Z",
+        "updatedAt": "2026-08-15T16:47:52.830Z"
       },
       "stopReasons": []
     },
     "wikidata": {
-      "requests": 4,
-      "successfulRequests": 4,
+      "requests": 12,
+      "successfulRequests": 12,
       "cacheHits": 0,
       "retries": 0,
       "errors": 0,
@@ -86,19 +88,19 @@
         "lastFailureType": null,
         "nextProbeAt": null,
         "reason": null,
-        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
-        "createdAt": "2026-08-15T16:22:21.783Z",
-        "updatedAt": "2026-08-15T16:22:21.784Z"
+        "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+        "createdAt": "2026-08-15T16:48:04.143Z",
+        "updatedAt": "2026-08-15T16:48:04.145Z"
       },
       "stopReasons": []
     },
     "musicbrainz": {
-      "requests": 10,
-      "successfulRequests": 10,
+      "requests": 38,
+      "successfulRequests": 36,
       "cacheHits": 0,
-      "retries": 1,
+      "retries": 4,
       "errors": 0,
-      "retryAfterWaits": 1,
+      "retryAfterWaits": 4,
       "permanentAbsences": 0,
       "authenticationFailures": 0,
       "transientFailures": 0,
@@ -113,15 +115,15 @@
         "lastFailureType": null,
         "nextProbeAt": null,
         "reason": null,
-        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
-        "createdAt": "2026-08-15T16:22:21.928Z",
-        "updatedAt": "2026-08-15T16:22:21.929Z"
+        "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+        "createdAt": "2026-08-15T16:48:05.403Z",
+        "updatedAt": "2026-08-15T16:48:05.404Z"
       },
       "stopReasons": []
     },
     "discogs": {
-      "requests": 4,
-      "successfulRequests": 4,
+      "requests": 11,
+      "successfulRequests": 11,
       "cacheHits": 0,
       "retries": 0,
       "errors": 0,
@@ -140,14 +142,54 @@
         "lastFailureType": null,
         "nextProbeAt": null,
         "reason": null,
-        "runId": "mr_discovery_run_01a0063a-c59d-71d1-a79d-2405783fe14f",
-        "createdAt": "2026-08-15T16:22:21.790Z",
-        "updatedAt": "2026-08-15T16:22:21.792Z"
+        "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+        "createdAt": "2026-08-15T16:48:04.151Z",
+        "updatedAt": "2026-08-15T16:48:04.152Z"
       },
       "stopReasons": []
     }
   },
   "checkpoints": [
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:43a3d48d6dbd34aff6f19f87616c7328f818b6c4898e726ff036418d85848951",
+      "provider": "spotify",
+      "adapterId": "spotify_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:c767ec73a23aa5129292ed9a789f8a652bd862800f9cf0d3dfb2f21f9222c1b3",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": null,
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+      "createdAt": "2026-08-15T16:33:26.599Z",
+      "updatedAt": "2026-08-15T16:33:27.222Z"
+    },
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:82b6ffdb6b7735685bf451c8313adcd421efedcebe8c1c584effd883b463855b",
+      "provider": "spotify",
+      "adapterId": "spotify_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:9ea8469974e2343d88259064303d1e323a2bc420ced868e6a255dc64ed0d0590",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": null,
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json",
+      "createdAt": "2026-08-15T16:47:52.032Z",
+      "updatedAt": "2026-08-15T16:47:52.630Z"
+    },
     {
       "schemaVersion": 1,
       "checkpointId": "sha256:cb3cbcda5fc81aac194c47e97b2d6ddc5d8e58c91f8f6cf616838f740677b98d",
@@ -167,6 +209,52 @@
       "latestRawPageEvidenceRef": "discovery/provider-listing-cache/spotify/7f5d64a5472cc850d2bc96d3c3b0af78d62e6b4e0e58d5949a564580d490e0fe.json",
       "createdAt": "2026-08-15T16:21:50.109Z",
       "updatedAt": "2026-08-15T16:21:50.720Z"
+    },
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:2acde2668b935413cff68522f389ea1a8c90caf908d80950e31a8789383837f3",
+      "provider": "ticketmaster",
+      "adapterId": "ticketmaster_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:409385d2c40622bdb0882e561d8dd1be652e416a5b331321c3bc3e416c4b3bc2",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": {
+        "startDateTime": "2026-08-23T00:00:00Z",
+        "endDateTime": "2026-08-29T00:00:00Z"
+      },
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json",
+      "createdAt": "2026-08-15T16:33:26.599Z",
+      "updatedAt": "2026-08-15T16:33:27.417Z"
+    },
+    {
+      "schemaVersion": 1,
+      "checkpointId": "sha256:786aef013e89bd1383436c79d52be432a447ee33069c005d19e654e8ddac20c0",
+      "provider": "ticketmaster",
+      "adapterId": "ticketmaster_live_bounded_discovery_v1",
+      "adapterVersion": "v1",
+      "stableConfigurationHash": "sha256:9b6d87e3ddfea7add962fb6e495baeb01bf2d26f046ff308966641f06a7b2204",
+      "revision": 2,
+      "position": {
+        "providerPage": 1,
+        "cursor": null,
+        "itemOffset": 0
+      },
+      "rollingWindowIdentity": {
+        "startDateTime": "2026-08-30T00:00:00Z",
+        "endDateTime": "2026-09-05T00:00:00Z"
+      },
+      "exhausted": true,
+      "lastCompletedRunId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "latestRawPageEvidenceRef": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json",
+      "createdAt": "2026-08-15T16:47:52.032Z",
+      "updatedAt": "2026-08-15T16:47:52.826Z"
     },
     {
       "schemaVersion": 1,
@@ -195,97 +283,94 @@
   "budgets": {
     "providers": {
       "spotify": {
-        "requests": 2,
-        "pages": 1,
-        "normalizedOccurrences": 4,
-        "newCandidates": 4
+        "requests": 6,
+        "pages": 3,
+        "normalizedOccurrences": 12,
+        "newCandidates": 11
       },
       "ticketmaster": {
-        "requests": 1,
-        "pages": 1,
-        "normalizedOccurrences": 1,
-        "newCandidates": 1
+        "requests": 3,
+        "pages": 3,
+        "normalizedOccurrences": 3,
+        "newCandidates": 3
       }
     },
     "workers": {
-      "stage3Candidates": 3,
-      "identityDiscoveryCandidates": 1
+      "stage3Candidates": 11,
+      "identityDiscoveryCandidates": 3
     },
     "stopReasons": []
   },
   "discovery": {
-    "normalizedOccurrences": 5,
+    "normalizedOccurrences": 15,
     "byProvider": {
-      "spotify": 4,
-      "ticketmaster": 1
+      "spotify": 12,
+      "ticketmaster": 3
     },
     "existingLiveArtistRediscoveries": 0,
-    "candidateAttachments": 0,
-    "newCandidates": 5
+    "candidateAttachments": 1,
+    "newCandidates": 14
   },
   "queue": {
     "before": {},
     "after": {
-      "failed_match": 1,
-      "identity_coherent": 1,
-      "identity_pending": 1,
-      "needs_review": 2
+      "failed_match": 2,
+      "identity_coherent": 5,
+      "needs_review": 7
     },
     "growthByState": {
-      "failed_match": 1,
-      "identity_coherent": 1,
-      "identity_pending": 1,
-      "needs_review": 2
+      "failed_match": 2,
+      "identity_coherent": 5,
+      "needs_review": 7
     },
-    "netGrowth": 5,
+    "netGrowth": 14,
     "agePercentiles": {
-      "p50Hours": 7.6358,
+      "p50Hours": 7.4424,
       "p75Hours": 7.6358,
       "p90Hours": 7.6358,
       "p95Hours": 7.6358,
       "maxHours": 7.6358
     },
-    "oldestPendingOrRetryCandidates": [
-      {
-        "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
-        "artistName": "Andreas Björkstrand",
-        "state": "identity_pending",
-        "firstDiscoveredAt": "2026-08-15T16:21:51.073Z",
-        "ageHours": 7.6358
-      }
-    ]
+    "oldestPendingOrRetryCandidates": []
   },
   "workers": {
     "stage3": {
-      "selections": 3,
+      "selections": 11,
       "outcomesByState": {
-        "failed_match": 1,
-        "identity_coherent": 1,
-        "needs_review": 1
+        "failed_match": 2,
+        "identity_coherent": 5,
+        "needs_review": 4
       },
       "outcomesByIdentityOutcome": {
-        "coherent_identity_evidence": 1,
-        "provider_profile_multiplicity": 1,
-        "unresolved_identity": 1
+        "coherent_identity_evidence": 5,
+        "insufficient_corroboration": 1,
+        "provider_profile_multiplicity": 3,
+        "unresolved_identity": 2
       }
     },
     "identityDiscovery": {
-      "selections": 1,
+      "selections": 3,
       "outcomesByState": {
-        "needs_review": 1
+        "needs_review": 3
       },
       "outcomesByBridgeOutcome": {
-        "completed_without_safe_exact_bridge": 1
+        "completed_without_safe_exact_bridge": 3
       }
     },
     "newlyEntered": {
       "needs_review": [
         "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
-        "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0"
+        "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
+        "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+        "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3",
+        "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+        "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+        "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3"
       ],
       "conflicting_identity": [],
       "failed_match": [
-        "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016"
+        "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
+        "mr_candidate_01a0063a-c961-798b-841a-2955fba05777"
       ],
       "retry_wait": []
     },
@@ -299,25 +384,25 @@
     "runs": []
   },
   "metrics": {
-    "discoveryYield": 1,
+    "discoveryYield": 0.9333,
     "rediscoveryRate": 0,
-    "duplicatePreventionRate": 0,
-    "identityCoherentRoutingRate": 0.3333,
+    "duplicatePreventionRate": 0.0667,
+    "identityCoherentRoutingRate": 0.4545,
     "reviewRoutingRate": 0.5,
-    "failedMatchRate": 0.3333,
+    "failedMatchRate": 0.1818,
     "ticketmasterExactBridgeRate": 0,
     "retryRecoveryRate": null,
     "retryExhaustionRate": null,
-    "medianDiscoveryToIdentityTerminalHours": 0.0082
+    "medianDiscoveryToIdentityTerminalHours": 0.0081
   },
   "sourceArtifactCounts": {
-    "runs": 1,
-    "candidateEvents": 23,
-    "discoveryOccurrences": 5,
-    "discoveryAssociations": 5,
-    "evidenceArtifacts": 4
+    "runs": 3,
+    "candidateEvents": 71,
+    "discoveryOccurrences": 15,
+    "discoveryAssociations": 15,
+    "evidenceArtifacts": 14
   },
   "reviewOnly": true,
   "mutatesCandidateState": false,
-  "artifactDigest": "sha256:64875cb6d35cf8df3e3a4ade203ca8fc44baf4f27a405a9b336c72b7c93c7154"
+  "artifactDigest": "sha256:4b1c7112ea3f4db3521532a22eb50fff61ecacae4c020db9b534e88498a3e5cf"
 }

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "provider": "spotify",
+  "configurationHash": "sha256:c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752",
+  "retrievedAt": "2026-08-15T16:47:52.626Z",
+  "requestUrl": "https://api.spotify.com/v1/search?q=Kate+Bush&type=artist&limit=4&market=US",
+  "responseDigest": "sha256:98b71ed06c035a3e073fc1ffa935393606afccd7e7d88e028a6cf2484112acd8",
+  "raw": {
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?offset=0&limit=4&query=Kate%20Bush&type=artist&market=US&locale=*",
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?offset=4&limit=4&query=Kate%20Bush&type=artist&market=US&locale=*",
+      "offset": 0,
+      "previous": null,
+      "total": 9,
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1aSxMhuvixZ8h9dK9jIDwL"
+          },
+          "href": "https://api.spotify.com/v1/artists/1aSxMhuvixZ8h9dK9jIDwL",
+          "id": "1aSxMhuvixZ8h9dK9jIDwL",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb187017724e58e78ee1f5a8e4",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174187017724e58e78ee1f5a8e4",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178187017724e58e78ee1f5a8e4",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Kate Bush",
+          "type": "artist",
+          "uri": "spotify:artist:1aSxMhuvixZ8h9dK9jIDwL"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA"
+          },
+          "href": "https://api.spotify.com/v1/artists/7w29UYBi0qsHi5RTcv3lmA",
+          "id": "7w29UYBi0qsHi5RTcv3lmA",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5eb8885fa2ceadc7658d65e1121",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab676161000051748885fa2ceadc7658d65e1121",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f1788885fa2ceadc7658d65e1121",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Björk",
+          "type": "artist",
+          "uri": "spotify:artist:7w29UYBi0qsHi5RTcv3lmA"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/43mhFhQ4JAknA7Ik1bOZuV"
+          },
+          "href": "https://api.spotify.com/v1/artists/43mhFhQ4JAknA7Ik1bOZuV",
+          "id": "43mhFhQ4JAknA7Ik1bOZuV",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/8cd9a623b274a9e694aa7bae28f541d3977673ec",
+              "height": 1022,
+              "width": 1000
+            },
+            {
+              "url": "https://i.scdn.co/image/f881ba3e2dec37df305e172d9b5210b12fcd74cb",
+              "height": 654,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/38825a528a630438e53900709d0fce58bdc17681",
+              "height": 204,
+              "width": 200
+            },
+            {
+              "url": "https://i.scdn.co/image/837b6a013c3271eb6601263f2d5364efed1e354f",
+              "height": 65,
+              "width": 64
+            }
+          ],
+          "name": "Pat Benatar",
+          "type": "artist",
+          "uri": "spotify:artist:43mhFhQ4JAknA7Ik1bOZuV"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg"
+          },
+          "href": "https://api.spotify.com/v1/artists/5vBKu1igxFo6g1sHADkIdg",
+          "id": "5vBKu1igxFo6g1sHADkIdg",
+          "images": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000e5ebe702f4f71640e1e2f6700198",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e702f4f71640e1e2f6700198",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https://i.scdn.co/image/ab6761610000f178e702f4f71640e1e2f6700198",
+              "height": 160,
+              "width": 160
+            }
+          ],
+          "name": "Kate Nash",
+          "type": "artist",
+          "uri": "spotify:artist:5vBKu1igxFo6g1sHADkIdg"
+        }
+      ]
+    },
+    "query": "Kate Bush",
+    "queryRecordId": "scheduled-bounded-query-kate-bush-v1"
+  }
+}

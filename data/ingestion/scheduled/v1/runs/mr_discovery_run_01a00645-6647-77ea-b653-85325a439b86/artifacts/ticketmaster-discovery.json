@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "provider": "ticketmaster",
+  "adapterId": "ticketmaster_live_bounded_discovery_v1",
+  "adapterVersion": "v1",
+  "configuration": {
+    "mode": "event_attractions",
+    "stateCode": "CA",
+    "startDateTime": "2026-08-23T00:00:00Z",
+    "endDateTime": "2026-08-29T00:00:00Z",
+    "size": 2,
+    "sourceType": "ticketmaster_event",
+    "sourceName": "Music Roll second human-triggered scheduled Ticketmaster discovery run",
+    "discoveredAt": "2026-08-15T16:33:26.599Z"
+  },
+  "configurationHash": "sha256:d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4",
+  "acquiredAt": "2026-08-15T16:33:27.416Z",
+  "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json",
+  "occurrences": [
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac",
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A70J8z/attraction/K8vZ91798_7",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A70J8z",
+      "artist": {
+        "rawName": "Bingo Loco",
+        "normalizedName": "bingo loco"
+      },
+      "providerEntity": {
+        "provider": "ticketmaster",
+        "type": "attraction",
+        "id": "K8vZ91798_7",
+        "url": "https://www.ticketmaster.com/bingo-loco-tickets/artist/2520252",
+        "legacyIds": [
+          "2520252"
+        ]
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": null,
+        "spotifyArtistUrl": null,
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "event_attractions",
+        "eventId": "Z7r9jZ1A70J8z",
+        "eventName": "Bingo Loco (21 and Over)",
+        "eventDateTime": {
+          "localDate": "2026-08-22",
+          "localTime": "17:00:00",
+          "utcDateTime": "2026-08-23T00:00:00Z"
+        },
+        "eventClassifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAvl",
+              "name": "Other"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vk1I",
+              "name": "Other"
+            },
+            "type": null,
+            "subType": null
+          }
+        ],
+        "eventPosition": 1,
+        "attractionPosition": 0,
+        "venue": {
+          "id": "Z7r9jZaddg",
+          "name": "The Midway",
+          "city": "San Francisco",
+          "region": "CA",
+          "country": "US",
+          "latitude": 37.7309,
+          "longitude": -122.386002
+        },
+        "eventEvidenceRef": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json",
+        "discoveryAttractionId": "K8vZ91798_7",
+        "legacyAttractionIds": [
+          "2520252"
+        ],
+        "attractionUrl": "https://www.ticketmaster.com/bingo-loco-tickets/artist/2520252",
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAev",
+              "name": "Pop"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vk1t",
+              "name": "Pop"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7lt",
+              "name": "Event Style"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA6E",
+              "name": "Festival"
+            }
+          }
+        ],
+        "evidenceRefs": {
+          "rawPage": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json",
+          "attraction": null,
+          "event": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json"
+        },
+        "note": "Ticketmaster classifications are source evidence only and do not set Music Roll genre or stage."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json",
+      "discoveredAt": "2026-08-15T16:33:26.599Z",
+      "reviewOnly": true
+    }
+  ],
+  "metrics": {
+    "requestsAttempted": 1,
+    "successfulRequests": 1,
+    "cacheHits": 0,
+    "errors": 0,
+    "retries": 0,
+    "retryAfterWaits": 0,
+    "permanentAbsences": 0,
+    "authenticationFailures": 0,
+    "transientFailures": 0,
+    "candidatesSkippedLaneOpen": 0
+  },
+  "circuitBreaker": {
+    "schemaVersion": 1,
+    "provider": "ticketmaster",
+    "state": "closed",
+    "revision": 0,
+    "openedAt": null,
+    "failureCount": 0,
+    "lastFailureType": null,
+    "nextProbeAt": null,
+    "reason": null,
+    "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+    "createdAt": "2026-08-15T16:33:27.416Z",
+    "updatedAt": "2026-08-15T16:33:27.416Z"
+  },
+  "error": null,
+  "reviewOnly": true
+}

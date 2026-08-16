@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:cc8d5fac8c4eda2d7dac0124ff1b22df5004413fa0edbcc07fa10578e728dbed",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:2:6lHL3ubAMgSasKjNqKb8HF",
+  "sourceUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+  "artist": {
+    "rawName": "Mýa",
+    "normalizedName": "mýa"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "6lHL3ubAMgSasKjNqKb8HF",
+    "url": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Aaliyah",
+    "resultPosition": 2,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+  "discoveredAt": "2026-08-15T16:33:26.599Z",
+  "reviewOnly": true
+}

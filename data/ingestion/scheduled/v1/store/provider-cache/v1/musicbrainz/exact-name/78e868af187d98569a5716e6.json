@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "78e868af187d98569a5716e6",
+  "retrievedAt": "2026-08-15T16:48:01.939Z",
+  "value": {
+    "requestedName": "Pat Benatar",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+        "name": "Pat Benatar",
+        "sortName": "Benatar, Pat",
+        "artistType": "Person",
+        "country": "US",
+        "disambiguation": null,
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-15T16:48:01.900Z",
+      "count": 4,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "6bc658ea-005f-486b-8f94-33a2e40f7a72",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Pat Benatar",
+          "sort-name": "Benatar, Pat",
+          "gender": "female",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "89a8e310-5eb9-42e2-b8fe-16b6e11d48ba",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "Greenpoint",
+            "sort-name": "Greenpoint",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "ipis": [
+            "00122545896"
+          ],
+          "isnis": [
+            "000000007823430X"
+          ],
+          "life-span": {
+            "begin": "1953-01-10",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Giraldo, Patricia Mae",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Patricia Mae Giraldo",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": "1982-02-20",
+              "end-date": null
+            },
+            {
+              "sort-name": "Andrzejewski, Patricia Mae",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Patricia Mae Andrzejewski",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": "1972-07"
+            },
+            {
+              "sort-name": "Benatar, Patricia Mae",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Patricia Mae Benatar",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": "1972-07",
+              "end-date": "1982-02-20"
+            },
+            {
+              "sort-name": "Benatar, Pat",
+              "name": "Benatar, Pat",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Pat Benetar",
+              "name": "Pat Benetar",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            },
+            {
+              "sort-name": "Pat Bernatar",
+              "name": "Pat Bernatar",
+              "locale": null,
+              "type": null,
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 5,
+              "name": "rock"
+            },
+            {
+              "count": 2,
+              "name": "pop"
+            },
+            {
+              "count": 0,
+              "name": "new wave"
+            },
+            {
+              "count": 0,
+              "name": "hard rock"
+            },
+            {
+              "count": 1,
+              "name": "classic rock"
+            },
+            {
+              "count": 1,
+              "name": "pop rock"
+            },
+            {
+              "count": 0,
+              "name": "aor"
+            },
+            {
+              "count": 0,
+              "name": "classic pop and rock"
+            }
+          ]
+        },
+        {
+          "id": "2b067525-d460-490e-abc5-0a195f7bff7c",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 57,
+          "name": "Invincible - Pat Benatar Tribute Band",
+          "sort-name": "Invincible - Pat Benatar Tribute Band",
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "6d3d25ee-bc62-4d71-aec5-a1d51acd86ca",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 54,
+          "name": "All Fired Up: A Pat Benatar Tribute",
+          "sort-name": "All Fired Up: A Pat Benatar Tribute",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "82f3a697-ba65-404d-a1ed-360147af7d10",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "name": "San Diego",
+            "sort-name": "San Diego",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "life-span": {
+            "ended": null
+          }
+        },
+        {
+          "id": "934dfbdf-4a89-4b38-aa18-783fb9e23efb",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "score": 53,
+          "name": "Fire and Ice - A Pat Benatar Experience",
+          "sort-name": "Fire and Ice - A Pat Benatar Experience",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United States",
+            "sort-name": "United States",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "U.S. Pacific Northwest Benarar tribute",
+          "life-span": {
+            "ended": null
+          }
+        }
+      ]
+    }
+  }
+}

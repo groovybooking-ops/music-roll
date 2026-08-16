@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "exact-name",
+  "identifier": "7e14e56a017bacc03a745aa3",
+  "retrievedAt": "2026-08-15T16:48:04.121Z",
+  "value": {
+    "requestedName": "Kate Nash",
+    "exactMatches": [
+      {
+        "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+        "name": "Kate Nash",
+        "sortName": "Nash, Kate",
+        "artistType": "Person",
+        "country": "GB",
+        "disambiguation": "GB | alt-pop",
+        "score": 100
+      }
+    ],
+    "raw": {
+      "created": "2026-08-15T16:48:04.080Z",
+      "count": 1,
+      "offset": 0,
+      "artists": [
+        {
+          "id": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "score": 100,
+          "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+          "name": "Kate Nash",
+          "sort-name": "Nash, Kate",
+          "gender": "female",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "type": "Country",
+            "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "begin-area": {
+            "id": "40868657-ef80-4b66-88ba-263ecac1b9a1",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "name": "Harrow",
+            "sort-name": "Harrow",
+            "life-span": {
+              "ended": null
+            }
+          },
+          "disambiguation": "GB | alt-pop",
+          "ipis": [
+            "00537580728",
+            "00537581627"
+          ],
+          "isnis": [
+            "0000000121205310"
+          ],
+          "life-span": {
+            "begin": "1987-07-06",
+            "ended": null
+          },
+          "aliases": [
+            {
+              "sort-name": "Nash, Kate Marie",
+              "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+              "name": "Kate Marie Nash",
+              "locale": null,
+              "type": "Legal name",
+              "primary": null,
+              "begin-date": null,
+              "end-date": null
+            }
+          ],
+          "tags": [
+            {
+              "count": 3,
+              "name": "pop"
+            },
+            {
+              "count": 1,
+              "name": "alternative rock"
+            },
+            {
+              "count": 2,
+              "name": "singer-songwriter"
+            },
+            {
+              "count": 1,
+              "name": "uk"
+            },
+            {
+              "count": 1,
+              "name": "singer"
+            },
+            {
+              "count": 1,
+              "name": "indie rock"
+            },
+            {
+              "count": 1,
+              "name": "garage punk"
+            },
+            {
+              "count": 1,
+              "name": "pop and chart"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

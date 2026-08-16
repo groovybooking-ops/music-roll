@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00652-9dfe-76f2-914e-2a57f8d9e6f7",
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "eventType": "provider_execution_recorded",
+  "previousRevision": 3,
+  "runRevision": 4,
+  "phase": null,
+  "disposition": null,
+  "occurredAt": "2026-08-15T16:47:52.830Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_provider_controller_v1"
+  },
+  "payload": {
+    "provider": "ticketmaster",
+    "metrics": {
+      "requestsAttempted": 1,
+      "successfulRequests": 1,
+      "cacheHits": 0,
+      "errors": 0,
+      "retries": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0
+    },
+    "circuitBreaker": {
+      "schemaVersion": 1,
+      "provider": "ticketmaster",
+      "state": "closed",
+      "revision": 0,
+      "openedAt": null,
+      "failureCount": 0,
+      "lastFailureType": null,
+      "nextProbeAt": null,
+      "reason": null,
+      "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+      "createdAt": "2026-08-15T16:47:52.825Z",
+      "updatedAt": "2026-08-15T16:47:52.825Z"
+    },
+    "stopReason": null
+  }
+}

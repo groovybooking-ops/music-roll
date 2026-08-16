@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-69c6-7c09-867b-89b34f4286c5",
+  "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:27.494Z",
+  "evidenceRefs": [
+    "discovery/occurrences/ticketmaster/3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac.json",
+    "discovery/provider-listing-cache/ticketmaster/d117c3f419ead8178c26b540c3997cce47a9fcd2627a11e1111def70dff65ba4.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:c7bb5345d5a5725d96ad6cd16df9c55ac7a5494e3b2bfdc191a360132b3655f5",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A70J8z/attraction/K8vZ91798_7",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A70J8z",
+      "rawArtistName": "Bingo Loco",
+      "normalizedArtistName": "bingo loco",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  }
+}

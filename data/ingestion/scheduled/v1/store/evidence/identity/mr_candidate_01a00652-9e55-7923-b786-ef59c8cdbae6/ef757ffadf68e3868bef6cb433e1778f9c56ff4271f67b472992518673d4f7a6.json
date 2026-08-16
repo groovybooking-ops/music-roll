@@ -1,0 +1,1355 @@
+{
+  "evidenceId": "sha256:ef757ffadf68e3868bef6cb433e1778f9c56ff4271f67b472992518673d4f7a6",
+  "createdAt": "2026-08-15T16:48:04.124Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Kate Nash",
+        "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg"
+      },
+      "outcome": "coherent_identity_evidence",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5vBKu1igxFo6g1sHADkIdg",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5vBKu1igxFo6g1sHADkIdg",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q237548",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "798521",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "798521",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5vBKu1igxFo6g1sHADkIdg",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q237548",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "798521",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "798521"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "5vBKu1igxFo6g1sHADkIdg",
+          "observedValues": [
+            "5vBKu1igxFo6g1sHADkIdg"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5vBKu1igxFo6g1sHADkIdg",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5vBKu1igxFo6g1sHADkIdg",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "5vBKu1igxFo6g1sHADkIdg",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q237548",
+          "observedValues": [
+            "Q237548"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q237548",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q237548",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "observedValues": [
+            "49018fd2-95ef-4f7e-92bb-813159909314"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "agreement",
+          "agreedValue": "798521",
+          "observedValues": [
+            "798521"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "798521",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "798521",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "49018fd2-95ef-4f7e-92bb-813159909314"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "798521",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "798521"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+            "name": "Kate Nash",
+            "sortName": "Nash, Kate",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "GB | alt-pop",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "5vBKu1igxFo6g1sHADkIdg"
+            ],
+            "discogsArtistIds": [
+              "798521"
+            ]
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "no_positive_catalog_anchor"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "49018fd2-95ef-4f7e-92bb-813159909314": {
+          "artist": {
+            "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+            "name": "Kate Nash",
+            "sortName": "Nash, Kate",
+            "artistType": "Person",
+            "disambiguation": "GB | alt-pop",
+            "country": "GB",
+            "area": {
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "name": "United Kingdom",
+              "sortName": "United Kingdom",
+              "type": null
+            },
+            "beginArea": {
+              "id": "40868657-ef80-4b66-88ba-263ecac1b9a1",
+              "name": "Harrow",
+              "sortName": "Harrow",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1987-07-06",
+              "end": null,
+              "ended": false
+            },
+            "aliases": [
+              {
+                "name": "Kate Marie Nash",
+                "sortName": "Nash, Kate Marie",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000121205310"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000980501"
+              },
+              {
+                "relationshipType": "bandcamp",
+                "url": "https://katenashmusic.bandcamp.com/"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/49018fd2-95ef-4f7e-92bb-813159909314"
+              },
+              {
+                "relationshipType": "blog",
+                "url": "http://katenash.tumblr.com/"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/798521"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/15374"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://commons.wikimedia.org/wiki/File:13-06-07_RiP_Kate_Nash_2.JPG"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm2658542/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Kate+Nash"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-4841/kate-nash/lyrics.html"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Kate-nash"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/katenashmusic"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.katenash.com/"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.katenash.co.uk/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/kate_nash"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/us/artist/id213167944"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/katenash"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/katenash"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/katenash/"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/213167944"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/55105"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/10169483"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q237548"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCcA6sKBFLbN4Xo4jfqs40zw"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCG9T1dyFJdppmUHGf5WNe6Q"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCZ2ti5m6TFTtg4_mL9-ug0Q"
+              }
+            ]
+          },
+          "raw": {
+            "end-area": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender": "Female",
+            "aliases": [
+              {
+                "end": null,
+                "locale": null,
+                "type": "Legal name",
+                "primary": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "begin": null,
+                "sort-name": "Nash, Kate Marie",
+                "name": "Kate Marie Nash",
+                "ended": false
+              }
+            ],
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "area": {
+              "type-id": null,
+              "type": null,
+              "disambiguation": "",
+              "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+              "iso-3166-1-codes": [
+                "GB"
+              ],
+              "name": "United Kingdom",
+              "sort-name": "United Kingdom"
+            },
+            "country": "GB",
+            "life-span": {
+              "ended": false,
+              "begin": "1987-07-06",
+              "end": null
+            },
+            "begin-area": {
+              "disambiguation": "",
+              "iso-3166-2-codes": [
+                "GB-HRW"
+              ],
+              "type-id": null,
+              "type": null,
+              "sort-name": "Harrow",
+              "id": "40868657-ef80-4b66-88ba-263ecac1b9a1",
+              "name": "Harrow"
+            },
+            "disambiguation": "GB | alt-pop",
+            "isnis": [
+              "0000000121205310"
+            ],
+            "relations": [
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "6a224404-1aef-4bd6-9bd9-25229e885f1e",
+                  "resource": "https://www.allmusic.com/artist/mn0000980501"
+                },
+                "type": "allmusic",
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                "end": null,
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type": "bandcamp",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://katenashmusic.bandcamp.com/",
+                  "id": "d3d79df7-0384-45a5-9d67-8b1dcc3dc178"
+                }
+              },
+              {
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "target-type": "url",
+                "end": "2020-11-19",
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "begin": null,
+                "direction": "forward",
+                "ended": true,
+                "url": {
+                  "id": "087fbf24-7aee-4c56-9879-23b5a9ccd0eb",
+                  "resource": "https://www.bbc.co.uk/music/artists/49018fd2-95ef-4f7e-92bb-813159909314"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "BBC Music page"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "eb535226-f8ca-499d-9b18-6a144df4ae6f",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "blog",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "d18317d0-adc5-42fa-998d-565ce75a642d",
+                  "resource": "http://katenash.tumblr.com/"
+                }
+              },
+              {
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "resource": "https://www.discogs.com/artist/798521",
+                  "id": "f3c28ab0-10fa-4779-879a-8c3726de64f2"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "discogs",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg",
+                  "id": "1f69411d-488c-4fa6-91c3-26854a8efc43"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "resource": "https://www.deezer.com/artist/15374",
+                  "id": "7cfe9112-fb48-4b56-a5f6-7c0aae6e3f92"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "free streaming",
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "end": null
+              },
+              {
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "end": null,
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "url": {
+                  "id": "c26f6fe3-586d-4789-bde2-ae6778946580",
+                  "resource": "https://commons.wikimedia.org/wiki/File:13-06-07_RiP_Kate_Nash_2.JPG"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "image"
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "source-credit": "",
+                "url": {
+                  "id": "5c563005-e936-4d15-af79-5eacdc01e73a",
+                  "resource": "https://www.imdb.com/name/nm2658542/"
+                },
+                "attribute-ids": {},
+                "type": "IMDb",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c"
+              },
+              {
+                "type": "last.fm",
+                "url": {
+                  "resource": "https://www.last.fm/music/Kate+Nash",
+                  "id": "ade5b0ed-c9b2-469e-8941-37e500f43ac1"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "resource": "http://muzikum.eu/en/122-4841/kate-nash/lyrics.html",
+                  "id": "e50f52b7-123f-4714-85ca-f90705881e60"
+                },
+                "attribute-ids": {},
+                "type": "lyrics",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "lyrics",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://genius.com/artists/Kate-nash",
+                  "id": "3f0c9fc0-66e2-4b1b-bb8d-b1b186fc0748"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "url": {
+                  "resource": "https://myspace.com/katenashmusic",
+                  "id": "ee9a8054-f139-498d-b6c3-f70d3b32db88"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "myspace",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              },
+              {
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "http://www.katenash.com/",
+                  "id": "358f516f-d3cf-40c1-a9e3-b4483d280bc6"
+                },
+                "type": "official homepage",
+                "ended": false,
+                "begin": null,
+                "direction": "forward",
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "type": "official homepage",
+                "url": {
+                  "resource": "http://www.katenash.co.uk/",
+                  "id": "2f2c733a-5ca4-4950-bfb6-7cd21fea1056"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "type": "other databases",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/kate_nash",
+                  "id": "0a33eae4-cbb2-45cb-827e-4fc62e02fec9"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "end": null,
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "source-credit": "",
+                "url": {
+                  "resource": "https://itunes.apple.com/us/artist/id213167944",
+                  "id": "a99446ff-3d2c-4883-b3e5-a179012c4ec8"
+                },
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "begin": null,
+                "direction": "forward",
+                "ended": false
+              },
+              {
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "end": null,
+                "target-type": "url",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "url": {
+                  "id": "82dcebe6-3ceb-4086-8bc1-15f1e1c0804f",
+                  "resource": "https://twitter.com/katenash"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "social network",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "social network",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.facebook.com/katenash",
+                  "id": "ce3e4e1c-b6f3-4b44-a106-deb0c3d7564e"
+                },
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770"
+              },
+              {
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "end": null,
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "social network",
+                "url": {
+                  "resource": "https://www.instagram.com/katenash/",
+                  "id": "b08dee22-4257-409c-85e6-067969a5df7c"
+                },
+                "source-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "target-credit": "",
+                "attribute-values": {},
+                "source-credit": "",
+                "url": {
+                  "id": "2a793174-eb25-49d9-950e-822de9ffdda2",
+                  "resource": "https://music.apple.com/gb/artist/213167944"
+                },
+                "attribute-ids": {},
+                "type": "streaming",
+                "ended": false,
+                "begin": null,
+                "direction": "forward"
+              },
+              {
+                "end": null,
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "target-type": "url",
+                "type": "streaming",
+                "source-credit": "",
+                "url": {
+                  "id": "e404b52a-0902-49ca-ae63-e872a2f4c8a2",
+                  "resource": "https://tidal.com/artist/55105"
+                },
+                "attribute-ids": {},
+                "direction": "forward",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "url": {
+                  "id": "f1fe97b7-0d17-4de0-9f2a-c3ed52b4bdcf",
+                  "resource": "http://viaf.org/viaf/10169483"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "VIAF",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460"
+              },
+              {
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {},
+                "type": "wikidata",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "id": "4014da0f-a25c-42b1-a538-02e6dcedf141",
+                  "resource": "https://www.wikidata.org/wiki/Q237548"
+                },
+                "ended": false,
+                "direction": "forward",
+                "begin": null
+              },
+              {
+                "attribute-values": {},
+                "target-credit": "",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "direction": "forward",
+                "begin": null,
+                "ended": false,
+                "type": "youtube",
+                "attribute-ids": {},
+                "source-credit": "",
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCcA6sKBFLbN4Xo4jfqs40zw",
+                  "id": "4fd3a72b-f33a-4ef6-b410-947f36ea448a"
+                }
+              },
+              {
+                "type": "youtube",
+                "url": {
+                  "id": "6d782b56-aadb-451d-9ad7-75457db348ef",
+                  "resource": "https://www.youtube.com/channel/UCG9T1dyFJdppmUHGf5WNe6Q"
+                },
+                "source-credit": "",
+                "attribute-ids": {},
+                "ended": false,
+                "direction": "forward",
+                "begin": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "end": null,
+                "target-type": "url",
+                "target-credit": "",
+                "attributes": [],
+                "attribute-values": {}
+              },
+              {
+                "source-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://www.youtube.com/channel/UCZ2ti5m6TFTtg4_mL9-ug0Q",
+                  "id": "38b8b06a-7807-4693-a5c7-50f66cb35aeb"
+                },
+                "type": "youtube",
+                "begin": null,
+                "direction": "forward",
+                "ended": false,
+                "end": null,
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attribute-values": {},
+                "attributes": [],
+                "target-credit": "",
+                "target-type": "url"
+              }
+            ],
+            "type": "Person",
+            "ipis": [
+              "00537580728",
+              "00537581627"
+            ],
+            "sort-name": "Nash, Kate",
+            "id": "49018fd2-95ef-4f7e-92bb-813159909314",
+            "name": "Kate Nash"
+          }
+        }
+      },
+      "discogsRecords": {
+        "798521": {
+          "artist": {
+            "discogsArtistId": "798521",
+            "name": "Kate Nash",
+            "realName": "Kate Marie Nash",
+            "profile": "English singer and songwriter.\r\n\r\nShe was born 6 July 1987 in London, England, UK.\r\n",
+            "artistUrls": [
+              "http://www.katenash.com/",
+              "http://www.myspace.com/katenashmusic",
+              "http://en.wikipedia.org/wiki/Kate_Nash"
+            ],
+            "aliases": [],
+            "nameVariations": [
+              "Kate",
+              "Katherine Nash",
+              "Nash",
+              "凯特纳什",
+              "凱特娜許"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/798521",
+            "discogsWebUrl": "https://www.discogs.com/artist/798521-Kate-Nash",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Kate Nash",
+            "id": 798521,
+            "resource_url": "https://api.discogs.com/artists/798521",
+            "uri": "https://www.discogs.com/artist/798521-Kate-Nash",
+            "releases_url": "https://api.discogs.com/artists/798521/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/hlLkuHo7nYET8bq27e1NSuIvjl1m8mdWyK_5aEIyXhI/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTI5/LTMzNzkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/hlLkuHo7nYET8bq27e1NSuIvjl1m8mdWyK_5aEIyXhI/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTI5/LTMzNzkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/oxS-xHYXkJXuaZmj9g-RGvKpMcb3gUjEu0SuILwfT6o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTI5/LTMzNzkuanBlZw.jpeg",
+                "width": 600,
+                "height": 900
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Og91bmj12SmezSmOvf_auh4GJNi9eLDNrfJLgbXobkI/rs:fit/g:sm/q:90/h:288/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzIx/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Og91bmj12SmezSmOvf_auh4GJNi9eLDNrfJLgbXobkI/rs:fit/g:sm/q:90/h:288/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzIx/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/gcyh1AAU-DoH4c1V_WqQ18Kg5qRaUMeuONvjLCOgB9Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzIx/LmpwZWc.jpeg",
+                "width": 288,
+                "height": 288
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/jxou6P4juOcJ5p60M7QJeekuTRLDtcm6T7fg45mQiys/rs:fit/g:sm/q:90/h:350/w:408/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMjk0/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/jxou6P4juOcJ5p60M7QJeekuTRLDtcm6T7fg45mQiys/rs:fit/g:sm/q:90/h:350/w:408/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMjk0/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/7Aus-81AHiiC_XbT7NTgpcLFI99MrmnKGPAQknXUDhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMjk0/LmpwZWc.jpeg",
+                "width": 408,
+                "height": 350
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Gl2BFMlCcP4Okj090o45o8nl74ak_gZ3ZKaBHL5GKVE/rs:fit/g:sm/q:90/h:287/w:376/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzMy/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/Gl2BFMlCcP4Okj090o45o8nl74ak_gZ3ZKaBHL5GKVE/rs:fit/g:sm/q:90/h:287/w:376/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzMy/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/GBPt5lIfkjJSUE7KkDrkiPFi3FHi-86NnIvMRO9bgu8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTkyMzAyMzMy/LmpwZWc.jpeg",
+                "width": 376,
+                "height": 287
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/rP7C6FOgCLeBzuXCzZphY6Nsdwte751R6r1HdxJYvUo/rs:fit/g:sm/q:90/h:300/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTgzODQzMzMy/LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/rP7C6FOgCLeBzuXCzZphY6Nsdwte751R6r1HdxJYvUo/rs:fit/g:sm/q:90/h:300/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTgzODQzMzMy/LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/KyuJVmNSVk_5t9seDv-89-0rnP6JWIsqys-bLy4zcIQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xMTgzODQzMzMy/LmpwZWc.jpeg",
+                "width": 400,
+                "height": 300
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/w3uY_wOQkNYv_5X9CqtcTDTevTlrmmZRcORhxm1bkiM/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEz/LTc2OTEuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/w3uY_wOQkNYv_5X9CqtcTDTevTlrmmZRcORhxm1bkiM/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEz/LTc2OTEuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/_kZqCYAxkVzi1weqiOaAF4Z3HOTg-8PjWHKl7sonmUo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEz/LTc2OTEuanBlZw.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/-QwKamqbDTtRdbIxP_-omkh335OWYnITXKQLASO6xqk/rs:fit/g:sm/q:90/h:899/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTM1/LTE3MDIuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/-QwKamqbDTtRdbIxP_-omkh335OWYnITXKQLASO6xqk/rs:fit/g:sm/q:90/h:899/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTM1/LTE3MDIuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/quPzomjcSwAlaTzcgftDOJaLh_wCfp1SVQ47A8dmm0M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTM1/LTE3MDIuanBlZw.jpeg",
+                "width": 600,
+                "height": 899
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/bDnvoNF0w2xgGgQASTtuwQSaFiC71s7EJj-CSd6EwJw/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEx/LTMwODAuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/bDnvoNF0w2xgGgQASTtuwQSaFiC71s7EJj-CSd6EwJw/rs:fit/g:sm/q:90/h:415/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEx/LTMwODAuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/GVoWjdoTWW8cIsyzH0arEq1Gszd-3UTw8tef-KnF9rE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTEx/LTMwODAuanBlZw.jpeg",
+                "width": 600,
+                "height": 415
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/H3fwmq3310buiu0fvNTEL7IO-hICrliNdLIK5CnvbKk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTU5MjIuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/H3fwmq3310buiu0fvNTEL7IO-hICrliNdLIK5CnvbKk/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTU5MjIuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/dvAK39ADeZan-FKKY74eqvzZtsfLSeAMptAJJjXQQsQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTU5MjIuanBlZw.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/yzRvPcnEiKK39JdrOVCXP7BgP2Z8S-XTq2zrGPQTFtA/rs:fit/g:sm/q:90/h:304/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTExNDMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/yzRvPcnEiKK39JdrOVCXP7BgP2Z8S-XTq2zrGPQTFtA/rs:fit/g:sm/q:90/h:304/w:540/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTExNDMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/N_IObvIz6_VRPOrnIVnzMNQU8DIS4Twwdmr3gJrrhbU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNDk5MjU3NTYz/LTExNDMuanBlZw.jpeg",
+                "width": 540,
+                "height": 304
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/uTt-4l_pB7l8oaKM173tFNSECejlaHglOEXIajAS5nM/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTc4/LTQzNDMuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/uTt-4l_pB7l8oaKM173tFNSECejlaHglOEXIajAS5nM/rs:fit/g:sm/q:90/h:337/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTc4/LTQzNDMuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/0-kZdaxMesERgtqwxgp51btd9pqOKBlFNgKV_Y8cX8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTc4/LTQzNDMuanBlZw.jpeg",
+                "width": 600,
+                "height": 337
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XWR6_9GztK8ZzSdE29Hmbg1ySjWdJWX5PVqVInMdHcQ/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTg4/LTgwNzYuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/XWR6_9GztK8ZzSdE29Hmbg1ySjWdJWX5PVqVInMdHcQ/rs:fit/g:sm/q:90/h:900/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTg4/LTgwNzYuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/XiaPQYR4x4rIUh4Hy-JEt1GXf-rFOQ0KLlq27JzvyDs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk3OTg4/LTgwNzYuanBlZw.jpeg",
+                "width": 600,
+                "height": 900
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/2aCCto9N4c3WeuG-uwgAqmhD9uZ5ERvCpFelQKhlC9Q/rs:fit/g:sm/q:90/h:615/w:407/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk4MTc2/LTE0OTkuanBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/2aCCto9N4c3WeuG-uwgAqmhD9uZ5ERvCpFelQKhlC9Q/rs:fit/g:sm/q:90/h:615/w:407/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk4MTc2/LTE0OTkuanBlZw.jpeg",
+                "uri150": "https://i.discogs.com/HQApJPcrrUFk0a1iQhYEV9D2bNDfLmrsZ65N-Zq6RRo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5ODUy/MS0xNTg3Mzk4MTc2/LTE0OTkuanBlZw.jpeg",
+                "width": 407,
+                "height": 615
+              }
+            ],
+            "realname": "Kate Marie Nash",
+            "profile": "English singer and songwriter.\r\n\r\nShe was born 6 July 1987 in London, England, UK.\r\n",
+            "urls": [
+              "http://www.katenash.com/",
+              "http://www.myspace.com/katenashmusic",
+              "http://en.wikipedia.org/wiki/Kate_Nash"
+            ],
+            "namevariations": [
+              "Kate",
+              "Katherine Nash",
+              "Nash",
+              "凯特纳什",
+              "凱特娜許"
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {},
+      "wikidataBridge": {
+        "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+        "wikidataQid": "Q237548",
+        "name": "Kate Nash",
+        "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+        "discogsArtistId": "798521"
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "5vBKu1igxFo6g1sHADkIdg",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q237548",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "798521",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "name": "Kate Nash",
+          "sortName": "Nash, Kate",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": "GB | alt-pop",
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+          "name": "Kate Nash",
+          "sortName": "Nash, Kate",
+          "artistType": "Person",
+          "disambiguation": "GB | alt-pop",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": {
+            "id": "40868657-ef80-4b66-88ba-263ecac1b9a1",
+            "name": "Harrow",
+            "sortName": "Harrow",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1987-07-06",
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Kate Marie Nash",
+              "sortName": "Nash, Kate Marie",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000121205310"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000980501"
+            },
+            {
+              "relationshipType": "bandcamp",
+              "url": "https://katenashmusic.bandcamp.com/"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/49018fd2-95ef-4f7e-92bb-813159909314"
+            },
+            {
+              "relationshipType": "blog",
+              "url": "http://katenash.tumblr.com/"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/798521"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/5vBKu1igxFo6g1sHADkIdg"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/15374"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://commons.wikimedia.org/wiki/File:13-06-07_RiP_Kate_Nash_2.JPG"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm2658542/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Kate+Nash"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-4841/kate-nash/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Kate-nash"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/katenashmusic"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.katenash.com/"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.katenash.co.uk/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/kate_nash"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id213167944"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/katenash"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/katenash"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/katenash/"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/213167944"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/55105"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/10169483"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q237548"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCcA6sKBFLbN4Xo4jfqs40zw"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCG9T1dyFJdppmUHGf5WNe6Q"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCZ2ti5m6TFTtg4_mL9-ug0Q"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/798521.json",
+    "provider-cache/v1/musicbrainz/artist/49018fd2-95ef-4f7e-92bb-813159909314.json",
+    "provider-cache/v1/musicbrainz/exact-name/7e14e56a017bacc03a745aa3.json",
+    "provider-cache/v1/wikidata/spotify-bridge/5vBKu1igxFo6g1sHADkIdg.json"
+  ]
+}

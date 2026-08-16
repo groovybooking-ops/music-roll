@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "occurrenceId": "sha256:8b5fd78a1c148dc719dbcda8db78f5c658729bbc55db7fb8d2e9d4c03a25cee4",
+  "provider": "spotify",
+  "sourceType": "public_music_database",
+  "sourceName": "Music Roll second human-triggered scheduled discovery run",
+  "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:3:0MZqxeVtllPhDp3d4nuUVI",
+  "sourceUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+  "artist": {
+    "rawName": "Aaliyah Rose",
+    "normalizedName": "aaliyah rose"
+  },
+  "providerEntity": {
+    "provider": "spotify",
+    "type": "artist",
+    "id": "0MZqxeVtllPhDp3d4nuUVI",
+    "url": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+    "legacyIds": []
+  },
+  "trustedIdentifiers": {
+    "spotifyArtistId": "0MZqxeVtllPhDp3d4nuUVI",
+    "spotifyArtistUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+    "assertedMusicRollId": null
+  },
+  "exactIdentityBridges": [],
+  "sourceContext": {
+    "mode": "artist_search_results",
+    "query": "Aaliyah",
+    "resultPosition": 3,
+    "note": "Spotify exposed this provider entity for the configured query; this is not proof of the query author's intended identity."
+  },
+  "rawEvidenceRef": "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json",
+  "discoveredAt": "2026-08-15T16:33:26.599Z",
+  "reviewOnly": true
+}

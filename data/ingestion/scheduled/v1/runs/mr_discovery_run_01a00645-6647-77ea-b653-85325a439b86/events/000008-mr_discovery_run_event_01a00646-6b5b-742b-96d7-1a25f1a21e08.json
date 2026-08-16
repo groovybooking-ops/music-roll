@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00646-6b5b-742b-96d7-1a25f1a21e08",
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "eventType": "provider_execution_recorded",
+  "previousRevision": 7,
+  "runRevision": 8,
+  "phase": null,
+  "disposition": null,
+  "occurredAt": "2026-08-15T16:34:33.435Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_provider_controller_v1"
+  },
+  "payload": {
+    "provider": "musicbrainz",
+    "metrics": {
+      "requestsAttempted": 15,
+      "successfulRequests": 15,
+      "cacheHits": 0,
+      "errors": 0,
+      "retries": 0,
+      "retryAfterWaits": 0,
+      "permanentAbsences": 0,
+      "authenticationFailures": 0,
+      "transientFailures": 0,
+      "candidatesSkippedLaneOpen": 0
+    },
+    "circuitBreaker": {
+      "schemaVersion": 1,
+      "provider": "musicbrainz",
+      "state": "closed",
+      "revision": 0,
+      "openedAt": null,
+      "failureCount": 0,
+      "lastFailureType": null,
+      "nextProbeAt": null,
+      "reason": null,
+      "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+      "createdAt": "2026-08-15T16:34:33.434Z",
+      "updatedAt": "2026-08-15T16:34:33.434Z"
+    },
+    "stopReason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00646-8545-7299-a7e8-6bde8a3bbe6b",
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "eventType": "phase_completed",
+  "previousRevision": 12,
+  "runRevision": 13,
+  "phase": "summary_complete",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:34:40.069Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_discovery_coordinator"
+  },
+  "payload": {
+    "checkpointRefs": [
+      "summaries/daily/2026-08-15.json"
+    ],
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 2,
+          "pages": 1,
+          "normalizedOccurrences": 4,
+          "newCandidates": 4
+        },
+        "ticketmaster": {
+          "requests": 1,
+          "pages": 1,
+          "normalizedOccurrences": 1,
+          "newCandidates": 1
+        }
+      },
+      "workers": {
+        "stage3Candidates": 5,
+        "identityDiscoveryCandidates": 1
+      }
+    },
+    "protectedChecksums": {
+      "data/artists.json": "310cc74d64645ea40fdb07609a07bdb6a8223a9d3129ea4d70d3ac06ed5222b0",
+      "data/artist-id-registry.json": "f90277d996d41f6449a7be05a5af044cb7f6e4ed55832a430a4ca92ebf2090b4"
+    }
+  }
+}

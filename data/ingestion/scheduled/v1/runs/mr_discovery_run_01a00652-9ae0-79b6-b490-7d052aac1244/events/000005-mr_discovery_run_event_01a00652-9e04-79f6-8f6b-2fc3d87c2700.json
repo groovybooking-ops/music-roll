@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_discovery_run_event_01a00652-9e04-79f6-8f6b-2fc3d87c2700",
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "eventType": "phase_completed",
+  "previousRevision": 4,
+  "runRevision": 5,
+  "phase": "ticketmaster_discovery_complete_or_skipped",
+  "disposition": "completed",
+  "occurredAt": "2026-08-15T16:47:52.836Z",
+  "actor": {
+    "type": "system",
+    "id": "scheduled_discovery_coordinator"
+  },
+  "payload": {
+    "checkpointRefs": [
+      "checkpoints/ticketmaster/ticketmaster_live_bounded_discovery_v1/v1/786aef013e89bd1383436c79d52be432a447ee33069c005d19e654e8ddac20c0/history/000002.json",
+      "runs/mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244/artifacts/ticketmaster-discovery.json"
+    ],
+    "budgetConsumption": {
+      "providers": {
+        "spotify": {
+          "requests": 2,
+          "pages": 1,
+          "normalizedOccurrences": 4,
+          "newCandidates": 0
+        },
+        "ticketmaster": {
+          "requests": 1,
+          "pages": 1,
+          "normalizedOccurrences": 1,
+          "newCandidates": 0
+        }
+      },
+      "workers": {
+        "stage3Candidates": 0,
+        "identityDiscoveryCandidates": 0
+      }
+    }
+  }
+}

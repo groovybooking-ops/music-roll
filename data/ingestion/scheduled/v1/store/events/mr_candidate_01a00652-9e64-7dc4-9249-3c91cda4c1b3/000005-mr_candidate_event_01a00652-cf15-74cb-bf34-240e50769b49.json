@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00652-cf15-74cb-bf34-240e50769b49",
+  "candidateId": "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3",
+  "eventType": "state_transition",
+  "previousState": "identity_discovering",
+  "nextState": "needs_review",
+  "previousRevision": 4,
+  "candidateRevision": 5,
+  "reasonCode": "identity_discovery_requires_review",
+  "actor": {
+    "type": "worker",
+    "id": "identity_discovery_worker_v1"
+  },
+  "occurredAt": "2026-08-15T16:48:05.397Z",
+  "evidenceRefs": [
+    "evidence/identity-discovery/mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3/6c0ffe2f501cd82f4da7a027cb653140ae17185a1879cd8a2acdaea7a062c37e.json",
+    "provider-cache/v1/musicbrainz/exact-provider-url/b61b391a5b445a69ab31d0c9df46939257b19759a1c0965549061254f26a1800.json"
+  ],
+  "payload": {
+    "identityDiscovery": {
+      "outcome": "completed_without_safe_exact_bridge",
+      "resultingSpotifyArtistId": null,
+      "evidenceRefs": [
+        "evidence/identity-discovery/mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3/6c0ffe2f501cd82f4da7a027cb653140ae17185a1879cd8a2acdaea7a062c37e.json",
+        "provider-cache/v1/musicbrainz/exact-provider-url/b61b391a5b445a69ab31d0c9df46939257b19759a1c0965549061254f26a1800.json"
+      ],
+      "providerErrors": [],
+      "provenanceClaims": [],
+      "resolvedAt": "2026-08-15T16:48:05.396Z",
+      "resolverVersion": "identity_discovery_resolver_v1",
+      "reviewOnly": true
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    }
+  }
+}

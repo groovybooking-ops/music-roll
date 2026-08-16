@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "provider": "ticketmaster",
+  "configurationHash": "sha256:1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda",
+  "retrievedAt": "2026-08-15T16:47:52.823Z",
+  "requestUrl": "https://app.ticketmaster.com/discovery/v2/events.json?apikey=REDACTED&classificationName=music&stateCode=IL&startDateTime=2026-08-30T00%3A00%3A00Z&endDateTime=2026-09-05T00%3A00%3A00Z&size=2&page=0&sort=date%2Casc",
+  "responseDigest": "sha256:c1112800a34051f20d31b05596b7d10b9108e541372e9e6b40cba0215d437707",
+  "raw": {
+    "_embedded": {
+      "events": [
+        {
+          "name": "Ray LaMontagne",
+          "type": "event",
+          "id": "Z7r9jZ1A74fPg",
+          "test": false,
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74fPg",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640,
+              "height": 427,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": false
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_SOURCE",
+              "width": 2426,
+              "height": 1365,
+              "fallback": false
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_CUSTOM.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": false
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "2025-04-24T13:00:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-30T00:00:00Z"
+            }
+          },
+          "dates": {
+            "start": {
+              "localDate": "2026-08-29",
+              "localTime": "19:00:00",
+              "dateTime": "2026-08-30T00:00:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "status": {
+              "code": "rescheduled"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAv6",
+                "name": "Country"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7vAad",
+                "name": "Country Folk"
+              },
+              "family": false
+            }
+          ],
+          "outlets": [
+            {
+              "url": "https://www.ravinia.org/Calendar",
+              "type": "venueBoxOffice"
+            },
+            {
+              "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74fPg",
+              "type": "tmMarketPlace"
+            }
+          ],
+          "ticketing": {
+            "allInclusivePricing": {
+              "enabled": true
+            }
+          },
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/Z7r9jZ1A74fPg?locale=en-us"
+            },
+            "attractions": [
+              {
+                "href": "/discovery/v2/attractions/K8vZ9175ndV?locale=en-us"
+              }
+            ],
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/ZFr9jZe71v?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "Ravinia",
+                "type": "venue",
+                "id": "ZFr9jZe71v",
+                "test": false,
+                "locale": "en-us",
+                "postalCode": "60035",
+                "timezone": "America/Chicago",
+                "city": {
+                  "name": "Highland Park"
+                },
+                "state": {
+                  "name": "Illinois",
+                  "stateCode": "IL"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "400 Iris Lane"
+                },
+                "location": {
+                  "longitude": "-87.810097000",
+                  "latitude": "42.180901000"
+                },
+                "dmas": [
+                  {
+                    "id": 249
+                  }
+                ],
+                "upcomingEvents": {
+                  "tmr": 19,
+                  "_total": 19,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/ZFr9jZe71v?locale=en-us"
+                  }
+                }
+              }
+            ],
+            "attractions": [
+              {
+                "name": "Ray LaMontagne",
+                "type": "attraction",
+                "id": "K8vZ9175ndV",
+                "test": false,
+                "url": "https://www.ticketmaster.com/ray-lamontagne-tickets/artist/935501",
+                "locale": "en-us",
+                "externalLinks": {
+                  "youtube": [
+                    {
+                      "url": "https://www.youtube.com/user/raylamontagne"
+                    }
+                  ],
+                  "twitter": [
+                    {
+                      "url": "https://twitter.com/RayLaMontagne"
+                    }
+                  ],
+                  "itunes": [
+                    {
+                      "url": "https://music.apple.com/us/artist/ray-lamontagne/21917595"
+                    }
+                  ],
+                  "spotify": [
+                    {
+                      "url": "https://open.spotify.com/artist/6DoH7ywD5BcQvjloe9OcIj"
+                    }
+                  ],
+                  "wiki": [
+                    {
+                      "url": "https://en.wikipedia.org/wiki/Ray_LaMontagne"
+                    }
+                  ],
+                  "facebook": [
+                    {
+                      "url": "https://www.facebook.com/raylamontagne"
+                    }
+                  ],
+                  "musicbrainz": [
+                    {
+                      "id": "b5c4ffa2-82e1-4b72-b7f3-c60afb74b860",
+                      "url": "https://musicbrainz.org/artist/b5c4ffa2-82e1-4b72-b7f3-c60afb74b860"
+                    }
+                  ],
+                  "instagram": [
+                    {
+                      "url": "https://www.instagram.com/raylamontagne/"
+                    }
+                  ],
+                  "homepage": [
+                    {
+                      "url": "http://www.raylamontagne.com/"
+                    }
+                  ]
+                },
+                "images": [
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RECOMENDATION_16_9.jpg",
+                    "width": 100,
+                    "height": 56,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_EVENT_DETAIL_PAGE_16_9.jpg",
+                    "width": 205,
+                    "height": 115,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                    "width": 2048,
+                    "height": 1152,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_PORTRAIT_3_2.jpg",
+                    "width": 640,
+                    "height": 427,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_ARTIST_PAGE_3_2.jpg",
+                    "width": 305,
+                    "height": 203,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "3_2",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_3_2.jpg",
+                    "width": 1024,
+                    "height": 683,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_SOURCE",
+                    "width": 2426,
+                    "height": 1365,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "4_3",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_CUSTOM.jpg",
+                    "width": 305,
+                    "height": 225,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_LANDSCAPE_16_9.jpg",
+                    "width": 1136,
+                    "height": 639,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_RETINA_PORTRAIT_16_9.jpg",
+                    "width": 640,
+                    "height": 360,
+                    "fallback": false
+                  },
+                  {
+                    "ratio": "16_9",
+                    "url": "https://s1.ticketm.net/dam/a/695/e0a1f39a-02a9-4493-9b6d-60c6e5cfe695_TABLET_LANDSCAPE_16_9.jpg",
+                    "width": 1024,
+                    "height": 576,
+                    "fallback": false
+                  }
+                ],
+                "classifications": [
+                  {
+                    "primary": true,
+                    "segment": {
+                      "id": "KZFzniwnSyZfZ7v7nJ",
+                      "name": "Music"
+                    },
+                    "genre": {
+                      "id": "KnvZfZ7vAeA",
+                      "name": "Rock"
+                    },
+                    "subGenre": {
+                      "id": "KZazBEonSMnZfZ7v6F1",
+                      "name": "Pop"
+                    },
+                    "type": {
+                      "id": "KZAyXgnZfZ7v7nI",
+                      "name": "Undefined"
+                    },
+                    "subType": {
+                      "id": "KZFzBErXgnZfZ7v7lJ",
+                      "name": "Undefined"
+                    },
+                    "family": false
+                  }
+                ],
+                "upcomingEvents": {
+                  "tmr": 11,
+                  "ticketmaster": 22,
+                  "_total": 33,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/attractions/K8vZ9175ndV?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "pipe dream chicago, Band-X",
+          "type": "event",
+          "id": "rZ7HnEZ1A4ZYqd",
+          "test": false,
+          "url": "https://www.ticketweb.com/event/pipe-dream-chicago-band-x-nellies-gastropub-concerthub-tickets/15030743",
+          "locale": "en-us",
+          "images": [
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+              "width": 2048,
+              "height": 1152,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+              "width": 640,
+              "height": 427,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+              "width": 1024,
+              "height": 683,
+              "fallback": true
+            },
+            {
+              "ratio": "3_2",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+              "width": 305,
+              "height": 203,
+              "fallback": true
+            },
+            {
+              "ratio": "4_3",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_CUSTOM.jpg",
+              "width": 305,
+              "height": 225,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+              "width": 1136,
+              "height": 639,
+              "fallback": true
+            },
+            {
+              "url": "https://i.ticketweb.com/i/00/13/62/81/93_Edp.jpg?v=3",
+              "width": 640,
+              "height": 336,
+              "fallback": false
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+              "width": 1024,
+              "height": 576,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+              "width": 640,
+              "height": 360,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RECOMENDATION_16_9.jpg",
+              "width": 100,
+              "height": 56,
+              "fallback": true
+            },
+            {
+              "ratio": "16_9",
+              "url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_EVENT_DETAIL_PAGE_16_9.jpg",
+              "width": 205,
+              "height": 115,
+              "fallback": true
+            }
+          ],
+          "sales": {
+            "public": {
+              "startDateTime": "2026-08-11T21:25:00Z",
+              "startTBD": false,
+              "startTBA": false,
+              "endDateTime": "2026-08-30T04:00:00Z"
+            }
+          },
+          "dates": {
+            "access": {
+              "startDateTime": "2026-08-29T23:00:00Z",
+              "startApproximate": false,
+              "endDateTime": "2026-08-30T04:30:00Z",
+              "endApproximate": false
+            },
+            "start": {
+              "localDate": "2026-08-29",
+              "localTime": "19:00:00",
+              "dateTime": "2026-08-30T00:00:00Z",
+              "dateTBD": false,
+              "dateTBA": false,
+              "timeTBA": false,
+              "noSpecificTime": false
+            },
+            "end": {
+              "localDate": "2026-08-29",
+              "localTime": "23:30:00",
+              "dateTime": "2026-08-30T04:30:00Z",
+              "approximate": false,
+              "noSpecificTime": false
+            },
+            "timezone": "America/Chicago",
+            "status": {
+              "code": "onsale"
+            },
+            "spanMultipleDays": false
+          },
+          "classifications": [
+            {
+              "primary": true,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAeA",
+                "name": "Rock"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7v6A7",
+                "name": "Classic Rock"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            },
+            {
+              "primary": false,
+              "segment": {
+                "id": "KZFzniwnSyZfZ7v7nJ",
+                "name": "Music"
+              },
+              "genre": {
+                "id": "KnvZfZ7vAeA",
+                "name": "Rock"
+              },
+              "subGenre": {
+                "id": "KZazBEonSMnZfZ7v6A7",
+                "name": "Classic Rock"
+              },
+              "type": {
+                "id": "KZAyXgnZfZ7v7nI",
+                "name": "Undefined"
+              },
+              "subType": {
+                "id": "KZFzBErXgnZfZ7v7lJ",
+                "name": "Undefined"
+              },
+              "family": false
+            }
+          ],
+          "info": "What a night as Band-X returns from a hiatus to bring you the music you love and then immediatley thereafter Pipe Dream Chicago performs all the songs you love too!All Ages tickets start at $10Doors 6:00 pmBand-X 7:00 pmPipeDream 9:00 pmGreat food and drink specials!",
+          "priceRanges": [
+            {
+              "type": "standard",
+              "currency": "USD",
+              "min": 12.82,
+              "max": 56.31
+            }
+          ],
+          "nameOrigin": "custom",
+          "_links": {
+            "self": {
+              "href": "/discovery/v2/events/rZ7HnEZ1A4ZYqd?locale=en-us"
+            },
+            "venues": [
+              {
+                "href": "/discovery/v2/venues/rZ7HnEZ173bq4?locale=en-us"
+              }
+            ]
+          },
+          "_embedded": {
+            "venues": [
+              {
+                "name": "Nellie's Gastropub & ConcertHub",
+                "type": "venue",
+                "id": "rZ7HnEZ173bq4",
+                "test": false,
+                "url": "https://www.ticketweb.com/venue/nellies-gastropub--concerthub-palatine-il/498755",
+                "locale": "en-us",
+                "postalCode": "60067",
+                "timezone": "America/Chicago",
+                "city": {
+                  "name": "Palatine"
+                },
+                "state": {
+                  "name": "Illinois",
+                  "stateCode": "IL"
+                },
+                "country": {
+                  "name": "United States Of America",
+                  "countryCode": "US"
+                },
+                "address": {
+                  "line1": "180 N Smith St "
+                },
+                "location": {
+                  "longitude": "-88.0491099",
+                  "latitude": "42.113627"
+                },
+                "upcomingEvents": {
+                  "ticketweb": 2,
+                  "_total": 2,
+                  "_filtered": 0
+                },
+                "_links": {
+                  "self": {
+                    "href": "/discovery/v2/venues/rZ7HnEZ173bq4?locale=en-us"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-30T00%3A00%3A00Z&classificationName=music&stateCode=IL&endDateTime=2026-09-05T00%3A00%3A00Z&page=0&size=2&sort=date,asc"
+      },
+      "self": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-30T00%3A00%3A00Z&size=2&classificationName=music&stateCode=IL&page=0&sort=date%2Casc&endDateTime=2026-09-05T00%3A00%3A00Z"
+      },
+      "next": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-30T00%3A00%3A00Z&classificationName=music&stateCode=IL&endDateTime=2026-09-05T00%3A00%3A00Z&page=1&size=2&sort=date,asc"
+      },
+      "last": {
+        "href": "/discovery/v2/events.json?startDateTime=2026-08-30T00%3A00%3A00Z&classificationName=music&stateCode=IL&endDateTime=2026-09-05T00%3A00%3A00Z&page=39&size=2&sort=date,asc"
+      }
+    },
+    "page": {
+      "size": 2,
+      "totalElements": 80,
+      "totalPages": 40,
+      "number": 0
+    }
+  }
+}

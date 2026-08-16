@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-d345-78cf-88aa-7ddd5665d393",
+  "candidateId": "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "needs_review",
+  "previousRevision": 4,
+  "candidateRevision": 5,
+  "reasonCode": "identity_provider_multiplicity_requires_review",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:54.501Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61/c7e9fd6aeb5546f21e744f0b9ea3f71b2296983c86811002bca9c9873e85ba95.json",
+    "provider-cache/v1/wikidata/spotify-bridge/0urTpYCsixqZwgNTkPJOJ4.json",
+    "provider-cache/v1/musicbrainz/artist/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json",
+    "provider-cache/v1/discogs/artist/13733.json",
+    "provider-cache/v1/discogs/artist/4994648.json",
+    "provider-cache/v1/musicbrainz/exact-name/9c3c2ae516c9afc827576f2d.json",
+    "provider-cache/v1/musicbrainz/artist/947743b8-6bfb-4be2-b26a-c2efe172377e.json",
+    "provider-cache/v1/musicbrainz/artist/f4673957-c8af-4fe8-baeb-874ef8206ef0.json",
+    "provider-cache/v1/musicbrainz/artist/d90d8d8b-c817-4566-947e-7d371d362151.json",
+    "provider-cache/v1/musicbrainz/artist/2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3.json",
+    "provider-cache/v1/musicbrainz/release-groups/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "provider_profile_multiplicity",
+      "selectedSpotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+      "wikidataQids": [
+        "Q11617"
+      ],
+      "musicBrainzArtistIds": [
+        "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+      ],
+      "discogsArtistIds": [
+        "13733",
+        "4994648"
+      ],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61/c7e9fd6aeb5546f21e744f0b9ea3f71b2296983c86811002bca9c9873e85ba95.json",
+        "provider-cache/v1/wikidata/spotify-bridge/0urTpYCsixqZwgNTkPJOJ4.json",
+        "provider-cache/v1/musicbrainz/artist/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json",
+        "provider-cache/v1/discogs/artist/13733.json",
+        "provider-cache/v1/discogs/artist/4994648.json",
+        "provider-cache/v1/musicbrainz/exact-name/9c3c2ae516c9afc827576f2d.json",
+        "provider-cache/v1/musicbrainz/artist/947743b8-6bfb-4be2-b26a-c2efe172377e.json",
+        "provider-cache/v1/musicbrainz/artist/f4673957-c8af-4fe8-baeb-874ef8206ef0.json",
+        "provider-cache/v1/musicbrainz/artist/d90d8d8b-c817-4566-947e-7d371d362151.json",
+        "provider-cache/v1/musicbrainz/artist/2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3.json",
+        "provider-cache/v1/musicbrainz/release-groups/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json"
+      ],
+      "conflicts": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "13733",
+            "4994648"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 5,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "multiple_exact_display_name_entities",
+        "competingEntityCount": 4,
+        "competingEntities": [
+          {
+            "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "country singer",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Daughter of Bushido",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "10471348"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "DE",
+            "disambiguation": "daughter of Schwesta Ewa",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "of Pogo Assault",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "American R&B singer",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "0urTpYCsixqZwgNTkPJOJ4"
+            ],
+            "discogsArtistIds": [
+              "13733",
+              "4994648"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "country singer",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Daughter of Bushido",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "10471348"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "DE",
+            "disambiguation": "daughter of Schwesta Ewa",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "of Pogo Assault",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "same_name_ambiguity_present_or_not_evaluated"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "13733",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4994648",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11617",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11617",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "13733"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4994648"
+        }
+      ],
+      "providerErrors": [],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-15T16:33:54.499Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "needs_review"
+    }
+  }
+}

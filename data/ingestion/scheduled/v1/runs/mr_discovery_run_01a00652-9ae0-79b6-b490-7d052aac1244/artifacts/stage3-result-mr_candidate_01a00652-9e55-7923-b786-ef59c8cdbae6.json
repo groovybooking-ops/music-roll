@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+  "completedAt": "2026-08-15T16:48:01.952Z",
+  "workerResult": {
+    "selected": 1,
+    "processed": 1,
+    "retryWait": 0,
+    "staleRevisions": 0,
+    "workerErrors": 0,
+    "results": [
+      {
+        "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+        "status": "processed",
+        "outcome": "coherent_identity_evidence",
+        "state": "identity_coherent",
+        "evidenceRef": "evidence/identity/mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6/ef757ffadf68e3868bef6cb433e1778f9c56ff4271f67b472992518673d4f7a6.json"
+      }
+    ]
+  },
+  "reviewOnly": true
+}

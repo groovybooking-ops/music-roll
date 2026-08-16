@@ -1,0 +1,79 @@
+{
+  "evidenceId": "sha256:831ee1228a7f3dae3849520f3cfab13ed44adca0ca64739e60a1e48ced9d20bb",
+  "createdAt": "2026-08-15T16:34:40.033Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+  "evidenceType": "exact_spotify_bridge_discovery",
+  "resolverVersion": "identity_discovery_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+      "candidateName": "Bingo Loco",
+      "reviewOnly": true,
+      "decision": "completed_without_safe_exact_bridge",
+      "resultingSpotifyArtistId": null,
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ91798_7",
+          "legacyIds": [
+            "2520252"
+          ],
+          "occurrenceId": "sha256:3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/bingo-loco-tickets/artist/2520252"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "stage3Run": false,
+        "migrationPerformed": false
+      }
+    },
+    "acquisition": {
+      "inputProviderEntities": [
+        {
+          "provider": "ticketmaster",
+          "type": "attraction",
+          "id": "K8vZ91798_7",
+          "legacyIds": [
+            "2520252"
+          ],
+          "occurrenceId": "sha256:3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac"
+        }
+      ],
+      "attemptedPaths": [
+        {
+          "source": "musicbrainz",
+          "operation": "exact_provider_url",
+          "resource": "https://www.ticketmaster.com/bingo-loco-tickets/artist/2520252"
+        }
+      ],
+      "bridgePaths": [],
+      "spotifyCandidates": [],
+      "unresolvedAlternates": [],
+      "contradictions": [],
+      "providerErrors": [],
+      "provenanceClaims": []
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/exact-provider-url/f63bde7afaaa6aa156b50b6b6141a82ca1c1f7916a8748ac8289472af524309e.json"
+  ],
+  "reviewOnly": true
+}

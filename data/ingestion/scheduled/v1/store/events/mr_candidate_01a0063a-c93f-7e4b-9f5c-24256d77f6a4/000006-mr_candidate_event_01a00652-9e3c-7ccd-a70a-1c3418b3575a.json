@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00652-9e3c-7ccd-a70a-1c3418b3575a",
+  "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
+  "eventType": "discovery_attached",
+  "previousState": "needs_review",
+  "nextState": "needs_review",
+  "previousRevision": 5,
+  "candidateRevision": 6,
+  "reasonCode": "discovery_occurrence_attached",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:47:52.892Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/fe985def59f9a06ebf2ff2c5b8a3ad55b1a9857168c8d0645babbcdb8a94657e.json",
+    "discovery/associations/candidates/mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4/04f84e7168ed5b32e20531b016681b16e18bdaafe365ebe988403a00b370fcc2.json",
+    "discovery/provider-listing-cache/spotify/c42ff630a054f2b121d1cd4968f5fc7053be0370406c0565880508036f1f5752.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:633805d3f0b1e3ec7487db4c9a7a8f283caf1799e18a4972edf87a4e9ad3f47f",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:1:7w29UYBi0qsHi5RTcv3lmA",
+      "sourceUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "rawArtistName": "Björk",
+      "normalizedArtistName": "björk",
+      "spotifyArtistId": "7w29UYBi0qsHi5RTcv3lmA",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
+    },
+    "discoveryAssociation": {
+      "occurrenceId": "sha256:fe985def59f9a06ebf2ff2c5b8a3ad55b1a9857168c8d0645babbcdb8a94657e",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4/04f84e7168ed5b32e20531b016681b16e18bdaafe365ebe988403a00b370fcc2.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:7w29UYBi0qsHi5RTcv3lmA"
+    }
+  }
+}

@@ -1,0 +1,2536 @@
+{
+  "evidenceId": "sha256:c7e9fd6aeb5546f21e744f0b9ea3f71b2296983c86811002bca9c9873e85ba95",
+  "createdAt": "2026-08-15T16:33:54.497Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Aaliyah",
+        "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4"
+      },
+      "outcome": "provider_profile_multiplicity",
+      "exactSpotifyUrlFallback": {
+        "status": "no_artist_relationship",
+        "selectedMbid": null,
+        "candidates": []
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11617",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:discogs",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11617",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:wikidata",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "13733"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "discogs",
+          "path": "artist.id",
+          "independentOrigin": "discogs",
+          "assertedByIdentifier": "4994648"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "0urTpYCsixqZwgNTkPJOJ4",
+          "observedValues": [
+            "0urTpYCsixqZwgNTkPJOJ4"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0urTpYCsixqZwgNTkPJOJ4",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0urTpYCsixqZwgNTkPJOJ4",
+              "source": "wikidata",
+              "path": "P1902",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0urTpYCsixqZwgNTkPJOJ4",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "agreement",
+          "agreedValue": "Q11617",
+          "observedValues": [
+            "Q11617"
+          ],
+          "claims": [
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q11617",
+              "source": "wikidata",
+              "path": "entity",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "wikidataQid",
+              "value": "Q11617",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:wikidata",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "observedValues": [
+            "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+              "source": "wikidata",
+              "path": "P434",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "conflict",
+          "agreedValue": null,
+          "observedValues": [
+            "13733",
+            "4994648"
+          ],
+          "claims": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "13733",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4994648",
+              "source": "wikidata",
+              "path": "P1953",
+              "independentOrigin": "wikidata"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "13733",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4994648",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:discogs",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "13733",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "13733"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4994648",
+              "source": "discogs",
+              "path": "artist.id",
+              "independentOrigin": "discogs",
+              "assertedByIdentifier": "4994648"
+            }
+          ],
+          "independentSourceCount": 3,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [
+        {
+          "identifierType": "discogsArtistId",
+          "observedValues": [
+            "13733",
+            "4994648"
+          ]
+        }
+      ],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 5,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "multiple_exact_display_name_entities",
+        "competingEntityCount": 4,
+        "competingEntities": [
+          {
+            "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "country singer",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Daughter of Bushido",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "10471348"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "DE",
+            "disambiguation": "daughter of Schwesta Ewa",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "of Pogo Assault",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "US",
+            "disambiguation": "American R&B singer",
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "0urTpYCsixqZwgNTkPJOJ4"
+            ],
+            "discogsArtistIds": [
+              "13733",
+              "4994648"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "country singer",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": "Daughter of Bushido",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": [
+              "10471348"
+            ]
+          },
+          {
+            "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "DE",
+            "disambiguation": "daughter of Schwesta Ewa",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          },
+          {
+            "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "country": "GB",
+            "disambiguation": "of Pogo Assault",
+            "score": 74,
+            "selectedExactEntity": false,
+            "spotifyArtistIds": [],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "provider_profile_multiplicity",
+          "mechanicallyResolvable": true,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [
+              "mutually_linked_discogs_alias_profiles",
+              "multiple_discogs_profiles_asserted_by_one_musicbrainz_entity",
+              "shared_discogs_real_name"
+            ],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": true,
+        "qualifiesAsProviderMultiplicity": true,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "same_name_ambiguity_present_or_not_evaluated"
+          ],
+          "explainedAlternates": [
+            {
+              "identifierType": "discogsArtistId",
+              "value": "13733",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            },
+            {
+              "identifierType": "discogsArtistId",
+              "value": "4994648",
+              "explanation": "mutual_alias_and_shared_nonempty_legal_name"
+            }
+          ],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": false,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": true,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [],
+      "providerErrors": [],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [],
+      "musicBrainzRecords": {
+        "bc85da58-52d9-457d-ae8d-5d8d4ec870a9": {
+          "artist": {
+            "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+            "name": "Aaliyah",
+            "sortName": "Aaliyah",
+            "artistType": "Person",
+            "disambiguation": "American R&B singer",
+            "country": "US",
+            "area": {
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "sortName": "United States",
+              "type": null
+            },
+            "beginArea": {
+              "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+              "name": "Brooklyn",
+              "sortName": "Brooklyn",
+              "type": null
+            },
+            "lifeSpan": {
+              "begin": "1979-01-16",
+              "end": "2001-08-25",
+              "ended": true
+            },
+            "aliases": [
+              {
+                "name": "Aaliya",
+                "sortName": "Aaliya",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Aaliyah (Ah-lee-yah)",
+                "sortName": "Aaliyah (Ah-lee-yah)",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Aaliyah Dana Haughton",
+                "sortName": "Haughton, Aaliyah Dana",
+                "type": "Legal name",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Aalliyah",
+                "sortName": "Aalliyah",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Aallyah",
+                "sortName": "Aallyah",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Aliyah",
+                "sortName": "Aliyah",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              },
+              {
+                "name": "Alliyah",
+                "sortName": "Alliyah",
+                "type": "Search hint",
+                "locale": null,
+                "primary": false
+              }
+            ],
+            "isni": [
+              "0000000059585374"
+            ],
+            "externalUrls": [
+              {
+                "relationshipType": "allmusic",
+                "url": "https://www.allmusic.com/artist/mn0000578999"
+              },
+              {
+                "relationshipType": "bandsintown",
+                "url": "https://www.bandsintown.com/a/25901"
+              },
+              {
+                "relationshipType": "BBC Music page",
+                "url": "https://www.bbc.co.uk/music/artists/bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+              },
+              {
+                "relationshipType": "biography",
+                "url": "http://www.soulwalking.co.uk/Aaliyah.html"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/13733"
+              },
+              {
+                "relationshipType": "discogs",
+                "url": "https://www.discogs.com/artist/4994648"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/206"
+              },
+              {
+                "relationshipType": "image",
+                "url": "https://web.archive.org/web/0/https://i.scdn.co/image/ab6761610000e5ebd2493cea701d45401cc79ffd"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm0004691/"
+              },
+              {
+                "relationshipType": "last.fm",
+                "url": "https://www.last.fm/music/Aaliyah"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "http://muzikum.eu/en/122-3315/aaliyah/lyrics.html"
+              },
+              {
+                "relationshipType": "lyrics",
+                "url": "https://genius.com/artists/Aaliyah"
+              },
+              {
+                "relationshipType": "myspace",
+                "url": "https://myspace.com/aaliyah"
+              },
+              {
+                "relationshipType": "official homepage",
+                "url": "http://www.aaliyah.com/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://id.loc.gov/authorities/names/no99012418"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://musicmoz.org/Bands_and_Artists/A/Aaliyah/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb13967222x"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://d-nb.info/gnd/124241441"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://imvdb.com/n/aaliyah"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://openlibrary.org/authors/OL6591514A/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://rateyourmusic.com/artist/aaliyah"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "https://www.whosampled.com/Aaliyah/"
+              },
+              {
+                "relationshipType": "other databases",
+                "url": "http://www.worldcat.org/identities/lccn-no99012418/"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://itunes.apple.com/artist/id1636487"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://play.google.com/store/music/artist?id=Adgnxrafcvju4dxd3hrmhx26khu"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://music.apple.com/us/artist/1636487"
+              },
+              {
+                "relationshipType": "purchase for download",
+                "url": "https://www.beatport.com/artist/aaliyah/311647"
+              },
+              {
+                "relationshipType": "purevolume",
+                "url": "http://www.purevolume.com/aaliyah"
+              },
+              {
+                "relationshipType": "secondhandsongs",
+                "url": "https://secondhandsongs.com/artist/9395"
+              },
+              {
+                "relationshipType": "setlistfm",
+                "url": "https://www.setlist.fm/setlists/aaliyah-2bd69c16.html"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://twitter.com/AaliyahHaughton"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.facebook.com/aaliyahworld"
+              },
+              {
+                "relationshipType": "social network",
+                "url": "https://www.instagram.com/aaliyah/"
+              },
+              {
+                "relationshipType": "songkick",
+                "url": "https://www.songkick.com/artists/561207"
+              },
+              {
+                "relationshipType": "soundcloud",
+                "url": "https://soundcloud.com/aaliyah-official"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/1636487"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/us/artist/1636487"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/2513"
+              },
+              {
+                "relationshipType": "VIAF",
+                "url": "http://viaf.org/viaf/35384254"
+              },
+              {
+                "relationshipType": "wikidata",
+                "url": "https://www.wikidata.org/wiki/Q11617"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCCKaQM7yEP-r0vDs1kWYEmg"
+              },
+              {
+                "relationshipType": "youtube",
+                "url": "https://www.youtube.com/channel/UCOHeswRskPYl7ZhJ-2B3abA"
+              }
+            ]
+          },
+          "raw": {
+            "id": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+            "end-area": {
+              "type": null,
+              "disambiguation": "",
+              "type-id": null,
+              "name": "Marsh Harbour",
+              "sort-name": "Marsh Harbour",
+              "id": "c8347383-48f7-4738-984b-c690115d8e96"
+            },
+            "area": {
+              "sort-name": "United States",
+              "id": "489ce91b-6658-3307-9877-795b68554c98",
+              "name": "United States",
+              "iso-3166-1-codes": [
+                "US"
+              ],
+              "type-id": null,
+              "disambiguation": "",
+              "type": null
+            },
+            "relations": [
+              {
+                "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                "url": {
+                  "id": "41533afa-410d-4889-aa2d-19311e20bafc",
+                  "resource": "https://www.allmusic.com/artist/mn0000578999"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "allmusic",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-ids": {},
+                "type": "bandsintown",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+                "url": {
+                  "resource": "https://www.bandsintown.com/a/25901",
+                  "id": "0e2c3e7a-517e-4d8a-bee3-7d897eadcaa5"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": "2020-11-19",
+                "attributes": [],
+                "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+                "url": {
+                  "id": "95033ade-3cb8-4070-a810-372cbe731961",
+                  "resource": "https://www.bbc.co.uk/music/artists/bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "BBC Music page",
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": {}
+              },
+              {
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "biography",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+                "url": {
+                  "id": "d34445a7-b556-48b7-8105-1b6151999fad",
+                  "resource": "http://www.soulwalking.co.uk/Aaliyah.html"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "url": {
+                  "id": "09ae96dd-fc8b-4d7f-9544-733fd02b9c0e",
+                  "resource": "https://www.discogs.com/artist/13733"
+                },
+                "begin": null,
+                "source-credit": "",
+                "attribute-ids": {},
+                "type": "discogs",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "type": "discogs",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "e82cf1da-a378-41ba-86a5-103eef7e9efa",
+                  "resource": "https://www.discogs.com/artist/4994648"
+                },
+                "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "type": "free streaming",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4",
+                  "id": "6dcb3d2e-75c8-4d0e-9439-b3275be76e88"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "free streaming",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "5e0c9d8a-c7dc-43f6-98b5-aeac71490226",
+                  "resource": "https://www.deezer.com/artist/206"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "image",
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                "url": {
+                  "id": "1f561825-5e9f-40fd-8281-fc37b66f63e8",
+                  "resource": "https://web.archive.org/web/0/https://i.scdn.co/image/ab6761610000e5ebd2493cea701d45401cc79ffd"
+                }
+              },
+              {
+                "attribute-ids": {},
+                "type": "IMDb",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "url": {
+                  "resource": "https://www.imdb.com/name/nm0004691/",
+                  "id": "3075c7f4-6e29-48d9-a08b-64e2943dce5c"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.last.fm/music/Aaliyah",
+                  "id": "bc172814-80d0-4591-b86f-8bd8be09d0d3"
+                },
+                "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "last.fm",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false
+              },
+              {
+                "attribute-ids": {},
+                "type": "lyrics",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "http://muzikum.eu/en/122-3315/aaliyah/lyrics.html",
+                  "id": "83014513-117c-488d-afaf-a5a13ac416ed"
+                },
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                "url": {
+                  "resource": "https://genius.com/artists/Aaliyah",
+                  "id": "d246bf36-5b58-422a-a62d-2d01467653c4"
+                },
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "lyrics"
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                "url": {
+                  "resource": "https://myspace.com/aaliyah",
+                  "id": "8dc410bb-34f1-4b2a-bb75-9a740cd2b28f"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "myspace"
+              },
+              {
+                "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                "url": {
+                  "resource": "http://www.aaliyah.com/",
+                  "id": "b8e79377-8f65-4679-b6e2-006808d0eadf"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "official homepage",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {}
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "begin": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "5b5a9aa1-871b-4dcf-be0c-947d072558ab",
+                  "resource": "http://id.loc.gov/authorities/names/no99012418"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "other databases"
+              },
+              {
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "other databases",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "f09c5c79-0cb9-48c5-900c-32157082d1a2",
+                  "resource": "http://musicmoz.org/Bands_and_Artists/A/Aaliyah/"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "other databases",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "3b2a35d1-eb97-40ff-ad23-1169761cf0ef",
+                  "resource": "https://catalogue.bnf.fr/ark:/12148/cb13967222x"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://d-nb.info/gnd/124241441",
+                  "id": "2e708b61-2b67-4b2f-8446-2e56bb9dbf2f"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "other databases",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {}
+              },
+              {
+                "url": {
+                  "id": "49af6cb3-006f-46cc-8802-2cb298872c41",
+                  "resource": "https://imvdb.com/n/aaliyah"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attributes": [],
+                "type": "other databases",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "attribute-ids": {}
+              },
+              {
+                "url": {
+                  "id": "101df6f2-9295-4088-b706-548a964c62a8",
+                  "resource": "https://openlibrary.org/authors/OL6591514A/"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {}
+              },
+              {
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "resource": "https://rateyourmusic.com/artist/aaliyah",
+                  "id": "ef642ec4-88a6-403e-bd38-6de8507c0535"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type": "other databases",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {}
+              },
+              {
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://www.whosampled.com/Aaliyah/",
+                  "id": "fc14c4d0-5edc-45a6-93fd-c3e0ec4d218c"
+                },
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "source-credit": "",
+                "begin": null,
+                "attribute-ids": {},
+                "type": "other databases",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "other databases",
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "begin": null,
+                "source-credit": "",
+                "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                "url": {
+                  "id": "f49abb9b-7d8c-434a-8240-fddd8a3293c1",
+                  "resource": "http://www.worldcat.org/identities/lccn-no99012418/"
+                }
+              },
+              {
+                "attribute-ids": {},
+                "type": "purchase for download",
+                "ended": true,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": "2019-05-19",
+                "attributes": [],
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "0bb0224f-188a-498d-a70c-ce85c614fd75",
+                  "resource": "https://itunes.apple.com/artist/id1636487"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": "2020-10-12",
+                "begin": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://play.google.com/store/music/artist?id=Adgnxrafcvju4dxd3hrmhx26khu",
+                  "id": "7aa8d9ca-7fa9-4130-8f89-717a0ff5c0e8"
+                },
+                "attribute-ids": {},
+                "target-credit": "",
+                "ended": true,
+                "attribute-values": {},
+                "type": "purchase for download"
+              },
+              {
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "type": "purchase for download",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/1636487",
+                  "id": "e49bc6a2-a1a4-44d4-b230-22b8e14aa7ff"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "purchase for download",
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "begin": null,
+                "source-credit": "",
+                "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                "url": {
+                  "id": "861a73cd-8295-40c9-b817-ea2d4a5c5a03",
+                  "resource": "https://www.beatport.com/artist/aaliyah/311647"
+                }
+              },
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": "2018-06-30",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "http://www.purevolume.com/aaliyah",
+                  "id": "0bd95262-9e3e-4c39-b0a0-1ad709402504"
+                },
+                "type-id": "b6f02157-a9d3-4f24-9057-0675b2dbc581",
+                "attribute-ids": {},
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": true,
+                "type": "purevolume"
+              },
+              {
+                "type": "secondhandsongs",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "resource": "https://secondhandsongs.com/artist/9395",
+                  "id": "4ec105e4-fd50-4912-b79d-47b68b0b84de"
+                },
+                "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "setlistfm",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                "url": {
+                  "id": "f4ec93df-0f91-4608-9a0a-05dd1bffe635",
+                  "resource": "https://www.setlist.fm/setlists/aaliyah-2bd69c16.html"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "attribute-ids": {},
+                "type": "social network",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://twitter.com/AaliyahHaughton",
+                  "id": "f124e398-666e-402d-aefe-41ff9e9bfb87"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "type": "social network",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "attribute-ids": {},
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://www.facebook.com/aaliyahworld",
+                  "id": "590bf319-9849-4df2-a7a9-c51647f87313"
+                },
+                "begin": null,
+                "source-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "type": "social network",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                "url": {
+                  "resource": "https://www.instagram.com/aaliyah/",
+                  "id": "2d2e9267-8bcc-4d04-a019-e1987799f75d"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://www.songkick.com/artists/561207",
+                  "id": "e59a1529-07a7-49f2-a449-8749df5ceeaf"
+                },
+                "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "songkick",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "soundcloud",
+                "attributes": [],
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://soundcloud.com/aaliyah-official",
+                  "id": "a477eee6-aea3-468d-b593-bf5b3f160655"
+                },
+                "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710"
+              },
+              {
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "cd3bf7aa-cba8-48a0-b57a-79611f89a643",
+                  "resource": "https://music.apple.com/gb/artist/1636487"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "streaming",
+                "attribute-ids": {}
+              },
+              {
+                "attribute-ids": {},
+                "type": "streaming",
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "resource": "https://music.apple.com/us/artist/1636487",
+                  "id": "e49bc6a2-a1a4-44d4-b230-22b8e14aa7ff"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "streaming",
+                "attribute-ids": {},
+                "begin": null,
+                "source-credit": "",
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://tidal.com/artist/2513",
+                  "id": "cbfbd2f7-e0e9-4f9c-88da-2f59e28e98ee"
+                },
+                "attributes": [],
+                "direction": "forward",
+                "target-type": "url",
+                "end": null
+              },
+              {
+                "type": "VIAF",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {},
+                "url": {
+                  "id": "4bff0298-556b-4668-89ea-a37d34b4b2a6",
+                  "resource": "http://viaf.org/viaf/35384254"
+                },
+                "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                "source-credit": "",
+                "begin": null,
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": []
+              },
+              {
+                "attribute-ids": {},
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "type": "wikidata",
+                "attributes": [],
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "begin": null,
+                "source-credit": "",
+                "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                "url": {
+                  "id": "61e09bca-a4f4-4c75-8780-4b157142f4c0",
+                  "resource": "https://www.wikidata.org/wiki/Q11617"
+                }
+              },
+              {
+                "target-credit": "",
+                "attribute-values": {},
+                "ended": false,
+                "type": "youtube",
+                "attribute-ids": {},
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "id": "b7ccd325-2d40-4efd-8a3b-bcdfdc610b68",
+                  "resource": "https://www.youtube.com/channel/UCCKaQM7yEP-r0vDs1kWYEmg"
+                },
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward"
+              },
+              {
+                "attribute-ids": {},
+                "type": "youtube",
+                "target-credit": "",
+                "ended": false,
+                "attribute-values": {},
+                "direction": "forward",
+                "target-type": "url",
+                "end": null,
+                "attributes": [],
+                "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+                "url": {
+                  "id": "e558baaa-2e39-447a-a9a0-37645b72e6db",
+                  "resource": "https://www.youtube.com/channel/UCOHeswRskPYl7ZhJ-2B3abA"
+                },
+                "begin": null,
+                "source-credit": ""
+              }
+            ],
+            "life-span": {
+              "end": "2001-08-25",
+              "begin": "1979-01-16",
+              "ended": true
+            },
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "begin-area": {
+              "type-id": null,
+              "name": "Brooklyn",
+              "disambiguation": "",
+              "type": null,
+              "sort-name": "Brooklyn",
+              "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c"
+            },
+            "sort-name": "Aaliyah",
+            "name": "Aaliyah",
+            "isnis": [
+              "0000000059585374"
+            ],
+            "aliases": [
+              {
+                "sort-name": "Aaliya",
+                "locale": null,
+                "end": null,
+                "name": "Aaliya",
+                "begin": null,
+                "ended": false,
+                "type": "Search hint",
+                "primary": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+              },
+              {
+                "sort-name": "Aaliyah (Ah-lee-yah)",
+                "end": null,
+                "name": "Aaliyah (Ah-lee-yah)",
+                "locale": null,
+                "begin": null,
+                "ended": false,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "primary": null,
+                "type": "Search hint"
+              },
+              {
+                "sort-name": "Haughton, Aaliyah Dana",
+                "name": "Aaliyah Dana Haughton",
+                "end": null,
+                "locale": null,
+                "ended": false,
+                "begin": null,
+                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                "primary": null,
+                "type": "Legal name"
+              },
+              {
+                "sort-name": "Aalliyah",
+                "end": null,
+                "name": "Aalliyah",
+                "locale": null,
+                "begin": null,
+                "ended": false,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "primary": null,
+                "type": "Search hint"
+              },
+              {
+                "end": null,
+                "name": "Aallyah",
+                "locale": null,
+                "sort-name": "Aallyah",
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "primary": null,
+                "type": "Search hint",
+                "begin": null,
+                "ended": false
+              },
+              {
+                "sort-name": "Aliyah",
+                "locale": null,
+                "end": null,
+                "name": "Aliyah",
+                "begin": null,
+                "ended": false,
+                "type": "Search hint",
+                "primary": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+              },
+              {
+                "name": "Alliyah",
+                "end": null,
+                "locale": null,
+                "sort-name": "Alliyah",
+                "primary": null,
+                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                "type": "Search hint",
+                "ended": false,
+                "begin": null
+              }
+            ],
+            "country": "US",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "type": "Person",
+            "gender": "Female",
+            "disambiguation": "American R&B singer",
+            "ipis": []
+          }
+        }
+      },
+      "discogsRecords": {
+        "13733": {
+          "artist": {
+            "discogsArtistId": "13733",
+            "name": "Aaliyah",
+            "realName": "Aaliyah Dana Haughton",
+            "profile": "American Singer, Actress, dancer, and Model. \n\nBorn January 16, 1979, in Brooklyn, New York City, USA.\n\nAaliyah released 3 albums within her lifetime: \"Age Ain't Nothing But A Number\", \"One In A Million\" and her praised self-titled album, \"Aaliyah\".\n\nAaliyah starred in 2 movies, \"Romeo Must Die\" and posthumously, \"Queen of the Damned\".\n\nDaughter of [a1772573], sister of [a666565]. Niece of Record Executive [a348491] and (by marriage) Soul legend [a135244]. Cousin of record executive [a171166] and rapper [a803218].\nMarried to controversial R&B Singer/Producer [a14646] from 1994-1995 (annulled). At the time of passing, in a relationship with (and had reportedly planned to marry) Hip-hop mogul [a174951].\n\nUpon releasing her debut album \"[m=100995]\" in 1994, Aaliyah gained a steadily growing reputation for helping to redefine contemporary R&B, pop and hip hop, earning her the nicknames the \"Princess of R&B\" and \"Queen of Urban pop\".\nA sophomore album \"[m=101004]\" was released in 1996, and her final album, \"[m=35220]\", appeared earlier in the year of her tragic death.\n\nAaliyah unfortunately died on August 25, 2001, in Marsh Harbour, Abaco Islands, The Bahamas (Aged 22) in an Airplane crash that also claimed the lives of 8 others after filming the music video for her single \"Rock The Boat\", featured on her third album, \"Aaliyah\".\n\nAaliyah's posthumous works range from 1 Movie and 2 singles: \"Poison featuring The Weeknd\" released in 2021 and \"Gone featuring Tank\" released in 2025.\n\nAaliyah has sold an estimated 24 to 32 million albums worldwide, alongside over 8 million certified sales in the United States.",
+            "artistUrls": [
+              "http://www.aaliyah.com",
+              "http://www.facebook.com/AaliyahHaughton",
+              "http://www.instagram.com/aaliyah",
+              "http://twitter.com/Aaliyah",
+              "http://en.wikipedia.org/wiki/Aaliyah",
+              "http://youtube.com/@aaliyahmusicvideo"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "4994648",
+                "name": "Aaliyah Dana Haughton"
+              }
+            ],
+            "nameVariations": [
+              "Aaaliyah",
+              "Aahliyah",
+              "Aailiyah",
+              "Aaleyah",
+              "Aalhyia",
+              "Aaliah",
+              "Aalijah",
+              "Aaliya",
+              "Aallayah",
+              "Aalyah",
+              "Aalyiah",
+              "Ah Lee Yah",
+              "Aliyaah",
+              "Aliyah",
+              "Aliyha",
+              "Alliya",
+              "Alliyah",
+              "Allyah",
+              "Alyah",
+              "アリーヤ",
+              "艾莉亞",
+              "艾莉雅",
+              "艾萊亞"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/13733",
+            "discogsWebUrl": "https://www.discogs.com/artist/13733-Aaliyah",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Aaliyah",
+            "id": 13733,
+            "resource_url": "https://api.discogs.com/artists/13733",
+            "uri": "https://www.discogs.com/artist/13733-Aaliyah",
+            "releases_url": "https://api.discogs.com/artists/13733/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/-aBmvmzSjdOX6COO17DsQTSYmQlK3cNpnUZGIxvrxMo/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/MjczMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/-aBmvmzSjdOX6COO17DsQTSYmQlK3cNpnUZGIxvrxMo/rs:fit/g:sm/q:90/h:750/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/MjczMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/gmw_9aPYxOOMFPawKNtlM62uaHv26ScQOjBEh3XkrA0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/MjczMy5qcGVn.jpeg",
+                "width": 600,
+                "height": 750
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/T1ExSPo0gYDQNw54HorucJxV0KOIZGP9kaexpBUD-6c/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NjYyNDI2NzAt/NDA5Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/T1ExSPo0gYDQNw54HorucJxV0KOIZGP9kaexpBUD-6c/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NjYyNDI2NzAt/NDA5Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/TP-i1TzEj1XyI-qFZ5yQmjfrL2-UmZ4WDORbU1QuQpQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NjYyNDI2NzAt/NDA5Ni5qcGVn.jpeg",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/CLylXthfczyQLsBG1FTKMfdFaFBUOTwlK1nheC-EPtU/rs:fit/g:sm/q:90/h:826/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg3ODgwNTIt/MTY0OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/CLylXthfczyQLsBG1FTKMfdFaFBUOTwlK1nheC-EPtU/rs:fit/g:sm/q:90/h:826/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg3ODgwNTIt/MTY0OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/JKOpxLak-DiN6WBRQZVn-h9yNxa3PtmtbD__GHCZ-dk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg3ODgwNTIt/MTY0OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 826
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/vY8zepXgk_PPEAd9bgihlQ2T7w3gPzZ3F23On_6RQl8/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MjQ0MDEwNjct/OTU4MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/vY8zepXgk_PPEAd9bgihlQ2T7w3gPzZ3F23On_6RQl8/rs:fit/g:sm/q:90/h:749/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MjQ0MDEwNjct/OTU4MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/00kBTiXe_qJ9XYyQO9P4obVRL73vf6K8HYlB1qkzJMk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MjQ0MDEwNjct/OTU4MS5qcGVn.jpeg",
+                "width": 600,
+                "height": 749
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/1Ayh4VVfCk2H07x5dJGO6AUfTdjjbVJV3UPhWcS9Adc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/ODA1OS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/1Ayh4VVfCk2H07x5dJGO6AUfTdjjbVJV3UPhWcS9Adc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/ODA1OS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/7az3l1PyAgLMh0goRIyDuLOUFZpZar7tqh9QQJuCSOk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2OTkyMjYyOTAt/ODA1OS5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/qujc6Wj9kf4Yem-2GRUE3UuFqgbQgzOa6GjzK5Qid14/rs:fit/g:sm/q:90/h:733/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MDY0NjAxMzgt/MjYzOC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/qujc6Wj9kf4Yem-2GRUE3UuFqgbQgzOa6GjzK5Qid14/rs:fit/g:sm/q:90/h:733/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MDY0NjAxMzgt/MjYzOC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/fTNJM2g8I9OblJqgchi0aIIjfYWGs5XEGQ5lVrErFEo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MDY0NjAxMzgt/MjYzOC5qcGVn.jpeg",
+                "width": 600,
+                "height": 733
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/QD1bKmaDjEOuVMTC1G3Z44BLsMiBztpmdcoYr8zFDL0/rs:fit/g:sm/q:90/h:799/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NzExNS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/QD1bKmaDjEOuVMTC1G3Z44BLsMiBztpmdcoYr8zFDL0/rs:fit/g:sm/q:90/h:799/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NzExNS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/x8dGfLSkQl8smICQkEaLTNpgtTbHhrVF5FVVo5jyhQc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NzExNS5qcGVn.jpeg",
+                "width": 600,
+                "height": 799
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/XCzQ0WA515HLVxpM9DQiyTPtzjqey3-fu2I_PpFVtfs/rs:fit/g:sm/q:90/h:926/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDYwOTQ2MDYt/NTIzNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/XCzQ0WA515HLVxpM9DQiyTPtzjqey3-fu2I_PpFVtfs/rs:fit/g:sm/q:90/h:926/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDYwOTQ2MDYt/NTIzNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/GoJvcfq3YkNc70gIs3W57FJtH2QlrXDap7EELTlC3lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDYwOTQ2MDYt/NTIzNC5qcGVn.jpeg",
+                "width": 584,
+                "height": 926
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/UFXVBP8bDR_DEPsFbWCTd-oeo8Nictj9a34A0Av8cQY/rs:fit/g:sm/q:90/h:844/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2Mjk3MzY5MTQt/NzMzMy5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/UFXVBP8bDR_DEPsFbWCTd-oeo8Nictj9a34A0Av8cQY/rs:fit/g:sm/q:90/h:844/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2Mjk3MzY5MTQt/NzMzMy5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/cvfnbFYsUiUkH5t7ysumFcvkhM51DPoDigz7hoeafn8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2Mjk3MzY5MTQt/NzMzMy5qcGVn.jpeg",
+                "width": 500,
+                "height": 844
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/EQcDQvnqRDfnLQOYLylDU8tc-c90N7_i6ko7D1A2PtA/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzIt/ODkzNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/EQcDQvnqRDfnLQOYLylDU8tc-c90N7_i6ko7D1A2PtA/rs:fit/g:sm/q:90/h:396/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzIt/ODkzNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/vU3R4Ux7qjph3lE4mK0hjPo6je8YgGceSGE2fh9G-QU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzIt/ODkzNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 396
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/46s1oIdJw7kUZusb13x6OwVrkqaJG3ryFh_MmdAwN5E/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzEt/MTk5Mi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/46s1oIdJw7kUZusb13x6OwVrkqaJG3ryFh_MmdAwN5E/rs:fit/g:sm/q:90/h:399/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzEt/MTk5Mi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/SdcuJxlJNyWXaNOOev2WNE5fyi08bJBXcmkeIisWRc8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzEt/MTk5Mi5qcGVn.jpeg",
+                "width": 600,
+                "height": 399
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/C2KKS7V3gqfKQyScxqPruwudNMd1ohUBpfWQCtJrojA/rs:fit/g:sm/q:90/h:486/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NjQ2My5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/C2KKS7V3gqfKQyScxqPruwudNMd1ohUBpfWQCtJrojA/rs:fit/g:sm/q:90/h:486/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NjQ2My5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/-7THCrovGiVoR3NyliUZxxVmNIgKEp5JcqaWJ2wc7NA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/NjQ2My5qcGVn.jpeg",
+                "width": 600,
+                "height": 486
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/AVwyAvoaLjcD6NCDz9RenuTmtOsOvhwNB3s_o3uTicg/rs:fit/g:sm/q:90/h:894/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxNTIt/ODM1NC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/AVwyAvoaLjcD6NCDz9RenuTmtOsOvhwNB3s_o3uTicg/rs:fit/g:sm/q:90/h:894/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxNTIt/ODM1NC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/WcqNay7zzxmcHqpO2JDRjX_6UeCRXU_1fJl0FLrFTHc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxNTIt/ODM1NC5qcGVn.jpeg",
+                "width": 600,
+                "height": 894
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/fO2iOf6N9CyVfK1U9Nw1A-kLu_M1X-e2KG0PAdMGjrc/rs:fit/g:sm/q:90/h:727/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg4NjIyMTQt/NDM5Ny5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/fO2iOf6N9CyVfK1U9Nw1A-kLu_M1X-e2KG0PAdMGjrc/rs:fit/g:sm/q:90/h:727/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg4NjIyMTQt/NDM5Ny5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/a0YfvfAc9rDLE0NwHZWYv33QDCPpZGxqUbaDX9k0PPA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NDg4NjIyMTQt/NDM5Ny5qcGVn.jpeg",
+                "width": 600,
+                "height": 727
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/d8oQAOKWyhWFoZDMk3Rd0F9mvyCGnkOdCV4hm1TXy0I/rs:fit/g:sm/q:90/h:735/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1NDQt/NTg5My5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/d8oQAOKWyhWFoZDMk3Rd0F9mvyCGnkOdCV4hm1TXy0I/rs:fit/g:sm/q:90/h:735/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1NDQt/NTg5My5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/9Fn9W8uz2FbbKdj8HTE0pyZbaYrehNv5x-_OBWiUDM0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1NDQt/NTg5My5qcGVn.jpeg",
+                "width": 600,
+                "height": 735
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/GBKbUXB4eAsTSo8FtSv0OL6-gPkJG99xFIQ2BoPqIYQ/rs:fit/g:sm/q:90/h:400/w:257/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTEyMDQ5MDI1ODYu/anBlZw.jpeg",
+                "resource_url": "https://i.discogs.com/GBKbUXB4eAsTSo8FtSv0OL6-gPkJG99xFIQ2BoPqIYQ/rs:fit/g:sm/q:90/h:400/w:257/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTEyMDQ5MDI1ODYu/anBlZw.jpeg",
+                "uri150": "https://i.discogs.com/TaXMtixvAU-wHRbihsSILZlmhTuRWUx5z0edQJQUPPM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTEyMDQ5MDI1ODYu/anBlZw.jpeg",
+                "width": 257,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/YWpzJJYsUEWyDJaOR9D30m9JF7OoQkKOaOGxNQql7HQ/rs:fit/g:sm/q:90/h:500/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NTI1NTc5MTkt/MzUxOS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/YWpzJJYsUEWyDJaOR9D30m9JF7OoQkKOaOGxNQql7HQ/rs:fit/g:sm/q:90/h:500/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NTI1NTc5MTkt/MzUxOS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/8Nk0fkdVWmhMZ2uZBEojpLFj5zA_9YvaUrKD4TrrH5E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NTI1NTc5MTkt/MzUxOS5qcGVn.jpeg",
+                "width": 380,
+                "height": 500
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/q60w4SUrxHNPtGClr7LPJPhlL0a7hh1VbQCHW5yeOo4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/OTkwNC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/q60w4SUrxHNPtGClr7LPJPhlL0a7hh1VbQCHW5yeOo4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/OTkwNC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/ZA2Scu_DCWt_AFVDmrSgbgYsBE9EbNKbiSlo-Sm7KS4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2NTA3NTUwMzEt/OTkwNC5qcGVn.jpeg",
+                "width": 600,
+                "height": 600
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KcLl_YA7DhcX8M1qOqbFL7BeF4QdlqsDpbT-xaToQa0/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NDkwMzk3Mjct/NTM5OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/KcLl_YA7DhcX8M1qOqbFL7BeF4QdlqsDpbT-xaToQa0/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NDkwMzk3Mjct/NTM5OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/jV_7SQuxW6fBbyvnJQZ7hNCYmPCrejbdUfeqIe2NX9w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE0NDkwMzk3Mjct/NTM5OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Syq2lQcaKVjYjVtDtNssEX_8miu-kEbfQhyDHi9nceo/rs:fit/g:sm/q:90/h:650/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDQ4Ni5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Syq2lQcaKVjYjVtDtNssEX_8miu-kEbfQhyDHi9nceo/rs:fit/g:sm/q:90/h:650/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDQ4Ni5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/CT6kr6-lzOfRQkkLcxWzhTw9C_SLcAQR0d1HCLshQw0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDQ4Ni5qcGVn.jpeg",
+                "width": 575,
+                "height": 650
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/oFHE48zQ2IPWeClg1bE65czgbUDkeVOY45eZEA2ZY5c/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MzI5ODcwMDYt/NTMzMi5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/oFHE48zQ2IPWeClg1bE65czgbUDkeVOY45eZEA2ZY5c/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MzI5ODcwMDYt/NTMzMi5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/J2g1QnkWkNlpofBD-wltHqhtM5LgfqtCjPh3_hRTsws/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3MzI5ODcwMDYt/NTMzMi5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/gxg8aCSXQuJ2yyo8ffLitVFhAjTykEEO3ddNXEzceiI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1MTAt/MzQwOC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/gxg8aCSXQuJ2yyo8ffLitVFhAjTykEEO3ddNXEzceiI/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1MTAt/MzQwOC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/srOvrYMDMA-ivBsuRKMFSZRnMaedVv7ZWdokhuKGUNM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE1OTg1NTE1MTAt/MzQwOC5qcGVn.jpeg",
+                "width": 600,
+                "height": 400
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/Z64KhzwyH4hnKV0YZ9tYtrfIo2iavCRz-NJ0XwCHNtg/rs:fit/g:sm/q:90/h:828/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/MTY0NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/Z64KhzwyH4hnKV0YZ9tYtrfIo2iavCRz-NJ0XwCHNtg/rs:fit/g:sm/q:90/h:828/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/MTY0NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/U4Q9lT8gkH7853zTiF01sOk3KtQAq4Ra_k2zE_wNcbo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/MTY0NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 828
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/FBe6ksxyBxhTetTjmspUfoqKwL80Ig0Lew76K4HZp_0/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDk3OC5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/FBe6ksxyBxhTetTjmspUfoqKwL80Ig0Lew76K4HZp_0/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDk3OC5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/tpio656XpKSrCnJOQJUfZzybz4lxY3DQGR9bSnmjTxE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE2MzM3MzIxMzIt/NDk3OC5qcGVn.jpeg",
+                "width": 600,
+                "height": 450
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/4W3mgPTJlHTUvKqG2DGEjBvvois0_f256sXrEKa9cBE/rs:fit/g:sm/q:90/h:878/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1NDIt/MzI2MS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/4W3mgPTJlHTUvKqG2DGEjBvvois0_f256sXrEKa9cBE/rs:fit/g:sm/q:90/h:878/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1NDIt/MzI2MS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/97VEEgsPaLG2IdidR41z3eBEUQD6m_ynedlYuzpbO6M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1NDIt/MzI2MS5qcGVn.jpeg",
+                "width": 600,
+                "height": 878
+              },
+              {
+                "type": "secondary",
+                "uri": "https://i.discogs.com/KHo6ebp1cVoUtLYMGrc-zTgRLkf8KyXCGHXMVbyJ3KE/rs:fit/g:sm/q:90/h:866/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1ODEt/NTc2NS5qcGVn.jpeg",
+                "resource_url": "https://i.discogs.com/KHo6ebp1cVoUtLYMGrc-zTgRLkf8KyXCGHXMVbyJ3KE/rs:fit/g:sm/q:90/h:866/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1ODEt/NTc2NS5qcGVn.jpeg",
+                "uri150": "https://i.discogs.com/mymv4q38AQ_cqP-yfK-pTMWs87WEYeuXaUtyf1PHt6A/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzNzMz/LTE3NzAxNjA1ODEt/NTc2NS5qcGVn.jpeg",
+                "width": 600,
+                "height": 866
+              }
+            ],
+            "realname": "Aaliyah Dana Haughton",
+            "profile": "American Singer, Actress, dancer, and Model. \n\nBorn January 16, 1979, in Brooklyn, New York City, USA.\n\nAaliyah released 3 albums within her lifetime: \"Age Ain't Nothing But A Number\", \"One In A Million\" and her praised self-titled album, \"Aaliyah\".\n\nAaliyah starred in 2 movies, \"Romeo Must Die\" and posthumously, \"Queen of the Damned\".\n\nDaughter of [a1772573], sister of [a666565]. Niece of Record Executive [a348491] and (by marriage) Soul legend [a135244]. Cousin of record executive [a171166] and rapper [a803218].\nMarried to controversial R&B Singer/Producer [a14646] from 1994-1995 (annulled). At the time of passing, in a relationship with (and had reportedly planned to marry) Hip-hop mogul [a174951].\n\nUpon releasing her debut album \"[m=100995]\" in 1994, Aaliyah gained a steadily growing reputation for helping to redefine contemporary R&B, pop and hip hop, earning her the nicknames the \"Princess of R&B\" and \"Queen of Urban pop\".\nA sophomore album \"[m=101004]\" was released in 1996, and her final album, \"[m=35220]\", appeared earlier in the year of her tragic death.\n\nAaliyah unfortunately died on August 25, 2001, in Marsh Harbour, Abaco Islands, The Bahamas (Aged 22) in an Airplane crash that also claimed the lives of 8 others after filming the music video for her single \"Rock The Boat\", featured on her third album, \"Aaliyah\".\n\nAaliyah's posthumous works range from 1 Movie and 2 singles: \"Poison featuring The Weeknd\" released in 2021 and \"Gone featuring Tank\" released in 2025.\n\nAaliyah has sold an estimated 24 to 32 million albums worldwide, alongside over 8 million certified sales in the United States.",
+            "urls": [
+              "http://www.aaliyah.com",
+              "http://www.facebook.com/AaliyahHaughton",
+              "http://www.instagram.com/aaliyah",
+              "http://twitter.com/Aaliyah",
+              "http://en.wikipedia.org/wiki/Aaliyah",
+              "http://youtube.com/@aaliyahmusicvideo"
+            ],
+            "namevariations": [
+              "Aaaliyah",
+              "Aahliyah",
+              "Aailiyah",
+              "Aaleyah",
+              "Aalhyia",
+              "Aaliah",
+              "Aalijah",
+              "Aaliya",
+              "Aallayah",
+              "Aalyah",
+              "Aalyiah",
+              "Ah Lee Yah",
+              "Aliyaah",
+              "Aliyah",
+              "Aliyha",
+              "Alliya",
+              "Alliyah",
+              "Allyah",
+              "Alyah",
+              "アリーヤ",
+              "艾莉亞",
+              "艾莉雅",
+              "艾萊亞"
+            ],
+            "aliases": [
+              {
+                "id": 4994648,
+                "name": "Aaliyah Dana Haughton",
+                "resource_url": "https://api.discogs.com/artists/4994648"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        },
+        "4994648": {
+          "artist": {
+            "discogsArtistId": "4994648",
+            "name": "Aaliyah Dana Haughton",
+            "realName": "Aaliyah Dana Haughton",
+            "profile": "Born January 16, 1979 in Brooklyn, New York. Died at the age of 22 on August 25, 2001 along with eight others in a plane crash in The Bahamas after filming the music video for her single \"[m=101031]\".",
+            "artistUrls": [
+              "http://www.aaliyah.com",
+              "https://en.wikipedia.org/wiki/Aaliyah",
+              "http://twitter.com/AaliyahHaughton"
+            ],
+            "aliases": [
+              {
+                "discogsArtistId": "13733",
+                "name": "Aaliyah"
+              }
+            ],
+            "nameVariations": [
+              "A. Haughton",
+              "Aaliyah Haughton"
+            ],
+            "discogsResourceUrl": "https://api.discogs.com/artists/4994648",
+            "discogsWebUrl": "https://www.discogs.com/artist/4994648-Aaliyah-Dana-Haughton",
+            "dataQuality": "Needs Vote"
+          },
+          "raw": {
+            "name": "Aaliyah Dana Haughton",
+            "id": 4994648,
+            "resource_url": "https://api.discogs.com/artists/4994648",
+            "uri": "https://www.discogs.com/artist/4994648-Aaliyah-Dana-Haughton",
+            "releases_url": "https://api.discogs.com/artists/4994648/releases",
+            "images": [
+              {
+                "type": "primary",
+                "uri": "https://i.discogs.com/vHni6E_bo-t8qwUYnG9-rmI5w_omGp5pTchfPhfClEk/rs:fit/g:sm/q:90/h:780/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5OTQ2/NDgtMTQ2MDU2MDMz/My02MTk5LmpwZWc.jpeg",
+                "resource_url": "https://i.discogs.com/vHni6E_bo-t8qwUYnG9-rmI5w_omGp5pTchfPhfClEk/rs:fit/g:sm/q:90/h:780/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5OTQ2/NDgtMTQ2MDU2MDMz/My02MTk5LmpwZWc.jpeg",
+                "uri150": "https://i.discogs.com/dH4AYqis6j6f7KQA4jI73PNB3l191si_f9dcgNIRhzE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQ5OTQ2/NDgtMTQ2MDU2MDMz/My02MTk5LmpwZWc.jpeg",
+                "width": 600,
+                "height": 780
+              }
+            ],
+            "realname": "Aaliyah Dana Haughton",
+            "profile": "Born January 16, 1979 in Brooklyn, New York. Died at the age of 22 on August 25, 2001 along with eight others in a plane crash in The Bahamas after filming the music video for her single \"[m=101031]\".",
+            "urls": [
+              "http://www.aaliyah.com",
+              "https://en.wikipedia.org/wiki/Aaliyah",
+              "http://twitter.com/AaliyahHaughton"
+            ],
+            "namevariations": [
+              "A. Haughton",
+              "Aaliyah Haughton"
+            ],
+            "aliases": [
+              {
+                "id": 13733,
+                "name": "Aaliyah",
+                "resource_url": "https://api.discogs.com/artists/13733"
+              }
+            ],
+            "data_quality": "Needs Vote"
+          },
+          "authenticationUsed": false
+        }
+      },
+      "musicBrainzFingerprints": {
+        "bc85da58-52d9-457d-ae8d-5d8d4ec870a9": {
+          "releaseCount": 63,
+          "distinctiveTitles": [
+            "don t know what to tell ya got to give it up remix",
+            "all aaliyah vol 1 the dave cash collection",
+            "one in a million",
+            "try again",
+            "the golden hits collection",
+            "got to give it up",
+            "come over",
+            "miss you remix",
+            "we need a resolution uk garage remix",
+            "i care 4 u don t worry",
+            "heartbroken",
+            "are you feelin me",
+            "i care 4 u",
+            "journey to the past",
+            "miss you",
+            "i need you tonight",
+            "into you in a million",
+            "aaliyah",
+            "one in a million timbaland s remix",
+            "mercury presents aaliyah reloaded",
+            "the thing i like",
+            "your girl 2000 if your girl only knew",
+            "more than a woman masters at work remixes",
+            "the one i gave my heart to soul solution mixes",
+            "best of baby girl chopped screwed",
+            "one in a million the dark child remix",
+            "ultimate aaliyah",
+            "rock the boat",
+            "enough said",
+            "hits unreleased the ultimate collection",
+            "gone",
+            "back forth",
+            "all aaliyah vol 2 the dave cash collection",
+            "the definitive collection",
+            "age ain t nothing but a number",
+            "are you that somebody",
+            "if your girl only knew the new remix",
+            "lay it on me the dave cash collection",
+            "got to give it up thunderpuss remixes",
+            "come back in one piece",
+            "don t think they know",
+            "at your best you are love",
+            "the one i gave my heart to hot like fire",
+            "are you that somebody superfriendz remix",
+            "if your girl only knew",
+            "luire presents aaliyah eternal selection",
+            "one in a million remixes",
+            "don t know what to tell ya",
+            "more than a woman",
+            "i don t wanna come back in one piece",
+            "if your girl only knew one in a million",
+            "poison",
+            "we need a resolution",
+            "are you ready",
+            "try again pikachu s ruffneck mix",
+            "i refuse more than a woman",
+            "one in a million the mixtape chopped not slopped",
+            "down with the clique",
+            "4 page letter",
+            "the one i gave my heart to one in a million",
+            "rare recordings and dj remixes"
+          ],
+          "earliestYear": 1994,
+          "latestYear": 2025
+        }
+      },
+      "wikidataBridge": {
+        "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+        "wikidataQid": "Q11617",
+        "name": "Aaliyah",
+        "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+        "discogsArtistId": null,
+        "discogsArtistIds": [
+          "13733",
+          "4994648"
+        ]
+      },
+      "wikidataClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0urTpYCsixqZwgNTkPJOJ4",
+          "source": "wikidata",
+          "path": "P1902",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "wikidataQid",
+          "value": "Q11617",
+          "source": "wikidata",
+          "path": "entity",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "source": "wikidata",
+          "path": "P434",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "13733",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        },
+        {
+          "identifierType": "discogsArtistId",
+          "value": "4994648",
+          "source": "wikidata",
+          "path": "P1953",
+          "independentOrigin": "wikidata"
+        }
+      ],
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "country": "US",
+          "disambiguation": "American R&B singer",
+          "score": 100
+        },
+        {
+          "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "country singer",
+          "score": 74
+        },
+        {
+          "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": "Daughter of Bushido",
+          "score": 74
+        },
+        {
+          "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "country": "DE",
+          "disambiguation": "daughter of Schwesta Ewa",
+          "score": 74
+        },
+        {
+          "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "country": "GB",
+          "disambiguation": "of Pogo Assault",
+          "score": 74
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "bc85da58-52d9-457d-ae8d-5d8d4ec870a9",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "disambiguation": "American R&B singer",
+          "country": "US",
+          "area": {
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "sortName": "United States",
+            "type": null
+          },
+          "beginArea": {
+            "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+            "name": "Brooklyn",
+            "sortName": "Brooklyn",
+            "type": null
+          },
+          "lifeSpan": {
+            "begin": "1979-01-16",
+            "end": "2001-08-25",
+            "ended": true
+          },
+          "aliases": [
+            {
+              "name": "Aaliya",
+              "sortName": "Aaliya",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Aaliyah (Ah-lee-yah)",
+              "sortName": "Aaliyah (Ah-lee-yah)",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Aaliyah Dana Haughton",
+              "sortName": "Haughton, Aaliyah Dana",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Aalliyah",
+              "sortName": "Aalliyah",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Aallyah",
+              "sortName": "Aallyah",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Aliyah",
+              "sortName": "Aliyah",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            },
+            {
+              "name": "Alliyah",
+              "sortName": "Alliyah",
+              "type": "Search hint",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [
+            "0000000059585374"
+          ],
+          "externalUrls": [
+            {
+              "relationshipType": "allmusic",
+              "url": "https://www.allmusic.com/artist/mn0000578999"
+            },
+            {
+              "relationshipType": "bandsintown",
+              "url": "https://www.bandsintown.com/a/25901"
+            },
+            {
+              "relationshipType": "BBC Music page",
+              "url": "https://www.bbc.co.uk/music/artists/bc85da58-52d9-457d-ae8d-5d8d4ec870a9"
+            },
+            {
+              "relationshipType": "biography",
+              "url": "http://www.soulwalking.co.uk/Aaliyah.html"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/13733"
+            },
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/4994648"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/0urTpYCsixqZwgNTkPJOJ4"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/206"
+            },
+            {
+              "relationshipType": "image",
+              "url": "https://web.archive.org/web/0/https://i.scdn.co/image/ab6761610000e5ebd2493cea701d45401cc79ffd"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm0004691/"
+            },
+            {
+              "relationshipType": "last.fm",
+              "url": "https://www.last.fm/music/Aaliyah"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "http://muzikum.eu/en/122-3315/aaliyah/lyrics.html"
+            },
+            {
+              "relationshipType": "lyrics",
+              "url": "https://genius.com/artists/Aaliyah"
+            },
+            {
+              "relationshipType": "myspace",
+              "url": "https://myspace.com/aaliyah"
+            },
+            {
+              "relationshipType": "official homepage",
+              "url": "http://www.aaliyah.com/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://id.loc.gov/authorities/names/no99012418"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://musicmoz.org/Bands_and_Artists/A/Aaliyah/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://catalogue.bnf.fr/ark:/12148/cb13967222x"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://d-nb.info/gnd/124241441"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://imvdb.com/n/aaliyah"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://openlibrary.org/authors/OL6591514A/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://rateyourmusic.com/artist/aaliyah"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "https://www.whosampled.com/Aaliyah/"
+            },
+            {
+              "relationshipType": "other databases",
+              "url": "http://www.worldcat.org/identities/lccn-no99012418/"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/artist/id1636487"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://play.google.com/store/music/artist?id=Adgnxrafcvju4dxd3hrmhx26khu"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://music.apple.com/us/artist/1636487"
+            },
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://www.beatport.com/artist/aaliyah/311647"
+            },
+            {
+              "relationshipType": "purevolume",
+              "url": "http://www.purevolume.com/aaliyah"
+            },
+            {
+              "relationshipType": "secondhandsongs",
+              "url": "https://secondhandsongs.com/artist/9395"
+            },
+            {
+              "relationshipType": "setlistfm",
+              "url": "https://www.setlist.fm/setlists/aaliyah-2bd69c16.html"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://twitter.com/AaliyahHaughton"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.facebook.com/aaliyahworld"
+            },
+            {
+              "relationshipType": "social network",
+              "url": "https://www.instagram.com/aaliyah/"
+            },
+            {
+              "relationshipType": "songkick",
+              "url": "https://www.songkick.com/artists/561207"
+            },
+            {
+              "relationshipType": "soundcloud",
+              "url": "https://soundcloud.com/aaliyah-official"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/1636487"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/us/artist/1636487"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/2513"
+            },
+            {
+              "relationshipType": "VIAF",
+              "url": "http://viaf.org/viaf/35384254"
+            },
+            {
+              "relationshipType": "wikidata",
+              "url": "https://www.wikidata.org/wiki/Q11617"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCCKaQM7yEP-r0vDs1kWYEmg"
+            },
+            {
+              "relationshipType": "youtube",
+              "url": "https://www.youtube.com/channel/UCOHeswRskPYl7ZhJ-2B3abA"
+            }
+          ]
+        },
+        {
+          "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "disambiguation": "country singer",
+          "country": null,
+          "area": null,
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "purchase for download",
+              "url": "https://itunes.apple.com/us/artist/id1195239759"
+            }
+          ]
+        },
+        {
+          "musicBrainzArtistId": "f4673957-c8af-4fe8-baeb-874ef8206ef0",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "disambiguation": "Daughter of Bushido",
+          "country": null,
+          "area": null,
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [
+            {
+              "name": "Aaliyah Ferchichi",
+              "sortName": "Ferchichi, Aaliyah",
+              "type": "Legal name",
+              "locale": null,
+              "primary": false
+            }
+          ],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "discogs",
+              "url": "https://www.discogs.com/artist/10471348"
+            }
+          ]
+        },
+        {
+          "musicBrainzArtistId": "d90d8d8b-c817-4566-947e-7d371d362151",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "disambiguation": "daughter of Schwesta Ewa",
+          "country": "DE",
+          "area": {
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "sortName": "Germany",
+            "type": null
+          },
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": []
+        },
+        {
+          "musicBrainzArtistId": "2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3",
+          "name": "Aaliyah",
+          "sortName": "Aaliyah",
+          "artistType": "Person",
+          "disambiguation": "of Pogo Assault",
+          "country": "GB",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "sortName": "United Kingdom",
+            "type": null
+          },
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": []
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/discogs/artist/13733.json",
+    "provider-cache/v1/discogs/artist/4994648.json",
+    "provider-cache/v1/musicbrainz/artist/2bc9201c-79e9-4d3f-a0ea-c18f30fdaad3.json",
+    "provider-cache/v1/musicbrainz/artist/947743b8-6bfb-4be2-b26a-c2efe172377e.json",
+    "provider-cache/v1/musicbrainz/artist/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json",
+    "provider-cache/v1/musicbrainz/artist/d90d8d8b-c817-4566-947e-7d371d362151.json",
+    "provider-cache/v1/musicbrainz/artist/f4673957-c8af-4fe8-baeb-874ef8206ef0.json",
+    "provider-cache/v1/musicbrainz/exact-name/9c3c2ae516c9afc827576f2d.json",
+    "provider-cache/v1/musicbrainz/release-groups/bc85da58-52d9-457d-ae8d-5d8d4ec870a9.json",
+    "provider-cache/v1/wikidata/spotify-bridge/0urTpYCsixqZwgNTkPJOJ4.json"
+  ]
+}

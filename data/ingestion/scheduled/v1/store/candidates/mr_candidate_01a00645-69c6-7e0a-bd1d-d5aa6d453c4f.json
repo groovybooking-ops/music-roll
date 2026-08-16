@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+  "revision": 5,
+  "state": "needs_review",
+  "stateEnteredAt": "2026-08-15T16:34:40.035Z",
+  "createdAt": "2026-08-15T16:33:27.494Z",
+  "updatedAt": "2026-08-15T16:34:40.035Z",
+  "name": {
+    "raw": "Bingo Loco",
+    "normalized": "bingo loco"
+  },
+  "discoveries": [
+    {
+      "discoveryId": "sha256:c7bb5345d5a5725d96ad6cd16df9c55ac7a5494e3b2bfdc191a360132b3655f5",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll second human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A70J8z/attraction/K8vZ91798_7",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A70J8z",
+      "rawArtistName": "Bingo Loco",
+      "normalizedArtistName": "bingo loco",
+      "spotifyArtistId": null,
+      "spotifyArtistUrl": null,
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  ],
+  "candidateIdentifiers": {
+    "spotifyArtistId": null,
+    "spotifyArtistUrl": null,
+    "assertedMusicRollId": null
+  },
+  "resolvedIdentity": {
+    "outcome": "unresolved_identity",
+    "selectedSpotifyArtistId": null,
+    "wikidataQids": [],
+    "musicBrainzArtistIds": [],
+    "discogsArtistIds": [],
+    "identityConfidence": {
+      "value": null,
+      "band": "unknown",
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "evidenceRefs": [],
+    "conflicts": [],
+    "sameNameAmbiguity": null,
+    "providerMultiplicity": null,
+    "provenanceClaims": [],
+    "providerErrors": [],
+    "resolverVersion": null,
+    "resolvedAt": null
+  },
+  "editorial": {
+    "proposedGenres": [],
+    "proposedStage": null,
+    "stageConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    }
+  },
+  "geography": {
+    "geoConfidence": {
+      "value": null,
+      "methodVersion": null,
+      "evidenceRefs": []
+    },
+    "claims": []
+  },
+  "enrichment": {
+    "identity": "not_started",
+    "catalog": "not_started",
+    "stage": "not_started",
+    "geography": "not_started",
+    "momentum": "not_started",
+    "scene": "not_started"
+  },
+  "duplicate": {
+    "status": "not_duplicate",
+    "duplicateOfCandidateId": null,
+    "existingMusicRollId": null,
+    "matchedBy": [],
+    "evidenceRefs": []
+  },
+  "musicRollIdReservation": {
+    "proposedMusicRollId": null,
+    "status": "not_reserved",
+    "reservedAt": null,
+    "reservationRef": null
+  },
+  "processing": {
+    "attemptsByStep": {
+      "identityDiscovery": 1
+    },
+    "lease": null,
+    "retryAt": null,
+    "resumeState": null,
+    "lastFailure": null
+  },
+  "approval": {
+    "status": "not_approved",
+    "method": null,
+    "policyVersion": null,
+    "actor": null,
+    "approvedAt": null,
+    "decisionEvidenceRefs": []
+  },
+  "warnings": [],
+  "failureReason": null,
+  "lastEventId": "mr_candidate_event_01a00646-8523-792c-a266-5e24ae7aac4b",
+  "discoveryAssociations": [
+    {
+      "occurrenceId": "sha256:3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f/f6e14442c9a1fae1d4f0085b7012ae69420b3338a99ca1f900feb60b8c3b8791.json",
+      "provider": "ticketmaster",
+      "providerEntityKey": "ticketmaster:attraction:K8vZ91798_7"
+    }
+  ],
+  "identityDiscovery": {
+    "outcome": "completed_without_safe_exact_bridge",
+    "resultingSpotifyArtistId": null,
+    "evidenceRefs": [
+      "evidence/identity-discovery/mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f/831ee1228a7f3dae3849520f3cfab13ed44adca0ca64739e60a1e48ced9d20bb.json",
+      "provider-cache/v1/musicbrainz/exact-provider-url/f63bde7afaaa6aa156b50b6b6141a82ca1c1f7916a8748ac8289472af524309e.json"
+    ],
+    "providerErrors": [],
+    "provenanceClaims": [],
+    "resolvedAt": "2026-08-15T16:34:40.033Z",
+    "resolverVersion": "identity_discovery_resolver_v1",
+    "reviewOnly": true
+  }
+}

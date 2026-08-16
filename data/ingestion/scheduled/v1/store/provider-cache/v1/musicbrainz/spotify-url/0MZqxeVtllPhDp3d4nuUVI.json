@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "spotify-url",
+  "identifier": "0MZqxeVtllPhDp3d4nuUVI",
+  "retrievedAt": "2026-08-15T16:34:26.118Z",
+  "value": {
+    "spotifyArtistUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+    "exactUrlFound": true,
+    "candidates": [
+      {
+        "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+        "name": "Aaliyah Rose",
+        "sortName": "Rose, Aaliyah",
+        "artistType": "Person",
+        "disambiguation": null,
+        "relationshipType": "free streaming",
+        "relationshipDirection": "backward"
+      }
+    ],
+    "raw": {
+      "id": "9dc141a7-8d53-44de-8212-d944b76884c6",
+      "resource": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+      "relations": [
+        {
+          "direction": "backward",
+          "begin": null,
+          "ended": false,
+          "type": "free streaming",
+          "source-credit": "",
+          "attribute-ids": {},
+          "artist": {
+            "country": null,
+            "sort-name": "Rose, Aaliyah",
+            "id": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "disambiguation": "",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "type": "Person"
+          },
+          "target-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-type": "artist",
+          "end": null,
+          "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+        }
+      ]
+    }
+  }
+}

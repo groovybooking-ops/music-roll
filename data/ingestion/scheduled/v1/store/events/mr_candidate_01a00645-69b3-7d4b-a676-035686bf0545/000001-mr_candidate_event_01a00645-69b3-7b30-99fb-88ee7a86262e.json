@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-69b3-7b30-99fb-88ee7a86262e",
+  "candidateId": "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545",
+  "eventType": "candidate_discovered",
+  "previousState": null,
+  "nextState": "discovered",
+  "previousRevision": 0,
+  "candidateRevision": 1,
+  "reasonCode": "discovery_occurrence_created_candidate",
+  "actor": {
+    "type": "system",
+    "id": "discovery_convergence_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:27.475Z",
+  "evidenceRefs": [
+    "discovery/occurrences/spotify/cc8d5fac8c4eda2d7dac0124ff1b22df5004413fa0edbcc07fa10578e728dbed.json",
+    "discovery/provider-listing-cache/spotify/641798d33e346743ff4668afce43c4729d0bb88d6a435229994a8baefedfb950.json"
+  ],
+  "payload": {
+    "discovery": {
+      "discoveryId": "sha256:e9bfb8f00947e44f7b5c9119791d07c45bb7b0ea183d39aef913a502a4ff575d",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll second human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-aaliyah-v1:result:2:6lHL3ubAMgSasKjNqKb8HF",
+      "sourceUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+      "rawArtistName": "Mýa",
+      "normalizedArtistName": "mýa",
+      "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/6lHL3ubAMgSasKjNqKb8HF",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:33:26.599Z"
+    }
+  }
+}

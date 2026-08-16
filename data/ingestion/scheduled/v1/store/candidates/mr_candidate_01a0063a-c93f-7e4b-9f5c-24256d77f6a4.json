@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
-  "revision": 5,
+  "revision": 6,
   "state": "needs_review",
-  "stateEnteredAt": "2026-08-15T16:22:17.417Z",
+  "stateEnteredAt": "2026-08-15T16:47:52.892Z",
   "createdAt": "2026-08-15T16:21:51.039Z",
-  "updatedAt": "2026-08-15T16:22:17.417Z",
+  "updatedAt": "2026-08-15T16:47:52.892Z",
   "name": {
     "raw": "Björk",
     "normalized": "björk"
@@ -23,6 +23,19 @@
       "spotifyArtistUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
       "assertedMusicRollId": null,
       "discoveredAt": "2026-08-15T16:21:50.109Z"
+    },
+    {
+      "discoveryId": "sha256:633805d3f0b1e3ec7487db4c9a7a8f283caf1799e18a4972edf87a4e9ad3f47f",
+      "sourceType": "public_music_database",
+      "sourceName": "Music Roll third human-triggered scheduled discovery run",
+      "sourceRecordId": "scheduled-bounded-query-kate-bush-v1:result:1:7w29UYBi0qsHi5RTcv3lmA",
+      "sourceUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "rawArtistName": "Björk",
+      "normalizedArtistName": "björk",
+      "spotifyArtistId": "7w29UYBi0qsHi5RTcv3lmA",
+      "spotifyArtistUrl": "https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA",
+      "assertedMusicRollId": null,
+      "discoveredAt": "2026-08-15T16:47:52.032Z"
     }
   ],
   "candidateIdentifiers": {
@@ -304,11 +317,17 @@
   },
   "warnings": [],
   "failureReason": null,
-  "lastEventId": "mr_candidate_event_01a0063b-3049-7b3a-bdf4-59743123a587",
+  "lastEventId": "mr_candidate_event_01a00652-9e3c-7ccd-a70a-1c3418b3575a",
   "discoveryAssociations": [
     {
       "occurrenceId": "sha256:7e0a2be62e858279c00247c7008b9fa7c1c941b9b31faa070a52613f1ada5b1a",
       "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4/c23923a844e666ad1e7f17b98f36b7b017c6e34cf83bef41384133e7404dc846.json",
+      "provider": "spotify",
+      "providerEntityKey": "spotify:artist:7w29UYBi0qsHi5RTcv3lmA"
+    },
+    {
+      "occurrenceId": "sha256:fe985def59f9a06ebf2ff2c5b8a3ad55b1a9857168c8d0645babbcdb8a94657e",
+      "evidenceRef": "discovery/associations/candidates/mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4/04f84e7168ed5b32e20531b016681b16e18bdaafe365ebe988403a00b370fcc2.json",
       "provider": "spotify",
       "providerEntityKey": "spotify:artist:7w29UYBi0qsHi5RTcv3lmA"
     }

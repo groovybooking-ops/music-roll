@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "provider": "musicbrainz",
+  "operation": "artist",
+  "identifier": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+  "retrievedAt": "2026-08-15T16:33:46.421Z",
+  "value": {
+    "artist": {
+      "musicBrainzArtistId": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+      "name": "Aaliyah",
+      "sortName": "Aaliyah",
+      "artistType": "Person",
+      "disambiguation": "country singer",
+      "country": null,
+      "area": null,
+      "beginArea": null,
+      "lifeSpan": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "aliases": [],
+      "isni": [],
+      "externalUrls": [
+        {
+          "relationshipType": "purchase for download",
+          "url": "https://itunes.apple.com/us/artist/id1195239759"
+        }
+      ]
+    },
+    "raw": {
+      "disambiguation": "country singer",
+      "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "id": "947743b8-6bfb-4be2-b26a-c2efe172377e",
+      "begin-area": null,
+      "gender": "Female",
+      "sort-name": "Aaliyah",
+      "country": null,
+      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+      "relations": [
+        {
+          "begin": null,
+          "attribute-ids": {},
+          "end": null,
+          "target-type": "url",
+          "ended": false,
+          "direction": "forward",
+          "type": "purchase for download",
+          "url": {
+            "id": "5120095e-18b7-46ec-9705-c16d9f30b2cd",
+            "resource": "https://itunes.apple.com/us/artist/id1195239759"
+          },
+          "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+          "source-credit": "",
+          "attributes": [],
+          "attribute-values": {},
+          "target-credit": ""
+        }
+      ],
+      "type": "Person",
+      "aliases": [],
+      "end-area": null,
+      "area": null,
+      "isnis": [],
+      "name": "Aaliyah"
+    }
+  }
+}

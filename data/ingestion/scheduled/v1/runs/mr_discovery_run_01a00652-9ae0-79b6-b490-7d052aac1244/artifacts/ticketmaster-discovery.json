@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+  "provider": "ticketmaster",
+  "adapterId": "ticketmaster_live_bounded_discovery_v1",
+  "adapterVersion": "v1",
+  "configuration": {
+    "mode": "event_attractions",
+    "stateCode": "IL",
+    "startDateTime": "2026-08-30T00:00:00Z",
+    "endDateTime": "2026-09-05T00:00:00Z",
+    "size": 2,
+    "sourceType": "ticketmaster_event",
+    "sourceName": "Music Roll third human-triggered scheduled Ticketmaster discovery run",
+    "discoveredAt": "2026-08-15T16:47:52.032Z"
+  },
+  "configurationHash": "sha256:1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda",
+  "acquiredAt": "2026-08-15T16:47:52.825Z",
+  "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json",
+  "occurrences": [
+    {
+      "schemaVersion": 1,
+      "occurrenceId": "sha256:cd25824c0e08cfb7cbe1fe817f78918293675bd8cc8edabaa8365805771d1995",
+      "provider": "ticketmaster",
+      "sourceType": "ticketmaster_event",
+      "sourceName": "Music Roll third human-triggered scheduled Ticketmaster discovery run",
+      "sourceRecordId": "Z7r9jZ1A74fPg/attraction/K8vZ9175ndV",
+      "sourceUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A74fPg",
+      "artist": {
+        "rawName": "Ray LaMontagne",
+        "normalizedName": "ray lamontagne"
+      },
+      "providerEntity": {
+        "provider": "ticketmaster",
+        "type": "attraction",
+        "id": "K8vZ9175ndV",
+        "url": "https://www.ticketmaster.com/ray-lamontagne-tickets/artist/935501",
+        "legacyIds": [
+          "935501"
+        ]
+      },
+      "trustedIdentifiers": {
+        "spotifyArtistId": null,
+        "spotifyArtistUrl": null,
+        "assertedMusicRollId": null
+      },
+      "exactIdentityBridges": [],
+      "sourceContext": {
+        "mode": "event_attractions",
+        "eventId": "Z7r9jZ1A74fPg",
+        "eventName": "Ray LaMontagne",
+        "eventDateTime": {
+          "localDate": "2026-08-29",
+          "localTime": "19:00:00",
+          "utcDateTime": "2026-08-30T00:00:00Z"
+        },
+        "eventClassifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAv6",
+              "name": "Country"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vAad",
+              "name": "Country Folk"
+            },
+            "type": null,
+            "subType": null
+          }
+        ],
+        "eventPosition": 0,
+        "attractionPosition": 0,
+        "venue": {
+          "id": "ZFr9jZe71v",
+          "name": "Ravinia",
+          "city": "Highland Park",
+          "region": "IL",
+          "country": "US",
+          "latitude": 42.180901,
+          "longitude": -87.810097
+        },
+        "eventEvidenceRef": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json",
+        "discoveryAttractionId": "K8vZ9175ndV",
+        "legacyAttractionIds": [
+          "935501"
+        ],
+        "attractionUrl": "https://www.ticketmaster.com/ray-lamontagne-tickets/artist/935501",
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6F1",
+              "name": "Pop"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "evidenceRefs": {
+          "rawPage": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json",
+          "attraction": null,
+          "event": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json"
+        },
+        "note": "Ticketmaster classifications are source evidence only and do not set Music Roll genre or stage."
+      },
+      "rawEvidenceRef": "discovery/provider-listing-cache/ticketmaster/1c1b9875cede48c240de4ec7a38fe3e565578aeca75ec12dd31478e9611a3eda.json",
+      "discoveredAt": "2026-08-15T16:47:52.032Z",
+      "reviewOnly": true
+    }
+  ],
+  "metrics": {
+    "requestsAttempted": 1,
+    "successfulRequests": 1,
+    "cacheHits": 0,
+    "errors": 0,
+    "retries": 0,
+    "retryAfterWaits": 0,
+    "permanentAbsences": 0,
+    "authenticationFailures": 0,
+    "transientFailures": 0,
+    "candidatesSkippedLaneOpen": 0
+  },
+  "circuitBreaker": {
+    "schemaVersion": 1,
+    "provider": "ticketmaster",
+    "state": "closed",
+    "revision": 0,
+    "openedAt": null,
+    "failureCount": 0,
+    "lastFailureType": null,
+    "nextProbeAt": null,
+    "reason": null,
+    "runId": "mr_discovery_run_01a00652-9ae0-79b6-b490-7d052aac1244",
+    "createdAt": "2026-08-15T16:47:52.825Z",
+    "updatedAt": "2026-08-15T16:47:52.825Z"
+  },
+  "error": null,
+  "reviewOnly": true
+}

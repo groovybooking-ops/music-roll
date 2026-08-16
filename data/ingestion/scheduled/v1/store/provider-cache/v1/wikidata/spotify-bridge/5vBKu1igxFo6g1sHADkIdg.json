@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "provider": "wikidata",
+  "operation": "spotify-bridge",
+  "identifier": "5vBKu1igxFo6g1sHADkIdg",
+  "retrievedAt": "2026-08-15T16:48:02.065Z",
+  "value": {
+    "bridge": {
+      "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+      "wikidataQid": "Q237548",
+      "name": "Kate Nash",
+      "musicBrainzArtistId": "49018fd2-95ef-4f7e-92bb-813159909314",
+      "discogsArtistId": "798521"
+    },
+    "raw": {
+      "head": {
+        "vars": [
+          "item",
+          "itemLabel",
+          "musicBrainzArtistId",
+          "discogsArtistId"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "item": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q237548"
+            },
+            "musicBrainzArtistId": {
+              "type": "literal",
+              "value": "49018fd2-95ef-4f7e-92bb-813159909314"
+            },
+            "discogsArtistId": {
+              "type": "literal",
+              "value": "798521"
+            },
+            "itemLabel": {
+              "xml:lang": "en",
+              "type": "literal",
+              "value": "Kate Nash"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

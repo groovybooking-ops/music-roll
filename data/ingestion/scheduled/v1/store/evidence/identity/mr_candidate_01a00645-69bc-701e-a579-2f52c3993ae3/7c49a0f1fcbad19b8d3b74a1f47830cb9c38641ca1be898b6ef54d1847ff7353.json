@@ -1,0 +1,495 @@
+{
+  "evidenceId": "sha256:7c49a0f1fcbad19b8d3b74a1f47830cb9c38641ca1be898b6ef54d1847ff7353",
+  "createdAt": "2026-08-15T16:34:33.416Z",
+  "schemaVersion": 1,
+  "candidateId": "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3",
+  "evidenceType": "identity_resolution",
+  "resolverVersion": "queue_identity_resolver_v1",
+  "payload": {
+    "report": {
+      "schemaVersion": 1,
+      "reviewOnly": true,
+      "candidate": {
+        "displayName": "Aaliyah Rose",
+        "spotifyArtistId": "0MZqxeVtllPhDp3d4nuUVI"
+      },
+      "outcome": "insufficient_corroboration",
+      "exactSpotifyUrlFallback": {
+        "status": "unique_exact_url_relationship",
+        "selectedMbid": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+        "candidates": [
+          {
+            "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "sortName": "Rose, Aaliyah",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ]
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0MZqxeVtllPhDp3d4nuUVI",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "source": "musicbrainz",
+          "path": "artist.id",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        },
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "0MZqxeVtllPhDp3d4nuUVI",
+          "source": "musicbrainz",
+          "path": "artist.url-rels:free streaming",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        },
+        {
+          "identifierType": "musicBrainzArtistId",
+          "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "source": "musicbrainz",
+          "path": "url.exact_spotify_artist_relationship",
+          "independentOrigin": "musicbrainz",
+          "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+        }
+      ],
+      "identifierAgreement": {
+        "spotifyArtistId": {
+          "status": "agreement",
+          "agreedValue": "0MZqxeVtllPhDp3d4nuUVI",
+          "observedValues": [
+            "0MZqxeVtllPhDp3d4nuUVI"
+          ],
+          "claims": [
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0MZqxeVtllPhDp3d4nuUVI",
+              "source": "music_roll_input",
+              "path": "stored_spotify_candidate",
+              "independentOrigin": "music_roll"
+            },
+            {
+              "identifierType": "spotifyArtistId",
+              "value": "0MZqxeVtllPhDp3d4nuUVI",
+              "source": "musicbrainz",
+              "path": "artist.url-rels:free streaming",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+            }
+          ],
+          "independentSourceCount": 2,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "wikidataQid": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "musicBrainzArtistId": {
+          "status": "agreement",
+          "agreedValue": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "observedValues": [
+            "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+          ],
+          "claims": [
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+              "source": "musicbrainz",
+              "path": "artist.id",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+            },
+            {
+              "identifierType": "musicBrainzArtistId",
+              "value": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+              "source": "musicbrainz",
+              "path": "url.exact_spotify_artist_relationship",
+              "independentOrigin": "musicbrainz",
+              "assertedByIdentifier": "866d1f47-445b-4d8a-94f5-84bd62217ef6"
+            }
+          ],
+          "independentSourceCount": 1,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        },
+        "discogsArtistId": {
+          "status": "not_observed",
+          "agreedValue": null,
+          "observedValues": [],
+          "claims": [],
+          "independentSourceCount": 0,
+          "provenanceNote": "Repeated links are claims from their listed source, not new independent confirmations of the linked database record."
+        }
+      },
+      "conflictingIdentifiers": [],
+      "sameNameAmbiguity": {
+        "exactDisplayNameEntityCount": 1,
+        "selectedEntityPresent": true,
+        "sameNameAmbiguity": "none_observed",
+        "competingEntityCount": 0,
+        "competingEntities": [],
+        "allExactNameEntities": [
+          {
+            "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "sortName": "Rose, Aaliyah",
+            "artistType": "Person",
+            "country": null,
+            "disambiguation": null,
+            "score": 100,
+            "selectedExactEntity": true,
+            "spotifyArtistIds": [
+              "0MZqxeVtllPhDp3d4nuUVI"
+            ],
+            "discogsArtistIds": []
+          }
+        ],
+        "interpretation": "Same-name entities are an ambiguity warning separate from exact-ID cross-link agreement. Matching names do not prove identity."
+      },
+      "conflictResolution": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "provider_error_present",
+            "no_positive_catalog_anchor",
+            "wikidata_identifier_not_unique"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "discogsOptionalCoherence": {
+        "qualifies": false,
+        "absenceRemainsMissingEvidence": true,
+        "sameNameSpotifyConflicts": [],
+        "providerEvidenceComplete": false,
+        "automaticApprovalAllowed": false
+      },
+      "missingEvidence": [
+        "wikidata_qid",
+        "discogs_artist_id"
+      ],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "0MZqxeVtllPhDp3d4nuUVI",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 0MZqxeVtllPhDp3d4nuUVI."
+        }
+      ],
+      "safety": {
+        "identityVerified": false,
+        "identityApproved": false,
+        "confidenceScoreCalculated": false,
+        "migrationEligibilityChanged": false,
+        "migrationPerformed": false,
+        "registryModified": false,
+        "liveDirectoryModified": false
+      }
+    },
+    "acquisition": {
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "0MZqxeVtllPhDp3d4nuUVI",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 0MZqxeVtllPhDp3d4nuUVI."
+        }
+      ],
+      "musicBrainzRecords": {
+        "866d1f47-445b-4d8a-94f5-84bd62217ef6": {
+          "artist": {
+            "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "sortName": "Rose, Aaliyah",
+            "artistType": "Person",
+            "disambiguation": null,
+            "country": null,
+            "area": null,
+            "beginArea": null,
+            "lifeSpan": {
+              "begin": null,
+              "end": null,
+              "ended": false
+            },
+            "aliases": [],
+            "isni": [],
+            "externalUrls": [
+              {
+                "relationshipType": "free streaming",
+                "url": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI"
+              },
+              {
+                "relationshipType": "free streaming",
+                "url": "https://www.deezer.com/artist/5292016"
+              },
+              {
+                "relationshipType": "IMDb",
+                "url": "https://www.imdb.com/name/nm5756622/"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://music.apple.com/gb/artist/692789433"
+              },
+              {
+                "relationshipType": "streaming",
+                "url": "https://tidal.com/artist/5168145"
+              }
+            ]
+          },
+          "raw": {
+            "aliases": [],
+            "isnis": [],
+            "name": "Aaliyah Rose",
+            "sort-name": "Rose, Aaliyah",
+            "begin-area": null,
+            "disambiguation": "",
+            "type": "Person",
+            "ipis": [],
+            "gender": "Female",
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "country": null,
+            "area": null,
+            "id": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "end-area": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "relations": [
+              {
+                "attributes": [],
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "source-credit": "",
+                "begin": null,
+                "url": {
+                  "resource": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+                  "id": "9dc141a7-8d53-44de-8212-d944b76884c6"
+                },
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "attribute-ids": {},
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "type": "free streaming"
+              },
+              {
+                "attribute-ids": {},
+                "type": "free streaming",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                "url": {
+                  "id": "d18eff28-e3bf-4b20-8268-ca7b2f5ecf5f",
+                  "resource": "https://www.deezer.com/artist/5292016"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "attribute-ids": {},
+                "type": "IMDb",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "target-type": "url",
+                "end": null,
+                "direction": "forward",
+                "attributes": [],
+                "url": {
+                  "id": "86d56ae2-0149-430b-bd7a-ed3ac5ea63fc",
+                  "resource": "https://www.imdb.com/name/nm5756622/"
+                },
+                "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                "source-credit": "",
+                "begin": null
+              },
+              {
+                "attribute-ids": {},
+                "type": "streaming",
+                "ended": false,
+                "attribute-values": {},
+                "target-credit": "",
+                "direction": "forward",
+                "end": null,
+                "target-type": "url",
+                "attributes": [],
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "url": {
+                  "resource": "https://music.apple.com/gb/artist/692789433",
+                  "id": "b86765b7-eead-489e-b74e-ad2db106958b"
+                },
+                "begin": null,
+                "source-credit": ""
+              },
+              {
+                "url": {
+                  "resource": "https://tidal.com/artist/5168145",
+                  "id": "8bbc9c62-fe54-46d4-b29e-9db9d448785b"
+                },
+                "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                "source-credit": "",
+                "begin": null,
+                "end": null,
+                "target-type": "url",
+                "direction": "forward",
+                "attributes": [],
+                "type": "streaming",
+                "attribute-values": {},
+                "ended": false,
+                "target-credit": "",
+                "attribute-ids": {}
+              }
+            ],
+            "life-span": {
+              "begin": null,
+              "ended": false,
+              "end": null
+            }
+          }
+        }
+      },
+      "discogsRecords": {},
+      "musicBrainzFingerprints": {},
+      "wikidataClaims": [],
+      "exactSpotifyUrlLookup": {
+        "spotifyArtistUrl": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+        "exactUrlFound": true,
+        "candidates": [
+          {
+            "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+            "name": "Aaliyah Rose",
+            "sortName": "Rose, Aaliyah",
+            "artistType": "Person",
+            "disambiguation": null,
+            "relationshipType": "free streaming",
+            "relationshipDirection": "backward"
+          }
+        ],
+        "raw": {
+          "id": "9dc141a7-8d53-44de-8212-d944b76884c6",
+          "resource": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI",
+          "relations": [
+            {
+              "direction": "backward",
+              "begin": null,
+              "ended": false,
+              "type": "free streaming",
+              "source-credit": "",
+              "attribute-ids": {},
+              "artist": {
+                "country": null,
+                "sort-name": "Rose, Aaliyah",
+                "id": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+                "name": "Aaliyah Rose",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "type": "Person"
+              },
+              "target-credit": "",
+              "attributes": [],
+              "attribute-values": {},
+              "target-type": "artist",
+              "end": null,
+              "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd"
+            }
+          ]
+        }
+      },
+      "nameCandidates": [
+        {
+          "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "name": "Aaliyah Rose",
+          "sortName": "Rose, Aaliyah",
+          "artistType": "Person",
+          "country": null,
+          "disambiguation": null,
+          "score": 100
+        }
+      ],
+      "nameCandidateDetails": [
+        {
+          "musicBrainzArtistId": "866d1f47-445b-4d8a-94f5-84bd62217ef6",
+          "name": "Aaliyah Rose",
+          "sortName": "Rose, Aaliyah",
+          "artistType": "Person",
+          "disambiguation": null,
+          "country": null,
+          "area": null,
+          "beginArea": null,
+          "lifeSpan": {
+            "begin": null,
+            "end": null,
+            "ended": false
+          },
+          "aliases": [],
+          "isni": [],
+          "externalUrls": [
+            {
+              "relationshipType": "free streaming",
+              "url": "https://open.spotify.com/artist/0MZqxeVtllPhDp3d4nuUVI"
+            },
+            {
+              "relationshipType": "free streaming",
+              "url": "https://www.deezer.com/artist/5292016"
+            },
+            {
+              "relationshipType": "IMDb",
+              "url": "https://www.imdb.com/name/nm5756622/"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://music.apple.com/gb/artist/692789433"
+            },
+            {
+              "relationshipType": "streaming",
+              "url": "https://tidal.com/artist/5168145"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provenanceRefs": [
+    "provider-cache/v1/musicbrainz/artist/866d1f47-445b-4d8a-94f5-84bd62217ef6.json",
+    "provider-cache/v1/musicbrainz/exact-name/1990deefcd73d516a4e89d56.json",
+    "provider-cache/v1/musicbrainz/spotify-url/0MZqxeVtllPhDp3d4nuUVI.json",
+    "provider-cache/v1/wikidata/spotify-bridge/0MZqxeVtllPhDp3d4nuUVI.json"
+  ]
+}

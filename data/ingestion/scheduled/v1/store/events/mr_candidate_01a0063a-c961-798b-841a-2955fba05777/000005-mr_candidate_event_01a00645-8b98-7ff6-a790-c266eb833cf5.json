@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "eventId": "mr_candidate_event_01a00645-8b98-7ff6-a790-c266eb833cf5",
+  "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
+  "eventType": "state_transition",
+  "previousState": "identity_resolving",
+  "nextState": "failed_match",
+  "previousRevision": 4,
+  "candidateRevision": 5,
+  "reasonCode": "no_safe_exact_identity_resolved",
+  "actor": {
+    "type": "worker",
+    "id": "identity_worker_v1"
+  },
+  "occurredAt": "2026-08-15T16:33:36.152Z",
+  "evidenceRefs": [
+    "evidence/identity/mr_candidate_01a0063a-c961-798b-841a-2955fba05777/c220257381be0dfa5e7783d64d1c1682228934ac1916d74def334ea80200d9fc.json",
+    "provider-cache/v1/wikidata/spotify-bridge/4C0SwV2WJqRW290Xz2HIfV.json",
+    "provider-cache/v1/musicbrainz/spotify-url/4C0SwV2WJqRW290Xz2HIfV.json"
+  ],
+  "payload": {
+    "resolvedIdentity": {
+      "outcome": "unresolved_identity",
+      "selectedSpotifyArtistId": null,
+      "wikidataQids": [],
+      "musicBrainzArtistIds": [],
+      "discogsArtistIds": [],
+      "identityConfidence": {
+        "value": null,
+        "band": "unknown",
+        "methodVersion": null,
+        "evidenceRefs": []
+      },
+      "evidenceRefs": [
+        "evidence/identity/mr_candidate_01a0063a-c961-798b-841a-2955fba05777/c220257381be0dfa5e7783d64d1c1682228934ac1916d74def334ea80200d9fc.json",
+        "provider-cache/v1/wikidata/spotify-bridge/4C0SwV2WJqRW290Xz2HIfV.json",
+        "provider-cache/v1/musicbrainz/spotify-url/4C0SwV2WJqRW290Xz2HIfV.json"
+      ],
+      "conflicts": [],
+      "sameNameAmbiguity": {
+        "sameNameAmbiguity": "not_evaluated",
+        "competingEntities": []
+      },
+      "providerMultiplicity": {
+        "interpretation": {
+          "conflictType": "unresolved_multiplicity",
+          "mechanicallyResolvable": false,
+          "signals": {
+            "semanticContradictions": [],
+            "redirectedIdentifiers": [],
+            "deprecatedIdentifiers": [],
+            "providerMultiplicityEvidence": [],
+            "unresolvedIdentifiers": []
+          }
+        },
+        "fingerprintComparisons": [],
+        "hasPositiveCatalogAnchor": false,
+        "qualifiesAsProviderMultiplicity": false,
+        "automaticVerificationAllowed": false,
+        "migrationApprovalGranted": false,
+        "mechanicalClosure": {
+          "mechanicallyClosed": false,
+          "reasons": [
+            "not_provider_profile_multiplicity",
+            "provider_error_present",
+            "stored_spotify_not_confirmed_by_musicbrainz",
+            "no_positive_catalog_anchor",
+            "same_name_ambiguity_present_or_not_evaluated",
+            "wikidata_identifier_not_unique",
+            "musicbrainz_identifier_not_unique"
+          ],
+          "explainedAlternates": [],
+          "automaticApprovalAllowed": false,
+          "migrationApprovalGranted": false
+        }
+      },
+      "provenanceClaims": [
+        {
+          "identifierType": "spotifyArtistId",
+          "value": "4C0SwV2WJqRW290Xz2HIfV",
+          "source": "music_roll_input",
+          "path": "stored_spotify_candidate",
+          "independentOrigin": "music_roll"
+        }
+      ],
+      "providerErrors": [
+        {
+          "provider": "wikidata",
+          "operation": "spotify_bridge",
+          "identifier": "4C0SwV2WJqRW290Xz2HIfV",
+          "statusCode": 404,
+          "message": "Wikidata has no artist bridge for Spotify ID 4C0SwV2WJqRW290Xz2HIfV."
+        }
+      ],
+      "resolverVersion": "queue_identity_resolver_v1",
+      "resolvedAt": "2026-08-15T16:33:36.150Z"
+    },
+    "processing": {
+      "lease": null,
+      "retryAt": null,
+      "resumeState": null,
+      "lastFailure": null
+    },
+    "enrichment": {
+      "identity": "failed_match"
+    }
+  }
+}

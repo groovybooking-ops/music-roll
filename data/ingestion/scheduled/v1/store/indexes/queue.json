@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T16:22:21.926Z",
+  "generatedAt": "2026-08-15T16:48:05.402Z",
   "rebuildable": true,
-  "candidateCount": 5,
+  "candidateCount": 14,
   "countsByState": {
-    "failed_match": 1,
-    "identity_coherent": 1,
-    "identity_pending": 1,
-    "needs_review": 2
+    "failed_match": 2,
+    "identity_coherent": 5,
+    "needs_review": 7
   },
   "candidates": [
     {
       "candidateId": "mr_candidate_01a0063a-c93f-7e4b-9f5c-24256d77f6a4",
-      "revision": 5,
+      "revision": 6,
       "state": "needs_review",
       "rawArtistName": "Björk",
       "normalizedArtistName": "björk",
       "spotifyArtistId": "7w29UYBi0qsHi5RTcv3lmA",
       "existingMusicRollId": null,
-      "updatedAt": "2026-08-15T16:22:17.417Z"
+      "updatedAt": "2026-08-15T16:47:52.892Z"
     },
     {
       "candidateId": "mr_candidate_01a0063a-c94b-7b4f-9a70-48a1ea555016",
@@ -42,13 +41,13 @@
     },
     {
       "candidateId": "mr_candidate_01a0063a-c961-798b-841a-2955fba05777",
-      "revision": 3,
-      "state": "identity_pending",
+      "revision": 5,
+      "state": "failed_match",
       "rawArtistName": "Andreas Björkstrand",
       "normalizedArtistName": "andreas björkstrand",
       "spotifyArtistId": "4C0SwV2WJqRW290Xz2HIfV",
       "existingMusicRollId": null,
-      "updatedAt": "2026-08-15T16:21:51.075Z"
+      "updatedAt": "2026-08-15T16:33:36.152Z"
     },
     {
       "candidateId": "mr_candidate_01a0063a-c967-78ce-987b-e848aa4676b0",
@@ -59,6 +58,96 @@
       "spotifyArtistId": null,
       "existingMusicRollId": null,
       "updatedAt": "2026-08-15T16:22:21.923Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+      "revision": 5,
+      "state": "needs_review",
+      "rawArtistName": "Aaliyah",
+      "normalizedArtistName": "aaliyah",
+      "spotifyArtistId": "0urTpYCsixqZwgNTkPJOJ4",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:33:54.501Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb",
+      "revision": 5,
+      "state": "identity_coherent",
+      "rawArtistName": "Aliyah's Interlude",
+      "normalizedArtistName": "aliyah's interlude",
+      "spotifyArtistId": "7maQENQfaF8xDdEJp4i545",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:33:57.449Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545",
+      "revision": 5,
+      "state": "identity_coherent",
+      "rawArtistName": "Mýa",
+      "normalizedArtistName": "mýa",
+      "spotifyArtistId": "6lHL3ubAMgSasKjNqKb8HF",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:34:12.052Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3",
+      "revision": 5,
+      "state": "needs_review",
+      "rawArtistName": "Aaliyah Rose",
+      "normalizedArtistName": "aaliyah rose",
+      "spotifyArtistId": "0MZqxeVtllPhDp3d4nuUVI",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:34:33.419Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+      "revision": 5,
+      "state": "needs_review",
+      "rawArtistName": "Bingo Loco",
+      "normalizedArtistName": "bingo loco",
+      "spotifyArtistId": null,
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:34:40.035Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00652-9e1e-7644-962d-5c216d19407d",
+      "revision": 5,
+      "state": "needs_review",
+      "rawArtistName": "Kate Bush",
+      "normalizedArtistName": "kate bush",
+      "spotifyArtistId": "1aSxMhuvixZ8h9dK9jIDwL",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:47:59.793Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00652-9e47-799e-9521-277a1341b016",
+      "revision": 5,
+      "state": "identity_coherent",
+      "rawArtistName": "Pat Benatar",
+      "normalizedArtistName": "pat benatar",
+      "spotifyArtistId": "43mhFhQ4JAknA7Ik1bOZuV",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:48:01.944Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00652-9e55-7923-b786-ef59c8cdbae6",
+      "revision": 5,
+      "state": "identity_coherent",
+      "rawArtistName": "Kate Nash",
+      "normalizedArtistName": "kate nash",
+      "spotifyArtistId": "5vBKu1igxFo6g1sHADkIdg",
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:48:04.127Z"
+    },
+    {
+      "candidateId": "mr_candidate_01a00652-9e64-7dc4-9249-3c91cda4c1b3",
+      "revision": 5,
+      "state": "needs_review",
+      "rawArtistName": "Ray LaMontagne",
+      "normalizedArtistName": "ray lamontagne",
+      "spotifyArtistId": null,
+      "existingMusicRollId": null,
+      "updatedAt": "2026-08-15T16:48:05.397Z"
     }
   ]
 }

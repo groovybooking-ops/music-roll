@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "runId": "mr_discovery_run_01a00645-6647-77ea-b653-85325a439b86",
+  "createdAt": "2026-08-15T16:33:27.501Z",
+  "queueBefore": {
+    "total": 5,
+    "byState": {
+      "failed_match": 1,
+      "identity_coherent": 1,
+      "identity_pending": 1,
+      "needs_review": 2
+    }
+  },
+  "queueAfter": {
+    "total": 10,
+    "byState": {
+      "failed_match": 1,
+      "identity_coherent": 1,
+      "identity_discovery_pending": 1,
+      "identity_pending": 5,
+      "needs_review": 2
+    }
+  },
+  "queueGrowth": 5,
+  "createdByProvider": {
+    "spotify": 4,
+    "ticketmaster": 1
+  },
+  "results": [
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:e004acea7c4329018611274fcfc5601b52831b4d948b3d1119672fd7ff0841a2",
+      "artistName": "Aaliyah",
+      "providerEntityId": "0urTpYCsixqZwgNTkPJOJ4",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00645-6994-74a1-8dc8-7e46e92e6a61",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:6a256c844e330a4d8e952cd0bb9fed72ab0775669cb4cdbc5d218d5d9825cc32",
+      "artistName": "Aliyah's Interlude",
+      "providerEntityId": "7maQENQfaF8xDdEJp4i545",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00645-69a8-74a2-9665-cb852aa083fb",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:cc8d5fac8c4eda2d7dac0124ff1b22df5004413fa0edbcc07fa10578e728dbed",
+      "artistName": "Mýa",
+      "providerEntityId": "6lHL3ubAMgSasKjNqKb8HF",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00645-69b3-7d4b-a676-035686bf0545",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "spotify",
+      "occurrenceId": "sha256:8b5fd78a1c148dc719dbcda8db78f5c658729bbc55db7fb8d2e9d4c03a25cee4",
+      "artistName": "Aaliyah Rose",
+      "providerEntityId": "0MZqxeVtllPhDp3d4nuUVI",
+      "action": "create_new_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00645-69bc-701e-a579-2f52c3993ae3",
+      "lifecycleState": "identity_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    },
+    {
+      "provider": "ticketmaster",
+      "occurrenceId": "sha256:3dc1c97fc981fedf321e7b92515bac0469f268426e40e190cf6bba4b15b4fdac",
+      "artistName": "Bingo Loco",
+      "providerEntityId": "K8vZ91798_7",
+      "action": "create_identity_discovery_candidate",
+      "targetType": "candidate",
+      "targetId": "mr_candidate_01a00645-69c6-7e0a-bd1d-d5aa6d453c4f",
+      "lifecycleState": "identity_discovery_pending",
+      "occurrenceCreated": true,
+      "createdCandidate": true
+    }
+  ],
+  "reviewOnly": true
+}
